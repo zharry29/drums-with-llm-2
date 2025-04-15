@@ -1,0 +1,37 @@
+{
+    "requests": [
+        {
+            "request": "Add some Toms to the groove.",
+            "type": "specific",
+            "unit_test_name": "have_inst",
+            "unit_test_args": [
+                "T"
+            ]
+        },
+        {
+            "request": "I don't want any Kick and Snare.",
+            "type": "specific",
+            "unit_test_name": "no_inst",
+            "unit_test_args": [
+                "K", "S"
+            ]
+        },
+        {
+            "request": "I'd like a Cymbal hit on the first note.",
+            "type": "specific",
+            "unit_test_name": "have_inst_on_note",
+            "unit_test_args": [
+                ["T", 0]
+            ]
+        },
+        {
+            "request": "Let's avoid having the Snare on the downbeat of 2 and 4.",
+            "type": "specific",
+            "unit_test_name": "no_inst_on_note",
+            "unit_test_args": [
+                ["S", 4],
+                ["S", 8]
+            ]
+        }
+    ]
+}

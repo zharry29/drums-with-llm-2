@@ -1,0 +1,25 @@
+You will compose some drum beats for a song. First, let's learn about a drum notation. A bar of drum beats may look like this:
+K: O---|----|O---|----
+S: ----|S--o|----|O---
+H: x---|x---|x---|x---
+T: ----|----|-O--|---o
+C: O---|----|----|----
+Each line corresponds to an instrument on a drum set:
+K: Jick drum
+S: Snare drum
+H: Hihat
+T: Toms
+C: Cymbals
+Each character in a line represents a 16-th note. Each four characters separated by | constitute a beat. Note that there are 16 characters, not counting the |, because there are 16 16-th notes in a bar which constitute 4 beats. Each character is - if the instrument is not played on that note. When played, the character denotes the articulation which varies by instruments.
+- For all instruments, O is a hard open hit, while o is a soft open hit. These two are the only articulations for Kick, Toms, and Cymbals.
+- For Snare drum only, there are additionally S and s, which are hard and soft sidestick hits.
+- For Hihat only, there are additionally X and x, which are hard and soft closed hits.
+
+Additionally, here are a list of rules and conventions of drumming:
+- Only two of Snare, Hihat, Toms, and Cymbals can be played at once (because a drummer only have two hands)
+- Kick is usually only played with hard hits. Typically, it is not played with the Snare.
+- Snare is sually played with hard open or sidestick hits on the backbeat. For most music styles, the backbeats are the first 16-th note on beat 2 and beat 4.
+- HiHat is usually played regularly, but not necessarily so.
+- Cymbals are usually played in conjuction with the Kick, but not with the HiHat. 
+
+To test your understanding, compose any reasonable bar of drum beat in the above notation.
