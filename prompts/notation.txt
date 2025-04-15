@@ -1,15 +1,19 @@
 You will compose some drum beats for a song. First, let's learn about a drum notation. A bar of drum beats may look like this:
+@@@
 K: O---|----|O---|----
 S: ----|S--o|----|O---
 H: x---|x---|x---|x---
 T: ----|----|-O--|---o
 C: O---|----|----|----
+R: O---|----|----|----
+@@@
 Each line corresponds to an instrument on a drum set:
-K: Jick drum
+K: Kick drum
 S: Snare drum
 H: Hihat
 T: Toms
-C: Cymbals
+C: Crash cymbal
+R: Ride cymbal
 Each character in a line represents a 16-th note. Each four characters separated by | constitute a beat. Note that there are 16 characters, not counting the |, because there are 16 16-th notes in a bar which constitute 4 beats. Each character is - if the instrument is not played on that note. When played, the character denotes the articulation which varies by instruments.
 - For all instruments, O is a hard open hit, while o is a soft open hit. These two are the only articulations for Kick, Toms, and Cymbals.
 - For Snare drum only, there are additionally S and s, which are hard and soft sidestick hits.
@@ -20,6 +24,6 @@ Additionally, here are a list of rules and conventions of drumming:
 - Kick is usually only played with hard hits. Typically, it is not played with the Snare.
 - Snare is sually played with hard open or sidestick hits on the backbeat. For most music styles, the backbeats are the first 16-th note on beat 2 and beat 4.
 - HiHat is usually played regularly, but not necessarily so.
-- Cymbals are usually played in conjuction with the Kick, but not with the HiHat. 
+- Crash Cymbals are usually played in conjuction with the Kick, but not with the HiHat. 
 
-To test your understanding, compose any reasonable bar of drum beat in the above notation.
+To test your understanding, compose any reasonable bar of drum beat in the above notation. You should always put the notation between @@@ as the example above.

@@ -13,15 +13,18 @@
             "type": "specific",
             "unit_test_name": "no_inst",
             "unit_test_args": [
-                "K", "S"
+                ["K", "S"]
             ]
         },
         {
-            "request": "I'd like a Cymbal hit on the first note.",
+            "request": "I'd like a Cymbal hit and a Kick on the first note.",
             "type": "specific",
             "unit_test_name": "have_inst_on_note",
             "unit_test_args": [
-                ["T", 0]
+                [
+                    ["C", 0],
+                    ["K", 0]
+                ]
             ]
         },
         {
@@ -29,8 +32,10 @@
             "type": "specific",
             "unit_test_name": "no_inst_on_note",
             "unit_test_args": [
-                ["S", 4],
-                ["S", 8]
+                [
+                    ["S", 4],
+                    ["S", 8]
+                ]
             ]
         }
     ]

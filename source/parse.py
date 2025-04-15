@@ -1,3 +1,15 @@
+def parse_response(text):
+    """
+    Extracts and returns the string between the first pair of @@@ markers.
+    """
+    start = text.find('@@@')
+    if start == -1:
+        return ""
+    end = text.find('@@@', start + 3)
+    if end == -1:
+        return ""
+    return text[start + 3:end].strip()
+
 def parse_drum_notation(text):
     result = {}
     for line in text.strip().splitlines():
@@ -18,6 +30,7 @@ if __name__ == "__main__":
     H: x---|x---|x---|x---
     T: ----|----|-O--|---o
     C: O---|----|----|----
+    R: ----|----|----|----
     """
     parsed = parse_drum_notation(notation)
     print(parsed)
