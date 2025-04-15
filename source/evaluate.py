@@ -5,6 +5,8 @@ client = OpenAI(api_key = key)
 import json
 from parse import parse_drum_notation, parse_response
 from unit_tests import *
+from notation_to_midi import notation_to_midi
+from midi_to_audio import midi_to_audio
 
 with open("../prompts/notation.txt") as f:
     notation = f.read()
@@ -13,7 +15,7 @@ with open("../prompts/requests.json") as f:
     data = json.load(f)
     requests = data["requests"]
 
-example_first_response = "Certainly! Based on your instructions and the rules provided, here’s a reasonable one-bar drum beat using the notation style you described:\n\n@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \n@@@\n\n**Explanation:**  \n- Kick (K) is played on the first 16th note of beat 1 and 3.\n- Snare (S) is played on the first 16th note of beats 2 and 4 (typical backbeat).\n- HiHat (H) is played every first 16th note of each beat (steady).\n- No Toms or Cymbals, leaving hands free for Snare and HiHat and obeying all rules."
+example_first_response = "Certainly! Based on your instructions and the rules provided, here’s a reasonable one-bar drum beat using the notation style you described:\n\n@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----  \n@@@\n\n**Explanation:**  \n- Kick (K) is played on the first 16th note of beat 1 and 3.\n- Snare (S) is played on the first 16th note of beats 2 and 4 (typical backbeat).\n- HiHat (H) is played every first 16th note of each beat (steady).\n- No Toms or Cymbals, leaving hands free for Snare and HiHat and obeying all rules."
 
 def run_unit_test(drum_dict, unit_test_name, unit_test_args):
     # Get the function from the unit_tests module by name
@@ -21,7 +23,12 @@ def run_unit_test(drum_dict, unit_test_name, unit_test_args):
     # Call the function with drum_dict as the first argument, then unpack the rest
     return unit_test_func(drum_dict, *unit_test_args)
 
-for request_block in requests:
+#ids = requests.keys()
+ids = [5]
+
+for id in ids:
+    id = str(id)
+    request_block = requests[id]
     request = request_block["request"]
     unit_test_name = request_block["unit_test_name"]
     unit_test_args = request_block["unit_test_args"]
@@ -73,12 +80,22 @@ for request_block in requests:
     )
     response_txt = response.output[0].content[0].text
     drum_notation = parse_response(response_txt)
+    # Print
     print("Response:\n" + drum_notation)
+    # Unit Test
     drum_dict = parse_drum_notation(drum_notation)
-    unit_test_result = run_unit_test(drum_dict, unit_test_name, unit_test_args)
-    if unit_test_result:
-        print("Unit test passed.")
+    if unit_test_name:
+        print("\nRunning unit test: ", unit_test_name)
+        unit_test_result = run_unit_test(drum_dict, unit_test_name, unit_test_args)
+        if unit_test_result:
+            print("Unit test passed.")
+        else:
+            print("Unit test failed.")
     else:
-        print("Unit test failed.")
+        print("No unit test provided.")
+    # Convert to MIDI
+    notation_to_midi(drum_notation)
+    # Convert to audio
+    midi_to_audio()
     
     print("\n")

@@ -1,6 +1,6 @@
 {
-    "requests": [
-        {
+    "requests": {
+        "0": {
             "request": "Add some Toms to the groove.",
             "type": "specific",
             "unit_test_name": "have_inst",
@@ -8,7 +8,7 @@
                 "T"
             ]
         },
-        {
+        "1": {
             "request": "I don't want any Kick and Snare.",
             "type": "specific",
             "unit_test_name": "no_inst",
@@ -16,7 +16,7 @@
                 ["K", "S"]
             ]
         },
-        {
+        "2": {
             "request": "I'd like a Cymbal hit and a Kick on the first note.",
             "type": "specific",
             "unit_test_name": "have_inst_on_note",
@@ -27,7 +27,7 @@
                 ]
             ]
         },
-        {
+        "3": {
             "request": "Let's avoid having the Snare on the downbeat of 2 and 4.",
             "type": "specific",
             "unit_test_name": "no_inst_on_note",
@@ -37,6 +37,18 @@
                     ["S", 8]
                 ]
             ]
+        },
+        "4": {
+            "request": "This beat is too basic.",
+            "type": "descriptive",
+            "unit_test_name": "",
+            "unit_test_args": []
+        },
+        "5": {
+            "request": "I want it to be more dyhamic.",
+            "type": "descriptive",
+            "unit_test_name": "",
+            "unit_test_args": []
         }
-    ]
+    }
 }

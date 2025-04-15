@@ -1,33 +1,44 @@
 import pretty_midi
 
-# Drum map: (name, midi_pitch)
-drums = {
-    'K',
-    'S',
-    'H',
-    'T',
-    'C',
-    'R'
+example_notation = {
+    "K: O--O|---o|O--O|----",
+    "S: ----|S---|----|O---",
+    "H: -x--|-x--|----|x-xO",
+    "T: ----|----|-OO-|----",
+    "C: ----|----|----|---",
+    "R: --X-|--X-|----|---",
 }
 
-# The pattern lines; remove whitespace and '|' for easy indexing
-pattern = {
-    'K': "O--O|---o|O--O|----".replace('|', ''),
-    'S': "----|S---|----|O---".replace('|', ''),
-    'H': "-x--|-x--|----|x-xO".replace('|', ''),
-    'T': "----|----|-OO-|----".replace('|', ''),
-    'C': "----|----|----|---".replace('|', ''),
-    'R': "--X-|--X-|----|---".replace('|', ''),
-}
+def notation_to_midi(notation, bpm=120, fname="temp"):
+    # Drum map: (name, midi_pitch)
+    drums = {
+        'K',
+        'S',
+        'H',
+        'T',
+        'C',
+        'R'
+    }
+    
+    def parse_pattern(notation):
+        pattern = {}
+        for line in notation.split('\n'):
+            if ':' in line:
+                key = line.split(': ')[0]
+                value = line.split(': ')[1].strip().replace('|', '')
+                pattern[key] = value
+        return pattern
 
-steps_per_bar = len(pattern['K'])  # 16 steps
-bpm = 120
-beats_per_bar = 4
-steps_per_beat = steps_per_bar // beats_per_bar  # 4 steps per beat = 16th notes
-seconds_per_beat = 60.0 / bpm
-step_length = seconds_per_beat / steps_per_beat  # In seconds
+    pattern = parse_pattern(notation)
+    print(pattern)
 
-def notation_to_midi(pattern, bpm=120):
+    steps_per_bar = len(pattern['K'])  # 16 steps
+    bpm = 120
+    beats_per_bar = 4
+    steps_per_beat = steps_per_bar // beats_per_bar  # 4 steps per beat = 16th notes
+    seconds_per_beat = 60.0 / bpm
+    step_length = seconds_per_beat / steps_per_beat  # In seconds
+    
     # Create a PrettyMIDI object
     midi = pretty_midi.PrettyMIDI(initial_tempo=bpm)
 
@@ -77,8 +88,8 @@ def notation_to_midi(pattern, bpm=120):
     midi.instruments.append(drum)
 
     # Write out the MIDI file
-    midi.write('drum_pattern.mid')
-    print("Saved as 'drum_pattern.mid'")
+    midi.write(fname + '.mid')
+    print(f"Saved as '{fname}.mid'")
 
 if __name__ == "__main__":
     notation_to_midi(pattern)
