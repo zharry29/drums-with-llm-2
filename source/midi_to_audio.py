@@ -14,9 +14,9 @@ SAMPLE_MAP = {
     51: "../samples/ride_hard.wav",  # Ride Cymbal 1
 }
 
-def midi_to_audio(fname="temp"):
+def midi_to_audio(in_fname, out_fname):
     # Load your MIDI
-    midi = pretty_midi.PrettyMIDI(fname + ".mid")
+    midi = pretty_midi.PrettyMIDI(in_fname)
     sample_rate = 44100
     audio_length = int((midi.get_end_time() + 1) * sample_rate)
     audio_out = np.zeros(audio_length)
@@ -38,5 +38,5 @@ def midi_to_audio(fname="temp"):
     audio_out /= np.max(np.abs(audio_out))
 
     # Save audio
-    sf.write('temp.wav', audio_out, sample_rate)
-    print("Saved to temp.wav")
+    sf.write(out_fname, audio_out, sample_rate)
+    #print(f"Saved to {out_fname}")

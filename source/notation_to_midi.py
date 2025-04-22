@@ -9,7 +9,7 @@ example_notation = {
     "R: --X-|--X-|----|---",
 }
 
-def notation_to_midi(notation, bpm=120, fname="temp"):
+def notation_to_midi(notation, out_fname, bpm=120, fname="temp"):
     # Drum map: (name, midi_pitch)
     drums = {
         'K',
@@ -87,8 +87,8 @@ def notation_to_midi(notation, bpm=120, fname="temp"):
     midi.instruments.append(drum)
 
     # Write out the MIDI file
-    midi.write(fname + '.mid')
-    print(f"Saved as '{fname}.mid'")
+    midi.write(out_fname)
+    #print(f"Saved as '{out_fname}'")
 
 if __name__ == "__main__":
-    notation_to_midi(pattern)
+    notation_to_midi(example_notation)

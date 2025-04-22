@@ -1,3 +1,10 @@
 {
-    "prefix": 
+    "prompt0": [
+        "@initial_prompt",
+        "You are given the following drum groove.",
+        "@original_groove",
+        "You received the following edit request.",
+        "@request",
+        "You will now edit this drum groove and generate a new one in the above notation. You should always put the notation between @@@ as the example above."
+    ]
 }
