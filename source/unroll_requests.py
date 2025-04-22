@@ -4,53 +4,52 @@ import copy
 import itertools
 import random
 
-# Hard-coded option to instantiate request without fully unrolling
-INSTANTIATE_ONCE = True
-
 def load_json_file(filepath):
     """Load a JSON file and return its contents"""
     with open(filepath, 'r') as f:
         return json.load(f)
 
 def main():
-    # Define file paths
-    requests_path = '../prompts/requests.json'
-    grooves_path = '../prompts/grooves.json'
-    output_path = '../prompts/requests_unrolled.json' if not INSTANTIATE_ONCE else '../prompts/requests_instantiate_once.json'
-    
-    # Load the input files
-    requests = load_json_file(requests_path)
-    grooves = load_json_file(grooves_path)
-    
-    # Define instrument mappings (name to code)
-    instruments = [
-        {"name": "kick", "code": "K"},
-        {"name": "snare", "code": "S"},
-        {"name": "tom", "code": "T"},
-        {"name": "hihat", "code": "H"},
-        {"name": "cymbal", "code": "C"},
-        {"name": "ride", "code": "R"}
-    ]
-    
-    # Initialize the output dictionary and ID counter
-    unrolled_requests = {}
-    next_id = 0
-    
-    # Process each section of requests
-    for section_key in requests.keys():
-        if section_key == "edit":
-            # Process each request in the "edit" section
-            for request_id, request_data in requests[section_key].items():
-                next_id = process_request(request_data, instruments, grooves, next_id, unrolled_requests)
-        else:
-            # Process standalone items (like "20")
-            next_id = process_request(requests[section_key], instruments, grooves, next_id, unrolled_requests)
-    
-    # Write the output file
-    with open(output_path, 'w') as f:
-        json.dump(unrolled_requests, f, indent=4)
-    
-    print(f"Created {output_path} with {next_id} entries")
+    global INSTANTIATED
+    for INSTANTIATED in [True, False]:
+        # Define file paths
+        requests_path = '../prompts/requests.json'
+        grooves_path = '../prompts/grooves.json'
+        output_path = '../prompts/requests_unrolled.json' if not INSTANTIATED else '../prompts/requests_instantiated.json'
+        
+        # Load the input files
+        requests = load_json_file(requests_path)
+        grooves = load_json_file(grooves_path)
+        
+        # Define instrument mappings (name to code)
+        instruments = [
+            {"name": "kick", "code": "K"},
+            {"name": "snare", "code": "S"},
+            {"name": "tom", "code": "T"},
+            {"name": "hihat", "code": "H"},
+            {"name": "cymbal", "code": "C"},
+            {"name": "ride", "code": "R"}
+        ]
+        
+        # Initialize the output dictionary and ID counter
+        unrolled_requests = {}
+        next_id = 0
+        
+        # Process each section of requests
+        for section_key in requests.keys():
+            if section_key == "edit":
+                # Process each request in the "edit" section
+                for request_id, request_data in requests[section_key].items():
+                    next_id = process_request(request_data, instruments, grooves, next_id, unrolled_requests)
+            else:
+                # Process standalone items (like "20")
+                next_id = process_request(requests[section_key], instruments, grooves, next_id, unrolled_requests)
+        
+        # Write the output file
+        with open(output_path, 'w') as f:
+            json.dump(unrolled_requests, f, indent=4)
+        
+        print(f"Created {output_path} with {next_id} entries")
 
 def process_request(request_data, instruments, grooves, current_id, output_dict):
     """Process a single request, generating all combinations and adding them to the output dictionary"""
@@ -121,10 +120,10 @@ def process_request(request_data, instruments, grooves, current_id, output_dict)
             output_dict[str(current_id)] = new_request
             current_id += 1
 
-            if INSTANTIATE_ONCE:
+            if INSTANTIATED:
                 break  # Only instantiate once, no need for multiple combinations
     
-        if INSTANTIATE_ONCE:
+        if INSTANTIATED:
             break  # Only instantiate once, no need for multiple combinations
     return current_id
 

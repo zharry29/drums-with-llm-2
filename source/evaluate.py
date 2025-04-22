@@ -12,7 +12,7 @@ import os
 
 # Argument parsing
 parser = argparse.ArgumentParser(description="")
-parser.add_argument('--data', choices=['instantiate_once', 'unrolled'], required=True, help="")
+parser.add_argument('--data', choices=['instantiated', 'unrolled'], required=True, help="")
 parser.add_argument('--model', default="gpt-4.1-mini", help="")
 #parser.add_argument('--id', nargs='+', required=True, help="List of IDs to process")
 args = parser.parse_args()
@@ -46,7 +46,7 @@ def diff(drum_dict_original, drum_dict_edited):
         for i, (original_measure, edited_measure) in enumerate(zip(original_measures, edited_measures)):
             for j, (original_note, edited_note) in enumerate(zip(original_measure, edited_measure)):
                 if original_note != edited_note:
-                    msg = f"At measure {i+1}, note {j+1}: {original_note} -> {edited_note}"
+                    msg = f"{inst}: At measure {i+1}, note {j+1}: {original_note} -> {edited_note}"
                     output.append(msg)
     if not output:
         return "No differences found."
@@ -128,31 +128,40 @@ for id, request_block in requests.items():
     # print("Response:\n" + drum_notation)
     # Unit Test
     drum_dict = parse_drum_notation(drum_notation)
-    passed_universal_checks = universal_checks(drum_dict)
-    original_drum_notation = parse_response(request_block["original_groove"])
-    original_drum_dict = parse_drum_notation(original_drum_notation)
+
+    
     test_results_path = os.path.join(output_dir, "test_results", f"{id}.txt")
+    # Clear previous results for this id
+    open(test_results_path, "w").close()
+
+    passed_universal_checks = universal_checks(drum_dict)
     def log(msg):
         print(msg)
         with open(test_results_path, "a") as f:
             f.write(str(msg) + "\n")
-
-    # Clear previous results for this id
-    open(test_results_path, "w").close()
+    if not passed_universal_checks:
+        log("Universal checks failed.")
+        continue
+    original_drum_notation = parse_response(request_block["original_groove"])
+    original_drum_dict = parse_drum_notation(original_drum_notation)
 
     unit_tests = request_block["unit_tests"]
     if unit_tests:
         pass_all = True
-        for unit_test_and in unit_tests["and"]:
+        conjuction = "and" if "and" in unit_tests else "or"
+        for unit_test_and in unit_tests[conjuction]:
             unit_test_name = unit_test_and["unit_test_name"]
             unit_test_args = unit_test_and["unit_test_args"]
-            log(f"\nRunning unit test: {unit_test_name}")
+            log(f"Running unit test: {unit_test_name}")
             unit_test_result = run_unit_test(drum_dict, unit_test_name, unit_test_args)
             if unit_test_result:
                 log("Unit test passed.")
+                if conjuction == "or":
+                    pass_all = True
             else:
                 log("Unit test failed.")
-                pass_all = False
+                if conjuction == "and":
+                    pass_all = False
         if pass_all:
             log("All unit tests passed.")
         else:
@@ -172,4 +181,6 @@ for id, request_block in requests.items():
     out_audio_original_fname = os.path.join(output_dir, "audio", f"{id}_original.wav")
     midi_to_audio(out_midi_original_fname, out_audio_original_fname)
     
+
+
     print("\n")

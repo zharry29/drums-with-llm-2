@@ -1,0 +1,70 @@
+Certainly! To meet the request:
+- Play closed hi-hat (X) on all 8th notes (every second note in each 16th note group).
+- Open hi-hat (O) on every up beat (the second and fourth beats).
+- Keep the hits hard, which are represented by X for closed and O for open.
+
+Let's analyze the original hi-hat line:
+Original: `--o-|O-o-|O-o-|O-o-`
+
+We'll modify it according to the instruction:
+- On every 8th note (positions 2, 4, 6, 8, 10, 12, 14, 16), replace with appropriate articulation.
+- Open on the up beats (start of beat 2 and beat 4): positions 8 and 16.
+- Closed on all other 8th notes.
+
+Here's the adjusted hi-hat line:
+- Positions (numbering the 16 notes): 1-16
+- Open (O) on 8, 16
+- Closed (X) on 2, 4, 6, 10, 12, 14
+
+Constructed line:
+`--X-|-X-|-X-|-X-` — but we need to open on beats 2 and 4, so open at 8 and 16 (positions 8 and 16):
+`--X-|-X-|-X-|-X-`
+
+Wait, but per the exact position, the 16 notes are:
+
+| Note Number | Position | Articulation |
+|--------------|------------|--------------|
+| 1            | 1          | -            |
+| 2            | 2          | X           |
+| 3            | 3          | -            |
+| 4            | 4          | X           |
+| 5            | 5          | -            |
+| 6            | 6          | X           |
+| 7            | 7          | -            |
+| 8            | 8          | O (open second beat up) |
+| 9            | 9          | -            |
+| 10           | 10         | X           |
+| 11           | 11         | -            |
+| 12           | 12         | X           |
+| 13           | 13         | -            |
+| 14           | 14         | X           |
+| 15           | 15         | -            |
+| 16           | 16         | O (open fourth beat up) |
+
+Thus, the line should be:
+
+`--X-|-X-|-X-|-X-` with the last note (16) being open, so at 16 we put O instead of X. But since that's an open hit, and the other notes are closed, the notation would be:
+
+`--X-|-X-|-X-|-O-`
+
+Putting it together, the full notation line:
+
+`--X-|-X-|-X-|-O-`
+
+Now, integrating into the full groove with the rest unchanged.
+
+Final updated drum groove:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --X-|-X-|-X-|-O-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+This reflects the modifications:
+- Closed hi-hat (X) on all 8th notes except the last note where it opens (O) on the second and fourth beat up notes.
+- Open hits on the second and fourth beats (positions 8 and 16).
+- Other instruments unchanged.

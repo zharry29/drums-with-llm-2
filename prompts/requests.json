@@ -16,7 +16,7 @@
                 ]
             }
         },
-        "13": {
+        "1": {
             "request": "The groove should have not only @inst0@ but also @inst1@.",
             "type": "specific",
             "original_groove_name": "any",
@@ -38,7 +38,7 @@
                 ]
             }
         },
-        "1": {
+        "2": {
             "request": "I don't want any @inst0@ or @ins1t@.",
             "type": "specific",
             "original_groove_name": "any",
@@ -60,7 +60,7 @@
                 ]
             }
         },
-        "2": {
+        "3": {
             "request": "I'd like a @inst0@ hit and @ins1t@ in the very beginning.",
             "type": "specific",
             "original_groove_name": "any",
@@ -82,7 +82,7 @@
                 ]
             }
         },
-        "14": {
+        "4": {
             "request": "I'd like an open hihat on the last 8-th note.",
             "type": "specific",
             "original_groove_name": "any",
@@ -104,7 +104,7 @@
                 ]
             }
         },
-        "3": {
+        "5": {
             "request": "Let's avoid having the Snare on the downbeat of 2 and 4.",
             "type": "specific",
             "original_groove_name": "any",
@@ -126,7 +126,7 @@
                 ]
             }
         },
-        "15": {
+        "6": {
             "request": "Change all the snare hits to sidesticks.",
             "type": "specific",
             "original_groove_name": "basic 2 and 4",
@@ -160,7 +160,7 @@
                 ]
             }
         },
-        "16": {
+        "7": {
             "request": "Feather the kick drum.",
             "type": "specific",
             "original_groove_name": "basic 2 and 4",
@@ -194,7 +194,7 @@
                 ]
             }
         },
-        "4": {
+        "8": {
             "request": "This beat feels too empty.",
             "type": "descriptive",
             "original_groove_name": "any",
@@ -210,7 +210,7 @@
                 ]
             }
         },
-        "22": {
+        "9": {
             "request": "I want no more than 8 notes in the entire groove.",
             "type": "specific",
             "original_groove_name": "any",
@@ -226,7 +226,7 @@
                 ]
             }
         },
-        "23": {
+        "10": {
             "request": "I want something on every 16-th note.",
             "type": "specific",
             "original_groove_name": "any",
@@ -242,7 +242,7 @@
                 ]
             }
         },
-        "24": {
+        "11": {
             "request": "Drop out everything in the second beat.",
             "type": "specific",
             "original_groove_name": "any",
@@ -288,8 +288,8 @@
                 ]
             }
         },
-        "25": {
-            "request": "I don't want @inst0 on beat 4 but everything else is fine.",
+        "12": {
+            "request": "I don't want @inst0@ on beat 4 but everything else is fine.",
             "type": "specific",
             "original_groove_name": "any",
             "original_groove": "",
@@ -298,13 +298,13 @@
                     {
                         "unit_test_name": "no_inst_on_beat",
                         "unit_test_args": [
-                            "@i0", 3
+                            "@i0@", 3
                         ]
                     }
                 ]
             }
         },
-        "10": {
+        "13": {
             "request": "Less notes.",
             "type": "specific",
             "original_groove_name": "any",
@@ -320,7 +320,7 @@
                 ]
             }
         },
-        "17": {
+        "14": {
             "request": "Let's fill up the whole bar with double kick.",
             "type": "specific",
             "original_groove_name": "any",
@@ -426,7 +426,7 @@
                 ]
             }
         },
-        "20": {
+        "15": {
             "request": "Play the closed hihat on all 16-th notes, accent on the quarter note down beats.",
             "type": "specific",
             "original_groove_name": "any",
@@ -532,7 +532,7 @@
                 ]
             }
         },
-        "21": {
+        "16": {
             "request": "Play the closed hihat on all 8-th notes, but open on every up beat. Keep the hits hard.",
             "type": "specific",
             "original_groove_name": "any",
@@ -590,49 +590,29 @@
                 ]
             }
         },
-        "5": {
+        "17": {
             "request": "I want the same amount of @inst0@ but more dynamic.",
             "type": "descriptive",
             "original_groove_name": "any",
             "original_groove": "",
             "unit_tests": {
-                "or": [
-                    {
-                        "and": [
+                "and": [
                             {
                                 "unit_test_name": "have_articulation",
                                 "unit_test_args": [
-                                    "@i0","O"
+                                    "@i0@","O"
                                 ]
                             },
                             {
                                 "unit_test_name": "have_articulation",
                                 "unit_test_args": [
-                                    "@i0","o"
+                                    "@i0@","o"
                                 ]
                             }
                         ]
-                    },
-                    {
-                        "and": [
-                            {
-                                "unit_test_name": "have_articulation",
-                                "unit_test_args": [
-                                    "@i0","X"
-                                ]
-                            },
-                            {
-                                "unit_test_name": "have_articulation",
-                                "unit_test_args": [
-                                    "@i0","x"
-                                ]
-                            }
-                        ]
-                    }
-                ]
             }
         },
-        "11": {
+        "18": {
             "request": "Please add some ghost notes on the Snare.",
             "type": "specific",
             "original_groove_name": "any",
@@ -648,7 +628,7 @@
                 ]
             }
         },
-        "12": {
+        "19": {
             "request": "I'd like it to sound more disco.",
             "type": "stylistic",
             "original_groove_name": "basic 2 and 4",
@@ -682,7 +662,7 @@
                 ]
             }
         },
-        "6": {
+        "20": {
             "request": "I'd like a more funky beat.",
             "type": "stylistic",
             "original_groove_name": "basic 2 and 4",
@@ -734,9 +714,11 @@
                 ]
             }
         },
-        "7": {
+        "21": {
             "request": "The hihat pattern should be more varied.",
             "type": "descriptive",
+            "original_groove_name": "any",
+            "original_groove": "",
             "unit_tests": {
                 "and": [
                     {
@@ -748,9 +730,11 @@
                 ]
             }
         },
-        "8": {
+        "22": {
             "request": "This should sound more like a metal groove.",
             "type": "stylistic",
+            "original_groove_name": "any",
+            "original_groove": "",
             "unit_tests": {
                 "or": [
                     {
@@ -774,7 +758,7 @@
                 ]
             }
         },
-        "9": {
+        "23": {
             "request": "Make this double time.",
             "type": "specific",
             "original_groove_name": "basic 2 and 4",
@@ -808,7 +792,7 @@
                 ]
             }
         },
-        "18": {
+        "24": {
             "request": "Let's do a half time feel but keep everything else.",
             "type": "specific",
             "original_groove_name": "basic 2 and 4",
@@ -836,7 +820,7 @@
                 ]
             }
         },
-        "19": {
+        "25": {
             "request": "I want to replace the hihat with toms.",
             "type": "specific",
             "original_groove_name": "basic 2 and 4",
@@ -895,7 +879,7 @@
             }
         }
     },
-    "20": {
+    "26": {
         "request": "Displace the first snare backbeat by delaying an 8-th note.",
         "type": "specific",
         "original_groove_name": "basic 2 and 4",
@@ -917,7 +901,7 @@
             ]
         }
     },
-    "21": {
+    "27": {
         "request": "I'd like to hear more low frequency sounds.",
         "type": "descriptive",
         "original_groove_name": "any",
@@ -939,7 +923,7 @@
             ]
         }
     },
-    "22": {
+    "28": {
         "request": "Please comp with the bass guitar on each quarter note downbeat in a jazzy way.",
         "type": "descriptive",
         "original_groove_name": "basic jazz swung 8-th",
@@ -973,7 +957,7 @@
             ]
         }
     },
-    "23": {
+    "29": {
         "request": "Make this double time.",
         "type": "descriptive",
         "original_groove_name": "basic jazz swung 8-th",
@@ -1079,7 +1063,7 @@
             ]
         }
     },
-    "24": {
+    "30": {
         "request": "There should be a cymbal hit on the 'a' of the '1 e & a' of the second beat.",
         "type": "specific",
         "original_groove_name": "any",

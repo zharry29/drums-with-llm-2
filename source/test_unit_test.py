@@ -18,8 +18,8 @@ drum_notation = """
 
 drum_dict = parse_drum_notation(drum_notation)
 
-unit_test_name = "num_notes_more_than"
-unit_test_args = [1]
+unit_test_name = "no_inst_on_beat"
+unit_test_args = ["K", 3]
 
 if unit_test_name:
     print("\nRunning unit test: ", unit_test_name)

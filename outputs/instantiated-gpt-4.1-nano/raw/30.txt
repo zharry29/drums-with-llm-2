@@ -1,0 +1,50 @@
+Certainly! To add a cymbal hit on the 'a' of the '1 e & a' of the second beat, we need to place a cymbal hit in the last 16th note of the second beat. 
+
+In the second beat, the 16th notes are represented by characters 5 to 8 (since each beat has 4 characters). The 'a' subdivision corresponds to the 16th note after the '&', which is the 8th note in the second beat, i.e., the 20th character overall (since the first beat covers characters 1-4, second beat characters 5-8, etc.). Counting characters:
+
+- Beat 1: positions 1-4
+- Beat 2: positions 5-8
+- Beat 3: positions 9-12
+- Beat 4: positions 13-16
+
+But to get the precise 'a' (the sixteenth note after '1 e &', which would be the 16th note in the bar), check the notation:
+
+- '1 e & a' corresponds to subdivisions within beat 1 (note that usually, the counting is within one beat, but the subdivision 'a' among the 16th notes).
+
+Given the second beat's position, the 'a' in '1 e & a' actually refers to the last sixteenth note of that beat, which is position 8 in the second beat.
+
+So, in the second beat (characters 5-8), the 'a' corresponds to character 8 (since positions 5-8 are for beat 2). 
+
+Thus, to add the cymbal hit on that 'a' (the last 16th note of second beat), we need to set the character at position 8 to 'O', indicating a loud hit.
+
+Now, apply this to the cymbal line:
+
+- Original C: O---|O---|O---|O---
+
+- The second beat is characters 5-8 for cymbals: 'O---'
+
+- Change character 8 from '-' to 'O'.
+
+Resulting lines:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+Now, the full notation with the cymbal hit added at the appropriate position:
+
+``` 
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```
