@@ -128,6 +128,7 @@ for id, request_block in requests.items():
     # print("Response:\n" + drum_notation)
     # Unit Test
     drum_dict = parse_drum_notation(drum_notation)
+    passed_universal_checks = universal_checks(drum_dict)
     original_drum_notation = parse_response(request_block["original_groove"])
     original_drum_dict = parse_drum_notation(original_drum_notation)
     test_results_path = os.path.join(output_dir, "test_results", f"{id}.txt")

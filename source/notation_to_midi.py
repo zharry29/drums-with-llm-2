@@ -53,30 +53,46 @@ def notation_to_midi(notation, out_fname, bpm=120, fname="temp"):
                 start = i * step_length
                 end = start + step_length * 0.8  # short duration for drums
                 if drum_name == 'K':
-                    midi_pitch = 36
+                    if char == 'O':
+                        midi_pitch = 36
+                    elif char == 'o':
+                        midi_pitch = 16
                 elif drum_name == 'S':
-                    if char in ['S', 's']:
+                    if char == 'S':
                         midi_pitch = 37
-                    elif char in ['O', 'o']:
+                    elif char == 's':
+                        midi_pitch = 17
+                    elif char == 'O':
                         midi_pitch = 38
+                    elif char == 'o':
+                        midi_pitch = 18
                 elif drum_name == 'H':
-                    if char in ['X', 'x']:
+                    if char == 'X':
                         midi_pitch = 42
-                    elif char in ['O', 'o']:
+                    elif char == 'x':
+                        midi_pitch = 22
+                    elif char == 'O':
                         midi_pitch = 46
+                    elif char == 'o':
+                        midi_pitch = 26
                 elif drum_name == 'T':
-                    midi_pitch = 45
+                    if char == 'O':
+                        midi_pitch = 45
+                    elif char == 'o':
+                        midi_pitch = 25
                 elif drum_name == 'C':
-                    midi_pitch = 49
+                    if char == 'O':
+                        midi_pitch = 49
+                    elif char == 'o':
+                        midi_pitch = 29
                 elif drum_name == 'R':
+                    if char == 'O':
+                        midi_pitch = 51
+                    elif char == 'o':
+                        midi_pitch = 31
                     midi_pitch = 51
-
-                if char.isupper():
-                    velocity = 100
-                elif char.islower():
-                    velocity = 50
                 note = pretty_midi.Note(
-                    velocity=velocity,  # reasonable default
+                    velocity=100,  # velocity does not matter
                     pitch=midi_pitch,
                     start=start,
                     end=end,

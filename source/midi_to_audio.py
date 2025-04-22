@@ -4,6 +4,7 @@ import numpy as np
 import soundfile as sf
 
 SAMPLE_MAP = {
+    # hard
     36: "../samples/kick_hard.wav",  # Kick
     37: "../samples/snare_sidestick_hard.wav",  # Snare sidestick
     38: "../samples/snare_open_hard.wav",  # Snare open
@@ -12,6 +13,15 @@ SAMPLE_MAP = {
     45: "../samples/tom_hard.wav",  # Low Tom
     49: "../samples/crash_hard.wav",  # Crash Cymbal 1
     51: "../samples/ride_hard.wav",  # Ride Cymbal 1
+    # soft
+    16: "../samples/kick_soft.wav",  # Kick
+    17: "../samples/snare_sidestick_soft.wav",  # Snare sidestick
+    18: "../samples/snare_open_soft.wav",  # Snare open
+    22: "../samples/hihat_closed_soft.wav",  # Closed Hi-hat
+    26: "../samples/hihat_open_soft.wav",  # Closed Hi-hat
+    25: "../samples/tom_soft.wav",  # Low Tom
+    29: "../samples/crash_soft.wav",  # Crash Cymbal 1
+    31: "../samples/ride_soft.wav",  # Ride Cymbal 1
 }
 
 def midi_to_audio(in_fname, out_fname):
