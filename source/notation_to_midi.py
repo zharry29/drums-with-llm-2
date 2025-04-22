@@ -30,7 +30,6 @@ def notation_to_midi(notation, bpm=120, fname="temp"):
         return pattern
 
     pattern = parse_pattern(notation)
-    print(pattern)
 
     steps_per_bar = len(pattern['K'])  # 16 steps
     bpm = 120

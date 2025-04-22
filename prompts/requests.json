@@ -1,54 +1,734 @@
 {
-    "requests": {
+    "edit": {
         "0": {
-            "request": "Add some Toms to the groove.",
+            "request": "Add some @inst0@ to the groove.",
             "type": "specific",
-            "unit_test_name": "have_inst",
-            "unit_test_args": [
-                "T"
-            ]
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_inst",
+                        "unit_test_args": [
+                            "@i0@"
+                        ]
+                    }
+                ]
+            }
+        },
+        "13": {
+            "request": "The groove should have not only @inst0@ but also @inst1@.",
+            "type": "specific",
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_inst",
+                        "unit_test_args": [
+                            "@i0@"
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst",
+                        "unit_test_args": [
+                            "@ii@"
+                        ]
+                    }
+                ]
+            }
         },
         "1": {
-            "request": "I don't want any Kick and Snare.",
+            "request": "I don't want any @inst0@ or @ins1t@.",
             "type": "specific",
-            "unit_test_name": "no_inst",
-            "unit_test_args": [
-                ["K", "S"]
-            ]
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "no_inst",
+                        "unit_test_args": [
+                            "@i0@"
+                        ]
+                    },
+                    {
+                        "unit_test_name": "no_inst",
+                        "unit_test_args": [
+                            "@ii@"
+                        ]
+                    }
+                ]
+            }
         },
         "2": {
-            "request": "I'd like a Cymbal hit and a Kick on the first note.",
+            "request": "I'd like a @inst0@ hit and @ins1t@ in the very beginning.",
             "type": "specific",
-            "unit_test_name": "have_inst_on_note",
-            "unit_test_args": [
-                [
-                    ["C", 0],
-                    ["K", 0]
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "@i0@", 0
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "@i1@", 0
+                        ]
+                    }
                 ]
-            ]
+            }
+        },
+        "14": {
+            "request": "I'd like an open hihat on the last 8-th note.",
+            "type": "specific",
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "H", 14
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "O", 14
+                        ]
+                    }
+                ]
+            }
         },
         "3": {
             "request": "Let's avoid having the Snare on the downbeat of 2 and 4.",
             "type": "specific",
-            "unit_test_name": "no_inst_on_note",
-            "unit_test_args": [
-                [
-                    ["S", 4],
-                    ["S", 8]
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "no_inst_on_note",
+                        "unit_test_args": [
+                            "S", 4
+                        ]
+                    },
+                    {
+                        "unit_test_name": "no_inst_on_note",
+                        "unit_test_args": [
+                            "S", 8
+                        ]
+                    }
                 ]
-            ]
+            }
+        },
+        "15": {
+            "request": "Change all the snare hits to sidesticks.",
+            "type": "specific",
+            "original_groove_name": "basic 2 and 4",
+            "original_groove": "K: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "S", 4
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "S", 12
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "S", "S", 4
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "S", "S", 12
+                        ]
+                    }
+                ]
+            }
+        },
+        "16": {
+            "request": "Feather the kick drum.",
+            "type": "specific",
+            "original_groove_name": "basic 2 and 4",
+            "original_groove": "K: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 0
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 8
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "K", "o", 0
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "K", "o", 8
+                        ]
+                    }
+                ]
+            }
         },
         "4": {
-            "request": "This beat is too basic.",
+            "request": "This beat feels too empty.",
+            "type": "descriptive",
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "num_notes_more_than",
+                        "unit_test_args": [
+                            8
+                        ]
+                    }
+                ]
+            }
+        },
+        "10": {
+            "request": "Less notes.",
+            "type": "specific",
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "num_notes_less_than",
+                        "unit_test_args": [
+                            8
+                        ]
+                    }
+                ]
+            }
+        },
+        "17": {
+            "request": "Let's fill up the whole bar with double kick.",
+            "type": "specific",
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 0
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 1
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 2
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 3
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 4
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 5
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 6
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 7
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 8
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 9
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 10
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 11
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 12
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 13
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 14
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "K", 15
+                        ]
+                    }
+                ]
+            }
+        },
+        "20": {
+            "request": "Play the closed hihat on all 16-th notes, accent on the quarter note down beats.",
+            "type": "specific",
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "X", 0
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "x", 1
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "x", 2
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "x", 3
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "X", 4
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "x", 5
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "x", 6
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "x", 7
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "X", 8
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "x", 9
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "x", 10
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "x", 11
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "X", 12
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "x", 13
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "x", 14
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "x", 15
+                        ]
+                    }
+                ]
+            }
+        },
+        "21": {
+            "request": "Play the closed hihat on all 8-th notes, but open on every up beat. Keep the hits hard.",
+            "type": "specific",
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "X", 0
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "O", 2
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "X", 4
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "O", 6
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "X", 8
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "O", 10
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "X", 12
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_articulation_on_note",
+                        "unit_test_args": [
+                            "H", "O", 14
+                        ]
+                    }
+                ]
+            }
+        },
+        "5": {
+            "request": "I want the same amount of @inst0@ but more dynamic.",
+            "type": "descriptive",
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "or": [
+                    {
+                        "and": [
+                            {
+                                "unit_test_name": "have_articulation",
+                                "unit_test_args": [
+                                    "@i0","O"
+                                ]
+                            },
+                            {
+                                "unit_test_name": "have_articulation",
+                                "unit_test_args": [
+                                    "@i0","o"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "and": [
+                            {
+                                "unit_test_name": "have_articulation",
+                                "unit_test_args": [
+                                    "@i0","X"
+                                ]
+                            },
+                            {
+                                "unit_test_name": "have_articulation",
+                                "unit_test_args": [
+                                    "@i0","x"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "11": {
+            "request": "Please add some ghost notes on the Snare.",
+            "type": "specific",
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_articulation",
+                        "unit_test_args": [
+                            "S","o"
+                        ]
+                    }
+                ]
+            }
+        },
+        "12": {
+            "request": "I'd like a disco beat.",
+            "type": "genre",
+            "original_groove_name": "any",
+            "original_groove": "",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_articulation",
+                        "unit_test_args": [
+                            "H","O"
+                        ]
+                    }
+                ]
+            }
+        },
+        "6": {
+            "request": "I'd like a funky beat.",
+            "type": "genre",
+            "unit_test_name": "",
+            "unit_test_args": []
+        },
+        "7": {
+            "request": "The hihat pattern should be more varied.",
             "type": "descriptive",
             "unit_test_name": "",
             "unit_test_args": []
         },
-        "5": {
-            "request": "I want it to be more dyhamic.",
-            "type": "descriptive",
+        "8": {
+            "request": "This should be a thrash metal groove.",
+            "type": "genre",
             "unit_test_name": "",
             "unit_test_args": []
+        },
+        "9": {
+            "request": "Make this double time.",
+            "type": "specific",
+            "original_groove_name": "basic 2 and 4",
+            "original_groove": "K: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "S",2
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "S",6
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "S",10
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "S",14
+                        ]
+                    }
+                ]
+            }
+        },
+        "18": {
+            "request": "Let's do a half time feel but keep everything else.",
+            "type": "specific",
+            "original_groove_name": "basic 2 and 4",
+            "original_groove": "K: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "S",8
+                        ]
+                    },
+                    {
+                        "unit_test_name": "no_inst_on_note",
+                        "unit_test_args": [
+                            "S",4
+                        ]
+                    },
+                    {
+                        "unit_test_name": "no_inst_on_note",
+                        "unit_test_args": [
+                            "S",12
+                        ]
+                    }
+                ]
+            }
+        },
+        "19": {
+            "request": "I want to replace the hihat with toms.",
+            "type": "specific",
+            "original_groove_name": "basic 2 and 4",
+            "original_groove": "K: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----",
+            "unit_tests": {
+                "and": [
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "T",0
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "T",4
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "T",8
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "T",12
+                        ]
+                    },
+                    {
+                        "unit_test_name": "no_inst_on_note",
+                        "unit_test_args": [
+                            "H",0
+                        ]
+                    },
+                    {
+                        "unit_test_name": "no_inst_on_note",
+                        "unit_test_args": [
+                            "H",4
+                        ]
+                    },
+                    {
+                        "unit_test_name": "no_inst_on_note",
+                        "unit_test_args": [
+                            "H",8
+                        ]
+                    },
+                    {
+                        "unit_test_name": "no_inst_on_note",
+                        "unit_test_args": [
+                            "H",12
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "20": {
+        "request": "Displace the first snare backbeat by delaying an 8-th note.",
+        "type": "specific",
+        "original_groove_name": "basic 2 and 4",
+        "original_groove": "K: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----",
+        "unit_tests": {
+            "and": [
+                {
+                    "unit_test_name": "have_inst_on_note",
+                    "unit_test_args": [
+                        "S",6
+                    ]
+                },
+                {
+                    "unit_test_name": "no_inst_on_note",
+                    "unit_test_args": [
+                        "S",4
+                    ]
+                }
+            ]
         }
     }
 }
