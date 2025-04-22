@@ -1,0 +1,20 @@
+**Thought process:**
+
+The "last 8-th note" in a bar of 16 16th notes is the 16th note at position 8, which is column 9. However, "8th note" in drumming often refers to the off-beats (the 'and's), so "the last 8th note" would be the 16th note at position 16, which is the very last (rightmost) note in the bar.
+
+An open hihat uses a capital "O" in the H line.  
+So, in the last position of the H line (replace the character at the 16th position with "O"):
+
+Original H line: `--o-|O-o-|O-o-|O-o-`  
+Edit H line:    `--o-|O-o-|O-o-|O-oO`
+
+Here is the new drum groove, as requested:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-oO
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,35 @@
+Let's apply the edit request:
+
+"Drop out everything in the second beat."
+
+Looking at the provided groove:
+
+Original:
+```
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+The second beat is between the first and second "|". For each line, those four characters will all become "-".
+
+So, edit each line:
+
+- K: remains unchanged, since it's already all "-" in all beats.
+- S: same as above.
+- H: from "----|x---|----|x---" to "----|----|----|x---"
+- T: unchanged.
+- C: unchanged.
+- R: from "x---|X-x-|x---|X-x-" to "x---|----|x---|X-x-"
+
+Final groove:
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|----|x---|X-x-
+@@@

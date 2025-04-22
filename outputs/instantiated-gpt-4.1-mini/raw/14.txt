@@ -1,0 +1,36 @@
+The original groove "K:" line is:
+OOO-|--O-|OOO-|-OOO
+
+Here each character corresponds to a 16th note (16 characters per bar excluding the "|"). The bar length is 16 16th notes, and "|" marks every 4 notes (one beat).
+
+The request is to "fill up the whole bar with double kick."
+
+Double kick means the kick drum plays on every 16th note, i.e., every position should be filled with "O" for the kick drum line.
+
+So instead of the original pattern:  
+K: OOO-|--O-|OOO-|-OOO
+
+We replace all 16 characters (4 beats × 4 sixteenth notes each) with "O" for the kick drum. That makes:
+
+K: OOOO|OOOO|OOOO|OOOO
+
+The rest of the instruments remain unchanged.
+
+Let's keep the original other parts unchanged:
+
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+This is the final groove:
+
+@@@
+K: OOOO|OOOO|OOOO|OOOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

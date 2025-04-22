@@ -1,0 +1,42 @@
+The given groove is:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+The request is to "Drop out everything in the second beat."
+
+The groove is split into 4 beats per bar. The second beat corresponds to the second group of 4 characters after the first |.
+
+Looking at the second beat (second group of four characters) for each instrument:
+
+- K: ---- (nothing to change)
+- S: ---- (nothing to change)
+- H: x--- (the first character is 'x', so drop out => all '-')
+- T: ---- (nothing to change)
+- C: ---- (nothing to change)
+- R: X-x- (various hits, need to replace all with '-')
+
+So I'll replace the second beat with "----" for all lines.
+
+Final groove:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|----|x---|X-x-
+
+Now I will output the final groove: 
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|----|x---|X-x-
+@@@

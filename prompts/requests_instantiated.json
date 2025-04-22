@@ -1,15 +1,15 @@
 {
     "0": {
-        "request": "Add some kick to the groove.",
+        "request": "Add some snare to the groove.",
         "type": "specific",
-        "original_groove_name": "basic metal",
-        "original_groove": "@@@\nK: OOO-|--O-|OOO-|-OOO\nS: ----|O---|----|O---\nH: ----|----|----|----  \nT: ----|----|----|----\nC: O---|O---|O---|O---\nR: ----|----|----|----\n@@@",
+        "original_groove_name": "basic funk hats",
+        "original_groove": "@@@\nK: O--O|----|--O-|----\nS: ----|Oo-o|-o--|O--o\nH: X-x-|X-x-|X-x-|X-x-\nT: ----|----|----|----\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
                     "unit_test_name": "have_inst",
                     "unit_test_args": [
-                        "K"
+                        "S"
                     ]
                 }
             ]
@@ -17,22 +17,22 @@
         "templated_request": "Add some @inst0@ to the groove."
     },
     "1": {
-        "request": "The groove should have not only kick but also ride.",
+        "request": "The groove should have not only hihat but also cymbal.",
         "type": "specific",
-        "original_groove_name": "basic metal",
-        "original_groove": "@@@\nK: OOO-|--O-|OOO-|-OOO\nS: ----|O---|----|O---\nH: ----|----|----|----  \nT: ----|----|----|----\nC: O---|O---|O---|O---\nR: ----|----|----|----\n@@@",
+        "original_groove_name": "basic rock open hats",
+        "original_groove": "@@@\nK: O---|---o|O-O-|----\nS: ----|O---|----|O---\nH: --o-|O-o-|O-o-|O-o-\nT: ----|----|----|----\nC: O---|----|----|----\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
                     "unit_test_name": "have_inst",
                     "unit_test_args": [
-                        "K"
+                        "H"
                     ]
                 },
                 {
                     "unit_test_name": "have_inst",
                     "unit_test_args": [
-                        "R"
+                        "C"
                     ]
                 }
             ]
@@ -40,10 +40,10 @@
         "templated_request": "The groove should have not only @inst0@ but also @inst1@."
     },
     "2": {
-        "request": "I don't want any ride or hihat.",
+        "request": "I don't want any ride or kick.",
         "type": "specific",
-        "original_groove_name": "rock toms half time",
-        "original_groove": "@@@\nK: O---|O---|----|O---\nS: ----|----|O---|----\nH: ----|----|----|----  \nT: O-o-|O-o-|O-o-|O-o-\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
+        "original_groove_name": "prog metal half time",
+        "original_groove": "@@@\nK: -O--|OO--|---O|-OO-\nS: ----|----|S---|----\nH: x-x-|x-x-|x-x-|x-x-\nT: ----|----|---O|----\nC: O---|O---|O---|O---\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -55,7 +55,7 @@
                 {
                     "unit_test_name": "no_inst",
                     "unit_test_args": [
-                        "H"
+                        "K"
                     ]
                 }
             ]
@@ -63,23 +63,23 @@
         "templated_request": "I don't want any @inst0@ or @ins1t@."
     },
     "3": {
-        "request": "I'd like a snare hit and hihat in the very beginning.",
+        "request": "I'd like a kick hit and cymbal in the very beginning.",
         "type": "specific",
         "original_groove_name": "basic jazz swung 8-th",
-        "original_groove": "@@@\nK: ----|----|----|----\nS: ----|----|----|----\nH: ----|x---|----|x---  \nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
+        "original_groove": "@@@\nK: ----|----|----|----\nS: ----|----|----|----\nH: ----|x---|----|x---\nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
         "unit_tests": {
             "and": [
                 {
                     "unit_test_name": "have_inst_on_note",
                     "unit_test_args": [
-                        "S",
+                        "K",
                         0
                     ]
                 },
                 {
                     "unit_test_name": "have_inst_on_note",
                     "unit_test_args": [
-                        "H",
+                        "C",
                         0
                     ]
                 }
@@ -90,8 +90,8 @@
     "4": {
         "request": "I'd like an open hihat on the last 8-th note.",
         "type": "specific",
-        "original_groove_name": "basic jazz swung 8-th",
-        "original_groove": "@@@\nK: ----|----|----|----\nS: ----|----|----|----\nH: ----|x---|----|x---  \nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
+        "original_groove_name": "basic rock open hats",
+        "original_groove": "@@@\nK: O---|---o|O-O-|----\nS: ----|O---|----|O---\nH: --o-|O-o-|O-o-|O-o-\nT: ----|----|----|----\nC: O---|----|----|----\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -116,8 +116,8 @@
     "5": {
         "request": "Let's avoid having the Snare on the downbeat of 2 and 4.",
         "type": "specific",
-        "original_groove_name": "basic jazz swung 8-th",
-        "original_groove": "@@@\nK: ----|----|----|----\nS: ----|----|----|----\nH: ----|x---|----|x---  \nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
+        "original_groove_name": "basic boosa nova",
+        "original_groove": "@@@\nK: o---|--o-|o---|--o-\nS: ----|S---|--S-|----\nH: ----|x---|----|x---\nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -142,7 +142,7 @@
         "request": "Change all the snare hits to sidesticks.",
         "type": "specific",
         "original_groove_name": "basic 2 and 4",
-        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
+        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: X---|X---|X---|X---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -183,7 +183,7 @@
         "request": "Feather the kick drum.",
         "type": "specific",
         "original_groove_name": "basic 2 and 4",
-        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
+        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: X---|X---|X---|X---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -223,8 +223,8 @@
     "8": {
         "request": "This beat feels too empty.",
         "type": "descriptive",
-        "original_groove_name": "basic boosa nova",
-        "original_groove": "@@@\nK: o---|--o-|o---|--o-\nS: ----|S---|--S-|----\nH: ----|x---|----|x---  \nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
+        "original_groove_name": "basic jazz swung 8-th",
+        "original_groove": "@@@\nK: ----|----|----|----\nS: ----|----|----|----\nH: ----|x---|----|x---\nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -240,8 +240,8 @@
     "9": {
         "request": "I want no more than 8 notes in the entire groove.",
         "type": "specific",
-        "original_groove_name": "rock toms half time",
-        "original_groove": "@@@\nK: O---|O---|----|O---\nS: ----|----|O---|----\nH: ----|----|----|----  \nT: O-o-|O-o-|O-o-|O-o-\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
+        "original_groove_name": "prog metal half time",
+        "original_groove": "@@@\nK: -O--|OO--|---O|-OO-\nS: ----|----|S---|----\nH: x-x-|x-x-|x-x-|x-x-\nT: ----|----|---O|----\nC: O---|O---|O---|O---\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -257,8 +257,8 @@
     "10": {
         "request": "I want something on every 16-th note.",
         "type": "specific",
-        "original_groove_name": "prog metal half time",
-        "original_groove": "@@@\nK: -O--|OO--|---O|-OO-\nS: ----|----|S---|----\nH: x-x-|x-x-|x-x-|x-x-  \nT: ----|----|---O|----\nC: O---|O---|O---|O---\nR: ----|----|----|----\n@@@",
+        "original_groove_name": "basic rock open hats",
+        "original_groove": "@@@\nK: O---|---o|O-O-|----\nS: ----|O---|----|O---\nH: --o-|O-o-|O-o-|O-o-\nT: ----|----|----|----\nC: O---|----|----|----\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -274,8 +274,8 @@
     "11": {
         "request": "Drop out everything in the second beat.",
         "type": "specific",
-        "original_groove_name": "basic funk ride accent backbeat",
-        "original_groove": "@@@\nK: O--O|----|--O-|----\nS: ----|Oo-o|-o--|O--o\nH: ----|----|----|----  \nT: ----|----|----|----\nC: ----|----|----|----\nR: o-O-|o-O-|o-O-|o-O-\n@@@",
+        "original_groove_name": "basic jazz swung 8-th",
+        "original_groove": "@@@\nK: ----|----|----|----\nS: ----|----|----|----\nH: ----|x---|----|x---\nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -325,16 +325,16 @@
         "templated_request": "Drop out everything in the second beat."
     },
     "12": {
-        "request": "I don't want snare on beat 4 but everything else is fine.",
+        "request": "I don't want tom on beat 4 but everything else is fine.",
         "type": "specific",
-        "original_groove_name": "rock toms half time",
-        "original_groove": "@@@\nK: O---|O---|----|O---\nS: ----|----|O---|----\nH: ----|----|----|----  \nT: O-o-|O-o-|O-o-|O-o-\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
+        "original_groove_name": "basic 2 and 4",
+        "original_groove": "@@@\nK: O---|----|O---|----\nS: ----|O---|----|O---\nH: X---|X---|X---|X---\nT: ----|----|----|----\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
                     "unit_test_name": "no_inst_on_beat",
                     "unit_test_args": [
-                        "S",
+                        "T",
                         3
                     ]
                 }
@@ -345,8 +345,8 @@
     "13": {
         "request": "Less notes.",
         "type": "specific",
-        "original_groove_name": "prog metal half time",
-        "original_groove": "@@@\nK: -O--|OO--|---O|-OO-\nS: ----|----|S---|----\nH: x-x-|x-x-|x-x-|x-x-  \nT: ----|----|---O|----\nC: O---|O---|O---|O---\nR: ----|----|----|----\n@@@",
+        "original_groove_name": "basic boosa nova",
+        "original_groove": "@@@\nK: o---|--o-|o---|--o-\nS: ----|S---|--S-|----\nH: ----|x---|----|x---\nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -362,8 +362,8 @@
     "14": {
         "request": "Let's fill up the whole bar with double kick.",
         "type": "specific",
-        "original_groove_name": "rock toms half time",
-        "original_groove": "@@@\nK: O---|O---|----|O---\nS: ----|----|O---|----\nH: ----|----|----|----  \nT: O-o-|O-o-|O-o-|O-o-\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
+        "original_groove_name": "basic metal",
+        "original_groove": "@@@\nK: OOO-|--O-|OOO-|-OOO\nS: ----|O---|----|O---\nH: ----|----|----|----\nT: ----|----|----|----\nC: O---|O---|O---|O---\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -485,8 +485,8 @@
     "15": {
         "request": "Play the closed hihat on all 16-th notes, accent on the quarter note down beats.",
         "type": "specific",
-        "original_groove_name": "basic 2 and 4",
-        "original_groove": "@@@\nK: O---|----|O---|----\nS: ----|O---|----|O---\nH: x---|x---|x---|x---  \nT: ----|----|----|----\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
+        "original_groove_name": "basic metal",
+        "original_groove": "@@@\nK: OOO-|--O-|OOO-|-OOO\nS: ----|O---|----|O---\nH: ----|----|----|----\nT: ----|----|----|----\nC: O---|O---|O---|O---\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -624,8 +624,8 @@
     "16": {
         "request": "Play the closed hihat on all 8-th notes, but open on every up beat. Keep the hits hard.",
         "type": "specific",
-        "original_groove_name": "basic rock open hats",
-        "original_groove": "@@@\nK: O---|---o|O-O-|----\nS: ----|O---|----|O---\nH: --o-|O-o-|O-o-|O-o-  \nT: ----|----|----|----\nC: O---|----|----|----\nR: ----|----|----|----\n@@@",
+        "original_groove_name": "prog metal half time",
+        "original_groove": "@@@\nK: -O--|OO--|---O|-OO-\nS: ----|----|S---|----\nH: x-x-|x-x-|x-x-|x-x-\nT: ----|----|---O|----\nC: O---|O---|O---|O---\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -697,23 +697,23 @@
         "templated_request": "Play the closed hihat on all 8-th notes, but open on every up beat. Keep the hits hard."
     },
     "17": {
-        "request": "I want the same amount of tom but more dynamic.",
+        "request": "I want the same amount of ride but more dynamic.",
         "type": "descriptive",
-        "original_groove_name": "basic boosa nova",
-        "original_groove": "@@@\nK: o---|--o-|o---|--o-\nS: ----|S---|--S-|----\nH: ----|x---|----|x---  \nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
+        "original_groove_name": "rock toms half time",
+        "original_groove": "@@@\nK: O---|O---|----|O---\nS: ----|----|O---|----\nH: ----|----|----|----\nT: O-o-|O-o-|O-o-|O-o-\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
                     "unit_test_name": "have_articulation",
                     "unit_test_args": [
-                        "T",
+                        "R",
                         "O"
                     ]
                 },
                 {
                     "unit_test_name": "have_articulation",
                     "unit_test_args": [
-                        "T",
+                        "R",
                         "o"
                     ]
                 }
@@ -724,8 +724,8 @@
     "18": {
         "request": "Please add some ghost notes on the Snare.",
         "type": "specific",
-        "original_groove_name": "prog metal half time",
-        "original_groove": "@@@\nK: -O--|OO--|---O|-OO-\nS: ----|----|S---|----\nH: x-x-|x-x-|x-x-|x-x-  \nT: ----|----|---O|----\nC: O---|O---|O---|O---\nR: ----|----|----|----\n@@@",
+        "original_groove_name": "basic funk hats",
+        "original_groove": "@@@\nK: O--O|----|--O-|----\nS: ----|Oo-o|-o--|O--o\nH: X-x-|X-x-|X-x-|X-x-\nT: ----|----|----|----\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -743,7 +743,7 @@
         "request": "I'd like it to sound more disco.",
         "type": "stylistic",
         "original_groove_name": "basic 2 and 4",
-        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
+        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: X---|X---|X---|X---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -786,7 +786,7 @@
         "request": "I'd like a more funky beat.",
         "type": "stylistic",
         "original_groove_name": "basic 2 and 4",
-        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
+        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: X---|X---|X---|X---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "or": [
                 {
@@ -846,7 +846,7 @@
         "request": "The hihat pattern should be more varied.",
         "type": "descriptive",
         "original_groove_name": "basic funk hats",
-        "original_groove": "@@@\nK: O--O|----|--O-|----\nS: ----|Oo-o|-o--|O--o\nH: X-x-|X-x-|X-x-|X-x-  \nT: ----|----|----|----\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
+        "original_groove": "@@@\nK: O--O|----|--O-|----\nS: ----|Oo-o|-o--|O--o\nH: X-x-|X-x-|X-x-|X-x-\nT: ----|----|----|----\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -863,8 +863,8 @@
     "22": {
         "request": "This should sound more like a metal groove.",
         "type": "stylistic",
-        "original_groove_name": "basic boosa nova",
-        "original_groove": "@@@\nK: o---|--o-|o---|--o-\nS: ----|S---|--S-|----\nH: ----|x---|----|x---  \nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
+        "original_groove_name": "basic 2 and 4",
+        "original_groove": "@@@\nK: O---|----|O---|----\nS: ----|O---|----|O---\nH: X---|X---|X---|X---\nT: ----|----|----|----\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "or": [
                 {
@@ -895,7 +895,7 @@
         "request": "Make this double time.",
         "type": "specific",
         "original_groove_name": "basic 2 and 4",
-        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
+        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: X---|X---|X---|X---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -934,7 +934,7 @@
         "request": "Let's do a half time feel but keep everything else.",
         "type": "specific",
         "original_groove_name": "basic 2 and 4",
-        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
+        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: X---|X---|X---|X---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -966,7 +966,7 @@
         "request": "I want to replace the hihat with toms.",
         "type": "specific",
         "original_groove_name": "basic 2 and 4",
-        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
+        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: X---|X---|X---|X---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -1033,7 +1033,7 @@
         "request": "Displace the first snare backbeat by delaying an 8-th note.",
         "type": "specific",
         "original_groove_name": "basic 2 and 4",
-        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: x---|x---|x---|x---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
+        "original_groove": "@@@\nK: O---|----|O---|----  \nS: ----|O---|----|O---  \nH: X---|X---|X---|X---  \nT: ----|----|----|----  \nC: ----|----|----|----  \nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "and": [
                 {
@@ -1057,8 +1057,8 @@
     "27": {
         "request": "I'd like to hear more low frequency sounds.",
         "type": "descriptive",
-        "original_groove_name": "basic boosa nova",
-        "original_groove": "@@@\nK: o---|--o-|o---|--o-\nS: ----|S---|--S-|----\nH: ----|x---|----|x---  \nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
+        "original_groove_name": "basic funk hats",
+        "original_groove": "@@@\nK: O--O|----|--O-|----\nS: ----|Oo-o|-o--|O--o\nH: X-x-|X-x-|X-x-|X-x-\nT: ----|----|----|----\nC: ----|----|----|----\nR: ----|----|----|----\n@@@",
         "unit_tests": {
             "or": [
                 {
@@ -1246,8 +1246,8 @@
     "30": {
         "request": "There should be a cymbal hit on the 'a' of the '1 e & a' of the second beat.",
         "type": "specific",
-        "original_groove_name": "basic metal",
-        "original_groove": "@@@\nK: OOO-|--O-|OOO-|-OOO\nS: ----|O---|----|O---\nH: ----|----|----|----  \nT: ----|----|----|----\nC: O---|O---|O---|O---\nR: ----|----|----|----\n@@@",
+        "original_groove_name": "basic boosa nova",
+        "original_groove": "@@@\nK: o---|--o-|o---|--o-\nS: ----|S---|--S-|----\nH: ----|x---|----|x---\nT: ----|----|----|----\nC: ----|----|----|----\nR: x---|X-x-|x---|X-x-\n@@@",
         "unit_tests": {
             "or": [
                 {

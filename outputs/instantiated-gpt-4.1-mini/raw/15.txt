@@ -1,0 +1,32 @@
+Let's analyze the request carefully:
+
+- We need to add closed hi-hat hits on all 16th notes.
+- The hi-hat should have accents on the quarter note downbeats, i.e., the 1st, 5th, 9th, and 13th 16th notes in the bar.
+- Closed hi-hat uses 'x' for soft closed hits and 'X' for hard closed hits (accents).
+- So, on 1st, 5th, 9th, and 13th 16th notes, put 'X', and on the others, put 'x'.
+
+The original hihat line is:
+H: ----|----|----|----
+
+Now, populate it accordingly:
+
+Positions: 1 2 3 4 | 5 6 7 8 | 9 10 11 12 | 13 14 15 16
+
+Replace with:
+X x x x | X x x x | X x x x | X x x x
+
+Thus the final hihat line:
+H: Xxxx|Xxxx|Xxxx|Xxxx
+
+The rest of the instruments remain unchanged.
+
+Final groove:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: Xxxx|Xxxx|Xxxx|Xxxx
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

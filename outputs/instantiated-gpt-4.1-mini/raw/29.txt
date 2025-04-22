@@ -1,0 +1,106 @@
+The original groove has a ride cymbal playing patterns primarily on quarter notes (four beats per measure), while the hihat softly closes on two 8th notes. Doubling the time means the groove should now feel twice as fast, i.e., there are 8 beats per bar instead of 4, or equivalently, the notes sound twice as frequent.
+
+To achieve double time in a 16th note notation, we need to double the number of hits (i.e., the ride and hihat hits will be placed twice as often).
+
+In the original:
+
+- Hihat hits are on the 2nd 16th note of beat 2 and 4 (positions 6 and 14 if counting 1 to 16) with soft closed hits (x).
+- Ride cymbal hits are on 1st 16th note of beat 1, and a combined pattern X-x- in beats 2 and 4. The pattern X-x- means:
+  - X (hard closed hit) on the first 16th, 
+  - - (rest),
+  - x (soft closed hit),
+  - - (rest)
+  
+Positions for the ride cymbal hits are:
+- Beat 1: position 1 (hard closed x)
+- Beat 2: positions 5 (X), 7 (x)
+- Beat 3: position 9 (x)
+- Beat 4: positions 13 (X), 15 (x)
+
+We want to double these so ride will have hits at twice the frequency and hihat too.
+
+---
+
+**Double time approach:**
+
+- The groove will now occupy 16 beats (instead of 4 beats with 16 sixteenth notes). But since the notation format shows exactly 16 16th notes per bar (4 beats × 4 sixteenth notes each), to create double time, we keep the total number of 16th notes the same but increase the density of hits; so hits from eighth notes become 8th notes divided into sixteenth notes, hits from quarter notes become eighth notes divided into sixteenth notes.
+
+- This means: the ride pattern will be doubled in hits. For instance, any hit on quarter note now becomes a hit on 8th notes (every 2 sixteenth notes instead of 4). The pattern X-x- (XXxXx) doubled will become something like XxXx.
+
+- Similarly, soft hihat hits at positions 6 and 14 need to be doubled: each will have a hit followed by a rest (or if double time means twice as many hits, then also add hits between them).
+
+Let's place the doubled time pattern:
+
+- For H (hihat): originally at 6 and 14.
+  - Double time would have hits at 6,7 (two sixteenth notes covering one original 8th), and similarly at 14, 15.
+  - So we can put x (soft closed) on 6 and 7, and on 14 and 15.
+
+- For R (ride cymbal), original was:
+  - 1: x (soft closed)
+  - 5: X (hard closed)
+  - 7: x (soft closed)
+  - 9: x (soft closed)
+  - 13: X (hard closed)
+  - 15: x (soft closed)
+
+Double time:
+
+- 1 --> hits at 1 and 2
+- 5: X --> hits at 5 and 6 (X x)
+- 7: x --> hits at 7 and 8 (x x)
+- 9: x --> hits at 9 and 10 (x x)
+- 13: X --> hits at 13 and 14 (X x)
+- 15: x --> hits at 15 and 16 (x x)
+
+So the ride line would be:
+
+Positions: 1  2  3  4 | 5  6  7  8 | 9 10 11 12|13 14 15 16  
+          x  x  -  - | X  x  x  x  | x  x  -  - | X  x  x  x  
+
+But the original has only 16 positions, and doubled hits at every sixteenth can only be done by putting hits on consecutive sixteenths to keep the feel.
+
+Because we have 16 sixteenth notes, doubling hits at adjacent positions is fine.
+
+Similarly for hihat:
+
+Positions 6,7 and 14,15 have soft closed hits (x), rest elsewhere.
+
+We'll make the rest positions -.
+
+The final edited groove with doubled ride and hihat hits and other lines unchanged (stays empty) is:
+
+---
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----| -xx-|----| -xx-
+C: ----|----|----|----
+R: xx--|Xxxx|xx--|Xxxx
+
+Note: spaces only for readability, but in the notation the spaces are removed.
+
+---
+
+Now putting it all together without spaces and in the original style:
+
+---
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|-xx-|----|-xx-
+C: ----|----|----|----
+R: xx--|Xxxx|xx--|Xxxx
+---
+
+This groove reflects the double time feel: more frequent ride and hihat hits as described.
+
+---
+
+Final output below:  
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|-xx-|----|-xx-
+C: ----|----|----|----
+R: xx--|Xxxx|xx--|Xxxx
+@@@

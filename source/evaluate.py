@@ -14,7 +14,6 @@ import os
 parser = argparse.ArgumentParser(description="")
 parser.add_argument('--data', choices=['instantiated', 'unrolled'], required=True, help="")
 parser.add_argument('--model', default="gpt-4.1-mini", help="")
-#parser.add_argument('--id', nargs='+', required=True, help="List of IDs to process")
 args = parser.parse_args()
 
 DEFAULT_INITIALIZE_REQUEST = "Now generate one bar of any reasonable drum groove."

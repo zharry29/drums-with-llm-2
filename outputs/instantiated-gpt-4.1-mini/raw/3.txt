@@ -1,0 +1,23 @@
+The user wants to add a kick hit and a cymbal hit at the very beginning of the groove.
+
+Looking at the groove, the first 16th note corresponds to the first character in each line:
+- K: ---- (so currently no kick hit)
+- C: ---- (no crash)
+- R: x--- (ride cymbal with a hard closed hit)
+
+The user specifies "kick hit and cymbal" at the very beginning. Since 'cymbal' here can mean either Crash (C) or Ride (R), but as the ride cymbal is already present on the very first 16th note (character 1) as 'x' (hard closed hit), it's reasonable to assume they want a crash cymbal hit as well. We will add a crash cymbal hard open hit "O" at the first character.
+
+Similarly, for the kick drum, add a hard open hit "O" at the first character.
+
+Other lines are unchanged.
+
+Let's show the updated groove:
+
+K: O---|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+
+I'll output this below.

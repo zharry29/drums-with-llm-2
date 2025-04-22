@@ -1,0 +1,24 @@
+Running unit test: have_articulation
+Unit test passed.
+Running unit test: have_inst_on_note
+Unit test failed.
+Running unit test: have_inst_on_note
+Unit test failed.
+Running unit test: have_inst_on_note
+Unit test failed.
+Running unit test: have_inst_on_note
+Unit test passed.
+Running unit test: have_inst_on_note
+Unit test failed.
+Running unit test: have_inst_on_note
+Unit test failed.
+All unit tests passed.
+K: At measure 2, note 3: - -> O
+K: At measure 3, note 4: - -> O
+S: At measure 2, note 1: O -> o
+S: At measure 2, note 4: - -> o
+S: At measure 4, note 3: - -> o
+H: At measure 2, note 4: - -> o
+H: At measure 3, note 1: X -> x
+H: At measure 4, note 4: - -> o
+T: At measure 3, note 3: - -> o

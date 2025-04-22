@@ -1,0 +1,44 @@
+Let's analyze the original groove focusing on the snare hits on beats 2 and 4.
+
+Original Snare line:  
+S: ----|S---|--S-|----
+
+The "|" divides the bar in 4 beats:  
+Beat 1: ----  
+Beat 2: S---  -> Snare on the downbeat of 2 (1st 16th note of beat 2)  
+Beat 3: --S-  
+Beat 4: ----
+
+Beat 2 has a snare hit right on its downbeat, which is what we want to avoid. Beat 4 has no snare on its downbeat, but there is a snare hit on beat 3, third 16th note.
+
+The edit request is "Let's avoid having the Snare on the downbeat of 2 and 4." The current groove already avoids snare on downbeat 4. Still, let's double-check the hits on beat 4:
+
+Beat 4 fragment: ----, so no snare on 4 downbeat already.
+
+So the only issue is the snare on the downbeat of beat 2.
+
+Possible ways to fix snare on beat 2 downbeat:  
+- Remove it  
+- Move it slightly off the downbeat (e.g., to the second 16th note)
+
+Let's try moving it off the downbeat to keep some energy and groove.
+
+Original groove:  
+S: ----|S---|--S-|----
+
+Change to:  
+S: ----|-S--|--S-|----
+
+This moves the snare from the first 16th note of beat 2 to the second 16th note.
+
+The rest of the groove stays unchanged.
+
+Final groove:
+@@@
+K: o---|--o-|o---|--o-
+S: ----|-S--|--S-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

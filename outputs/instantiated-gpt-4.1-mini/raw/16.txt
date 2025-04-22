@@ -1,0 +1,57 @@
+The original groove has the hihat part as "x-x-|x-x-|x-x-|x-x-", with hard closed hits (x) on some 16-th notes.
+
+The request is to:
+- Play the closed hihat on all 8th notes: There are 8 eighth notes in a bar, so hits on every 2nd 16th note.
+- But open on every up beat: The downbeats are 1, 2, 3, 4, each of which is a quarter note, so the upbeats are the offbeats between these quarter notes, i.e. the "and" beats.
+- Keep hits hard.
+
+So the hihat pattern will be:
+- Each 8th note gets a hit.
+- On downbeats (1, 2, 3, 4) the note is a closed hit (X)
+- On upbeats (the offbeat eighth notes) the note is a hard open hit (O).
+
+Mapping this to the 16 16th notes per bar:
+- For the 16 sixteenth notes, indices are 1 to 16:
+- 8th notes at 1, 3, 5, 7, 9, 11, 13, 15
+- Downbeats (1, 5, 9, 13): closed hit hard = X
+- Upbeats (3, 7, 11, 15): open hit hard = O
+
+So the hihat line will be:
+
+Index:  1 2 3 4 | 5 6 7 8 | 9 10 11 12 | 13 14 15 16
+H:      X - O - | X - O - | X  -  O  - | X  -  O  -
+
+Replaced dashes at those positions so the pattern is:
+
+X - O -|X - O -|X - O -|X - O -
+
+Now let's build the entire groove. The other instruments remain unchanged.
+
+Original groove:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+Modified groove (only H changes):
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: X-O-|X-O-|X-O-|X-O-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+Final notation to output between @@@:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: X-O-|X-O-|X-O-|X-O-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
