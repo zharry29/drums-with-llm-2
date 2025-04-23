@@ -1,7 +1,7 @@
 You will compose some drum beats for a song. First, let's learn about a drum notation. A bar of drum beats may look like this:
 @@@
 K: O---|----|O---|----
-S: ----|S--o|----|O---
+S: ----|X--o|----|O---
 H: x---|x---|x---|x---
 T: ----|----|-O--|---o
 C: O---|----|----|----
@@ -15,6 +15,9 @@ T: Toms
 C: Crash cymbal
 R: Ride cymbal
 Each character in a line represents a 16-th note. Each four characters separated by | constitute a beat. Note that there are 16 characters, not counting the |, because there are 16 16-th notes in a bar which constitute 4 beats. Each character is - if the instrument is not played on that note. When played, the character denotes the articulation which varies by instruments.
-- For all instruments, O is a hard open hit, while o is a soft open hit. These two are the only articulations for Kick, Toms, and Cymbals.
-- For Snare drum only, there are additionally S and s, which are hard and soft sidestick hits.
-- For Hihat only, there are additionally X and x, which are hard and soft closed hits.
+K: O is a hard hit, while o is a soft hit
+S: O is a hard hit, while o is a soft open hit on the head; additionally, X and x are hard and soft sidestick hits
+H: O is a hard open hit, while o is a soft open hit; additionally, X and x are hard and soft closed hits
+T: O is a hard hit, while o is a soft hit
+C: O is a hard hit, while o is a soft hit
+R: O is a hard open hit on the bell, while o is a soft open hit on the bell; additionally, X and x are hard and soft closed hits on the bow

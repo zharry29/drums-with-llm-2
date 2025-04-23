@@ -1,57 +1,51 @@
-The original groove has the hihat part as "x-x-|x-x-|x-x-|x-x-", with hard closed hits (x) on some 16-th notes.
-
-The request is to:
-- Play the closed hihat on all 8th notes: There are 8 eighth notes in a bar, so hits on every 2nd 16th note.
-- But open on every up beat: The downbeats are 1, 2, 3, 4, each of which is a quarter note, so the upbeats are the offbeats between these quarter notes, i.e. the "and" beats.
-- Keep hits hard.
-
-So the hihat pattern will be:
-- Each 8th note gets a hit.
-- On downbeats (1, 2, 3, 4) the note is a closed hit (X)
-- On upbeats (the offbeat eighth notes) the note is a hard open hit (O).
-
-Mapping this to the 16 16th notes per bar:
-- For the 16 sixteenth notes, indices are 1 to 16:
-- 8th notes at 1, 3, 5, 7, 9, 11, 13, 15
-- Downbeats (1, 5, 9, 13): closed hit hard = X
-- Upbeats (3, 7, 11, 15): open hit hard = O
-
-So the hihat line will be:
-
-Index:  1 2 3 4 | 5 6 7 8 | 9 10 11 12 | 13 14 15 16
-H:      X - O - | X - O - | X  -  O  - | X  -  O  -
-
-Replaced dashes at those positions so the pattern is:
-
-X - O -|X - O -|X - O -|X - O -
-
-Now let's build the entire groove. The other instruments remain unchanged.
+Let's analyze the request and the original groove.
 
 Original groove:
+- The hihat (H) is silent on all notes.
+- The ride cymbal (R) is hitting on 8th notes (positions 1, 3, 5, 7... counting 16th notes), with a pattern "o-O-", meaning soft open bell, hard open bell...
+- The request wants:
+  - Closed hihat on all 8th notes (positions 1, 3, 5, 7, 9, 11, 13, 15)
+  - Open hihat on every up beat. In 8th note subdivisions, the "up beats" are the "and" beats, that is the second 8th note of each quarter note beat: positions 3, 7, 11, 15.
+  - All hits hard.
+  
+So to translate:
+- For positions 1, 5, 9, 13 (downbeats of beats 1, 2, 3, 4), the hihat should be closed hard: "X"
+- For positions 3, 7, 11, 15 (upbeats), the hihat should be opened hard: "O"
 
-K: -O--|OO--|---O|-OO-
-S: ----|----|S---|----
-H: x-x-|x-x-|x-x-|x-x-
-T: ----|----|---O|----
-C: O---|O---|O---|O---
-R: ----|----|----|----
+Let's create the new hihat line by placing "X" at 1,5,9,13, and "O" at 3,7,11,15. The rest are "-".
 
-Modified groove (only H changes):
+Positions: 1 2 3 4 5 6 7 8 ... 16
 
-K: -O--|OO--|---O|-OO-
-S: ----|----|S---|----
-H: X-O-|X-O-|X-O-|X-O-
-T: ----|----|---O|----
-C: O---|O---|O---|O---
-R: ----|----|----|----
+Thus:
 
-Final notation to output between @@@:
+1: X  
+2: -  
+3: O  
+4: -  
+5: X  
+6: -  
+7: O  
+8: -  
+9: X  
+10: -  
+11: O  
+12: -  
+13: X  
+14: -  
+15: O  
+16: -
+
+New Hihat line: "X-O-X-O-X-O-X-O-"
+
+Now I will keep all other lines same from original groove.
+
+Final groove:
 
 @@@
-K: -O--|OO--|---O|-OO-
-S: ----|----|S---|----
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
 H: X-O-|X-O-|X-O-|X-O-
-T: ----|----|---O|----
-C: O---|O---|O---|O---
-R: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
 @@@

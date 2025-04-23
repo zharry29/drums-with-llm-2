@@ -227,16 +227,34 @@
             }
         },
         "10": {
-            "request": "I want something on every 16-th note.",
+            "request": "I want snare on every 16-th note in the second beat.",
             "type": "specific",
             "original_groove_name": "any",
             "original_groove": "",
             "unit_tests": {
                 "and": [
                     {
-                        "unit_test_name": "num_notes_less_than",
+                        "unit_test_name": "have_inst_on_note",
                         "unit_test_args": [
-                            9
+                            "S", 4
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "S", 5
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "S", 6
+                        ]
+                    },
+                    {
+                        "unit_test_name": "have_inst_on_note",
+                        "unit_test_args": [
+                            "S", 7
                         ]
                     }
                 ]
@@ -591,7 +609,7 @@
             }
         },
         "17": {
-            "request": "I want the same amount of @inst0@ but more dynamic.",
+            "request": "I want the same placement of @inst0@ but more dynamic.",
             "type": "descriptive",
             "original_groove_name": "any",
             "original_groove": "",

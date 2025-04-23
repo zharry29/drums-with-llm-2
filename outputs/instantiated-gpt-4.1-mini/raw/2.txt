@@ -1,18 +1,30 @@
-The edit request asks to remove any ride or kick from the drum groove. 
+The request is to remove any kick (K) and snare (S) hits from the given groove. That means all characters on the K and S lines should become '-' (no hit). 
 
-Looking at the given groove:  
-- Kick drum (K) has hits on many 16th notes, I will replace all these with '-' as "no kick."
-- Ride cymbal (R) is already empty (all '-'), so no changes needed there.
+Original groove:
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
 
-All other lines (S, H, T, C) remain unchanged.
+Removing kick and snare would yield:
+K: ----|----|----|----
+S: ----|----|----|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
 
-The updated groove without kick or ride will be:
+The cymbals and toms are untouched.
+
+Here is the final groove:
 
 @@@
 K: ----|----|----|----
-S: ----|----|S---|----
-H: x-x-|x-x-|x-x-|x-x-
-T: ----|----|---O|----
-C: O---|O---|O---|O---
+S: ----|----|----|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
 R: ----|----|----|----
 @@@

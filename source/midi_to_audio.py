@@ -13,6 +13,7 @@ SAMPLE_MAP = {
     45: "../samples/tom_hard.wav",  # Low Tom
     49: "../samples/crash_hard.wav",  # Crash Cymbal 1
     51: "../samples/ride_hard.wav",  # Ride Cymbal 1
+    53: "../samples/ride_bell_hard.wav",  # Ride Cymbal 1
     # soft
     16: "../samples/kick_soft.wav",  # Kick
     17: "../samples/snare_sidestick_soft.wav",  # Snare sidestick
@@ -22,6 +23,7 @@ SAMPLE_MAP = {
     25: "../samples/tom_soft.wav",  # Low Tom
     29: "../samples/crash_soft.wav",  # Crash Cymbal 1
     31: "../samples/ride_soft.wav",  # Ride Cymbal 1
+    33: "../samples/ride_bell_soft.wav",  # Ride Cymbal 1
 }
 
 def midi_to_audio(in_fname, out_fname):

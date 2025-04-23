@@ -3,9 +3,9 @@ Unit test passed.
 Running unit test: have_inst_on_note
 Unit test passed.
 Running unit test: have_articulation_on_note
-Unit test passed.
+Unit test failed.
 Running unit test: have_articulation_on_note
-Unit test passed.
-All unit tests passed.
-S: At measure 2, note 1: O -> S
-S: At measure 4, note 1: O -> S
+Unit test failed.
+Some unit tests failed.
+S: At measure 2, note 1: O -> X
+S: At measure 4, note 1: O -> X

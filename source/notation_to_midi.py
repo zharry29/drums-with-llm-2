@@ -86,11 +86,14 @@ def notation_to_midi(notation, out_fname, bpm=120, fname="temp"):
                     elif char == 'o':
                         midi_pitch = 29
                 elif drum_name == 'R':
-                    if char == 'O':
+                    if char == 'X':
                         midi_pitch = 51
-                    elif char == 'o':
+                    elif char == 'x':
                         midi_pitch = 31
-                    midi_pitch = 51
+                    if char == 'O':
+                        midi_pitch = 53
+                    elif char == 'o':
+                        midi_pitch = 33
                 note = pretty_midi.Note(
                     velocity=100,  # velocity does not matter
                     pitch=midi_pitch,

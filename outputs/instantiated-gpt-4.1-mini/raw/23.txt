@@ -1,68 +1,27 @@
-The original groove's tempo has 16 16-th notes per bar, with hits spaced out at certain quarters.
+The original groove is in 4/4 at a normal time, with one kick drum hit on beat 1 and beat 3, snare drum hits on beat 2 and beat 4, and hihat playing steady closed hits on each beat (every quarter note).
 
-To make the groove double time, the tempo doubles, so the hits should be twice as frequent or the hits should move to twice as fast pulse, so within the same 16th notes grid, more hits appear.
+To make it double time means to double the tempo, or equivalently, to double the number of hits per bar, usually by changing the subdivision from quarter notes to eighth notes. For the groove:
+- Kick drum originally hits at beats 1 and 3 (positions 1 and 9 in the 16-step sequence). In double time, we put kick hits on twice as many positions: 1, 5, 9, 13.
+- Snare hits originally on beats 2 and 4 (positions 5 and 13). In double time, they will be placed on 3 and 7, and 11 and 15, or more simply 3, 7, 11, 15 positions to keep the backbeat feel doubled.
+- Hihats originally hit on every beat (positions 1, 5, 9, 13 with X). In double time, hihats will hit on every 16th note (all positions 1 to 16), as the time is doubled.
 
-In practice, to preserve the pattern feel but double the tempo, every hit would occur twice as often in terms of 16th notes; the distance between hits halves.
+Now, let's rewrite the pattern with the doubled hits.
 
-Let me analyze the original groove:
+Positions are enumerated as:
+1  2  3  4 | 5  6  7  8 | 9  10 11 12 | 13 14 15 16
 
-K: O---|----|O---|----  
-- Kick hits on 1 and 9 (counting 16th notes starting from 1)
+- Kick drum (K): original 1,9 --> double time: 1,5,9,13 → O at those positions.
+- Snare drum (S): original 5,13 --> double time: 3,7,11,15 → O at those positions.
+- Hihat (H): originally X at 1,5,9,13 → double time: X at all positions (x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x).
+- Toms (T), Crash (C), Ride (R): no change, stay silent.
 
-S: ----|O---|----|O---  
-- Snare hits on 5 and 13
-
-H: X---|X---|X---|X---  
-- Hi-hat closed hits on every 1st 16th of each beat (1,5,9,13)
-
-T, C, R: no hits.
-
-To double time this groove, we put those hits at half the gap:
-
-- Kick hits at 1 and 9 → now also add hits between them, so kicks at 1, 3, 9, 11 or similarly
-
-- Snare hits at 5 and 13 → double time hits would be at 5,7 and 13,15
-
-- Hihat at 1,5,9,13 → double hihat hits at every even 16th note: every 1,3,5,7,9,11,13,15 (every 8th of the beat, or every 16th note now counting 16 notes per bar)
-
-I think the classic double time would have the hihat on every 8th note (twice per quarter note), but since the original hihat was on every quarter note (1,5,9,13), now it's on every 8th note (1,3,5,7,9,11,13,15) to double time it.
-
-Kicks and snares double their hits accordingly.
-
-Let's compose the double time groove:
-
-K: O-O-|----|O-O-|----
-At kick hits on 1,3,9,11
-
-S: --O-|----|--O-|----
-At snare soft hits on 7 and 15 or following the earlier pattern snare hits at 5 and 13 in the original doubled time correspond to 5,7 and 13,15, so maybe putting them at 3,7,11,15 for a flowing feel.
-
-But the original snare hits were at 5 and 13, so doubled time snare might be hits at 5,7,13,15.
-
-So then:
-
-S: --O-|--O-|--O-|--O-
-
-Hey, that would become a strong consistent backbeat.
-
-H: X-X-|X-X-|X-X-|X-X-
-Hihat closed on all 1,3,5,7,9,11,13,15
-
-T,C,R: no hits.
-
-Now verifying the count of characters per line: 16 per bar (not counting pipes).
-
-Let's write the full notation with this idea.
+The final groove with these changes is:
 
 @@@
-K: O-O-|----|O-O-|----
+K: O---|O---|O---|O---
 S: --O-|--O-|--O-|--O-
 H: X-X-|X-X-|X-X-|X-X-
 T: ----|----|----|----
 C: ----|----|----|----
 R: ----|----|----|----
 @@@
-
-This fulfills the double time feel: hihat doubled to 8th notes, kick and snare doubled with increased frequency.
-
-This is the final groove.

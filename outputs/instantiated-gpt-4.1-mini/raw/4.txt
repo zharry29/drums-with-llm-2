@@ -1,35 +1,26 @@
-The original groove's last 8th note corresponds to the 9th 16th note (since 1 beat = 4 sixteenth notes, 8th note is every 2 sixteenth notes). The last 8th note of the bar is at position 9 (counting from 1). The Hihat line currently has:
-H: --o-|O-o-|O-o-|O-o-
+The last 8-th note means the 14th character in each line (counting from 1). Looking at the Hihat (H:) line from the given groove:
 
-Looking specifically at the last beat (last four 16th notes, positions 13-16):
-O-o-
+H: ----|x---|----|x---
 
-Positions:
-13: O (hard open)
-14: - (silent)
-15: o (soft open)
-16: - (silent)
+The last measure is "|x---|" which corresponds to "x---" for the last 4 16th notes of the bar. The 14th note is the 2nd character in the last measure, which is currently "x" (soft closed hihat).
 
-Counting the full 16 notes in the bar:
-Positions 1-4: --o- (1: -, 2: -, 3: o, 4: -)
-Positions 5-8: O-o- (5: O, 6: -, 7: o, 8: -)
-Positions 9-12: O-o- (9: O, 10: -, 11: o, 12: -)
-Positions 13-16: O-o- (13: O, 14: -, 15: o, 16: -)
+The request is to add an open hihat on the 14th note, which is an "o" or "O" (soft or hard open hihat). Since it's not specified if it should be soft or hard, I'll choose a hard open hihat "O" to make it distinct.
 
-The last 8th note corresponds to the note at position 9 and 10 (the 2 sixteenth notes for the 8th note). The "last 8th note" might mean the last half beat, which is notes 15 and 16. Since the user says "an open hihat on the last 8th note," it is likely they mean to have an open hihat hit on the last 8th note of the bar, which are the two sixteenth notes 15 and 16.
+So we'll replace the "x" at the 14th note with "O".
 
-Currently, at 15: o (soft open) and 16: - (silence), so I will adjust the 16th note at position 16 to be o to represent an open hihat.
+The final Hihat line will be:
 
-But both 15 and 16 are open already (15: soft open "o", 16: silent). So adding an open hihat on the 16th note means changing 16th note from - to "o".
+H: ----|x---|----|O---
 
-So change last hihat line from "O-o-" to "O-oo" to add an open hihat on the last 8th note (position 16).
+Other lines remain unchanged.
 
-The final groove would be:
-K: O---|---o|O-O-|----
-S: ----|O---|----|O---
-H: --o-|O-o-|O-o-|O-oo
+The final groove:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|O---
 T: ----|----|----|----
-C: O---|----|----|----
-R: ----|----|----|----
-
-I will produce this as final.
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

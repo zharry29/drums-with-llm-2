@@ -1,30 +1,27 @@
-The original groove "K:" line is:
-OOO-|--O-|OOO-|-OOO
+The original groove has the Kick (K) pattern as:  
+K: OOO-|--O-|OOO-|-OOO  
+This means there are hits on many 16th notes, but there are also some rests.
 
-Here each character corresponds to a 16th note (16 characters per bar excluding the "|"). The bar length is 16 16th notes, and "|" marks every 4 notes (one beat).
+The request is to "fill up the whole bar with double kick," which means the Kick drum should be played on every 16th note in the bar with hard hits (O), so there are no rests in the Kick line for the entire 16 notes.
 
-The request is to "fill up the whole bar with double kick."
+So the new Kick line should be all Os:  
+K: OOOOOOOOOOOOOOOO
 
-Double kick means the kick drum plays on every 16th note, i.e., every position should be filled with "O" for the kick drum line.
+The other lines (Snare, Hihat, Toms, Crash, Ride) remain unchanged.
 
-So instead of the original pattern:  
-K: OOO-|--O-|OOO-|-OOO
-
-We replace all 16 characters (4 beats × 4 sixteenth notes each) with "O" for the kick drum. That makes:
-
-K: OOOO|OOOO|OOOO|OOOO
-
-The rest of the instruments remain unchanged.
-
-Let's keep the original other parts unchanged:
-
+Here's the new groove:  
+K: OOOOOOOOOOOOOOOO  
 S: ----|O---|----|O---  
 H: ----|----|----|----  
 T: ----|----|----|----  
 C: O---|O---|O---|O---  
 R: ----|----|----|----
 
-This is the final groove:
+I'll reinsert the bars and keep the vertical bars for readability: every 4 characters add a | except at the edges.
+
+New Kick line: OOOO|OOOO|OOOO|OOOO
+
+Final notation format:
 
 @@@
 K: OOOO|OOOO|OOOO|OOOO

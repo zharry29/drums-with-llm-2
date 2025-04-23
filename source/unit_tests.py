@@ -11,11 +11,11 @@ def correct_articulations(drum_dict):
     """Check if the drum_dict contains all the required articulations."""
     permitted_articulations = {
         'K': ['O', 'o', '-'],
-        'S': ['O', 'o', 'S', 's', '-'],
+        'S': ['O', 'o', 'X', 'x', '-'],
         'H': ['O', 'o', 'X', 'x', '-'],
         'T': ['O', 'o', '-'],
         'C': ['O', 'o', '-'],
-        'R': ['O', 'o', '-']
+        'R': ['O', 'o', 'X', 'x', '-']
     }
     for inst in drum_dict:
         beats = drum_dict[inst]

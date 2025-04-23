@@ -1,42 +1,59 @@
-Let's analyze the original groove focusing on the snare hits on beats 2 and 4.
+The original groove has S: ----|X---|--X-|----, where "X" (hard sidestick hit) falls on the downbeats of 2 and 4 (the first 16th note in the 2nd and 4th beat of the bar).
 
-Original Snare line:  
-S: ----|S---|--S-|----
+To avoid Snare on the downbeats of 2 and 4, I need to move those hits to an offbeat.
 
-The "|" divides the bar in 4 beats:  
-Beat 1: ----  
-Beat 2: S---  -> Snare on the downbeat of 2 (1st 16th note of beat 2)  
-Beat 3: --S-  
-Beat 4: ----
+- On beat 2 (second quarter note), Snare hit is on the first 16th (immediately after beat 1), so I can move it to the second or third 16th note of beat 2 (offbeat).
+- Similarly for beat 4.
 
-Beat 2 has a snare hit right on its downbeat, which is what we want to avoid. Beat 4 has no snare on its downbeat, but there is a snare hit on beat 3, third 16th note.
+I will move both to the second 16th note of their beats to keep some groove.
 
-The edit request is "Let's avoid having the Snare on the downbeat of 2 and 4." The current groove already avoids snare on downbeat 4. Still, let's double-check the hits on beat 4:
+Original:
+S: ----|X---|--X-|----
 
-Beat 4 fragment: ----, so no snare on 4 downbeat already.
+Positions (16th notes):
+Beat 1: positions 1-4
+Beat 2: positions 5-8
+Beat 3: 9-12
+Beat 4: 13-16
 
-So the only issue is the snare on the downbeat of beat 2.
+S: positions:
+| from 1 to 16 |
+|----|X---|--X-|----|
+X at position 5 (downbeat of 2)
+X at position 11 (downbeat of 4)
 
-Possible ways to fix snare on beat 2 downbeat:  
-- Remove it  
-- Move it slightly off the downbeat (e.g., to the second 16th note)
+So I will move S hits at positions 5 -> position 6, and position 11 -> position 14 (just to vary a bit, second 16th note after 4, still offbeat).
 
-Let's try moving it off the downbeat to keep some energy and groove.
+Double check that there are no conflicting hits.
 
-Original groove:  
-S: ----|S---|--S-|----
+New S line thus:
+Positions: 1-4 no hit, 5 no hit, 6 X, 7-8 no hit, 9-10 no hit, 11 no hit, 12 no hit, 13 no hit, 14 X, 15-16 no hit.
 
-Change to:  
-S: ----|-S--|--S-|----
+So:
 
-This moves the snare from the first 16th note of beat 2 to the second 16th note.
+Positions 1-4: ----  
+Positions 5-8: -X--  
+Positions 9-12: ----  
+Positions 13-16: --X-  
 
-The rest of the groove stays unchanged.
+Putting bar line back:
+
+S: ----|-X--|----|--X-
+
+Rest lines remain the same.
 
 Final groove:
+
+K: o---|--o-|o---|--o-
+S: ----|-X--|----|--X-
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
 @@@
 K: o---|--o-|o---|--o-
-S: ----|-S--|--S-|----
+S: ----|-X--|----|--X-
 H: ----|x---|----|x---
 T: ----|----|----|----
 C: ----|----|----|----

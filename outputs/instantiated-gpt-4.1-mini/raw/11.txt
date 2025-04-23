@@ -1,42 +1,44 @@
-The given groove is:
+The original groove has four 4-beat measures, each 16 16th notes. The request is to drop out everything in the second beat (the second set of 4 16th notes).
 
-K: ----|----|----|----
-S: ----|----|----|----
-H: ----|x---|----|x---
-T: ----|----|----|----
-C: ----|----|----|----
-R: x---|X-x-|x---|X-x-
+Let's identify the second beat (second group of 4 characters) in each instrument line and replace those characters with dashes (----) to drop the sounds.
 
-The request is to "Drop out everything in the second beat."
+Original:
+K: O--O|----|--O-|----  
+S: ----|Oo-o|-o--|O--o  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: o-O-|o-O-|o-O-|o-O-
 
-The groove is split into 4 beats per bar. The second beat corresponds to the second group of 4 characters after the first |.
+The beats are separated by the |, so second beat is the second set between the |s.
 
-Looking at the second beat (second group of four characters) for each instrument:
+Breaking down second beats:
 
-- K: ---- (nothing to change)
-- S: ---- (nothing to change)
-- H: x--- (the first character is 'x', so drop out => all '-')
-- T: ---- (nothing to change)
-- C: ---- (nothing to change)
-- R: X-x- (various hits, need to replace all with '-')
+K: ----  
+S: Oo-o  
+H: ----  
+T: ----  
+C: ----  
+R: o-O-
 
-So I'll replace the second beat with "----" for all lines.
+We will replace these with ---- for that beat.
 
-Final groove:
+After change:
 
-K: ----|----|----|----
-S: ----|----|----|----
-H: ----|----|----|x---
-T: ----|----|----|----
-C: ----|----|----|----
-R: x---|----|x---|X-x-
+K: O--O|----|--O-|---- (second beat is already ----, no change here)  
+S: ----|----|-o--|O--o (second beat changed from Oo-o to ----)  
+H: ----|----|----|---- (already ----)  
+T: ----|----|----|---- (already ----)  
+C: ----|----|----|---- (already ----)  
+R: o-O-|----|o-O-|o-O- (second beat changed from o-O- to ----)
 
-Now I will output the final groove: 
+Here's the updated drum groove:
+
 @@@
-K: ----|----|----|----
-S: ----|----|----|----
-H: ----|----|----|x---
+K: O--O|----|--O-|----
+S: ----|----|-o--|O--o
+H: ----|----|----|----
 T: ----|----|----|----
 C: ----|----|----|----
-R: x---|----|x---|X-x-
+R: o-O-|----|o-O-|o-O-
 @@@

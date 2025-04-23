@@ -8,18 +8,18 @@ def run_unit_test(drum_dict, unit_test_name, unit_test_args):
     return unit_test_func(drum_dict, *unit_test_args)
 
 drum_notation = """
-    K: O---|----|O---|----
-    S: ----|S--o|----|O---
-    H: x---|x---|x---|x---
-    T: ----|----|-O--|---o
-    C: O---|----|----|----
-    R: ----|----|----|----
-    """
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|ooOo|----
+C: O---|O---|O---|O---
+R: ----|----|----|--x-
+="""
 
 drum_dict = parse_drum_notation(drum_notation)
 
-unit_test_name = "no_inst_on_beat"
-unit_test_args = ["K", 3]
+unit_test_name = "have_inst"
+unit_test_args = ["T"]
 
 if unit_test_name:
     print("\nRunning unit test: ", unit_test_name)
