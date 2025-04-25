@@ -1,22 +1,33 @@
 import argparse
-from openai import OpenAI
-with open("../../drums_llm.key") as f:
-    key = f.read().strip()
-client = OpenAI(api_key = key)
+# from openai import OpenAI
 import json
 from parse import parse_drum_notation, parse_response
 from unit_tests import *
 from notation_to_midi import notation_to_midi
 from midi_to_audio import midi_to_audio
 import os
+from kani import Kani
+from kani.engines.huggingface import HuggingEngine
+from kani.engines.openai import OpenAIEngine
+import asyncio
 
 # Argument parsing
 parser = argparse.ArgumentParser(description="")
 parser.add_argument('--data', choices=['instantiated', 'unrolled'], required=True, help="")
-parser.add_argument('--model', default="gpt-4.1-mini", help="")
+parser.add_argument('--model', required=True, help="")
 args = parser.parse_args()
 
-DEFAULT_INITIALIZE_REQUEST = "Now generate one bar of any reasonable drum groove."
+with open("../../drums_llm_key.json") as f:
+    keys = json.load(f)
+model_name = args.model
+if args.model.startswith("gpt") or args.model.startswith("o"):
+    engine = OpenAIEngine(keys["openai"], model=model_name)
+elif args.model == "DeepSeek-R1":
+    engine = OpenAIEngine(keys["deepseek"], model = "deepseek-reasoner", api_base="https://api.deepseek.com",max_context_size=10000)
+else:
+    engine = HuggingEngine(model_id = model_name)
+
+ai = Kani(engine, system_prompt="")
 
 with open("../prompts/prompt.json") as f:
     prompt_structure = json.load(f)
@@ -26,6 +37,10 @@ with open("../prompts/initial_prompt.txt") as f:
 
 with open(f"../prompts/requests_{args.data}.json") as f:
     requests = json.load(f)
+
+async def run_model(prompt):
+    response = await ai.chat_round_str(prompt)
+    return response
 
 def run_unit_test(drum_dict, unit_test_name, unit_test_args):
     # Get the function from the unit_tests module by name
@@ -69,47 +84,13 @@ for id, request_block in requests.items():
 
     print("Request: ", request)
     prompt = build_prompt(prompt_structure, request_block)
-    input=[
-        {
-            "role": "user",
-            "content": [
-                {
-                "type": "input_text",
-                "text": prompt
-                }
-            ]
-        }
-    ]
-
-    response = client.responses.create(
-        model=args.model,
-        input=[
-            {
-                "role": "user",
-                "content": [
-                    {
-                    "type": "input_text",
-                    "text": prompt
-                    }
-                ]
-            }
-        ],
-        text={
-            "format": {
-            "type": "text"
-            }
-        },
-        reasoning={},
-        tools=[],
-        temperature=1,
-        max_output_tokens=2048,
-        top_p=1,
-        store=True
-    )
-    response_txt = response.output[0].content[0].text
+    response_txt = asyncio.run(run_model(prompt))
+    print(response_txt)
+    #response_txt = response.output[0].content[0].text
     drum_notation = parse_response(response_txt)
 
-    output_dir = f"../outputs/{args.data}-{args.model}"
+    model_short_name = model_name.split("/")[-1] if "/" in model_name else model_name
+    output_dir = f"../outputs/{args.data}_{model_short_name}"
     os.makedirs(output_dir, exist_ok=True)
     # Create output subdirectories if they don't exist
     for subdir in ["raw", "notation", "test_results", "midi", "audio"]:

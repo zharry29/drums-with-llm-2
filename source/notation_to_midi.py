@@ -58,9 +58,9 @@ def notation_to_midi(notation, out_fname, bpm=120, fname="temp"):
                     elif char == 'o':
                         midi_pitch = 16
                 elif drum_name == 'S':
-                    if char == 'S':
+                    if char == 'X':
                         midi_pitch = 37
-                    elif char == 's':
+                    elif char == 'x':
                         midi_pitch = 17
                     elif char == 'O':
                         midi_pitch = 38

@@ -1,0 +1,51 @@
+Alright, so I need to help the user edit their drum groove by replacing the hihat with toms. Let me break this down step by step.
+
+First, I'll look at the original drum groove they provided:
+
+```
+@@@
+K: O---|----|O---|----  
+S: ----|O---|----|O---  
+H: X---|X---|X---|X---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----
+@@@
+```
+
+The user wants to replace the hihat (H) with toms (T). That means I need to move all the hihat notes to the toms line and make sure the hihat line is empty or has the default '-' to indicate no hits.
+
+Looking at the hihat line: `H: X---|X---|X---|X---`. This means the hihat is playing a hard closed hit (X) on the first 16th note of each beat. The rest are '-' indicating no hits.
+
+Since the user wants to replace the hihat with toms, I'll take those X's and place them in the toms line. The toms line is currently all '-', so I'll replace the first character of each beat with 'X' to indicate a hard hit on the toms.
+
+So, the new toms line becomes: `T: X---|X---|X---|X---`.
+
+Now, I'll set the hihat line to all '-' since we're removing the hihat: `H: ----|----|----|----`.
+
+I'll leave the rest of the instruments as they are unless instructed otherwise.
+
+Putting it all together, the updated drum groove should look like this:
+
+```
+@@@
+K: O---|----|O---|----  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: X---|X---|X---|X---  
+C: ----|----|----|----  
+R: ----|----|----|----
+@@@
+```
+
+I should double-check to ensure that only the hihat and toms have been modified and that all other instruments remain unchanged. This should fulfill the user's request to replace the hihat with toms in their drum groove.
+</think>
+
+@@@
+K: O---|----|O---|----  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: X---|X---|X---|X---  
+C: ----|----|----|----  
+R: ----|----|----|----
+@@@

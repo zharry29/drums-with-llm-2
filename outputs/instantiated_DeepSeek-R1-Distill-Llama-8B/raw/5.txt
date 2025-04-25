@@ -1,0 +1,29 @@
+Alright, so I'm trying to figure out how to edit this drum groove based on the user's request. The user provided a drum notation with various instruments and a specific groove. The edit request is to avoid having the Snare on the downbeat of 2 and 4. 
+
+First, I need to understand the current groove structure. The drum groove has four beats per bar, each represented by four characters separated by |. Each line corresponds to an instrument: Kick (K), Snare (S), Hihat (H), Tom (T), Crash cymbal (C), and Ride cymbal (R). 
+
+Looking at the current Snare line (S), it's set up as:
+S: ----|X---|--X-|----
+This means that on the first beat, the Snare isn't played (----), on the second beat, it's an X (which is a hard sidestick hit), on the third beat, it's another X, and on the fourth beat, it's ----. 
+
+The user wants to avoid the Snare on the downbeat of 2 and 4. That means the second and fourth beats shouldn't have the Snare active. So, I need to modify the Snare line so that those positions are ---- instead of X.
+
+Starting with the second beat, which is currently X---, I'll change that to ----. Similarly, the fourth beat is ----, so it's already fine. 
+
+So, the updated Snare line becomes:
+S: ----|----|----|----
+This way, the Snare isn't played on the second and fourth beats, as requested.
+
+I should double-check to make sure that only the second and fourth beats are affected and that other positions remain the same. Also, I need to ensure that the rest of the instruments are correctly represented without any unintended changes.
+
+After making these adjustments, the final drum groove should reflect the user's request accurately.
+</think>
+
+@@@  
+K: o---|--o-|o---|--o-  
+S: ----|----|----|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@
