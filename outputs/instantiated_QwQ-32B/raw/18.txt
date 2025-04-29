@@ -1,0 +1,176 @@
+Okay, let me try to figure out how to add ghost notes to the snare in the given drum groove. First, I need to recall what ghost notes are. From what I remember, ghost notes are soft, muted hits on the snare drum, usually played with the fingers or a light touch. In the drum notation provided, the snare (S) uses 'o' for soft open hits. Since ghost notes are soft and muted, maybe 'o' is appropriate here.
+
+Looking at the original groove:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+The snare only hits on the fourth beat of the third and fourth bars. The user wants ghost notes added. Ghost notes are typically placed on the off-beats, like the "and" of each count. Since each bar has four beats (each beat is four 16th notes?), wait, actually each line is divided into four beats with four 16th notes each, so each bar has 16 16th notes. Let me parse the structure again.
+
+Each line is in the format like K: O---|----|----|O--- which is four beats separated by |, each beat is four 16th notes. So the entire bar has 16 notes. 
+
+The original snare line is all dashes except the third beat's third position? Wait, let me check:
+
+S: ----|----|O---|----
+
+Breaking it down per beat:
+
+Beat 1: ---- (no hits)
+Beat 2: ---- (no hits)
+Beat 3: O--- (snare hit on the first 16th note of beat 3)
+Beat 4: ---- (no hits except maybe the last beat? Wait, the fourth beat in S is "----", but the fourth K is "O---". Wait, maybe the user's example has the snare only on beat 3, first 16th note. So the snare is only hitting once on the third beat's first note.
+
+To add ghost notes, typically they're on the off-beats. For example, in a rock groove, you might have a pattern like on the 1 e & a 2 e & a, etc. So maybe placing soft hits (o) on the "e" and "&" parts. Let me think of a common ghost note pattern. 
+
+Suppose we want to add ghost notes on the "e" and "&" of each beat. Since each beat has four 16th notes, positions 1,2,3,4. The downbeat is 1, the "e" is 2, "&" is 3, "a" is 4. So for each beat, ghost notes on 2 and 3. 
+
+Looking at the existing snare hits: the only hit is on beat 3, first 16th note (position 1 of beat 3). So to add ghost notes around that, maybe spread them across the bar. Let's see:
+
+Let me start with the first beat. If we add ghost notes on the "e" and "&", that would be positions 2 and 3. So for beat 1: -o-o? Wait, but the user's example uses 'o' for soft open hits. So maybe:
+
+For each beat except the third, add ghost notes on 2 and 3. On the third beat, maybe keep the original O on 1, and add ghosts on 2 and 3, then maybe a hit on 4? Or perhaps adjust.
+
+Alternatively, since the original snare is only on beat 3, first note, maybe the user wants to keep that as the main hit and add ghosts around it. Let me think of a standard rock groove where the snare is on 3 and 4, but with ghosts. Hmm, maybe a pattern like:
+
+On beats 1, 2, 3, 4:
+
+Beat 1: o-o- (ghosts on 2 and 3)
+Beat 2: o-o- 
+Beat 3: O--- (original hit on 1, plus maybe ghosts on 2 and 3? Or maybe O followed by ghosts)
+Wait, the original third beat is O---, so first note is O, then the rest are dashes. If adding ghosts on the 2 and 3 of beat 3, that would be O-o-?
+
+But the user's request is to add ghost notes, so maybe spread them across the bar except where the main hit is. Let me try constructing the S line step by step.
+
+Original S line: ----|----|O---|----
+
+After adding ghost notes:
+
+Let me consider each beat:
+
+Beat 1: Add ghosts on 2 and 3 → positions 2 and 3: 'o's. So: -o-o-
+Wait, but each beat is four characters. So beat 1 would be "-o-o" (positions 1,2,3,4: -, o, o, -). But maybe the user wants more notes. Alternatively, maybe on every 16th note except the main hit. Alternatively, let's think of a common ghost note pattern like on the "e" and "a" of each beat. Wait, "e" is 2, "&" is 3, "a" is 4. Maybe ghosts on 2 and 4? Not sure. 
+
+Alternatively, perhaps the user wants the snare to have a more active pattern with ghost notes. Let's see, the original has a single hit on beat 3. To make it more dynamic, perhaps add ghost notes on the off-beats leading up to that. For example, in beat 2, add some ghosts, and in beat 3, have the main hit plus maybe a ghost on the "a" (position 4). 
+
+Alternatively, maybe distribute the ghost notes across all beats except where the main hit is. Let me try building each beat:
+
+Beat 1: Ghosts on 2 and 3 → -o-o
+Beat 2: Same → -o-o
+Beat 3: Original O on 1, then maybe ghosts on 2 and 3 → Oo-o
+Beat 4: Maybe add a ghost on 2 and 3 → -o-o
+
+Putting that together:
+
+S: -o-o|-o-o|Oo-o|-o-o
+
+Wait but the original third beat is "O---", so replacing that with "Oo-o" (positions 1: O, 2: o, 3: o, 4: -) ?
+
+Alternatively, maybe the third beat's main hit is on the first 16th note, so the ghost notes would be on the 2nd and 3rd. That would make the third beat: O o o -, so "Ooo-".
+
+But the user might want the main hit plus the ghosts. 
+
+Alternatively, perhaps the ghost notes are on all off-beats except where the main hit is. Let me check the total notes. The original snare had 1 hit. Adding ghost notes would increase the count.
+
+Alternatively, maybe a standard ghost note pattern like on each 8th note except the main hit. For example, in a bar with 4 beats, each beat has two 8th notes, so on the "and" of each beat. But since it's 16th notes, perhaps every other note.
+
+Alternatively, let me think of a typical rock groove where the snare has ghost notes on the "e" and "&" of each beat except the main hits. 
+
+Let me try constructing each beat's snare line:
+
+Beat 1: No main hit, so ghost on 2 and 3 → -o-o (but 4th note could be dash)
+
+Wait, but maybe it's better to have all off-beats as ghost notes except the main hits. Let's see:
+
+The main snare hits are only on beat 3, first 16th note (position 3.1). So for the rest of the bar, any other snare hits would be ghost notes. To add ghost notes, perhaps on the "e" and "&" of each beat (positions 2 and 3 of each beat). 
+
+So for each beat except the third:
+
+Beat 1: positions 2 and 3 as o → -o-o
+
+Beat 2: same → -o-o
+
+Beat 3: first position is O (main hit), then positions 2 and 3 as o → O o o -, so "Ooo-"
+
+Beat 4: same as beats 1 and 2 → -o-o
+
+Putting this all together:
+
+S: -o-o |-o-o |Ooo- |-o-o 
+
+Wait, but let's check the fourth beat. The original fourth beat was "----", so replacing with "-o-o".
+
+So the full S line would be:
+
+S: -o-o|-o-o|Ooo-|-o-o
+
+But let's check the notation. Each beat is four characters. So:
+
+Beat 1: - o o - → "-o-o"
+
+Beat 2: "-o-o"
+
+Beat 3: "O o o -" → "Ooo-"
+
+Beat 4: "-o-o"
+
+So the S line becomes: -o-o|-o-o|Ooo-|-o-o
+
+But I need to ensure that the notation uses lowercase 'o' for the ghost notes. Since ghost notes are soft, that's correct. 
+
+Wait, but the original third beat was O---, so in the new third beat, it's Ooo-, which adds two ghost notes after the main hit. That makes sense. 
+
+Alternatively, maybe the user wants the ghost notes to be on every 16th note except the main hit. Let me see if that's overkill. Alternatively, maybe spread them more sparsely. 
+
+Alternatively, perhaps the user wants the ghost notes on the 8th notes. Since an 8th note is two 16th notes. Hmm, maybe I'm overcomplicating. Let's proceed with the above pattern.
+
+Now, checking the total ghost notes added:
+
+In each beat except the third, two ghosts (positions 2 and 3). In beat 3, two ghosts after the main hit. So that's 2+2+2+2 = 8 ghost notes plus the main hit, totaling 9 snare hits. That might be a lot, but the user did ask to add them. 
+
+Alternatively, maybe only on the off-beats of each beat except the main hit's beat. 
+
+Alternatively, maybe the user wants the ghost notes only around the main hit. For example, in beat 3, have O followed by some ghosts, and maybe on the preceding beats. 
+
+Another approach: In rock grooves, a common pattern is something like:
+
+Beat 1: o - o - 
+
+But not sure. Alternatively, maybe the ghost notes are on the "e" and "a" of each beat. 
+
+Alternatively, perhaps the user wants a pattern like:
+
+For each beat, except the third, have ghosts on the second and fourth 16th notes. But this is getting too vague. 
+
+Alternatively, let's look at the existing kick and toms. The kick is O---|O---|----|O--- which is hits on the first 16th of beats 1,2,4. The toms have O-o- repeating. Maybe the snare's ghost notes can complement those. 
+
+Alternatively, let me think of a simple pattern where on each beat except the third, there are ghost notes on the second and third 16th notes, and on the third beat, the main hit plus ghosts on the second and third. 
+
+So the S line would be:
+
+Beat 1: -o-o
+
+Beat 2: -o-o
+
+Beat 3: Ooo-
+
+Beat 4: -o-o
+
+Which gives the S line as -o-o|-o-o|Ooo-|-o-o
+
+This should add the ghost notes as requested. Let me check if that's within the notation rules. The S line uses 'o' for soft open hits, which is correct for ghost notes. 
+
+So the final drum groove would have the S line edited to that. Let me write the full notation accordingly.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: -o-o|-o-o|Ooo-|-o-o
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

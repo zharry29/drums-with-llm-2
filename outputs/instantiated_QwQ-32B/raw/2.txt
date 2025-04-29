@@ -1,0 +1,23 @@
+Alright, let me tackle this request. The user wants to remove all kick and snare from the given drum groove. Let me first look at the original groove they provided.
+
+Starting with the Kick (K line): "O--O|----|--O-|----". I need to replace all the O and o characters with '-' to silence the kick. Similarly, the Snare (S line) has "----|Oo-o|-o--|O--o", so I'll replace all non '-' characters there too.
+
+Looking at the other instruments: Hihat (H) is "X-x-|X-x-|X-x-|X-x-", Toms (T) are all '-', Crash (C) and Ride (R) are also empty. Since the user didn't mention changing those, I'll leave them as is. 
+
+Wait, need to double-check each line. The Hihat is using X and x, which according to the notation are closed hits. Since the request is only to remove kick and snare, the hihat stays. Toms, crash, and ride are already inactive except maybe the Toms had some in the example before, but in the current groove they're empty. 
+
+So the main changes are on K and S lines. Let me rewrite those lines with all '-' characters. For K: each segment of four notes should be "----", so four bars would be "----|----|----|----". Same for the Snare line. 
+
+Let me make sure the counts are correct. Each line should have 16 characters (4 beats of 4 notes each). Let's count the modified K and S lines. If I replace everything with '-', each segment is 4 '-', so four segments make 16. That should be correct. 
+
+I think that's all. Just zero out K and S, leave the rest as they are.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

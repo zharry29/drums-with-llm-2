@@ -1,0 +1,35 @@
+Alright, the user wants to replace the hihat with toms in the given drum groove. Let me start by looking at the original groove to understand what's there.
+
+First, the original K (Kick) is hitting on the first and third beats, straightforward. The Snare (S) is on the second and fourth beats, which is a standard backbeat. The Hihat (H) is closed on every 16th note, providing a steady rhythm. The Toms (T), Crash (C), and Ride (R) are all silent.
+
+The user's request is to replace the hihat with toms. Since the hihat is playing every 16th note, I need to translate that into tom hits. But toms are typically not played that fast in most genres unless it's something very specific like a marching beat. Maybe the user wants a tom pattern that's as consistent as the hihat but with a different texture. Alternatively, they might want to maintain the rhythm but use toms on the same notes.
+
+Looking at the notation, each beat is divided into four 16th notes. The hihat's line is "X---|X---|X---|X---" meaning a closed hit (X) on the first 16th note of each beat and rests on the others. Wait, actually, the original hihat line is written as "X---|X---|X---|X---", which would mean a hit only on the first 16th of each beat, but that's not a full 16th note pattern. Wait, maybe I misread. Let me check again.
+
+Wait, the user's original groove for H is "X---|X---|X---|X---". Each beat is four characters. So each beat has an X on the first 16th note and then three dashes. That would mean the hihat is hitting every beat on the downbeat, not every 16th. Wait, that's different. So maybe the user intended the hihat to be on every quarter note, but the notation shows every first 16th of each beat. Hmm, perhaps the user's original hihat is actually playing on every beat (quarter notes), since each beat's first 16th is hit. So four hits per bar, on each beat.
+
+But the user wants to replace that with toms. So the toms should take over those hits. So in the Toms line, we need to put an O (hard hit) on the first 16th of each beat, replacing the hihat's X. Since the original hihat was using X (closed hit), which is a hard closed hit, translating that to toms would likely use O for a hard hit. 
+
+So the Toms line would become O---|O---|O---|O---, replacing the Hihat's X---|... pattern. Then, the Hihat line should be turned off entirely, so all dashes.
+
+Wait, but let me confirm the original H line again. The user provided:
+
+H: X---|X---|X---|X---
+
+Yes, so each beat has an X on the first 16th note. So four hits total, on each beat. Replacing that with toms would mean moving those hits to the Toms line. So the Toms line would have O on those positions. 
+
+Therefore, the edited groove should have the Toms line as O---|O---|O---|O--- and the Hihat line all dashes. The rest remains the same: Kick and Snare as before, Crash and Ride still silent.
+
+Wait, but the user said "replace the hihat with toms". So wherever the hihat was playing, the toms should take over. Since the hihat was only on the first 16th of each beat, the toms will now hit there. The other instruments stay the same. That should do it. Let me make sure there are no other hihat hits to consider. In the original, the H line only has X on the first of each beat's four 16ths, so replacing that exactly with T's O. 
+
+So the final answer should have T: O---|O---|O---|O--- and H: all dashes. The rest remains unchanged.
+</think>
+
+@@@
+K: O---|----|O---|----  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: O---|O---|O---|O---  
+C: ----|----|----|----  
+R: ----|----|----|----
+@@@
