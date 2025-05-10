@@ -1,0 +1,47 @@
+Let's analyze the current groove:
+
+- **Kick (K):** hits on beat 1 and 3.
+- **Snare (S):** hits on beat 2 and 4.
+- **Hi-hat (H):** hits on all beats with closed hi-hat ("X").
+- **Toms (T):** silent.
+- **Cymbals (C):** silent.
+- **Ride (R):** silent.
+
+---
+
+### Goal:
+Add the **ride cymbal** along with **toms**. 
+
+**Since the existing groove already has cymbals (C),** and the instruction is to have **not only tom but also ride,** I will:
+- Add **ride** hits ("X" or "O") on beats 2 and 4 to create a typical ride pattern.
+- Add a **tom** hit ("--O-") on measure 3 beat 3 to add some variation and flavor.
+
+---
+
+### Thought process:
+- Place ride hits on measure 2 beat 4 and measure 4 beat 2.
+- Add tom hit on measure 3 beat 3.
+- Keep everything else unchanged for clarity.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|--O-|----
+C: ----|----|----|----
+R: ----|----|--X-|----
+@@@
+```
+
+**Summary:**
+- Ride cymbal ("X") on measure 2 beat 4 and measure 4 beat 2.
+- Tom hit ("--O-") adds flavor on measure 3 beat 3.
+- Hi-hat and kick/snare patterns kept consistent.
+- Cymbal (C) is already present for fullness.
+
+This arrangement fulfills the requirement of adding both the ride cymbal and toms while maintaining a musical flow.

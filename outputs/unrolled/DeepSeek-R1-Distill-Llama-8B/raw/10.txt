@@ -1,0 +1,76 @@
+Alright, so I need to add some kick to this drum groove. Let me first look at the current setup. The Kick drum (K) line is currently:
+
+K: O--O|----|--O-|----
+
+Hmm, I see that in each beat section (between the |), there are 16 notes. Each group of four characters separated by | makes a beat. So, in the current K line, the first beat is "O--O", the second is "----", the third is "--O-", and the fourth is "-O--".
+
+Wait, actually, each beat is four characters, so each section between | is a beat. So, the first beat is O--O, the second is ----, the third is --O-, and the fourth is -O--.
+
+Looking at the Kick drum, in the first beat, it's O--O, which I think means a hard hit (O) on the first note, then two - (not played), and then another O on the fourth note. That's a bit odd. Maybe it's a rim shot or something.
+
+In the second beat, it's all -, so no kick on the second beat. The third beat is --O-, so only on the third note, and the fourth beat is -O--, so only on the fourth note.
+
+I need to add some kick, so I should enhance the kick drum parts. Maybe make the kick more prominent. Let me think about how the kick is usually played. Often, the kick is on the first and third beats, with maybe a rim shot on the fourth.
+
+So, perhaps in the first beat, have O on all four notes, making it a full kick. In the second beat, maybe a rim shot on the fourth note. In the third beat, another strong kick on the first and third notes. And in the fourth beat, maybe a soft hit on the second note.
+
+Wait, but in the original, the fourth beat is -O--, which is O on the fourth note. Maybe I can add another O on the second note to make it more prominent.
+
+So, updating the K line:
+
+First beat: O---| (all four notes O)
+Second beat: ----| but maybe add O on the fourth note: ----|O
+Third beat: O---| but with O on first and third: O-O-|
+Fourth beat: -O--| but add O on second: -O-O|
+
+Wait, but in the notation, each character is a note, so four characters between | are the notes for that beat.
+
+So, let me try:
+
+K: O---|O---|O---|O---  
+
+That would be O on all four notes in each beat, making the kick very prominent.
+
+Alternatively, maybe alternate between different patterns.
+
+But since the request is to add some kick, making the kick more prominent seems appropriate.
+
+So, updating the K line accordingly.
+
+Now, let me check the other instruments to see if they are affected. The Snare drum (S) is:
+
+S: ----|Oo-o|-o--|O--o
+
+That seems okay. Hihat (H) is:
+
+H: ----|----|----|----
+
+Maybe I can add some variations, but the user didn't ask for that. Tom (T) is:
+
+T: ----|----|----|----
+
+Crash cymbal (C) is:
+
+C: ----|----|----|----
+
+And Ride cymbal (R) is:
+
+R: o-O-|o-O-|o-O-|o-O-
+
+I think focusing on the Kick drum is sufficient for this edit request.
+
+So, the final K line would be:
+
+K: O---|O---|O---|O---
+
+This makes the kick drum more prominent with a hard hit on every note of each beat.
+</think>
+
+@@@  
+K: O---|O---|O---|O---  
+S: ----|Oo-o|-o--|O--o  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: o-O-|o-O-|o-O-|o-O-  
+@@@

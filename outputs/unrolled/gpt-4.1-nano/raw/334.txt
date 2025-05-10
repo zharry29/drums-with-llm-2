@@ -1,0 +1,40 @@
+Let's analyze the current groove:
+
+- **Kick (K):** plays on beats 1 ("O--O") and 3 ("--O-")
+- **Snare (S):** plays on beats 2 and 4 with "Oo-o" and "O--o"
+- **Hi-hat (H):** plays a steady pattern ("X-x-")
+- **Toms (T):** silent
+- **Cymbals (C):** silent
+- **Ride (R):** silent
+
+---
+
+### New instructions:
+- Remove hi-hat and toms.
+
+### Approach:
+- Remove the H and T lines.
+- Keep the kick and snare lines as is.
+- As the hi-hat is removed, and the user requested only kick and snare, I will keep the groove tight with just those instruments.
+
+### Final plan:
+- Keep the same kick pattern.
+- Keep the same snare.
+- Remove H and T.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+C: ----|----|----|----
+R: ----|----|----|----
+T: ----|----|----|----
+H: ----|----|----|----
+@@@
+```
+
+This simplifies the groove to just kick and snare, fulfilling your request to eliminate the hi-hat and toms, while maintaining the rhythm and groove.

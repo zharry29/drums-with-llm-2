@@ -1,0 +1,43 @@
+Let's analyze the current groove:
+
+- **Kick (K):** hits on beats 1 ("O--O") and 3 ("--O-")
+- **Snare (S):** hits on beat 2 ("Oo-o") and beat 4 ("O--o")
+- **Hi-hat (H):** consistent ghost note pattern
+- **Toms (T):** silent, to be added
+- **Cymbals (C) and Ride (R):** silent
+
+**Goal:** Add a tom pattern along with the kick for more rhythmic depth and interest.
+
+### Approach:
+- Add a tom hit on beat 3 ("--O-") to match the existing pattern
+- Insert a tom fill on beat 4 ("---o") to create variation
+- Keep the kick pattern largely unchanged to maintain the groove
+- Leave cymbals and ride as they are, focusing on the toms and kick
+
+---
+
+### Implementation:
+- Place a tom hit ("-O--") on beat 3
+- Place a tom hit ("---o") on beat 4
+- Keep snare and hi-hat rhythms constant
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: --O-|----|--O-|---o
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|-O--|---o
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+**Summary:**
+- Added tom hits on beats 3 ("--O-") and 4 ("---o") for fill and variation.
+- Maintained the original kick and snare pattern.
+- Keep hi-hat pattern for texture.
+- The groove now incorporates toms along with the kick, enhancing rhythmic complexity.

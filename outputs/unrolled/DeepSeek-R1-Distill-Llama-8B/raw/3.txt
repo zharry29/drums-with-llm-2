@@ -1,0 +1,31 @@
+Okay, so I need to add some tom to this drum groove. Let me first look at the existing groove to understand where the Toms are being played and how I can add more tom to it.
+
+Looking at the Toms section, it's currently all dashes, which means the toms aren't being played. That's pretty straightforward. I need to introduce some tom sounds here. But how do I represent that in the notation?
+
+I remember that in the drum notation, each instrument's line has characters that denote whether they're playing a note and how it's articulated. For Toms, 'O' is a hard hit, and 'o' is a soft hit. So, I can use 'O's and 'o's to indicate when the toms are being hit.
+
+Since the user wants to "add some tom," I should probably add a few 'O's or 'o's in the Toms line. But I need to make sure that the timing makes sense with the other instruments. Let me check the other instruments to see where they are active, so I can align the toms accordingly.
+
+Looking at the Kick drum (K), it's playing on the first and third beats with 'O' and '--O-', which means the third beat is a softer hit. The Snare drum (S) has 'Oo-o' on the first beat, which is a combination of a hard and soft hit. The Hihat (H) is playing continuously with 'x---|x---|x---|x---', which is a steady, closed hit. The Ride cymbal (R) has 'o-O-' on each beat, which alternates between soft and hard hits.
+
+I think adding 'O's to the Toms line on the first and third beats would fit well. Let me try that. So, the Toms line would go from '----|----|----|----' to 'O---|----|---O|----'. That way, the first beat has a hard tom hit, and the third beat has a softer tom hit, aligning with the kick and snare beats.
+
+Wait, but the third beat in the Kick drum is '--O-', which is a softer hit. Maybe I should use 'o' for that to match the softer touch. So, changing the third beat to '---o' might make it smoother. Let me adjust that.
+
+Putting it all together, the updated Toms line would be 'O---|----|---o|----'. This way, the first beat has a hard tom, and the third beat has a softer tom, complementing the other instruments' patterns.
+
+I should also make sure that the other instruments' patterns remain consistent. The Kick, Snare, Hihat, and Ride cymbal lines don't need changes since the user only requested adding tom. So, I'll only modify the Toms section.
+
+Let me double-check the notation to ensure that each line has 16 characters without the '|' separators. The Toms line now has 'O---|----|---o|----', which should be correct.
+
+I think that's a good addition. The toms now have some activity, which adds depth to the drum groove. I'll present this as the final edit within the @@@ notation as instructed.
+</think>
+
+@@@  
+K: O---|----|----|----  
+S: ----|----|----|----  
+H: ----|----|----|----  
+T: O---|----|---o|----  
+C: ----|----|----|----  
+R: o-O-|o-O-|o-O-|o-O-  
+@@@

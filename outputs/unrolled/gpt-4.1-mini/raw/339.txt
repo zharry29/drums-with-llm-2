@@ -1,0 +1,21 @@
+The request is to remove all hi-hat and tom hits.
+
+---
+
+**Thought process:**  
+- The hi-hat line (H) contains soft and hard closed hits (`x`), so replace all of them with `-`.  
+- The tom line (T) contains a hard hit (`O`) on the third beat of the third bar, so replace it with `-`.  
+- Keep kick, snare, crash, and ride lines as they are.
+
+---
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

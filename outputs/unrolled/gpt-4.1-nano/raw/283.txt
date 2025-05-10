@@ -1,0 +1,42 @@
+Let's analyze the current groove:  
+- **Kick:** on beats 1 and 3 with "O--O" pattern.  
+- **Snare:** on beats 2 and 4 with some ghost strokes.  
+- **Hi-hat:** consistent pattern with X and x on every 16th note, giving sixteenth note hi-hat pulse.  
+- **Toms, C, R:** silent.
+
+**Objective:**  
+Add a ride cymbal pattern to complement the existing groove and support the snare, while maintaining overall balance.
+
+---
+
+### Approach:
+- Keep the snare pattern for backbeats.
+- Add ride cymbal hits ("O---") on beats 2 and 4, which is a common placement.
+- Since the hi-hat carries the pulse, the ride will add additional shimmer and rhythmic support without replacing the hi-hat.
+- Keep the kick pattern for rhythm foundation.
+
+---
+
+### Implementation:
+- Add ride hits ("O---") on beats 2 and 4.
+- Keep existing groove intact.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+C: ----|----|----|----
+R: ----|--O-|----|--O-
+@@@
+```
+
+### Explanation:
+- Ride cymbal added on beats 2 and 4 ("--O-") in the ride line.
+- Hi-hat and snare patterns kept intact.
+- Kick remains as initially, providing a strong rhythmic backbone.
+- The groove now has a balanced pattern with both snare and ride cymbals enhancing the overall texture.

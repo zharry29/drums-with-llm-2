@@ -1,0 +1,21 @@
+The original groove has kick, hihat, tom, and crash, but the snare line has an invalid 'S' character. The edit request is to ensure the groove has both hi-hat and snare.
+
+---
+
+**Thought process:**  
+- Replace the invalid 'S' with a proper snare hit 'O' on the third beat of the third beat group.  
+- Possibly add a snare hit on the backbeat (beat 4) for better groove flow, but since the user only requested snare presence, fixing the invalid character should suffice.  
+- Keep hihat and other parts unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|O---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

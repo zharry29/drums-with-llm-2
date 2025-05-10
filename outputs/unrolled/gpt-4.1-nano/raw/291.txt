@@ -1,0 +1,39 @@
+Let's analyze the original groove:
+
+- **Kick (K):** silent.
+- **Snare (S):** silent.
+- **Hi-hat (H):** hits on beats 2 and 4 with ghost notes ("x---" in measures 2 and 4).
+- **Toms (T):** silent.
+- **Crash (C):** silent.
+- **Ride (R):** pattern with some ghost and accented hits ("x---", "X-x", etc.).
+
+**Objective:**  
+Add a Ride cymbal pattern alongside the existing hi-hat, enriching the cymbal section and giving more rhythmic support.
+
+### Approach:
+- Keep the hi-hat pattern as it is.
+- Add Ride cymbal hits ("O---") on beats 1, 2, 3, and 4, for a consistent ride pattern.
+- Use the existing Ride pattern to support this, possibly enhancing with some ghost or accented hits for variation.
+
+### Implementation:
+- Insert "O---" in the R line on beats 1, 2, 3, 4.
+- Keep the hi-hat ghost notes unchanged.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+C: ----|----|----|----
+R: O---|O---|O---|O---
+@@@
+```
+
+**Summary:**  
+- **Ride cymbal ("O---")** added on all four beats.
+- **Hi-hat** remains in place for subtle texture.
+- The groove now combines the steady hi-hat with a full ride pattern, creating a fuller rhythmic sound.

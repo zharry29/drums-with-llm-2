@@ -1,0 +1,41 @@
+Let's analyze the current pattern:
+
+- **Kick (K):** hits on 1, and slight soft hit on beat 2 (“---o”), and on beat 3 ("O-O-").
+- **Snare (S):** hits on beat 2 and 4.
+- **Hi-hat (H):** variation with ghost notes and accents on beats 2 and 3.
+- **Toms (T):** silent.
+- **Crash (C):** hits on beat 1.
+- **Ride (R):** currently silent.
+
+**Objective:**  
+Add a ride cymbal pattern to complement the snare and create a fuller rhythmic texture, especially supporting the backbeat.
+
+### Approach:
+- Introduce ride pattern on beats 2 and 4 (a common pattern).
+- Keep the existing kick and snare for rhythm stability.
+- Preserve hi-hat ghost notes for subtle drive.
+
+### Implementation:
+- Add ride cymbal hits ("O---") on beats 2 and 4.
+- Keep existing kick pattern.
+- Keep snare pattern.
+- Keep hi-hat ghost notes.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|O---|----|O---
+@@@
+```
+
+**Summary:**  
+- Ride cymbal added on beats 2 and 4 ("O---") in the ride line.
+- Retained the existing kick, snare, and hi-hat ghost notes.
+- The groove now includes both snare and ride, creating a richer rhythmic background suitable for many styles.

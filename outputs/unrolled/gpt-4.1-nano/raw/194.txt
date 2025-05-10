@@ -1,0 +1,44 @@
+Let's analyze the current groove:
+
+- **Kick (K):** hits are on beat 1 ("-O--"), beat 2 ("OO--"), beat 4 ("-OO-")
+- **Snare (S):** only on beat 3 ("S---")
+- **Hi-hat (H):** steady ghost notes on every 16th note, with pattern "x-x-"
+- **Toms (T):** hits on beat 3 ("---O")
+- **Crash (C):** hits on beats 1, 2, and 3
+- **Ride (R):** silent
+
+### Objective:
+Add **tom** and **more prominent snare** (for example, on beat 4) to increase rhythmic interest.
+
+---
+
+### Approach:
+- Keep the existing tom on beat 3 ("---O").
+- Add a snare hit on beat 4 ("----" to something more active, maybe "O---").
+- To strengthen groove, perhaps add a snare on beat 4 ("O---").
+- Keep hi-hat pattern unchanged for texture.
+
+### Implementation:
+- Add snare hit on beat 4 ("O---").
+- Confirm tom remains on beat 3.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|O---
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```
+
+**Summary:**
+- Snare now on beat 3 ("S---") and beat 4 ("O---") providing a stronger backbeat.
+- Tom remains on beat 3 for rhythmic interest.
+- Hi-hat continues ghost notes; cymbals unchanged.
+- Overall, the groove is more lively, with enhanced snare and a solid tom presence.

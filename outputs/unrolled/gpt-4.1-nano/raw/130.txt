@@ -1,0 +1,40 @@
+First, I analyze the existing groove:
+
+- **Kick (K):** hits on measures 1 (positions 1 and 3), and measure 3 (position 3).
+- **Snare (S):** hits on beats 2 and 4 with some variation.
+- **Hi-hat (H):** pattern with X-x-, repeated every beat.
+- **Toms (T):** silent.
+- **Cymbals (C):** silent.
+- **Ride (R):** silent.
+
+### Goal:
+Add **ride cymbal** and **toms**.
+
+**Approach:**
+- Add ride hits ("X" or "O") on beats 2 and 4, perhaps on measure 2 beat 4 and measure 4 beat 2.
+- Add tom hits for flavor, such as on measure 3 or 4 beat 3 or 4.
+
+### Plan:
+- Insert **ride** hits in measure 2 beat 4 and measure 4 beat 4.
+- Add **tom** hit on measure 3 beat 4 ("----|----|--O-|----" → put "O" on beat 4).
+
+---
+
+### Final pattern:
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|--O-
+C: ----|----|----|----
+R: ----|----|--X-|--X-
+@@@
+```
+
+- Ride cymbals ("X") added on measure 2 beat 4 ("----|----|--X-|") and measure 4 beat 4.
+- Tom hit ("--O-") added on measure 4 beat 4.
+- The rest remains the same.
+
+This version includes both ride and toms, fulfilling the request while maintaining musical coherence.

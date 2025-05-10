@@ -1,0 +1,31 @@
+Okay, so I need to add some kick to this drum groove. Let me look at the existing groove first. The Kick drum (K) line is currently: "-O--|OO--|---O|-OO-". Hmm, that doesn't look very kick-y. I know that in drum notation, the Kick drum usually has strong, solid hits. The characters used for Kick drum are 'O' for a hard hit and 'o' for a soft hit. 
+
+In the current K line, there are a lot of '-' which means the instrument isn't played on those notes. I should probably replace some of those '-' with 'O' or 'o' to add more kick. Let me think about each beat section.
+
+First beat: "-O--". That has one 'O' and three '-'. Maybe I can add another 'O' there. So it could become "O-O--", but that might be too many 'O's. Alternatively, "O-O-". Wait, but the original is "-O--", so maybe adding another 'O' in the same beat would make it "O-O--", but that might be too much. Alternatively, just add an 'O' in the next note.
+
+Second beat: "OO--". That's two 'O's and two '-'. That's already pretty good, but maybe I can add another 'O' or make it more consistent. Maybe "OO-O".
+
+Third beat: "---O". That's three '-' and one 'O'. I should definitely add more 'O's here. Maybe "O---", but that's all 'O's. Alternatively, "O-O-".
+
+Fourth beat: "-OO-". That's one '-', two 'O's, and one '-'. Maybe add another 'O' to make it "O-O-O".
+
+Putting it all together, the new K line could be: "O---|OO-O|---O|O---".
+
+Wait, let me check the structure. Each beat is separated by '|', and each section has four characters. So the first beat is "O---", the second "OO-O", the third "---O", and the fourth "O---". Hmm, that seems a bit inconsistent. Maybe I should make the first beat "O---", second "OO-O", third "O---", and fourth "O---". That way, it's more consistent.
+
+So the final K line would be: "O---|OO-O|O---|O---".
+
+Now, let me see if this adds enough kick without making it too overwhelming. Each 'O' represents a hard hit, so having 'O's in each beat section should add that solid kick feel. I think this should work.
+</think>
+
+The final drum groove with added kick is:
+
+@@@  
+K: O---|OO-O|O---|O---  
+S: ----|----|----|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

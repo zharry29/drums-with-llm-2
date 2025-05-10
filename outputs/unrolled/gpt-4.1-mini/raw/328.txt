@@ -1,0 +1,24 @@
+The original groove contains only ride cymbal (x, X) and hi-hat (x) sounds, with no kick or snare hits.
+
+The request is to remove all ride and snare hits.
+
+---
+
+**Thought process:**
+
+- Remove all ride hits by changing `x` and `X` in the `R` line to `-`.  
+- There's no snare in the given groove, so no changes necessary there.  
+- The hi-hat hits remain.
+
+---
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

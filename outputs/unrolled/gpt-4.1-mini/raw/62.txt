@@ -1,0 +1,25 @@
+The given groove already has crash cymbal hits (`O`) on the downbeats (positions 1, 5, 9, 13) and a kick pattern with some variety. So the "cymbal" element is present.
+
+---
+
+**Request:** "The groove should have not only kick but also cymbal."  
+Given that the crash cymbal is present, the existing groove satisfies this, but the snare line shows an unconventional character "S" (which is not defined in the instructions). It should be corrected.
+
+---
+
+**Thought process:**  
+- Replace the invalid "S" in the snare line with a correctly notated snare hit. Since the user has "S" which doesn't correspond to any defined articulation, I will replace it with a hard snare hit "O".  
+- No other changes needed.
+
+---
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|O---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

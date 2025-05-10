@@ -1,0 +1,44 @@
+Let's analyze the original groove:
+
+- **Kick (K):** hits on beats 1, 2, and 4 with soft hits (o)
+- **Snare (S):** hits on beat 2 ("X---") and beat 3 ("--X-")
+- **Hi-hat (H):** ghost notes on beats 2 ("x---") and 4 ("x---")
+- **Toms (T):** silent
+- **Cymbals (C):** silent
+- **Ride (R):** hits on beats 1 ("x---"), 2 ("X-x-"), 3 ("x---"), and 4 ("X-x-")
+
+---
+
+### Goal:
+Add **tom** (T) and emphasize **snare** (S).
+
+### Approach:
+- Add a **tom** hit on beat 4 for rhythmic depth ("---O" or similar).
+- Keep or reinforce **snare** hits, possibly on beat 3 and 4.
+- Leave existing cymbal and hi-hat patterns for support.
+
+---
+
+### Implementation:
+- Place **tom** on beat 4 ("---O").
+- Keep the snare pattern and maybe add to beat 4 for a stronger backbeat.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|--O-
+H: ----|x---|----|x---
+T: ----|----|----|--O-
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+```
+
+**Summary:**
+- Tom (T): added on beat 4 ("---O")
+- Snare (S): added a hit on beat 4 ("--O-") for a heavy backbeat.
+- Maintains existing pattern, reinforcing rhythm with the new tom and snare accent.

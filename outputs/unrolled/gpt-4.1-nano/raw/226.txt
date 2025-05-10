@@ -1,0 +1,49 @@
+Let's analyze the original groove and the task:
+
+- **Current drums:**
+  - **K (Kick):** consistent hits on beats 1, 2, 3, 4.
+  - **S (Snare):** hits on beat 2 (O---) and beat 4 (O---)
+  - **H (Hi-hat):** silent
+  - **T (Toms):** silent
+  - **C (Cymbal):** hit on beats 1, 2, 3, 4
+  - **R (Ride):** silent
+
+The requirement: **Add drum set toms** to the pattern, along with kick.
+
+### Approach:
+- Add a tom hit on beat 3 ("-O--") for variation.
+- Incorporate a kick with some softness ("o---") on beat 2 for some dynamic difference.
+- Keep the main pattern of snare on beats 2 and 4.
+- Possibly add some tom fills in the last beat for variation.
+
+---
+
+### Thought process:
+- Insert tom note on beat 3 ("-O--") for a fill effect.
+- Add a soft kick ("o---") on beat 2 instead of a strong one for contrast.
+- Keep existing cymbals, which provide continuous texture.
+- Maintain snare hits on beats 2 and 4.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: --o-|--O-|--O-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|-O--|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```
+
+**Summary:**
+- **Kick:** soft on beat 1 ("--o-") and others for variation
+- **Snare:** on beats 2 and 4
+- **Tom:** added on beat 3 ("-O--") for a fill
+- **Cymbals:** unchanged for texture
+- **Hi-hat:** silent
+
+This pattern integrates toms with the kick and maintains rhythmic interest, fulfilling the edit request.

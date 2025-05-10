@@ -1,0 +1,22 @@
+The request is to remove kick and cymbal hits.
+
+---
+
+**Thought process:**  
+- Kick line (K) contains hard hits (`O`), so replace all with `-`.  
+- Crash line (C) is empty, no change needed.  
+- Ride line (R) is empty, no change needed.  
+- Keep Snare (S) and Hi-hat (H) lines unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

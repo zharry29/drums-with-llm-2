@@ -1,0 +1,35 @@
+The current groove features:
+- Kick drum on beats 1 and 4, and some soft hits.
+- Snare hit on beat 3 downbeat.
+- Toms playing a consistent pattern.
+- No hi-hat or ride cymbal currently.
+
+---
+
+**Request:** Add both ride cymbal *and* hi-hat to the groove.
+
+---
+
+**Thought process:**  
+- Add a ride cymbal pattern with soft closed hits (`x`) on beats (positions 1,5,9,13) to give a steady pulse without overpowering.  
+- Add a hi-hat pattern with soft closed hits (`x`) on the offbeats (the "and" of each beat, e.g. positions 3,7,11,15) to complement the ride and give groove.  
+- This gives both ride and hi-hat presence.
+
+---
+
+Final lines for cymbals:
+- Hihat: `-x-x|-x-x|-x-x|-x-x` (closed soft hits alternating offbeats)  
+- Ride: `x---|x---|x---|x---` (closed soft hits on downbeats)
+
+---
+
+Final groove:
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: -x-x|-x-x|-x-x|-x-x
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: x---|x---|x---|x---
+@@@

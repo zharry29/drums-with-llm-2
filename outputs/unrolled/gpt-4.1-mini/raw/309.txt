@@ -1,0 +1,22 @@
+The given groove has kick, snare, and crash cymbal, but no ride cymbal or other cymbals beyond crash. The request is that the groove should have **not only snare but also cymbal**. Since crash cymbal already exists, I can add a ride cymbal pattern to satisfy the request.
+
+---
+
+**Thought process:**
+
+- Keep kick, snare, and crash cymbal as is.
+- Add ride cymbal closed hits `x` on steady 8th notes (every two 16th notes) for added cymbal presence.
+- Leave tom and hi-hat empty as original.
+
+---
+
+Final groove:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: x-x-|x-x-|x-x-|x-x-
+@@@

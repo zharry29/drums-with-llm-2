@@ -1,0 +1,46 @@
+Let's analyze the original groove:
+
+- **Kick (K):** strong hits on the first two beats, including a mix of hard and soft hits.
+- **Snare (S):** hits on beat 2 (soft open) in pattern 2 and beat 4 (hard) in pattern 4.
+- **Hi-hat (H):** silent.
+- **Toms (T):** silent.
+- **Cymbals (O):** crash hits on the first and third patterns.
+- **Ride (R):** silent.
+
+---
+
+### Goal:
+Add **tom** and **ride** cymbal to enrich the pattern.
+
+### Approach:
+- Include **tom** hits on beat 3, for example, to add interest and percussive depth.
+- Include **ride** cymbal hits on beats 2 and 4 to add rhythmic texture.
+- Keep the existing pattern intact for cohesion.
+
+---
+
+### Implementation:
+- Tom hit on beat 3 ("-O--" or similar).
+- Ride cymbal hits on beat 2 and beat 4 ("O---" on both beats).
+
+---
+
+### Final groove:
+```plaintext
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|O---|----|O---
+T: ----|----|-O--|----
+C: O---|O---|O---|O---
+R: ----|O---|----|O---
+@@@
+```
+
+**Explanation:**
+
+- **Ride (R):** hits on beats 2 and 4 for added rhythmic texture.
+- **Tom (T):** hit on beat 3 ("-O--") to add another percussive element.
+- Kept the other elements for consistency and groove integrity.
+
+This creates a richer, more layered drum pattern with both ride and tom in the groove.

@@ -1,0 +1,47 @@
+Let's analyze what the current groove has:
+
+- **Kick (K):** hits at measure 1 ("O--O") and measure 3 ("--O-").
+- **Snare (S):** hits at measure 2 (O-o-), measure 2, beat 3 ("-o--"), and measure 4 ("O--o").
+- **Hi-hat (H):** silent (all "-").
+- **Toms (T):** silent.
+- **Cymbals (C):** silent.
+- **Ride (R):** pattern of alternating open hits on the bell.
+
+**Goal:**  
+Add **hi-hat** (though currently missing) and **more prominent or supportive snare**, possibly replacing some of the existing snare hits or adding new ones for rhythmic support.
+
+---
+
+### Approach:
+- Since hi-hat is not present, add a consistent pattern to provide steady pulse, e.g., "*x---*" on all beats.
+- Keep the existing snare pattern, but perhaps add an extra snare hit at measure 3, beat 3 ("--S-") for variation and rhythmic push.
+- Alternatively, replace the snare pattern slightly to make the groove more balanced and cohesive with the hi-hat.
+
+---
+
+### Implementation plan:
+- Add hi-hat as "x-x-" pattern on all beats.
+- Add a snare hit in measure 3, beat 3 ("--S-").
+- Keep kick pattern as is.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|--S-|O--o
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+```
+
+**Summary:**  
+- Hi-hat: now active with "x-x-" pattern, providing a steady rhythm foundation.
+- Snare: enhanced with an additional hit on measure 3, beat 3 ("--S-").
+- Kick remains unchanged, maintaining the groove's foundation.
+  
+This creates a balanced rhythm with support from both snare and hi-hat, aligning with the edit request.

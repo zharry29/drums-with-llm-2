@@ -1,0 +1,21 @@
+The request is to remove hi-hat and tom hits.
+
+---
+
+**Thought process:**  
+- Hi-hat line (`H`) contains soft closed hi-hat hits (`x`), so these should be replaced with `-`.  
+- Tom line (`T`) is already empty, so no changes needed there.  
+- Other lines contain only ride hits or are empty; leave them as is.
+
+---
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

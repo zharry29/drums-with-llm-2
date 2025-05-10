@@ -1,0 +1,30 @@
+The original groove has kick (`K`) hits and tom hits (`T`) already:
+
+- Kick: `-O--|OO--|---O|-OO-`
+- Tom: `----|----|---O|----`
+
+---
+
+**Request:** The groove should have not only tom but also kick.
+
+---
+
+**Thought process:**
+
+- Kick is present, but some hits are soft (`-O--` means the first 16th note is silent, second is hard kick).  
+- Snare includes an ambiguous `S` which is not defined in the legend. Possibly a typo — I will treat it as hard snare (`O`).  
+- Add some more kick hits for a stronger groove while keeping tom hits.  
+- Maintain the hi-hat and crash pattern as is.
+
+---
+
+Final groove:
+
+@@@
+K: OO--|OO--|OO-O|-OO-
+S: ----|----|O---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

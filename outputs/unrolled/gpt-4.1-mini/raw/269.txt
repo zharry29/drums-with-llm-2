@@ -1,0 +1,16 @@
+The original groove here already has closed hi-hat (x) on every 8th note and crash cymbal (O) on every downbeat (1, 5, 9, 13). The snare line uses an invalid character `S`, which is not defined in the notation, so I will replace it with a valid snare hit, e.g., `O` on the expected snare backbeat (beat 3).
+
+The request is for the groove to have not only cymbal but also hi-hat, which it already does in closed hi-hat. So I will keep the hi-hat as `x-x-` pattern, keep the crash cymbal on downbeats, and fix the snare line with a proper snare hit.
+
+---
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|O---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

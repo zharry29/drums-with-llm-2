@@ -1,0 +1,44 @@
+Let's first analyze the current groove:
+
+- **Kick (K):** hits on first beat (hard hits on 1 and 3).
+- **Snare (S):** hits on beat 3 in measure 2 ("O") and beat 4 in measure 4 ("o").
+- **Hi-hat (H):** silent.
+- **Toms (T):** silent.
+- **Cymbals (C):** silent.
+- **Ride (R):** pattern with alternating open and closed hits ("o-O-") in all measures, indicating ride is present but intended to be more prominent.
+
+**Note**: The existing ride pattern is actually present but may need more emphasis or clearer placement, and the task is to explicitly *add* or *highlight* both ride and toms.
+
+---
+
+### Approach:
+- Return the existing ride pattern (which is already there) but perhaps strengthen it by adding more hits or emphasizing certain beats.
+- Add a **tom hit** in measure 3, perhaps on beat 4 ("----|----|----|--O-").
+- Make sure the cymbal pattern is clear and complements this.
+
+### Final plan:
+- Keep existing ride pattern, but add an extra ride hit on measure 2 beat 4 ("----|----|--X-|") for more groove.
+- Introduce a tom hit on measure 3 beat 4 ("----|----|----|--O-") for flavor.
+- Ensure cymbals are present; perhaps add a crash or more cymbals for fullness.
+
+---
+
+### Final edited groove:
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|--O-
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-X-
+@@@
+```
+
+**Explanation:**
+
+- The ride cymbal (R): added an extra hit on measure 4 beat 4 ("--X-") for emphasis.
+- The tom (T): hits on measure 4 beat 4 ("--O-") to add flavor.
+- Keep the existing cymbals and patterns intact.
+- The groove now explicitly includes both **ride** and **toms** along with cymbal layers, fulfilling the request.

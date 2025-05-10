@@ -1,0 +1,42 @@
+Let's analyze the current groove:
+
+- **Kick (K):** plays with varying intensity, including soft ("o") and hard ("O").
+- **Snare (S):** silent.
+- **Hi-hat (H):** ghost notes pattern ("x-x-").
+- **Toms (T):** only on the third measure, beat 3 ("---O").
+- **Crash (C):** hits on all beats.
+- **Ride (R):** silent.
+
+**Objective:**  
+Add a ride cymbal pattern (probably "R: O---" or similar) and ensure the kick drum remains prominent. Since the current "K" line already plays a few hits, I will reinforce the kick if needed and add the ride cymbal.
+
+### Approach:
+1. Keep the existing kick hits.
+2. Add ride cymbal hits on beats 2 and 4 ("O---" in R line).
+3. Possibly reinforce the kick in the first and third measures if needed.
+4. Keep the hi-hat ghost notes as is.
+
+### Implementation:
+- Use the ride cymbal on beats 2 and 4 ("O---").
+- Keep the kick drum as is.
+- Keep the hi-hat ghost notes.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+C: ----|O---|----|O---
+R: ----|O---|----|O---
+@@@
+```
+
+### Explanation:
+- Added ride cymbal ("O---") in the second measure beat 2 and fourth measure beat 4.
+- Kept the kick drum pattern.
+- Retained the ghosted hi-hat pattern.
+- Reinforced rhythm with both kick and ride cymbal added.

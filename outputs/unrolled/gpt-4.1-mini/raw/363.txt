@@ -1,0 +1,24 @@
+The request is to remove cymbal and ride hits.
+
+---
+
+**Thought process:**  
+- Cymbals include Crash (C), Hi-hat (H), and Ride (R).  
+- Crash (C) line is empty—no changes needed.  
+- Ride (R) line is empty—no changes needed.  
+- Hi-hat (H) contains hard and soft closed hits (`X` and `x`)—these are cymbal hits, so they all should be removed (replaced with `-`).  
+- Kick (K) and Snare (S) lines remain unchanged.  
+- Toms (T) line is empty.
+
+---
+
+Final groove:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

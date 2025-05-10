@@ -90,7 +90,7 @@ for id, request_block in requests.items():
     drum_notation = parse_response(response_txt)
 
     model_short_name = model_name.split("/")[-1] if "/" in model_name else model_name
-    output_dir = f"../outputs/{args.data}_{model_short_name}"
+    output_dir = f"../outputs/{args.data}/{model_short_name}"
     os.makedirs(output_dir, exist_ok=True)
     # Create output subdirectories if they don't exist
     for subdir in ["raw", "notation", "test_results", "midi", "audio"]:

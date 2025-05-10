@@ -1,0 +1,26 @@
+The original groove includes kick, hi-hat, toms, and crash, but no ride and snare is indicated with an unknown "S". The edit requests that the groove should have not only ride but also snare. So I need to:
+
+- Convert the unknown "S" to a proper snare note, probably a soft open snare head hit (`o`) or a hard snare hit (`O`) based on context.
+- Add ride cymbal pattern (e.g., closed hits `x` on steady 8th notes).
+- Maintain the existing instruments as much as possible.
+
+---
+
+**Thought process:**
+
+- Replace the "S" on the snare line with `o` (soft open hit) to provide snare presence.
+- Add ride cymbal closed hits on steady 8th notes (`x-x-`) for drive.
+- Keep other parts unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|o---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: x-x-|x-x-|x-x-|x-x-
+@@@

@@ -9,7 +9,7 @@ parser.add_argument('--data', choices=['instantiated', 'unrolled'], required=Tru
 parser.add_argument('--model', default="gpt-4.1-mini", help="")
 args = parser.parse_args()
 
-results_dir = f"../outputs/{args.data}-{args.model}/test_results/"
+results_dir = f"../outputs/{args.data}/{args.model}/test_results/"
 
 def aggregate_results(results_dir):
     results = []
@@ -37,7 +37,7 @@ def aggregate_results(results_dir):
         "passed_unit_tests": passed_unit_tests_count,
         "results": results
     }
-    out = os.path.join(f"../outputs/{args.data}-{args.model}", "report.json")
+    out = os.path.join(f"../outputs/{args.data}/{args.model}", "report.json")
     with open(out, "w") as f:
         json.dump(report, f, indent=2)
     print(f"Written report → {out}")

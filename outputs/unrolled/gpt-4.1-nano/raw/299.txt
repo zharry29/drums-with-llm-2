@@ -1,0 +1,53 @@
+Let's analyze the current groove:
+
+- Kick (K): hits on beats 1 and 3 ("O--O" and "--O-")
+- Snare (S): hits on beats 2 and 4 with some ghost and open hits ("Oo-o", "-o--", "O--o")
+- Hi-hat (H): silent
+- Toms (T): silent
+- Crash (C): silent
+- Ride (R): playing across all four beats with alternating open and closed hits ("o-O-", "o-O-") pattern
+
+**Objective:**  
+Add a prominent snare and also a ride cymbal to the groove to support the rhythm better.
+
+### Approach:
+- Make the snare more consistent, e.g., adding snare hits on beat 2 and/or 4 in all measures for a driving backbeat.
+- Keep the existing ride pattern, but perhaps make it more prominent or consistent.
+- Keep the hi-hat silent (since we are adding ride), or perhaps add ghost hi-hats for texture if desired.
+
+### Implementation:
+- Insert **"O---"** or similar in the R line on all four beats.
+- Add snare hits ("O--" or "O---") on beat 2 and 4 of all measures to strengthen the backbeat.
+- Keep the current ride pattern or reinforce it.
+
+Here's a proposed version:
+
+### Final plan:
+- Add **"O---"** in R line on beats 1, 2, 3, 4
+- Adjust snare to play on beats 2 and 4 in all measures for a steady backbeat
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: O--O|--O-|--O-|--O-
+S: ----|O--o|----|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+```
+
+**Explanation:**
+
+- **Snare (S):** now hits on beat 2 and 4 consistently in all measures, with a mixture of open and closed hits to add interest.
+- **Ride (R):** hits on all four beats ("o-O-" pattern) in each measure, providing steady cymbal support.
+- **Kick (K):** slightly adjusted for rhythmic consistency.
+- **Hi-hat (H):** remains silent, focusing on ride support.
+
+This setup creates a solid, rhythmic pattern with both ride and snare, suitable for driving the song forward.
+
+**Note:** If you'd prefer, I could also include ghost hi-hat notes for some texture, but as per the instruction, this provides a clear addition of both snare and ride.

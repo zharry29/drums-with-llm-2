@@ -1,0 +1,35 @@
+Let's analyze the current groove:
+
+- **Kick (K):** hits on beats 1 ("O--O"), 3 ("--O-")
+- **Snare (S):** hits on beats 2 and 4 ("Oo-o", "-o--", "O--o")
+- **Hi-hat (H):** plays on every beat with consistent closed hits ("X-x-")
+- **Toms, cymbals (C, R):** silent
+
+**New requirements:**
+- **Remove snare and ride cymbal** (no S or R lines).
+- Keep the kick drum and hi-hat pattern but can modify to fit a cleaner groove without snare or ride.
+
+### Approach:
+- Keep the kick pattern largely the same but possibly simplify for clarity.
+- Keep hi-hat hits to maintain a steady rhythmic pulse.
+- Remove snare and cymbal lines altogether.
+
+### Final plan:
+- Retain kicks on beats 1 and 3.
+- Keep hi-hat pattern consistent.
+- Remove snare and ride altogether, simplifying the groove.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+H: X-x-|X-x-|X-x-|X-x-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+This creates a straightforward, clean pattern emphasizing kick and hi-hat, with no snare or ride cymbal, per your instructions.

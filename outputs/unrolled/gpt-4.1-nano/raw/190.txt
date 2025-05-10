@@ -1,0 +1,44 @@
+Let's analyze the original groove:
+
+- **Kick (K):** hits on beats 1 and 3 ("O---" and "O---").
+- **Snare (S):** hits on beat 2 ("O---") and beat 4 ("O---").
+- **Hi-hat (H):** consistent closed hits on all four beats.
+- **Toms (T):** silent.
+- **Cymbals (C):** silent.
+- **Ride (R):** silent.
+
+**Objective:**  
+Add both **tom** and **another snare** to enrich the pattern.
+
+---
+
+### Approach:
+- Introduce a **tom** hit on beat 4 ("---O") or possibly beat 3.
+- Reinforce or add a **snare** hit on beat 3.
+
+---
+
+### Implementation choice:
+- Place **tom** on beat 4 ("---O") to add rhythmic depth.
+- Add/snare to beat 3 ("----" to "--X-") for stronger backbeat.
+
+---
+
+### Final edited groove:
+```plaintext
+@@@
+K: O---|----|O---|----
+S: ----|O---|--X-|O---
+H: X---|X---|X---|X---
+T: ----|----|----|--O-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+**Summary:**
+- **Tom** added with a hit on beat 4 ("---O").
+- **Snare** hits on beat 3 ("--X-") to give more emphasis.
+- The rest of the pattern remains for continuity, with consistent hi-hats and kick pattern.
+
+This version adds the missing tom and enhances snare presence while keeping the groove steady.

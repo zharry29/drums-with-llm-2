@@ -1,0 +1,43 @@
+Let's analyze the current groove and then think about adding snare support while keeping hi-hat.
+
+### Current groove overview:
+- **K (Kick):** hits at measures 1 ("-O--"), 2 ("OO--"), 3 ("---O"), 4 ("-OO-")
+- **S (Snare):** no snare hits (all "-")
+- **H (Hi-hat):** steady with "x-x-" pattern throughout
+- **T (Toms):** only a hit in measure 3, beat 3 ("---O")
+- **C (Crash):** hits at measure 1 and 2’s first beat
+- **R (Ride):** silent
+
+### Goal:
+- Incorporate **snare** into the groove to add backbeat or accents.
+- Maintain or enhance the hi-hat pattern for rhythm foundation.
+- Keep the existing kick pattern intact.
+
+---
+
+### Strategy:
+- Add snare hits on measure 2, beat 2 ("-S--") or measure 4, beat 3 ("---S") for variation.
+- Keep hi-hat consistent to keep the groove lively.
+- Optionally, add a snare hit on measure 1 beat 3 ("--S-") for symmetry.
+
+### Implementation:
+- Snare in measure 2, beat 2 ("-S--").
+- Snare in measure 4, beat 3 ("---S").
+- Keep hi-hat pattern "x-x-" steady on all beats to maintain drive.
+
+---
+
+### Final drum groove:
+
+```plaintext
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|-S--|----|--S-
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```
+
+This setup adds snare hits on measure 2, beat 2 and measure 4, beat 3, creating a more rhythmic backbeat while keeping the existing groove intact and lively with the steady hi-hat.

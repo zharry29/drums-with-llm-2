@@ -1,0 +1,42 @@
+Let's analyze the current groove:
+
+- **Kick (K):** hits on beat 1, beat 4, and measure 3's beat 1.
+- **Snare (S):** hits on beat 3 of measure 3.
+- **Hi-hat (H):** no hits.
+- **Toms (T):** hits on all beats, alternating soft and hard ("O-o-").
+- **Cymbals (C):** none.
+- **Ride (R):** none.
+
+**Given the request to include both "tom" and "ride"**, we should:
+
+- Add a ride cymbal pattern, typically on beats 2 and 4.
+- Maybe add a ride hit on measure 4 beat 4 ("--X-").
+- Keep the existing tom pattern, as it's already present.
+
+**Implementation plan:**
+
+- Insert ride hits ("X" for a typical ride hit) on measure 2 beat 4 and measure 4 beat 4.
+- Possibly add a ride on measure 3 beat 4 for a smoother ride pattern.
+- Keep the tom hits as they are.
+
+---
+
+### Final edited groove:
+
+```plaintext
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|--X-|--X-
+@@@
+```
+
+**Explanation:**
+
+- Added ride hits ("X") in measure 3 beat 4 and measure 4 beat 4.
+- Keeps the toms "O-o-" pattern intact.
+- Cymbals remain silent, but the ride pattern now adds the desired cymbal layer.
+- This provides a balanced pattern with both toms and ride cymbal.

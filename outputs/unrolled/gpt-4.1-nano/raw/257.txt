@@ -1,0 +1,33 @@
+Let's analyze the current groove:
+
+- **Kick (K):** silent
+- **Snare (S):** silent
+- **Hi-hat (H):** Ghost notes on beat 2 ("x---") and beat 4 ("x---")
+- **Toms (T):** silent
+- **Cymbals (C):** silent
+- **Ride (R):** pattern of closed hits ("x---" on beat 1, beat 3, and "X-x-" on beat 2 and 4), with some closed hits on the bow ("X," "x").  
+  Actually, the existing pattern of "X-x-" in R indicates some rhythmic pattern that can support the groove.
+
+**Goal:**
+Incorporate explicit ride cymbal hits into the groove, preferably on beats 2 and 4, to add a steady ride pattern, while maintaining the hi-hat ghost notes.
+
+### Implementation plan:
+- Place ride hits ("O---") on beats 2 and 4 in the R line.
+- Keep existing ghost notes and pattern support.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|O---|----|O---
+@@@
+```
+
+This pattern introduces the ride cymbal on beats 2 and 4, complementing the ghosted hi-hats and the rest of the pattern, for a complete rhythmic texture.

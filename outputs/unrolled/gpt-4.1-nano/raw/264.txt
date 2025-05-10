@@ -1,0 +1,39 @@
+Let's analyze the given groove:
+
+- **Kick (K):** hits on all beats with varying intensity ("OOO-", "--O-", "OOO-", "OOO")
+- **Snare (S):** hits on beat 2 and 4 ("O---" and "O---")
+- **Hi-hat (H):** no pattern present (all "-")
+- **Toms (T):** silent
+- **Crash (C):** hits on all beats ("O---")
+- **Ride (R):** silent
+
+**Goal:**  
+Incorporate a hi-hat pattern to have both cymbal and hi-hat support the groove.
+
+**Approach:**  
+- Add a consistent closed hi-hat ("x---") pattern on all four beats for steady rhythmic support.
+- Maintain the existing cymbal (crash) hits.
+- Keep the kick and snare pattern intact for groove consistency.
+
+Now, updating:
+
+- Add "x---" in the H line on beats 1-4.
+- Keep the original cymbal hits.
+- Keep the rest unchanged.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: x---|x---|x---|x---
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```
+
+This ensures both cymbals and hi-hat are present, providing a fuller rhythmic texture while respecting the original groove structure.

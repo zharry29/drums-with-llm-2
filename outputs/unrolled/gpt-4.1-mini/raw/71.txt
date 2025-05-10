@@ -1,0 +1,30 @@
+The current groove has:  
+- Kick drum (K) with dense hits on beat 1 and 3 bars.  
+- Snare (S) hits on beats 6 and 14 (positions 6 and 14 in the bar).  
+- Crash cymbal (C) on every downbeat (positions 1, 5, 9, 13).  
+- No hi-hat (H) or ride cymbal (R) hits.  
+
+---
+
+**Request:** Groove should have **not only ride but also hi-hat**.  
+Currently, no ride or hi-hat.
+
+---
+
+**Thought process:**  
+- Add a ride cymbal pattern to meet the ride requirement: use closed soft bow hits `x` on positions 1, 5, 9, 13 for a steady pulse supporting the kick and crash.  
+- Add a hi-hat pattern with soft closed hits `x` on offbeats (positions 3, 7, 11, 15) to complement the ride and provide groove.  
+- No changes to kick, snare, or crash.
+
+---
+
+Final groove:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: --x-|--x-|--x-|--x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: x---|x---|x---|x---
+@@@

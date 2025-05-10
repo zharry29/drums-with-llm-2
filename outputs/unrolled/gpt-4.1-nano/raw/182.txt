@@ -1,0 +1,48 @@
+Let's analyze the original groove:
+
+- **Kick (K):** soft hits alternating with beat 2 and 4 ("o---", "--o-", "o---", "--o-")
+- **Snare (S):** on beat 2 ("X---") and beat 3 ("--X-")
+- **Hi-hat (H):** ghost notes on beats 2 ("x---") and 4 ("x---")
+- **Toms (T):** silent
+- **Cymbals (C):** silent
+- **Ride (R):** hits on beats 1 ("x---"), 2 ("X-x-"), 3 ("x---"), 4 ("X-x-")
+
+---
+
+### Objective:
+Add a tom and ensure the groove contains both cymbal and tom, as requested.
+
+### Approach:
+- Introduce a tom hit on beat 3 or 4 for rhythmic variation.
+- Add a crash cymbal or ride cymbal on beat 1 or 4 for accentuation.
+  
+- Keep existing rhythmic elements, adjusting for the new additions.
+
+---
+
+### Implementation:
+- Adding a tom hit on beat 4 ("--O-") for color.
+- Adding a crash cymbal on beat 4 ("----" -> replace with "O---") for emphasis.
+
+### Final plan:
+- Add a tom hit on beat 4 ("--O-")
+- Add a crash cymbal on beat 4 ("O---") to give an accent
+
+---
+
+### Final groove:
+```plaintext
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|--O-
+C: ----|----|----|O---
+R: x---|X-x-|x---|X-x-
+@@@
+```
+
+**Summary:**
+- Tom added on beat 4 ("--O-")
+- Crash cymbal added at beat 4 ("O---")
+- The rest remains for rhythm continuity.

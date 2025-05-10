@@ -1,0 +1,25 @@
+In the given groove, the snare line has an invalid 'S' character, so it should be fixed. The groove has kick, hi-hat, tom, and crash cymbal, and the request is for the groove to have not only cymbal but also kick — which it already has. Therefore, I will fix the snare part and ensure it includes valid snare hits.
+
+---
+
+**Thought process:**
+
+- Replace invalid 'S' with a proper snare hit 'O' on the first 16th note of the third beat group.  
+- Keep existing kick hits intact.  
+- Keep hi-hat closed hits as is.  
+- Keep tom and crash as is.  
+- No ride cymbal.  
+- The snare presence will be clearer with the correction.
+
+---
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|O---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

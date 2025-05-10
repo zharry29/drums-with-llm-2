@@ -1,0 +1,23 @@
+The original groove has soft kicks, sidestick snare hits (`X` on the S line), closed hi-hat hits, and closed ride hits on the R line.
+
+The request is to remove any ride or snare hits.
+
+---
+
+**Thought process:**  
+- Remove all snare hits (`X`) → replace with `-` in the S line.  
+- Remove all ride hits (`x` and `X`) → replace with `-` in the R line.  
+- Keep the kick and hi-hat hits as is.
+
+---
+
+Final groove:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

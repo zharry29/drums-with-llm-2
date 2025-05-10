@@ -1,0 +1,35 @@
+Let's analyze the current groove carefully:
+
+- **Kick (K):** hits in the first and third beats ("O--O", "--O-", "-O--", "--O-")
+- **Snare (S):** hits on beats 2 and 4 with some variation ("----", "Oo-o", "-o--", "O--o")
+- **Hi-Hat (H):** consistent pattern of open/closed hi-hat notes ("X-x-", repeated)
+- **Toms (T):** silent, we need to add toms.
+- **Cymbals (C):** silent.
+- **Ride (R):** silent.
+
+### Objective:
+Add toms to the existing groove, maybe for fills or accents. A typical way is:
+
+- Add a tom hit on beat 3 ("--O-") as a punch.
+- Add a tom hit on beat 4 ("---O") to provide a fill.
+
+### Implementation:
+- Keep the existing kick, snare, hi-hat, cymbal pattern.
+- Place a tom on beat 3 ("--O-").
+- Place a tom on beat 4 ("---O").
+
+---
+
+### Final version:
+```plaintext
+@@@
+K: O--O|----|--O-|---O
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|--O-|---O
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+This version includes the tom hits as fills, blending into the existing groove nicely while providing rhythmic variation.

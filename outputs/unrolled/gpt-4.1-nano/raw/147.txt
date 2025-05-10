@@ -1,0 +1,42 @@
+Let's review the current groove:
+
+- **Kick (K):** Alternates between heavy hits ("OOO-") and other patterns, providing a solid rhythm.
+- **Snare (S):** Only in measure 2 and 4, with hits ("O---" and "O---").
+- **Hi-hat (H):** Silent ("----" in all measures).
+- **Toms (T) and Cymbals (C, R):** Silent, except for crashes ("O---" on measures 1, 2, 3, 4) for cymbals.
+
+**Recap of the request:**  
+Add **snare** support (which already exists but only on 2 and 4), and add **hi-hat** (currently missing).
+
+---
+
+### Strategy:
+- Keep the existing snare in measures 2 and 4.
+- Add hi-hat pattern throughout, for example, steady "x---" on each beat for a foundation.
+- Possibly add a snare hit in measure 1 or 3 to create more rhythmic interest.
+
+### Implementation:
+- Add hi-hat "x-x-" pattern in all measures.
+- Possibly add a snare in measure 1, beat 3 ("--S-") or measure 3, beat 2 ("-S--").
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|--S-|O---
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```
+
+**Description:**  
+- The hi-hat plays a steady "x-x-" pattern throughout, underpinning the rhythm.
+- Snare added in measure 3, beat 2 ("-S--"), for more groove variation.
+- The existing kick pattern remains unchanged, providing solid support.
+
+This creates a complete rhythmic pattern with both hi-hat and snare, enhancing the overall groove.

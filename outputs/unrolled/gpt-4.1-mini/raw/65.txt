@@ -1,0 +1,36 @@
+Currently, the groove has:  
+- No kick or snare.  
+- Hi-hat with soft closed hits (`x`) only twice, on the offbeat of beat 2 and beat 4.  
+- Ride cymbal with mixed hard and soft closed hits (positions 1, 5, 7, 9, 13, 15).  
+
+---
+
+**Request:** It should have **not only ride but also hi-hat**.
+
+---
+
+**Thought process:**  
+- The hi-hat is present but very sparse (only two soft hits).  
+- To satisfy the request, I will add consistent closed hi-hat hits on the offbeats (like 8th notes offbeats), which is a typical groove pattern.  
+- So hi-hat will have soft closed hits (`x`) on positions 3, 7, 11, 15.  
+- Keep the existing `x` hits on positions 6 and 14 as well; so overall hi-hat will nicely complement the ride.
+
+---
+
+Final hi-hat line:  
+`--x-|x-x-|--x-|x-x-`
+
+Everything else stays the same.
+
+---
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: --x-|x-x-|--x-|x-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

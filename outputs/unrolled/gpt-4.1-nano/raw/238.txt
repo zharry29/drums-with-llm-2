@@ -1,0 +1,39 @@
+Let's examine the current groove:
+
+- **Kick (K):** hits on beat 1 ("O--O") and beat 3 ("--O-")
+- **Snare (S):** hits on beats 2 ("Oo-o") and 4 ("O--o")
+- **Hi-hat (H):** silent
+- **Toms (T):** silent (to be added)
+- **Cymbals (C):** silent
+- **Ride (R):** pattern alternating "o-O-"/"o-O-" on all beats, providing a rhythmic pulse
+
+### Objective:
+Add the toms in a way that enriches the rhythm without disrupting the existing feel.
+
+### Approach:
+- Use the existing pattern to introduce a tom hit on beat 3 or 4 for fill, for example, on beat 3 ("--O-") or beat 4 ("--O-").
+- Provide some rhythmic fills to complement the energy.
+- Keep the existing kick, snare, and cymbal patterns.
+
+---
+
+### Implementation plan:
+- Add a tom hit on beat 3 ("--O-") as a punch.
+- Add a tom hit on beat 4 ("---O") as further fill.
+- Keep the pattern of kick and snare as is.
+
+---
+
+### Final groove:
+```plaintext
+@@@
+K: O--O|----|--O-|---O
+S: ----|Oo-o|--o-|O--o
+H: ----|----|----|----
+T: ----|----|--O-|---O
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+```
+
+This version introduces a tom punch on beat 3 and a fill on beat 4, enriching the groove with more percussive variation while keeping the original rhythm direction.

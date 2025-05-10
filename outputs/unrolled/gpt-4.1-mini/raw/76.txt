@@ -1,0 +1,36 @@
+The current groove has:  
+- Kick (`K`) with a pattern emphasizing the first half of the bar.  
+- Snare (`S`) with a single hit on the 3rd beat, 1st 16th note. (The character `S` is unexpected here; likely a typo for `O` or `o`. I will interpret this as a snare hit (`O`) for coherence.)  
+- Hi-hat (`H`) playing steady closed hits (`x`) on 8th notes (positions 1,3,5,7,9,11,13,15).  
+- Toms (`T`) have a single hit on the 14th 16th note.  
+- Crash cymbal (`C`) on every downbeat (positions 1,5,9,13).  
+- No ride cymbal hits.
+
+---
+
+**Request:** Groove should have **not only cymbal but also ride**.  
+Currently, there are crashes but no ride cymbal.
+
+---
+
+**Thought process:**  
+- Add ride cymbal with soft closed hits (`x`) on the off-beats (e.g., 16th note positions 3,7,11,15) to complement the hi-hat and crash cymbal.  
+- Keep all other parts unchanged.
+
+---
+
+Final ride cymbal line:  
+`-x-x|-x-x|-x-x|-x-x`
+
+---
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|O---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: -x-x|-x-x|-x-x|-x-x
+@@@

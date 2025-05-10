@@ -1,0 +1,21 @@
+The request asks to remove any snare and ride hits from the groove.
+
+---
+
+**Thought process:**  
+- Snare line has hard hits (`O`) on beats 2 and 4; I will replace all snare hits with `-`.  
+- Ride line is already empty, so no changes needed there.  
+- Keep kick and hi-hat hits as is.
+
+---
+
+Final groove:
+
+@@@
+K: O---|----|O---|----
+S: ----|----|----|----
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

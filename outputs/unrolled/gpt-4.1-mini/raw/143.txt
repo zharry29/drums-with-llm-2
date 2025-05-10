@@ -1,0 +1,22 @@
+The original groove contains kick, snare (with an invalid 'S' notation but likely a snare hit), hi-hat, toms, and crash, but no ride cymbal. The hi-hat is already present as closed hits (x), and tom hits occur mid-bar. The request is to have not only tom but also hi-hat, so the hi-hat is already there. The invalid 'S' should be corrected to a proper snare hit 'O'.
+
+---
+
+**Thought process:**  
+- Correct the snare hit 'S' to 'O'.  
+- Keep existing tom and hi-hat parts as requested.  
+- Retain crash cymbal hits as is.  
+- No ride cymbal requested, so leave it empty.
+
+---
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|O---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

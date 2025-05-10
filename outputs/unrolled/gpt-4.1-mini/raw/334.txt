@@ -1,0 +1,23 @@
+The request is to remove hi-hat and tom hits.
+
+---
+
+**Thought process:**
+
+- Hi-hat line (H) contains closed hi-hat hits (`X` and `x`), so replace all with `-`.  
+- Tom line (T) is already empty, so no changes needed there.  
+- Keep kick and snare as is.  
+- Crash and ride are empty, so no change there.
+
+---
+
+Final groove:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

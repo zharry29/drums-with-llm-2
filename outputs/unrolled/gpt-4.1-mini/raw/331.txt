@@ -1,0 +1,22 @@
+The request is to remove both snare and ride cymbal hits from the groove.
+
+---
+
+**Thought process:**  
+- The snare line (S) contains various hits (`O`, `o`), so I will replace all with `-`.  
+- The ride line (R) contains many hits (`o`, `O`), so I will also replace all ride hits with `-`.  
+- Kick part (K) remains untouched as it is not requested to be removed.  
+- Other lines are already empty.
+
+---
+
+Final groove:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
