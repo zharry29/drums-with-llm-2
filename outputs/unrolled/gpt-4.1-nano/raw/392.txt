@@ -1,0 +1,26 @@
+Let's examine the original groove:
+
+- Kick 'K': plays on various beats with both hard ('O') and soft ('o') hits.
+- Snare 'S': plays in the third beat with 'S'.
+- Hi-hat 'H': consistent pattern with alternating closed hits ('x' and '-').
+- Toms 'T': plays only on beat 3 with 'O'.
+- Cymbals 'C' and 'R': 'C' has hits on all beats; 'R' is silent.
+
+**Request:** Remove snare 'S' and hi-hat 'H'.
+
+- Replace 'S' and 'H' lines entirely with dashes ('-').
+
+The remaining elements are kick 'K', Toms 'T', and cymbals 'C' and 'R'.
+
+### Final layout:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+This version has no snare or hi-hat, focusing on kick, cymbals, and toms, as requested.

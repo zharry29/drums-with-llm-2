@@ -1,0 +1,54 @@
+The original groove:
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Request: "I'd like a kick hit and tom in the very beginning."
+
+Step-by-step:
+
+- Kick (K) at the very beginning (first 16th note) is '-', so add a hard kick hit 'O' there.
+- Tom (T) at the very beginning is '-', so add a hard tom hit 'O' there.
+- Other lines remain unchanged.
+
+Final groove:
+
+@@@
+K: O-O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: O---|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+(Note: The first bar shows one extra character because fixing indexing, the original K line looks like it has 4 characters per beat, so total 16 characters - I added an 'O' without displacing others, so adjusting the first beat to 5 characters is invalid. Correct is to keep 16 characters total.)
+
+Correcting carefully:  
+Original K first beat: `-O--` (4 characters) — add 'O' at first position: `O O--`. So `O--O` would displace original characters. Instead, replace the first '-' by 'O', the rest remains. So first beat becomes `O O--` (which is `O O--`). But two spaces? Actually, we have 4 characters per beat.
+
+So original first beat is `- O - -`  
+Positions: 1 2 3 4  
+We add an 'O' at position 1, so `O O - -` is 5 chars, invalid. So only replace the first '-' with 'O', then keep rest:  
+`O O - -` → no, 'O' at pos 1, 'O' at pos 2? There is 'O' at position 2 already. So final first beat: `O O - -` is 4 chars: replaced `- O - -` with `O O - -`.
+
+Thus, first beat K: `O O - -`.
+
+Similarly for T at first position '-' replaced by 'O' → `O---`.
+
+The final corrected groove is:
+
+@@@
+K: OO--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: O---|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

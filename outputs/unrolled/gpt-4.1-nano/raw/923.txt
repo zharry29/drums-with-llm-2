@@ -1,0 +1,31 @@
+Let's analyze what needs to be done:
+
+- The original groove shows:
+  - Cymbal (line R):
+    - Beat 1: x---
+    - Beat 2: X-x-
+    - Beat 3: x---
+    - Beat 4: X-x-
+
+- The request is **no cymbal on beat 4**.
+
+- Currently, in beat 4, the pattern for cymbal (R) is: X-x-, which includes hits.
+
+- To comply, we should remove or disable all hits on beat 4 (the last segment).
+
+- So, for line R: X-x- → ---- (all hyphens)
+
+The other instruments are already fine.
+
+### Final answer:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|----
+@@@
+
+This clears the cymbal hits on beat 4, fulfilling the request.

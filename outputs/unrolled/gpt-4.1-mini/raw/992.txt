@@ -1,0 +1,32 @@
+The request is to add closed hi-hat hits on every 16th note in the bar, with accents on the quarter note downbeats (the first 16th note of each beat).  
+
+Notation reminder for hi-hat:  
+- `X` = hard closed hit (accented)  
+- `x` = soft closed hit (unaccented)
+
+Since the downbeats (positions 1, 5, 9, 13) should be accented, they get `X`. The other 16th notes get `x`.
+
+Original hi-hat line is empty:  
+`----|----|----|----`
+
+Now fill all 16 positions:  
+
+Positions in full bar, 16 total:
+
+1 2 3 4 | 5 6 7 8 | 9 10 11 12 | 13 14 15 16  
+X x x x | X x x x | X  x  x  x  | X  x  x  x  
+
+Other instruments remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: Xxxx|Xxxx|Xxxx|Xxxx
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

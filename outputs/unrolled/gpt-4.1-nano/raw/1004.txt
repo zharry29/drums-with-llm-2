@@ -1,0 +1,44 @@
+Let's break down the task:
+
+**Current groove:**
+
+- Hi-hat line: `----|----|----|----` — no hi-hat played.
+- The instruction: **Play closed hi-hat (`X`) on all 8th notes (positions 2, 4, 6, 8, 10, 12, 14, 16).**
+- **Open hi-hat (`O`) on every up beat** (the off-beats following downbeats), i.e., at notes 2, 6, 10, 14.
+- **Keep hits hard (`X` for soft, `O` for open):** Use `X` for closed hits and `O` for open hits, both with emphasis.
+
+**Step-by-step reasoning:**
+
+- The 8th notes are at positions: 2, 4, 6, 8, 10, 12, 14, 16.
+- On each **up beat** (the off-beats): 2, 6, 10, 14 -> open `O`.
+- On the other 8th notes: closed `X`.
+
+**Here's the plan:**
+
+- At 2: open (`O`) (up beat)
+- At 4: closed (`X`)
+- At 6: open (`O`)
+- At 8: closed (`X`)
+- At 10: open (`O`)
+- At 12: closed (`X`)
+- At 14: open (`O`)
+- At 16: closed (`X`)
+
+Now, translate this into the notation: `-X--|-O--|-X--|-O--`
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: -X--|-O--|-X--|-O--
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+```
+
+This pattern keeps the hi-hat hits **hard**, with **closed hits on all 8th notes** and **open on every up beat**.

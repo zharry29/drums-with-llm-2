@@ -1,0 +1,35 @@
+Let's analyze the original groove:
+
+- Kick (K): no hits.
+- Snare (S): no hits.
+- Hi-hat (H): hits on beat 2 and 4 with x (soft closed hi-hat).
+- Toms (T): no hits.
+- Cymbals (C): no hits.
+- Ride (R): played on all four beats with various open and closed hits.
+
+**Request:** no cymbal or snare.
+
+This means:
+
+- Remove the snare (S) and cymbal (C) lines completely.
+- Keep the kick (K) pattern, which currently has no hits, so no change there.
+- Keep the hi-hat (H) pattern to maintain rhythm.
+- Remove R (ride cymbal), since it is a cymbal.
+
+### Final plan:
+- Keep the hi-hat pattern from H.
+- Kick remains with no hits.
+- Remove snare, cymbals, and ride.
+
+### Final groove:
+
+@@@
+K: ----|----|----|----
+S: (removed)
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: (removed)
+R: (removed)
+@@@
+
+This is a simple, steady rhythm with just hi-hat for texture and a silent kick, fulfilling the request to exclude snare and cymbal.

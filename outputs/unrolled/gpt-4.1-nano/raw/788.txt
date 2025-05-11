@@ -1,0 +1,31 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): `o---|--o-|o---|--o-` (hits on the first and third beats with soft hits)
+  - Snare (S): `----|X---|--X-|----` (snare hits on second and third beats)
+  - Hi-hat (H): `----|x---|----|x---` (hi-hat hits on the second and fourth subdivision)
+  - Toms (T): all silent
+  - Crash cymbal (C): all silent
+  - Ride cymbal (R): `x---|X-x-|x---|X-x-` (ride pattern on the bell and bow)
+
+- Request:
+  - Add a cymbal hit and a ride in the very beginning.
+
+- Implementation:
+  - Crash cymbal (`O`) in C line at the first beat.
+  - Ride cymbal (`O`) in R line at the first beat.
+
+---
+
+**Final edited groove:**
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: O---|X-x-|x---|X-x-
+@@@
+
+**This includes both a cymbal and ride hit at the very beginning as requested.**

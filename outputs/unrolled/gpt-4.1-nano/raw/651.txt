@@ -1,0 +1,20 @@
+**Thought process:**
+- To add a hi-hat hit at the very beginning, I will change the first beat of H from `----` to a hi-hat hit, for example, `x---` for a soft hi-hat.
+- To add a tom hit at the very start, I will change the first beat of T from `----` to `O---`.
+
+**Implementation:**
+- T: `O---` (tom hit)
+- H: `x---` (hi-hat hit)
+
+**Final groove:**
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: x---|----|----|----
+T: O---|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+This adds a hi-hat hit and a tom hit at the beginning as requested.

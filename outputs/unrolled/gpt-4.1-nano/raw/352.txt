@@ -1,0 +1,27 @@
+Let's analyze the original groove:
+
+- Kick 'K': O--- | O--- | ---- | O---  
+  - Kick hits on beats 1, 2, and 4.
+- Snare 'S': ---- | ---- | O--- | ----  
+  - Snare hits on beat 3 of measure 3.
+- Hi-hat 'H': ---- | ---- | ---- | ----  
+  - No hi-hat hits.
+- Toms 'T': O-o- | O-o- | O-o- | O-o-  
+  - Toms playing on all four beats with soft open hits alternating.
+- Cymbals 'C' and 'R': none.
+
+**Request:** Remove all kick and cymbal parts.
+
+### Approach:
+- Remove 'K' and 'C'/'R' lines.
+- Keep 'S' and 'T' because they contribute to the rhythm.
+- The original has no cymbals, so no need to modify there.
+
+### Final:
+
+@@@
+S: ----|----|O---|----
+T: O-o- | O-o- | O-o- | O-o-
+@@@
+
+This version retains the snare and toms, with no kick or cymbals, accommodating the request.

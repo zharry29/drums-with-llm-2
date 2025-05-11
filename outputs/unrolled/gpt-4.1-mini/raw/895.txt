@@ -1,0 +1,44 @@
+Let's count the notes first and then reduce to 8 or fewer.
+
+Original:
+
+- Kick: O (1), o (1), O (1), O (1) = 4 hits
+- Snare: O (2) = 2 hits
+- Hi-hat: o (6), O (6), o (6) = 12 hits
+- Crash: O (1) = 1 hit
+Total: 4 + 2 + 12 + 1 = 19 notes (too many)
+
+---
+
+**To reduce to ≤8 notes:**
+
+- Kick: keep 2 hits (O on 1st beat, O on 3rd beat)
+- Snare: keep 1 hit (O on beat 4)
+- Hi-hat: reduce significantly — choose 2 x closed hits on strong beats
+- Crash: remove (to save note count)
+
+---
+
+**Edited groove:**
+
+```
+K: O---|----|O---|----
+S: ----|----|----|O---
+H: x---|----|x---|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Note count: Kick (2) + Snare (1) + Hi-hat (2) = 5 notes total — within limit.
+
+---
+
+@@@
+K: O---|----|O---|----
+S: ----|----|----|O---
+H: x---|----|x---|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

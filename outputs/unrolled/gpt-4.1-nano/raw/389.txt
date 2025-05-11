@@ -1,0 +1,28 @@
+Let's analyze the current groove:
+
+- Kick 'K': no hits, already silent.
+- Snare 'S': no hits.
+- Hi-hat 'H': plays on beat 2 and 4 with soft closed hits ('x').
+- Toms 'T': no hits.
+- Cymbals 'C' and 'R': 'R' (ride) has hits on beats 1 and 3, with open and closed hits.
+
+**Request:** Remove snare 'S' and hi-hat 'H'.
+
+- Change 'S' and 'H' lines to all dashes ('-').
+
+Remaining instruments are cymbals 'C' and 'R'.
+
+---
+
+### Final version:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+This includes only the cymbal pattern, with no snare or hi-hat, matching the requested edits.

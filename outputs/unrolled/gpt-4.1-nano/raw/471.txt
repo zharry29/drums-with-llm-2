@@ -1,0 +1,49 @@
+Let's analyze the original groove:
+
+- **Kick (K):** hits on beats 1, 2, and 4 with varying intensity.
+- **Snare (S):** plays on beat 3.
+- **Hi-hat (H):** silent.
+- **Toms (T):** plays on all beats with alternating soft and hard hits.
+- **Cymbals (C):** silent.
+- **Ride (R):** silent.
+
+**Request:** no snare or kick. So, remove the S and K lines entirely.
+
+Remaining instruments: **H, T, C, R**.
+
+In the original, only T is active, with a pattern of alternating soft and hard hits on all beats.
+
+To keep the groove lively, I will retain the tom pattern with its oscillating soft and hard hits, and possibly add a steady hi-hat pattern for rhythm. Cymbal and ride are silent, so they are not necessary.
+
+### Final plan:
+- Remove S, K, C, R.
+- Retain the tom pattern (T).
+- Add a steady hi-hat on every beat with closed hits for rhythm.
+
+---
+
+### Final groove:
+
+@@@
+K: (removed)
+S: (removed)
+H: x---|x---|x---|x---
+T: O-o-|O-o-|O-o-|O-o-
+C: (removed)
+R: (removed)
+@@@
+
+This provides a lively, balanced pattern with hi-hat and toms, without snare or kick.
+
+## Final output:
+
+```plaintext
+@@@
+K: (removed)
+S: (removed)
+H: x---|x---|x---|x---
+T: O-o-|O-o-|O-o-|O-o-
+C: (removed)
+R: (removed)
+@@@
+```

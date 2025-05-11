@@ -1,0 +1,41 @@
+Let's analyze the original groove:
+
+- Kick (K): plays at beat 1 (hard) and beat 3 (hard).
+- Snare (S): plays on beats 2 and 4, with various articulations.
+- Hi-hat (H): silent.
+- Toms (T): silent.
+- Cymbals (C): silent.
+- Ride (R): plays in a pattern across all 4 beats, with alternating open and closed hits.
+
+**Request:** no kick and no ride.
+
+This means:
+
+- Remove the K and R lines.
+- Keep snare (S) and hi-hat (H). Since H is silent, I can omit it.
+- Keep the snare pattern with hits on beats 2 and 4.
+
+Now, to make the pattern interesting, I can:
+
+- Keep the snare hits on beats 2 and 4.
+- Use a steady hi-hat pattern of closed hits on every subdivision (for rhythm).
+- Remove the empty lines for T, C, H, since only snare matters.
+
+### Final plan:
+
+- Snare: on beats 2 and 4.
+- Hi-hat: continuous closed hits.
+- Remove kick and ride.
+
+### Final pattern:
+
+@@@
+S: ----|--O-|----|--O-
+H: x---|x---|x---|x---
+C: ----|----|----|----
+R: (removed)
+K: (removed)
+T: (removed)
+@@@
+
+This provides a simple, energetic pattern emphasizing the snare on the backbeat, with a steady hi-hat, and no kick or ride, fulfilling the request.

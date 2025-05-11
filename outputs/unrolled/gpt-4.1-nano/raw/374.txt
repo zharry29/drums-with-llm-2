@@ -1,0 +1,31 @@
+Let's analyze the original groove:
+
+- Kick 'K': hits on all four beats with various intensities.
+- Snare 'S': only on the second and fourth beats.
+- Hi-hat 'H': no hits.
+- Toms 'T': no hits - so no need to change.
+- Cymbals 'C': hits on all four beats.
+- Ride 'R': no hits.
+
+**Request:** Remove all toms ('T') and ride cymbal ('R') hits.
+
+Since 'T' is empty, no change needed there. 'R' already has no hits, so no change needed as well.
+
+**Conclusion:** Only need to remove 'C' hits (cymbals) to fulfill the request.
+
+- Set 'C' line to all dashes ('-').
+
+---
+
+### Final edited groove:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+This removes the cymbal hits while keeping the rest of the groove as is.

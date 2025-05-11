@@ -1,0 +1,28 @@
+Let's first analyze the original groove:
+
+- Kick 'K': soft hits on beats 1, 3, and 4, with soft hits ('o').
+- Snare 'S': hits on beats 2 and 3 with sidesticks ('X').
+- Hi-hat 'H': soft open hits ('x') on beats 2 and 4.
+- Toms 'T': no hits.
+- Cymbals 'R': hits on all beats with both open and closed hits.
+
+**Request:** Remove all toms ('T') and ride cymbal ('R') hits.
+
+Since 'T' is already empty, and 'R' has hits, I will remove the 'R' hits, which are on all beats with 'X-x-' pattern.
+
+**Approach:**
+- Set all 'R' line characters to '-' (no hits).
+
+---
+
+### Final groove:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+This version removes all 'R' hits, fulfilling the request, and keeps the rest of the groove intact.

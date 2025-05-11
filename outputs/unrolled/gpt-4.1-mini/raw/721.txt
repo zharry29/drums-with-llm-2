@@ -1,0 +1,30 @@
+The original groove:
+
+```
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Request: "I'd like a hihat hit and cymbal in the very beginning."
+
+Step-by-step:
+
+- The very beginning means the first 16th note.
+- Hihat (H) first character is already 'X' (hard closed hihat), so it's already present.
+- Cymbal (C) first character is '-', so add a hard crash hit 'O' here.
+- Other lines remain unchanged.
+
+Final groove:
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

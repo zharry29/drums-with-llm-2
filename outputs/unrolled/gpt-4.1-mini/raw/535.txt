@@ -1,0 +1,30 @@
+The original groove:
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Request: "I don't want any cymbal or kick."
+
+Step-by-step:
+
+- Kick (K) line has hits; remove all hits, replace with dashes.
+- Cymbals: Crash (C) and Ride (R); Crash has hits, remove all hits, replace with dashes; Ride is silent.
+- Snare (S), Hihat (H), and Toms (T) remain unchanged.
+- Note: Snare line contains an "S," which is not a defined articulation; treat it as a rest ("-").
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

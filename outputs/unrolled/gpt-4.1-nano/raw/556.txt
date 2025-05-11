@@ -1,0 +1,21 @@
+The given groove has snare (S) and toms (T) lines, which need to be removed according to the request.
+
+- Remove the S line: `----|O---|----|O---`
+- Remove T line: `----|----|----|----` (already silent)
+
+Remaining instruments:
+- Kick (K): `OOO-|--O-|OOO-|-OOO`
+- Hi-hat (H): `----|----|----|----` (silent, can omit)
+- Cymbal (C): `O---|O---|O---|O---`
+- Ride (R): `----|----|----|----` (silent, can omit)
+
+Since only kick and cymbal are active, the final pattern includes these.
+
+**Final edited groove:**
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+C: O---|O---|O---|O---
+@@@
+
+This removes snare and toms, leaving only the kick and cymbal patterns.

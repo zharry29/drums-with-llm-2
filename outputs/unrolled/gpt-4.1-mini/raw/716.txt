@@ -1,0 +1,29 @@
+The original groove:
+
+```
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Request: "I'd like a hihat hit and ride in the very beginning."
+
+Step-by-step:
+
+- The very beginning means the first 16th note (first character).
+- Hihat (H) first character is already 'X' (hard closed hit), so hihat hit is present.
+- Ride (R) first character is '-', so add a hard closed ride hit 'X' there.
+
+Final groove:
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: X---|----|----|----
+@@@

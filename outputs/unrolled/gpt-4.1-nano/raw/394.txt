@@ -1,0 +1,25 @@
+Let's analyze the original groove:
+
+- Kick 'K': plays on beats 1 and 3 with strong hits ('O').
+- Snare 'S': plays in beats 2 and 4 with 'O'.
+- Hi-hat 'H': plays on all beats with 'X'.
+- Toms 'T', cymbals 'C' and 'R': silent.
+
+**Request:** Remove snare 'S' and hi-hat 'H'.
+
+- We'll replace 'S' and 'H' lines with all dashes ('-').
+
+Remaining instruments are kick, cymbals, and ride.
+
+### Final version:
+
+@@@
+K: O---|----|O---|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+This leaves only kick and cymbals/rides, matching the request to eliminate snare and hi-hat.

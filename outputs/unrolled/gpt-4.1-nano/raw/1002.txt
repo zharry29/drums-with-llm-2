@@ -1,0 +1,39 @@
+Let's plan the modifications carefully:
+
+### Given instructions:
+- Play **closed hi-hat (`x` or `X`)** on **all 8th notes** (which are the notes at positions 2, 4, 6, 8, 10, 12, 14, 16).
+- **Open hi-hat (`O`)** on **every up beat** (the off-beats after each downbeat: at notes 2, 6, 10, 14).
+- Keep the hits **hard** (`X` for closed, `O` for open).
+
+### Step-by-step reasoning:
+
+- The **downbeats** are notes 1, 5, 9, 13.
+- The **up beats** are notes 2, 6, 10, 14.
+  
+For every **8th note**, we will:
+- Play **closed hi-hat (`X`)** at all 8th notes.
+- On the **up beats** (2, 6, 10, 14), instead of closed, **play open** (`O`), as per the instructions.
+- The remaining 8th notes (4, 8, 12, 16) that aren't up beats will be closed (`X`).
+
+### Pattern:
+- Notes 2, 6, 10, 14: open `O`
+- Notes 4, 8, 12, 16: closed `X`
+
+### Constructed hi-hat line:
+`-X--|-O--|-X--|-O--`
+
+Now, translating to the notation:
+
+### Final drum groove:
+```plaintext
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: -X--|-O--|-X--|-O--
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+This pattern ensures the hi-hat is **played loudly** and **on every 8th note**, with **open hi-hat on every off-beat**, as requested.

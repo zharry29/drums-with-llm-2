@@ -1,0 +1,32 @@
+The original groove:
+
+```
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+Request: "I'd like a kick hit and ride in the very beginning."
+
+Step-by-step:
+
+- Very beginning means the first 16th note.
+- Kick drum (K) first character is "-", so add a hard kick hit "O".
+- Ride cymbal (R) first character is "x" (soft closed ride hit), we want a ride in the beginning, so a closed hit "X" (hard closed ride) may fit better.
+  However, since "x" is already a ride hit, ride is present.
+- The user asked for "kick hit and ride"; both are present, but to emphasize the ride hit, let's upgrade the soft "x" to hard "X".
+- Other lines remain unchanged.
+
+Final groove:
+
+@@@
+K: O---|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: X---|X-x-|x---|X-x-
+@@@

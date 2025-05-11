@@ -1,0 +1,30 @@
+Let's identify the second beat and the snare line.
+
+- The second beat's 16th notes occupy characters 5-8 (after removing '|').
+- Original snare line is `----|O---|----|O---`,
+- In beat 2, snare currently only hits on the first 16th note (O at position 5).
+
+The edit request is to place a snare hit on **every 16th note** of the second beat. So all four 16ths (positions 5,6,7,8) should be snare hits.
+
+I'll use hard hits `O` for consistency.
+
+---
+
+Updated snare line:
+
+```
+S: ----|OOOO|----|O---
+```
+
+Other lines remain unchanged.
+
+---
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|OOOO|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

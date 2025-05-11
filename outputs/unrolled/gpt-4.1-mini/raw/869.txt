@@ -1,0 +1,35 @@
+Let's analyze the original groove:
+
+```
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+We need to add an **open hihat on the last 8th note**.
+
+- The bar has 16 sixteenth notes.
+- The last 8th note corresponds to the 15th and 16th sixteenth notes.
+- Look at the hihat line last group `x---` (positions 13-16):
+  - 13: x (soft closed hit)
+  - 14: -
+  - 15: -
+  - 16: -
+- The 15th sixteenth note is currently `-`.
+- Replace the 15th sixteenth note (third character in the last group) with `o` (soft open hihat).
+
+Updated last group of hihat line: `x-o-`
+
+Final groove:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x-o-
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

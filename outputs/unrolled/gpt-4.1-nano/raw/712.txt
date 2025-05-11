@@ -1,0 +1,24 @@
+**Thought process:**
+- The goal is to add a hi-hat hit and a ride cymbal hit at the very beginning.
+- The hi-hat (H) is currently `--o-`, which shows a soft open hi-hat on the third 16th note of the first beat.
+  - To emphasize a hit at the very start, change the first beat of H from `--o-` to `x---` so a closed hi-hat hit occurs in the first 16th note.
+- The ride cymbal (R) is currently `----` in the first beat.
+  - To add a ride cymbal hit, change the first beat of R from `----` to `X---` (a hard closed bow hit).
+
+**Changes not affecting other parts:**
+- Keep the rest of the groove intact, only adjusting H and R for the new hits.
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: x---|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: X---|----|----|----
+@@@
+
+This now includes a hi-hat hit and a ride cymbal in the very beginning, fulfilling the request.

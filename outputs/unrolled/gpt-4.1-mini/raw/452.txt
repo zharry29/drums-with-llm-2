@@ -1,0 +1,29 @@
+The original groove:
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Request: "I don't want any cymbal or hihat."
+
+- Cymbals include Crash (C), Ride (R), and Hihat (H).
+- Hihat (H) has closed hits 'x'; remove all by replacing with dashes.
+- Crash (C) has hard hits 'O' in every first beat; remove by replacing with dashes.
+- Ride (R) is empty; no change.
+- Kick (K), Snare (S), and Toms (T) remain unchanged.
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: ----|----|----|----
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

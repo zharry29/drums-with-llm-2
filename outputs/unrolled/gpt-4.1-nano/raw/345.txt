@@ -1,0 +1,25 @@
+Let's analyze the existing groove:  
+- Kick 'K': o--- | --o- | o--- | --o-  
+  - Kick hits on beat 1 and 3 with soft hits.
+- Snare 'S': ---- | X--- | --X- | ----  
+  - Snare hits on beat 2 and 3.
+- Hi-hat 'H': ---- | x--- | ---- | x---  
+  - Hi-hat played on beats 2 and 4 with soft hits.
+- Toms 'T': ---- | ---- | ---- | ----  
+  - No tom hits.
+- Cymbals 'C' and Ride 'R': ‘R’ has hits, but since the request is to remove snare and cymbals, we will remove 'S', 'C', and 'R'.
+
+**New goal:** Remove all snare and cymbals, leaving only the kick pattern.
+
+**Final step:**  
+- Keep only 'K' line as is, remove all other instrument lines.
+
+---
+
+### Final edited groove:
+
+@@@
+K: o---|--o-|o---|--o-
+@@@
+
+This version keeps the kick pattern exactly as before, with no snare or cymbals, fulfilling the request.

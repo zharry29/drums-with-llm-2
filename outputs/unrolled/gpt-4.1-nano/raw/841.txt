@@ -1,0 +1,37 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): `o---`, `--o-`, `o---`, `--o-`
+  - Snare (S): `----`, `X---`, `--X-`, `----`
+  - Hi-hat (H): `----`, `x---`, `----`, `x---`
+  - Toms (T): all rests
+  - Crash cymbal (C): all rests
+  - Ride cymbal (R): `x---`, `X-x-`, `x---`, `X-x-`
+
+- Request:
+  - Add a kick hit and cymbal in the very beginning.
+
+- Implementation:
+  - Change the first beat of K to include a kick (e.g., keep `o---` or make it stronger)
+  - Add a cymbal hit in the first beat; since crash cymbal is represented with `O` or `X`, change the first beat of R to `X---` for emphasis
+
+---
+
+**Final edit:**
+
+- Keep the kick as `O---` to emphasize it.
+- Change the first beat of R from `x---` to `X---` to add a cymbal crash.
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+C: X---|----|----|----
+R: X---|X-x-|x---|X-x-
+@@@
+
+**This adds a cymbal crash and a prominent kick in the very beginning as requested.**

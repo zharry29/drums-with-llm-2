@@ -1,0 +1,35 @@
+To incorporate a tom hit and a snare in the very beginning:
+
+- The first beat (first 4 characters) currently:
+  - K: O--O
+  - S: ----
+  - H: ----
+  - T: ----
+  - C: ----
+  - R: o-O-
+
+I will:
+- Add a snare hit: S: O--- (hard snare at the first beat)
+- Add a tom hit: T: O--- (hard tom at the first beat)
+
+Now, I need to replace the first beat segments of these lines accordingly:
+
+- K: keep as O--O
+- S: change to O---
+- H: keep as ----
+- T: change to O---
+- C: keep as ----
+- R: keep as o-O- (assuming we keep the ride pattern unchanged)
+
+Final edited version:
+
+@@@
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: O---|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+This adds a snare and a tom hit at the very beginning as requested, while keeping the rest of the groove intact.

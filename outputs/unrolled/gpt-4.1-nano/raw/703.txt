@@ -1,0 +1,42 @@
+**Thought process:**
+
+- To fulfill the request, I will add a cymbal hit (most naturally on the crash cymbal, C) at the very first beat. Change the first beat of C from `O---` to `O---` (already a crash hit, no change needed). To make it more prominent, I could add an additional crash hit or enhance the existing one.
+- To add a hi-hat in the very beginning, change the first beat of H from `----` to `x---` (a soft closed hi-hat).
+- Since the current groove has no cymbal hit, I will explicitly add a hit to the first beat of C (leaving it as `O---`) and a hi-hat hit in the first beat.
+
+**Implementation:**
+
+- K stays the same.
+- H: from `----` to `x---` (adding a hi-hat hit)
+- C: from `O---` to `O---` (already a crash hit, so no change needed)
+
+---
+
+**Final groove:**
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: x---|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+But as per the request, to emphasize a cymbal hit and hihat at the start, I’ll add a hi-hat hit in the first beat and ensure the cymbal sound is prominent.
+
+**Revised:**
+
+- Change the first beat of H to `x---` (already done).
+- For the cymbal, since `O---` already indicates a crash cymbal on the first beat, it's acceptable.
+
+Final answer:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: x---|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+**Note:** The first beat now has both a cymbal hit (crash) and a hi-hat, fulfilling the request.

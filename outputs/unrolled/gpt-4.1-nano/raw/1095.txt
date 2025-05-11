@@ -1,0 +1,41 @@
+Let's analyze the original groove:
+
+- The hi-hat (`X---|X---|X---|X---`) is played on every 16th note, providing a steady rhythm.
+- The kick hits on beats 1 and 3 (`O---|----|O---|----`).
+- The snare hits on beat 2 and beat 4 (`----|O---|----|O---`).
+- Toms, crash, and ride are silent.
+
+---
+
+### Objective:
+Replace the hi-hat with toms to give a different texture. Toms can be used for fills or emphasizing beats.
+
+### Approach:
+- Mute the hi-hat pattern.
+- Introduce tom hits, typically on the toms (often low or mid-toms) for fills or accents.
+- To keep the pattern lively, spread tom hits across the bar—either on specific beats or as fills.
+
+### Implementation:
+- I will replace the hi-hat with tom hits on the downbeats and/or upbeats, creating a rounded tom fill and maintaining rhythmic interest.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: O---|----|O---|----  
+S: ----|O---|----|O---  
+T: X---|--X-|X---|---X
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+### Explanation:
+- Kick remains on beats 1 and 3.
+- Snare on beats 2 and 4.
+- Toms now alternate, with hits on the downbeat and off-beats, adding more tom flavor and a dynamic fill-like feel.
+- Cymbals are silent for simplicity.
+
+This creates a solid, rhythmically interesting pattern with toms replacing the steady hi-hat.

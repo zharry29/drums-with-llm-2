@@ -1,0 +1,43 @@
+The request is to reduce the number of notes, simplifying the groove while maintaining its structure.
+
+Current groove notes analysis:
+
+- Kick (K):  
+  `OOO-|--O-|OOO-|-OOO`  
+  That means 3 hits in beat 1 (positions 1,2,3), 1 hit on position 6, 3 hits on beat 3 (positions 9,10,11), and 3 hits on beat 4 (positions 13,14,15). Pretty dense.
+
+- Snare (S):  
+  Hits at position 6 and 14 only.
+
+- Hi-hat (H): Silent.
+
+- Toms (T): Silent.
+
+- Crash (C): Hit on the first 16th note of every beat (positions 1,5,9,13).
+
+- Ride (R): Silent.
+
+---
+
+Simplification plan:
+
+- Kick: Keep only one hit per beat instead of three; to keep groove's pulse, keep hits on positions 1, 6, 9, and 13.
+
+- Snare: Keep the existing hits at positions 6 and 14.
+
+- Crash: Keep the first crash only on position 1.
+
+- Other instruments unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: O---|--O-|O---|O---
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,25 @@
+**Thought process:**
+
+- To add a cymbal hit at the very beginning, change the first beat of C from `O---` to `O---` (Crash cymbal).
+- To add a tom in the very beginning, change the first beat of T from `----` to `O---` (tom hit).
+- Both should be played simultaneously at the start.
+
+**Implementation:**
+
+- T: from `----` to `O---`
+- C: from `O---` to `O---` (already a crash, so no change needed, just ensure it exists in the first beat)
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+**Note:** The first beat now features both a tom and a cymbal hit, fulfilling the request.

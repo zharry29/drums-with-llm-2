@@ -1,0 +1,39 @@
+**Thought process:**
+
+- The original groove has a hi-hat pattern `x-x-` on all beats, already including hits at every quarter note.
+- The request is for a hi-hat hit and a cymbal in the very beginning.
+- Since the hi-hat already hits at the start, I will focus on adding a cymbal hit at the very beginning.
+- For the cymbal, I will set the first beat of the C line from `O---` to `O---` (already an O at the start), but to emphasize, I will explicitly add a crash cymbal hit at the beginning.
+
+**Implementation:**
+
+- Change the first beat of C from `O---` to `O---` (already has an O, so no change needed).
+- To explicitly add a cymbal hit, I will change first beat to `O---` (already), or just leave it as is for clarity.
+
+**Final result:**
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+**Note:**  
+- The groove already contains a hi-hat hit (`x-x-`) at every beat, including the start.
+- The cymbal is already at the start with `O---` in the C line, so no change is necessary.
+
+If an explicit emphasis is needed, I could also write:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+But the original is acceptable as it already meets the criteria.

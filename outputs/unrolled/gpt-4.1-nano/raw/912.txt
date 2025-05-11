@@ -1,0 +1,34 @@
+Let's analyze the original groove:
+
+- The second beat (middle group of 4 characters) is:
+  - K: --o-
+  - S: X---
+  - H: x---
+  - T: ----
+  - C: ----
+  - R: X-x-
+
+**Goal:** Drop out everything in the second beat.
+
+That means, all hits in the second group's 4 notes should be removed (set to -).
+
+### Update:
+- K: from **--o-** to **----**
+- S: from **X---** to **----**
+- H: from **x---** to **----**
+- T: from **----** to **----**
+- C: from **----** to **----**
+- R: from **X-x-** to **----**
+
+### Final groove:
+
+@@@
+K: o---|----|o---|--o-
+S: ----|----|--X-|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|----|x---|X-x-
+@@@
+
+This maintains the pattern structure but removes all hits in the second beat.

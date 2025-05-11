@@ -1,0 +1,30 @@
+Let's analyze the original groove:
+
+- Kick (K): hits on beat 1, 2, and 4, with varying intensity.
+- Snare (S): hits on beat 3.
+- Hi-hat (H): no hits.
+- Toms (T): plays a pattern with soft and hard hits evenly across all four beats.
+- Cymbals (C): none.
+- Ride (R): none.
+
+**Request:** no hi-hat or snare.
+
+That means we need to eliminate H and S. The rest (K, T, C, R) either are empty or not relevant, but T and R are empty in the original, so they can be removed.
+
+### Final plan:
+- Keep only K and T for a rhythm pattern.
+- Since T is playing a pattern, we'll retain T's pattern.
+- Remove S, H, C, R.
+
+### The resulting groove:
+
+@@@
+K: O---|O---|----|O---
+T: O-o-|O-o-|O-o-|O-o-
+S: (removed)
+H: (removed)
+C: (removed)
+R: (removed)
+@@@
+
+This produces a simple pattern with the kick and toms, no snare or hi-hat, fulfilling your request.

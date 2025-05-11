@@ -1,0 +1,29 @@
+The original groove:
+
+```
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Request: "I don't want any cymbal or snare."
+
+- Snare (S) line contains hard hits 'O'; replace all with dashes.
+- Cymbals include Crash (C) and Ride (R).
+- Crash (C) line contains hard hits 'O'; replace all with dashes.
+- Ride (R) line is already empty; no change needed.
+- Other lines remain unchanged.
+
+Final groove:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

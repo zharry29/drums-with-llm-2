@@ -1,0 +1,29 @@
+Let's analyze the current groove:
+
+- **K (Kick):** `-O--|OO--|---O|-OO-` — kick hits are on various beats.
+- **S (Snare):** `----|----|S---|----` — snare on beat 3.
+- **H (Hi-hat):** `x-x-|x-x-|x-x-|x-x-` — hi-hat on all subdivisions.
+- **T (Toms):** `----|----|---O|----` — tom hit on beat 3, last subdivision.
+- **C (Crash):** `O---|O---|O---|O---` — crashes on all beats.
+- **R (Ride):** `----|----|----|----` — no ride hits.
+
+**The request** is to remove toms from beat 4 **only**. Currently, there's a tom hit on beat 3, last subdivision (`---O`) and nowhere else. Since there's no tom on beat 4, the groove already complies.
+
+**Conclusion:** No changes are needed; it already satisfies the condition.
+
+---
+
+### Final groove (unchanged):
+
+```plaintext
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```
+
+**The groove already meets the requirement; no modifications are necessary.**

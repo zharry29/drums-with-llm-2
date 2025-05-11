@@ -1,0 +1,22 @@
+The request is to remove the cymbal on beat 4 (positions 13-16) but keep everything else unchanged.
+
+Let's check the cymbal lines on beat 4:
+
+- C (Crash cymbal): beat 4 is `----` → no cymbal, so no change.
+- R (Ride cymbal): beat 4 is `----` → no cymbal, so no change.
+- H (Hihat): beat 4 positions are `O-o-` → cymbal hits here, so we need to remove these hits.
+
+The only cymbal present in the 4th beat is the hihat hits `O-o-`. To drop cymbal on beat 4, we replace `O-o-` with `----`.
+
+---
+
+Final groove:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

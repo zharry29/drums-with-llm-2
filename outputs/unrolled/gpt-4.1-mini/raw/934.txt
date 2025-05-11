@@ -1,0 +1,20 @@
+The request is to remove snare on beat 4 (positions 13-16) but leave everything else unchanged.
+
+Looking at the snare line (S) on beat 4:
+
+- Beat 4: `O---` → there is a hard snare hit on the first 16th note of beat 4, so this should be removed by replacing the 4 characters of beat 4 with `----`.
+
+All other lines remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|----
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,25 @@
+The request is to drop out everything in the second beat (positions 5-8).
+
+Let's replace any notes in the second beat of all lines with "-".
+
+Original groove second beat is:
+
+- K: `---o` → replace with `----`
+- S: `O---` → replace with `----`
+- H: `O-o-` → replace with `----`
+- T: `----` → already silent
+- C: `----` → already silent
+- R: `----` → already silent
+
+---
+
+Final groove:
+
+@@@
+K: O---|----|O-O-|----
+S: ----|----|----|O---
+H: --o-|----|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

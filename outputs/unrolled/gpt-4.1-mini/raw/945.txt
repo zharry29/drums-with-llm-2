@@ -1,0 +1,22 @@
+The request is to remove kick hits on beat 4 while leaving everything else unchanged.
+
+Looking at the Kick line (K) on beat 4 (positions 13-16):
+
+- Beat 4: `-OOO` → Here, the first 16th note of beat 4 is `-` (no hit), and the remaining three 16th notes are hard hits `O O O`.
+
+To remove the kick hits on beat 4, replace `-OOO` with `----`.
+
+All other lines remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: OOO-|--O-|OOO-|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

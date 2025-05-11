@@ -1,0 +1,26 @@
+The "a" of the second beat corresponds to the 4th 16th note of beat 2. Counting 16th notes starting from 0, beat 2 covers positions 4 to 7:
+- 4 = 1
+- 5 = e
+- 6 = &
+- 7 = a
+
+We need to add a cymbal hit at position 7.
+
+Currently, the Crash cymbal (C) line is:  
+`O---|O---|O---|O---`  
+At beat 2 (positions 4-7) it's `O---` - only a hit at position 4.
+
+We can add a cymbal hit at position 7 by changing the second beat cymbal pattern from `O---` to `---O`.
+
+---
+
+Final groove:
+
+@@@  
+K: -O--|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: ----|----|---O|----  
+C: O---|---O|O---|O---  
+R: ----|----|----|----  
+@@@

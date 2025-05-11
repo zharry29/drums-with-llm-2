@@ -1,0 +1,54 @@
+Let's carefully analyze the original groove:
+
+- Kick 'K':
+
+  - Bar 1: -O-- (soft hit on beat 2)
+  - Bar 2: OO-- (two hits on beats 1 and 2)
+  - Bar 3: ---O (hit on beat 4)
+  - Bar 4: -OO- (hits on beats 2 and 3)
+
+- Snare 'S': only in bar 3, few hits
+- Hi-hat 'H': played on every beat with alternating x-x- pattern
+- Toms 'T': only in bar 3, with a hit on beat 3
+- Crash 'C': hits at the beginning of each bar, which can stay for a steady rhythmic accent
+- Ride 'R': silent
+
+**Request:** Remove all kick ('K') and toms ('T').
+
+- Set 'K' line to all dashes ('-') since no kick hits are wanted.
+- Set 'T' line to all dashes.
+
+Remaining lines: 'S', 'H', 'C', 'R'.
+
+Let's write the new groove accordingly:
+
+### Final edited groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+Explanation:
+- Kick and Toms removed.
+- Snare remains on beat 3 of bar 3 for a slight backbeat.
+- Hi-hat remains with the consistent pattern.
+- Crash remains on the downbeat of each bar.
+- Ride remains silent as per the modification.
+
+If you'd like to add some ride cymbal hits for more flavor, I could incorporate that. But based on the request, this is a clean removal of kick and toms while keeping the groove intact.
+
+---
+
+**Final answer:**
+
+@@@
+K: ----|----|----|----
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

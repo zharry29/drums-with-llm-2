@@ -1,0 +1,43 @@
+The request is to remove all kick (K) and hi-hat (H) parts. So, I will delete those lines entirely.
+
+In the original groove:
+- K: has no hits (all dashes).
+- H: plays x on beat 2 and beat 4, with soft open hits X and x.
+- S, T, C, R: No hits.
+
+Since K is already silent, I only need to remove the hi-hat (H) line. The remaining instruments are S, T, C, R, which are all silent here, but R has some hits.
+
+To keep some rhythmic feel on the remaining instruments, I can:
+- Keep the ride cymbal (R), which has hits on beats 1, 2, 3, 4 with open and closed hits.
+- Keep snare (S) or other parts for rhythm, but they are silent in the original.
+
+For simplicity, I propose:
+- Remove K and H lines.
+- Keep R with its hits, since it defines a basic rhythm.
+- All other instruments can be silent.
+
+### Final pattern:
+
+@@@
+K: (removed)
+S: ----|----|----|----
+H: (removed)
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+This keeps a clear rhythmic pulse with the ride cymbal.
+
+### Final answer:
+
+```plaintext
+@@@
+K: (removed)
+S: ----|----|----|----
+H: (removed)
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+```

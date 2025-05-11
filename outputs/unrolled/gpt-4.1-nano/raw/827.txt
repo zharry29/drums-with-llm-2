@@ -1,0 +1,33 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): `O--O`, `----`, `--O-`, `----`
+  - Snare (S): `----`, `Oo-o`, `-o--`, `O--o`
+  - Hi-hat (H): all rests
+  - Toms (T): all rests
+  - Crash (C): all rests
+  - Ride (R): `o-O-`, `o-O-`, `o-O-`, `o-O-`
+
+- Request:
+  - Add a ride hit and hi-hat in the very beginning.
+
+- Implementation:
+  - Place a ride hit (`O`) at the first subdivision in R
+  - Place a hi-hat hit (`x`) at the first subdivision in H
+
+---
+
+**Final edited groove:**
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: x---|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: O-O-|o-O-|o-O-|o-O-
+@@@
+
+**Note:** The previous R pattern `o-O-` is modified to `O-O-` at the first beat to include the ride hit in the first subdivision, matching the openness pattern in the rest of the bar.
+
+**This version now includes a ride hit and a hi-hat in the very beginning as you requested.**

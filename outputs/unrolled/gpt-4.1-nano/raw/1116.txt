@@ -1,0 +1,45 @@
+Let's analyze the timing first:
+
+- The second beat covers notes 5-8.
+- The subdivision "1 e & a" maps as:
+  - 1 : note 5
+  - e : note 6
+  - & : note 7
+  - a : note 8
+
+- The "a" is the last sixteenth note of beat 2, which corresponds to note 8.
+
+Now, find the position of note 8 in the notation:
+
+- Each beat is 4 characters, separated by `|`.
+- Beat 2's characters are from position 6 to 9 (since the first beat is positions 1-4).
+
+- Note 8 corresponds to the 4th character of the second beat, which is position 9 overall.
+
+In the `C:` (cymbal) line:
+
+`C: O---|O---|O---|O---`
+
+- The second group is `O---`, covering positions 6-9.
+
+- The last character of that group (position 9) is currently `-`.
+
+To add the cymbal hit on 'a', change this character from `-` to `O`.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```
+
+**Change:**
+- The 9th character (last in the second beat) of the `C:` line changed from `-` to `O` to insert the cymbal hit on the 'a'.

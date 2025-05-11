@@ -1,0 +1,27 @@
+The original groove:
+
+```
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+Request: "I don't want any kick or ride."
+
+- Kick (K) line is already empty; no change needed.
+- Ride (R) line contains closed hits 'x' and 'X'; remove all by replacing with dashes.
+- Other lines remain unchanged.
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

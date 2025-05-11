@@ -1,0 +1,30 @@
+**Thought process:**
+
+- To fulfill the request, I need to add a cymbal hit (probably a crash) and a hi-hat in the very first beat.
+- The cymbal (C) is currently `----`, so I will change the first beat of C to `O---` to add a crash cymbal hit.
+- The hi-hat (H) is currently `----`, so I will change the first beat of H to `x---` (a closed hi-hat hit).
+- The other instruments can remain unchanged.
+
+**Implementation:**
+
+- K: keeps as `o---`
+- S: remains the same
+- H: changed from `----` to `x---`
+- T: remains the same
+- C: changed from `----` to `O---`
+- R: remains the same
+
+---
+
+**Final groove:**
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: x---|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+This now includes a cymbal hit and hi-hat at the very beginning, fulfilling the request while maintaining the original groove's essence.

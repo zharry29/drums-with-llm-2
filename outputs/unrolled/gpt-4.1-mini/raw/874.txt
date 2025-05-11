@@ -1,0 +1,35 @@
+Let's analyze the original groove:
+
+```
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+The request is to avoid having Snare hits on the downbeat of beats 2 and 4.
+
+- The downbeat of beat 2 is the 5th sixteenth note (first character after the first '|').
+- The downbeat of beat 4 is the 13th sixteenth note (first character after the third '|').
+  
+Now check if Snare hits exist on these positions:
+
+- 5th character (start of 2nd beat): Snare line second group first char = `X` (hard sidestick), so there **is** a snare hit here.
+- 13th character (start of 4th beat): Snare line fourth group first char = `-`, no snare hit here.
+
+So only the downbeat of beat 2 has a snare hit.
+
+Edit: Remove the snare hit at 5th character by changing `X` to `-`.
+
+Final groove:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|----|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

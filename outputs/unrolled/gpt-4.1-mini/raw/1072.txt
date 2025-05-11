@@ -1,0 +1,68 @@
+Let's analyze the snare (S) line in the original groove:
+
+```
+S: ----|X---|--X-|----
+```
+
+— Beat 1: no hits
+
+— Beat 2: hard sidestick (`X`) on 1st 16th note
+
+— Beat 3: hard sidestick (`X`) on 3rd 16th note
+
+— Beat 4: no hits
+
+---
+
+**Request:** Add ghost notes on the snare.
+
+Ghost notes on snare are soft hits, usually soft open hits (`o`) or soft sidesticks (`x`). Since the main hits are sidesticks (`X`), the ghost notes will be softer sidesticks (`x`).
+
+---
+
+### Plan:
+
+- Add soft ghost sidesticks (`x`) on off-beats, preferably near main hits to keep groove subtle and dynamic.
+
+- For beat 2, add ghost on 3rd 16th note → beat 2: `X-x-`
+
+- For beat 3, add ghost on 2nd 16th note → beat 3: `-xX-`
+
+- For beat 1 and 4, optionally add very soft ghost hits if it fits.
+
+- To keep it minimal, only add these two ghost notes near existing hits.
+
+---
+
+### Implementation:
+
+- Beat 2: 4 chars → from `X---` to `X-x-`
+
+- Beat 3: from `--X-` to `-xX-`
+
+---
+
+Final snare line:
+
+```
+S: ----|X-x-| -xX-|----
+```
+
+Removing spaces:
+
+```
+S: ----|X-x-|-xX-|----
+```
+
+---
+
+Final groove:
+
+@@@  
+K: o---|--o-|o---|--o-  
+S: ----|X-x-|-xX-|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

@@ -1,0 +1,35 @@
+**Thought process:**
+- To add a hi-hat hit at the very beginning, I will change the first beat of H from `x-x-` to a full hi-hat hit like `x-x-` but since it already has hits throughout, perhaps I will add an additional hit at the very start. Given the pattern, changing the first beat of H to include a hit in the first sub-beat makes sense.
+- To add a tom hit at the very start, I will change the first beat of T from `----` to `O---`.
+
+---
+
+**Implementation:**
+
+- T: `O---` (tom hit at start)
+- H: For a hi-hat hit, since there are existing hits, I'll add an extra hit in the first beat: for consistency, change it to `x-x-` but keep the pattern; alternatively, since the prompt says "a hi-hat hit in the very beginning," I will add an extra hi-hat hit at the very first subdivision without disrupting the existing pattern too much. To do this, change the first beat to include a hi-hat hit in the first position, e.g., `x-x-` remains, so I will keep the pattern, or for clarity, I will add a hit in the first beat: `x-x-` already has hits, so no change needed. 
+
+Actually, considering the pattern, the simplest is:
+
+- Set the first beat of H to `x-x-` (already has hits).  
+- Set the first beat of T to `O---`.
+
+---
+
+**Final note:**  
+Since the pattern already has hits on the hi-hat, I will keep it and only add the tom in the first beat, for clarity.
+
+---
+
+**Final groove:**
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: O---|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+This introduces the tom hit at the start while keeping the existing hi-hat hits.

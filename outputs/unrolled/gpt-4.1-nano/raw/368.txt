@@ -1,0 +1,31 @@
+Let's analyze the original groove:
+
+- Kick 'K': plays hard hits in various patterns.
+- Snare 'S': hits on beats 2 and 4 with the second beat in the second and last measures.
+- Hi-hat 'H': no hits.
+- Toms 'T': no hits.
+- Cymbals 'C' and 'R': both play on every beat they are present.
+
+**Request:** Remove all cymbals and ride hits (the 'C' and 'R' lines).
+
+Since 'C' and 'R' are present, the simplest approach is to remove their hits or omit those lines entirely.
+
+### Approach:
+- Remove 'C' and 'R' lines or set all their characters to '-'.
+
+To keep a consistent format, I will set all 'C' and 'R' line characters to '-' to indicate no hits.
+
+---
+
+### Final version:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+This version has no cymbal or ride hits, fulfilling the request, and maintains the rhythmic structure with kick, snare, and hi-hat.

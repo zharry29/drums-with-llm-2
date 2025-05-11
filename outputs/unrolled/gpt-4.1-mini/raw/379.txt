@@ -1,0 +1,28 @@
+The original groove is:
+
+```
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+The request is: "I don't want any kick or tom."
+
+- The Kick (K) line has hard hits (O), so remove all kick hits by replacing them with dashes.
+- The Tom (T) line has soft and hard hits (O-o- pattern), so we remove all hits by replacing with dashes.
+
+Other lines remain unchanged.
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|O---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

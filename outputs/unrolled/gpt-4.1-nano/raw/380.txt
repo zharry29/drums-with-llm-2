@@ -1,0 +1,27 @@
+Let's analyze the current groove:
+
+- Kick 'K': plays on beats 1 and 3, with some soft hits.
+- Snare 'S': hits on beats 2 and 4, with a mix of open and closed hits.
+- Hi-hat 'H': silent.
+- Toms 'T': silent.
+- Cymbals 'C' and 'R': no hits, but 'R' has hits on all four beats with alternating open and open bell hits.
+
+**Request:** Remove all kick ('K') and toms ('T').
+
+- Since 'T' has no hits, no change there.
+- For 'K', remove all hits by replacing its line with all '-' characters.
+
+---
+
+### Final edited groove:
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+This fulfills the request by removing kick hits while keeping the rest of the groove unchanged.

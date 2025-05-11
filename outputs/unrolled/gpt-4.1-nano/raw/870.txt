@@ -1,0 +1,31 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): `O--- | O--- | ---- | O---`
+  - Snare (S): `---- | ---- | O--- | ----`
+  - Hi-hat (H): `---- | ---- | ---- | ----`
+  - Toms (T): `O-o- | O-o- | O-o- | O-o-`
+  - Crash (C): `---- | ---- | ---- | ----`
+  - Ride (R): `---- | ---- | ---- | ----`
+
+- Request:
+  - Make the last note of the last beat (16th note) for hi-hat an open hi-hat (`O`).
+
+- Implementation:
+  - The last character in the hi-hat line, currently `----`, is for the 16th note.
+  - Change the 16th note from `-` to `O`.
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|O---
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+**This sets the last hi-hat note to open, fulfilling the request.**

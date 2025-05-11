@@ -1,0 +1,31 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): hits at the start (`O--O`) and third beat (`--O-`)
+  - Snare (S): hits on second and last beats, with some open hits (`Oo-o`, `O--o`)
+  - Hi-hat (H): silent
+  - Toms (T): silent
+  - Crash (C): silent
+  - Ride (R): pattern alternating on bell and bow
+
+- Requested edits:
+  - Add a tom hit and a ride in the very beginning.
+
+- Implementation:
+  - Add a tom hit (`O`) at the first subdivision in T.
+  - Add a ride hit (`O`) at the first subdivision in R.
+
+---
+
+**Final edited groove:**
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: O---|----|----|----
+C: ----|----|----|----
+R: O---|o-O-|o-O-|o-O-
+@@@
+
+**This includes a tom hit and a ride in the very beginning, as requested.**

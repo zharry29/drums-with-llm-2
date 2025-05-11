@@ -1,0 +1,31 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): hits at the first and third beats, with some soft hits
+  - Snare (S): hits on second beat and last beat
+  - Hi-hat (H): alternating pattern with some open and closed hits
+  - Toms (T): silent
+  - Crash (C): hits on first beat only
+  - Ride (R): silent
+
+- Requested:
+  - Add a ride hit and a snare in the very beginning
+
+- Implementation:
+  - Add a ride hit (`O`) at the first subdivision in R
+  - Add a snare hit (`O`) at the first subdivision in S
+
+---
+
+**Final edited groove:**
+
+@@@
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: O---|----|----|----
+@@@
+
+**This version includes the requested ride hit and snare in the very beginning.**

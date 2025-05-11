@@ -94,6 +94,8 @@ def notation_to_midi(notation, out_fname, bpm=120, fname="temp"):
                         midi_pitch = 53
                     elif char == 'o':
                         midi_pitch = 33
+                else:
+                    midi_pitch = 0
                 note = pretty_midi.Note(
                     velocity=100,  # velocity does not matter
                     pitch=midi_pitch,

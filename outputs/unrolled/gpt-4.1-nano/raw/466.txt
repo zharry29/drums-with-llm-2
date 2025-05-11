@@ -1,0 +1,46 @@
+Let's analyze the original groove:
+
+- **Kick (K):** hits on beats 1, 2, and 3 with various articulations (hard and soft).
+- **Snare (S):** hits on beat 2 and 4, with some open and sidestick hits.
+- **Hi-hat (H):** plays on every beat with alternating open and closed hits.
+- **Toms (T):** silent.
+- **Cymbals (C):** hits on beat 1.
+- **Ride (R):** silent.
+
+**Request:** no hi-hat or snare.
+
+This means removing lines **S** and **H** altogether.
+
+**Remaining sounds:** Kick, Toms, Cymbals, Ride.
+
+Since T, C, and R are silent in this groove, the only instrument with hits is the Kick.
+
+### Final steps:
+- Remove S and H lines.
+- Keep only K, C, R, T (even if silent), but since they are silent, only K remains active.
+
+### Final groove:
+
+@@@
+K: O---|---o|O-O-|----
+S: (removed)
+H: (removed)
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+This pattern contains just the kick drum, with no snare or hi-hat, satisfying your request to remove them.
+
+**Final answer:**
+
+``` 
+@@@
+K: O---|---o|O-O-|----
+S: (removed)
+H: (removed)
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+```

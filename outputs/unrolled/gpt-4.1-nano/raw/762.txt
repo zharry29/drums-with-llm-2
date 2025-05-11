@@ -1,0 +1,36 @@
+**Thought process:**
+
+- The current groove:
+
+  - Kick (K): `O--O|----|--O-|----` (kick on first and third beats, with some variation)
+  - Snare (S): `----|Oo-o|-o--|O--o` (snare in various parts, including grace notes)
+  - Hi-hat (H): `----|----|----|----` (no hi-hat hits)
+  - Toms (T): all silent
+  - Crash (C): all silent
+  - Ride (R): `o-O-|o-O-|o-O-|o-O-` (ride cymbal with accents every beat)
+
+- The request:
+  - To add a hi-hat hit and a kick in the very first beat.
+- The first beat currently has:
+  - Kick: `O` at the start, so already present.
+  - Hi-hat: none; currently all `----` on H.
+
+- To fulfill the request:
+  - Change the first beat of H from `----` to `x---` (soft closed hi-hat).
+
+---
+
+**Final groove:**
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: x---|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+**Outcome:**
+
+- The first beat now has both a kick (`O`) and a hi-hat (`x`), fulfilling the request.

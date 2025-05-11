@@ -1,0 +1,28 @@
+To fill the entire bar with double kick, I will replace the K line so that every 16th note in the measure has a kick, using `O` (hard hit) for clarity.
+
+The original K line:
+`o---|--o-|o---|--o-`
+
+For a full double kick pattern, this should become:
+`OOOO|OOOO|OOOO|OOOO`
+
+**This ensures every 16th note has a kick.**
+
+Other instruments stay as they are unless further simplification is needed. Since the request is only to fill the whole bar with double kicks, the main change is the K line.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: OOOOOOOOOOOOOOOO
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+```
+
+This completes the bar with continuous double kicks while keeping the rest of the pattern intact.

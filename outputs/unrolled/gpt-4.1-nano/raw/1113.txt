@@ -1,0 +1,44 @@
+Let's analyze the timing setup:
+
+- The second beat covers notes 5-8.
+- The "1 e & a" subdivision is divided as follows:
+  - 1: first note (note 5)
+  - e: second note (note 6)
+  - &: third note (note 7)
+  - a: fourth note (note 8)
+
+We need to add a cymbal hit on the **'a'** of beat 2, which is **note 8**.
+
+Next, locate where note 8 is in the notation:
+
+- The beats are divided here:
+  - Beat 2: characters 6-9 (from the second '|').
+
+In the `C:` line:
+
+`C: ----|----|----|----`
+
+- The second beat's characters are '----' after the second '|', corresponding to characters 6-9.
+- The last character of that group (character 9 overall) represents note 8 (the 'a').
+
+Currently, character 9 is '-' in the second group.
+
+**Action:** Change that character from '-' to 'O' to insert the cymbal hit on 'a'.
+
+---
+
+### Final edited groove:
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|--O-|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+```
+
+**Summary:**  
+- Changed the 9th character in the `C:` line from '-' to 'O' to place the cymbal hit on the 'a' of '1 e & a' of the second beat.

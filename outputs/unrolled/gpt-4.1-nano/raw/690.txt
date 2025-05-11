@@ -1,0 +1,25 @@
+**Thought process:**
+
+- To add a kick in the very first beat, change the first beat of K from `O---` to `O---` (already a kick).
+- To add a snare in the very first beat, change the first beat of S from `----` to `--O-` (a snare hit on the third note of the first beat).
+- Keep other parts unchanged.
+
+**Implementation details:**
+
+- K: remains as `O---` for the first beat.
+- S: from `----` to `--O-` for a snare hit.
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|---o|O-O-|----
+S: --O-|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+**Result:** The first beat now has both a kick and a snare, fulfilling the request.

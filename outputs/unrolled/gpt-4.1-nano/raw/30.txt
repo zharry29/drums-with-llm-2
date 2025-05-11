@@ -1,36 +1,46 @@
 Let's analyze the current groove:
 
-- **Kick (K):** Hits on the first beat (hard) and third beat (hard).
-- **Snare (S):** Has some varied hits, including open and closed sounds in the second measure and some hits on beat 1 of measure 4.
-- **Hi-hat (H):** Consistent alternating closed hits on every subdivision.
-- **Toms (T), Cymbals (C), Ride (R):** silent.
+- K (Kick): O--O|----|--O-|----
+- S (Snare): ----|Oo-o|-o--|O--o
+- H (Hi-hat): X-x-|X-x-|X-x-|X-x-
+- T (Toms): ----|----|----|----
+- C (Crash): ----|----|----|----
+- R (Ride): ----|----|----|----
 
-**Objective:** Add more snare to strengthen the pattern and add rhythmic drive, especially on measures 2 and 3.
+**Current snare pattern:**
+- Snare hits are on the second beat (notes 5-8) and the fourth beat (notes 13-16), with some ghost accents in measure 2.
+
+**Objective:**
+- Add more snare hits to make the rhythm more driving and balanced.
 
 **Thought process:**
+- To reinforce the groove, I can add snare hits on beats 1 and 3 as well, creating a more consistent backbeat pattern.
+  
+- For better groove, I'll place snare hits:
+  - On beat 2 (already present, keep it)
+  - On beat 4 (already present, keep it)
+  - Add snare hits on beat 1 (notes 1-4) and beat 3 (notes 9-12).
 
-- The snare currently has some activity, but it can be more prominent.
-- I will add a snare hit (O) on beat 3 of measure 2 for more drive.
-- Also, perhaps a snare hit (X) on beat 2 of measure 3 for rhythmic interest.
-- Keep the existing variation, especially the open and closed hits.
+**Implementation:**
+- For measure 1:
+  - Add snare on notes 1-4 (preferably as a crash, or a ghost hit).
+- For measure 3:
+  - Add snare on notes 9-12.
 
----
+- To keep the groove interesting, I’ll choose to put a soft snare ('o') on beat 1 and 3, aligning with the ghost notes pattern.
 
-**Final plan:**
+### Final pattern:
+- Place 'o' on notes 1-4 (measure 1) and notes 9-12 (measure 3).
 
-- Add snare (O) on beat 3 of measure 2.
-- Add snare (X) on beat 2 of measure 3.
-- Keep the existing pattern otherwise.
-
-Here's the updated groove:
+### Final notation:
 
 @@@
 K: O--O|----|--O-|----
-S: ----| Oo-o|X-o-|O--o
+S: o---|Oo-o|-o--|O--o
 H: X-x-|X-x-|X-x-|X-x-
 T: ----|----|----|----
 C: ----|----|----|----
 R: ----|----|----|----
 @@@
 
-This enhances the snare presence, providing more rhythmic support and variation while respecting the original groove.
+This adds subtle snare hits on beats 1 and 3, complementing the existing beats 2 and 4, enriching the groove.

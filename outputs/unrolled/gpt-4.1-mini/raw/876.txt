@@ -1,0 +1,42 @@
+Let's analyze the groove and the request:
+
+Original groove:
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Request: *Avoid snare on the downbeat of 2 and 4.*
+
+- The downbeat of 2 is the first 16th note in the second beat, i.e., position 5 in the line.
+- The downbeat of 4 is the first 16th note in the fourth beat, i.e., position 13.
+
+Look at the Snare line:
+
+- Currently, the Snare line is: `----|----|S---|----`
+
+Positions:
+
+- 5th character (downbeat 2): `-`
+- 13th character (downbeat 4): `-`
+- The Snare hit “S” is at position 9 (third beat, first character), which is fine.
+
+So there are no snare hits on the downbeats of 2 and 4 already.
+
+Hence, no change is necessary.
+
+Final groove is the same as original:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

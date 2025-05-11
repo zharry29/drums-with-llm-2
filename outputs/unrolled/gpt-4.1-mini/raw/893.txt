@@ -1,0 +1,52 @@
+The original groove has a lot of notes:
+
+- Kick: 7 hits (`-O--|OO--|---O|-OO-` = 7 hits)
+- Snare: 1 hit (S is presumably a hard snare hit)
+- Hihat: 8 hits (x-x-|x-x-|x-x-|x-x- each group has 2 x's, total 8)
+- Toms: 1 hit
+- Crash: 4 hits
+
+Total far exceeds 8 notes.
+
+**Goal:** Reduce total hits to max 8 notes, while still maintaining some groove.
+
+---
+
+**Approach:**
+
+- Prioritize key hits to maintain downbeats.
+- Keep a few kick hits: 3 total.
+- Snare: just 1 hit on beat 3.
+- Hi-hat: reduce to 2 hits total (e.g., on beats 2 and 4).
+- Remove tom and crash hits.
+- Keep groove minimal but still musical.
+
+---
+
+**Result:**
+
+```
+K: O---|----|---O|----
+S: ----|----|O---|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Hits count:
+- Kick: 2
+- Snare: 1
+- Hi-hat: 2
+Total = 5 notes, meets the requirement.
+
+---
+
+@@@
+K: O---|----|---O|----
+S: ----|----|O---|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

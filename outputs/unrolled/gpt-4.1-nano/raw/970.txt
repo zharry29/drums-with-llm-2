@@ -1,0 +1,32 @@
+Let's analyze the current groove:
+
+- **K (Kick):** `----|----|----|----` — no kick.
+- **S (Snare):** `----|----|----|----` — no snare.
+- **H (Hi-hat):** `----|x---|----|x---` — hi-hat on beats 2 and 4 at the 2nd sixteenth note.
+- **T (Toms):** `----|----|----|----` — no tom.
+- **C (Crash):** `----|----|----|----` — no crash.
+- **R (Ride):** `x---|X-x-|x---|X-x-` — ride pattern, no tom hits at all.
+
+**The request** is about the toms: "I don't want tom on beat 4 but everything else is fine."
+
+- Currently, there are no toms, so it's already compliant with the requirement that no tom hits occur on beat 4.
+
+**Conclusion:** Since there are no tom hits at all, nothing needs to be changed.
+
+---
+
+### Final edit:  
+The original groove already has no toms on beat 4, so I will leave it unchanged.
+
+```plaintext
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+```
+
+**The groove is already compliant and unchanged.**

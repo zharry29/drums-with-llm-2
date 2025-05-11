@@ -1,0 +1,29 @@
+The original groove for the Snare (S) line is:
+
+```
+S: ----|O---|----|O---
+```
+
+The request is to change **all** snare hits (`O`) to sidesticks (`X` or `x`). Since `X` denotes a hard sidestick, I'll convert all hard snare hits (`O`) to hard sidesticks (`X`).
+
+Positions to change:
+
+- Snare hit at 6th character (2nd beat, first character): change `O` → `X`
+- Snare hit at 14th character (4th beat, first character): change `O` → `X`
+
+Resulting Snare line:
+
+```
+S: ----|X---|----|X---
+```
+
+Final groove:
+
+@@@
+K: O---|----|O---|----  
+S: ----|X---|----|X---  
+H: X---|X---|X---|X---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----
+@@@

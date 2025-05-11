@@ -1,0 +1,28 @@
+The original groove:
+
+```
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+Request: "I don't want any ride or tom."
+
+Step-by-step:
+- Remove Ride (R) by replacing all hits ('O', 'o', 'X', 'x') with dashes.
+- Remove Toms (T) by replacing all hits ('O', 'o') with dashes.
+- Other instruments remain unchanged.
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

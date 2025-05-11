@@ -1,0 +1,20 @@
+To fulfill the request:
+
+- Add a kick hit at the very beginning: the kick pattern is currently `O---`, already includes a hit on the first 16th note, so no change needed there.
+- Add a ride cymbal hit in the very beginning: change R from `----` to `O---` to emphasize a ride cymbal at the start.
+
+**Summary of changes:**
+- R: `----` -> `O---`
+
+**Final groove:**
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: O---|----|----|----
+@@@
+
+This ensures a kick and ride cymbal hit at the very beginning, as requested.

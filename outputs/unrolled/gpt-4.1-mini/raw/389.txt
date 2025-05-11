@@ -1,0 +1,28 @@
+The original groove:
+
+```
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+Request: "I don't want any snare or hihat."
+
+- Snare (S) line is already empty, no change needed.
+- Hihat (H) line has soft closed hits ('x'), remove all occurrences by replacing with dashes.
+
+Other lines remain unchanged.
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

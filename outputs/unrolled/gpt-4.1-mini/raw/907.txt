@@ -1,0 +1,31 @@
+The request is to add snare hits on every 16th note in the second beat.
+
+Each beat has four 16th notes (positions 5-8 in the line encoding the bar).
+
+Current snare in second beat is: `O---` (hit only on first 16th note of the beat).
+
+We'll add snare hits (hard hits "O") on all four 16th notes in beat 2.
+
+---
+
+Final groove:
+
+```
+K: O---|----|O---|----
+S: ----|OOOO|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+---
+
+@@@
+K: O---|----|O---|----
+S: ----|OOOO|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

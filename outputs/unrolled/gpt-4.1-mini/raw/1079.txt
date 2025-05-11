@@ -1,0 +1,58 @@
+Let's look at the current hihat pattern:
+
+```
+H: x-x-|x-x-|x-x-|x-x-
+```
+
+This is a steady pattern of closed hi-hat hits on the 1st, 3rd, 5th, and 7th 16th notes of each bar quarter.
+
+---
+
+### Request:
+
+Make the hihat pattern more varied.
+
+---
+
+### Ideas:
+
+- Add some open hi-hat hits (`o`) to add texture and dynamics.
+
+- Introduce some rests or ghost hits to create syncopation.
+
+- Mix hard and soft closed hits (`X` and `x`).
+
+- Possibly place some hits on off-beat 16th notes for groove variety.
+
+---
+
+### Implementation:
+
+- Beat 1: change `x-x-` to `xoxo` (soft closed, soft open, soft closed, soft open)
+
+- Beat 2: change `x-x-` to `X--x` (hard closed on 1st 16th, rest, rest, soft closed)
+
+- Beat 3: change `x-x-` to `oxox` (soft open, soft closed, soft open, soft closed)
+
+- Beat 4: change `x-x-` to `x-o-` (soft closed, rest, soft open, rest)
+
+---
+
+### New hihat line:
+
+```
+H: xoxo|X--x|oxox|x-o-
+```
+
+---
+
+### Final groove:
+
+@@@  
+K: -O--|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: xoxo|X--x|oxox|x-o-  
+T: ----|----|---O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

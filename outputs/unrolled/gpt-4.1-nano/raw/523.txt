@@ -1,0 +1,27 @@
+The instruction is to remove all Toms (T) and Hi-Hat (H) lines from the groove.
+
+- Remove the T line: `----|----|----|----`
+- Remove the H line: `----|x---|----|x---`
+
+Remaining instruments:
+- K (kick): `o---|--o-|o---|--o-` (keep)
+- S (snare): `----|X---|--X-|----` (keep)
+- R (ride cymbal): `x---|X-x-|x---|X-x-` (keep)
+- C (cymbal): already removed
+
+Final sequence:
+```plaintext
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+R: x---|X-x-|x---|X-x-
+```
+
+**Final edited groove:**
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+This adheres to the request, removing all toms and hi-hat parts, and keeps a rhythmic core with kick, snare, and ride.

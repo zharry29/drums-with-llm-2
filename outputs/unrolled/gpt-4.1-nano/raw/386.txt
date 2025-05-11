@@ -1,0 +1,27 @@
+Let's analyze the current groove:
+
+- Kick 'K': plays on various beats with hard hits ('O'), including in all four bars.
+- Snare 'S': plays on beat 2 and beat 4 with 'O'.
+- Hi-hat 'H': silent.
+- Toms 'T': silent.
+- Crash 'C': plays on beat 1 in all four bars with 'O'.
+- Ride 'R': silent.
+
+**Request:** Remove all kick ('K') and toms ('T'). 
+
+- Since 'K' plays throughout, set its line to all dashes ('-').
+- 'T' is already silent.
+
+Now, keeping the rest of the pattern intact, the groove will feature snare, hi-hat, and cymbals, creating a minimalistic groove after removal of kick and toms.
+
+### Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+This keeps the snare on beats 2 and 4, hi-hat silent, and cymbals on beat 1 in each bar, creating a simple, clean rhythm with no kick or toms.

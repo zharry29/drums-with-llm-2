@@ -1,0 +1,22 @@
+The request is to remove hihat hits on beat 4 (positions 13-16), leaving everything else unchanged.
+
+Looking at the Hihat (H) line on beat 4:
+
+- Beat 4 is `x---`, meaning there is a soft closed hit on the first 16th note of beat 4.
+
+We will replace `x---` with `----` to remove hihat hits on beat 4.
+
+All other lines remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

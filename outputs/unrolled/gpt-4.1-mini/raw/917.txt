@@ -1,0 +1,23 @@
+The request is to drop out everything in the second beat (positions 5-8).
+
+Let's analyze the original groove's second beat in each line:
+
+- K: second beat is `O---` → replace with `----`
+- S: second beat is `----` → already silent
+- H: second beat is `----` → already silent
+- T: second beat is `O-o-` → replace with `----`
+- C: second beat is `----` → already silent
+- R: second beat is `----` → already silent
+
+---
+
+Final groove:
+
+@@@
+K: O---|----|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|----|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,29 @@
+**Thought process:**
+
+- The request is to add a hi-hat hit and a ride cymbal hit at the very beginning.
+- The hi-hat is currently `----` in the first beat; I will change it to `x---` to add a hi-hat hit in the first 16th note.
+- The ride cymbal is currently not present, so I will add a ride cymbal hit in the first beat by changing the ride line (R) from `x---` to `X---`. This indicates a hard closed hit on the bell (which is how a ride cymbal is played in this notation).
+
+**Implementation:**
+
+- K: remains `o---`
+- S: remains `----|X---|--X-|----`
+- H: change from `----` to `x---`
+- T: remains `----|----|----|----`
+- C: remains `----|----|----|----`
+- R: change from `x---` to `X---`
+
+---
+
+**Final groove:**
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: x---|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: X---|X-x-|x---|X-x-
+@@@
+
+This now includes a hi-hat hit and a ride cymbal hit at the very beginning, fulfilling the request.

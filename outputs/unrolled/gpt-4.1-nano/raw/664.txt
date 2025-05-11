@@ -1,0 +1,28 @@
+**Thought process:**
+
+- To add a snare hit at the very beginning, change the first beat of S from `----` to `S---`.
+- To add a cymbal at the very beginning, change the first beat of C from `----` to `O---` (already a cymbal hit, so no change needed).
+
+Since the cymbal is already present at the start, the only change needed is to add the snare at the beginning.
+
+---
+
+**Implementation:**
+
+- S: `S---` (adding snare hit)
+- C: remains `O---`
+
+---
+
+**Final groove:**
+
+@@@
+K: ----|----|----|----
+S: S---|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+This adds a snare hit and keeps the cymbal already in place at the very beginning, fulfilling your request.

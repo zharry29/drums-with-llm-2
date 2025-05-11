@@ -1,0 +1,35 @@
+Let's review the original groove:
+
+- Kick (K): soft hits on beats 1 and 3 at specific 16th notes.
+- Snare (S): hits on beats 2 and 3 with sidestick (X).
+- Hi-hat (H): closed hits on beats 2 and 4.
+- Toms (T): no hits.
+- Cymbals (C): no hits.
+- Ride (R): hits with mixed closed and open strikes, clearly intended as cymbal or ride.
+
+**Given the request:** No cymbal or hi-hat.
+
+**Steps:**
+
+- Remove C (cymbal) and H (hi-hat) lines completely.
+- Keep K, S, T, R as they are, recognizing that R is ride cymbal and should be removed since the request is no cymbal or hi-hat.
+
+**Final plan:**
+
+- Remove C and H.
+- Keep K and S.
+- T is empty.
+- R is also empty now since it's a cymbal, unless we interpret R as a ride cymbal – but the instructions say no cymbal or hihat, so remove R as well.
+
+### Final groove:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+T: ----|----|----|----
+R: ----|----|----|----
+C: (removed)
+H: (removed)
+@@@
+
+This keeps a rhythmic pattern with kick and snare, no cymbals or hi-hat, as requested.

@@ -1,0 +1,41 @@
+Let's analyze the original groove:
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+We need to add **an open hihat on the last 8th note**.
+
+- Each bar has 16 sixteenth notes divided into groups of 4.
+- The last 8th note is the 15th sixteenth note (counting from the start).
+- The hihat line has `x` or `X` for closed hits, `o` or `O` for open hits.
+- Currently, the last beat (fourth group) hihat is `x-x-`.
+- Positions in the last group are: 13,14,15,16 sixteenth notes.
+- The 15th note is the third character in the last group.
+- Currently, the character at position 15 is `x` (closed hit).
+- The request is for an open hihat on the last 8th note (15th sixteenth), so replace the `x` at position 15 with `o` (soft open hit) or `O` (hard open hit).
+- Since the notation uses lowercase mostly, use `o` for a soft open hit.
+
+Updating the hihat line:
+
+Last group from `x-x-` to `x- o -`.
+
+So, new hihat last group: `x-o-`.
+
+All else remains unchanged.
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-o-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

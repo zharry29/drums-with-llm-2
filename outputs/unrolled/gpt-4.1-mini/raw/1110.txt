@@ -1,0 +1,33 @@
+The 'a' of the second beat corresponds to the 4th 16th note of the second beat. Counting the 16th notes from 0 to 15 in the bar:
+
+- Beat 1: positions 0 to 3  
+- Beat 2: positions 4 to 7  
+- Beat 3: positions 8 to 11  
+- Beat 4: positions 12 to 15  
+
+Within beat 2:  
+- 4 = 1  
+- 5 = e  
+- 6 = &  
+- 7 = a  
+
+We should add a cymbal hit on position 7 (the last 16th of beat 2).
+
+Currently the cymbal lines (`C` and `R`) are empty.
+
+No articulation was specified, so I will add a soft crash cymbal hit (`o`) on position 7 of beat 2.
+
+The second beat cymbal string for the crash line is `----`. Changing to `---o`.
+
+---
+
+Final groove:
+
+@@@  
+K: O---|O---|----|O---  
+S: ----|----|O---|----  
+H: ----|----|----|----  
+T: O-o-|O-o-|O-o-|O-o-  
+C: ----|---o|----|----  
+R: ----|----|----|----  
+@@@

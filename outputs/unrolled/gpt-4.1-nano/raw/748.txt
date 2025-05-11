@@ -1,0 +1,25 @@
+**Thought process:**
+
+- The original groove has:
+  - Kick (K): `O---|----|O---|----` — kick is played in the first and third beats.
+  - Snare (S): `----|O---|----|O---` — snare is played on beat 2 and 4.
+- The request is for a snare AND a kick in the very beginning.
+- So, in the first beat:
+  - Change snare (S) from `----` to `O---`
+  - The kick (K) already has `O---` in the first beat, so no change needed there.
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|----|O---|----
+S: O---|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+**Outcome:**
+- The first beat has both a kick and snare, fulfilling the requirement.

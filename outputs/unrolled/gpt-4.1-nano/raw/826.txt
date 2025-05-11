@@ -1,0 +1,46 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): `-O--`, `OO--`, `---O`, `-OO-`
+  - Snare (S): rests
+  - Hi-hat (H): sixteenth notes pattern with open/closed hits
+  - Toms (T): rests
+  - Crash (C): hits on first and second beats
+  - Ride (R): rests
+
+- Request:
+  - Add a ride hit (`O`) and a hi-hat (`x`) at the very beginning.
+
+- To do this:
+  - Add a ride hit (`O`) at the first subdivision of R
+  - Add a hi-hat hit (`x`) at the first subdivision of H
+
+---
+
+**Final edited groove:**
+
+@@@
+K: O-*-|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: O---|----|----|----
+@@@
+
+**Note:** Since the first beat is `-*-` originally, the `*` is not valid; replacing it with `O` makes sense to show the ride hit explicitly. The placement is on the first subdivision, and the hi-hat `x` is also in the first subdivision.
+
+---
+
+**Final version:**
+
+@@@
+K: O---|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x---|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: O---|----|----|----
+@@@
+
+**This version adds the ride hit and hi-hat in the very beginning as requested.**

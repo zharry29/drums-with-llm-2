@@ -1,0 +1,40 @@
+Let's analyze the current groove:
+
+- K (Kick): `o---|--o-|o---|--o-`  
+  - Kicks in beats 1, 2, 3, and 4.
+
+- S (Snare): `----|X---|--X-|----`  
+  - Snare on beat 2 and 3.
+
+- H (Hi-hat): `----|x---|----|x---`  
+  - Hi-hat hits on 2nd and 4th beats.
+
+- T (Toms): `----|----|----|----`  
+  - None.
+
+- C (Crash): `----|----|----|----`  
+  - None.
+
+- R (Ride): `x---|X-x-|x---|X-x-`  
+  - Ride hits on all beats, including beat 4.
+
+**Instruction:** No ride on beat 4.  
+Current ride hits on beat 4 are in `X-x-`, which includes a ride hit.  
+To comply, we need to remove ride hits from beat 4, i.e., change `X-x-` to `----`.
+
+---
+
+### Final version:
+
+```plaintext
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|----
+@@@
+```
+
+**This removes the ride hits on beat 4, satisfying the request, with all other elements remaining unchanged.**

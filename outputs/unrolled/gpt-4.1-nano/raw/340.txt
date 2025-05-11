@@ -1,0 +1,47 @@
+Let's analyze the current groove:
+
+- Kick 'K': O--- | O--- | ---- | O---  
+  - Kicks on beats 1, 2, and 4, with some variation.
+- Snare 'S': ---- | ---- | O--- | ----  
+  - Snare only hits on beat 3.
+- Hi-hat 'H': ---- | ---- | ---- | ----  
+  - No hi-hat hits.
+- Toms 'T': O-o- | O-o- | O-o- | O-o-  
+  - Toms are playing on every beat, with alternating open and closed hits.
+- Cymbals 'C' and Ride 'R': none.
+
+**Request:** No hi-hat or toms.
+
+### Approach:
+- Remove the 'H' and 'T' lines entirely.
+- Keep 'K' (kick), 'S' (snare), and 'R' (ride cymbal) if applicable.
+- Since the current pattern has no ride calls (R), and only the kick and snare, we'd preserve those.
+
+### Final decision:
+- Keep the kick pattern.
+- Keep the snare on beat 3.
+- Add a subtle ride cymbal pattern on beats 2 and 4 if desired.
+
+Since only the 'K', 'S', and 'R' lines are relevant and the edit only disallows hi-hat and toms, I will remove the 'H' and 'T' lines and leave the others as is.
+
+---
+
+### Final groove:
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+R: ----|----|----|----
+@@@
+
+This version maintains the kick and snare pattern with a simple ride cymbal pattern (no hits, but if desired, I could add some). For simplicity, I will keep ride with no hits, as that aligns with the original pattern. Alternatively, I could add ride hits on beats 2 and 4 for more rhythm.
+
+**Final answer:**
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+R: ----|----|----|----
+@@@
+
+This meets the request of removing hi-hat and toms while keeping a coherent rhythmic pattern.

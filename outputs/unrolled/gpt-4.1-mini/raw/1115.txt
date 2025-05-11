@@ -1,0 +1,34 @@
+The "a" of the second beat corresponds to the 4th 16th note in beat 2. Counting 16th notes from 0:
+
+- Beat 1: 0 to 3  
+- Beat 2: 4 to 7  
+- Beat 3: 8 to 11  
+- Beat 4: 12 to 15
+
+Within beat 2:  
+- 4 = 1  
+- 5 = e  
+- 6 = &  
+- 7 = a  
+
+So the cymbal hit should be on position 7.
+
+Currently, the Crash (C) and Ride (R) cymbals are:
+
+- C: `O---|----|----|----`  
+- R: `----|----|----|----`
+
+I'll add a hard crash cymbal hit "O" on position 7 in the second beat in the crash cymbal line. The second beat segment for C is `----`, so it becomes `---O`.
+
+---
+
+Final groove:
+
+@@@  
+K: O---|---o|O-O-|----  
+S: ----|O---|----|O---  
+H: --o-|O-o-|O-o-|O-o-  
+T: ----|----|----|----  
+C: O---|---O|----|----  
+R: ----|----|----|----  
+@@@

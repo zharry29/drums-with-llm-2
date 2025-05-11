@@ -1,0 +1,26 @@
+The original groove is:
+
+K: O---|O---|----|O---  
+S: ----|----|O---|----  
+H: ----|----|----|----  
+T: O-o-|O-o-|O-o-|O-o-  
+C: ----|----|----|----  
+R: ----|----|----|----
+
+The request is: "I don't want any tom or ride."
+
+- Tom (T) line has hits each beat with combination of hard (O) and soft (o) hits. We need to remove all those by replacing with dashes.
+- Ride (R) line is already empty.
+
+Other lines remain unchanged.
+
+Final groove:
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

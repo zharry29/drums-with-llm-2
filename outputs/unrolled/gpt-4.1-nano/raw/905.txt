@@ -1,0 +1,29 @@
+Let's analyze the current groove:
+
+- The second beat is **---o|O-o-**, which are notes 5-8.
+
+The goal is to have **snare hits on every 16th note within the second beat**, meaning notes 5, 6, 7, and 8 should all feature snare hits.
+
+In the current groove, snare hits are only on note 6 (O). To meet the requirement, I will:
+
+- Add snare hits (O) on notes 5, 7, and 8 as well.
+
+---
+
+### Implementation steps:
+- For the second beat (notes 5-8), change the snare line from **---|O--|--|--** to **O--|O--|O--|O--** for the 4 notes (notes 5-8).
+
+---
+
+### Final groove:
+
+@@@
+K: O---|---o|O-O-|----
+S: O---|O---|O---|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+Now, the snare hits occur on every 16th note in the second beat, fulfilling the request.

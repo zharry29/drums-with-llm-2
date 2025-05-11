@@ -1,38 +1,39 @@
 Let's analyze the current groove:
 
-- **Kick (K):** soft hits on beats 1 ("o---"), 2 ("--o-"), 3 ("o---"), 4 ("--o-").
-- **Snare (S):** hits on beats 2 ("X---") and 3 ("--X-").
-- **Hi-hat (H):** hits on beats 2 and 4 with soft hits ("x---", "x---").
-- **Toms (T):** silent.
-- **Cymbals (C):** silent.
-- **Ride (R):** hits on every beat with alternating open and closed hits.
+- Kick 'K': o---|--o-|o---|--o-
+  - Kick hits:
+    - measure 1: beat 1 (o)
+    - measure 2: beat 3 (o)
+    - measure 3: beat 1 (o)
+    - measure 4: beat 3 (o)
+- Snare 'S': ----|X---|--X-|----
+  - Snare hits on measure 2, beat 1 and measure 3, beat 3 (not required now).
+- Hi-hat 'H': ----|x---|----|x---
+  - Hi-hat pattern with soft closed hits on beats 2 and 4.
+- Toms 'T' and Cymbals 'C': none.
+- Ride 'R': x---|X-x-|x---|X-x- (will be removed per the request).
 
----
+### New plan:
+- Remove all snare 'S' and ride 'R' hits.
+- Keep the kick hits, perhaps adding some more to make the pattern consistent and driving.
+- Keep the hi-hat pattern for rhythm.
 
-### New instructions:
-- Remove snare (S) and ride cymbal (R).
-
-### Approach:
-- Remove the S and R lines entirely.
-- Keep the kick pattern, but perhaps make it more rhythmically full.
-- Keep the hi-hat (H) pattern for maintaining pulse.
-
-### Final plan:
-- Maintain the current kicks, or add support if desired.
-- Keep hi-hat pattern.
-- No snare or ride.
+### Implementation:
+- Make the kick hit on every beat (every 4th note), or at least on beats 1 and 3 of each measure for consistency.
+- Keep the hi-hat pattern.
+- Remove snare and ride.
 
 ---
 
 ### Final groove:
 
-```plaintext
 @@@
-K: o---|--o-|o---|--o-
-H: x---|x---|x---|x---
+K: O---|O---|O---|O---
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
 C: ----|----|----|----
 R: ----|----|----|----
 @@@
-```
 
-This retains the core rhythmic pulse, with the kick supporting the overall groove, and the hi-hat providing consistent timing, all without snare or ride cymbal as per your request.
+This pattern provides a steady, driving rhythm with kicks on every beat, along with hi-hat grooves, fully aligned with the directive to remove snare and ride.

@@ -1,0 +1,30 @@
+Let's analyze the current groove:
+
+- **K (Kick):** `O--O|----|--O-|----` — kick on beats 1 and 3.
+- **S (Snare):** `----|Oo-o|-o--|O--o` — snare hits on various off-beats within beats 2 and 4.
+- **H (Hi-hat):** `----|----|----|----` — no hi-hat hits currently.
+- **T (Toms):** `----|----|----|----` — none.
+- **C (Crash):** `----|----|----|----` — none.
+- **R (Ride):** `o-O-|o-O-|o-O-|o-O-` — ride hits on all four beats, including beat 4.
+
+**The request:** No hi-hat on beat 4.  
+Currently, the hi-hat does not play on any beat, so it already satisfies this condition — no change needed.
+
+**Final step:** Reproduce the original groove as is.
+
+---
+
+### Final output:
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+```
+
+**This groove already has no hi-hat on beat 4, fulfilling the user's instruction.**

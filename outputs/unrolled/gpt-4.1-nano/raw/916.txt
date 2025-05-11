@@ -1,0 +1,32 @@
+Let's analyze the original groove to see what needs to be removed:
+
+- Second beat (middle section): 
+  - K: ---- (no change needed)
+  - S: Oo-o (hit notes on the 5th, 6th, and 8th positions)
+  - H: X-x- (hits on notes 5, 7, 9, 11; likely spanning across the beat)
+  - T: ---- (nothing to remove)
+  - C: ---- (nothing to remove)
+  - R: ---- (nothing to remove)
+
+**Goal**: Remove everything in the second beat **(notes 5-8)**.
+
+This means:
+- K: remains ---- (no change)
+- S: Oo-o → should become ----
+- H: X-x- → should become ----
+- T: remains ----
+- C: remains ----
+- R: remains ----
+
+Now, adjusting the groove accordingly:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|----|----|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+This clears all the hits in the second beat as instructed.

@@ -1,0 +1,37 @@
+The original cymbal line is:
+
+```
+C: O---|O---|O---|O---
+```
+
+There is a hard crash hit (`O`) on the first 16th note of every beat, totaling 4 hits in the bar.
+
+To keep the same placement but make the cymbal hits more dynamic, I can alter the articulation between hard hits (`O`) and soft hits (`o`), and possibly add a soft hit immediately after existing hits to add texture, while keeping the placements intact.
+
+Here's a plan for each beat:
+
+- Beat 1: `O---` → `Oo--` (hard hit plus soft hit right after)
+- Beat 2: `O---` → `oO--` (soft hit before hard)
+- Beat 3: `O---` → `Oo--` (hard + soft)
+- Beat 4: `O---` → `oO--`
+
+Full modified cymbal line:
+
+```
+C: Oo--|oO--|Oo--|oO--
+```
+
+This keeps all hits on the first 16th note of each beat, adds dynamic variation with alternating hard and soft hits and some layering.
+
+---
+
+Final groove:
+
+@@@  
+K: -O--|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: ----|----|---O|----  
+C: Oo--|oO--|Oo--|oO--  
+R: ----|----|----|----  
+@@@

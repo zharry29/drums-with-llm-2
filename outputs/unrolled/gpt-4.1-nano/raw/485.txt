@@ -1,0 +1,46 @@
+The instruction is to remove all kick (K) and hi-hat (H) parts. So, I will eliminate those lines completely. The remaining instruments are snare (S), Toms (T), Cymbal (C), and Ride (R).
+
+In the original:
+- K: plays at some beats, but we will remove it.
+- H: plays on every beat with X-x-, so it will also be removed.
+- S: has various hits including soft and hard on beats 2 and 4.
+- T, C, R: no hits in this groove.
+
+To produce a new pattern, I’ll focus on making the rhythm interesting with the remaining snare, cymbals, and ride. The snare already provides some accents, so I’ll keep that.
+
+### Final plan:
+- Remove `K` and `H` lines.
+- Keep `S` with its hits.
+- Keep `R` with some hits for rhythm.
+
+### Proposed pattern:
+- Keep Snare (S) with hits on beats 2 and 4.
+- Keep Ride (R) with hits on beats 1 and 3 for a steady pulse.
+- T and C remain silent.
+
+### Final groove:
+```plaintext
+K: (removed)
+S: ----|--o-|--o-|O---
+H: (removed)
+T: ----|----|----|----
+C: ----|----|----|----
+R: O---|----|O---|----
+```
+
+This keeps a simple, steady rhythm emphasizing the snare backbeat and ride cymbal pulsation.
+
+---
+
+**Final answer:**
+
+```plaintext
+@@@
+K: (removed)
+S: ----|--o-|--o-|O---
+H: (removed)
+T: ----|----|----|----
+C: ----|----|----|----
+R: O---|----|O---|----
+@@@
+```

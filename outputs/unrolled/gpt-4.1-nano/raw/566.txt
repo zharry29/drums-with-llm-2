@@ -1,0 +1,20 @@
+The request is to remove the hi-hat (H) and ride (R) lines:
+
+- H line: `X---|X---|X---|X---` should be removed.
+- R line: `----|----|----|----` is already silent and can be omitted.
+
+Remaining instruments:
+- K: `O---|----|O---|----`
+- S: `----|O---|----|O---`
+- C: `----|----|----|----` (silent, so can omit or leave out)
+
+To create a more interesting beat, we'll keep the kick and snare pattern. Let's add some soft kicks to give rhythm, perhaps a soft kick on 2nd beat, and place snares on beats 2 and 4 for a standard backbeat.
+
+Here's the simplified pattern:
+
+@@@
+K: O---|--o-|O---|--o-
+S: ----|--O-|----|--O-
+@@@
+
+This provides a basic, clean rhythm with kick and snare, aligned with the removal of hi-hat and ride.

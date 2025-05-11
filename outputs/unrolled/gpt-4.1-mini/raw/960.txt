@@ -1,0 +1,21 @@
+The request is to remove hihat hits on beat 4, keeping everything else unchanged.
+
+Looking at the hihat (H) line on beat 4 (last four characters of the bar):  
+- The bar is `X---|X---|X---|X---`, so beat 4 is `X---`, which has a hard closed hihat hit on the first 16th note of beat 4.
+
+We will replace `X---` with `----` to remove the hihat on beat 4.
+
+All other lines remain the same.
+
+---
+
+Final groove:
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

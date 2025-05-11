@@ -1,0 +1,29 @@
+The request is to drop out everything in the **second beat**.
+
+The second beat corresponds to characters 5-8 in the notation (second group of four characters after the first `|`).
+
+Let's look at each line and remove notes in that position.
+
+Original groove second beat:
+
+- K: `--o-` → Replace all with `----`
+- S: `X---` → Replace all with `----`
+- H: `x---` → Replace all with `----`
+- T: `----` → already no notes
+- C: `----` → already no notes
+- R: `X-x-` → replace all with `----`
+
+All other beats/positions remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: o---|----|o---|--o-
+S: ----|----|--X-|----
+H: ----|----|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|----|x---|X-x-
+@@@

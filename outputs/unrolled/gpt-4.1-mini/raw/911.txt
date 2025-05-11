@@ -1,0 +1,40 @@
+The request is to drop out everything in the **second beat**.
+
+This means all instruments should not play any notes on the second beat (positions 5-8, ignoring '|').
+
+Let's examine each line's second beat and replace any notes with '-' to silence them.
+
+Original:
+
+```
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Second beat is everything between the first and second '|' (positions 5-8):
+
+- Kick: `--O-`  →  drop out → `----`
+- Snare: `O---` → drop out → `----`
+- Hihat: `----` → already silent
+- Toms: `----` → already silent
+- Crash: `O---` → drop out → `----`
+- Ride: `----` → already silent
+
+All other beats remain unchanged.
+
+---
+
+Final edited groove:
+
+@@@
+K: OOO-|----|OOO-|-OOO
+S: ----|----|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|O---|O---
+R: ----|----|----|----
+@@@

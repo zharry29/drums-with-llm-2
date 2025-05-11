@@ -1,0 +1,28 @@
+The request is to play the closed hi-hat on all 16th notes, with accents on quarter note downbeats.
+
+Hi-hat notation:  
+- `X` = hard closed hit (accent on downbeat)  
+- `x` = soft closed hit (non-accent)
+
+There are 16 sixteenth notes in a bar, with downbeats at positions 1, 5, 9, 13. Those get `X`, others get `x`.
+
+Original hi-hat line:  
+`----|x---|----|x---`
+
+Replace with:  
+`Xxxx|Xxxx|Xxxx|Xxxx`
+
+All other instruments remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: Xxxx|Xxxx|Xxxx|Xxxx
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

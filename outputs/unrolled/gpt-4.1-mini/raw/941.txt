@@ -1,0 +1,22 @@
+The request is to remove kick drum hits on beat 4 (positions 13-16), while keeping everything else unchanged.
+
+Looking at the Kick drum (K) line on beat 4:
+
+- Beat 4: `--o-` → there is a soft hit ('o') on the 15th 16th note.
+
+Therefore, we replace `--o-` with `----` to remove any kick on beat 4.
+
+All other lines are left unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: o---|--o-|o---|----
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

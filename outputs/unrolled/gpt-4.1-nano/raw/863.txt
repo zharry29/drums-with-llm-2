@@ -1,0 +1,33 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): `O--- | O--- | ---- | O---`
+  - Snare (S): `---- | ---- | O--- | ----`
+  - Hi-hat (H): `---- | ---- | ---- | ----`
+  - Toms (T): `O-o- | O-o- | O-o- | O-o-`
+  - Crash (C): `---- | ---- | ---- | ----`
+  - Ride (R): `---- | ---- | ---- | ----`
+
+- Request:
+  - Add a kick hit and a tom in the very beginning.
+
+- Implementation:
+  - For the first beat:
+    - The kick is already present on the first beat (`O---`), so no change needed, or reinforce it if desired.
+    - Add a tom hit: change T in the first beat from `O-o-` to `-O--`, for a clear tom note on the second subdivision.
+    - Keep the hi-hat as is (all rests).
+
+---
+
+**Final edited groove:**
+
+@@@
+K: O---| O---| ----| O---
+S: ----| ----| O---|----
+H: ----| ----| ----|----
+T: -O--| O-o-| O-o-| O-o-
+C: ----| ----| ----|----
+R: ----| ----| ----|----
+@@@
+
+**This adds a tom in the very beginning while keeping the kick, fulfilling the request.**

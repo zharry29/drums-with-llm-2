@@ -1,0 +1,35 @@
+**Thought process:**
+
+- Original groove elements:
+  - Kick (K): `o---`, `--o-`, `o---`, `--o-`
+  - Snare (S): `----`, `X---`, `--X-`, `----`
+  - Hi-hat (H): `----`, `x---`, `----`, `x---`
+  - Toms (T): all rests
+  - Crash (C): all rests
+  - Ride (R): `x---`, `X-x-`, `x---`, `X-x-`
+
+- Request:
+  - Add a tom hit and a kick in the very beginning.
+
+- Implementation:
+  - Insert a tom hit (`O`) at the first subdivision of T.
+  - Ensure a kick (`O`) at the start of K (`o---`), possibly replacing or emphasizing it.
+
+- Adjustments:
+  - Replace the first element of K (`o---`) with an `O` for a hard hit kick and keep the rest of the pattern.
+  - Add a tom hit (`O`) at the very start of T's first beat, changing `----` to `O---`.
+
+---
+
+**Final edited groove:**
+
+@@@
+K: O---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: O---|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+**This adds a tom hit right at the beginning and emphasizes the initial kick, fulfilling your request.**

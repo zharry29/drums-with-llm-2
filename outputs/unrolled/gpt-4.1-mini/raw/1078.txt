@@ -1,0 +1,56 @@
+The original hi-hat is:
+
+```
+H: X---|X---|X---|X---
+```
+
+— Hard closed hits on the downbeat of each beat.
+
+---
+
+**Request:** Make hi-hat pattern more varied.
+
+---
+
+**Thoughts:**
+
+- Add 16th note subdivision hits.
+
+- Alternate between hard (`X`) and soft (`x`) closed hits.
+
+- Introduce some open hi-hats (`o`, `O`) for dynamics.
+
+- A common funk/disco hi-hat groove is something like `Xxox` per beat (4 hits per beat).
+
+---
+
+**Implementation:**
+
+- Beat 1: `Xxox`
+
+- Beat 2: `xXox`
+
+- Beat 3: `Oxox` (start soft open hit)
+
+- Beat 4: `xXox`
+
+---
+
+**Final hi-hat line:**
+
+```
+H: Xxox|xXox|Oxox|xXox
+```
+
+---
+
+**Final groove:**
+
+@@@  
+K: O---|----|O---|----  
+S: ----|O---|----|O---  
+H: Xxox|xXox|Oxox|xXox  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

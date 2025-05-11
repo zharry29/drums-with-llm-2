@@ -1,0 +1,30 @@
+**Thought process:**
+
+- To fulfill the request, I need to add a cymbal hit and a hi-hat in the very first beat.
+- The current groove shows no cymbal hits, so I will add a crash cymbal (C) hit at the first beat by changing the first beat of C from `----` to `O---`.
+- The hi-hat pattern is `----`, so to add a hi-hat in the first beat, change H from `----` to `x---`.
+- Other parts of the groove stay unchanged.
+
+---
+
+**Implementation:**
+
+- K: `O--O|----|--O-|----` (no change)
+- S: same
+- H: change first beat to `x---`
+- C: change first beat to `O---`
+- T, R: stay unchanged
+
+---
+
+**Final groove:**
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: x---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+This adds both a cymbal hit and a hi-hat at the very beginning, as requested.

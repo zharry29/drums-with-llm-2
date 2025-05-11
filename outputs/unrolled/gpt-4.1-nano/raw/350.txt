@@ -1,0 +1,28 @@
+Let's analyze the original groove:
+
+- Kick 'K': OOO- | --O- | OOO- | -OOO  
+  - Kicks on most beats with varying intensity.
+- Snare 'S': ---- | O--- | ---- | O---  
+  - Snare hits on beats 2 and 4.
+- Hi-hat 'H': ---- | ---- | ---- | ----  
+  - None.
+- Toms 'T': ---- | ---- | ---- | ----  
+  - None.
+- Cymbals 'C' and 'R': 'C' with hits on beats 1, 2, 3, 4. 'R' empty.
+
+**Request:** No snare ('S') and no cymbals ('C', 'R').
+
+**Approach:**  
+- Remove snare and cymbal lines entirely.
+- Keep the kick pattern as is, as it provides the main rhythm.
+
+### Final plan:
+- Keep only the kick pattern, removing snare and cymbal parts.
+
+### Final output:
+
+@@@
+K: OOO- | --O- | OOO- | -OOO
+@@@
+
+This groove now contains only the kick drum pattern, fulfilling the request of eliminating snare and cymbals.

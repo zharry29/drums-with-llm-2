@@ -1,0 +1,45 @@
+Let's first identify the timing details:
+
+- The second beat spans notes 5-8.
+- The "1 e & a" subdivision is divided as:
+  - 1: note 5
+  - e: note 6
+  - &: note 7
+  - a: note 8
+
+The "a" of beat 2 is therefore **note 8**.
+
+Now, find out where this note falls in the notation:
+
+- The entire bar has 16 sixteenth notes.
+- The second beat is characters 6-9 (since beat 1 is characters 1-4, beat 2 is characters 6-9).
+- The last character of that group, position 9 overall, corresponds to note 8 ('a').
+
+Currently, the `C` (cymbal) line:
+
+`C: ----|----|----|----`
+
+- The second beat's characters are `----` after the second separator.
+
+- The relevant character for note 8 is the 4th character in the second group.
+
+- Since the first group is characters 1-4, second group characters 6-9, note 8 is the 4th character of that group, which is position 9 overall.
+
+**Action:**
+
+- Change the 9th character of `C:` line from `-` to `O`. 
+
+**Final groove:**
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|--O-|----
+R: ----|----|----|----
+@@@
+```
+
+Only change: The 9th character of the `C:` line changed from `-` to `O` to add the cymbal hit on the 'a' of beat 2.

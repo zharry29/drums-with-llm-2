@@ -1,0 +1,27 @@
+Let's analyze the original groove:
+
+- Kick 'K': O--O | ---- | --O- | ----  
+  - Kicks on beat 1, 4, and 3 with varying softness.
+- Snare 'S': ---- | Oo-o | -o-- | O--o  
+  - Snare hits on beats 2 and 4, with some open and soft hits.
+- Hi-hat 'H': X-x- | X-x- | X-x- | X-x-  
+  - Consistent hi-hat pattern on all beats with alternating closed and open sounds.
+- Toms 'T': ---- | ---- | ---- | ----  
+  - None.
+- Cymbals 'C' and 'R': none.
+
+**Request:** Remove all snare and cymbal hits.
+
+### Plan:
+- Remove 'S', 'C', and 'R' lines.
+- Keep 'K' and 'H' for rhythmic groove if desired, but since the focus is removing snare/cymbals, the core pattern will be just the Kick.
+- The hi-hat is playing consistently, so we keep it unless told otherwise.
+
+### Final edited groove:
+
+@@@
+K: O--O|----|--O-|----
+H: X-x-|X-x-|X-x-|X-x-
+@@@
+
+This groove retains the kick and hi-hat pattern, with snare and cymbals removed as requested.

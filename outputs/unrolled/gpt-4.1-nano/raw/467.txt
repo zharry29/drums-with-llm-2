@@ -1,0 +1,48 @@
+Let's analyze the original groove:
+
+- **Kick (K):** plays on beats 1, 2, 3, and 4 with various articulations.
+- **Snare (S):** only on beat 3 with a sidestick hit.
+- **Hi-hat (H):** plays on every 16th note with alternating open and closed hits.
+- **Toms (T):** on beat 3 with a hard hit.
+- **Cymbals (C):** on beats 1, 2, and 3.
+- **Ride (R):** silent.
+
+**Request:** no hi-hat or snare.
+
+**Action:** remove the S and H lines entirely.
+
+The remaining instruments with hits: K, T, C, R.
+
+- Since R and T are silent, and C is active only in the first two beats, but as per original, only in beats 1-3, I will keep the C and T patterns as is.
+
+---
+
+### Final plan:
+
+- Remove S and H lines.
+- Keep K, C, T, R.
+- K, C, T, R are compatible with the original notation.
+
+### Result (final pattern):
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: (removed)
+H: (removed)
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+### Final output:
+
+``` 
+@@@
+K: -O--|OO--|---O|-OO-
+S: (removed)
+H: (removed)
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```

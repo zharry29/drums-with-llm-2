@@ -1,0 +1,30 @@
+To implement the request:
+
+- Play **closed hi-hat** on **all 16th notes**. For closed hi-hat, `x` (soft) and `X` (hard) are used.
+- **Accent the downbeats** at positions 1, 5, 9, 13 with a louder hit (`X`) to give emphasis.
+- Remaining hi-hat notes will be `x`.
+
+Now, to construct the pattern:
+
+- Positions 1, 5, 9, 13: `X`
+- All other positions: `x`
+
+Resulting pattern:
+`Xxxx|Xxxx|Xxxx|Xxxx`
+
+---
+
+### Final edited groove:
+
+```plaintext
+@@@
+K: O--O|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: Xxxx|Xxxx|Xxxx|Xxxx
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```
+
+This pattern provides continuous, accented closed hi-hat hits on all 16th notes with emphasis on the down beats for a strong rhythmic pulse.

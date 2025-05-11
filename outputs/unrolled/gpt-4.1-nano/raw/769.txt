@@ -1,0 +1,44 @@
+**Thought process:**
+
+- Current groove:
+
+  - Kick (K): all silent
+  - Snare (S): all silent
+  - Hi-hat (H): `----|x---|----|x---` (hi-hat hits on beat 2 and 4)
+  - Toms (T): all silent
+  - Crash (C): all silent
+  - Ride (R): `x---|X-x-|x---|X-x-` (ride pattern)
+
+- Request:
+
+  - Add a snare hit **and** a tom in the very beginning (first beat).
+
+- Current:
+
+  - First beat:
+    - Kick: none
+    - Snare: none
+    - Tom: none
+  - Need:
+    - Snare hit: in first beat, e.g., `X---`
+    - Tom hit: in first beat, e.g., `O---`
+
+**Final adjustment:**
+
+- Snare in first beat: `X---`
+- Tom in first beat: `O---`
+
+---
+
+**Final groove:**
+
+@@@
+K: ----|----|----|----
+S: X---|----|----|----
+H: ----|x---|----|x---
+T: O---|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+This satisfies the request with a snare and a tom in the very first beat.

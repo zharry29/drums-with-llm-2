@@ -1,0 +1,53 @@
+Let's analyze the original groove:
+
+- Kick (K): plays on beats with a mix of hard and soft hits.
+- Snare (S): plays on beat 3 in the third measure.
+- Hi-hat (H): plays steady alternating closed hits.
+- Toms (T): plays on beat 3 in measure 3.
+- Cymbals (C): plays on beats 1, 2, 3, 4.
+- Ride (R): silent.
+
+**Request:** No snare or kick.
+
+This means removing **K** and **S** lines completely.
+
+Remaining instruments: **H**, **T**, **C**, **R**.
+
+- The **C** plays on beats 1, 2, 3, 4, so keep it for continuity.
+- The **H** provides a steady rhythm.
+- Toms are only played in measure 3, beat 3, so perhaps we can keep it or keep it silent for simplicity.
+- R is silent, so can be omitted.
+
+### Final plan:
+
+- Remove **K** and **S** lines.
+- Keep **H**, **C**.
+- Keep T if desired, or keep it silent for simplicity.
+
+For variation, I'll keep the hi-hat steady and the cymbal pattern.
+
+### Final groove:
+
+@@@
+K: (removed)
+S: (removed)
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+This keeps a simple, energetic rhythm with hi-hat and cymbal.
+
+### Final output:
+
+```plaintext
+@@@
+K: (removed)
+S: (removed)
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```

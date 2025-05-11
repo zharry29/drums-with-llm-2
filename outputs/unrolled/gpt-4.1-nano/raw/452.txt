@@ -1,0 +1,37 @@
+Let's analyze the current groove:
+
+- Kick (K): has hits on beats 1, 2, and 4.
+- Snare (S): no hits (all "-").
+- Hi-hat (H): plays on every "x-x-" pattern, which is consistent across all beats.
+- Toms (T): hits on beat 3 with O.
+- Cymbals (C): hits on every beat, but since we want no cymbals, these need to be removed.
+- Ride (R): no hits.
+
+**Request:** no cymbal or hi-hat.
+
+Steps to edit:
+
+- Remove the cymbal (C) line entirely.
+- Remove the hi-hat (H) line entirely.
+- Keep the kick (K) pattern.
+- Keep the snare (S) unchanged (since no instruction to remove it, and it's part of a typical beat).
+- Keep the Toms line as is, since it contains a tom hit on beat 3.
+
+### Final plan:
+
+- Keep kick and snare.
+- Keep Toms.
+- Remove cymbals and hi-hat.
+
+### Final grove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+T: ----|----|---O|----
+C: (removed)
+H: (removed)
+R: ----|----|----|----
+@@@
+
+This maintains a rhythm with kick, snare, and Toms, with no cymbals or hi-hat, fulfilling the request.

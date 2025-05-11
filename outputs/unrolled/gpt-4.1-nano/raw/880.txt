@@ -1,0 +1,43 @@
+Let's analyze the current groove to address the request.
+
+### Original groove:
+- K (Kick): O---|O---|----|O---  
+- S (Snare): ----|----|O---|----  
+- H (Hi-hat): ----|----|----|----  
+- T (Toms): O-o-|O-o-|O-o-|O-o-  
+- C (Crash): ----|----|----|----  
+- R (Ride): ----|----|----|----
+
+### Snare hits:
+- Measure 3, beat 1: "O---"
+- Snare is on the first 16th note of measure 3, which is *not* on downbeat of measure 2 or 4 (since measures start with beat 1).
+
+### Instruction:
+- Avoid having the snare on the downbeat of 2 and 4.
+- The downbeats of measures 2 and 4 correspond to the first notes in those measures.
+
+### Observations:
+- Currently, the snare hits are only on measure 3, beat 1, so already avoiding downbeats of 2 and 4.
+- The pattern is fine as is with respect to the instruction because:
+  - Measure 2: no snare hits.
+  - Measure 4: no snare hits.
+  - Only measure 3: snare hit on beat 1.
+
+### Final decision:
+- Since there are no snares on the downbeats of measures 2 and 4, the pattern already satisfies the condition.
+- To reinforce or clarify, I can keep the pattern unchanged.
+
+---
+
+### **Final version:**
+
+@@@
+K: O---|O---|----|O---  
+S: ----|----|O---|----  
+H: ----|----|----|----  
+T: O-o-|O-o-|O-o-|O-o-  
+C: ----|----|----|----  
+R: ----|----|----|----
+@@@
+
+This groove already meets the request of avoiding snare on the downbeats of measures 2 and 4.

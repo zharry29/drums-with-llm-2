@@ -1,0 +1,41 @@
+Let's analyze the groove and identify the downbeats of 2 and 4:
+
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+- The bar has 16 16th notes, divided into four groups of four notes (the beats).
+- The downbeat of 2 is the 5th sixteenth note (the first character after the first `|`).
+- The downbeat of 4 is the 13th sixteenth note (the first character after the third `|`).
+
+Looking at the Snare line:
+
+- At position 5 (downbeat 2): `O` (hard hit)
+- At position 13 (downbeat 4): `O` (hard hit)
+
+The request is to avoid having snare hits on the downbeat of 2 and 4, so we replace these with `-`.
+
+Updated Snare line:
+
+- Position 5: from `O` to `-`
+- Position 13: from `O` to `-`
+
+Resulting Snare line:
+
+`----|-o-o|-o--|---o`
+
+Final groove:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|-o-o|-o--|---o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

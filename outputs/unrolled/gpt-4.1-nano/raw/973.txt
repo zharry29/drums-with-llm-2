@@ -1,0 +1,36 @@
+Let's analyze the current groove:
+
+- **K (Kick):** `O---|---o|O-O-|----`  
+  - Kick on beats 1, 3, and 2(last subdivision), with a soft hit on the last beat's 4th subdivision.
+- **S (Snare):** `----|O---|----|O---`  
+  - Snare on beat 2 and 4.
+- **H (Hi-hat):** `--o-|O-o-|O-o-|O-o-`  
+  - Hi-hat hits on all beats at various subdivisions.
+- **T (Toms):** `----|----|----|----`  
+  - No tom hits.
+- **C (Crash):** `O---|----|----|----`  
+  - Crash on beat 1.
+- **R (Ride):** `----|----|----|----`  
+  - No ride hits.
+
+**The request**: "I don't want tom on beat 4," but currently, no toms are present. It's already compliant with that requirement.
+
+**Conclusion:**  
+Since no tom hits exist on beat 4 currently, the original groove already satisfies the condition. No change is needed.
+
+---
+
+### Final version (unchanged):
+
+```plaintext
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+**The groove already meets the criterion; no modifications are necessary.**

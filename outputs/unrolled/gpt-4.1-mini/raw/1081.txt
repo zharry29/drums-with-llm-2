@@ -1,0 +1,56 @@
+The original hi-hat pattern is:
+
+```
+H: X-x-|X-x-|X-x-|X-x-
+```
+
+That's a repetitive pattern of hard closed hit (X), soft closed hit (x), and two rests per beat.
+
+---
+
+**Request:** Make hi-hat pattern more varied.
+
+---
+
+### Thought process:
+
+- Keep a rhythmic theme but add some open hi-hat hits (`o` or `O`) to add texture.
+
+- Vary the pattern per beat to avoid monotony.
+
+- Use rests intentionally to create groove.
+
+- Possibly add some syncopation or accented hits.
+
+---
+
+### Implementation:
+
+Beat 1: `Xoxo` — hard closed, soft open, soft closed, soft open
+
+Beat 2: `x-X-` — soft closed, rest, hard closed, rest
+
+Beat 3: `oxoX` — soft open, soft closed, soft open, hard closed
+
+Beat 4: `X--x` — hard closed, two rests, soft closed
+
+---
+
+### Final hi-hat line:
+
+```
+H: Xoxo|x-X-|oxoX|X--x
+```
+
+---
+
+### Final groove:
+
+@@@  
+K: O--O|----|--O-|----  
+S: ----|Oo-o|-o--|O--o  
+H: Xoxo|x-X-|oxoX|X--x  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

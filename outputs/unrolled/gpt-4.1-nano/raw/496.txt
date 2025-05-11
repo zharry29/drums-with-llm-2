@@ -1,0 +1,26 @@
+The request is to remove all ride cymbal (R) and tom (T) parts.  
+- The T line is: `----|----|----|----`, so it should be removed entirely.  
+- The R line is: `----|----|----|----`, also with no hits, so it should be removed too.
+
+Remaining instruments:
+- K (kick): `OOO-|--O-|OOO-|-OOO`
+- S (snare): `----|O---|----|O---`
+- C (cymbal): `O---|O---|O---|O---`
+- T and R are gone.
+
+Since the original groove has a quite busy rhythm, but the request is to remove ride and tom, I can keep the kick, snare, and crash cymbal, which are the core percussion elements.
+
+To create a clean, simple pattern:
+- Keep the kick (O in beats 1, 2, 3, 4).
+- Keep snare hits on beats 2 and 4.
+- Keep crash cymbal on every beat for accent.
+
+### Final pattern:
+
+@@@
+K: O---|O---|O---|O---
+S: ----|O---|----|O---
+C: O---|O---|O---|O---
+@@@
+
+This pattern is straightforward, rhythmically strong, and fulfills the removal of ride cymbal and toms.

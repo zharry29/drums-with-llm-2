@@ -1,0 +1,32 @@
+Let's analyze the provided groove:
+
+- **K (Kick):** `O---|----|O---|----` — kick on beats 1 and 3.
+- **S (Snare):** `----|O---|----|O---` — snare on beats 2 and 4.
+- **H (Hi-hat):** `X---|X---|X---|X---` — hi-hat on all four beats.
+- **T (Toms):** `----|----|----|----` — none.
+- **C (Crash):** `----|----|----|----` — none.
+- **R (Ride):** `----|----|----|----` — none.
+
+**Request:** Remove hi-hat on beat 4.  
+Currently, the hi-hat is hitting on all beats, including beat 4.
+
+**Action:**  
+- For beat 4, the hi-hat segment is the last set of four characters, i.e., the fourth segment: `X---`.  
+- To remove hi-hat hits on beat 4, replace `X---` with `----`.
+
+---
+
+### Final edited groove:
+
+```plaintext
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+**This removes the hi-hat hit on beat 4 while keeping everything else unchanged.**

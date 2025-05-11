@@ -1,0 +1,48 @@
+Alright, let's tackle this problem step by step. I'm supposed to add some tom hits to the given drum groove. First, I need to understand the drum notation provided. 
+
+From the description, each line represents a different drum or cymbal. The characters in each line correspond to 16th notes, with four characters making up a beat. A '-' means the instrument isn't played on that note, while other characters represent different types of hits or articulations specific to each instrument.
+
+Looking at the given drum groove:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+I can see that the Kick (K), Snare (S), Hihat (H), and Crash cymbal (C) are already being used, but the Toms (T) are completely silent. My task is to add some tom hits to this groove.
+
+I need to decide where to place the tom hits. Toms are often used to add flavor and rhythm, and they can complement the snare and hihat rhythm. Since the hihat is already quite active, I'll look for spots where adding a soft tom hit ('o') can enhance the rhythm without overpowering the existing elements.
+
+Looking at the hihat line: H: --o-|O-o-|O-o-|O-o-. It seems to have a consistent pattern, so I'll aim to place tom hits on the off-beats or between the hihat hits to add some texture.
+
+I'll start by adding a soft tom hit ('o') in the first beat of the second measure, right after the hihat's "o" in the first measure. This will create a subtle rhythmic interest without clashing with the existing hits.
+
+Next, I'll look at the third measure. The hihat has an "O-o-" pattern, so adding a tom hit right after the "O" in the third beat could work well. This will add a soft "o" in the third beat of the third measure.
+
+Finally, in the fourth measure, the hihat continues with "O-o-". To maintain consistency, I'll add another soft tom hit in the third beat of the fourth measure, mirroring what I did in the third measure.
+
+So, the updated Toms line will look like this:
+
+T: ----|---o|----|---o
+
+This means there will be soft tom hits on the second 16th note of the second beat and the second 16th note of the fourth beat.
+
+Let me double-check to ensure that these additions don't conflict with other instruments. The Kick and Snare are on beats 1 and 3, respectively, and the Hihat is busy on the off-beats. The Crash cymbal is only on the first beat of the first measure. The Ride cymbal isn't used at all in this groove.
+
+By adding these soft tom hits, I'm introducing a new rhythmic element that complements the existing pattern without overwhelming it. The soft hits ('o') are less prominent than hard hits ('O'), so they'll blend nicely into the overall groove.
+
+I think this addition achieves the goal of enhancing the groove with some tom hits while maintaining the balance and flow of the existing drum pattern.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|---o|----|---o
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,51 @@
+Let's review the original groove:
+
+- **Kick (K):** ----|----|----|----
+  - No kicks
+- **Snare (S):** ----|----|----|----
+  - No snare hits
+- **Hi-hat (H):** ----|x---|----|x---
+  - Hi-hat hits on second beat (notes 5) and fourth beat (notes 13)?
+  - Actually, only on notes 6 and 14 (since x at position 6 and 14).
+- **Toms (T):** ----|----|----|----
+  - No tom hits
+- **Cymbal (C):** ----|----|----|----
+  - No cymbal hits
+- **Ride (R):** x---|X-x-|x---|X-x-
+  - Multiple hits on each beat, including X-x pattern.
+
+---
+
+### Edit goal:
+- **Snare on every 16th note in the second beat.**
+
+The second beat is **----|----** (notes 5-8). In the current notation, no snare hits there.
+
+Since the beat has four notes (positions 5,6,7,8), to place a snare on each note, I will:
+
+- Replace the snare line, adding **O** (hard snare) on notes 5,6,7,8.
+
+---
+
+### Implementation:
+- Keep the snare line as all **O** in beat two:
+- In the original, the snare line is all **-**, so we'll update it to **O** for each of the notes in beat 2.
+
+---
+
+### Final edited groove:
+
+@@@
+K: ----|----|----|----
+S: ----|OOOO|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+**Explanation:**
+- Snare (S): now has **O** for notes 5-8, meaning snare hits on every 16th note in beat 2.
+- Other instruments unchanged.
+
+This meets the requirement of snare on every 16th note in the second beat.

@@ -1,0 +1,27 @@
+The original groove:
+
+```
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+```
+
+Request: "I don't want any hihat or kick."
+
+- Remove kick (K) hits 'O' and 'o' by replacing all with dashes.
+- Remove hihat (H) hits 'O', 'o' by replacing all with dashes.
+- Other lines remain unchanged.
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

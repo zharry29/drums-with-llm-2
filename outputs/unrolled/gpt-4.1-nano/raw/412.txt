@@ -1,0 +1,35 @@
+Let's analyze the original drum groove:
+
+- Kick (K): hits on the first and third beats with soft hits.
+- Snare (S): plays on the second beat ("Oo-o") and last beat ("O--o").
+- Hi-hat (H): silent.
+- Toms (T): silent.
+- Crash (C): silent.
+- Ride (R): plays on every eighth note with alternating soft and hard hits ("o-O-").
+
+**The request is to remove all hi-hat and cymbal sounds.**
+
+This means we eliminate lines H, C, and R.
+
+Remaining pattern:
+
+K: O--O|----|--O-|----  
+S: ----|Oo-o|-o--|O--o  
+T: ----|----|----|----  
+H: (removed)  
+C: (removed)  
+R: (removed)  
+
+The resulting groove is now simple and rhythmically interesting with kick and snare only. The ride pattern has been removed as well, as per request.
+
+**Final edited groove:**
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+T: ----|----|----|----
+C: (removed)
+R: (removed)
+@@@
+
+This provides a clear, straightforward drum pattern without hi-hat or cymbals, matching the request.

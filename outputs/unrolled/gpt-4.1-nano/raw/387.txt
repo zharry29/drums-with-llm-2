@@ -1,0 +1,25 @@
+Let's analyze the current groove:
+
+- Kick 'K': plays on beat 1 (hard 'O') and beat 3 (hard 'O').
+- Snare 'S': plays on beats 2 and 4 with various articulations ('O', 'o', 'X', 'x').
+- Hi-hat 'H': plays on every beat with alternating "X", "x" pattern.
+- Toms 'T' and cymbals 'C' and 'R': silent.
+
+**Request:** Remove all snare ('S') and hi-hat ('H').
+
+- We'll replace the 'S' and 'H' lines with all dashes ('-').
+
+**Result:** The groove will only have kick drums, which creates a very minimalistic pattern.
+
+### Final groove:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+This provides only the kick drum pattern and is compliant with the removal of snare and hi-hat.

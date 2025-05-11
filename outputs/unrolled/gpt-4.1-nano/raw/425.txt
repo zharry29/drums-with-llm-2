@@ -1,0 +1,38 @@
+Let's analyze the original groove:
+
+- Kick (K): plays at various points, including soft and hard hits.
+- Snare (S): silent.
+- Hi-hat (H): continuous pattern with alternating closed hits, keeps consistent rhythm.
+- Toms (T): plays on beat 3 with a hard hit.
+- Cymbals (C): plays on every beat with hard hits.
+- Ride (R): silent.
+
+**The instruction:** remove all toms and kick.
+
+Steps:
+
+1. Remove lines K and T.
+2. Keep snare (S), hi-hat (H), cymbal (C), and ride (R).
+3. Since snare and cymbal are silent, only hi-hat remains active for rhythmic pulse.
+
+Result:
+
+- Remove K and T lines.
+- Keep the hi-hat pattern.
+
+The final groove will contain only hi-hat for rhythm, as no other percussion is specified.
+
+---
+
+### Final groove:
+
+@@@
+S: ----|----|----|----
+H: x-x-|x-x-|x-x-|x-x-
+C: ----|----|----|----
+R: ----|----|----|----
+K: (removed)
+T: (removed)
+@@@
+
+This provides a steady hi-hat pattern, with all other instruments silent, aligning with the instruction.

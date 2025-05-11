@@ -1,0 +1,30 @@
+**Thought process:**
+
+- The original groove has:
+  - No snare (S) in the first beat (`----`)
+  - No cymbal (C) in the first beat (`O---`, so cymbal is already played)
+- The request is to add a snare and cymbal at the very start.
+- For the snare (S), change the first beat from `----` to `O---`.
+- The cymbal (C) already has an `O` in the first beat, so no change needed there.
+- Keep the rest of the pattern unchanged.
+
+**Final modifications:**
+
+- First beat of S: `O---`
+- C remains `O---` (already present)
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+**Outcome:**
+- The first beat now contains both a snare and a cymbal hit, fulfilling the request.

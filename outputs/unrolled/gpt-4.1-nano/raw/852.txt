@@ -1,0 +1,35 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): all rests
+  - Snare (S): all rests
+  - Hi-hat (H): `---- | x--- | ---- | x---`
+  - Toms (T): all rests
+  - Crash (C): all rests
+  - Ride (R): `x--- | X-x- | x--- | X-x-` (mainly open and closed bell hits)
+
+- Request:
+  - Add a tom hit and a hi-hat in the very beginning.
+
+- Implementation:
+  - For the first beat:
+    - Keep the kick as all rests.
+    - Add a tom hit: change T in the first beat from `----` to `-O--`.
+    - Ensure hi-hat has a hit at the first beat: change H from `----` to `x---` (which it already is, but we can reinforce it).
+
+**Note:** The hi-hat already has a hit in the first beat, so no change needed there.
+
+---
+
+**Final groove:**
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: x---|x---|----|x---
+T: -O--|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+**This adds the tom hit at the very beginning, keeping the hi-hat already in place, fulfilling the request.**

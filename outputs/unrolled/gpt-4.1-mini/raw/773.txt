@@ -1,0 +1,30 @@
+The original groove:
+
+```
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+```
+
+Request: "I'd like a snare hit and tom in the very beginning."
+
+Step-by-step:
+
+- The very beginning is the first 16th note.
+- Snare (S) first character is '-', no hit. Add a hard snare hit 'O'.
+- Tom (T) first character is '-', no hit. Add a hard tom hit 'O'.
+- Other lines remain unchanged.
+
+Final groove:
+
+@@@
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

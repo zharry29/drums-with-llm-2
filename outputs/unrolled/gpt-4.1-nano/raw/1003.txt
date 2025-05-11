@@ -1,0 +1,44 @@
+Let's break down the task:
+
+- **Play closed hi-hat** (`X` for hard, `x` for soft) on **all 8th notes** (notes 2, 4, 6, 8, 10, 12, 14, 16).
+- **Open hi-hat** (`O`) on **every up beat** (the off-beats just after the down-beats)—specifically notes 2, 6, 10, 14.
+- Keep **hits hard** (use `X` for the hi-hat).
+
+### Observations:
+- The 8th notes in a bar are at positions: 2, 4, 6, 8, 10, 12, 14, 16.
+- Up beats (off-beats) are notes 2, 6, 10, 14.
+- Down beats are notes 1, 5, 9, 13 — but since the pattern has no hi-hat notes on downbeats in the original, no change needed there.
+
+### Constructing the hi-hat line:
+- On every 8th note (the positions above), use `X`.
+- On **up beats**: instead of `X`, use `O` (open hi-hat).
+- The remaining 8th notes (4, 8, 12, 16) - if not an up beat, should be `X` (loud closed).
+
+### Pattern:
+- 2: open `O`
+- 4: closed `X`
+- 6: open `O`
+- 8: closed `X`
+- 10: open `O`
+- 12: closed `X`
+- 14: open `O`
+- 16: closed `X`
+
+### Final hi-hat line:
+`-X--|-O--|-X--|-O--`
+
+---
+
+### Final drum groove:
+```plaintext
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: -X--|-O--|-X--|-O--
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```
+
+This pattern ensures a consistent, loud, and dynamic hi-hat playing with open hits on every up beat, matching the request.

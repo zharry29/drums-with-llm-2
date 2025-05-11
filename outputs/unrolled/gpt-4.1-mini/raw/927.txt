@@ -1,0 +1,23 @@
+The request is to remove cymbal on beat 4 (positions 13-16), but keep everything else unchanged.
+
+Cymbals are represented by:
+- C: Crash cymbal (none here)
+- R: Ride cymbal (present here)
+
+Looking at beat 4 in the R (Ride cymbal) line:
+- Beat 4 (positions 13-16): `o-O-` → cymbal hits present, so we replace these with `----`.
+
+Other lines remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|----
+@@@

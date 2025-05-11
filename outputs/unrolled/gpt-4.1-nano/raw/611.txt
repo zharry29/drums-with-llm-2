@@ -1,0 +1,34 @@
+To fulfill the request of adding a tom hit and cymbal in the very beginning, I'll focus on the first beat (the first four characters of each line):
+
+Original first beat:
+- K: ----
+- S: ----
+- H: ----
+- T: ----
+- C: ----
+- R: x---
+
+**Plan:**
+- Add a tom hit: T: O--- (a hard tom in the first 16th note)
+- Add a cymbal (crash): C: O--- (a crash cymbal in the first 16th note)
+
+Since the cymbal is already silent in the first beat in the original groove, I will change it to O---.
+
+**Implementation:**
+- Set T: O---
+- Set C: O---
+
+All other parts remain the same.
+
+**Final groove:**
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: O---|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+This introduces a rare but impactful tom hit and cymbal crash at the very beginning, as requested.

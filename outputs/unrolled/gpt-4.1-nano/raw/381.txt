@@ -1,0 +1,25 @@
+Let's analyze the current groove:
+
+- Kick 'K': hits on beats 1 and 3, with a soft hit on beat 1.
+- Snare 'S': hits on beats 2 and 4, with some open hits.
+- Hi-hat 'H': plays on every beat with consistent closed hits ('X').
+- Toms 'T': no hits.
+- Cymbals 'C' and 'R': no hits.
+
+**Request:** Remove all kick ('K') and toms ('T').
+
+- Since 'T' has no hits, no change there.
+- For 'K', replace its line with all dashes to remove any hits.
+
+### Final edited groove:
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+This version removes the kick drum entirely, fulfilling the request, while keeping the rest of the pattern intact.

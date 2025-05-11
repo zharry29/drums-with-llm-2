@@ -1,0 +1,32 @@
+Let's analyze the given groove and the request:
+
+- The instruments that could be considered cymbals here are:
+  - C: Crash cymbal
+  - R: Ride cymbal
+  - H: Hihat
+
+We need to remove cymbal hits on beat 4 (positions 13-16).
+
+Looking at beat 4 in each line:
+
+- K: `----` no cymbal  
+- S: `O---` no cymbal  
+- H: `X---` (hard closed hit on hihat) → cymbal hit, should be removed  
+- T: `----` no cymbal  
+- C: `----` no cymbal  
+- R: `----` no cymbal  
+
+So, only the hihat line needs to have the last beat (positions 13-16) replaced with `----`.
+
+---
+
+Final groove:
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

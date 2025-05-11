@@ -1,0 +1,38 @@
+The request is to have the snare (S) play on every 16th note in the second beat.
+
+Let's analyze the second beat (positions 5 to 8 in the 16-character sequence ignoring `|`):
+
+Positions for beat 2: characters 5,6,7,8 (the 4 sixteenth notes in beat 2)
+
+We need the snare to have notes in all these 4 sixteenth note positions—all four should be played. We'll use hard hit "O" for impact.
+
+Current snare line:
+
+```
+S: ----|O---|----|O---
+```
+
+The snare hit "O" is on the first 16th note of beat 2 (character 5), we will add hits to positions 6,7,8.
+
+---
+
+**Updated snare:**
+
+Positions 5-8 all "O":
+
+```
+S: ----|OOOO|----|O---
+```
+
+Rest of the groove unchanged.
+
+---
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|OOOO|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

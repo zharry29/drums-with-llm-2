@@ -1,0 +1,37 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): all rests (`----`)
+  - Snare (S): all rests (`----`)
+  - Hi-hat (H): rests except on beat 2 and 4 (`x---`, `x---`)
+  - Toms (T): all rests
+  - Crash cymbal (C): all rests
+  - Ride cymbal (R): pattern with closed and open hits
+
+- Request:
+  - Add a kick hit and cymbal in the very beginning
+
+- Implementation:
+  - Change the first beat of K from `----` to `O---` or a softer `o---` to add a kick
+  - Add a cymbal hit in the first beat (the first subdivision of the first beat). Since the cymbal is not in the original, I will add a crash cymbal hit `O` or `X` at the start within the first beat.
+
+- To keep the pattern clear, I will set:
+  - Kick: `O---` (hard kick at the start)
+  - Crash cymbal: `O---` (hard crash at the start)
+
+- For other instruments, leave as is.
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+**This adds a kick and crash cymbal at the very beginning as per the request, with the rest of the pattern unchanged.**

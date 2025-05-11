@@ -1,0 +1,26 @@
+Let's analyze the original groove:
+
+- Kick 'K': -O-- | OO-- | ---O | -OO-  
+  - Kick hits on beat 1 with a soft hit, on beat 2 with hard hits, and on beat 4 with a combination of hits.
+- Snare 'S': ---- | ---- | S--- | ----  
+  - Snare only on beat 3 of measure 3.
+- Hi-hat 'H': x-x- | x-x- | x-x- | x-x-  
+  - Continuous hi-hat pattern with alternating closed hits.
+- Toms 'T': ---- | ---- | ---O | ----  
+  - Tom on beat 3 of measure 3.
+- Cymbals 'C' and 'R': 'C' on beats 1, 2, and 3; 'R' no hits.
+
+**Request:** Remove all kick and cymbals.
+
+**Approach:**  
+- Remove 'K', 'C', and 'R'.
+- Keep 'S' and 'H' for rhythm.
+
+### Final edited groove:
+
+@@@
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+@@@
+
+This pattern leaves only snare and hi-hat, fulfilling the request. It maintains a simple rhythmic pattern with consistent hi-hat.

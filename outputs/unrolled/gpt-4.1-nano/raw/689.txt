@@ -1,0 +1,25 @@
+**Thought process:**
+
+- To add a kick hit at the very beginning, change the first beat of K from `O--O` to `O--O` — it's already a hit, so no change needed.
+- To add a snare hit at the very beginning, change the first beat of S from `----` to, for example, `--O-` or `--X-`. I'll choose `--X-` to keep the snare sharp and consistent.
+- Keep other parts unchanged.
+
+**Implementation:**
+
+- K remains `O--O`
+- S: from `----` to `--X-`
+
+---
+
+**Final groove:**
+
+@@@
+K: O--O|----|--O-|----
+S: --X-|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+**Result:** The first beat now includes a kick and a snare, fulfilling the request.

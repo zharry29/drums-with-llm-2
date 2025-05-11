@@ -1,0 +1,34 @@
+To add a tom hit and cymbal in the very beginning, I will modify the first beat (the first 4 characters) across relevant instrument lines:
+
+Original first beat:
+- K: O--O
+- S: ----
+- H: X-x-
+- T: ----
+- C: ----
+- R: ----
+
+**Goal:**
+- Add a tom hit: T: O---
+- Add a cymbal (crash): C: O---
+
+The cymbal is currently silent in the first beat, I'll set C: O---.  
+I'll add a tom hit: T: O---
+
+**Steps:**
+- Keep the existing kick and snare as they are.
+- Add O in T's first beat.
+- Add O in C's first beat.
+
+**Final optimized groove:**
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+This placement introduces a tom hit and cymbal crash at the very beginning, meeting the request while preserving the overall groove.

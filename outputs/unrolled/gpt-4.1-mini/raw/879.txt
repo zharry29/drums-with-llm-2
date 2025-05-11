@@ -1,0 +1,39 @@
+Let's analyze the original drum groove, focusing on the snare hits and the downbeats of 2 and 4.
+
+Original groove:
+
+```
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+```
+
+- The downbeat of 2 corresponds to the first sixteenth note of the second beat (the 5th character in the line, right after the first '|').
+- The downbeat of 4 corresponds to the first sixteenth note of the fourth beat (the 13th character in the line, right after the third '|').
+
+Looking at the Snare line:
+
+- Position 5 (downbeat 2): `O` (hard snare hit) → needs to be removed.
+- Position 13 (downbeat 4): `O` (hard snare hit) → needs to be removed.
+
+Let's replace both these with `-` to remove the snare hits.
+
+Updated Snare line:
+
+```
+S: ----|----|----|----
+```
+
+Final groove:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|----|----|----
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

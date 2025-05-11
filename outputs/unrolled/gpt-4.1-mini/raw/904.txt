@@ -1,0 +1,31 @@
+The original groove has no snare hits. The request is to add a snare hit on every 16th note of the **second beat**.
+
+Each beat contains 4 sixteenth notes, so positions of the second beat are characters 5 to 8 (after ignoring the '|').
+
+We will add snare hits—I'll use hard hits "O" for clarity—on all four 16th notes in beat 2.
+
+Everything else remains unchanged.
+
+---
+
+Resulting groove:
+
+```
+K: ----|----|----|----
+S: ----|OOOO|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+---
+
+@@@
+K: ----|----|----|----
+S: ----|OOOO|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

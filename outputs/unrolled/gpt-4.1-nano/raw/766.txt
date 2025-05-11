@@ -1,0 +1,43 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): `o---|--o-|o---|--o-` (soft kicks on 1st, 2nd, 3rd, and 4th beats)
+  - Snare (S): `----|X---|--X-|----` (snare hits on beats 2 and 3)
+  - Hi-hat (H): `----|x---|----|x---` (hi-hat on beats 2 and 4)
+  - Toms (T): all silent
+  - Crash (C): all silent
+  - Ride (R): `x---|X-x-|x---|X-x-` (ride cymbal pattern)
+
+- Request:
+  - To add a snare hit **and** a tom in the very beginning (first beat).
+
+- The first beat currently:
+  - Kick: `o---` (soft kick)
+  - Snare: `----` (none)
+  - Tom: `----` (none)
+
+- Solution approach:
+  - Change the snare line for the first beat to include a snare hit, e.g., `X---`
+  - Change the tom line to include a tom hit at the start, e.g., `O---`
+
+---
+
+**Final edit:**
+
+- Snare: `X---`
+- Toms: `O---`
+
+---
+
+**Final groove:**
+
+@@@
+K: o---|--o-|o---|--o-
+S: X---|X---|--X-|----
+H: ----|x---|----|x---
+T: O---|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+This version incorporates a snare and a tom in the very beginning as requested.

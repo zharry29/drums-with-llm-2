@@ -1,0 +1,29 @@
+Let's analyze the original groove:
+
+- The second beat is **--O-** for kick (K), **O---** for snare (S), and so on.
+- The second beat pattern in each instrument has some hits.
+
+**Goal:** Drop out everything in the second beat.
+
+This means removing all hits in that beat segment, which is the second group of 4 characters (notes 5-8).
+
+### Process:
+- For the kick, **--O-** becomes ----
+- For the snare, **O---** becomes ----
+- For the hi-hat, **----** remains ----
+- For the Toms, **----** remains ----
+- For the cymbals, **O---** becomes ----
+- For the ride, **----** remains ----
+
+### Final groove:
+
+@@@
+K: OOO-|----|OOO-|-OOO
+S: ----|----|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|O---|O---
+R: ----|----|----|----
+@@@
+
+Note that the second beat (middle group in each line) is now all empty.

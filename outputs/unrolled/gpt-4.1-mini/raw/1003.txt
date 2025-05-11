@@ -1,0 +1,30 @@
+The request is to play the closed hi-hat on all 8th notes, but open hi-hat on every upbeat, keeping all hits hard.
+
+Recall:  
+- Each bar has 16 sixteenth notes.  
+- Eighth notes occur on every odd sixteenth note (positions 1,3,5,7,9,11,13,15).  
+- The quarter note downbeats are positions 1,5,9,13.  
+- The upbeats (the "and" of the beat) are positions 3,7,11,15.
+
+Given this:  
+- Closed hi-hat "X" on downbeats (positions 1,5,9,13)  
+- Open hi-hat "O" on upbeats (positions 3,7,11,15)  
+- All other sixteenth notes are silent (“-”).
+
+So the hi-hat line will be:  
+`X-O-|X-O-|X-O-|X-O-`
+
+No changes to other lines.
+
+---
+
+Final groove:
+
+@@@  
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: X-O-|X-O-|X-O-|X-O-  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

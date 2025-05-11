@@ -1,0 +1,44 @@
+Let's analyze the original groove:
+
+- **Kick (K):** plays on all beats, with some variations.
+- **Snare (S):** plays on beat 2 and 4 with hits.
+- **Hi-hat (H):** silent.
+- **Toms (T):** silent.
+- **Cymbal (C):** plays on beats 1, 2, 3, 4.
+- **Ride (R):** silent.
+
+**Request:** no snare or kick.
+
+So, we need to remove S and K lines entirely.
+
+Remaining instruments: **H, T, C, R**.
+
+- Since H, T, and R are all silent in the original pattern, and C is active on beats 1-3, but the request is to eliminate snare and kick, we focus on creating a new pattern with only the cymbal C (if desired).
+
+The safest choice is to make a rhythm with just the cymbal, if we want some percussion, or leave everything silent for a very minimal pattern.
+
+Given that only C is active (on beats 1-3), and the request is to remove snare and kick, here is a simple pattern with only the cymbal on beats 1, 2, 3:
+
+@@@
+K: (removed)
+S: (removed)
+H: (removed)
+T: (removed)
+C: O---|O---|O---|O---
+R: (removed)
+@@@
+
+---
+
+### Final answer:
+
+``` 
+@@@
+K: (removed)
+S: (removed)
+H: (removed)
+T: (removed)
+C: O---|O---|O---|O---
+R: (removed)
+@@@
+```

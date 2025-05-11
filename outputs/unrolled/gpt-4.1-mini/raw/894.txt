@@ -1,0 +1,52 @@
+The original groove has:
+
+- Kick: 11 hits total (O at positions 1,2,3,7,9,10,11,13,14,15)
+- Snare: 2 hits (beats 2 and 4)
+- Crash: 4 hits (at start of every beat)
+- Hi-hat and toms and ride: none
+
+Total hits: 11 + 2 + 4 = 17 hits, which is more than 8.
+
+---
+
+**Goal:** Reduce to max 8 notes total.
+
+---
+
+**Strategy:**
+
+- Retain kick on beats 1 and 3, but remove extra ghost kicks.
+- Keep snare on beats 2 and 4.
+- Keep crash only on beat 1.
+- Add some hi-hats or ride to keep groove minimal but clear.
+
+New hits count estimate:
+
+- Kick: 2 hits (beats 1 and 3)
+- Snare: 2 hits (beats 2 and 4)
+- Crash: 1 hit (beat 1)
+- Hi-hat: 3 hits on offbeats to complete 8 total
+
+---
+
+**Resulting groove:**
+
+```
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: -x--|--x-|x---|----
+C: O---|----|----|----
+R: ----|----|----|----
+T: ----|----|----|----
+```
+
+---
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: -x--|--x-|x---|----
+C: O---|----|----|----
+R: ----|----|----|----
+T: ----|----|----|----
+@@@

@@ -1,0 +1,39 @@
+Let's analyze the original groove:
+
+- Kick (K): plays on beats 1 and 3.
+- Snare (S): plays on beats 2 and 4.
+- Hi-hat (H): plays on every eighth note with closed hits.
+- Toms (T): silent.
+- Cymbals (C and R): silent.
+
+**The instruction:** Remove all toms and kick parts, so remove lines K and T.
+
+Remaining:
+
+S: ----|O---|----|O---  
+H: X---|X---|X---|X---  
+C: ----|----|----|----  
+R: ----|----|----|----
+
+We need to decide what to do with this snippet. The snare plays on beats 2 and 4, and the hi-hat continues with sixteenth notes.
+
+Since the instruction is to exclude kick and toms, the groove will now focus on the snare and hi-hat pattern.
+
+To keep some rhythmic drive without kick or toms, I will:
+
+- Keep the snare hits on beats 2 and 4.
+- Keep the hi-hat pattern as is for the rhythmic pulse.
+- Set other instruments to silence.
+
+**Final groove:**
+
+@@@
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+C: ----|----|----|----
+R: ----|----|----|----
+K: (removed)
+T: (removed)
+@@@
+
+This simplifies to a rhythm with snare accents on beats 2 and 4, with the hi-hat keeping the rhythm.

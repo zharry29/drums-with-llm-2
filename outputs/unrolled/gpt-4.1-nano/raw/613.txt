@@ -1,0 +1,38 @@
+To fulfill the request of adding a hi-hat hit and snare in the very beginning, I will focus on the first beat (first 4 characters in each line):
+
+Original first beat:
+- K: O---
+- S: ----
+- H: X---
+- T: ----
+- C: ----
+- R: ----
+
+**Goals:**
+- Add a hi-hat hit: H: x---
+- Add a snare hit: S: O---
+
+**Implementation:**
+- Set S: O---
+- Set H: x---
+
+Now, the first beat becomes:
+- K: O---
+- S: O---
+- H: x---
+- T: ----
+- C: ----
+- R: ----
+
+**Final version:**
+
+@@@
+K: O---|----|O---|----
+S: O---|O---|----|O---
+H: x---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+This setup adds a snare and hi-hat hit at the very beginning as requested.

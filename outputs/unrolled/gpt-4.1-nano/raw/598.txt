@@ -1,0 +1,28 @@
+To include a tom hit and a snare in the very beginning, I need to modify the first beat (the first four characters of each line).
+
+Currently, the first beat is:
+- K: OOO-
+- S: ----
+- H: ----
+- T: ----
+- C: O---
+- R: ----
+
+For the snare, I will add a hit at the start, e.g., S: O---
+  
+For the tom, I will add a hit, e.g., T: O---
+
+I will replace the initial parts with these, while keeping the rest of the pattern the same. 
+
+Here's the updated pattern:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: O---|O---|----|O---
+H: ----|----|----|----
+T: O---|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+This adds a snare and a tom hit at the very start, meeting your request.

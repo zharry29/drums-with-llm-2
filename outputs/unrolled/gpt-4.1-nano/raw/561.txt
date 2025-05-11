@@ -1,0 +1,23 @@
+Let's analyze the current groove:
+
+- H (hihat): `x-x-|x-x-|x-x-|x-x-` — should be removed.
+- R (ride): `----|----|----|----` — already silent or can be omitted.
+- Remaining instruments: K, S, C.
+
+Since only K, S, and C are active, and the request is to remove hi-hat and ride, we'll keep only K, S, and C.
+
+The pattern to keep:
+
+K: `-O--|OO--|---O|-OO-`  
+S: `----|----|S---|----`  
+C: `O---|O---|O---|O---`
+
+**Final pattern:**
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+C: O---|O---|O---|O---
+@@@
+
+This removes the hi-hat and ride, leaving only kick, snare, and cymbal.

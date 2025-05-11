@@ -1,0 +1,35 @@
+The request is to play the closed hi-hat on all 16th notes, accenting the quarter note downbeats.  
+
+Hi-hat notation:  
+- `X` = hard closed hit (accent on downbeat)  
+- `x` = soft closed hit (non-accent)
+
+Quarter note downbeats fall on positions 1, 5, 9, and 13 of the 16 character line. These get `X`, and the other 16th notes get `x`.
+
+The original hi-hat line:  
+`--o-|O-o-|O-o-|O-o-`
+
+Since `O` or `o` represent open hi-hats, we need to replace these with closed hits as per the request.
+
+Replacing all positions with closed hi-hat hits, accented on quarter notes:
+
+Positions 1,5,9,13 = `X`  
+Other positions = `x`
+
+This makes the hi-hat line:  
+`Xxxx|Xxxx|Xxxx|Xxxx`
+
+Other instruments remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: Xxxx|Xxxx|Xxxx|Xxxx
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

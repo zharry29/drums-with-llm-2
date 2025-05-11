@@ -1,0 +1,32 @@
+Let's analyze the original groove:
+
+- The second beat (middle group) has:
+  - K: O---
+  - S: ----
+  - H: ----
+  - T: O-o-
+  - C: ----
+  - R: ----
+
+**Goal:** Drop out everything in the second beat—meaning all hits in the second beat should be replaced with "-".
+
+So, for each instrument:
+- K: O--- → ----
+- S: ---- → ---- (no change)
+- H: ---- → ---- (no change)
+- T: O-o- → ----
+- C: ---- → ----
+- R: ---- → ----
+
+### Final result:
+
+@@@
+K: O---|----|----|O---
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+The second beat is now cleared, as requested.

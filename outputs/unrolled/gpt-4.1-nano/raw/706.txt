@@ -1,0 +1,32 @@
+**Thought process:**
+
+- To meet the request, I need to add a cymbal hit and hi-hat in the very first beat.
+- The cymbal (likely crash) can be added on the crash cymbal track (C), changing the first beat from `----` to `O---`.
+- The hi-hat pattern should include a hi-hat hit on the first beat; since it is currently `----`, change it to `x---` (soft closed hi-hat).
+- The other instruments remain unchanged.
+
+---
+
+**Implementation:**
+
+- K: remains `O---`
+- S: remains `----|----|O---|----`
+- H: change from `----` to `x---`
+- T: remains `O-o-|O-o-|O-o-|O-o-`
+- C: change from `----` to `O---`
+- R: remains `----|----|----|----`
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: x---|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+This now includes a cymbal hit and a hi-hat hit at the very start of the bar, as requested.

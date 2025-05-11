@@ -1,0 +1,39 @@
+Let's analyze the current groove:
+
+- The **kick** (`K`) plays soft hits (`o`) on the first and third subdivisions, providing a subtle rhythmic pulse.
+- The **snare** (`S`) is silent, so this is a good candidate for adding ghost notes.
+- The **hi-hat** (`H`) plays soft closed hits (`x`) on the second and fourth beats.
+- The **toms** (`T`) are silent.
+- The **cymbals** (`C`) are silent.
+- The **ride** (`R`) features ghost notes (`x`, `X-x`), giving it a busy, textural feel.
+
+**Objective:**  
+Add ghost notes to the snare to increase groove complexity, complementing the ghost notes in the ride, and making the overall pattern more lively.
+
+### Thought process:
+- Existing ghost notes in `R` are spread out; adding snare ghost notes in between will enhance the groove.
+- Since main snare hits are absent, we can introduce ghost notes (`o`) on off-beats and in between existing rhythm.
+
+### Implementation plan:
+- Place ghost notes (`o`) in the snare on the off-beats, especially just before or after the main hits.
+- For balance, add ghost hits on beat 2 and 4 in the second and third measures.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: o---|--o-|o---|--o-
+S: --o-|X---|--X-|--o-
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+```
+
+**Summary:**
+- Ghost notes (`o`) added to the snare pattern on off-beats and between main hits.
+- Creates a more dynamic rhythmic feel and enhances overall groove complexity while keeping the original feel intact.
+- Complements existing ghost notes in the ride cymbal pattern.

@@ -1,0 +1,29 @@
+The original groove:
+
+```
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Request: "I don't want any ride or kick."
+
+Step-by-step:
+
+- Kick (K) line contains hits — these must be removed by replacing all hits with dashes.
+- Ride (R) line is silent, so no change needed.
+- Snare (S), Hihat (H), and Toms (T) remain unchanged.
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

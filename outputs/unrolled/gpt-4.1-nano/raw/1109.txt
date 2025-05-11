@@ -1,0 +1,67 @@
+Let's analyze the original groove:
+
+- The original pattern is quite sparse, with only kick (`K`) and snare (`S`) hits, and the hi-hat (`H`) playing on every subdivision.
+- The cymbal (`C`) and ride (`R`) are silent.
+
+### Objective:
+Add a cymbal hit on the `'a'` of `'1 e & a'` of the second beat.
+
+---
+
+### Understanding timing:
+
+The notation:
+- Each beat has 4 subdivisions: 1, e, &, a.
+- The second beat covers subdivisions 5-8:
+   - 5: start of beat 2 ('1')
+   - 6: 'e'
+   - 7: '&'
+   - 8: 'a'
+
+The `'a'` of beat 2 is **subdivision 8** (the last sixteenth note of the second beat).
+
+### Approach:
+- Add an `O` in the cymbal (`C`) line at position 8.
+
+Now, let's determine the position of each character in the notation.
+
+### Counting characters:
+
+The pattern:
+`K: O---|----|O---|----`  
+`S: ----|O---|----|O---`  
+`H: X---|X---|X---|X---`  
+`T: ----|----|----|----`  
+`C: ----|----|----|----`  
+`R: ----|----|----|----`
+
+For each line, counting the characters (excluding the `|`):
+
+- K: O--- (positions 1-4), ---- (5-8), O--- (9-12), ---- (13-16)
+- S: ---- (1-4), O--- (5-8), ---- (9-12), O--- (13-16)
+- H: X--- (1-4), X--- (5-8), X--- (9-12), X--- (13-16)
+- C: ---- (1-4), ---- (5-8), ---- (9-12), ---- (13-16)
+- R: ---- (1-4), ---- (5-8), ---- (9-12), ---- (13-16)
+
+Since we need to add a cymbal hit at subdivision 8:
+
+- At position 8: it's the last character of the second group (second beat), which currently is a '-'.
+
+Thus, in the cymbal line (`C`), position 8: change '-' to 'O' to place the cymbal on 'a' of beat 2.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|--O-|----
+R: ----|----|----|----
+@@@
+```
+
+**Only change: shifting in the cymbal line to put 'O' at position 8.**

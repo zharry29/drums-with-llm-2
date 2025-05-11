@@ -1,0 +1,20 @@
+**Thought process:**
+- To add a hi-hat hit at the very beginning, change the first beat of H from `----` to a hi-hat hit, such as `x---`.
+- To add a tom hit at the very start, change the first beat of T from `----` to `O---`.
+
+**Implementation:**
+- T: `O---` (tom hit)
+- H: `x---` (hi-hat hit)
+
+**Final groove:**
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: x---|----|----|----
+T: O---|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+This now begins with a hi-hat hit and a tom as requested.

@@ -1,0 +1,25 @@
+**Thought process:**
+
+- To add a kick hit at the very beginning, we need to modify the first beat of K from `-O--` to `O---`, so there's a strong kick on the first 16th note.
+- To add a hi-hat hit at the very beginning, we change the first beat of H from `x-x-` to `x-x-` — already a hi-hat hit is present. But the existing pattern `x-x-` already includes hi-hat hits at the first, third, and fifth 16th notes of each beat (as per pattern). This pattern should suffice to show a hi-hat in the beginning.
+- The goal is to add a kick and ensure the hi-hat is present in the first beat.
+
+**Implementation:**
+
+- K: from `-O--` to `O---` (adding a kick at the first note)
+- H: remains `x-x-` (already has hi-hat hits at the beginning)
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+Now, the first beat has a kick and a hi-hat, fulfilling the request.

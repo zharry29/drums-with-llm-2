@@ -1,0 +1,28 @@
+Let's review the snare line (S):
+
+- Current pattern: `----|X---|--X-|----`
+
+Breakdown by beats:
+- Beat 1: `----` (no snare)
+- Beat 2: `X---` (snare hit at the start)
+- Beat 3: `--X-` (snare hit at 3rd 16th note)
+- Beat 4: `----` (no snare)
+
+**The snare hits continue only in beats 2 and 3, with no snare on beat 4 already.**
+
+Since the request is **no snare on beat 4**, and there is already no snare in beat 4, **the current groove already satisfies the requirement**.
+
+**Therefore, no changes are needed.**
+
+**Final groove:**
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+The groove remains the same, as it already matches the condition.

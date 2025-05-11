@@ -1,0 +1,25 @@
+Let's analyze the provided groove:
+
+```
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+- The snare (S) line has no hits (`----|----|----|----`).
+- The edit request is to avoid snare hits on the downbeats of 2 and 4.
+- Since there are no snare hits at all, especially none on these downbeats, no changes are needed.
+
+Final groove remains the same:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

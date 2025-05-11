@@ -1,0 +1,31 @@
+**Thought process:**
+
+- The original groove:
+
+  - Kick (K): `OOO-|--O-|OOO-|-OOO` (kick played in first beat with hard hits)
+  - Snare (S): `----|O---|----|O---` (snare on beats 2 and 4)
+  
+- The request:
+
+  - Add both a snare and a kick in the *very first* beat.
+  - The first beat currently has `OOO-` for K, which includes multiple kicks — so we keep that.
+  - The first beat of S is `----`, so we need to change it to include a snare hit.
+
+- To include a snare in the first beat, change S's first beat from `----` to `O---` (a hard snare).
+
+---
+
+**Finaled version:**
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: O---|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+**Outcome:**
+
+- The first beat now has a kick (`O`) and a snare (`O`), fulfilling the request while keeping the rest unchanged.

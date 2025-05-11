@@ -1,0 +1,28 @@
+The original groove:
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Request: "I don't want any snare or tom."
+
+- Snare (S) line contains 'S' which is not a valid articulation according to the notation; assuming it's a typo or meant as a snare hit, it should be replaced with dashes.
+- Tom (T) line contains a hard hit 'O' in the third beat; remove it by replacing with dashes.
+
+Other lines remain the same.
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|----|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

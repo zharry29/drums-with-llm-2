@@ -1,0 +1,33 @@
+The request is to put snare hits on every 16th note in the second beat (positions 5-8).
+
+Current snare line is:
+```
+S: ----|X---|--X-|----
+```
+In beat 2, currently only the first 16th note has a hard sidestick hit "X".
+
+We will add snare hits on all four 16th notes in beat 2. Since existing hits are sidesticks "X", to keep consistency we can use hard sidesticks "X" for all four notes.
+
+---
+
+Final groove:
+
+```
+K: o---|--o-|o---|--o-
+S: ----|XXXX|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+---
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|XXXX|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

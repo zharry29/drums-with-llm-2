@@ -1,0 +1,31 @@
+Let's analyze the given groove:
+
+- **K (Kick):** `O--O|----|--O-|----` — Kick on beats 1 and 3.
+- **S (Snare):** `----|Oo-o|-o--|O--o` — Snare on beats 2 and 4, with off-beats.
+- **H (Hi-hat):** `----|----|----|----` — no hi-hat hits.
+- **T (Toms):** `----|----|----|----` — No tom hits; currently, true.
+- **C (Crash):** `----|----|----|----` — none.
+- **R (Ride):** `o-O-|o-O-|o-O-|o-O-` — Ride on all four beats, including beat 4.
+
+**Request:** No tom on beat 4.
+
+- The tom line shows no hits at all, so it's already compliant.
+
+In this case, since the T line has no hits, the groove already satisfies the condition (no tom on beat 4). No change is needed.
+
+---
+
+### Final output:
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+```
+
+**The groove is already compliant; no modifications required.**

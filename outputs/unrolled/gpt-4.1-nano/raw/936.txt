@@ -1,0 +1,29 @@
+Let's examine the snare line:
+
+- S: `----|Oo-o|-o--|O--o`
+
+Breaking down by beat:
+- Beat 1: `----` (no snare)
+- Beat 2: `Oo-o` (snare hits in the second beat)
+- Beat 3: `-o--` (snare hit at the third 16th note)
+- Beat 4: `O--o` (snare hits in the fourth beat)
+
+**The request is to have no snare on beat 4.** Currently, beat 4 has `O--o`, which includes snare hits at the start and the last 16th note.
+
+We need to silence or remove the snare hits on beat 4:
+- Change `O--o` to `----`, removing all snare hits in that beat.
+
+---
+
+**Final answer:**
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|--o-|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+This fulfills the requirement: no snare on beat 4.

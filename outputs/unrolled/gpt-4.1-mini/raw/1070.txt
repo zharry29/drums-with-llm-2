@@ -1,0 +1,64 @@
+The original Snare (S) line is:
+
+```
+S: ----|Oo-o|-o--|O--o
+```
+
+Breaking down each beat for snare hits:
+
+- Beat 1: no hits
+
+- Beat 2: hard open hit (`O`) on 1st 16th, soft open hit (`o`) on 2nd, hard open hit (`-` indicates none) on 3rd, soft open hit (`o`) on 4th → `Oo-o`
+
+- Beat 3: soft open hit only on 2nd 16th (`-o--`)
+
+- Beat 4: hard open hit on 1st 16th (`O`) plus soft open hit on 4th 16th (`o`) → `O--o`
+
+---
+
+**Request:** Add ghost notes on snare to increase subtle rhythmic texture.
+
+Ghost notes = soft hits `o` that are played quietly on snare.
+
+---
+
+### Thought process for adding ghost notes:
+
+- Beat 1 is silent on snare; add some ghost note(s) on offbeat 16th notes.
+
+- Beat 3 has one ghost note on 2nd 16th; add one more ghost note on 4th 16th such that it's `-o-o` instead of `-o--`.
+
+- Beat 4 has hits on the 1st and 4th 16th; maybe add a soft ghost note on the 3rd 16th for subtlety.
+
+---
+
+### Resulting snare line:
+
+- Beat 1: add ghost note on 3rd 16th → `--o-`
+
+- Beat 2: keep as is → `Oo-o`
+
+- Beat 3: add ghost note on 4th 16th → `-o-o`
+
+- Beat 4: add ghost note on 3rd 16th → `O-o-`
+
+---
+
+### Final Snare (S) line:
+
+```
+S: --o-|Oo-o|-o-o|O-o-
+```
+
+---
+
+Final groove:
+
+@@@  
+K: O--O|----|--O-|----  
+S: --o-|Oo-o|-o-o|O-o-  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: o-O-|o-O-|o-O-|o-O-  
+@@@

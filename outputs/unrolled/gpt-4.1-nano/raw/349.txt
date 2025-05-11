@@ -1,0 +1,26 @@
+Let's analyze the original groove:
+
+- Kick 'K': ---- | ---- | ---- | ----  
+  - No kick hits.
+- Snare 'S': ---- | ---- | ---- | ----  
+  - No snare hits.
+- Hi-hat 'H': ---- | x--- | ---- | x---  
+  - Hi-hat hits on beats 2 and 4 with soft open hits.
+- Toms 'T': ---- | ---- | ---- | ----  
+  - No toms.
+- Cymbals 'C', 'R': 'R' has hits on all beats with open bell and closed hits, but since the request is to remove snare and cymbals, keep only 'R' if needed.
+
+**Request:** Remove all snare and cymbal parts.
+
+### Approach:
+- Remove 'S', 'C', and 'R' lines.
+- Keep only the 'H' (hi-hat) pattern, as it provides rhythmic support.
+- No kick or snare needed for this simplified version.
+
+### Final output:
+
+@@@
+H: ----|x---|----|x---
+@@@
+
+This keeps the hi-hat pattern, removing snare and cymbal, satisfying the request.

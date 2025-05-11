@@ -1,0 +1,29 @@
+The original groove:
+
+```
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+```
+
+Request: "I don't want any hihat or cymbal."
+
+- Remove hihat line (H) by setting all characters to dashes.
+- Remove crash cymbal (C) line by setting all characters to dashes.
+- Ride cymbal (R) is already empty.
+
+Other lines remain unchanged.
+
+Final groove:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

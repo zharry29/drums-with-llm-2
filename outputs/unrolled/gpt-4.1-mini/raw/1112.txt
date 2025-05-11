@@ -1,0 +1,24 @@
+The "a" of the second beat corresponds to the 4th 16th note of beat 2. Counting 16th notes starting from 0, the second beat covers positions 4, 5, 6, 7:
+- 4 = 1
+- 5 = e
+- 6 = &
+- 7 = a
+
+I need to add a cymbal hit at position 7.
+
+Currently, Crash (C) has no hits; Ride (R) has hits on positions 0, 1, and 3 of beat 2: `X-x-`.
+
+To add the requested cymbal hit, I will put a hard crash cymbal hit "O" on position 7 in Crash (C). The rest will stay the same.
+
+---
+
+Final groove:
+
+@@@  
+K: ----|----|----|----  
+S: ----|----|----|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|---O|----  
+R: x---|X-x-|x---|X-x-  
+@@@

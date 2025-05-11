@@ -1,0 +1,30 @@
+Let's analyze what is present:
+
+- Kick (K): no hits, so we can omit entirely.
+- Snare (S): silent.
+- Hi-hat (H): plays with x's at beats 2 and 4.
+- Toms (T): silent.
+- Cymbals (C): silent.
+- Ride (R): has some hits on beats 1 and 3 with X-x pattern.
+
+**Request:** no kick or ride.
+
+So, I will:
+- Remove K and R lines.
+- Keep the hi-hat pattern for rhythm.
+- Since snare, toms, and cymbals are empty, I can omit them too (or keep hihat only for simplicity).
+
+The focus will be on hi-hat pattern. To add some variation and keep rhythmic momentum, I'll keep the hi-hat pattern as is, and remove all other instruments.
+
+### Final version:
+
+@@@
+K: (removed)
+S: ----|----|----|----
+H: ----|x---|----|x---
+C: ----|----|----|----
+R: (removed)
+T: ----|----|----|----
+@@@
+
+This provides a simple, clean groove with steady hi-hat hits and no kick or ride, fulfilling the request.

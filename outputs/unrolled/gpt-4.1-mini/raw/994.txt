@@ -1,0 +1,29 @@
+The request is to play closed hi-hat on every 16th note with accents on the quarter note downbeats.  
+
+Hi-hat notation reminder:  
+- `X` = hard closed hit (accent on downbeat)  
+- `x` = soft closed hit (non-accent)
+
+Positions 1, 5, 9, and 13 (the first 16th note of each beat) get `X`, and the rest get `x`.  
+That creates this repeating pattern of 4 for each beat: `Xxxx`.  
+
+Original hi-hat line:  
+`x-x-|x-x-|x-x-|x-x-`
+
+New hi-hat line will be:  
+`Xxxx|Xxxx|Xxxx|Xxxx`
+
+Other instrument lines remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: Xxxx|Xxxx|Xxxx|Xxxx
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

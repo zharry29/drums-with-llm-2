@@ -10,11 +10,12 @@ from kani import Kani
 from kani.engines.huggingface import HuggingEngine
 from kani.engines.openai import OpenAIEngine
 import asyncio
-
 # Argument parsing
 parser = argparse.ArgumentParser(description="")
 parser.add_argument('--data', choices=['instantiated', 'unrolled'], required=True, help="")
 parser.add_argument('--model', required=True, help="")
+parser.add_argument('--start', type=int, default=0, help="ID index to start from in the requests list")
+parser.add_argument('--silent', action='store_true', help="Suppress print statements if set")
 args = parser.parse_args()
 
 with open("../../drums_llm_key.json") as f:
@@ -79,13 +80,18 @@ def build_prompt(prompt_structure, request_block):
             prompt += "\n" + component
     return prompt
 
-for id, request_block in requests.items():
+# Convert the keys to a list and sort them to ensure consistent order
+request_ids = list(requests.keys())
+# Start from the specified index
+for id in request_ids[args.start:]:
+    print(f"Processing request ID: {id}")
+    request_block = requests[id]
     request = request_block["request"]
 
-    print("Request: ", request)
+    #print("Request: ", request)
     prompt = build_prompt(prompt_structure, request_block)
     response_txt = asyncio.run(run_model(prompt))
-    print(response_txt)
+    #print(response_txt)
     #response_txt = response.output[0].content[0].text
     drum_notation = parse_response(response_txt)
 
@@ -116,7 +122,8 @@ for id, request_block in requests.items():
 
     passed_universal_checks = universal_checks(drum_dict)
     def log(msg):
-        print(msg)
+        if not args.silent:
+            print(msg)
         with open(test_results_path, "a") as f:
             f.write(str(msg) + "\n")
     if not passed_universal_checks:
@@ -132,7 +139,7 @@ for id, request_block in requests.items():
         for unit_test_and in unit_tests[conjuction]:
             unit_test_name = unit_test_and["unit_test_name"]
             unit_test_args = unit_test_and["unit_test_args"]
-            log(f"Running unit test: {unit_test_name}")
+            #log(f"Running unit test: {unit_test_name}")
             unit_test_result = run_unit_test(drum_dict, unit_test_name, unit_test_args)
             if unit_test_result:
                 log("Unit test passed.")

@@ -1,0 +1,22 @@
+The request is to remove ride cymbal hits on beat 4 (positions 13-16), while keeping everything else unchanged.
+
+Looking at the Ride cymbal (R) line on beat 4:
+
+- Beat 4: `o-O-` → There is a soft open bell hit ('o') on the 13th 16th note, a hard open bell hit ('O') on the 14th 16th note, and two rests ('-', '-') on the 15th and 16th 16th notes.
+
+We need to replace these four characters with `----` to remove the ride on beat 4.
+
+All other lines remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|----
+@@@

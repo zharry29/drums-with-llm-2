@@ -1,0 +1,28 @@
+The original groove:
+
+```
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Request: "I don't want any hihat or snare."
+
+- Hihat (H) is already empty — no change needed.
+- Snare (S) contains hits ('O') in the third beat — remove by replacing with dashes.
+- Kick (K) and Toms (T) remain unchanged.
+- Crash (C) and Ride (R) are empty.
+
+Final groove:
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|----|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,37 @@
+To add a tom hit and cymbal at the very beginning, I need to modify the first beat (first 4 characters in each line).
+
+Current first beat:
+- K: -O--
+- S: ----
+- H: x-x-
+- T: ----
+- C: O---
+- R: ----
+
+I will:
+- Add a tom hit: T: O---
+- Add a cymbal (crash or ride): C: O---
+
+I'll replace the first beat parts accordingly:
+
+- K: -O--
+- S: ----
+- H: x-x-
+- T: O---
+- C: O---
+- R: ----
+
+**Note:** Since there's no cymbal in the first bar, and the existing C: O--- indicates a crash in the first beat, I will keep the cymbal as is and just add the tom hit.
+
+Final edited version:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: O---|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+This configuration adds a tom hit in the first beat, and keeps the cymbal sound as is, in line with the request.

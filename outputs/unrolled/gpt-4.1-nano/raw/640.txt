@@ -1,0 +1,24 @@
+**Thought process:**
+
+- To add a ride hit at the very beginning, I need to replace or modify the first beat of the R pattern from `o-O-` to `O---`.
+- To add a tom hit at the beginning, in the T part, I should add a hit on the first 16th note. The current pattern is `----`, so changing it to `O---` makes sense.
+
+**Implementation:**
+
+- Change R (ride) first beat from `o-O-` to `O---`.
+- Change T (tom) first beat from `----` to `O---`.
+
+---
+
+**Final groove:**
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: O---|----|----|----
+C: ----|----|----|----
+R: O---|o-O-|o-O-|o-O-
+@@@
+
+This provides a strong initial ride hit and a tom hit right at the start, fulfilling the request.

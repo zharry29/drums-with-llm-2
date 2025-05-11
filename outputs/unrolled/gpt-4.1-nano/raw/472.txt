@@ -1,0 +1,49 @@
+Let's analyze the original groove:
+
+- **Kick (K):** soft hits on beats 1 and 3.
+- **Snare (S):** hits on beats 2 and 3 with sidestick and open hits.
+- **Hi-hat (H):** plays on beats 2 and 4 with closed hits.
+- **Toms (T):** silent.
+- **Cymbal (C):** silent.
+- **Ride (R):** plays on beats 1, 2, 3, 4 with hits on the bell and bow.
+
+**Requested change:** no snare or kick.
+
+This means removing lines **K** and **S** entirely.
+
+Remaining instruments: **H**, **T**, **C**, **R**.
+
+- Since T and C are silent in the original, and R plays a constant pattern across all beats with accent hits, we could keep R for some rhythmic underpinning or go fully minimal.
+
+- Given the pattern, it makes sense to keep the ride cymbal (R), as it provides rhythm without snare and kick.
+
+### Final step:
+- Remove **K** and **S** lines.
+- Keep **H**, **C**, **T**, **R**, but since T and C are silent, they can be omitted if not needed.
+- To keep the rhythm interesting, use **R** for a steady ride pattern.
+
+### Final groove:
+
+@@@
+K: (removed)
+S: (removed)
+H: (removed)
+T: (removed)
+C: (removed)
+R: x---|X---|x---|X---
+@@@
+
+This pattern keeps the ride cymbal playing on every beat with accents, providing rhythmic texture without snare or kick.
+
+### Final output:
+
+```plaintext
+@@@
+K: (removed)
+S: (removed)
+H: (removed)
+T: (removed)
+C: (removed)
+R: x---|X---|x---|X---
+@@@
+```

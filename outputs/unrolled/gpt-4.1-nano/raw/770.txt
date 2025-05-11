@@ -1,0 +1,40 @@
+**Thought process:**
+
+- The original groove:
+
+  - Kick (K): `-O--|OO--|---O|-OO-` (kicks on second and last beats)
+  - Snare (S): `----|----|S---|----` (snare only on beat 3)
+  - Hi-hat (H): `x-x-|x-x-|x-x-|x-x-` (hi-hat on every 16th note)
+  - Toms (T): `----|----|---O|----` (tom on beat 3, last measure)
+  - Crash (C): `O---|O---|O---|O---` (crash on every beat)
+  - Ride (R): all silent
+
+- Request:
+
+  - Add a snare hit and a tom in the very beginning (first beat).
+
+- Current first beat:
+
+  - Kick: `-O--`
+  - Snare: `----` (no)
+  - Tom: `----` (no)
+
+- Solution:
+
+  - Change snare line first beat to `X---` (a snare hit)
+  - Add a tom hit in the first beat, e.g., `O--- `
+
+---
+
+**Final edit:**
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: X---|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: O---|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+**This version** includes a snare hit (`X`) and a tom (`O`) in the very beginning, fulfilling the request.

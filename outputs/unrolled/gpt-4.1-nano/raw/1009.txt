@@ -1,0 +1,44 @@
+Let's analyze the current groove:
+
+- Hi-hat line: `X---|X---|X---|X---`
+- The pattern shows consistent hits with `X` (hard closed) at the start of each beat, which is good for the "hard" requirement.
+- The groove is already playing some closed hits but not explicitly on every 8th note, and doesn't specify open hits on up beats.
+
+### Instructions:
+- Play **closed hi-hat (X)** on **all 8th notes**.
+- Open on **every up beat** (notes 2, 6, 10, 14).
+- Keep hits **hard**.
+
+### Step-by-step:
+
+**Pattern:**
+- 2: open `O` (up beat)
+- 4: closed `X`
+- 6: open `O`
+- 8: closed `X`
+- 10: open `O`
+- 12: closed `X`
+- 14: open `O`
+- 16: closed `X`
+
+**Final pattern:**
+`-X--|-O--|-X--|-O--`
+
+---
+
+### Final drum groove:
+```plaintext
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: -X--|-O--|-X--|-O--
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+This maintains:
+- All hits are **hard** (using `X` and `O`).
+- The hi-hat hits on **every 8th note**.
+- Open hits on **every up beat**.

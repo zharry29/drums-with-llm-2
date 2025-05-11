@@ -1,0 +1,32 @@
+Let's analyze the original groove:
+
+- Kick (K): no hits.
+- Snare (S): no hits.
+- Hi-hat (H): plays closed hits on the second beat with x--- and x--- pattern.
+- Toms (T): no hits.
+- Cymbals (C, R): only R (ride) plays with the X-x pattern on beats 2 and 4, with some variation.
+
+**Request:** remove all toms and kick.
+
+That already removes T and K lines (both empty or no hits), and we want to remove any remaining instruments related to kick and toms, which are not present.
+
+But the existing groove mainly contains only hi-hat and ride cymbal, which should stay.
+
+To provide a cleaner, minimalistic pattern focusing on cymbals and keeping the groove interesting, I will:
+
+- Keep the ride cymbal pattern.
+- Keep the hi-hat pattern.
+- Remove the rest (which are empty), resulting in a simple pattern with command instruments only.
+
+---
+
+### Final groove:
+
+@@@
+S: ----|----|----|----
+H: x---|x---|x---|x---
+C: ----|----|----|----
+R: X-x-|X-x-|X-x-|X-x-
+@@@
+
+This pattern maintains a steady hi-hat, and the ride cymbal plays on beats 2 and 4, with no kick or toms, as requested.

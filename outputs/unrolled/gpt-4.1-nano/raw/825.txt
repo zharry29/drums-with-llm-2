@@ -1,0 +1,31 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): `OOO-`, `--O-`, `OOO-`, `OOO`
+  - Snare (S): rests
+  - Hi-hat (H): rests
+  - Toms (T): rests
+  - Crash (C): hits on first, second, third, and fourth beats
+  - Ride (R): rests
+
+- Request:
+  - Add a ride hit (`O`) and hi-hat (`x`) in the very beginning
+
+- Implementation:
+  - Place a ride hit (`O`) at the first subdivision of R
+  - Add a hi-hat `x` at the first subdivision of H
+
+---
+
+**Final groove:**
+
+@@@
+K: OOO-|-O-O-|-OOO-|-OOO
+S: ----|O---|----|O---
+H: x---|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: O---|----|----|----
+@@@
+
+**This now has a ride hit and a hi-hat in the very beginning, as requested.**

@@ -1,0 +1,48 @@
+Since the request is to remove all kick (K) and hi-hat (H), I will eliminate those lines. The remaining instruments are snare (S), toms (T), cymbals (C), and ride (R).
+
+Original groove:
+- K: plays on beats 1, 2, and 4.
+- S: plays on beat 3 in measure 3.
+- H: silent.
+- T: plays in an alternating soft/hard pattern on every beat.
+- C: silent.
+- R: silent.
+
+To comply:
+- Remove `K` and `H`.
+- Keep `S`, `T`, `C`, `R` (though R is silent in this groove).
+
+I will also consider that for interest, the snare can keep its beat (measure 3, beat 3) and T can stay active or be silent; but since T is already simple, I will leave it as is.
+
+### Final plan:
+- Remove lines K and H
+- Keep S and T as they are.
+- Keep C if we prefer, but it is silent here; I will keep it for steady rhythm.
+- R remains silent.
+
+### Final groove:
+```plaintext
+K: (removed)
+S: ----|----|O---|----
+H: (removed)
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+This preserves some rhythmic activity via snare and toms, with no kick or hi-hat.
+
+---
+
+### Final answer:
+
+```plaintext
+@@@
+K: (removed)
+S: ----|----|O---|----
+H: (removed)
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```

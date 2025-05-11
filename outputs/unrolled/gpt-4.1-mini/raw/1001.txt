@@ -1,0 +1,48 @@
+Request:  
+- Play closed hi-hat on all 8th notes (so on every downbeat and upbeat), but open hi-hat on every upbeat.  
+- All hits are hard (accented).  
+
+Let's clarify 8th notes within the 16th note grid:  
+Each beat has 4 sixteenths positions: `1 2 3 4`  
+Quarter notes = position 1,5,9,13  
+Upbeats = the "and" of each beat = position 3,7,11,15 (the 2nd 8th note within each beat)  
+
+So:  
+- Closed hi-hat on all downbeats (positions 1,5,9,13) — hard = `X`  
+- Open hi-hat on all upbeats (positions 3,7,11,15) — hard open = `O`  
+
+All other 16th notes (positions 2,4,6,8,10,12,14,16) remain silent = `-`
+
+Positions per beat (4 sixteenths):  
+1 (downbeat), 2, 3 (upbeat), 4  
+Positions over 4 beats:  
+1 2 3 4 | 5 6 7 8 | 9 10 11 12 | 13 14 15 16  
+
+We assign:  
+Positions 1,5,9,13 = `X`  
+Positions 3,7,11,15 = `O`  
+Others = `-`
+
+Improving from original:  
+Original hi-hat line: `----|x---|----|x---`  
+We will replace it with the new pattern of each 16th bar as above.
+
+---
+
+Final hi-hat line:  
+`X-X-|X-X-|X-X-|X-X-`
+
+---
+
+Rest of the pattern unchanged.
+
+---
+
+@@@  
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: X-X-|X-X-|X-X-|X-X-  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

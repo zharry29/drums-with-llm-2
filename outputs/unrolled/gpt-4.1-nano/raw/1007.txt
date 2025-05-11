@@ -1,0 +1,49 @@
+Let's analyze the current groove and the instructions:
+
+**Current Groove:**
+- Hi-hat line: `--o-|O-o-|O-o-|O-o-`
+- The hi-hat uses `o`, `O`, and `-`, with some alternating open and closed hits.
+
+**Instructions:**
+- Play **closed hi-hat (`X`)** on **all 8th notes**.
+- On **every up beat** (the off-beats following downbeats)—which are notes 2, 6, 10, 14—**open the hi-hat (`O`)**.
+- **Keep hits hard** (using `X` for closed and `O` for open, both hard).
+
+### Step-by-step reasoning:
+
+- The 8th notes are at positions: 2, 4, 6, 8, 10, 12, 14, 16.
+- Up beats are notes: 2, 6, 10, 14.
+- On these up beats: open `O`.
+- All other 8th notes: closed `X`.
+
+### Pattern:
+- 2: open `O`
+- 4: closed `X`
+- 6: open `O`
+- 8: closed `X`
+- 10: open `O`
+- 12: closed `X`
+- 14: open `O`
+- 16: closed `X`
+
+### Construct the hi-hat line:
+`-X--|-O--|-X--|-O--`
+
+---
+
+### Final groove:
+```plaintext
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: -X--|-O--|-X--|-O--
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+This pattern:
+- Plays **hard closed (`X`)** on all 8th notes,
+- Uses **open (`O`)** on every **up beat**,
+- Maintains a consistent, energetic hi-hat rhythm.

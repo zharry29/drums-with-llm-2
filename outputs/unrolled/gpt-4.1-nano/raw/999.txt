@@ -1,0 +1,32 @@
+Let's analyze the current groove and the requested changes step-by-step:
+
+**Current groove:**
+- Hi-hat line: `--o-|O-o-|O-o-|O-o-`
+- The hi-hat plays `o`, `O`, `o`, `O` on various notes.
+- The goal: **Replace all hi-hat notes with closed hi-hat (`x` for soft, `X` for loud)**.
+- **Accent on downbeats (notes 1, 5, 9, 13):** these should be `X` to emphasize the quarter note down beats.
+- All other hi-hat notes should be `x`.
+
+Constructing the new hi-hat pattern:
+- Position 1, 5, 9, 13: `X`
+- All other positions: `x`
+
+Resulting pattern:
+`Xxxx|Xxxx|Xxxx|Xxxx`
+
+---
+
+### Final groove:
+
+```plaintext
+@@@@@@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: Xxxx|Xxxx|Xxxx|Xxxx
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@@@@@@
+```
+
+This version has a consistent, accented closed hi-hat on all 16th notes, emphasizing the downbeats to reinforce the rhythm.

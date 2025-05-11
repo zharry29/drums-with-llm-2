@@ -1,0 +1,29 @@
+**Thought process:**
+
+- To fulfill the request, I need to add a cymbal hit and hi-hat hit at the very beginning.
+- The cymbal (C) is currently `----` in the first beat, so I will change the first beat of C to `O---` to add a crash cymbal hit.
+- The hi-hat (H) is currently `X-x-`, which already has an opening hi-hat hit on the first 16th note, so it is already present.
+- No need to change H, only C.
+
+**Implementation:**
+
+- K: remains `O--O|----|--O-|----`
+- S: remains the same
+- H: remains `X-x-|X-x-|X-x-|X-x-`
+- T: remains the same
+- C: change first beat from `----` to `O---` to add cymbal hit.
+- R: remains the same
+
+---
+
+**Final groove:**
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+This includes a cymbal hit and the hi-hat in the very beginning, fulfilling the requirement.

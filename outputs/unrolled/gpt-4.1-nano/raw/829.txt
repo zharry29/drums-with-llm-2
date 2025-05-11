@@ -1,0 +1,31 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): `O--O`, `----`, `--O-`, `----`
+  - Snare (S): `----`, `Oo-o`, `-o--`, `O--o`
+  - Hi-hat (H): all rests
+  - Toms (T): all rests
+  - Crash (C): all rests
+  - Ride (R): alternating `o-O-`, `o-O-`, `o-O-`, `o-O-`
+
+- Request:
+  - Add a tom hit and a kick hit in the very beginning
+
+- Implementation:
+  - Place a tom hit (`O`) at the first subdivision of T
+  - Replace the first kick (which is `O--O`) to add an extra kick hit at the very start, changing it to include an `O` at the first subdivision
+
+---
+
+**Final edited groove:**
+
+@@@
+K: O---|O--O|----|--O-
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: O---|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+**This adds a tom hit at the very beginning and a kick hit also at the start, fulfilling your request.**

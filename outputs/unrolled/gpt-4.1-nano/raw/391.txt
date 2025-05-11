@@ -1,0 +1,26 @@
+Let's analyze the current groove:
+
+- Kick 'K': plays on beat 1 (hard 'O'), beat 2 (soft 'o'), and beat 3 (mixed 'O' and 'o').
+- Snare 'S': plays on beat 2 and beat 4.
+- Hi-hat 'H': plays on all beats with soft open ('o') and closed ('O') hits.
+- Toms 'T': silent.
+- Cymbals 'C' and 'R': silent.
+
+**Request:** Remove all snare ('S') and hi-hat ('H').
+
+- Replace 'S' and 'H' lines with all dashes ('-').
+
+**Remaining lines:** kick, cymbals, and ride.
+
+### Final edited groove:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+This preserves the kick, cymbals, and ride, with no snare or hi-hat.

@@ -1,0 +1,33 @@
+Let's analyze the current groove:
+
+- **K (Kick):** `O--O|----|--O-|----` – kicks on beats 1, 3.
+- **S (Snare):** `----|Oo-o|-o--|O--o` – snare hits on beat 2 and 4.
+- **H (Hi-hat):** `X-x-|X-x-|X-x-|X-x-` – hi-hat hits on every beat and subdivision.
+- **T (Toms):** `----|----|----|----` – no tom hits.
+- **C (Crash):** `----|----|----|----` – none.
+- **R (Ride):** `----|----|----|----` – none.
+
+**Request:** No tom on beat 4.
+
+- Currently, the T line has no hits, so it already satisfies the condition of **not** having toms on beat 4.
+
+**Conclusion:**
+
+The groove already adheres to the requirement that no toms are on beat 4; no modifications are necessary.
+
+---
+
+### Final output:
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+**The groove already meets the criteria, so it remains unchanged.**

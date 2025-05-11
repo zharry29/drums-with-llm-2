@@ -1,0 +1,22 @@
+The request is to remove ride cymbal hits on beat 4 while leaving everything else the same.
+
+Looking at the Ride cymbal (R) line:  
+The bar is `x---|X-x-|x---|X-x-`  
+- Beat 4 (positions 13-16) is `X-x-`, which includes hits.
+
+We will replace `X-x-` with `----` to remove ride cymbal hits on beat 4.
+
+All other lines remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|----
+@@@

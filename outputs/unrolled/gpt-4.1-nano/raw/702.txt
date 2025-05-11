@@ -1,0 +1,28 @@
+**Thought process:**
+
+- To meet the request, add a cymbal hit (typically on the crash or ride cymbal) at the very first beat.
+- Since the current groove has no cymbal hits, I will add a crash cymbal hit in the first beat, changing the C line for the first beat to `O---` (a crash cymbal hit).
+- The cymbal hit is to be added at the very beginning, so at the first 16th note of the first beat.
+- The hi-hat pattern is already present as `--o-` in the first beat; to emphasize the first beat, I will change the hi-hat pattern to `x-o-` indicating a soft closed hi-hat on the first note.
+- Keep other patterns the same for consistency.
+
+**Implementation:**
+
+- K: remains `O---` (originally a strong kick)
+- H: from `--o-` to `x-o-` (adding a hi-hat hit at the start)
+- C: from `O---` (adding a cymbal hit in the first beat)
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: x-o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+This adds a cymbal hit and emphasizes the hi-hat at the very beginning, fulfilling the request.

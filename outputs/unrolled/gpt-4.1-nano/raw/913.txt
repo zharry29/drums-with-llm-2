@@ -1,0 +1,32 @@
+Let's analyze the original groove:
+
+- The second beat (middle group of four characters) for each instrument:
+  - K: OO--
+  - S: ----
+  - H: x-x-
+  - T: ----
+  - C: O---
+  - R: ----
+
+**Goal:** Drop out everything in the second beat, meaning all hits in that section should be removed (set to -).
+
+### Updating each instrument:
+- K: **OO--** → **----**
+- S: **----** → **----** (already no hits)
+- H: **x-x-** → **----**
+- T: **----** → **----**
+- C: **O---** → **----**
+- R: **----** → **----**
+
+### Final groove:
+
+@@@
+K: -O--|----|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+Now the second beat has no hits, fulfilling the request.

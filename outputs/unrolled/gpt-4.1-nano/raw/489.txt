@@ -1,0 +1,23 @@
+The instruction is to remove all ride cymbal (R) and hi-hat (H) parts from the groove. 
+
+Looking at the current groove:
+- H: plays on all four beats with soft hits, so I will delete this line.
+- R: no hits, so we can ignore this line.
+
+Remaining instruments:
+- K (kick): plays on the first, second, third, and fourth beats with varying articulation.
+- S (snare): plays on beat 2 and 4.
+- C (cymbal): plays on beats 1, 2, 3, and 4 with alternating hits.
+- T: silent.
+
+Since the request is to remove hi-hat and ride, I will remove the H line completely, and keep the others as they are, which gives a straightforward pattern with kick, snare, and cymbal.
+
+**Final pattern:**
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+C: O---|O---|O---|O---
+@@@
+
+This version emphasizes the kick, snare, and crash cymbal without hi-hat or ride.

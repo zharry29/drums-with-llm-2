@@ -1,0 +1,26 @@
+**Thought process:**
+
+- To add a ride hit at the very beginning, change the first beat of R from `----` to `O---`.
+- To add a tom hit at the very beginning, change the first beat of T from `----` to `O---`.
+
+**Implementation:**
+
+- R: `O---` (ride hit)
+- T: `O---` (tom hit)
+
+Rest of the pattern remains unchanged.
+
+---
+
+**Final groove:**
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: O---|----|----|----
+C: ----|----|----|----
+R: O---|----|----|----
+@@@
+
+This configuration adds both the ride and tom hits at the very start, as requested.

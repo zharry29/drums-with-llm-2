@@ -1,0 +1,26 @@
+**Thought process:**
+
+- The original groove has no hi-hat hits at the beginning.
+- To fulfill the request, I will add a hi-hat hit (`x---`) in the very first beat.
+- Additionally, I will add a cymbal—most likely a crash cymbal (`O---`)—also at the very start.
+- The cymbal should be set on the first beat, which is in the first column line.
+
+**Implementation:**
+
+- First beat of H: change from `----` to `x---`
+- First beat of C: change from `----` to `O---`
+
+---
+
+**Final groove:**
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: x---|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+This version adds a hi-hat hit and cymbal hit right at the beginning, as requested.

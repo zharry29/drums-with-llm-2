@@ -1,0 +1,29 @@
+The original groove:
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Request: "I don't want any hihat or cymbal."
+
+- Hihat (H) line: contains soft closed hits 'x', replace all with dashes.
+- Crash cymbal (C) line: contains hard hits 'O', replace all with dashes.
+- Ride cymbal (R) line: already empty.
+
+Note: Snare line contains 'S', which is not standard notation per instructions; I will leave it as is since the request does not mention snare.
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: ----|----|----|----
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

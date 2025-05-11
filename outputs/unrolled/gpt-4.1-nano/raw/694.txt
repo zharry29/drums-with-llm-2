@@ -1,0 +1,26 @@
+**Thought process:**
+
+- To add a kick hit in the very beginning, change the first beat of K from `O---` to `O---` (already a total of `O---`, so no change needed).
+- To add a hi-hat hit in the very beginning, change the first beat of H from `X---` to `x---` (soft closed hi-hat).
+
+**Implementation:**
+
+- K: remains `O---`
+- H: from `X---` to `x---`
+
+The rest remains unchanged. The focus is on having a kick and a hi-hat at the start.
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: x---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+This makes sure there's a kick and a hi-hat in the very first beat as requested.

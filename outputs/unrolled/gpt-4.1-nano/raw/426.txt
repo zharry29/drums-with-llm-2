@@ -1,0 +1,46 @@
+Let's analyze the original groove:
+
+- Kick (K): soft hits on beats 1 and 3, with some variation.
+- Snare (S): hits on beats 2 and 3 with a combination of sidestick hits.
+- Hi-hat (H): continuous closed hits on every eighth note.
+- Toms (T): silent.
+- Cymbals (C): silent.
+- Ride (R): mixed open/closed hits with frequent oscillation.
+
+**Given the instruction:** no toms (T) or kick (K).
+
+**Steps:**
+
+1. Remove lines K and T.
+2. Keep S, H, C, R.
+
+Now, the groove will consist of snare, hi-hat, cymbal, and ride patterns.
+
+- Snare (S): only on beat 2 with X, no other hits.
+- Hi-hat (H): consistent closed hits.
+- Cymbals (C): silent, so remove.
+- Ride (R): plays on beat 1 with a mixed pattern; keep those relevant parts.
+
+Since C is silent, only S, H, R remain.
+
+---
+
+### Final plan:
+
+- Keep snare (S): only on beat 2.
+- Keep hi-hat (H): steady pattern.
+- Keep ride (R): sync with existing pattern, but remove its unnecessary parts.
+- Remove the kick and toms.
+
+### Final groove:
+
+@@@
+S: ----|X---|----|----
+H: x---|x---|x---|x---
+R: ----|X-x|----|X-x
+C: ----|----|----|----
+K: (removed)
+T: (removed)
+@@@
+
+This maintains a simple, rhythmically interesting pattern with hi-hat, snare, and ride cymbal, fitting the instruction to remove kick and toms.

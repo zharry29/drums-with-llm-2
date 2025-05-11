@@ -1,0 +1,21 @@
+The request is to remove hihat hits on beat 4, while keeping everything else unchanged.
+
+Looking at the hihat (H) line on beat 4 (positions 13-16):
+- Beat 4 is `x-x-` (there are hihat hits here)
+
+We will replace `x-x-` with `----` to remove the hihat on beat 4.
+
+All other lines remain the same.
+
+---
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|----
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

@@ -1,0 +1,40 @@
+Since the instruction is to remove all kick (K) and hi-hat (H), I will delete those lines entirely. The remaining instruments are snare (S), Toms (T), Cymbals (C), and Ride (R).
+
+Original groove:
+- K: plays on beats 1 and 3.
+- S: plays on beat 2 and 4.
+- H: plays on beats 1 through 4, with X for closed hi-hat hits.
+- T, C, R: silent.
+
+To conform:
+- Remove **K** and **H** lines.
+- Keep the **S** line because it provides rhythmic backbeat.
+- Keep other lines (T, C, R) quiet for simplicity.
+
+The resulting pattern is:
+
+```plaintext
+K: (removed)
+S: ----|O---|----|O---
+H: (removed)
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+This provides a simple, clear rhythmic pattern driven by the snare, since kick and hi-hat are removed.
+
+---
+
+**Final answer:**
+
+```plaintext
+@@@
+K: (removed)
+S: ----|O---|----|O---
+H: (removed)
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```

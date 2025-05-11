@@ -1,0 +1,47 @@
+The original tom hits are:
+
+```
+T: ----|----|---O|----
+```
+
+There is a single hard tom hit (O) on the 3rd beat, 3rd sixteenth note (position 14 overall in the bar).
+
+The request: keep the same placement but make it more dynamic.
+
+To make the tom more dynamic without changing its placement, I can add softer hits (o) surrounding the main hard hit to create a dynamic pattern, like ghost notes or grace notes. For example, add a soft hit before or after the main hit. Let's try adding a soft hit immediately before the hard hit, making the pattern `--oO` on the 3rd beat, replacing `---O`.
+
+That translates to the 3rd beat’s four 16th notes as: `- - o O` → positions 13(-), 14(-), 15(o), 16(O).
+
+But the original is four characters `---O`, so the last character is position 16, so the O is at position 16.
+
+So better to put soft hit at position 14 and hard hit at 16: `-o-O`. Or `--oO` if we prefer.
+
+Let’s pick `-o-O`:
+
+- position 13: `-` (no hit)  
+- position 14: `o` (soft)  
+- position 15: `-` (no hit)  
+- position 16: `O` (hard)  
+
+So change `---O` to `-o-O` on the third beat.
+
+Keep the rest at `----`.
+
+So tom line becomes:
+
+```
+T: ----|----|-o-O|----
+```
+
+---
+
+Final groove:
+
+@@@  
+K: -O--|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: ----|----|-o-O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

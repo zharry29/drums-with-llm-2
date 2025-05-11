@@ -1,0 +1,29 @@
+The original groove:
+
+```
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+Request: "I don't want any tom or hihat."
+
+Step-by-step:
+- Remove hits from Hihat (H) line — replace all hits with dashes.
+- Remove hits from Toms (T) — already silent here.
+- Keep Kick (K), Snare (S), Crash (C), and Ride (R) unchanged.
+- Since only toms and hihat are requested to be removed, Ride (R) remains.
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

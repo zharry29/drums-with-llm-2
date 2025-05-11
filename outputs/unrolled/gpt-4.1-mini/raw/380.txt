@@ -1,0 +1,30 @@
+The original groove:
+
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+```
+
+Request: "I don't want any kick or tom."
+
+- Kick (K) line has hard hits ("O"). Remove all these by replacing with dashes.
+- Tom (T) line is empty already.
+
+Other lines remain unchanged.
+
+Additionally, the Ride (R) line has hits but the request does NOT mention removing ride, so it stays.
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

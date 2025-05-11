@@ -1,0 +1,30 @@
+To add more low frequency sounds, the typical instruments to enhance are the kick drum and toms. Currently, the groove has only soft kicks (o) and no tom hits.
+
+Plan:
+
+- Add some hard kick hits (O) on the strong beats to increase low end presence.
+
+- Possibly add some tom hits on offbeat 16th notes to add body.
+
+- Keep snare and cymbals as is to retain groove character.
+
+Implementation:
+
+- Replace soft kicks with hard kicks on beats 1 and 3 (positions 0 and 8).
+
+- Add a hard kick on the "and" of beat 2 (6th 16th note).
+
+- Add tom hits on the "e" of beat 4 (14th 16th note).
+
+---
+
+Final groove:
+
+@@@  
+K: O---|--O-|O---|--oO  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: ----|----|----|---O  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

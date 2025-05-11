@@ -1,0 +1,43 @@
+Let's analyze the timing:
+
+- The second beat spans notes 5-8.
+- The notation "1 e & a" breaks down as:
+  - 1: first note
+  - e: second note
+  - &: third note
+  - a: fourth note
+   
+- The "a" of beat 2 is the **last sixteenth note (note 8)**.
+
+Now, check the current position of the cymbal (`C`) line:
+
+`C: ----|----|----|----`
+
+- The second clan of beats is characters 6-9 (the four characters following the first '|' and after the second '|').
+
+The four characters represent notes 5-8:
+
+- characters 6-9 = '----'
+
+Thus, the **last character (`a`) of beat 2** corresponds to position 9 in the notation.
+
+To place a cymbal hit on the 'a' note of beat 2:
+
+- Change the 9th character in the line from '-' to 'O'.
+
+---
+
+### Final notch:
+
+```plaintext
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|--O-|----
+R: x---|X-x-|x---|X-x-
+@@@
+```
+
+**Only change:** Position 9 in the `C` line has been changed from '-' to 'O' to add the cymbal hit on the 'a' of beat 2.

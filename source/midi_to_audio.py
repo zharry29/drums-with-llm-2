@@ -33,6 +33,9 @@ def midi_to_audio(in_fname, out_fname):
     audio_length = int((midi.get_end_time() + 1) * sample_rate)
     audio_out = np.zeros(audio_length)
 
+    if len(midi.instruments) == 0:
+        print(f"No instruments found in {in_fname}.")
+        return
     for note in midi.instruments[0].notes:
         # Get your sample file based on note.pitch
         sample_path = SAMPLE_MAP[note.pitch]

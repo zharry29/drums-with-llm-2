@@ -1,0 +1,30 @@
+The original groove:
+
+```
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Request: "I'd like an open hihat on the last 8-th note."
+
+- The last 8th note corresponds to the 15th and 16th 16th notes.
+- The hihat line currently is all dashes.
+- The last group of the hihat line is `----`.
+- The 15th 16th note corresponds to the third character in the last group.
+- To add an open hihat there, change that character to `o` (soft open hit).
+- So last group: `----` → `--o-`.
+
+Final groove:
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|--o-
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

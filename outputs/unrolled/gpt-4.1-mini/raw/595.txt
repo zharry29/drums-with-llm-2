@@ -1,0 +1,30 @@
+The original groove:
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Request: "I'd like a tom hit and snare in the very beginning."
+
+Step-by-step:
+
+- Add a tom hit (T) at the very beginning: mark first 16th note in T line with a hard hit `O`.
+- Add a snare hit (S) at the very beginning: mark first 16th note in S line with a hard hit `O`.
+- The existing snare hit "S" is not a defined articulation (S is not in notation), so replace it with a hard snare hit "O" in the corresponding place.
+- Other lines remain unchanged.
+
+Final groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: O---|----|O---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: O---|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

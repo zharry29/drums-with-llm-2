@@ -1,0 +1,32 @@
+Let's analyze and plan the change:
+
+- Play **closed hi-hat** on **all 16th notes**: for closed hi-hat, `x` (soft) and `X` (hard) are used.
+- Emphasize the **quarter note down beats** — that is, notes at positions 1, 5, 9, 13 — with an accented hit (`X`) to make the downbeats stand out.
+  
+Current hi-hat pattern:
+`X-x-|X-x-|X-x-|X-x-`
+
+We need to:
+- Fill **all 16th notes** with either `x` or `X`.
+- Make **positions 1, 5, 9, 13** `X` for emphasis, aligning with those down beats.
+- The other notes can be `x`.
+
+Constructing new hi-hat pattern:
+`Xxxx|Xxxx|Xxxx|Xxxx`
+
+---
+
+### Final edit:
+
+```plaintext
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: Xxxx|Xxxx|Xxxx|Xxxx
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+This pattern ensures the hi-hat is consistently played on every 16th note, with a strong emphasis on the downbeats for rhythm accentuation.

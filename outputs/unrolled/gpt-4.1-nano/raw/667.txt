@@ -1,0 +1,26 @@
+**Thought process:**
+
+- To add a ride hit at the very beginning, change the first beat of R from `----` to `O---` (a typical ride hit).
+- To add a kick in the very beginning, change the first beat of K from `O---` to `O---` (already a kick hit). To make it explicit, I will retain the kick hit and add the ride hit.
+
+**Implementation:**
+
+- K: remains `O---` 
+- R: change first beat from `----` to `O---`
+
+Other instruments stay the same.
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: O---|----|----|----
+@@@
+
+This provides a ride hit and kick in the very beginning, as requested.

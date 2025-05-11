@@ -1,0 +1,66 @@
+Let's count notes in the original groove:
+
+- Kick (K):
+  - Beat 1: O at 1st 16th
+  - Beat 2: O at 1st 16th
+  - Beat 3: none
+  - Beat 4: O at 1st 16th  
+  Total: 3 hits
+
+- Snare (S):
+  - Beat 3: O at 1st 16th  
+  Total: 1 hit
+
+- Hi-hat (H):
+  - none
+
+- Toms (T):
+  - On all beats, pattern "O-o-":
+    - Each beat has 2 hits (O and o), total 2 hits x 4 beats = 8 hits
+
+Total hits: 3 (kick) + 1 (snare) + 8 (toms) = 12 hits, which is more than 8.
+
+---
+
+**Goal:** Reduce notes to max 8.
+
+---
+
+**Plan:**
+
+- Keep kicks on beats 1 and 4 (2 hits) for foundation.
+- Keep snare on beat 3 (1 hit) as backbeat.
+- Reduce toms significantly to just 2 hits in the entire bar (e.g., beat 1 and beat 3 hard hits).
+- Remove soft tom hits and other tom hits.
+- No hi-hats or cymbals.
+
+---
+
+**New groove:**
+
+```
+K: O---|----|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O---|----|O---|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Counting notes:
+
+- Kick: 2  
+- Snare: 1  
+- Tom: 2  
+Total = 5 notes, under the maximum 8 limit, and keeps a solid groove structure.
+
+---
+
+@@@
+K: O---|----|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O---|----|O---|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

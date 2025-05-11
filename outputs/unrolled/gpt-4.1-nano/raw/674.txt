@@ -1,0 +1,25 @@
+**Thought process:**
+
+- To add a ride hit at the very beginning, change the first beat of R from `x---` to `O---` (ride cymbal on the bell).
+- To add a kick, change the first beat of K from `----` to `O---` for a hard kick.
+- Both should appear at the very first beat.
+
+**Implementation:**
+
+- K: from `----` to `O---`
+- R: from `x---` to `O---`
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: O---|X-x-|x---|X-x-
+@@@
+
+This includes a kick and a ride hit at the very beginning, as requested.

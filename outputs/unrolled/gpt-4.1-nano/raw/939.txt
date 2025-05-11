@@ -1,0 +1,28 @@
+Let's analyze the kick line (K):
+
+- K: `-O--|OO--|---O|-OO-`
+
+Breakdown by beats:
+- Beat 1: `-O--` (soft kick at 2nd 16th note)
+- Beat 2: `OO--` (hard kicks at 1st and 2nd 16th notes)
+- Beat 3: `---O` (hard kick at 4th 16th note)
+- Beat 4: `-OO-` (soft/hard kicks at 2nd and 3rd 16th notes)
+
+The instruction is **no kick on beat 4**:
+- Therefore, `-OO-` in beat 4 should be changed to `----`, removing all kick hits in that beat.
+
+**Modified line:**
+- Replace `-OO-` with `----`.
+
+**Final updated groove:**
+
+@@@
+K: -O--|OO--|---O|----
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+This satisfies the requirement by removing kick hits from beat 4, and the rest of the groove remains unchanged.

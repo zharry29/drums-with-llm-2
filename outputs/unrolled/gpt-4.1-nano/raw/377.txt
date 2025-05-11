@@ -1,0 +1,29 @@
+Let's analyze the original groove:
+
+- Kick 'K': hits on beats 1 and 3, with soft hits.
+- Snare 'S': hits on beats 2 and 4 with mixture of open and closed hits.
+- Hi-hat 'H': no hits.
+- Toms 'T': no hits.
+- Cymbals 'C' and 'R': 'C' has no hits; 'R' (ride cymbal) has hits on every beat with alternating open and closed hits.
+
+**Request:** Remove all toms ('T') and ride cymbal ('R') hits.
+
+Since 'T' already has no hits, no change there. The ride cymbal 'R' currently has hits on every beat with alternating open and closed hits. We need to remove these.
+
+**Approach:**
+- Set 'R' line to all dashes ('-') to remove the cymbal hits.
+
+---
+
+### Final edit:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+This meets the request by removing the ride cymbal hits, leaving the rest unchanged.

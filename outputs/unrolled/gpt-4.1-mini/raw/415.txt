@@ -1,0 +1,27 @@
+The original groove:
+
+```
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+Request: "I don't want any hihat or kick."
+
+- Hihat (H) line has soft closed hits 'x', replace all with dashes.
+- Kick (K) line has soft hits 'o', replace all with dashes.
+- Other lines (S, T, C, R) remain unchanged.
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|X---|--X-|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

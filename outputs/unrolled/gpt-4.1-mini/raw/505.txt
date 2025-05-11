@@ -1,0 +1,29 @@
+The original groove:
+
+```
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+Request: "I don't want any cymbal or tom."
+
+Step-by-step:
+- Cymbals are Crash (C), Ride (R), and Hihat (H).
+- Remove all cymbal hits (H, C, R) by replacing their hits with dashes.
+- Toms (T) line is already silent.
+- Kick (K) and Snare (S) remain unchanged.
+
+Final groove:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

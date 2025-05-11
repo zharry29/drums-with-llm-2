@@ -1,0 +1,44 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): `O--O|----|--O-|----`
+  - Snare (S): `----|Oo-o|-o--|O--o`
+  - Hi-hat (H): `X-x-|X-x-|X-x-|X-x-`
+  - Toms (T): all rests
+  - Crash (C): all rests
+  - Ride (R): all rests
+
+- Request:
+  - Add a kick hit and a cymbal hit in the very beginning.
+
+- Implementation:
+  - Change the first beat of the kick from `O--O` to `O--O` (already set with an O), but ensure it is prominent.
+  - Add a cymbal hit (preferably crash cymbal) at the very first subdivision, which is within the first beat.
+
+- The first beat is `O--O`, and to add a cymbal hit at the same time, I will replace part of the first beat with a crash cymbal, such as `O---` becoming `Ox--` or `O--X` to denote a crash. However, since crash cymbal is represented as `O` or `X` with the cymbal notation, I will add an `O` or `X` in the first beat of the crash.
+
+- To keep it explicit, I will set:
+  - Kick: `O---` (no change)
+  - Crash cymbal: `O---` to `O---` or `X---` (adding an `X` for a crash sound). 
+
+- Since the first beat currently has `O--O` for Kick, I will add a crash cymbal at the start within the same beat, perhaps changing the crash to `X---`.
+
+---
+
+**Final groove:**
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+C: X---|----|----|----
+R: ----|----|----|----
+@@@
+
+**Explanation:**
+
+- The first beat of the crash cymbal is now `X---`, indicating a crash in the very beginning.
+- The kick remains the same, with a strong hit at the start.
+- The rest of the pattern remains unchanged.
+
+**This fulfills the request: a kick hit and cymbal in the very beginning.**

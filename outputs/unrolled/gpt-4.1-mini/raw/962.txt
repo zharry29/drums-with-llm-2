@@ -1,0 +1,21 @@
+The request is to remove hihat hits on beat 4 (positions 13-16), leaving everything else unchanged.
+
+Looking at the Hihat (H) line:  
+- Beat 4 is the last group of 4 characters: `O-o-`.
+
+We will remove these hits by replacing `O-o-` with `----`.
+
+All other lines remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

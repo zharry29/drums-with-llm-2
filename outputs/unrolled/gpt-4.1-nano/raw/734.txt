@@ -1,0 +1,27 @@
+**Thought process:**
+
+- The original groove has no snare or hi-hat hits at the start.
+- To meet the request, I will add a snare hit (`O`) at the very start and a hi-hat hit (`x`) as well.
+- The first beat currently has K: `O---` and H: `--o-`.
+- I will change the first beat of S from `----` to `O---` (snare hit).
+- The hi-hat (H) already has an `o` in the first beat, but to make it more prominent as a hit, I will change it to `x---`) for consistency and clarity.
+
+**Implementation:**
+
+- Change S (snare) first beat to `O---`.
+- Change H (hi-hat) first beat to `x---`.
+
+---
+
+**Final groove:**
+
+@@@
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+H: x---|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+**Note:** Now, both a snare and a hi-hat are hit in the very first beat, fulfilling the request.

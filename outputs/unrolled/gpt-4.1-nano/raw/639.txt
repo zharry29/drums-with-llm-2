@@ -1,0 +1,29 @@
+**Thought process:**
+
+- The goal is to add a ride hit and a tom hit at the very beginning.
+- The ride (R) currently has no hits, so add a hit on the first 16th note: change from `----` to `O---`.
+- The toms (T) currently have a pattern `O-o-` repeated; to add an emphasis at the start, I will change the first beat (first 4 characters) to a strike, for example, `O---`. 
+
+**Implementation:**
+
+- Change R: `----` => `O---` (ride hit at onset)
+- Change T first beat from `O-o-` to `O---` to emphasize the tom at the beginning
+
+**Final plan:**
+- R: `O---|----|----|----`
+- T: `O---|O-o-|O-o-|O-o-` (change first beat to `O---`)
+
+---
+
+**Final edited groove:**
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O---|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: O---|----|----|----
+@@@
+
+This begins with a ride hit and a tom hit at the very start, fulfilling the request.

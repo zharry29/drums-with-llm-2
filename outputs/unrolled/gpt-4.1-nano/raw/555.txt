@@ -1,0 +1,24 @@
+Let's analyze the given groove:
+
+- Snare (S): has pattern `----|Oo-o|-o--|O--o` — should be removed.
+- Toms (T): pattern `----|----|----|----` — should be removed.
+- Kick (K): `O--O|----|--O-|----` — to keep.
+- Hi-hat (H): `----|----|----|----` — silent, can be omitted.
+- Cymbal (C): `----|----|----|----` — silent, can be omitted.
+- Ride (R): `o-O-|o-O-|o-O-|o-O-` — to keep.
+
+Since only Kick, Hi-hat, Cymbal, and Ride remain, after removing snare and toms, the patterns will be:
+
+K: `O--O|----|--O-|----`  
+H: (none, silent)  
+C: (none, silent)  
+R: `o-O-|o-O-|o-O-|o-O-`
+
+**Final pattern:**
+
+@@@
+K: O--O|----|--O-|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+This version excludes snare and toms, keeping only kick, ride, and silence on hi-hat.

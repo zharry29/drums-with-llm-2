@@ -1,0 +1,31 @@
+Let's analyze the original groove:
+
+- Kick (K): hits on the first and third beats with soft hits.
+- Snare (S): plays on the second beat ("Oo-o") and last beat ("O--o").
+- Hi-hat (H): plays on every eighth note with a pattern of closed hits.
+- Toms (T): silent.
+- Cymbals (C, R): silent.
+
+**The request is to remove all hi-hat and cymbal sounds.**
+
+Therefore, we will eliminate lines H, C, and R.
+
+The remaining patterns are:
+
+K: O--O|----|--O-|----  
+S: ----|Oo-o|-o--|O--o  
+
+Since the snare is present, and the kick is there, keeping the pattern creates a solid beat.
+
+The pattern after removing hi-hat and cymbal lines:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: (removed)
+T: (removed)
+C: (removed)
+R: (removed)
+@@@
+
+This results in a clear, simplified groove with kick and snare only.

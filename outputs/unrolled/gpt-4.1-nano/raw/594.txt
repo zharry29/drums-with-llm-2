@@ -1,0 +1,56 @@
+Let's analyze the current groove:
+
+- The very beginning of the bar (first beat) contains:
+  - K: O---
+  - S: ----
+  - H: --o-
+  - T: ----
+  - C: O---
+  - R: ----
+
+The request is to add a tom hit and a snare hit at the very beginning. The typical approach:
+- To emphasize a tom hit, we can use T: either a hit on the first beat (say, across the first 4 characters), such as T: O---
+- To emphasize a snare hit, we can add a snare (S) hit at the very start, e.g., an S: with a hit on the first beat, such as S: O---
+
+Given the current groove, the first beat (first 4 characters) is:
+
+- K: O---
+- S: ----
+- H: --o-
+- T: ----
+- C: O---
+- R: ----
+
+To add a tom and snare at the start:
+- For the snare, put S: O--- in the first beat
+- For a tom hit, put T: O--- at the beginning as well
+
+Choosing to keep the groove simple, I will place both:
+- T: O---
+- S: O---
+
+Adjusting the first beat to reflect both hits.
+
+Here's the final plan:
+- Keep the rest of the groove as is
+- Replace the initial S and T with the new hits
+
+Final approach:
+- First beat:
+  - K: O---
+  - S: O---
+  - T: O---
+- Keep the rest of the pattern unchanged.
+
+Writing this in the notation:
+
+@@@
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+This adds a snare and tom hit at the very start, as requested, and maintains the pattern's structure.

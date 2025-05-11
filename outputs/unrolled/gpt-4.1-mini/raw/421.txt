@@ -1,0 +1,27 @@
+The original groove:
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Request: "I don't want any hihat or kick."
+
+- Kick (K) line contains soft and hard hits ('O', 'o' or any hit). Replace all hits with dashes.
+- Hihat (H) line contains soft and hard closed hits 'x'. Replace all hits with dashes.
+- Other lines remain unchanged (Snare 'S', Toms 'T', Crash 'C', Ride 'R').
+
+Final groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|S---|----
+H: ----|----|----|----
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

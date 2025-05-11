@@ -1,37 +1,45 @@
 Let's analyze the current groove:
 
-- **Kick (K):** hits on the first beat ("O---"), faint hit on beat 2 ("---o"), and on beats 3 ("O-O-").
-- **Snare (S):** hits on beat 2 ("O---") and beat 4 ("O---").
-- **Hi-hat (H):** plays a pattern with soft open and closed hits ("--o-", "O-o-", etc.).
-- **Toms, cymbals (C, R):** silent.
+- Kick 'K': O---|---o|O-O-|----
+  - Kick hits on:
+    - measure 1: beat 1 (O)
+    - measure 2: beat 4 (o)
+    - measure 3: beats 1 and 3 (O and O)
+- Snare 'S': ----|O---|----|O---
+  - Snare hits on measure 2, beat 1 and measure 4, beat 4.
+- Hi-hat 'H': --o-|O-o-|O-o-|O-o-
+  - Hi-hat pattern, alternating open and closed hits.
+- Toms 'T', Cymbals 'C', Ride 'R': None.
 
-**New requirement:**  
-Remove snare and ride cymbal, so no S or R lines.  
-Keep kick, hi-hat, and the overall rhythm.
+---
+
+### New goal:
+Remove all snare and ride cymbal hits, focus on creating a groove with kick and hi-hat only.
 
 ### Approach:
-- Remove S and R lines completely.
-- Keep the existing kick pattern, possibly simplifying if needed.
-- Keep hi-hat pattern to maintain rhythm and energy.
+- Keep the kick pattern, but make it more consistent and driving.
+- Keep the hi-hat pattern.
+- Remove the snare 'S' and ride 'R'.
 
-### Final plan:
-- Retain kicks on beats 1, 2, and 3.
-- Keep the hi-hat pattern as is.
-- Omit snare and ride lines entirely.
+### Implementation:
+- Make the kick hit on all beats for a steady pulse.
+- Keep hi-hat pattern as is.
+- Remove snare and ride.
 
 ---
 
 ### Final groove:
 
-```plaintext
 @@@
-K: O---|---o|O-O-|----
+K: O---|O---|O---|O---
+S: ----|----|----|----
 H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
 C: ----|----|----|----
 R: ----|----|----|----
 @@@
-```
 
-**Summary:**  
-- Removed the snare and ride lines per the instruction.
-- Maintained the kick pattern and hi-hat rhythm for a clean, straightforward groove suitable without snare or ride.
+**Summary:**
+- The kick now plays on every quarter note.
+- The hi-hat continues with its alternating pattern for added texture.
+- No snare or ride, keeping a simple, driving rhythm.

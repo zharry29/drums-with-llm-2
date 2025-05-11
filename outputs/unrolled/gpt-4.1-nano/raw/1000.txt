@@ -1,0 +1,30 @@
+Let's analyze and plan the change:
+
+- The current hi-hat line is: `----|----|----|----`, so no hi-hat is played.
+- The instruction: **Play closed hi-hat on all 16th notes**.
+- **Accent the down beats** at notes 1, 5, 9, 13 by making them louder with `X`.
+- Other hi-hat notes will be `x` for a softer, consistent sound.
+
+Constructing the new hi-hat line:
+- Positions 1, 5, 9, 13: `X`
+- All other notes: `x`
+
+The pattern:
+`Xxxx|Xxxx|Xxxx|Xxxx`
+
+---
+
+### Final groove after edit:
+
+```plaintext
+@@@@@@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: Xxxx|Xxxx|Xxxx|Xxxx
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@@@@@@
+```
+
+This provides a steady, accented closed hi-hat pattern on all 16th notes, emphasizing the downbeats for a strong rhythmic foundation.

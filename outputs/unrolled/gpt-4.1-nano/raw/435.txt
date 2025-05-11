@@ -1,0 +1,36 @@
+Let's analyze the original groove:
+
+- Kick (K): plays in various patterns, including a hard hit on beat 1, 2, and 4.
+- Snare (S): plays on beat 3 in the third measure.
+- Hi-hat (H): plays a consistent pattern on every subdivision.
+- Toms (T): plays on beat 3 of the third measure.
+- Cymbal (C): plays on every beat with hard hits.
+- Ride (R): silent.
+
+**Request:** no kick or ride.
+
+This means:
+
+- Remove the K and R lines.
+- Keep snare, hi-hat, Toms, and cymbals. But since only snare, hi-hat, and cymbals are active, the others can be omitted for simplicity.
+- Focus on the pattern with snare on beat 3, hi-hat on all subdivisions, and cymbals on every beat for rhythm.
+
+**Plan:**
+
+- Snare hits on beat 3 only in measure 3.
+- Hi-hat plays steady on every subdivision.
+- Cymbals on beats 1, 2, 3, 4 for emphasis.
+- Remove K and R.
+
+### Final pattern:
+
+@@@
+S: ----|----|--S-|----
+H: x-x-|x-x-|x-x-|x-x-
+C: O---|O---|O---|O---
+K: (removed)
+R: (removed)
+T: (removed)
+@@@
+
+This creates a simple, effective rhythm emphasizing the snare on beat 3, with constant hi-hat, and cymbals for fullness, fulfilling the request to exclude kick and ride.

@@ -1,0 +1,20 @@
+The instruction is to remove all cymbal (C, R) and kick (K) lines.
+
+- Remove the C line: `O---|O---|O---|O---` — already silent.
+- Remove the R line: `----|----|----|----` — already silent.
+- Remove the K line: `OOO-|--O-|OOO-|-OOO`
+
+Remaining instruments:
+- S (snare): `----|O---|----|O---`
+- H (hihat): `----|----|----|----` (silent, so can be omitted)
+- T (toms): `----|----|----|----` (silent; can omit)
+
+Final pattern includes only snare.
+
+**Final groove:**
+
+@@@
+S: ----|O---|----|O---
+@@@
+
+This version excludes cymbals and kick, leaving only the snare pattern, as requested.

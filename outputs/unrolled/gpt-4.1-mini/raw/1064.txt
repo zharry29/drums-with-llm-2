@@ -1,0 +1,48 @@
+Let's analyze the original Snare (S) line:
+
+```
+S: ----|O---|----|O---
+```
+
+There are two main snare hits, both hard hits `O` at the 1st 16th note of beats 2 and 4.
+
+---
+
+**Request:** Add ghost notes on the snare.
+
+- Ghost notes are soft hits, denoted by `o`.
+
+- Place ghost notes between main hits to add subtle rhythmic detail without changing main hit placement.
+
+---
+
+### Plan:
+
+- Insert some soft snare hits (`o`) at off-beats (e.g., 2nd or 3rd 16th note positions in the beats where snare is silent).
+
+- For example:
+
+  - Beat 2: main hit on 1st 16th (`O---`), add ghost on 3rd 16th note (`--o-`), resulting in `O-o-` (preserving main hit leftmost).
+
+  - Beat 4: similarly add a ghost note on 2nd 16th note (`-o--`), so `Oo--`.
+
+---
+
+### Revised Snare line:
+
+```
+S: ----|O-o-|----|Oo--
+```
+
+---
+
+Final groove:
+
+@@@  
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O-o-|----|Oo--  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

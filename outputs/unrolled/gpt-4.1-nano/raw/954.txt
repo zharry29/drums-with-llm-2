@@ -1,0 +1,30 @@
+Let's analyze the current groove:
+
+- K (Kick): `O---|----|O---|----` — kick in beats 1 and 3.
+- S (Snare): `----|O---|----|O---` — snare on beats 2 and 4.
+- H (Hi-hat): `X---|X---|X---|X---` — hi-hat on all beats in the 1st sixteenth note.
+- T (Toms): `----|----|----|----` — none.
+- C (Crash): `----|----|----|----` — none.
+- R (Ride): `----|----|----|----` — no ride hits.
+
+**Target restriction:** Remove ride hits on beat 4.  
+Currently, no ride hits exist, so the groove already complies with that.
+
+Since everything else is fine, I only need to reproduce the existing pattern.
+
+---
+
+### Final version:
+
+```plaintext
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+**This maintains all instruments exactly as given, with no ride on beat 4, satisfying the request.**

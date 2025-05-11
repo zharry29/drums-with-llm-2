@@ -1,0 +1,68 @@
+Let's first count the number of notes in the original groove:
+
+- Kick (K):  
+  o (beat1, 1st sixteenth), o (beat2, 3rd sixteenth), o (beat3, 1st sixteenth), o (beat4, 3rd sixteenth)  
+  = 4 hits
+
+- Snare (S):  
+  X (beat2, 1st sixteenth), X (beat3, 3rd sixteenth)  
+  = 2 hits
+
+- Hi-hat (H):  
+  x (beat2, 1st sixteenth), x (beat4, 3rd sixteenth)  
+  = 2 hits
+
+- Ride (R):  
+  x (beat1, 1st sixteenth), X (beat2, 1st sixteenth), x (beat2, 3rd sixteenth), x (beat3, 1st sixteenth), X (beat4, 1st sixteenth), x (beat4, 3rd sixteenth)  
+  = 6 hits
+
+Total notes = 4 + 2 + 2 + 6 = 14 notes, too many.
+
+---
+
+**Goal:** Reduce notes to no more than 8 total.
+
+**Approach:**  
+- Keep some kick hits — reduce to 2.  
+- Keep snare hits — reduce to 1.  
+- Keep hi-hat hits — reduce to 1 or 2.  
+- Ride — reduce to 2 hits.  
+
+---
+
+**Edited groove:**
+
+- Kick on beat 1 and beat 3 (soft hits)  
+- Snare on beat 3 (sidestick hard hit)  
+- Hi-hat one soft closed hit on beat 4  
+- Ride one hard closed hit on beat 2 and on beat 4 first sixteenth
+
+---
+
+```
+K: o---|----|o---|----
+S: ----|----|X---|----
+H: ----|----|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|X---|----|X---
+```
+
+Counting notes:
+
+- Kick: 2  
+- Snare: 1  
+- Hi-hat: 1  
+- Ride: 2  
+Total = 6 notes, meeting the requirement.
+
+---
+
+@@@
+K: o---|----|o---|----
+S: ----|----|X---|----
+H: ----|----|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|X---|----|X---
+@@@

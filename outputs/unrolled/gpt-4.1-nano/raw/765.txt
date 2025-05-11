@@ -1,0 +1,42 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): `OOO-|--O-|OOO-|-OOO` (kicks on first couple of beats and last)
+  - Snare (S): `----|O---|----|O---` (snare on beats 2 and 4)
+  - Hi-hat (H): `----|----|----|----` (silent)
+  - Toms (T): `----|----|----|----` (silent)
+  - Crash (C): `O---|O---|O---|O---` (crash on each beat)
+  - Ride (R): `----|----|----|----` (silent)
+
+- Request:
+  - A snare hit and a tom in the very beginning.
+
+- The first beat currently:
+  - Kick: `O` (present)
+  - Snare: `----` (none)
+  - Tom: `----` (none)
+  - Hi-hat: `----`
+  - Toms: `----`
+
+- To fulfill the request:
+  - Change the first beat snare to a hit, e.g., `X` for a normal snare hit.
+  - Add a tom hit: for example, on the first beat, change the T line to include an `O` at the start of the first beat.
+
+**Implementation:**
+- First beat snare: from `----` to `X---`
+- First beat tom: from `----` to `O---`
+
+---
+
+**Final groove:**
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: X---|O---|----|O---
+H: ----|----|----|----
+T: O---|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+This now has a snare (X) and a tom (O) in the first beat, as requested.

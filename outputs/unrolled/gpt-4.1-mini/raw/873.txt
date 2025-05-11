@@ -1,0 +1,30 @@
+The original groove is:
+
+```
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+The snare (S) hits occur at the downbeats of 2 and 4 (the first character of the 2nd and 4th group, respectively):
+
+- Downbeat 2: 5th character (first character after the first '|'), which is 'O' in the 2nd group.
+- Downbeat 4: 13th character (first character after the 3rd '|'), which is 'O' in the 4th group.
+
+The edit request is to **avoid having the snare on those downbeats**.
+
+Solution: Remove those snare hits at those positions (replace them with '-').
+
+Final groove:
+
+@@@
+K: O---|----|O---|----
+S: ----|----|----|----
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

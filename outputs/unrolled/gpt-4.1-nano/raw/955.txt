@@ -1,0 +1,39 @@
+Let's analyze the given groove:
+
+- K (Kick): `-O--|OO--|---O|-OO-`  
+  - Kick on the second and fourth beats, with some variation.
+
+- S (Snare): `----|----|S---|----`  
+  - Snare only on beat 3.
+
+- H (Hi-hat): `x-x-|x-x-|x-x-|x-x-`  
+  - Hi-hat on every sixteenth note.
+
+- T (Toms): `----|----|---O|----`  
+  - Toms only on beat 3.
+
+- C (Crash): `O---|O---|O---|O---`  
+  - Crash cymbal on all beats.
+
+- R (Ride): `----|----|----|----`  
+  - No ride hits.
+
+**The instruction:** No ride on beat 4.  
+Currently, the ride line has no hits, so it's compliant.
+
+Since the ride is already silent on beat 4, no changes are needed.
+
+### Final output:
+
+```plaintext
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```
+
+**This version remains exactly as the input, which already satisfies "no ride on beat 4".**

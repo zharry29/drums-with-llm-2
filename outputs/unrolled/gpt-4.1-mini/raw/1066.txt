@@ -1,0 +1,57 @@
+Let's analyze the original groove:
+
+```
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+There are no snare hits currently (`S:` line is all dashes).
+
+---
+
+**Request:** Add some ghost notes on the snare.
+
+- Ghost notes on snare are soft snare hits, represented as `o`.
+
+- Since currently there are no snare hits, we will add subtle ghost notes at off-beat 16th note positions, without disturbing the groove or the existing hits.
+
+---
+
+### Plan:
+
+- Place ghost notes on snare at soft 16th notes, such as the "e" and "a" subdivisions (2nd and 4th 16th notes of the beat).
+
+- For example, add ghost notes at the 2nd 16th note of beat 2 and 4 of the bar.
+
+---
+
+### Implementation:
+
+- Beat 2 (positions 5–8): add soft ghost note on 2nd 16th → pattern: `-o--`
+
+- Beat 4 (positions 13–16): add soft ghost note on 2nd 16th → pattern: `-o--`
+
+---
+
+### New snare line:
+
+```
+S: ----|-o--|----|-o--
+```
+
+---
+
+Final groove:
+
+@@@  
+K: ----|----|----|----  
+S: ----|-o--|----|-o--  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

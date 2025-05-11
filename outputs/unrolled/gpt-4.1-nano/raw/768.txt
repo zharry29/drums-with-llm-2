@@ -1,0 +1,41 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): `O---|O---|----|O---`
+  - Snare (S): `----|----|O---|----` (snare on beat 3 in third measure)
+  - Hi-hat (H): `----|----|----|----`
+  - Toms (T): `O-o-|O-o-|O-o-|O-o-` (percussion pattern on all beats)
+  - Crash (C): all silent
+  - Ride (R): all silent
+
+- New request:
+  - Add a snare hit and a tom in the very beginning (first beat).
+
+- Current first beat:
+  - Kick: `O` (already present)
+  - Snare: `----` (no)
+  - Tom: `O` (present, so that’s good)
+  - So, only need to add a snare hit in first beat, with a new snare symbol.
+
+- To add a snare hit in the first beat:
+  - Change S line first beat from `----` to `X---` (hard snare hit).
+
+---
+
+**Final version:**
+
+@@@
+K: O---|O---|----|O---
+S: X---|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+**This includes:**
+- A snare hit (`X`) in the very first beat.
+- The tom (`O`) in the first beat remains.
+- The kick remains on the first beat with a hit (`O`).
+
+This fulfills the request.

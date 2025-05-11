@@ -1,0 +1,33 @@
+Let's analyze the existing groove:
+
+- Kick 'K': hits on beats 1, 2, and 4 with varying articulation.
+- Snare 'S': only on beat 3.
+- Hi-hat 'H': no hits.
+- Toms 'T': plays soft hits ('O-o-') on all four beats.
+- Cymbals 'C' and 'R': no hits.
+
+**Request:** Remove all toms ('T') and ride cymbal ('R') hits.
+
+Since 'T' has hits, and 'R' currently shows no hits but could be included in a pattern if needed, I will:
+
+- Remove all 'T' hits by setting the 'T' line to all '-'.
+- Keep 'R' line as all '-' to exclude ride cymbal sounds.
+
+### Final plan:
+- Keep 'K', 'S', and 'H' as they are.
+- Remove 'T' and 'R' hits by setting their lines to all '-'.
+
+---
+
+### Final edited groove:
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+This version fulfills the request of eliminating all tom and ride cymbal sounds while maintaining the existing structure of the groove.

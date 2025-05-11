@@ -1,0 +1,85 @@
+To transform this groove into a metal groove, here are the typical metal drumming features to introduce:
+
+- Kick drum: faster, often continuous or at least driving 16th note kick pattern (including double kicks).
+
+- Snare: strong hard hits on 2 and 4, possibly with ghost notes.
+
+- Hi-hat: steady 16th note hits, preferably hard closed (`X`), often with slight accents.
+
+- Ride/crash: keep minimal or add crash accents on first beat optionally.
+
+Looking at the original groove:
+
+```
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+- Kick is sparse (only beat 1 of bars 1 and 3).
+
+- Snare hits on beat 1 of bars 2 and 4 (which is unusual for the snare backbeat).
+
+- Hi-hat is steady but only on beat 1 of each bar, no 16th notes.
+
+---
+
+### What to change?
+
+- Kick: add steady 16th / double kick pattern.
+
+- Snare: hard hits on 2 and 4 with ghost notes for groove.
+
+- Hi-hat: constant 16th note pattern with `X`.
+
+---
+
+### Revised groove plan:
+
+**Kick:** steady 16th notes on beats 1 and 2 (first half of bar), then 8th notes on beats 3 and 4 with accents.
+
+**Snare:** hard hits on 2 and 4, ghost notes on the 16th before the snare.
+
+**Hi-hat:** constant 16th note hard closed hits `X`.
+
+---
+
+### Notation proposal (16 characters per line without spaces):
+
+- Kick:
+
+```
+O-O-|O-O-|--O-|O---
+```
+
+- Snare:
+
+Ghost notes (`o`) on 16th before snare (`O`) on beats 2 and 4:
+
+```
+--oO|--oO|----|--oO
+```
+
+- Hi-hat:
+
+Constant `X` 16th:
+
+```
+XXXX|XXXX|XXXX|XXXX
+```
+
+---
+
+### Final drum groove:
+
+@@@  
+K: O-O-|O-O-|--O-|O---  
+S: --oO|--oO|----|--oO  
+H: XXXX|XXXX|XXXX|XXXX  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

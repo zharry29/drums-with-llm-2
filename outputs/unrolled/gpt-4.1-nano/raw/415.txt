@@ -1,0 +1,32 @@
+First, let's analyze the current groove:
+
+- Kick (K): soft hits on the first, third, and last beats.
+- Snare (S): some hits on the second and third beats.
+- Hi-hat (H): plays on every eighth note.
+- Toms (T): silent.
+- Cymbals (C): silent.
+- Ride (R): plays on all beats with a pattern of open/closed hits.
+
+**The request: no hi-hat or kick.**
+
+So, we'll remove lines K and H. Remaining:
+
+S: ----|X---|--X-|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+
+Since the only instrument left is the snare, with some ghost hits and accents, I will keep those, and remove the rest.
+
+Now, we need a simple groove with only snare:
+
+@@@
+S: ----|X---|--X-|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+K: (removed)
+H: (removed)
+@@@
+
+This provides a clear, rhythmic pattern with snare accents on beats 2 and 3, reflecting a straightforward rhythm suitable after removing hi-hat and kick.

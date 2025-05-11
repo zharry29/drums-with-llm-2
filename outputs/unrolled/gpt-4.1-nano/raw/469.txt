@@ -1,0 +1,42 @@
+Let's analyze the original groove:
+
+- **Kick (K):** plays on beats 1 and 3 with loud hits.
+- **Snare (S):** plays on beats 2 and 4 with hits.
+- **Hi-hat (H):** consistent closed hits on all four beats.
+- **Toms (T):** silent.
+- **Cymbals (C):** silent.
+- **Ride (R):** silent.
+
+**Request:** no snare or kick. So, remove the S and K lines entirely. 
+
+The remaining instruments are H, T, C, R. In the original, T, C, R lines are silent, so for a more interesting rhythm, I can assign a simple pattern to the cymbal or leave everything silent if desired.
+
+**Final plan:** keep only the hi-hat or create a minimal pattern with just the cymbal on beats 1 and 3.
+
+---
+
+### Final pattern:
+
+@@@
+K: (removed)
+S: (removed)
+H: x---|x---|x---|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+This keeps a basic steady closed hi-hat pattern, with no snare or kick, fulfilling the request.
+
+**Final answer:**
+
+``` 
+@@@
+K: (removed)
+S: (removed)
+H: x---|x---|x---|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+```

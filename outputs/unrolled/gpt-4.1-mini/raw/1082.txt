@@ -1,0 +1,56 @@
+The original hi-hat pattern is quite sparse:
+
+```
+H: ----|x---|----|x---
+```
+
+Only soft closed hits on the 1st 16th note of beats 2 and 4.
+
+---
+
+### Edit request:
+
+Make the hi-hat pattern more varied.
+
+---
+
+### Thought process:
+
+- Add more 16th note hits for rhythmic interest.
+
+- Use a combination of soft closed (`x`) and soft open (`o`) hits to add texture.
+
+- Create some syncopation using rests.
+
+---
+
+### Implementation plan:
+
+- Beat 1: `x-o-` (soft closed, rest, soft open, rest)
+
+- Beat 2: `x-xo` (soft closed, soft closed, soft open, rest)
+
+- Beat 3: `-x-o` (rest, soft closed, rest, soft open)
+
+- Beat 4: `x--o` (soft closed, rest, rest, soft open)
+
+---
+
+### Final hi-hat line:
+
+```
+H: x-o-|x-xo|-x-o|x--o
+```
+
+---
+
+### Final groove:
+
+@@@  
+K: ----|----|----|----  
+S: ----|----|----|----  
+H: x-o-|x-xo|-x-o|x--o  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

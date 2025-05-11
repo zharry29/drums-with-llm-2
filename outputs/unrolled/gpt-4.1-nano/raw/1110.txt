@@ -1,0 +1,133 @@
+Let's analyze the original groove:
+
+- The second beat spans notes 5 to 8.
+- The 'a' of '1 e & a' of the second beat is the last subdivision of beat 2, which corresponds to note 8.
+
+In the notation:
+- Each beat has 4 subdivisions.
+- Counting the characters from the start (excluding the '|'):
+  - Beat 1: notes 1-4
+  - Beat 2: notes 5-8
+  - Beat 3: notes 9-12
+  - Beat 4: notes 13-16
+
+The 'a' of beat 2 is note 8, the last subdivision of the second beat.
+
+---
+
+### What we need:
+- Add a cymbal hit (`O`) **at note 8**, the 'a' of beat 2.
+
+### Find the position:
+- The third group's last character (note 8) is the last character of the second beat, second group.
+
+Looking at the line for cymbals (`C`):
+
+`C: ----|----|----|----`
+- Character groups:
+  - After first '|': notes 1-4
+  - After second '|': notes 5-8
+  - After third '|': notes 9-12
+  - After fourth '|': notes 13-16
+
+So, the grouping:
+- First group: positions 1-4 (characters 1-4)
+- Second group: positions 5-8 (characters 6-9? Wait, considering total characters and '|', but easier to count directly).
+
+Total characters per line (excluding '|'):
+`----|----|----|----`: characters:
+
+Group 1: 4 chars (1-4)
+Group 2: 4 chars (6-9)
+Group 3: 4 chars (11-14)
+Group 4: 4 chars (16-19)
+
+Actually, counting directly:
+
+`----|----|----|----`
+- Without '|': `--------  --------  --------  --------`
+- Each group has 4 chars, so total 16 characters mapping to 16 sixteenths.
+
+Positionally:
+
+`C: ----|----|----|----`
+- Positions in string:
+  - 1-4: `----` (beat 1)
+  - 6-9: `----` (beat 2)
+  - 11-14: `----` (beat 3)
+  - 16-19: `----` (beat 4)
+
+(Note: spaces don't exist in actual notation, so counting string positions, ignoring '|')
+
+In the actual notation, counting the string excluding '|':
+`----|----|----|----`
+Total characters: 16
+
+Mapping to notes:
+
+Characters:
+Position: Content
+1: '-'
+2: '-'
+3: '-'
+4: '-'
+5: '|'
+6: '-'
+7: '-'
+8: '-'
+9: '-'
+10:'|'
+11:'-'
+12:'-'
+13:'-'
+14:'-'
+15:'|'
+16:'-'
+17:'-'
+18:'-'
+19:'-'
+20:'-'
+
+But better to think as:
+
+- Each group separated by '|'.
+- The second group (notes 5-8) are characters 6-9 after the first '|'.
+
+From the notation pattern:
+
+- The second beat's last subdivision (note 8) is the last character of the second group.
+
+In the original notation:
+
+`K: O---|O---|----|O---`  
+`S: ----|----|O---|----`  
+`H: ----|----|----|----`  
+`T: O-o-|O-o-|O-o-|O-o-`  
+`C: ----|----|----|----`  
+
+For the cymbal, in your provided line:
+
+`C: ----|----|----|----`
+
+We just need to change the last character of the second group (note 8) from '-' to 'O'.
+
+That is the 4th character of the second group. The second group (notes 5-8) spans characters 6-9, so the last character of that group is position 9.
+
+So, **alter the 9th character** in the string.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|--O-|----
+R: ----|----|----|----
+@@@
+```
+
+**Only change:** in the `C:` line, position 9 is changed from '-' to 'O' to place a cymbal hit on the 'a' of beat 2.

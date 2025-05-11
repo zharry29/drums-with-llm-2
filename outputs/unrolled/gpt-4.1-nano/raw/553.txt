@@ -1,0 +1,22 @@
+The instruction is to remove all snare (S) and tom (T) lines. The remaining patterns should only include kick (K), hi-hat (H), cymbal (C), and ride (R).
+
+- Remove the S line: `----|O---|----|O---`
+- Remove the T line: `----|----|----|----` (already silent, can omit)
+
+Remaining lines:
+- K: `O---|---o|O-O-|----`
+- H: `--o-|O-o-|O-o-|O-o-`
+- C: `O---|----|----|----`
+- R: `----|----|----|----` (silent)
+
+The final pattern should keep the patterns with instruments that are active and omit snare and toms:
+
+**Final version:**
+
+@@@
+K: O---|---o|O-O-|----
+H: --o-|O-o-|O-o-|O-o-
+C: O---|----|----|----
+@@@
+
+This meets the requirement to exclude snare and toms, only including the remaining active instruments.

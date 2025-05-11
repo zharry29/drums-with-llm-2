@@ -1,0 +1,29 @@
+Let's analyze the original groove:
+
+- Kick 'K': plays in various patterns.
+- Snare 'S': only in the third measure.
+- Hi-hat 'H': consistent pattern.
+- Toms 'T': plays on the third beat.
+- Cymbals 'C' and 'R': plays with open and soft hits in every measure.
+
+**Request:** Remove all toms ('T') and ride cymbal ('R') hits.
+
+Since 'T' and 'R' are present, I will remove their hits, which are indicated by characters in the lines.
+
+**Approach:**
+- Set all 'T' and 'R' line characters to '-' (no hits).
+
+---
+
+### Final edited groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+This version removes tom and ride cymbal hits, fulfilling the request, while keeping the rhythm and structure intact.

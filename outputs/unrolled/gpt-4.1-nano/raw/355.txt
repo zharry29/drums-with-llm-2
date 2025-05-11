@@ -1,0 +1,23 @@
+Let's analyze the original groove:
+
+- Kick 'K': all dashes, no hits.
+- Snare 'S': all dashes, no hits.
+- Hi-hat 'H': hits on beat 2 and 4 with soft open hi-hat ('x').
+- Toms 'T': all dashes.
+- Cymbals 'C': all dashes.
+- Ride 'R': hits on all four beats, with alternating open and closed hits ('x', 'X', 'x', 'X').
+
+**Request:** No kick or cymbal.
+
+**Approach:**  
+- Remove 'K' and 'R' lines altogether.
+- Keep 'H' and 'S' for rhythm.
+
+### Final edited groove:
+
+@@@
+S: ----|----|----|----
+H: ----|x---|----|x---
+@@@
+
+This version contains only snare and hi-hat, with no kick or cymbals, satisfying the request.

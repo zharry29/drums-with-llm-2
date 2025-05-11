@@ -1,0 +1,30 @@
+Let's analyze the original groove:
+
+- Kick 'K': no hits.
+- Snare 'S': no hits.
+- Hi-hat 'H': hits on beats 2 and 4 with soft closed hits ('x').
+- Toms 'T': no hits.
+- Cymbals 'R': hits on all four beats with mix of open and closed.
+- 'C' (crash cymbal): no hits.
+
+**Request:** Remove all toms ('T') and ride cymbal ('R') hits.
+
+Since 'T' has no hits, no change needed there. 'R' has hits, so I will remove those.
+
+**Approach:**
+- Set 'R' line to all dashes ('-'), meaning no hits from ride cymbal.
+
+---
+
+### Final edited groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+This removes all ride cymbal hits as requested, keeping the rest of the groove intact with the hi-hat pattern.

@@ -1,0 +1,44 @@
+Let's analyze the original groove:
+
+- Kick (K): plays on various beats with both hard and soft hits.
+- Snare (S): no hits.
+- Hi-hat (H): plays with a consistent x-x pattern on every eighth note.
+- Toms (T): plays on the third beat with a hard hit.
+- Cymbals (C): plays on every beat with hard hits.
+- Ride cymbal (R): silent.
+
+**Request:** Remove all hi-hat and kick (K and H).
+
+---
+
+### Step-by-step:
+
+1. Remove lines K and H.
+2. Keep the rest: S, T, C, R.
+3. Since S and R are silent, only T and C are playing.
+
+Toms have a hit in beat 3, C plays on all beats.
+
+---
+
+### Final pattern:
+
+@@@
+S: ----|----|----|----
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+K: (removed)
+H: (removed)
+@@@
+
+This pattern emphasizes cymbals and a tom hit on beat 3, after removing hi-hat and kick, creating a sparse but rhythmic sound.
+
+**Final answer:**
+
+@@@
+S: ----|----|----|----
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

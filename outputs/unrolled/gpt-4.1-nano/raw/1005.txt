@@ -1,0 +1,46 @@
+Let's analyze and plan the hi-hat part:
+
+**Current pattern:**
+`----|x---|----|x---`
+- No hi-hat on most notes.
+- The pattern involves soft open (`x`) hits at specific spots.
+
+**Instructions:**
+- Play **closed hi-hat (`X`)** on **all 8th notes** (positions 2, 4, 6, 8, 10, 12, 14, 16).
+- Open (`O`) on **every up beat** — these are the off-beats following downbeats, i.e., notes 2, 6, 10, 14.
+- Keep hits **hard**.
+- Use `X` for closed hits (hard), `O` for open hits (hard).
+
+### Strategy:
+- For **all 8th notes**: use `X` in the general case.
+- On the **up beats** (2, 6, 10, 14), switch to `O` to get open hi-hat.
+
+### Pattern:
+- 2: open `O`
+- 4: closed `X`
+- 6: open `O`
+- 8: closed `X`
+- 10: open `O`
+- 12: closed `X`
+- 14: open `O`
+- 16: closed `X`
+
+### Final notation:
+`-X--|-O--|-X--|-O--`
+
+---
+
+### Final drum groove:
+
+```plaintext
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: -X--|-O--|-X--|-O--
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+```
+
+This pattern satisfies the requirements: **closed hi-hat on all 8th notes**, **open on every up beat**, **hits are hard**.

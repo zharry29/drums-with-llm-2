@@ -1,0 +1,37 @@
+Let's analyze the original groove:
+
+- Kick (K): hits at the start of beat 1 and beat 3.
+- Snare (S): hits on beat 2 and beat 4.
+- Hi-hat (H): constant closed hits on every 16th note.
+- Toms (T): silent.
+- Cymbals (C): silent.
+- Ride (R): silent.
+
+**Request:** no cymbals or hi-hat.
+
+**Approach:**
+
+- Remove the H and C lines entirely.
+- Keep the kick and snare lines.
+- Toms and ride remain silent.
+
+**Result:**
+
+- The kick provides the foundation.
+- The snare accents beats 2 and 4.
+- No cymbals or hi-hat, creating a simple, straightforward rhythm.
+
+---
+
+### Final edited groove:
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+T: ----|----|----|----
+C: (removed)
+H: (removed)
+R: (removed)
+@@@
+
+This fulfills the request, keeping a clean, minimal rhythm with just kick and snare, excluding cymbals and hi-hat.

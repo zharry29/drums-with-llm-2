@@ -1,0 +1,31 @@
+Okay, so I need to help the user edit their drum groove by adding both cymbal and ride elements. Let me first understand the problem.
+
+The user provided a drum groove with specific instrument lines: K (Kick), S (Snare), H (Hihat), T (Toms), C (Crash cymbal), and R (Ride cymbal). The current groove doesn't have any cymbal or ride parts, so the task is to add those.
+
+Looking at the current groove:
+- **K (Kick)**: O--O|----|--O-|----
+- **S (Snare)**: ----|Oo-o|-o--|O--o
+- **H (Hihat)**: ----|----|----|----
+- **T (Toms)**: ----|----|----|----
+- **C (Crash cymbal)**: ----|----|----|----
+- **R (Ride cymbal)**: o-O-|o-O-|o-O-|o-O-
+
+The user wants to add both cymbal (C) and ride (R). From the notation, I know:
+- **C (Crash cymbal)**: O is a hard hit, o is a soft hit.
+- **R (Ride cymbal)**: O is a hard open hit on the bell, o is a soft open hit; X and x are hard and soft closed hits.
+
+I should add crash cymbal hits on beats 1 and 3 for a driving rhythm and ride cymbal hits on the off-beats to add texture. Let me adjust the lines accordingly.
+
+I'll update the C line to have hits on the first and third beats of each bar. For the R line, I'll add X on the off-beats to give a rhythmic pattern without overpowering the groove.
+
+So, the final groove will have crash cymbals on beats 1 and 3 and ride cymbals on the off-beats, enhancing the overall rhythm.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|O---|----
+R: x---|X---|x---|X---
+@@@

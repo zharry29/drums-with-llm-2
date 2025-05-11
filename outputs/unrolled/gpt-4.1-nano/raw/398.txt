@@ -1,0 +1,26 @@
+Let's analyze the original groove:
+
+- Kick 'K': plays on beats 1 (hard 'O'), 2 (soft 'o'), and 3 (alternating 'O' and 'o').
+- Snare 'S': plays on beat 2 and 4 with 'O'.
+- Hi-hat 'H': plays on all four beats with alternating open and closed hits ('o', 'O', 'o', 'O', etc.).
+- Toms 'T': silent.
+- Cymbals 'C': plays on beat 1 ('O').
+- Ride 'R': silent.
+
+**Request:** No snare ('S') and no toms ('T').
+
+- We'll replace the 'S' and 'T' lines with all '-' to silence them.
+
+Now, focusing on what remains: kick, hi-hat, cymbals, and ride (which is silent).
+
+### Final version:
+@@@
+K: O---|---o|O-O-|----
+S: ----|----|----|----
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+This is now the groove with snare and toms removed, keeping the kick, hi-hat, and cymbal pattern.

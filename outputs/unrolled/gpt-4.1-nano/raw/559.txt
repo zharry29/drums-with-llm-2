@@ -1,0 +1,21 @@
+The instruction is to remove the hi-hat (H) and ride (R) lines:
+
+- H line: `----|----|----|----` (already silent, so can be omitted)
+- R line: `----|----|----|----` (already silent, can be omitted)
+
+Remaining instruments:
+- K: `OOO-|--O-|OOO-|-OOO`
+- S: `----|O---|----|O---`
+- C: `O---|O---|O---|O---`
+
+Since C (cymbal) is active, we include it. We will keep only K, S, and C lines.
+
+**Final groove:**
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+C: O---|O---|O---|O---
+@@@
+
+This version excludes hi-hat and ride, as requested.

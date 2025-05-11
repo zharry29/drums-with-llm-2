@@ -1,0 +1,22 @@
+The task is to remove all ride cymbal (R) and toms (T).  
+- The T line is: `----|----|----|----` — remove it entirely.  
+- The R line is: `x---|X-x-|x---|X-x-` — remove it as well.
+
+Remaining instruments:
+- Kick (K): `o---|--o-|o---|--o-`
+- Snare (S): `----|X---|--X-|----`
+- Hi-hat (H): `----|x---|----|x---`
+- Cymbals (C): `----|----|----|----` — all silence, so can be omitted or set to silent.
+
+Since only the kick, snare, and hi-hat remain, I will keep their pattern. The pattern already has some subtle accents with the snare and kick, and hi-hat maintaining rhythm. No need for cymbals unless desired for a crash.
+
+Here's the cleaned-up version:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+C: (omit or leave silent)
+@@@
+
+This version respects the removal of ride and tom, maintains a rhythmic pattern, and is ready to use.

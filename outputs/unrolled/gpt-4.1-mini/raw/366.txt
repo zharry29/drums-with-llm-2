@@ -1,20 +1,28 @@
-The request is to remove cymbal and ride hits.
+The original groove has these lines:
 
----
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
 
-**Thought process:**  
-- Hi-hat (H) contains soft closed hits (`x`), which are cymbals → remove by replacing with `-`.  
-- Ride (R) contains closed hits (`x`, `X`) → remove by replacing with `-`.  
-- Kick (K), Snare (S), Toms (T), and Crash (C) are empty lines so no changes needed.
+The request is: "I don't want any cymbal or ride."  
+Cymbal lines are C and R. So I need to remove all hits from those lines.
 
----
+Let's replace C and R lines with all dashes:
+
+C: ----|----|----|----  
+R: ----|----|----|----
+
+The other lines stay the same as no further changes requested for them.
 
 Final groove:
 
 @@@
 K: ----|----|----|----
 S: ----|----|----|----
-H: ----|----|----|----
+H: ----|x---|----|x---
 T: ----|----|----|----
 C: ----|----|----|----
 R: ----|----|----|----

@@ -1,0 +1,28 @@
+Let's analyze the drum groove and reduce the number of notes to produce a sparser pattern.
+
+Current groove summary:
+
+- Kick (K): Hits at positions 1, 4, and 11.
+- Snare (S): Hard and soft hits spread across beats 2, 3, and 4.
+- Hi-hat (H): Hard and soft closed hits alternating every 8th note.
+- Toms (T): No hits.
+- Crash (C): No hits.
+- Ride (R): No hits.
+
+Plan for simplification:
+
+- Kick: Keep just the first kick on position 1.
+- Snare: Keep only the hard hit on beat 4 (position 13).
+- Hi-hat: Keep only one hit per bar (position 1).
+- Remove all other hits, making groove lighter but still musical.
+
+Final simplified groove:
+
+@@@
+K: O---|----|----|----
+S: ----|----|----|O---
+H: X---|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

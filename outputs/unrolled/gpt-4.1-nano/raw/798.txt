@@ -1,0 +1,31 @@
+**Thought process:**
+
+- Original groove features:
+  - Kick (K): soft hits (`o`) on the first and second subdivisions of the first beat, and on the second beat
+  - Snare (S): hits at second and third subdivisions in the second beat
+  - Hi-hat (H): closed hits on the second and fourth subdivisions
+  - Toms (T): silent
+  - Crash (C): silent
+  - Ride (R): mix of open and closed hits, with x's on the second beat
+  
+- Request:
+  - Add a tom hit and a ride in the very beginning.
+  
+- Implementation:
+  - Add a tom hit (`O`) at the first subdivision in T.
+  - Add a ride hit (`O`) at the first subdivision in R.
+  
+---
+
+**Final edited groove:**
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: O---|----|----|----
+C: ----|----|----|----
+R: O---|X-x-|x---|X-x-
+@@@
+
+**This includes a tom hit and a ride hit at the beginning, per the request.**

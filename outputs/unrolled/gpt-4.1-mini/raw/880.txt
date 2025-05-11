@@ -1,0 +1,30 @@
+Let's look at the snare hits and check if any are on downbeats 2 or 4.
+
+The bar has 16 sixteenth notes, grouped in four beats of 4 notes each.
+
+- Downbeat 2 is the 5th sixteenth note (first character after the first "|").
+- Downbeat 4 is the 13th sixteenth note (first character after the third "|").
+
+Snare line:
+
+```
+S: ----|----|O---|----
+```
+
+Positions:
+
+- Downbeat 2 (5th char): the first char of second group, snare is `-` (no hit).
+- Downbeat 4 (13th char): first char of fourth group, snare is `-` (no hit).
+  
+The only snare hit is at the 9th character (first char of third group), which is **not** a downbeat 2 or 4.
+
+Therefore, no snare hits on downbeats 2 and 4 exist, so no changes are needed.
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

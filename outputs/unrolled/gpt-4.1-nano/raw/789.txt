@@ -1,0 +1,31 @@
+**Thought process:**
+
+- Original groove:
+  - Kick (K): all silent
+  - Snare (S): all silent
+  - Hi-hat (H): open hit on second beat, second subdivision; open hit on fourth beat, first subdivision
+  - Toms (T): all silent
+  - Crash (C): all silent
+  - Ride (R): alternating bell and bow hits, some closed hits
+  
+- Request:
+  - Add a cymbal hit and ride in the very beginning.
+  
+- Implementation:
+  - Add a crash cymbal (`O`) in C line at the first beat.
+  - Add a ride cymbal (`O`) in R line at the first beat.
+
+---
+
+**Final notation:**
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: O---|X-x-|x---|X-x-
+@@@
+
+**This includes a cymbal and a ride hit at the very beginning, fulfilling the request.**

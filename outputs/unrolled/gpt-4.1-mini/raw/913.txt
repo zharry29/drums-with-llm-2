@@ -1,0 +1,34 @@
+The request is to drop out everything in the **second beat**, which corresponds to the 5th to 8th characters in each line.
+
+Looking at the original groove:
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+The second beat contents for each line are:
+
+- K: `OO--` → replace with `----`
+- S: `----` → already empty
+- H: `x-x-` → replace with `----`
+- T: `----` → unchanged
+- C: `O---` → replace with `----`
+- R: `----` → already empty
+
+---
+
+Final groove:
+
+@@@
+K: -O--|----|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|----|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|----|O---|O---
+R: ----|----|----|----
+@@@

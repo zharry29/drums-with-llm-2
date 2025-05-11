@@ -1,0 +1,46 @@
+Let's review the current groove:
+
+- **K (Kick):** `O---|O---|----|O---` — kick hits on beats 1, 2, and 4.
+- **S (Snare):** `----|----|O---|----` — snare on beat 3.
+- **H (Hi-hat):** `----|----|----|----` — no hi-hat hits.
+- **T (Toms):** `O-o-|O-o-|O-o-|O-o-` — tom hits on all four beats, with mixed articulation.
+- **C (Crash):** `----|----|----|----` — none.
+- **R (Ride):** `----|----|----|----` — none.
+
+**Request:** No tom on beat 4.
+
+- The T line contains hits on all beats, including beat 4, with pattern `O-o-` repeated.  
+
+**Solution approach:**
+
+- To remove toms from beat 4, we need to eliminate tom hits on the fourth beat.
+
+- Currently, the tom pattern is the same for each beat: `O-o-`.
+
+- The third beat has the tom hits at first and third position (`O` and `O`), and last and second doesn't matter for this specific beat's articulation.
+
+- To remove tom hits from beat 4, replace the pattern in the last segment with something that has no tom hits.
+
+**Implementation:**
+
+- Change the last beat's `O-o-` to `----`, removing any tom hits on beat 4.
+
+- The other beats stay unchanged.
+
+---
+
+### Final groove:
+
+```plaintext
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+**Summary:**  
+Only the last beat's tom pattern has been replaced with `----`, removing any tom hits from beat 4, while everything else remains unchanged.

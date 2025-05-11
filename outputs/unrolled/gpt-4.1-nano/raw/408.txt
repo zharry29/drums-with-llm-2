@@ -1,0 +1,38 @@
+Let's analyze the original groove:
+
+- Kick (K): hits on the first, third, and last beats.
+- Snare (S): plays on the third beat.
+- Hi-hat (H): plays on every eighth note with soft open hits.
+- Toms (T): plays on every other eighth note (alternating o and O, with O-o pattern).
+- Cymbals (C and R): silent.
+
+**The request is to remove all hi-hat (H) and cymbals (C and R).**
+
+This leaves us with only kick and snare, and the toms pattern (which is quite active). Since the user wants no cymbals or hi-hat, the simplest approach is:
+
+- Keep the kick pattern.
+- Keep the snare on the third beat.
+- Keep the tom pattern.
+- Remove the hi-hat and cymbals.
+
+The original completes with:
+
+K: O---|O---|----|O---  
+S: ----|----|O---|----  
+H: ----|----|----|---- (remove)  
+T: O-o-|O-o-|O-o-|O-o-  
+C: ----|----|----|---- (remove)  
+R: ----|----|----|---- (remove)
+
+Final version:
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+T: O-o-|O-o-|O-o-|O-o-
+H: (removed)
+C: (removed)
+R: (removed)
+@@@
+
+This keeps the active kick and snare, along with the lively tom pattern, and removes all hi-hat and cymbal sounds as requested.

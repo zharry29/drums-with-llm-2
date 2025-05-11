@@ -1,0 +1,22 @@
+The request is to remove snare hits on beat 4 (positions 13-16) and leave everything else unchanged.
+
+Let's look at the snare (S) line on beat 4:
+
+- Beat 4 (positions 13-16): `O--o` → there is a hard snare hit ('O') on the first 16th note of beat 4 and a soft open snare hit ('o') on the fourth 16th note of beat 4.
+
+To remove snare hits on beat 4, replace these four characters with `----`.
+
+All other lines remain unchanged.
+
+---
+
+Final groove:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

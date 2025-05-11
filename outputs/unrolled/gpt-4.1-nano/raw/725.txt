@@ -1,0 +1,26 @@
+**Thought process:**
+
+- The original groove has a hi-hat pattern `----|x---|----|x---`, with hits on the second and last beats but no initial hit.
+- The request specifies adding a hi-hat hit and a cymbal in the very beginning.
+- For the hi-hat, I will add a soft closed hit (`x---`) on the first beat.
+- For the cymbal, which is not present in the original, I will add a crash cymbal hit, `O---`, at the very start of the groove, or the first beat of the C line.
+
+**Implementation plan:**
+
+- Change the first beat of the hi-hat (H) from `----` to `x---`.
+- Change the first beat of the cymbal (C) from `----` to `O---`.
+
+---
+
+**Final groove:**
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: x---|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+This now has a hi-hat hit `x---` and a cymbal `O---` at the very beginning, fulfilling the request.

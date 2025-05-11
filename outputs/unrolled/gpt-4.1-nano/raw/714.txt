@@ -1,0 +1,28 @@
+**Thought process:**
+
+- The goal is to add a hi-hat hit and a ride cymbal hit at the very beginning.
+- The current groove has no hi-hat activity (`H`) at all, so I will add a hi-hat hit (`x---`) in the first beat.
+- The ride cymbal (R) in the first beat is `----`; I'll replace that with `X---` to add a hard ride hit.
+- The other instruments stay unchanged.
+
+---
+
+**Implementation:**
+
+- H: change from `----` to `x---` for the first beat.
+- R: change from `----` to `X---` for the first beat.
+
+---
+
+**Final groove:**
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: x---|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: X---|----|----|----
+@@@
+
+**Note:** The initial hi-hat and ride cymbal hits are now added, fulfilling the request.

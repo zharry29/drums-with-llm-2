@@ -1,52 +1,49 @@
-Let's analyze the current groove:
+Let's analyze the original groove:
 
-- **Kick (K):** hits on beats 1 ("O--O") and 3 ("--O-")
-- **Snare (S):** hits on beats 2 and 4 with some variations ("Oo-o", "-o--", "O--o")
-- **Hi-hat (H):** silent
-- **Toms (T):** silent
-- **Cymbals (C):** silent
-- **Ride (R):** hits on all beats with alternating open and closed ("o-O-", "o-O-", "o-O-", "o-O-")
+- Kick 'K': O--O|----|--O-|----
+  - Kick on beats 1, 3.
+- Snare 'S': ----|Oo-o|-o--|O--o
+  - Snare hits on beats 2 and 4, with some variation.
+- Hi-hat 'H': ----|----|----|----
+  - No hi-hat activity.
+- Toms 'T': ----|----|----|----
+  - No toms.
+- Cymbals 'C': ----|----|----|----
+  - No cymbals.
+- Ride 'R': o-O-|o-O-|o-O-|o-O-
+  - Cymbal pattern on all beats.
 
-### New instructions:
-- No hi-hat or toms.
+### Requests:
+- Remove hi-hat 'H' and tom 'T'.
+- Keep kick and snare parts as is, or possibly simplify.
 
-### Approach:
-- Remove the H and T lines.
-- Keep the kick pattern.
-- Since the snare is included in the groove, and the user only said no hi-hat/toms, I will keep the snare.
-
-### Final plan:
-- Retain the existing kick, snare, and ride lines, but since ride is not wanted, remove it.
-- Keep the kick and snare as in the original.
+### Strategy:
+- Focus on kick and snare for a more straightforward rhythm.
+- The ride cymbal can stay since it's a different instrument, but the instruction is to remove hi-hat and toms only, so we keep cymbals intact.
+- Simplify snare hits if necessary for clarity.
 
 ---
 
+### Final plan:
+- Keep the kick pattern as in the original.
+- Keep the snare pattern, but possibly make it more rhythmically consistent.
+- Remove any other percussion instruments not desired.
+
 ### Final groove:
 
-```plaintext
 @@@
 K: O--O|----|--O-|----
-S: ----|Oo-o|-o--|O--o
-C: ----|----|----|----
-R: ----|----|----|----
-T: ----|----|----|----
+S: ----|O---|----|O---
 H: ----|----|----|----
-@@@
-```
-
-**Note:** I will remove the hi-hat (H) and ride (R) lines, as requested.
-
-### Final version:
-
-```plaintext
-@@@
-K: O--O|----|--O-|----
-S: ----|Oo-o|-o--|O--o
-C: ----|----|----|----
-R: ----|----|----|----
 T: ----|----|----|----
-H: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
 @@@
-```
 
-This leaves the core groove (kick and snare) intact, with no hi-hat or toms, fulfilling your request.
+**Explanation:**
+- The kick remains strong on beats 1 and 3.
+- The snare hits on beats 2 and 4, giving a standard backbeat.
+- No hi-hat or toms.
+- Keep the cymbals as they are.
+
+This provides a simple, solid rhythm aligned with the request.

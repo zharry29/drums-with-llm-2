@@ -1,0 +1,30 @@
+Let's analyze the current groove.
+
+- **K (Kick):** `----|----|----|----` – no hits.
+- **S (Snare):** `----|----|----|----` – no hits.
+- **H (Hi-hat):** `----|x---|----|x---` – hi-hat hits on beat 2 and beat 4 at position 1 of segments 2 and 4.
+- **T (Toms):** `----|----|----|----` – none.
+- **C (Crash):** `----|----|----|----` – none.
+- **R (Ride):** `x---|X-x-|x---|X-x-` – ride hits on all four beats, including beat 4.
+
+**The request:** No hi-hat on beat 4.
+
+**Observation:**  
+The hi-hat hits are on beat 2 and beat 4 (segment 2 and 4), specifically at the first position of those segments. To remove hi-hat on beat 4, we need to change the last segment's hi-hat pattern from `x---` to `----`.
+
+---
+
+### Final edited groove:
+
+```plaintext
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+```
+
+*This removes the hi-hat hit on beat 4 while keeping everything else intact.*

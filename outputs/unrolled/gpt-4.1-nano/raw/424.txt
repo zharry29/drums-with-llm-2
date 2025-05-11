@@ -1,0 +1,28 @@
+Let's analyze the original groove:
+
+- Kick (K): hits on beat 1 and 3 with soft and hard hits.
+- Snare (S): hits on beats 2 and 4 with various articulations.
+- Hi-hat (H): continuous closed hits on every eighth note.
+- Toms (T): silent.
+- Cymbals (C and R): silent.
+
+**Request: remove all toms and kick parts.**
+
+Steps:
+
+1. Remove lines K and T.
+2. Keep the snare and hi-hat, as they contribute rhythm.
+3. Since the original groove has hi-hat playing throughout, and snare hits on beats 2 and 4, we can maintain the snare pattern and hi-hat pattern for rhythm continuity.
+
+**Resulting pattern:**
+
+@@@
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+C: ----|----|----|----
+R: ----|----|----|----
+K: (removed)
+T: (removed)
+@@@
+
+This maintains the snare accents on the backbeats, with the hi-hat giving a steady pulse, while removing kick and toms as per the request.

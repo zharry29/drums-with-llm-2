@@ -1,0 +1,20 @@
+The instruction is to remove all cymbal (C, R) and kick (K) lines.
+
+- Remove the C line: `----|----|----|----` (already silent)
+- Remove the K line: `O---|----|O---|----`
+
+Remaining instruments:
+- S (snare): `----|O---|----|O---`
+- H (hihat): `X---|X---|X---|X---`
+- T (toms): `----|----|----|----` (silent and can be omitted)
+
+Since cymbals and kick are to be removed, only the snare and hi-hat contribute to the rhythm.
+
+**Final version:**
+
+@@@
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+@@@
+
+This preserves a rhythmic pattern with snare and hi-hat, and adheres to the request to exclude cymbals and kick.
