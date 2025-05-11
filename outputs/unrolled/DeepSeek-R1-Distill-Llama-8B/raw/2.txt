@@ -1,23 +1,37 @@
-Okay, so I need to add some tom to this drum groove. Let me first understand what the current groove looks like. 
+Alright, so I'm trying to figure out how to add some tom to this drum groove. Let me start by understanding the existing structure and what the user wants.
 
-Looking at the T: Toms line, it's currently set to O-o- on each beat. That seems like a soft hit on each tom. But the user wants to add some tom, so maybe I should add a hard hit as well to give it more dynamics.
+First, looking at the drum notation provided, each line represents a different drum or cymbal. The beats are separated by |, and each section within the | represents a beat. There are four beats per bar, each consisting of 16 notes. So, each | separates one beat, and each character within that represents a 16th note.
 
-I remember that in the drum notation, T uses O for a hard hit and o for a soft hit. So maybe I can change some of the o's to O's to make the tom hits more prominent.
+The user wants to add some tom to the groove. Toms are typically the T and R lines in this notation. The existing T line has some o-o hits, which I think are soft hits. To add tom, I should introduce harder hits, maybe O's, to make it more prominent.
 
-Let me look at each beat. The first beat is O-o-, so maybe I can make the first O a hard hit and the o a soft hit. That would be O-o-. Wait, that's already what it is. Maybe I need to vary it more, like having a hard hit and then a soft hit alternatively.
+Looking at the current T line: T: O-o-|O-o-|O-o-|O-o-. This seems to be a continuous O-o pattern across all four beats. To add tom, perhaps I can introduce O hits in specific beats where it won't clash with the existing patterns.
 
-So, perhaps I can change the first beat to O---, making it a strong, hard hit, and the second beat to ---O, a soft hit, and the third beat back to O---, and the fourth beat to ---O. That way, the toms have a nice rhythm with a mix of hard and soft hits.
+Maybe in the first beat, I can change the O-o to O-O. That way, the tom is more consistent and adds a stronger presence. Then, in the second beat, it's already O-o, so maybe leave it as is. For the third beat, I can add another O, making it O-o-O. And in the fourth beat, maybe switch to O-O.
 
-Let me check if that makes sense. So, the T line would go from O-o-|O-o-|O-o-|O-o- to O---|---O|O---|---O. That should add some variation and more tom presence.
+So, the updated T line would be: T: O-O|O-o|O-o-O|O-O.
 
-I think that's a good approach. Now, I'll update the T line accordingly and make sure the rest of the groove remains unchanged.
+I need to make sure that the changes don't interfere with the other instruments. The Kick, Snare, Hihat, Crash, and Ride lines seem to be consistent, so adding O's in the T line should be fine.
+
+Let me double-check each beat:
+
+1. First beat: O-O (hard tom on the first note, then another hard tom on the second note).
+2. Second beat: O-o (existing soft hit, so I'll keep it).
+3. Third beat: O-o-O (soft hit followed by two hard toms).
+4. Fourth beat: O-O (two hard toms).
+
+This should add a nice tom presence without overlapping with other instruments. I think this makes the groove more dynamic and adds some energy to the rhythm.
 </think>
 
-@@@  
-K: O---|----|----|----  
-S: ----|----|----|----  
-H: ----|----|----|----  
-T: O---|---O|O---|---O  
-C: ----|----|----|----  
-R: ----|----|----|----  
+To add some tom to the groove, I'll enhance the Toms (T) line by introducing harder tom hits in a way that complements the existing patterns without conflicting with other instruments.
+
+Final edited drum groove:
+
+@@@
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-O|O-o|O-o-O|O-O
+C: ----|----|----|----
+R: ----|----|----|----
 @@@

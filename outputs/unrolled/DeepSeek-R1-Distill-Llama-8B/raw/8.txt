@@ -1,27 +1,28 @@
-Okay, so I need to add some tom to this drum groove. Let me first understand what the current groove looks like. The user provided the notation for each instrument, so I should review that to know how to represent the Toms correctly.
+Okay, so I need to add some tom to this drum groove. Let me see what the current groove looks like. The user provided the drum notation with each instrument line, and I need to focus on the Toms (T) line to add some tom. 
 
-Looking at the Toms section, T: O is a hard hit, while o is a soft hit. So, I need to figure out where to place the O's and o's in the bar to add some tom. The current T section is:
+Looking at the Toms line: it's currently all dashes except for the fourth beat, which has a "---O". That seems a bit sparse. I want to add more tom hits without making it too busy. Maybe I can introduce some tom hits on the first and third beats of each section. 
 
-T: ----|----|---O|----
+Let me recall the rules for drum notation. Each section is separated by a |, and each four characters make a beat. So, each section has four beats. The Toms line has four sections, each with four beats. Right now, the Toms are only playing on the fourth beat of each section with a soft hit (o). I need to add harder hits (O) on the first and third beats. 
 
-That means in the first beat, there's nothing, the second beat has nothing, the third beat has a ---O, which is a hard hit, and the fourth beat has nothing. To add some tom, I can introduce o's in the first and second beats, making it more dynamic.
+Wait, but the user's previous examples used O for hard hits and o for soft. So, I should use O for harder tom hits and maybe keep o for the existing soft hits. But I need to make sure I don't conflict with other instruments. Let me check the Kick, Snare, Hihat, Crash, and Ride lines to ensure no overlaps. 
 
-So, I can change it to:
+The Kick is playing on the first and third beats with O and o respectively. The Snare is playing on the second and fourth beats with X and o. Hihat is playing on every beat with x. Crash and Ride are not playing on the first section, so adding Toms there should be fine. 
 
-T: o---|----|---O|----
+So, I'll modify the Toms line to have O on the first and third beats of each section. That should add a nice tom presence without conflicting with other instruments. Let me write that out. Each section will go from ----| to O---| for the first beat, then ---O| for the second beat, then O---| for the third beat, and ---O| for the fourth beat. 
 
-This way, the first beat has a soft hit (o), the second beat is empty, the third beat has a hard hit (O), and the fourth beat is empty. This should add some tom without overcomplicating the groove.
+Wait, no, each section is four beats, so I need to adjust each beat accordingly. Let me structure it properly. 
 
-I should check if this fits well with the other instruments. The Kick drum is -O--|OO--|---O|-OO-, which has O's in the second and fourth beats. The Snare drum is ----|----|S---|----, so the third beat has a S---, which is a snare hit. The Hihat is x-x-|x-x-|x-x-|x-x-, which is continuous, and the Crash and Ride cymbals are O---|O---|O---|O--- and ----|----|----|---- respectively.
+First section: O---| (first beat), then ---O| (second beat), then O---| (third beat), then ---O| (fourth beat). Repeating this for each of the four sections in the Toms line. 
 
-Adding o's in the Toms should complement the existing groove without conflicting. I think this change will add the necessary tom without disrupting the overall structure.
+That should add the necessary tom without conflicting with other parts of the groove. I think that's a good approach. Let me make sure I didn't miss any details in the notation. Each character represents a 16th note, and the | separates beats. Okay, I think I've got it.
 </think>
 
-@@@  
-K: -O--|OO--|---O|-OO-  
-S: ----|----|S---|----  
-H: x-x-|x-x-|x-x-|x-x-  
-T: o---|----|---O|----  
-C: O---|O---|O---|O---  
-R: ----|----|----|----  
+@@@
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: O---|---O|O---|---O
+C: O---|O---|O---|O---
+R: ----|----|----|----
 @@@

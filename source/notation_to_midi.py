@@ -52,6 +52,7 @@ def notation_to_midi(notation, out_fname, bpm=120, fname="temp"):
             if char != '-':
                 start = i * step_length
                 end = start + step_length * 0.8  # short duration for drums
+                midi_pitch = 0
                 if drum_name == 'K':
                     if char == 'O':
                         midi_pitch = 36
@@ -96,12 +97,16 @@ def notation_to_midi(notation, out_fname, bpm=120, fname="temp"):
                         midi_pitch = 33
                 else:
                     midi_pitch = 0
-                note = pretty_midi.Note(
-                    velocity=100,  # velocity does not matter
-                    pitch=midi_pitch,
-                    start=start,
-                    end=end,
-                )
+                try:
+                    note = pretty_midi.Note(
+                        velocity=100,  # velocity does not matter
+                        pitch=midi_pitch,
+                        start=start,
+                        end=end,
+                    )
+                except UnboundLocalError:
+                    print(f"UnboundLocalError: {char} not found in drum map.")
+                    return
                 drum.notes.append(note)
 
     # Add the drum instrument to the MIDI object

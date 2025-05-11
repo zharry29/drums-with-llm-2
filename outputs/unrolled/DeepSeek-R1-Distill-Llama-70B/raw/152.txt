@@ -1,0 +1,38 @@
+Alright, let's tackle this drum groove edit. The user has provided a specific notation system for drum beats, and I need to modify the given groove to include both hihat and snare. 
+
+First, I'll look at the original groove:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+From this, I can see that the kick drum (K) has hits on beats 1, 2, and 4. The snare drum (S) only has a hit on beat 3. The hihat (H) isn't being used at all, which is what the user wants to change. The toms (T) are playing a rhythm on every beat, and the crash (C) and ride (R) cymbals are inactive.
+
+The user's request is to have a groove that includes both hihat and snare. So, my main focus is to add hihat patterns and ensure the snare is also present. 
+
+I'll start by thinking about the hihat. In drum grooves, the hihat usually provides the rhythmic foundation, often playing on off-beats or in a steady 8th-note pattern. Since the user wants the hihat to be active, I'll consider a common pattern where the hihat is played on every 8th note, which translates to every character in the 16th-note grid. 
+
+Looking at the current groove, the hihat line is all dashes, meaning it's not being played. I'll change that by adding 'x' characters to indicate soft closed hits on the hihat. A steady 8th-note pattern would look like x-x-x-x-x-x-x-x | x-x-x-x-x-x-x-x | x-x-x-x-x-x-x-x | x-x-x-x-x-x-x-x. This will give a consistent rhythm without overpowering the other instruments.
+
+Next, the snare drum. In the original groove, the snare is only on beat 3. To make the groove more dynamic and include the snare as per the request, I'll add snare hits on beats 2 and 4 as well. This creates a backbeat pattern, which is common in many genres. So, the snare line will change from ----|----|O---|---- to ----|O---|----|O---.
+
+I'll also adjust the kick drum to complement the snare and hihat. The original kick is on beats 1, 2, and 4. To make it more driving, I'll add a kick on the 'and' of beat 1 (the second 16th note), making it O-o---|O---|----|O---. This adds a subtle variation without clashing with the snare.
+
+The toms are currently playing a steady O-o- pattern on every beat. To simplify the groove and let the hihat and snare take the forefront, I'll remove the toms. So, the T line will be all dashes: ----|----|----|----.
+
+Finally, the crash and ride cymbals are not needed in this groove since the focus is on the rhythm section (kick, snare, hihat). I'll keep them inactive.
+
+Putting it all together, the new groove will have a steady hihat pattern, snare on beats 2 and 4, a dynamic kick drum, and inactive toms, crash, and ride cymbals. This should fulfill the user's request of having a groove with both hihat and snare.
+</think>
+
+@@@  
+K: O-o---|O---|----|O---  
+S: ----|O---|----|O---  
+H: x-x-x-x-x-x-x-x|x-x-x-x-x-x-x-x|x-x-x-x-x-x-x-x|x-x-x-x-x-x-x-x  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

@@ -1,0 +1,227 @@
+Okay, let me try to figure out how to add some tom hits to this drum groove. First, I need to look at the existing instruments to see where the toms can fit without clashing. The given groove has kick (K), snare (S), hihat (H), crash (C), and no ride or toms yet.
+
+Looking at the kick line: "-O--|OO--|---O|-OO-". There are some patterns here, like the second beat has two Os. The snare is only on the third beat with an S, which might be a typo since the user mentioned S is for snare, but in their example, they used 'S' which isn't part of the notation rules. Wait, actually in the notation rules for S, the characters are O, o, X, x. The user might have made a mistake here, but I'll proceed assuming maybe it's a typo and they meant O or another valid character. Alternatively, maybe it's a placeholder. Hmm, maybe I should ignore that for now and focus on adding toms.
+
+The hihat is steady with x's, which are closed hits. The crashes are on every beat. The user wants to add toms. Toms use O and o. I need to place them in places that complement the existing parts.
+
+Looking at each beat:
+
+First beat: "-O-- | OO-- | ---O | -OO-"
+Toms are empty. Let's see where to add. Maybe on the offbeats. For example, in the first beat, after the kick on the second 16th note, maybe a tom on the third or fourth? But need to check the snare and hihat. The hihat is x throughout, so maybe toms can be placed where there's space.
+
+Alternatively, in the third beat, there's a kick on the fourth 16th note and a snare on the third beat's third 16th note (assuming S is on the third beat's third note). Maybe adding toms on the offbeats where there's no kick or snare.
+
+Let me try to map it out:
+
+Original T line is all dashes. Let's start by adding some Os or os where it makes sense.
+
+First beat: "-O-- | OO-- | ---O | -OO-"
+Maybe on the first beat's third 16th note (since the kick is on the second), add a tom. Like "-O-O | ... but maybe not. Alternatively, in the second beat, between the two Os, maybe a tom? Or in the third beat after the kick? Hmm.
+
+Alternatively, maybe a tom on the & of each beat. Let's see:
+
+First beat: positions 1-4 (16th notes). The kick is on the second (position 2). Adding a tom on position 4? So "-O-- becomes -O-O? Wait, but the first beat is "-O--", so maybe position 4 could have a tom. So first beat's T line: "-O--" becomes "-O-O"? Not sure.
+
+Alternatively, maybe a tom on the third 16th note of each beat. Let's try:
+
+For each beat:
+
+Beat 1: positions 1-4: kick on 2. Tom on 3? So T: "-O-O ?
+
+Beat 2: "OO--" (positions 5-8). Kicks on 5 and 6. Maybe tom on 7 or 8? Like OO-O ?
+
+Beat 3: "---O" (positions 9-12). Kick on 12. Maybe tom on 10 or 11?
+
+Beat 4: "-OO-" (13-16). Kicks on 14 and 15. Maybe tom on 13 or 16?
+
+Alternatively, a steady tom pattern, like every other 16th note. Let me think of a simple pattern that doesn't clash. Maybe on the "&" of each beat. For example, in each beat, the third 16th note (the "&" of the beat). So for each beat's third note.
+
+First beat: position 3: tom O.
+
+Second beat: position 7 (third note of second beat, which is the 7th 16th note overall). But the second beat's K is OO-- so positions 5-8: kick on 5 and 6. So position 7 could be a tom.
+
+Third beat: position 11 (third note of third beat, positions 9-12, so 11 is third). The kick is on 12, so 11 is okay.
+
+Fourth beat: position 15 (third note of fourth beat, 13-16, so 15 is third). The kicks are on 14 and 15? Wait, fourth beat's K is "-OO-", so positions 13-16: kick on 14 and 15. So position 15 is a kick. So maybe position 13 or 16 instead?
+
+Hmm. Let's try:
+
+T line would be:
+
+First beat: -O-- becomes -O-O (adding O on 4th 16th note? Not sure.
+
+Alternatively, maybe:
+
+T: -O-- | O--- | ---O | -O--
+
+Wait, this is getting confusing. Maybe a simpler approach: add a tom hit on the third 16th note of each beat (the "&" of the beat's first 16th). So in each beat, the third note.
+
+First beat: positions 1-4. Third note (position 3): O
+
+Second beat (positions 5-8): third note (position 7): O
+
+Third beat (9-12): third note (11): O
+
+Fourth beat (13-16): third note (15): but that's where kick is? The fourth beat's K is "-OO-", so positions 14 and 15 are kicks. So position 15 is a kick. So maybe the fourth tom on 14? Or maybe on 16?
+
+Alternatively, skip the fourth beat's third note and put it on 16.
+
+So the T line would be:
+
+First beat: -O-O (positions 1,2,3,4: tom on 3)
+
+Second beat: --O- (positions 5-8: tom on 7)
+
+Third beat: --O- (positions 9-12: tom on 11)
+
+Fourth beat: ---O (positions 13-16: tom on 16)
+
+Putting it all together:
+
+T: -O-O | --O- | --O- | ---O
+
+But need to check the original S line. The S line in the given groove has "S---" on the third beat. Wait, the user's example for S has X and x, but here they have S. Maybe it's a typo, but assuming it's a snare hit. So in the third beat's third note (position 11), if the S is there, then the tom can't be there. Wait, the S line is "S---|", so the third beat's first note (position 9) is S? Or is it third note?
+
+Wait, the third beat's S line is "S---", which would mean the first note of the third beat (position 9) is an S (snare). So the third beat's third note (position 11) is dash, so it's okay. So tom on 11 is okay.
+
+So T line would be:
+
+First beat: -O-- becomes -O-O (adding O on 3rd 16th)
+
+Second beat: OO-- becomes O-O- (adding O on 7th 16th? Wait, second beat's T line is "|OO--" so the second beat's K is OO--, so positions 5-8. To add a tom on the third note (position 7), so second T section would be |--O- ?
+
+Wait, maybe I should write each beat's T section:
+
+Beat 1: T: -O-- (original) → add O on 3rd → -O-O
+
+Beat 2: T: ---- → add O on 7th (third note of beat 2) → --O- ?
+
+Wait, the second beat's T line was originally "----", so to add a tom on the third note (position 7), it would be "--O-".
+
+Third beat's T: originally "---O". Adding a tom on the third note (position 11) → "--O-O? Wait, the third beat's T is four characters. Original is "---O", so positions 9-12. Adding a tom on the third (position 11) would make it "--O-".
+
+Fourth beat's T: originally "----", so adding a tom on the fourth note (position 16) → "---O".
+
+Putting all together:
+
+T: -O-O | --O- | --O- | ---O
+
+Wait, let me check each beat's T sections:
+
+Beat 1: T's first four notes: positions 1-4 → "-O-O"
+
+Beat 2: next four (5-8): "--O-" (since adding O on the third note of beat 2, which is position 7)
+
+Beat3: 9-12: "--O-" (adding O on position 11)
+
+Beat4: 13-16: "---O"
+
+So the T line would be:
+
+T: -O-O|--O-|--O-|---O
+
+But I need to ensure that the total is 16 characters. Let me count:
+
+First section:4, second:4, third:4, fourth:4 → total 16.
+
+Yes. So that would be:
+
+T: -O-O|--O-|--O-|---O
+
+Alternatively, using soft hits (o) instead of O for a softer touch? Maybe alternate between O and o for variation. Let's see:
+
+Maybe alternate each beat, like first beat: O, second: o, etc. But perhaps start with O for a strong hit.
+
+Alternatively, use O for the first and third toms, o for the others. Not sure, but the user's previous edits used O and o, so maybe mix them.
+
+Alternatively, make it consistent. Let's stick with O for simplicity first, then check.
+
+Another consideration: the crash is on every beat's first note. The toms can play on the offbeats without clashing with crashes.
+
+Another idea: in the first beat, after the kick, maybe a tom on the fourth 16th note (position4), but that would be the end of the beat. Hmm.
+
+Alternatively, maybe a tom on the first 16th note of each beat where there's no kick or snare. For example:
+
+First beat: position1 is -, so maybe a tom there. But the kick is on 2. So T: O--- ?
+
+But that might clash with the kick's feel. Not sure.
+
+Alternatively, let's try the initial idea. Let me write the T line as:
+
+T: -O-O|--O-|--O-|---O
+
+Wait, in the second beat's T section "--O-", that's for positions5-8. The second beat's K is OO--, so positions5 and6 are kicks. So adding a tom on position7 (third note of beat2) is okay.
+
+Third beat's T section "--O-" would be positions9-12: the third beat's S is on position9 (assuming S is a valid hit), so the tom is on 11, which is okay.
+
+Fourth beat's T: "---O" → tom on 16th note.
+
+This seems okay. Let me check if that's within the rules. Toms can be O or o. I used O here. Alternatively, maybe alternate.
+
+Alternatively, to add more variation, maybe on the third beat's tom use o, and on the fourth's use O. Not sure. Maybe keep it consistent.
+
+Alternatively, the user's previous edits sometimes used o for softer hits. Let me see the previous example they did. In one of the previous responses, the assistant added T: -O--|--O-|---O|o--- which had a mix of O and o. Maybe adding some o's here for variation.
+
+So maybe:
+
+First beat: -O-o (soft on third note?)
+
+Second beat: --o- (soft tom on third note)
+
+Third beat: --O- (hard)
+
+Fourth beat: ---o (soft)
+
+But that's getting more complex. Alternatively, keep it simple with all O's first, then adjust if needed.
+
+Another consideration: the existing kick and snare. The third beat has a snare on the first note (position9) according to the S line. So the tom on position11 (third note of third beat) is okay.
+
+So, final T line:
+
+T: -O-O|--O-|--O-|---O
+
+Let me check the total characters per beat:
+
+First:4, second:4, third:4, fourth:4 → correct.
+
+Alternatively, maybe the user's previous answer used a pattern like -O--|--O- etc. Let me see.
+
+Wait in the previous example where the user added tom, they did:
+
+In one case, T: -O--|--O-|---O|o--- 
+
+Hmm, maybe similar pattern here.
+
+Alternatively, maybe start with a tom on the second beat's first note. Let me see another approach.
+
+Alternatively, in each beat, put a tom on the first 16th note where there's no kick. For example:
+
+First beat's first note is -, so tom there? T: O--- ?
+
+But that might clash with the kick's rhythm. Maybe not.
+
+Alternatively, mirror the kick's pattern. Since the kick has "-O--", maybe the tom does the opposite? Not sure.
+
+Alternatively, place toms on the "&" of each beat. The "&" is the second 16th note. Wait, in 16th notes, the beat is divided into 4: 1, &, a, 2, etc. Wait, actually in 16th notes, each beat is four 16ths. So the first beat's 16ths are 1, 2, 3,4 (for the first beat). The "&" is between 1 and 2? Not sure, but the "&" is typically the second 16th of a quarter note. Maybe better to think in terms of the pattern.
+
+Alternatively, let's go with the initial plan. The T line as:
+
+T: -O-O | --O- | --O- | ---O
+
+This adds toms on the third 16th of each beat except the last, and on the last note of the fourth beat.
+
+Another check: the original K line's third beat is "---O", so the kick is on the fourth 16th (position12). The tom in third beat's T is on 11, which is okay.
+
+Fourth beat's T is on 16, which is after the kicks at 14 and 15, so that's fine.
+
+This should add some tom hits without clashing. Let me see if that's acceptable.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: -O-O|--O-|--O-|---O
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

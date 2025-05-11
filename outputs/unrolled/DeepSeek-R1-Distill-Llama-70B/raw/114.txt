@@ -1,0 +1,28 @@
+Alright, let's tackle this drum groove edit. So, the user provided a drum notation and an edit request. The main goal is to modify the given groove so that it includes both tom and kick drums. 
+
+First, I'll look at the original groove to understand what's going on. The Kick drum (K) has some hits, but the Tom (T) is entirely silent. The edit request is to have not only tom but also kick. So, I need to make sure both are present and perhaps create a balanced rhythm between them.
+
+Looking at the Kick drum line: O---|----|O---|----. It seems the kick is on beats 1 and 3 of the first and third measures. To make it more dynamic, maybe I can add more kick hits, perhaps on every beat to give it a solid foundation.
+
+Now, the Tom (T) is completely empty in the original. I need to add some tom hits. Toms usually add flavor and rhythm, so maybe placing them on off-beats or in a pattern that complements the kick. For example, adding a tom hit on the second beat of the first measure and the fourth beat of the second measure could create a nice interplay with the kick.
+
+I also need to ensure that the notation follows the rules: each line has 16 characters (excluding the |), and the characters represent 16th notes. So, I'll make sure each beat has four characters separated by |.
+
+Let me sketch out the changes:
+
+- For Kick (K), I'll add O on every beat to make it consistent and strong.
+- For Tom (T), I'll add O on specific off-beats to add rhythm without clashing with the kick.
+
+So, the Kick line becomes O---|O---|O---|O---, and the Tom line gets some O's in strategic positions.
+
+I think this should fulfill the edit request by incorporating both kick and tom effectively.
+</think>
+
+@@@
+K: O---|O---|O---|O---
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|-O--|---O
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

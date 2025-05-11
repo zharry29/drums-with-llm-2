@@ -1,0 +1,43 @@
+Okay, let's tackle this drum groove edit. The user wants me to add some cymbal to the existing groove. First, I need to look at what's already there. 
+
+The given groove has a pretty active kick drum (K line) with lots of O's and some softer hits. The snare (S) is on beats 2 and 4, which is standard. The toms and hihat are silent, and the crash cymbal (C) is already hitting hard on every beat. The ride (R) is completely silent.
+
+The request is to add more cymbal. Since the crash is already doing O--- on each beat, maybe adding the ride cymbal would complement it. The ride can add some movement. The ride notation allows for O (hard bell), o (soft bell), X/x (closed hits). 
+
+Looking at the existing ride line (all ----), I can start by adding some closed hits on the off-beats to create a swing or groove. For example, placing X on the "and" of each beat could work. Alternatively, maybe a mix of closed and open hits. Since the crash is on the downbeats, the ride could play on the upbeats. Let me try:
+
+In each beat segment (four 16th notes), maybe X on the second and fourth 16th notes. Let's see:
+
+Original C line is O--- for each beat, so the first note of each beat is a crash. The ride could have X on the 2nd and 4th 16th notes of each beat. So for each | segment like O---, the ride would be -X-X. Let's check:
+
+First beat: K: OOO- | so the first beat's 16ths are O, O, O, -. The crash is O on the first 16th. The ride could be -X-- to not clash? Wait, maybe better to alternate. Let me think of each beat as four 16ths:
+
+For each beat's four notes:
+
+Beat 1 (O--- for C): C hits first 16th. Ride could do X on 2nd and 4th: -X-X. But need to check if that's too much. Alternatively, maybe a pattern like X-x- or something.
+
+Alternatively, maybe a repeating pattern like X-x- in each beat. Let me try:
+
+R: X-x- | X-x- | X-x- | X-x- 
+
+But need to see if that works with the existing crash. Since the crash is on the first 16th of each beat, the ride's X on the second 16th would create a nice syncopation. That might work. Let me put that in.
+
+So updating the R line to X-x- for each beat. Let me write that out:
+
+R: X-x-|X-x-|X-x-|X-x-
+
+But let me check the existing elements. The kick is busy, so the ride adding those hits should add some texture without overwhelming. Alternatively, maybe using a mix of O and X for variation. But since the user just said "add some cymbal," maybe starting with ride closed hits is safe.
+
+Alternatively, maybe adding a crash on some off-beats too, but the crash is already on every downbeat. Maybe the user wants more crash? But the instruction says "cymbal," which could include ride. Since ride is empty, that's the logical choice.
+
+So final edit would be adding the ride as X-x- in each beat. Let me structure that into the @@@ block.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: X-x-|X-x-|X-x-|X-x-
+@@@

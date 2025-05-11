@@ -1,0 +1,291 @@
+Alright, let's tackle this drum groove edit. The user wants me to add some tom hits to the existing groove. First, I need to understand the current structure of the groove to know where to add the toms effectively.
+
+Looking at the provided drum notation:
+
+**Kick (K):** O---|---o|O-O-|----
+So the kick starts with a hard hit on the first 16th note, then a soft hit on the 12th note of the bar (third beat's third 16th note), followed by a hard hit and a soft hit on the fourth and fifth 16th notes of the third beat. The last beat is silent.
+
+**Snare (S):** ----|O---|----|O---
+Snare hits are on the second beat (hard hit) and the fourth beat (hard hit). The third beat is silent except for the kick.
+
+**Hihat (H):** --o-|O-o-|O-o-|O-o-
+The hihat has a soft open hit on the third 16th note of the first beat, then alternates between hard and soft hits in the subsequent beats. It seems like a steady pattern with some variation.
+
+**Toms (T):** All dashes, so currently no toms are being played.
+
+**Crash (C):** O---|----|----|----
+A hard crash on the first 16th note of the first beat.
+
+**Ride (R):** All dashes, so no ride cymbal.
+
+The task is to add toms. Toms can add depth and variation. Let me consider where to place them without clashing with existing hits and enhancing the groove.
+
+First, the kick and snare are the main rhythmic elements. The crash adds a strong hit at the start. The hihat provides the hi-hat pattern. Adding toms can complement the kick and snare, perhaps on offbeats or filling gaps.
+
+Looking at the first beat:
+- K: O--- (hard kick on 1)
+- H: --o- (soft open hit on the third 16th)
+Possible tom placements here could be on the "and" of the first beat (second 16th note) or the "ah" (fourth 16th). But since the hihat is open on the third, maybe a tom on the second 16th for a syncopated feel.
+
+Second beat:
+- S: O--- (snare on the second beat, first 16th)
+- K: ---o (soft kick on the 12th note, which is the third 16th of the third beat? Wait, let me parse the beats properly. Each | separates beats. Each beat has four 16ths. So the second beat is the part after the first |, which is "---o|...". So the second beat's first 16th is "-", second "-", third "-", fourth "o". Wait, that's the second beat's fourth 16th note (the "&" of the beat's third part?), maybe I need to clarify:
+
+Actually, each beat is four 16th notes. So the first bar is divided into four beats, each with four 16th notes. So the first beat is "O---", meaning kick on the first 16th, then three rests. The second beat is "---o", so the fourth 16th of the second beat has a soft kick. The third beat is "O-O-", so first and third 16th notes of the third beat have hard and soft kicks. The fourth beat is "----".
+
+So for the second beat, the kick is on the fourth 16th (the "&" of the third 16th of the beat? Hmm, maybe better to think in terms of counts. Let's break down each beat:
+
+First beat (positions 1-4): O--- (hit on 1)
+Second beat (5-8): ---o (hit on 8th 16th note, which is the "&" of the beat's fourth part? Or the last 16th of the second beat)
+Third beat (9-12): O-O- (hits on 9 and 11)
+Fourth beat (13-16): ---- (nothing)
+
+Snare is on beat 2 (second beat's first 16th) and beat 4 (fourth beat's first 16th).
+
+Hihat is a bit more complex, but the pattern seems to have a soft hit on the third 16th of the first beat, then alternating O and o in subsequent beats.
+
+Now, toms can be placed in the gaps. Let's consider the first beat. Since there's a kick on 1 and the hihat on 3, maybe a tom on 2 or 4. Let's try a soft tom (o) on the second 16th of the first beat to add a little syncopation.
+
+Second beat: the snare is on the first 16th, and the kick on the fourth. Maybe a tom on the third 16th (before the kick) to lead into it. Since the hihat is open there (from the hihat line: second beat's third character is O, so the third 16th of the second beat is O). So maybe a hard tom (O) on the third 16th of the second beat.
+
+Third beat: the kick is on 9 (first 16th) and 11 (third 16th). The hihat here has O-o- (first three 16ths: O, -, o). Maybe a tom on the fourth 16th (12th note) of the third beat, which is the end of that beat. Let's see, the third beat is "O-O-", so the fourth 16th is empty. A soft tom (o) there could work.
+
+Fourth beat: the snare is on the first 16th. Maybe a tom on the third or fourth 16th here. Since the fourth beat is all rests except the snare, adding a tom on the third 16th (before the snare's "and"?) or fourth. Let's try a hard tom (O) on the fourth 16th of the fourth beat to end the bar with some emphasis.
+
+Alternatively, maybe a tom on the second 16th of the fourth beat to lead into the snare? Wait, the snare is on the first 16th of the fourth beat. Hmm, maybe better to place it after. Let me think again.
+
+Alternatively, the third beat's fourth 16th (position 12) could have a tom, and the fourth beat's third (position 14) and fourth (position 16) could have toms. Let me try to map this out.
+
+Let me draft possible tom placements:
+
+First beat: -O-- (tom on second 16th)
+Second beat: -O-- (tom on second 16th? Wait, the second beat's kick is on the fourth 16th. Alternatively, on the third 16th before the kick. Let's see:
+
+Second beat's toms could be on third 16th (position 8 + 3 = 11?), but need to count correctly. Let's list all positions:
+
+Positions 1-16:
+
+1: Kick O (beat 1, first 16th)
+2: -
+3: Hihat o (first beat's third 16th)
+4: -
+5: -
+6: -
+7: -
+8: Kick o (second beat's fourth 16th)
+9: Kick O (third beat first)
+10: -
+11: Kick o (third beat third)
+12: -
+13: -
+14: -
+15: -
+16: -
+Snare hits at 5 (second beat first 16th?), no, wait. Wait, the snare line is S: ----|O---|----|O---. So the second beat's first 16th (position 5) is O (snare hit). The fourth beat's first 16th (position 13) is O (snare hit).
+
+So for the second beat (positions 5-8):
+
+Positions 5: snare O (hard hit)
+6: -
+7: -
+8: kick o (soft)
+Hihat on second beat is O-o- (positions 5: O, 6: -, 7: o, 8: -? Wait, looking at H's line: H: --o-|O-o-|O-o-|O-o-
+
+Breaking down H's first beat: --o- (positions 1-4: -, -, o, -)
+Second beat: O-o- (positions 5-8: O, -, o, -)
+Third beat: O-o- (positions 9-12: O, -, o, -)
+Fourth beat: O-o- (positions 13-16: O, -, o, -)
+
+So for the second beat (positions 5-8):
+
+Hihat hits on 5 (O), 7 (o). So at position 6 (second 16th of the second beat), the hihat is silent. Maybe a tom there? Or position 6 could have a tom to fill the space between snare and kick.
+
+Alternatively, position 6: tom O, leading into the kick at 8.
+
+Third beat (positions 9-12):
+
+Kick at 9 and 11. Hihat at 9 (O), 11 (o). Position 12 is silent. A tom there (position 12) could be nice.
+
+Fourth beat (13-16):
+
+Snare at 13. Hihat at 13 (O), 15 (o). Position 14 and 16 are silent. Maybe a tom on 14 or 16. Let's try position 16 for a hard hit to end the bar.
+
+Putting this together:
+
+Toms (T) line would be:
+
+First beat: -O-- (tom on 2)
+Second beat: -O-- (tom on 6)
+Wait, no, let's structure each beat as four 16ths separated by |. So the T line needs to be four groups of four, each separated by |.
+
+So breaking down each beat for Toms:
+
+First beat: positions 1-4. Let's say we have a tom on the second 16th (position 2): so first beat's T: -O--
+
+Second beat (positions 5-8): adding a tom on position 6 (third 16th of the beat's second beat). So second beat's T: -O-- (but let's see: positions 5-8 for the second beat. The second beat's T would be four characters. If we want a tom on position 6 (the second 16th of the second beat?), wait, the second beat's first 16th is position 5, so positions 5-8 are the second beat. So a tom on position 6 would be the second character of the second beat's T line.
+
+So second beat's T: -O-- (tom on the second 16th of the second beat). Alternatively, on position 7 (third 16th), but there's a hihat there.
+
+Alternatively, on position 7 (third 16th of second beat) since hihat is o there, maybe a tom would clash, but maybe it's okay. Let me think.
+
+Alternatively, position 8 is the fourth 16th of the second beat, which is where the kick is soft. Maybe a tom there would clash with the kick. Hmm.
+
+Alternatively, maybe the second beat's T line could be --O- (tom on third 16th). That would be position 7. Let me see:
+
+Second beat's T: --O- (third character is O). That's position 7. That's okay, even with the hihat's o there. It might add some thickness.
+
+Third beat (positions 9-12): tom on position 12 (fourth 16th), so the fourth character of the third beat's T line: so third beat's T: ---O
+
+Fourth beat (13-16): tom on position 16 (fourth 16th of the fourth beat), so fourth beat's T: ----|----|---O (assuming fourth beat's fourth character is O). Wait, but the fourth beat's first 16th has the snare. Let's see:
+
+Fourth beat's T: Let's add a tom on the fourth 16th (position 16). So fourth beat's T line would be ---- (first three characters -, then O on the fourth: ---O.
+
+Putting it all together:
+
+T line would be:
+
+First beat: -O--
+Second beat: --O-
+Third beat: ---O
+Fourth beat: ---- (no, fourth beat's fourth character is O? Wait, fourth beat's fourth 16th is position 16, so the fourth beat's fourth character is the fourth position in the fourth beat's group. So fourth beat's T line would be ---- (if we put O on the fourth character: ---O.
+
+Wait, let me structure each beat properly:
+
+The T line needs to be four groups of four, separated by |.
+
+So:
+
+T: [first beat] | [second beat] | [third beat] | [fourth beat]
+
+First beat's T: -O-- (characters 1-4: -, O, -, -)
+Second beat's T: --O- (characters 5-8: -, -, O, -)
+Third beat's T: ---O (characters 9-12: -, -, -, O)
+Fourth beat's T: ---O (characters 13-16: -, -, -, O) ? Or maybe on the fourth beat's third 16th (position 15) and fourth (16).
+
+Alternatively, maybe fourth beat's T line could have a tom on the fourth 16th (position 16) for a strong end.
+
+Alternatively, let me see:
+
+Another approach: maybe add a tom on every other beat to create a pattern. Let's try:
+
+First beat: tom on 2 (second 16th)
+Second beat: tom on 6 (second 16th of second beat)
+Third beat: tom on 10 (second 16th of third beat)
+Fourth beat: tom on 14 (second 16th of fourth beat)
+
+But let's see positions:
+
+Third beat's second 16th is position 10. The third beat's kick is at 9 and 11. So position 10 is between them. That could work.
+
+Fourth beat's second 16th is position 14. The snare is at 13, so position 14 is the next.
+
+So:
+
+First beat: -O--
+Second beat: -O--
+Third beat: -O--
+Fourth beat: -O--
+
+But then T would be: -O--| -O--| -O--| -O-- which is a steady pattern every second 16th. Maybe that's too much, but it could work.
+
+Alternatively, mixing hard and soft toms. Let's try:
+
+First beat: -O- (hard tom on second 16th)
+Second beat: --O- (hard tom on third 16th)
+Third beat: ---O (soft tom on fourth 16th)
+Fourth beat: ---O (hard tom on fourth 16th)
+
+Alternatively, using O for hard and o for soft to vary dynamics.
+
+Alternatively, let's go with the initial idea:
+
+T: -O-- | --O- | ---O | ---O
+
+This way, each beat has a tom hit in different positions, adding variation.
+
+Let me check for conflicts:
+
+First beat's tom on 2 (position 2): no conflicts (kick is on 1, hihat on 3).
+Second beat's tom on position 7 (third 16th of second beat): hihat has an o there, but that's okay, they can be played together.
+Third beat's tom on position 12: hihat's fourth 16th is -, so no conflict.
+Fourth beat's tom on 16: no conflict, as the last 16th is empty except the hihat's o on 15.
+
+Alternatively, in the fourth beat's T line, putting the tom on position 16 (the fourth character) would be good for ending.
+
+Another consideration: the crash is on the first beat's first 16th, so maybe the first tom should be soft to not clash with the crash and kick. So instead of O, use o.
+
+So first beat: -o--
+
+Second beat: --O-
+
+Third beat: ---O
+
+Fourth beat: ---O
+
+That way, the first tom is softer, then harder on the others.
+
+Alternatively, maybe the second beat's tom is hard to add drive.
+
+Putting it all together:
+
+T: -o-- | --O- | ---O | ---O
+
+So the final T line would be:
+
+T: -o--|--O-|---O|---O
+
+Wait, let's format it properly with the bars:
+
+T: -o-- | --O- | ---O | ---O
+
+But need to check the total characters. Each segment must be four characters.
+
+Yes:
+
+First beat: -o-- (4)
+Second: --O- (4)
+Third: ---O (4)
+Fourth: ---O (4). Total 16.
+
+Yes, that works.
+
+Alternatively, maybe the fourth beat's tom could be on the third 16th (position 15) instead of the fourth to avoid ending too abruptly. Let's see:
+
+Fourth beat: --O- (tom on third 16th, position 15). Then the fourth beat's T line would be --O-.
+
+So T would be:
+
+T: -o-- | --O- | ---O | --O-
+
+But that might be better.
+
+Alternatively, let's see what the user's previous edits did. Looking at the history, in some cases, toms were added in alternating patterns or on offbeats. Let me ensure that this is not clashing and adds to the groove.
+
+Alternatively, another approach: since the existing groove has a crash on beat one, maybe the toms can complement the snare hits. For example, adding a tom on the snare hits but offset. Or on the "and" of the beats.
+
+Alternatively, let's try this:
+
+First beat: tom on the second 16th (soft o)
+Second beat: tom on the third 16th (hard O)
+Third beat: tom on the fourth 16th (hard O)
+Fourth beat: tom on the fourth 16th (hard O)
+
+So T: -o-- | --O- | ---O | ---O
+
+This seems balanced and adds variation without overcomplicating.
+
+Alternatively, maybe in the third beat, instead of fourth 16th, third 16th (position 11) which is where the kick's soft hit is. But that might clash. Since the kick is soft, a tom there could be okay, but better to leave it.
+
+Alternatively, third beat's tom on position 12 (fourth 16th) is safe.
+
+So I think this should work. Let me write the final T line accordingly.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: -o--|--O-|---O|---O
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

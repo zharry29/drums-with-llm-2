@@ -1,0 +1,51 @@
+Okay, let's see. The user wants me to add some cymbal to the given drum groove. First, I need to understand the existing groove structure. Let me look at the provided drum notation.
+
+The Kick (K) has some soft hits, like "o---|--o-|o---|--o-". The Snare (S) has some X's and X---|--X- which might be sidestick hits. The Hihat (H) is playing on certain 16th notes with x's. The Toms (T) and Crash (C) are silent, but the Ride (R) is already active with "x---|X-x-|x---|X-x-".
+
+The edit request is to add more cymbal. Since the Ride is already present, maybe adding Crash cymbals (C line) would be good. Let me check where the existing hits are. The Crash line is all dashes, so that's a good candidate. 
+
+Looking at the structure, the first beat of each measure might be a good place for crashes. The first bar's K starts with an o on the first 16th note. Maybe adding a crash on the downbeat of each measure. Alternatively, syncopated crashes could add interest. 
+
+Alternatively, since the user might want to enhance the existing cymbal presence, perhaps adding some Crash hits on the downbeats where the Kick is hitting. For example, in the first measure, the first 16th note is an o on the Kick, so adding a Crash O there. Let's see:
+
+Original C line: "----|----|----|----"
+
+If I put O on the first 16th of each beat, that would be "O---|O---|O---|O---". But maybe every measure's first beat? Let's check the structure again.
+
+Alternatively, since the Ride is already on the offbeats with X-x-, maybe adding crashes on the 1st and 3rd beats of each measure. Let's structure it so that each measure has a crash on the first 16th note. So for each of the four beats (since each | separates beats), the first character of each beat would be O for Crash. 
+
+So the C line would become:
+
+C: O---|O---|O---|O---
+
+But let me check if that's too much. Alternatively, maybe every other beat. Or perhaps on the first and third beats. Let me think of the existing Kick pattern. The first beat of the first measure has an o on the first 16th, so a crash there would pair well. The second beat of the first measure is |--o- so the first 16th of that beat is -, so maybe the crash on the first 16th of each beat. Alternatively, maybe just the first beat of each measure. Wait, each measure is four beats, separated by |. So four beats per bar. The user's example might need to keep the groove's flow. 
+
+Alternatively, adding crashes on the downbeats (the first 16th of each beat). Let's try that. So each beat starts with an O on Crash. That would make the C line: O---|O---|O---|O---. 
+
+Alternatively, maybe every other beat. Let me see the existing Snare and Kick. The Snare has X on the second beat's first 16th, and X on the third beat's third 16th? Wait the S line is "----|X---|--X-|----". So second beat starts with X (sidestick), third beat has X on the third 16th. Maybe adding crashes on the first beat of each measure would add a nice accent. 
+
+Alternatively, since the user said "add some cymbal", maybe just adding a crash on the first beat of each measure. So first beat's first 16th note: O, and maybe the fourth measure's first beat as well. Let me structure that:
+
+C: O---|----|O---|----
+
+But maybe that's sparse. Alternatively, every measure's first beat. Let me try that. 
+
+Alternatively, the user might prefer a consistent Crash pattern. Let me check previous examples. In prior responses, when adding cymbals, they often used O--- repeated for each beat. For instance, in an earlier edit, they added C: O---|O---|O---|O--- when adding cymbals. So following that pattern might be consistent. 
+
+Therefore, the edited C line would be:
+
+C: O---|O---|O---|O---
+
+That adds a crash on every beat's first 16th note. Let me check for conflicts. The existing Ride has x---|X-x- etc., so the crashes would hit on the downbeats where the Ride has x or X. Since Crash and Ride can coexist, that's okay. 
+
+So the final groove would have the Crash line filled with O's on each beat's first 16th note. Let me write that out.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: x---|X-x-|x---|X-x-
+@@@

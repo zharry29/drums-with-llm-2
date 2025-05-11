@@ -1,0 +1,47 @@
+Okay, I need to help the user edit their drum groove based on their request. Let's see what they provided and what they need.
+
+First, the user provided a drum notation system and a specific groove. The groove is:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+They received an edit request: "The groove should have not only tom but also hihat." So, the current groove doesn't have any tom hits, and the hihat is also not present. My task is to modify this groove to include both tom and hihat.
+
+Looking at the current groove:
+- **K**: Kick drum has some hits, mostly on the "e" and "o" of beats 1 and 3.
+- **S**: Snare drum has a mix of hard and soft hits, with some sidestick actions.
+- **H**: Hihat is completely empty, so no hits there.
+- **T**: Toms are also empty, which is what the edit request wants to change.
+- **C**: Crash cymbal is not used.
+- **R**: Ride cymbal has a steady pattern with both open and closed hits.
+
+To fulfill the request, I need to add tom hits and introduce hihat hits. 
+
+**Adding Toms (T):** I'll add some tom hits. Maybe on the "o" of beat 2 and the "O" of beat 4 to complement the kick and snare.
+
+**Adding Hihat (H):** The user wants hihat, so I'll add a basic pattern. Maybe open and closed hits on the hihat to give it some movement. I'll alternate between open (X) and closed (x) hits to create a dynamic feel.
+
+Let me visualize the changes:
+
+- **H**: Add "X-x-" in each beat to create a steady, alternating pattern between open and closed hits.
+- **T**: Add "O---" in the third beat and "O---" in the fourth beat to introduce the toms without overpowering the other instruments.
+
+I'll make sure the changes don't clash with the existing kick and snare hits, keeping the groove balanced.
+
+Now, I'll construct the new groove with these additions.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|---O|---O
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

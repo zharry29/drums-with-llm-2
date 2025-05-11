@@ -1,0 +1,147 @@
+Alright, so I need to modify the given drum groove to include both hihat and snare. Let me look at the original groove first.
+
+The original has K, S, H, T, C, R. The H line is already active with "x-x-" in each beat, which is a soft closed hihat on every 8th note. That's good. But the S (snare) line is mostly empty except for a "S" in the third beat. Wait, no, looking again, the original S line is "----|----|S---|----", so only the third beat has a snare. But the user wants the groove to have not only hihat but also snare. So I think they want the snare to be more present, maybe on beats 2 and 4, which is common in many grooves.
+
+So, I'll need to add snare hits. Let me think about where to place them. Typically, snares are on beats 2 and 4 in a 4/4 time. So in each measure, that would be the second and fourth beats. Each beat is four 16th notes, so the snare would fall on the third character of each beat, I think. Wait, no, each beat is four 16th notes, so the first note is the downbeat, then the next three are subdivisions. So the snare on beat 2 would be the 5th character, and beat 4 would be the 13th character in the 16-note bar.
+
+Looking at the original S line: "----|----|S---|----". So the S is on the third beat, which is the 9th character. Maybe that's a backbeat, but perhaps the user wants more snare presence. So I'll add snares on beats 2 and 4.
+
+I'll go through each beat. Let's break down the S line into four beats:
+
+Beat 1: "----" – no snare.
+Beat 2: "----" – I'll add a snare on the third note, so it becomes "--S-".
+Beat 3: "S---" – that's already a snare on the first note, but maybe I should adjust it to be on the second beat, so perhaps move it to the third note as well, making it "--S-".
+Wait, no, the original has "S---" in the third beat, which is the 9th character. If I want snares on beats 2 and 4, I should adjust accordingly.
+
+Wait, perhaps I'm overcomplicating. Let me map the 16 notes:
+
+Each beat is four notes, so:
+
+Beat 1: notes 1-4
+Beat 2: notes 5-8
+Beat 3: notes 9-12
+Beat 4: notes 13-16
+
+So the snare on beat 2 would be note 5, and on beat 4 would be note 13.
+
+Looking at the original S line:
+
+"----|----|S---|----"
+
+So note 9 is an 'S', which is the start of beat 3. I think the user wants snares on beats 2 and 4, so I'll add 'S' at note 5 and note 13.
+
+So the S line would become:
+
+"----|S---|----|S---"
+
+But wait, that's four beats, each with four notes. So the S line would be:
+
+Beat 1: "----"
+Beat 2: "S---"
+Beat 3: "----"
+Beat 4: "S---"
+
+Putting it together: "----|S---|----|S---"
+
+But in the original, beat 3 had an 'S' at note 9, which is the first note of beat 3. Maybe I should keep that as well, but the user's edit is to have both hihat and snare, so perhaps adding snares on beats 2 and 4 without removing the existing one. Alternatively, maybe the original S line was a typo, but I think the user wants to add snares on 2 and 4, so I'll adjust accordingly.
+
+Wait, the original S line is "----|----|S---|----", so note 9 is 'S'. If I want to add snares on beats 2 and 4, that's notes 5 and 13. So the S line becomes:
+
+Notes 5: 'S', 9: 'S', 13: 'S'.
+
+So each beat would be:
+
+Beat 1: "----"
+Beat 2: "S---"
+Beat 3: "S---"
+Beat 4: "S---"
+
+Wait, no. Each beat is four notes, so:
+
+Beat 2 starts at note 5, so the second beat's line is "S---" (notes 5-8).
+
+Beat 3 starts at note 9, so "S---" (notes 9-12).
+
+Beat 4 starts at note 13, so "S---" (notes 13-16).
+
+Wait, but that would mean three snares: beats 2, 3, and 4. But the user just wants to add snare, so maybe two snares on beats 2 and 4, keeping the original on beat 3.
+
+Alternatively, perhaps the user wants a more standard groove with snares on 2 and 4, so I'll adjust to have snares on those beats.
+
+So the S line would be:
+
+"----|S---|----|S---"
+
+But then, in the original, beat 3 had an 'S', which is note 9. If I change it to "----", I'm removing that. Alternatively, perhaps I should keep the original and add the snares on 2 and 4.
+
+Wait, perhaps the original S line is "----|----|S---|----", so only note 9 is 'S'. The user wants to add more snares, so adding on beats 2 and 4 would mean notes 5 and 13.
+
+So the S line becomes:
+
+"----|S---|S---|S---"
+
+But that would have snares on beats 2, 3, and 4, which might be too much. Alternatively, maybe just adding on beats 2 and 4, so the S line would be:
+
+"----|S---|----|S---"
+
+But then the original note 9 'S' is removed. Hmm, perhaps the user wants to keep the existing snare and add more. So perhaps the S line should have snares on beats 2, 3, and 4.
+
+Alternatively, maybe the original S line was a mistake, and the user wants a more standard pattern with snares on 2 and 4.
+
+I think the best approach is to add snares on beats 2 and 4, so the S line becomes:
+
+"----|S---|----|S---"
+
+But that would mean removing the original snare on beat 3. Alternatively, perhaps the user wants to keep that as well, making it three snares. I'm not sure, but I think the main point is to have snares on 2 and 4, so I'll proceed with that.
+
+Now, looking at the H line, which is "x-x-|x-x-|x-x-|x-x-", which is a steady 8th note hihat pattern. That's good, but perhaps to make it more interesting, I could vary it a bit, maybe opening on certain beats. But the user didn't specify changing the hihat, just adding snare, so I'll leave the H line as is.
+
+For the K line, the original is "-O--|OO--|---O|-OO-". Let me see:
+
+Beat 1: "-O--" – note 2 is 'O'
+Beat 2: "OO--" – notes 5 and 6 are 'O's
+Beat 3: "---O" – note 12 is 'O'
+Beat 4: "-OO-" – notes 13 and 14 are 'O's
+
+This is a busy kick pattern. Maybe to make room for the snare, I could simplify it a bit, but the user didn't specify changing the kick, so I'll leave it as is.
+
+The T line is "----|----|---O|----", so only note 12 is 'O'. That's fine.
+
+The C line is "O---|O---|O---|O---", which is a crash on every beat 1. That's a standard approach, but perhaps to make it more dynamic, I could change some to 'o' for softer hits, but again, the user didn't specify, so I'll leave it.
+
+The R line is all '----', so no ride. That's fine.
+
+So, putting it all together, the only change is the S line. I'll update it to have snares on beats 2 and 4, so the S line becomes:
+
+"----|S---|----|S---"
+
+Wait, but in the original, the S line was "----|----|S---|----", so note 9 was 'S'. If I change it to "----|S---|----|S---", I'm moving the snare from beat 3 to beats 2 and 4. Alternatively, perhaps I should add snares on beats 2 and 4 without removing the one on beat 3. So the S line would have 'S' on notes 5, 9, and 13.
+
+So the S line would be:
+
+"----|S---|S---|S---"
+
+But that's three snares, which might be too much. Alternatively, perhaps the user wants a more standard backbeat on 2 and 4, so I'll go with that.
+
+So the final S line is "----|S---|----|S---"
+
+Wait, but that would mean only two snares. Let me confirm:
+
+Each beat is four notes, so:
+
+Beat 1: notes 1-4: "----" – no snare
+Beat 2: notes 5-8: "S---" – snare on note 5
+Beat 3: notes 9-12: "----" – no snare
+Beat 4: notes 13-16: "S---" – snare on note 13
+
+Yes, that adds snares on beats 2 and 4, which is what the user wants. So I'll update the S line accordingly.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|S---|----|S---
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

@@ -1,0 +1,72 @@
+Okay, let me tackle this drum groove edit. The user wants me to add some cymbal to the existing groove. First, I need to look at the current setup. The given groove has kick (K), snare (S), hihat (H), toms (T), and crash (C) already active, but the ride (R) is silent. The edit request is to add cymbal, which could mean either crash or ride, since those are the cymbal lines here.
+
+Looking at the existing C line: it's already hitting O on every beat. So maybe adding ride cymbal (R) would complement it without overlapping too much. The user might want more texture or a steady rhythm from the ride. The hihat is doing x-x- on each beat, which is a closed hi-hat pattern. Adding ride hits on the offbeats could add movement.
+
+The current structure has four bars. Let me check each part:
+
+First bar (K: -O--): The crash is on the first 16th note. Maybe the ride can play on the "and" of each beat, like a swung or steady 8th notes. For example, using X or x on the offbeats. Since R uses X and x for closed hits on the bow, that would work.
+
+Second bar (K: OO--): The crash is again on the first note. Maybe continuing the ride pattern here. Let's see the existing H is x-x- so maybe ride on the "e" and "a" of each beat? Or maybe syncopated with the hihat.
+
+Third bar (K: ---O): There's a snare on the third beat (S: S---). The crash is first note again. Maybe adding ride hits on the third and fourth beats here?
+
+Fourth bar (K: -OO-): Snare on the last beat (O---). The crash is first note again. Maybe ride on the offbeats here too.
+
+I need to ensure that the ride doesn't clash with the crash. Since crashes are on the downbeats, the ride can fill in the spaces. Let's try a steady ride pattern like X-x- on each beat. That would make each beat's first 16th note a crash (from C) and the third 16th note a ride hit. Wait, but the crash is already on the first 16th. Alternatively, maybe the ride plays on the second and fourth 16ths. Let me think:
+
+For example, in the first bar:
+C: O--- (so first 16th is crash)
+R: could be -X-- or -x-- to hit the second 16th. But maybe a repeating pattern like X-x- every beat. Let's see:
+
+If each beat in R is X-x-, then the first beat would be X-x- but the first note is already a crash. Hmm, maybe the ride plays on the "and" of each beat. Let's try:
+
+For each beat in R: --X- or something. Let me structure each beat as follows:
+
+Each beat is four 16ths. Let's do a pattern where the ride hits on the second and fourth 16ths. So for each beat: -X-X. But maybe softer, using lowercase x. So -x-x. That way, it's a steady eighth-note pattern underneath the crash hits. Let me test this:
+
+First bar's R line would be for each beat: -x-x. So combining four beats:
+
+R: -x-x|-x-x|-x-x|-x-x. But written as |-x-x| etc. Wait, each bar is four beats separated by |. Let me write each beat:
+
+First bar:
+Beat1: -x-x
+Beat2: -x-x
+Beat3: -x-x
+Beat4: -x-x
+So overall R: -x-x|-x-x|-x-x|-x-x
+
+But let me check if that works with the existing parts. The hihat is x-x- which is closed on the first and third 16th of each beat. The ride on the second and fourth would complement it, creating a cross-stick feel with the hihat on 1 and 3, ride on 2 and 4. That should sound good.
+
+Alternatively, maybe using X (hard) on certain hits for variation. But since the user just said "add some cymbal", maybe starting with a simple ride pattern is best. Let me go with the -x-x per beat, resulting in:
+
+R: -x-x|-x-x|-x-x|-x-x
+
+But written properly with the four characters per beat:
+
+R: -x-x|-x-x|-x-x|-x-x
+
+Wait, each beat is four characters. So first beat: -x-x, second same, etc. So the full R line would be:
+
+R: -x-x|-x-x|-x-x|-x-x
+
+But let me check the existing C line already has O on the first 16th of each beat. So in the first 16th of each beat, crash is there, and the ride would be silent on that first 16th, then hit on second and fourth. That should work without clashing. Alternatively, maybe start the ride on the first 16th but that would overlap with crash. So better to avoid that.
+
+Alternatively, maybe alternate between crash and ride. But since the edit is to add cymbal, and the crash is already present, adding ride on the offbeats makes sense.
+
+So applying that, the new R line would be as above. Let me confirm the notation:
+
+Each bar's R line would be:
+
+First bar: -x-x | -x-x | -x-x | -x-x
+
+Wait, but the user's existing R line is all dashes. So replacing that with the above pattern. Let me write that in the @@@ block.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: -x-x|-x-x|-x-x|-x-x
+@@@

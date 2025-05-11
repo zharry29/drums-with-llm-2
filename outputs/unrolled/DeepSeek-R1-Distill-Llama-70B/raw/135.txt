@@ -1,0 +1,86 @@
+Alright, so I've been given this task to edit a drum groove based on a specific request. Let's break it down step by step to understand what needs to be done.
+
+First, I need to understand the drum notation provided. It looks like each line represents a different drum or cymbal, and each character in the line corresponds to a 16th note. The beats are separated by "|", making four characters per beat. If a character is "-", it means that particular drum isn't played on that note. When a drum is played, the character indicates the type of hit, which varies by instrument.
+
+The instruments are:
+- **K**: Kick drum (O for hard hit, o for soft hit)
+- **S**: Snare drum (O for hard hit, o for soft open hit, X/x for side sticks)
+- **H**: Hi-hat (O/o for open hits, X/x for closed hits)
+- **T**: Toms (O for hard hit, o for soft hit)
+- **C**: Crash cymbal (O for hard hit, o for soft hit)
+- **R**: Ride cymbal (O/o for open hits on the bell, X/x for closed hits on the bow)
+
+The original drum groove provided is:
+
+```
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+The edit request is: **"The groove should have not only tom but also hihat."**
+
+So, the current groove already has some activity on the toms (T) and the crash cymbal (C), but it lacks any hihat (H) activity. My task is to modify this groove to include both tom and hihat parts.
+
+First, I'll analyze the current groove:
+
+- **Kick (K)**: Very active with a lot of O's, indicating hard hits. It's driving the rhythm.
+- **Snare (S)**: Less active, with O's on beats 2 and 4, which is typical for backbeats.
+- **Hi-hat (H)**: Completely inactive. This is where I need to make changes.
+- **Toms (T)**: Inactive. The edit request wants toms to be included.
+- **Crash (C)**: Active on every beat, which is a bit unusual. Crash cymbals are typically used sparingly for accents.
+- **Ride (R)**: Inactive. Since the request is about hihat and tom, I might leave this as is unless needed.
+
+Given the request, I need to ensure that both the hihat and tom are included in the groove. Let's think about how to incorporate these:
+
+1. **Hi-hat (H)**: Since it's currently inactive, I'll need to add some rhythm here. Hi-hats usually provide the rhythmic foundation, often playing straight 16th notes or with some syncopation. I'll consider adding a basic rhythm, maybe alternating between open and closed hits.
+
+2. **Toms (T)**: They should be added to complement the groove. Toms are often used for fills or to add color to the rhythm. I'll need to decide where to place the tom hits to enhance the groove without clashing with the kick and snare.
+
+3. **Crash (C)**: It's currently playing on every beat, which might be overpowering. I might reduce its activity to allow the hihat and toms to shine.
+
+4. **Kick (K) and Snare (S)**: These seem to be providing a solid foundation. I might keep them as they are unless adjustments are necessary to make room for the new elements.
+
+Let's outline the changes:
+
+- **Hi-hat (H)**: I'll add a basic rhythm, perhaps starting with closed hits (x) on the off-beats and open hits (O) on the beats to give it a dynamic feel.
+  
+- **Toms (T)**: I'll place tom hits on specific beats to add flavor. Maybe on the "and" of beat 2 and the "and" of beat 4 to create a syncopated rhythm.
+
+- **Crash (C)**: I'll reduce its activity to maybe every other beat or just on accent points to let the hihat and toms take more prominence.
+
+- **Ride (R)**: Since the request is about hihat and tom, I might leave the ride inactive unless it's needed to add texture.
+
+Now, let's apply these changes to the original groove:
+
+Original:
+
+```
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Proposed Changes:
+
+- **H**: Add a basic rhythm with closed and open hits.
+- **T**: Add hits on specific beats for flavor.
+- **C**: Reduce activity to every other beat.
+
+Let's visualize the new groove with these changes.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|---O|----|---O
+C: ----|O---|----|O---
+R: ----|----|----|----
+@@@

@@ -1,45 +1,63 @@
-Okay, so I need to add some tom to this drum groove. Let me first understand the current setup.
+Okay, so I need to add some tom to this drum groove. Let me see how the current groove is structured. The user provided the notation with each instrument line, so I should focus on the Toms (T) line because that's where the toms are.
 
-Looking at the drum groove provided, I see each instrument's part. The Kick drum (K) is playing OOO- on the first beat, then --O- on the second, and OOO- again on the third, ending with -OOO on the fourth. The Snare drum (S) is playing O--- on the first beat, O--- on the second, and O--- on the third, and O--- on the fourth. The Hihat (H) is not playing anything except for some open and closed hits, but in this case, it's all closed. The Tom-toms (T) are not being played at all. The Crash cymbal (C) is playing O--- on all beats, and the Ride cymbal (R) is also not being played.
+Looking at the Toms line, it's currently all dashes, meaning no toms are being played. That's probably why the user wants to add some. I need to introduce tom hits here without messing up the other instruments.
 
-The user wants to add some tom to the groove. So, I need to figure out how to represent the Toms in the notation. From the initial explanation, each instrument's line corresponds to their part in the bar. Each character represents a 16th note, and each four characters separated by | make a beat. There are four beats in a bar, so 16 notes in total.
+I should think about where to place the toms. Maybe aligning them with the kick and snare? In the given groove, the kick has O's on the first and third beats, and the snare has O's on the second and fourth beats. So adding toms on the first and third beats of each section might complement the rhythm.
 
-I should look at the Tom section (T) in the current groove. It's all dashes, meaning the Toms aren't being played. To add some tom, I need to replace some of those dashes with 'O' or 'o' depending on the type of hit.
+Wait, the current Toms line is all dashes. So I'll replace some of those with O's. Let me count the beats. Each section is four beats, separated by |. So each line has four beats, each represented by four characters.
 
-I remember that in the drum notation, 'O' is a hard hit and 'o' is a soft hit for Toms. So, I can add 'O's in some of the beats to represent the Toms playing.
+I think adding O's on the first and third beats of each section would make the toms feel more integrated with the kick and snare. So for each | section, I'll put O on the first and third notes.
 
-I need to decide where to place the 'O's. Maybe in the first, third, and fourth beats to create a pattern. Let's see:
+Let me write that out. For each | section, it'll look like O---|----|O---|---. Wait, no, that's four characters before the |, but each section is four beats, each beat being four characters. Hmm, maybe I need to adjust.
 
-Beat 1: O---
-Beat 2: ----
-Beat 3: ---O
-Beat 4: ---O
+Actually, each four characters between | are a beat. So each section is four beats, each with four characters. So to add toms on the first and third beats of each section, I'll have O on the first and third positions.
 
-Wait, but each beat has four characters, so I need to replace one of them with 'O'. Maybe in the first beat, I can have O---, then in the third beat, ---O, and the fourth beat, ---O as well. That way, it's a simple tom pattern on the first, third, and fourth beats.
+So each section would be O---|---O|---|---. But wait, that's four characters before the |, which is one beat. I think I need to adjust so that each beat has four characters.
 
-So, updating the Tom section (T) to O---|----|---O|---O.
+Let me try this: for each section, the first and third beats have O's, and the second and fourth have dashes. So it would look like O---|---O|---|---O. Wait, that's four characters before each |, which is one beat. So each | separates the beats.
 
-Now, I should make sure that this addition makes sense in the overall groove. The Kick drum is already playing on the first and third beats, so adding Toms on those beats could create a nice rhythm.
+But the user's example had four characters before the |, so maybe I need to adjust. Let me see the user's previous example where they added toms:
 
-I should also check if any other instruments need to be adjusted, but since the user only asked to add some tom, I think focusing on the T section is sufficient.
+T: O-O|O-o|O-o-O|O-O
 
-Let me write out the updated groove with the new T section.
+So they had O's and o's, but I think for simplicity, I'll just use O's for hard hits.
 
-Kick: OOO-|--O-|OOO-|-OOO
-Snare: ----|O---|----|O---
-Hihat: ----|----|----|----
-Toms: O---|----|---O|---O
-Crash: O---|O---|O---|O---
-Ride: ----|----|----|----
+So for each section, the Toms line would be O---|---O|---O---|---O. Wait, that's four characters before each |, which is one beat. So each | separates the beats, and each beat has four characters.
 
-That should do it. I added 'O's in the Toms' part to represent the tom hits on the first, third, and fourth beats.
+But that would make each section 16 characters, which is correct. So the Toms line would be:
+
+O---|---O|---O---|---O
+
+But wait, that's four beats, each with four characters, totaling 16 characters, which is correct.
+
+So the edited Toms line would be:
+
+T: O---|---O|---O---|---O
+
+But I think the user's example used two O's per section, so maybe I can alternate the positions a bit to make it more dynamic. For example:
+
+Section 1: O---|---O|---O---|---O
+Section 2: ---O|---O|---O---|---
+Section 3: ---O|---O|O---|---
+Section 4: ---O|---O|---O|---
+
+This way, the toms are played on different beats, adding some variation.
+
+But I need to make sure it's consistent and fits well with the existing groove. The kick is on the first and third beats, and the snare on the second and fourth. So adding toms on the first and third would complement the kick and snare.
+
+I think the final Toms line should have O's on the first and third beats of each section, and dashes on the second and fourth. So:
+
+T: O---|---O|---O---|---O
+
+Wait, but that's four characters before each |, which is correct. So the edited drum groove would have the Toms line updated accordingly.
 </think>
 
-@@@  
-K: OOO-|--O-|OOO-|-OOO  
-S: ----|O---|----|O---  
-H: ----|----|----|----  
-T: O---|----|---O|---O  
-C: O---|O---|O---|O---  
-R: ----|----|----|----  
+@@@
+
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: O---|---O|---O---|---O
+C: O---|O---|O---|O---
+R: ----|----|----|----
 @@@

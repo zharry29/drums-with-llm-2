@@ -1,0 +1,36 @@
+Alright, so I need to help the user edit their drum groove by adding more hihat. Let me start by understanding the current groove and the edit request.
+
+First, looking at the provided drum groove:
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+I see that the hihat (H) is already present with a consistent pattern of `x-x-` in each beat. The user wants to add more hihat, which probably means increasing its presence or varying the pattern to make it more dynamic.
+
+I should consider what "adding more hihat" could mean. It might involve adding more hits, changing the articulation (like adding open and closed hits), or making the pattern more complex. Since the hihat is already there, maybe adding some variation would be better.
+
+Looking at the current hihat line: `x-x-|x-x-|x-x-|x-x-`. It's a steady eighth-note pattern with closed hits (x). To add more interest, I could introduce open hits (X) and maybe some syncopation.
+
+I'll think about varying the pattern. Maybe in the first beat, I can have a mix of open and closed hits, like `X-x-`, then in the second beat, continue with `x-x-`, and so on. This way, it adds some texture without overpowering the other instruments.
+
+I should also ensure that the hihat complements the kick and snare. The kick is on beats 1 and 3, and the snare is on beat 3. Adding open hits on the hihat could emphasize those beats and create a more driving rhythm.
+
+So, I'll modify the hihat line to include some open hits and maintain a steady rhythm. The final hihat line could look like `X-x-|x-x-|X-x-|x-x-`.
+
+I'll apply this change to the groove and make sure the rest of the instruments remain consistent unless there's a need to adjust for balance.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: X-x-|x-x-|X-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

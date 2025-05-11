@@ -1,0 +1,35 @@
+Okay, so I need to edit the given drum groove to include both tom and kick. Let me look at the original groove first.
+
+The original has all instruments as ---- except the Ride (R) which has some notes. The user wants to add kick and keep the tom, but in the original, the Tom (T) is all ----, so I need to add some tom hits.
+
+I'll start by adding the kick drum. Maybe on beats 1 and 3 of each measure. So in the K line, I'll put O in the first position of each beat. That would make K: O---|O---|O---|O---.
+
+Next, the Tom (T). I should add some hits to make it interesting. Maybe on the off-beats or some syncopation. Let's put an O on the 8th and 12th notes. So the T line becomes ----|----|-O--|---O.
+
+I also notice the Snare (S) is empty. Maybe adding a soft hit on beat 2 and 4. So S: ----|o---|----|o---.
+
+The Hihat (H) is all x---, which is a soft closed hit. Maybe vary it a bit. On beats with the kick, I'll make it open (O) for a harder sound. So H: O---|x---|O---|x---.
+
+For the Crash (C) and Ride (R), I'll leave them as is since they already have some activity.
+
+Putting it all together, each line should have 16 characters, so I'll make sure each beat has four characters and they're properly separated by |.
+
+Let me double-check each line:
+- K: O---|O---|O---|O---
+- S: ----|o---|----|o---
+- H: O---|x---|O---|x---
+- T: ----|----|-O--|---O
+- C: ----|----|----|----
+- R: x---|X-x-|x---|X-x-
+
+That should fulfill the request by adding kick and tom while keeping the groove balanced.
+</think>
+
+@@@
+K: O---|O---|O---|O---
+S: ----|o---|----|o---
+H: O---|x---|O---|x---
+T: ----|----|-O--|---O
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

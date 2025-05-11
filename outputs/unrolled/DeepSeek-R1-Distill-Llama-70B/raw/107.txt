@@ -1,0 +1,28 @@
+Okay, I need to help the user edit their drum groove by adding both hihat and kick drum parts. Let's start by understanding the original groove they provided. 
+
+The original groove has the following structure:
+
+- **K: O---|O---|----|O---**: The kick drum is active on beats 1 and 3, and rests on beats 2 and 4.
+- **S: ----|----|O---|----**: The snare drum is active only on beat 3.
+- **H: ----|----|----|----**: The hihat is not being used at all.
+- **T: O-o-|O-o-|O-o-|O-o-**: The toms are active on every beat with a soft hit on the off-beats.
+- **C: ----|----|----|----**: The crash cymbal isn't used.
+- **R: ----|----|----|----**: The ride cymbal isn't used either.
+
+The edit request is to make sure the groove includes both hihat and kick drum. From the original, I can see that the kick is already present, but the hihat is missing. So, my main task is to add hihat hits while keeping the kick drum active.
+
+I should maintain the kick drum pattern as it is since it's already contributing to the rhythm. For the hihat, I'll add a steady rhythm to provide a driving feel. I'll use "x" to represent closed hihat hits on the off-beats to create a consistent rhythm. 
+
+Looking at the snare and toms, they seem to be contributing well to the groove, so I'll leave them as they are. I don't see a need to add crash or ride cymbals unless the user specifies, so I'll keep those out for now.
+
+Putting it all together, the final groove will have the kick drum on beats 1 and 3, the snare on beat 3, the toms on every beat with soft hits on the off-beats, and the hihat providing a steady "x" on the off-beats to add texture and rhythm.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: x---|x---|x---|x---
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

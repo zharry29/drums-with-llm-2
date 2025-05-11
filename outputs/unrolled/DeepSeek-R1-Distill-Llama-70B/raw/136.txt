@@ -1,0 +1,21 @@
+Okay, so I need to help the user edit their drum groove to include both tom and hihat. Let me first understand the problem.
+
+The user provided a drum groove where the hihat is already present, but the tom is missing. The edit request is to add tom hits. I need to make sure that the tom is included without disrupting the existing hihat pattern.
+
+Looking at the original groove, the hihat (H) has a pattern: ----|x---|----|x---. This means the hihat is played on the 5th and 13th 16th notes, creating a steady rhythm.
+
+The tom (T) is currently all dashes, meaning it's not being played. To fulfill the request, I need to add tom hits. I should choose beats that complement the hihat and add depth to the rhythm without clashing.
+
+I'll add tom hits on beats that are not already occupied by the hihat. For example, adding a hard hit (O) on the 9th and 15th 16th notes. This will give the groove more texture and fulfill the requirement of including both tom and hihat.
+
+So, the final groove will have the hihat pattern unchanged and the tom added on the specified beats.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|---O|---O
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

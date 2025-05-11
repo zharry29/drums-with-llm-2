@@ -1,0 +1,38 @@
+Alright, so I need to help the user edit their drum groove by adding both cymbal and tom elements. Let me start by understanding the problem.
+
+First, the user provided a drum notation system, which I should familiarize myself with. Each line represents a different drum or cymbal, and each character corresponds to a 16th note. The symbols denote different types of hits, which vary by instrument.
+
+The user's current groove is:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+From this, I can see that the kick (K) has a solid pattern, the snare (S) has some hits, the toms (T) are active, but there's nothing on the crash cymbal (C) or ride cymbal (R).
+
+The edit request is to add both cymbal and tom. Since the toms are already present, I need to ensure they remain or are enhanced, and add crash and ride cymbal hits.
+
+Looking at the current groove, the crash cymbal (C) is completely empty, and the ride (R) is also empty. The toms (T) have a consistent "O-o-" pattern, which is good, but maybe I can add some variety or emphasize certain beats.
+
+I should consider where to place the cymbal hits. Typically, crash cymbals are used on strong beats or at the start of a phrase to add accentuation. Ride cymbals often provide a steady rhythm, especially on the "x" or "X" notes, which denote closed or open hits.
+
+So, I'll start by adding crash cymbal hits on beats 1 and 3 of each measure, using "O" for hard hits. For the ride cymbal, I'll add a steady rhythm, alternating between open and closed hits, maybe using "x" for closed and "X" for open to create a dynamic rhythm.
+
+For the toms, since they're already present, I'll ensure they continue their pattern without conflict. I might adjust some hits to complement the cymbals, perhaps adding a soft hit ("o") on off-beats to add texture without overpowering the main rhythm.
+
+Putting it all together, I'll update each line accordingly, making sure the crash and ride cymbals are incorporated seamlessly with the existing kick, snare, and tom patterns.
+
+Finally, I'll review the updated groove to ensure it flows well and meets the user's request of having both cymbal and tom elements.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: O---|----|O---|----
+R: x---|X---|x---|X---
+@@@

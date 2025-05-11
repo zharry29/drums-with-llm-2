@@ -1,21 +1,34 @@
-Alright, so I need to add some tom to this drum groove. Let me see what the current setup is.
+Okay, so I need to add some tom to the given drum groove. Let me start by understanding the current setup. The groove is provided in the notation with each instrument line showing their parts. The user wants to add tom, which is part of the Toms (T) instrument.
 
-Looking at the groove, the Kick drum (K) is playing O on the first and third beats, and on the fourth beat, it's a soft hit with 'o'. The Snare drum (S) is pretty straightforward, with '----' on all beats except the second and fourth, where it has 'Oo-o' and 'O--o' respectively. The Hihat (H) is mostly 'x---' on each beat, which I think means open hits on the top and closed on the bottom. The Tom-tom (T) is not playing on any beat except the third, where it has '---O'—so that's a hard hit on the third beat. The Crash cymbal (C) and Ride cymbal (R) are mostly not playing, except the Ride has some 'X-x' on the second and fourth beats.
+First, I should review how the Toms are currently represented. Looking at the T line in the current groove: T: ----|----|----|----. That means on each beat, there's no tom hit. My task is to add a tom hit here.
 
-The edit request is to add some tom. So I need to modify the Tom-tom part to include more beats. Looking at the Tom's line, it's currently only playing on the third beat. Maybe I can add a tom on the first and second beats as well. Since the Tom is represented by 'O' for a hard hit or 'o' for a soft hit, I can add 'O' on the first and second beats and keep the third beat as '---O' for consistency.
+I remember that in drum notation, each section is separated by |, and each section has four characters, each representing a 16th note. So, four sections make up a beat. The user's instruction is to add some tom, so I'll introduce tom hits on the third beat of each section. That should add a nice touch without conflicting with existing kicks and snares.
 
-So, the new Tom line would be 'O---|----|---O|----'. That way, the first beat has a hard tom, the second beat is open, the third beat has a hard tom again, and the fourth beat is open. This should add more tom to the groove without overcomplicating it.
+Let me think about how to represent a tom hit. The T line uses 'O' for a hard hit and 'o' for a soft hit. So, I'll use 'O' for each tom hit on the third beat. I'll modify each section's third part to include 'O---' to add the tom.
 
-Let me double-check to make sure I'm not conflicting with other instruments. The Hihat is using 'x---' which is closed on the bottom, so adding 'O' on the first and second beats for Tom shouldn't interfere. The Snare is playing on the second and fourth beats, but that's okay because Toms are on different beats. The Ride cymbal has 'X-x' on the second and fourth beats, but since Toms are on the first, second, and fourth beats, that should be fine as they can play together.
+So, the updated T line would look like this: T: ----|----|O---|----. Wait, that doesn't seem right. Each section should have four characters, so I need to adjust accordingly. Maybe I should replace the fourth character with 'O' in each section. Let me correct that.
 
-I think that's a good balance. The Toms will add a nice tom presence without overshadowing the other instruments. Let me write that down and make sure it's formatted correctly with the | separators and the correct number of characters.
+Each section in the T line will now have 'O' on the third beat. So, the first section becomes 'O---', the second '---O', the third 'O---', and the fourth '---O'. That way, each section has a tom hit on the third beat.
+
+Putting it all together, the new T line should be: T: O---|----|O---|---O. Wait, that might not fit correctly. Let me check the notation again. Each beat is separated by |, and each part has four characters. So, the correct way is to have each section's third character as 'O'. Therefore, the T line should be: T: ----|----|O---|---O.
+
+Wait, that still doesn't look right. Let me make sure each section is four characters. So, the first beat is '----', the second '----', the third 'O---', and the fourth '---O'. That way, each section has a 'O' on the third beat, adding the tom hits.
+
+I think that's correct. Now, I'll update the T line accordingly. The other instruments (K, S, H, C, R) remain unchanged unless I need to adjust for timing, but since the user only asked to add tom, I won't touch the others.
+
+So, the final edited groove will have the T line updated with 'O's on the third beat of each section. Everything else stays the same.
 </think>
 
-@@@  
-K: ----|----|----|----  
-S: ----|----|----|----  
-H: ----|x---|----|x---  
-T: O---|----|---O|----  
-C: ----|----|----|----  
-R: x---|X-x-|x---|X-x-  
+To add some tom to the groove, I'll introduce tom hits on the third beat of each section in the Toms (T) line. This will enhance the rhythm without conflicting with the existing Kick and Snare.
+
+Final edited drum groove:
+
+@@@
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|O---|---O
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
 @@@

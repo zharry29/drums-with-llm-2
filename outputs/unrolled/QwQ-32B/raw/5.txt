@@ -1,0 +1,140 @@
+Okay, let's see. The user wants me to add some tom hits to the given drum groove. First, I need to look at the existing groove to understand where I can fit the toms without clashing. 
+
+The current groove has kick (K) on soft hits, some sidestick on the snare (S), and the ride (R) is doing a pattern with x and X. The hihat (H) is also doing some closed hits. The toms (T) are all dashes, so they're not being used yet.
+
+Hmm, the kick is on beats 1, 3, and maybe some offbeats. The snare has sidestick hits on the second and fourth beats. The ride is a steady pattern. To add toms, maybe I can place them on the offbeats where the kick isn't hitting, or maybe syncopate them with the existing patterns.
+
+Looking at the first beat: K is o---, so first 16th note is a soft kick. The snare is quiet here. Maybe a tom hit on the "and" of the beat? Like the second 16th note. Let's see, in the first beat of the first measure, maybe put a tom O on the second 16th. But I need to check if that's too busy with the ride or hihat. The ride here is x---, so first note is a closed hit. Maybe a tom on the second 16th would work. 
+
+Alternatively, maybe in the second measure where the kick has --o-, maybe add a tom on the third 16th. Let me map this out for each beat.
+
+First measure (each part separated by | is a beat):
+
+K: o--- | --o- | o--- | --o-
+S: ---- | X--- | --X- | ----
+H: ---- | x--- | ---- | x---
+R: x--- | X-x- | x--- | X-x-
+T: needs to be filled.
+
+Let me go beat by beat.
+
+First beat (o--- on kick, no snare, hihat is quiet here, ride starts with x). Maybe a tom on the second 16th (position 2) and maybe the fourth? But fourth is where the ride has the next note. Alternatively, third position. Let's try O on the second 16th here. So T: -O-- for the first beat.
+
+Second beat (kick is --o-, snare has X on first 16th, hihat x on first, ride has X on first, then x on third, and - on fourth. Maybe add a tom on the third 16th here. So T: --O- for the second beat.
+
+Third beat (o--- again, snare has --X-, so the X is on the third 16th. Maybe tom on first or fourth. Let's see, first 16th is kick, so maybe fourth? T: ---O here.
+
+Fourth beat (--o-, snare is quiet, hihat on first, ride has X on first. Maybe add a tom on the fourth 16th here, so T: ---O.
+
+Wait, but let's check for consistency. Also, maybe alternate between O and o for variation. Let's see:
+
+First beat: -O-- (tom on second 16th)
+Second beat: --O- (third)
+Third beat: ---O (fourth)
+Fourth beat: ---O (fourth again)
+
+But that might make the toms on the fourth 16th in third and fourth beats. Alternatively, maybe vary it. Alternatively, maybe in the third beat, since the snare is hitting on the third, maybe put the tom earlier. Let me think again.
+
+Alternatively, maybe in the third beat, since the kick is on the first, maybe a tom on the second again? But that would clash with the first beat's tom placement. Hmm.
+
+Alternatively, perhaps a tom on the first 16th of the third beat, but that's where the kick is. Not ideal. Maybe soft hit there? But the kick is already o. Maybe better to avoid.
+
+Alternatively, maybe the fourth beat's tom on third 16th. Let me adjust.
+
+Alternatively, let's try:
+
+First beat: -O-- (tom on 2)
+Second beat: --O- (tom on 3)
+Third beat: -O-- (tom on 2 again? But then that would be on the same position as first beat. Maybe better to vary)
+Wait, third beat's kick is on first, so maybe third beat's tom on third? But then third beat's snare is on third. Hmm, snare is X on third. So tom and snare together? Maybe that's okay, but maybe better to separate.
+
+Alternatively, third beat's tom on fourth: ---O. Then fourth beat's tom on third? --O-.
+
+So T would be:
+
+First beat: -O--
+Second beat: --O-
+Third beat: ---O
+Fourth beat: --O- (so fourth beat's tom on third 16th)
+
+Wait, but the fourth beat's kick is --o-, so the third 16th is the kick's soft hit. So putting a tom there would clash with the kick. Not ideal. So maybe fourth beat's tom on fourth 16th instead. So fourth beat's tom: ---O.
+
+So putting it all together, T line would be:
+
+-T: -O--|--O-|---O|---O
+
+Wait but let's check each beat:
+
+Beat1: -O--
+Beat2: --O-
+Beat3: ---O
+Beat4: ---O
+
+But beat4's fourth 16th is the last of the beat. The ride has X on first and x on third, then - on fourth, so that's okay.
+
+Alternatively, maybe in the fourth beat, to add some variation, use a soft hit o instead of O. Let's see:
+
+T: -O--|--O-|---O|---o
+
+That might add some dynamic variation.
+
+Alternatively, maybe the first beat's tom is O, second O, third O, fourth o. So the last beat has a softer tom.
+
+Alternatively, let's see if that works. 
+
+Another consideration: the crash (C) is all dashes, so no crashes here. The ride is active, so toms can complement that. 
+
+Alternatively, maybe in the third beat, since the snare is on third, the tom could be on first? But the kick is on first. Maybe a soft tom there? But the kick is already a soft hit. Maybe that's too much. 
+
+Alternatively, maybe the third beat's tom on second 16th, so -O-- again, but that's same as first beat. Maybe okay for a pattern.
+
+Alternatively, let's try the initial idea and see how it looks:
+
+T: -O-- | --O- | ---O | ---o
+
+That way, each beat has a tom on different positions, varying between O and o for the last beat.
+
+Wait, but in the fourth beat's fourth 16th, the ride has a - there, so it's okay. 
+
+Let me write that out:
+
+T line would be:
+
+T: -O--|--O-|---O|---o
+
+But let me check the total length. Each beat is 4 characters, so each part between | must be 4 characters. Let's confirm each segment:
+
+- First beat: "-O--" (4)
+- Second: "--O-" (4)
+- Third: "---O" (4)
+- Fourth: "---o" (4). Yes, that works.
+
+So that would be the T line. Let me see if that flows well with the existing instruments.
+
+Kick is o--- in first beat, so the tom on second 16th is after the kick. That should be okay. The second beat's tom is on third, which is after the snare's X on first. The third beat's tom on fourth, after the snare's X on third. Fourth beat's tom on fourth with a soft hit. 
+
+This adds some variation and fills in the tom parts without clashing too much. The ride is doing its own thing, so the toms can add some texture. 
+
+Alternatively, maybe add another tom in the first beat's fourth 16th? But then it's on the same as the ride's next note? The ride first beat is x---, so fourth 16th is -, so maybe. But perhaps keeping it simpler is better. 
+
+Alternatively, maybe in the second beat, instead of --O-, do -O-- to mirror the first beat. But that might make it too repetitive. 
+
+Hmm, maybe the initial idea is okay. Let's go with that. So the final T line would be:
+
+T: -O--|--O-|---O|---o
+
+Wait, but the user's previous examples sometimes used multiple characters in a beat. Let me make sure there are no typos. Also, the T line must have 16 characters (4 beats of 4 each). Let me count:
+
+First segment: 4, second 4, third 4, fourth 4: total 16. Yes.
+
+So the final groove would have that T line added. Let me present that in the @@@ block.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: -O--|--O-|---O|---o
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
