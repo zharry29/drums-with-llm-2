@@ -1,0 +1,43 @@
+Alright, let's tackle this drum groove edit. The user wants to remove the hihat and tom parts. First, I need to look at the original groove provided.
+
+Looking at the given drum groove:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+The user's edit request is to eliminate any hihat (H) and tom (T) elements. 
+
+Starting with the Hihat line (H), I see that in the second and fourth beats, there are 'x' hits. To comply with the request, I need to replace all non '-' characters in the H line with '-'. So the H line becomes all dashes.
+
+Next, the Tom line (T) is already all dashes, so no change there. 
+
+Additionally, I should check if there are any other instruments involved. The Ride (R) has some activity, but the user didn't mention ride, so it stays unless specified. Since the request is only about hihat and toms, the ride remains as is. However, the user might have meant to keep other parts unless told otherwise. Wait, the user said "I don't want any hihat or tom," so only those two lines need to be cleared. 
+
+Wait, but in the original, the Snare (S) and Kick (K) are also silent. The user might not want to add anything else, just remove the specified parts. 
+
+So, the edited version should have H and T lines all dashes. Let me confirm each line:
+
+- K remains unchanged (all dashes)
+- S remains unchanged (all dashes)
+- H becomes all '-'
+- T is already all '-'
+- C (Crash) is all '-', so no change
+- R remains as per original unless instructed otherwise. Since the user didn't mention ride, it stays.
+
+Wait, the user's instruction was "I don't want any hihat or tom." So only those two instruments should be silenced. The rest can stay as they are. 
+
+So the final edited groove should have H and T lines cleared. Let me write that out.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

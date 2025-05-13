@@ -1,0 +1,126 @@
+Alright, let's tackle this drum groove edit. The user provided a groove and wants it to include not just the crash cymbal (C) but also the toms (T). 
+
+First, I'll look at the original groove to see what's already there. The Kick (K) has some activity with "OOO-", "--O-", etc., the Snare (S) has "O---" and "O---", and the Crash (C) is hitting every beat with "O---". The Hihat (H) and Toms (T) are silent. The Ride (R) is also not being used. 
+
+The user's request is to add toms. Since the crash is already present, we need to introduce the toms without conflicting. The toms can add some variation and depth. Let me think about where to place them. Maybe on the offbeats or syncopated rhythms to complement the kick and snare. 
+
+Looking at the kick pattern, the first beat has three O's followed by a dash. Maybe adding a tom hit on the fourth 16th note of the first beat? Let's see:
+
+Original T line: "----|----|----|----"
+
+Let's try adding a tom hit on every fourth 16th note of each beat. So each beat would be "----" but with an O on the last note. Wait, each beat is four 16th notes. So for each beat, maybe:
+
+First beat: "O---" but that might clash with kick. Alternatively, alternate between O and o for some variation. Let's try placing a tom hit on the "&" of each beat (the second 16th note). 
+
+Breaking it down per beat:
+
+Beat 1: O O O - (K)
+Tom could be on the second 16th: "-O--" 
+
+But need to check the kick and snare to avoid clashing too much. Alternatively, maybe every other beat. Let me sketch it out:
+
+T line: "-O--|O---|-O--|O---" 
+
+Wait, but the user's example in previous edits often used consistent patterns. Maybe a steady tom on the second and fourth 16th notes of each beat? Like "-O-O" repeated. 
+
+Alternatively, to not overpower, perhaps a simple pattern like "-O--" every beat. Let's try:
+
+T: "-O--|-O--|-O--|-O--"
+
+But let me check the original groove's structure. The kick has a strong presence, so toms should complement. Alternatively, maybe on the third 16th note of each beat? Let me see:
+
+Original K: OOO-|--O-|OOO-|-OOO
+
+In the first beat, K is O O O -, so the third note is O. Maybe T on the fourth? Or maybe on the offbeats where K is not hitting. 
+
+Alternatively, since the crash is on every beat, adding toms on the "&" (second 16th) of each beat could work. Let me try:
+
+T: "-O--|-O--|-O--|-O--"
+
+But perhaps a more dynamic pattern. Let me see the user's previous edits. In a similar case, they added "-O--" or similar. Let's go with that. 
+
+Wait, in the user's previous examples, when adding toms to a groove without them, they often placed the T hits on the second 16th note of each beat. Let me confirm with the previous answer they accepted. For instance, in an earlier edit where the user asked to add tom, the assistant put "--O-|--O-|--O-|--O-". Hmm, but that's different. Maybe they used a pattern like "-O--" or similar.
+
+Alternatively, maybe place a tom on the third beat of each measure. Let me think step by step. Let's try to add a tom hit on the second 16th note of each beat, so each beat is "-O--", so the T line would be "-O--|-O--|-O--|-O--". 
+
+Alternatively, to make it more interesting, maybe alternate between O and o. Since T uses O for hard and o for soft. Let's do "-O--" for each beat. 
+
+Testing that, the T line would be:
+
+T: "-O--|-O--|-O--|-O--" 
+
+But let's check the original K and S lines to ensure it doesn't clash too much. The kick is active, but the snare is on the second and fourth beats. The tom on the "&" (second 16th) of each beat might add a nice syncopation. 
+
+Alternatively, maybe on the third 16th note of each beat. For example, "--O-". Let's see:
+
+T: "--O-|--O-|--O-|--O-"
+
+But in the user's previous example, when adding toms to a similar structure, they used "--O-" or similar. 
+
+Wait, in the user's previous answer where the original had:
+
+K: OOO-|--O-|OOO-|-OOO  
+and they added toms as:
+
+T: --O-|--O-|--O-|--O- ?
+
+Hmm, perhaps a pattern like that. Let me try:
+
+For each beat, the tom hits the third 16th note. So "--O-". 
+
+So for four beats:
+
+T: "--O-|--O-|--O-|--O-"
+
+But let's check the first beat: OOO- (K) so the third note is O. The tom on the third would be on the same 16th note as the kick's third hit. Maybe that's okay, but might be a bit busy. Alternatively, the fourth 16th note: "---O" for each beat.
+
+T: "---O|---O|---O|---O"
+
+That would place the tom on the "a" of each beat, which could work. 
+
+Alternatively, maybe a combination. Let's see. Since the user's previous edits sometimes used "--O-", let's go with that. 
+
+So putting it all together, the T line would be:
+
+T: "--O-|--O-|--O-|--O-"
+
+But let's ensure that's 16 characters. Each beat is four characters, so four beats would be 16. "--O-" repeated four times would be "--O-|--O-|--O-|--O-".
+
+Yes, that works. 
+
+Alternatively, maybe a different pattern. Let me check another approach. Since the crash is on every beat, maybe the toms can play on the offbeats between crashes. 
+
+Alternatively, a tom hit every two beats. But the user probably wants consistent tom presence. 
+
+I think the safest approach is to add a tom hit on the third 16th note of each beat ("--O-") to add a steady tom pattern without clashing too much with the kick. 
+
+Therefore, the edited groove would have the T line as "--O-|--O-|--O-|--O-".
+
+Wait, but in the user's previous example where they added tom to a similar structure (like when the original had no T), they sometimes used "-O--" or "--O-". Let me check the exact previous answer.
+
+Looking back, in an earlier user input where the original had no T, and the edit was to add tom, the assistant added T: "--O-|--O-|--O-|--O-". 
+
+Yes, so following that pattern, I'll do the same here. 
+
+So the final edited groove would have T as "--O-|--O-|--O-|--O-" and keep the crash as is. 
+
+Wait, but the user's instruction says "not only cymbal but also tom", so the crash is already present, so we just need to add tom. The ride (R) is still unused, but the request didn't mention ride. 
+
+Therefore, the answer should be:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: --O-|--O-|--O-|--O-  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: --O-|--O-|--O-|--O-
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

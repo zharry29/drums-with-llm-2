@@ -1,0 +1,19 @@
+Okay, so I need to edit this drum groove based on the user's request. The user says, "I don't want any hihat or tom." Looking at the current groove, I see that the Hihat (H) and Tom (T) lines have some active notes. My task is to remove all hihat and tom parts from the groove.
+
+First, I'll examine each instrument one by one. Starting with the Kick drum (K), I notice it has "O---|----|O---|----". Since the user didn't mention anything about the kick drum, I'll leave it as is. Next is the Snare drum (S), which is "----|O---|----|O---". Again, no changes needed here because the user only wants to remove hihat and tom.
+
+Now, the Hihat (H) line is "X---|X---|X---|X---". The user specifically wants no hihat, so I'll replace all the X's with dashes to indicate that the hihat isn't played. Moving on to the Tom (T) line, it's "----|----|----|----". This means the toms aren't being played either, so I'll leave them as they are since they're already inactive.
+
+The Crash cymbal (C) is "----|----|----|----", so I'll leave that unchanged as well. Finally, the Ride cymbal (R) is "----|----|----|----", which stays the same.
+
+Putting it all together, I'll make sure that only the Kick drum and Snare drum have any active notes, while the Hihat and Tom are completely inactive. This should fulfill the user's request to remove hihat and tom from the groove.
+</think>
+
+@@@  
+K: O---|----|O---|----  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

@@ -1,0 +1,49 @@
+Okay, so I need to help the user edit their drum groove to include both tom and cymbal. Let me first understand the problem.
+
+They provided a drum groove with the following instruments: Kick (K), Snare (S), Hihat (H), Toms (T), Crash cymbal (C), and Ride cymbal (R). The current groove doesn't have any Tom hits and also doesn't use the Crash or Ride cymbals much.
+
+The edit request is to add both Tom and Cymbal. So, I need to make sure that the Toms are played somewhere in the bar and that either the Crash or Ride cymbal is used.
+
+Looking at the original groove:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+I notice that the Toms are completely silent, so I need to add some hits there. For the cymbals, the Crash (C) and Ride (R) are also not used. I need to decide where to add these.
+
+First, I'll think about where to place the Tom hits. Toms are often used to add flavor and rhythm, so maybe on off-beat parts or to complement the Kick and Snare. Since the Kick is already on beats 1 and 3, adding Toms on the "and" of beat 2 or 4 could work.
+
+Next, for the cymbals. Crash cymbals are usually used on strong beats or accents, while Ride cymbals provide a steady rhythm. Since the Hihat is already playing a steady 16th-note pattern, adding Ride cymbal hits on certain beats could add texture. Crash cymbals could be used on the backbeat (beat 2 and 4) to emphasize the Snare hits.
+
+I should also consider the articulation for each instrument. For Toms, I'll use 'O' for a hard hit. For Crash cymbals, 'O' for a hard hit, and for Ride cymbals, maybe a mix of open and closed hits to add variety.
+
+Now, let me sketch out the changes:
+
+- Add Tom hits on the "and" of beat 2 and the "and" of beat 4.
+- Add Crash cymbal hits on beats 2 and 4 to coincide with the Snare hits.
+- Add Ride cymbal hits on beats 1 and 3 to provide a steady rhythm.
+
+So, the updated groove would look like this:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|---O|----|---O
+C: ----|O---|----|O---
+R: O---|----|O---|----
+
+This way, the Toms are added on the off-beats, the Crash cymbals emphasize the Snare backbeats, and the Ride cymbals add a steady rhythm on beats 1 and 3.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|---O|----|---O
+C: ----|O---|----|O---
+R: O---|----|O---|----
+@@@

@@ -1,0 +1,33 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any ride or hihat parts from the given drum groove. Let me first parse the original groove to see what's there.
+
+Looking at the provided notation:
+
+Kick (K): O---|O---|----|O---
+Snare (S): ----|----|O---|----
+Hihat (H): ----|----|----|----
+Toms (T): O-o-|O-o-|O-o-|O-o-
+Crash (C): ----|----|----|----
+Ride (R): ----|----|----|----
+
+Wait a second, the original groove already has Hihat (H) as all dashes, meaning no hihat is played. The user's request is to remove ride and hihat. Since hihat isn't present, I just need to ensure the ride is removed. The Ride line (R) is already empty, so maybe there's a mistake here. Let me double-check.
+
+Looking again, the user's given groove shows that Hihat (H) is all dashes, so there's no hihat to remove. The Ride (R) is also all dashes. So actually, the current groove doesn't have any ride or hihat. But perhaps there was a typo, or maybe the user wants to confirm. Alternatively, maybe in the original problem statement, there was a different setup. Wait, let me check the problem again.
+
+The user provided the drum groove with:
+
+H: ----|----|----|----
+R: ----|----|----|----
+
+So indeed, both Hihat and Ride are already inactive. Therefore, the edit request might be redundant, but to comply strictly, I'll present the same groove as the edited version since no changes are needed. Alternatively, maybe I missed something. Let me confirm once more.
+
+The user's instruction says to remove ride or hihat. Since both are already not present, the answer should just be the same as the original. Therefore, the final groove remains unchanged.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

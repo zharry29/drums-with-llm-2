@@ -1,0 +1,54 @@
+Okay, I need to edit the given drum groove based on the user's request. The user says, "I don't want any snare or ride." Let me start by understanding the original drum groove provided.
+
+Looking at the given drum groove:
+
+- **Kick (K):** -O--|OO--|---O|-OO-
+- **Snare (S):** ----|----|S---|----
+- **Hihat (H):** x-x-|x-x-|x-x-|x-x-
+- **Toms (T):** ----|----|---O|----
+- **Crash (C):** O---|O---|O---|O---
+- **Ride (R):** ----|----|----|----
+
+The user wants to remove any snare and ride parts. 
+
+First, I'll check the Snare (S) line. The third beat has an 'S---', so I need to replace that with '----' to eliminate the snare hits. 
+
+Next, the Ride (R) line is already all '----', so there's nothing to change there. 
+
+I should also ensure that no other lines have snare-related elements. The Toms and Crash lines don't seem to have any snare notation. 
+
+Wait, the Toms (T) have some 'O's but that's for toms, which are allowed. The Crash (C) has 'O's which are crashes, which the user didn't mention removing. Since the user only mentioned snare and ride, crashes are okay unless specified otherwise. 
+
+So, the main changes are:
+
+- Set the entire Snare (S) line to all '-'.
+- Keep the Ride (R) as is (since it's already empty).
+
+Let me verify each line:
+
+- **K:** No changes needed.
+- **S:** All dashes now.
+- **H:** Stays the same.
+- **T:** Unchanged.
+- **C:** Unchanged.
+- **R:** Already empty.
+
+Double-checking the original S line: The third beat had 'S---', so replacing that with '----' removes the snare hit. 
+
+I think that's all. The user didn't mention removing crashes or toms, so those stay. The hihat remains as it's not part of the excluded instruments. 
+
+Final check to ensure no typos in the notation. Each line should have 16 characters (4 beats of 4 notes each). Let's count for S line after change:
+
+Each segment is 4 characters, separated by |. The S line after edit would be "----|----|----|----", which is correct. 
+
+Okay, looks good. Time to write the final answer.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-  
+S: ----|----|----|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: ----|----|---O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

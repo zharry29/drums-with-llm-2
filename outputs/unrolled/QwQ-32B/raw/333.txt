@@ -1,0 +1,56 @@
+Okay, I need to edit this drum groove to remove the hihat and tom parts. Let me look at the original groove first.
+
+The given groove is:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+The user wants to eliminate both hihat (H) and tom (T). So I should set all their entries to '-'.
+
+Looking at the H line, it's already all dashes, so maybe that's already done. Wait, checking again: H line is all dashes except maybe in some beats? Let me check:
+
+H: ----|----|----|----
+Yes, so hihat isn't active here. But the user still mentioned removing it, so maybe just confirm that it's all '-'.
+
+For Toms (T), the line is all dashes, so that's already okay. So actually, maybe the user is confused, but I should still ensure that both H and T are cleared.
+
+Wait, perhaps in the original, there were some hits in H or T that I missed? Let me check again:
+
+Original provided:
+
+Looking at the user's input:
+
+The given drum groove has:
+
+H line: ----|----|----|----
+T line: ----|----|----|----
+So they are already empty. The user might have a different version, but according to this, they are already removed. However, the edit request is to remove them, so perhaps the user wants to make sure, or maybe there's a mistake. But according to the given data, those lines are already clear. 
+
+Alternatively, maybe the user wants to remove any possible hits, so I'll set H and T to all '-' just in case. Also, check other instruments. The request is only about hihat and tom, so leave K, S, C, R as they are except S and R if needed. Wait, the user didn't mention snare or ride, so only remove H and T. 
+
+Wait the edit request says "I don't want any hihat or tom." So set H and T to all dashes. Since they are already all dashes, maybe the user's version had some, but in the provided input they are empty. So the edited version would be same except ensuring H and T are all '-', which they already are. But maybe the user expects that even if they were there, so proceed to set them to all '-'.
+
+So the final groove would have:
+
+K remains as is: O--O|----|--O-|----
+S remains: ----|Oo-o|-o--|O--o
+H: all dashes
+T: all dashes
+C remains: ----|----|----|----
+R remains: o-O-|o-O-|o-O-|o-O-
+
+So the final answer should be the same as the original, but just confirming H and T are clear. Since they are, that's the result.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

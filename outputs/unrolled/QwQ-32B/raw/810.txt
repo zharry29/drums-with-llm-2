@@ -1,0 +1,38 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and ride in the very beginning. Let me look at the original groove first.
+
+The given groove is:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+So, the kick is hitting on the first 16th note of the first beat, then the second beat's first 16th, and so on. The snare comes in on the third beat's first 16th and the fourth beat's last note. The toms are doing a steady O-o- pattern every beat. The ride is completely silent right now.
+
+The user wants a snare and ride hit at the very beginning. The "very beginning" would be the first 16th note of the first beat. Let's check each instrument:
+
+For the snare (S line), the first beat is all dashes, so no hit there. To add a snare hit on the first 16th note, I need to place an 'O' (hard hit) there. So changing the first character of the S line's first beat from '-' to 'O'.
+
+Then the ride (R line) currently has all dashes. To add a ride hit on the first 16th note, I'll put an 'O' (hard bell hit) in the first position of the R line's first beat. The rest can stay as they are unless needed, but the user only asked for the beginning, so probably just the first hit.
+
+Wait, but the user said "ride in the very beginning" so maybe the ride should start there. Let me confirm: the original R line is all dashes, so adding the first hit as 'O---' for the first beat.
+
+So modifying S and R lines:
+
+Original S: ----|----|O---|---- becomes O---|----|O---|----
+
+Original R: ----|----|----|---- becomes O---|----|----|----
+
+But wait, need to ensure that other parts aren't affected unless necessary. The user didn't mention changing anything else, so the rest should stay the same. Let me check the rest of the lines to make sure no conflicts. The kick is already hitting on the first note, so adding snare and ride there would create a strong start. That should fulfill the request. Let me write the final version accordingly.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: O---|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: O---|----|----|----
+@@@

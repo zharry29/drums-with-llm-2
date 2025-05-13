@@ -1,0 +1,51 @@
+Okay, let me tackle this drum groove edit. The user wants a tom hit and snare in the very beginning. The original groove is:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+First, I need to focus on the first beat (before the first |). The user wants a tom hit and a snare there. 
+
+Looking at the kick (K) line, the first beat is "O--O". That's a hard kick on the first 16th note and another on the fourth. To add a tom hit, I should check the Toms (T) line. Right now, T is all dashes, so I can add a tom hit there. The tom uses O for hard, so maybe start with "O---" on the first beat for the tom.
+
+For the snare (S), the first beat is empty. The user wants a snare hit there. The snare can use O for a hard hit. So S's first beat should have an O on the first 16th note. But I need to make sure it doesn't conflict with existing notes. The original S starts with "----", so changing the first character to O would add the snare hit.
+
+Wait, the kick already has an O on the first 16th note. Adding a tom and snare there might make it busy, but the user specifically asked for both. Let me proceed.
+
+So, updating T to have O--- on the first beat. And S to have O--- on the first beat. Let me check the other lines to ensure no conflicts. Hihat (H) is silent there, so that's fine. Crash (C) and Ride (R) are also silent except R has o-O- starting on the second 16th note, but that's okay.
+
+Wait, the original R line starts with o-O-, so the first 16th note is o. But the user didn't mention ride, so maybe that's okay. The main thing is adding the tom and snare at the very beginning.
+
+So the new lines would be:
+
+K remains the same unless needed, but the user didn't mention kick changes. So K stays as O--O|...
+
+S becomes O---|Oo-o|-o--|O--o
+
+T becomes O---|----|----|----
+
+Wait, but the first beat of T should be O--- to have the tom hit on the first 16th note. Let me confirm:
+
+Original T line was all dashes. Changing first beat to O--- adds a tom hit on the first 16th note.
+
+So putting it all together:
+
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+T: O---|----|----|----
+Others remain as is except R, but user didn't mention R.
+
+Wait, the user's original request was to add tom and snare in the very beginning. So first beat of T is O--- and first beat of S is O---. That should do it. Let me check for any mistakes. The kick still has its hits, and the new elements are added as requested.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+T: O---|----|----|----
+H: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

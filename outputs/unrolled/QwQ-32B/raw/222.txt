@@ -1,0 +1,33 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only cymbal but also snare. Looking at the given groove:
+
+First, check the current instruments. The Kick (K) has some hits, Hihat (H) is active with x's, Toms (T) have a few O's, and Crash cymbal (C) is already present with O's in every beat. The Snare (S) line is mostly empty except for a 'S---' in the third beat, but according to the notation, S uses O, o, X, x. 'S' isn't a valid character, so that might be an error. The Ride (R) is silent.
+
+The user's request is to add snare where it's missing. Since the existing S line has an 'S---', which isn't valid, maybe that's a typo. Let's replace 'S' with a valid notation like O or X. Also, the current S line has no hits except that third beat. To add snare properly, we can place snare hits on the typical backbeats, like the second and fourth beats. 
+
+Looking at the existing Crash (C) is already active, so we need to add snare hits without conflicting. Let's set snare on the second and fourth beats. For example, in the second beat of the first measure, put an O, and maybe on the fourth beat of each measure. Also, fix the invalid 'S' to an O or X. 
+
+Additionally, since the user mentioned "not only cymbal but also snare," ensuring the snare is prominent. Let me adjust the S line accordingly. Also, check if Ride (R) can add some closed hits (X/x) to complement the snare, but since the user didn't mention ride, maybe just focus on S.
+
+Final adjustments: Replace the 'S---' with valid hits, add snare on beats 2 and 4 of each measure. Let's see:
+
+Original S: 
+S: ----|----|S---|----
+
+Change to:
+S: ----|O---|--O-|O--- (or similar pattern)
+
+Also, ensure the third beat's 'S' is fixed. Let's go with O hits on strong beats. Maybe:
+
+S: ----|O---|--O-|O---
+
+That way, snare is added on the second and fourth beats, fulfilling the request. The crash remains, and snare is now present.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|O---|--O-|O---
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

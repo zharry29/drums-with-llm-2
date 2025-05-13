@@ -1,0 +1,122 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include not just the kick drum but also toms. The original groove has kick and snare, and hihats, but no toms or cymbals. The edit request specifies adding toms, so I need to incorporate tom hits where appropriate.
+
+First, I'll look at the existing parts. The kick (K) has some activity, especially in the first and third beats. The snare (S) is playing on the second and fourth beats with some variations. The hihats (H) are closed hits throughout. Since there are no toms (T) yet, I need to add some patterns there without conflicting with existing parts.
+
+I should consider where to place the toms. Typically, toms can be used on offbeats or to add fills. Since the kick is already on some strong beats, maybe placing toms on the "and" of the beats or in between. Let me check each beat:
+
+First beat (O--O|): The kick hits on the first and third 16th notes. Maybe add a tom on the second or fourth. Let's try a soft hit (o) on the second 16th note here.
+
+Second beat (----|): The snare comes in on the second beat's second 16th note (Oo-o). To complement that, perhaps a tom on the first 16th note here, maybe a hard hit (O) to match the snare's strength.
+
+Third beat (--O-|): The kick is on the third 16th note. Adding a tom on the first or fourth? Maybe a soft tom on the fourth to fill the space.
+
+Fourth beat (----|O--o): The snare is on the fourth beat's fourth 16th note. A tom on the third might work here, maybe a soft hit.
+
+I need to ensure the toms don't clash with the kick or snare. Let me draft:
+
+T line could be something like:
+T: -o-- | O--- | --o- | ---o
+
+Wait, let me check each segment:
+
+First segment (O--O): T: -o-- would have a soft tom on the second 16th note. That's okay since kick is on 1 and 3.
+
+Second segment (----): The snare starts at the second 16th. Adding a tom on the first 16th (O) might add some punch. So O--- here.
+
+Third segment (--O-): Maybe a tom on the fourth 16th (---o).
+
+Fourth segment (----): Snare on the fourth 16th. Tom on third (---o) or maybe the first? Let's see. Maybe ---o again.
+
+Putting it all together:
+
+T: -o-- | O--- | --o- | ---o
+
+But need to check length. Each segment is four characters. Let's make sure each part is four characters. The above looks okay. Alternatively, maybe add a harder hit in the second segment for more impact.
+
+Alternatively, maybe:
+
+T: -o-O | O--- | -o-- | o--- 
+
+Hmm, but need to avoid overlapping with kick. Let me think again.
+
+Alternatively, for the first segment, maybe a tom on the 4th 16th note: --o- ?
+
+Wait, the first beat's kick is O--O, so the first and fourth 16ths are kicks. So adding a tom on the second or third. Let's try second: -o--.
+
+Second segment's kick is ----, so snare is on the second 16th. Adding a tom on first 16th (O) would work. So O---.
+
+Third segment's kick is --O-, so third 16th is kick. Tom on first or fourth. Maybe fourth: ---o.
+
+Fourth segment's kick is ----, so no conflict. Snare on fourth. Tom on third (---o) or second?
+
+Alternatively, maybe distribute toms across the bar for a steady pattern. Let's try:
+
+T: -o-- | O--- | --o- | ---o
+
+This way, each beat has a tom hit except maybe the third? Wait third would be --o- which is tom on the fourth 16th. That's okay.
+
+Alternatively, maybe use a harder hit (O) in some places for variation. Let me see if the user's previous edits used O or o. Since Toms can have O (hard) and o (soft), maybe alternate.
+
+Alternatively, in the second segment, a hard tom on first 16th, and in the first segment a soft on second. That could work.
+
+I think that's a reasonable approach. Let me write that into the T line as:
+
+T: -o--|O---|--o-|---o
+
+Wait, third segment's fourth 16th is o, and fourth segment's third is o? Let me check each segment:
+
+First segment: -o-- (tom on 2nd 16th)
+Second: O--- (tom on 1st)
+Third: --o- (tom on 4th)
+Fourth: ---o (tom on 4th)
+
+Hmm, maybe the fourth segment's tom on 4th would align with the snare's O--o (snare on 4th). Maybe that's okay, but perhaps better to have it on 3rd instead. Let me adjust the fourth segment to ---o (tom on 4th) but maybe that's okay for the groove.
+
+Alternatively, maybe the fourth segment's tom on third: ---o would be third? Wait no, the fourth segment is the last four 16ths. So the fourth segment's third 16th is the 12th note overall. Let me confirm the positions:
+
+Each segment is 4 16ths. So for the fourth segment (the last one), the positions are 13th,14th,15th,16th. The snare is on the 16th (O--o). So placing a tom on the 15th (third position in the segment) would be ---o, but that's the fourth position? Wait the notation is four characters per segment. For the fourth segment's last four notes (13-16):
+
+If the T line for the fourth segment is ---o, that would mean the fourth (16th note) has a tom. But that's where the snare is. Maybe better to put the tom on the third (15th note), so ---o would be the third character? Wait the fourth segment's characters are positions 13-16:
+
+First character: 13th note: '-', second 14th '-', third 15th '-', fourth 16th 'o'. So the tom is on the 16th, same as snare. That might clash. So better to put it on 15th (third character): ---o becomes --o-? Wait no. Let me think again.
+
+If the fourth segment's T line is ---o, then the tom is on the fourth 16th (16th note) which is where the snare is. That's okay, but maybe better to have it on the third (15th). So instead of ---o, maybe --o- ?
+
+So adjusting:
+
+Fourth segment: --o- (tom on third 16th, 15th note). Then the T line would be:
+
+T: -o-- | O--- | --o- | --o-
+
+Wait but that would make the fourth segment's tom on third, avoiding the snare. Let me recalculate:
+
+First segment (notes 1-4): -o-- (tom on 2)
+Second (5-8): O--- (tom on 5)
+Third (9-12): --o- (tom on 12)
+Fourth (13-16): --o- (tom on 15)
+
+This way, the toms are on 2,5,12,15. That spreads them out without clashing with the snare on 8,12,16 (Wait the snare in the fourth segment is on 16th note (position 16), so the fourth tom on 15 is okay.
+
+Alternatively, maybe in the third segment's tom on 12 (third segment's fourth note) which is the 12th 16th note. That's the same as the end of the third beat. Hmm, but that's okay.
+
+Alternatively, maybe vary the hits between O and o for dynamics. Let me see:
+
+In the second segment, the tom is O (hard) on the first 16th. The others could be o (soft). So:
+
+T: -o-- | O--- | --o- | --o-
+
+But the third segment's tom would be --o- (soft on fourth), fourth's --o- (soft on third). That works.
+
+Alternatively, maybe the third segment's tom on fourth is okay even if it's the same as the snare's start? Wait the snare in the second segment is Oo-o, so on the second beat's second 16th (note 6?), but the third segment's tom on 12th note (third segment's fourth) is part of the third beat. Not overlapping.
+
+This seems okay. Let me put this into the final notation.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: -o--|O---|--o-|--o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

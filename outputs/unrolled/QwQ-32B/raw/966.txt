@@ -1,0 +1,39 @@
+Okay, let me tackle this drum groove edit. The user wants to remove the tom hit on beat 4 but keep everything else the same. 
+
+First, I need to look at the original groove provided. Let me parse each line:
+
+**Original Groove:**
+```
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Looking at the Toms (T) line: It's all dashes, meaning there are no tom hits in the original. Wait a second, the user is asking to remove a tom hit on beat 4, but the Toms line already has nothing there. That's confusing. Maybe there's a mistake in the input?
+
+Let me double-check the problem statement. The user says, "I don't want tom on beat 4 but everything else is fine." But according to the given drum groove, the Toms line is empty. So maybe there was a typo, or perhaps the user intended another instrument? Alternatively, maybe the original had a tom hit that wasn't shown here. 
+
+Alternatively, maybe the user is referring to another line. Let me check the other lines. The Kick (K) has hits on beats 1 and 3 of the first and third beats. The Snare (S) has hits on beat 2 and 4. The Hihat (H) is hitting every beat with X. The Crash (C) and Ride (R) are silent. 
+
+Since the Toms line is already empty, removing a tom on beat 4 doesn't change anything. But perhaps the user made a mistake and meant another instrument. Alternatively, maybe in the original problem, there was a tom hit that's missing here. 
+
+Wait, looking back at the user's input, maybe I misread. Let me check the given drum groove again. The T line is indeed all dashes. So there's no tom hit to remove. Therefore, the edited version would be the same as the original. But that seems odd. 
+
+Alternatively, maybe the user intended to refer to the Hihat or another part. But the instruction specifically mentions "tom on beat 4." Since there's no tom there, the edit doesn't change anything. 
+
+Hmm, perhaps the user provided an incorrect example, but I have to work with what's given. Since the Toms line for beat 4 is already '-', the final answer should remain unchanged. 
+
+So the edited groove would look exactly like the original because there were no tom hits to remove. I'll proceed to format it as required.
+</think>
+
+@@@
+K: O---|----|O---|----  
+S: ----|O---|----|O---  
+H: X---|X---|X---|X---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

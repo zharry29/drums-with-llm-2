@@ -1,0 +1,48 @@
+Okay, so I need to help the user edit their drum groove by removing the hihat and tom hits. Let's see what they've provided.
+
+First, the original drum groove is:
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+They want to remove both the hihat and tom hits. 
+
+Looking at the hihat line, it's currently "X-x-|X-x-|X-x-|X-x-", which means it's playing on every offbeat with hard and soft closed hits. To remove the hihat, I'll set all its characters to "-", so it becomes "----|----|----|----".
+
+For the toms, they're already set to "----|----|----|----", so no changes are needed there.
+
+The kick drum (K) and snare drum (S) will remain unchanged to keep the foundational rhythm. The crash cymbal (C) and ride cymbal (R) are also already silent, so they'll stay as "----|----|----|----".
+
+So, the final edited groove should look like this:
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+This way, only the kick and snare are active, with no hihat or tom hits, fulfilling the user's request.
+</think>
+
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+**Explanation:**
+
+- **Kick Drum (K):** Maintains its original pattern to provide a solid foundation.
+- **Snare Drum (S):** Keeps its dynamic pattern with a mix of hard hits ("O") and soft open hits ("o").
+- **Hihat (H) and Toms (T):** Both are silenced as per the edit request.
+- **Crash Cymbal (C) and Ride Cymbal (R):** Kept silent to avoid adding unnecessary accents.
+
+This arrangement creates a rhythm focused on the kick and snare drums without any hihat or tom hits.

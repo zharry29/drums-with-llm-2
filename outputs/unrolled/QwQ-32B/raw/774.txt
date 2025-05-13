@@ -1,0 +1,43 @@
+Okay, let's tackle this drum groove edit. The user wants a ride hit and cymbal in the very beginning. The original groove is:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, the "very beginning" refers to the first 16th note of the first beat. The user mentioned both a ride hit and a cymbal. The ride (R) and crash (C) are separate instruments. 
+
+Looking at the Ride line (R), it's all dashes. To add a ride hit at the start, I should put an articulation there. The notation for ride includes O (hard bell), o (soft bell), X/x (closed bow). Since it's the beginning, maybe a standard hit like 'O' on the bell.
+
+For the cymbal, that's the Crash (C) line. Adding an 'O' there as well for a hard hit.
+
+So, first character of R and C lines should be 'O'. Let me check the existing lines:
+
+Original first beat for R: ---- so changing the first '-' to 'O' gives O---.
+
+Same for Crash (C): changing first '-' to 'O' gives O---.
+
+Now check for conflicts. The Kick has an 'O' on the first note. Adding Ride and Crash hits there is okay, as multiple instruments can hit the same note. 
+
+The user didn't mention changing anything else, so the rest stays the same. Let me verify the lines again:
+
+K remains O---|O---|----|O---
+S stays ----|----|O---|----
+H remains empty
+T stays with toms
+C becomes O---|....
+R becomes O---|....
+
+Yes, that should do it. Make sure not to add anything else unless necessary. The edit is only for the first note of the first beat on Ride and Crash.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: O---|----|----|----
+R: O---|----|----|----
+@@@

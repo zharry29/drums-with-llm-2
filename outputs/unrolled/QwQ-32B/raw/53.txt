@@ -1,0 +1,96 @@
+Okay, let's tackle this drum groove edit. The user wants me to add some hihat to the given groove. First, I need to understand the current setup. Let me look at the provided drum notation.
+
+The kick (K) is pretty active with O's and --O- patterns. The snare (S) hits on the second and fourth beats. The hihat (H) is all empty right now, so that's where I need to focus. The crash (C) is hitting on every beat, and the ride (R) is silent. The task is to add hihat, so I need to come up with a pattern that complements the existing kick and snare without clashing.
+
+Since the kick is busy, maybe a steady hihat pattern on the 8th or 16th notes would work. The original example had hihats as x---|x--- etc., which are closed hits. Maybe start with a basic closed hihat on every 8th note. But looking at previous examples the user did, sometimes they use alternating X and x or mix in some open hits. Let me check the notation rules again for hihat: O is hard open, o soft open, X and x are closed hard and soft. Since the user's previous edits often used X-x- type patterns, maybe a steady closed hihat with some variation.
+
+Looking at the kick's pattern: first beat is OOO-, so maybe the hihat can have a rhythm that syncs with that. Let's see the structure is four beats divided by |. Each beat has four 16th notes. 
+
+For the first part "OOO-", maybe the hihat does something like X-X- to match the triplet feel? Or perhaps a steady closed hit on every 8th note (every two 16th notes). Let's try X-X- for each beat. So each beat would be X-X- separated by |. That would make H: X-X-|X-X-|X-X-|X-X-. But maybe adding some variation. Alternatively, maybe alternate between X and x for dynamics. Or maybe add some open hits on certain beats to match the snare.
+
+The snare is on the second and fourth beats. Maybe on those beats, the hihat does an open hit (O or o) to accent them. For example, on the second beat (where snare is O---), maybe the hihat does an open hit on the first 16th note. Let's try:
+
+First beat (K: OOO-): X-X-
+Second beat (S: O---): O-x- (so open hit on first 16th, then closed)
+Third beat (K: OOO-): X-X-
+Fourth beat (S: O---): O-x-
+
+But need to make sure it's 4 characters per beat. Let me structure each beat:
+
+Beat 1: X-X- (closed on every 8th)
+Beat 2: O-x- (open then closed on the next)
+Beat 3: X-X-
+Beat 4: O-x-
+
+So combining them:
+
+H: X-X-|O-x-|X-X-|O-x-
+
+But need to check if that's 16 characters. Each beat is 4, so 4 beats make 16. That works. Alternatively, maybe make it more consistent. Alternatively, use closed hits everywhere but add an open on the snare hits. Let me see another approach.
+
+Alternatively, a common hihat pattern is a steady closed on all 8th notes (every two 16th), so every other note is hit. That would be X---|X--- but no, each beat has four 16ths, so for 8th notes, it's every two. So for a beat like "----", an 8th note pattern would be X-X-.
+
+So if I do that for all beats, it would be H: X-X-|X-X-|X-X-|X-X-
+
+But maybe that's too simple. The user might want some variation. Let me look at previous examples they've done. In an earlier edit, when adding hihat, they used patterns like X-x- repeated, or X-X- but with some open hits on certain beats.
+
+Wait, in the user's previous response when they added hihat to a similar groove, they sometimes used alternating X and x or added open hits on the snare beats. For instance, in one case they did H: X-x- repeated. Let me check the exact example.
+
+Looking back, in one of the previous answers, when the user added hihat to a groove with snare on 2 and 4, they used H: X-x-|X-x- etc. So maybe that's a safe pattern. Let's try that here.
+
+So for each beat, the hihat is X-x-. That would be four characters per beat: X - x - (assuming each character is a 16th note). Wait, no: "X-x-" is four characters, so each beat would be X-x-, so over four beats:
+
+H: X-x-|X-x-|X-x-|X-x-
+
+But that would be 16 characters. That's a common 16th note pattern with alternating hard and soft closed hits. That could work, adding some groove to the hihat without being too busy.
+
+Alternatively, maybe on the snare hits (beat 2 and 4), the hihat does an open hit. Let's try combining both ideas.
+
+First beat: X-X- (closed on 8th notes)
+Second beat (snare): O-x- (open on first 16th, then soft closed)
+Third beat: X-X-
+Fourth beat (snare): O-x-
+
+So H: X-X-|O-x-|X-X-|O-x-
+
+This way, the snare hits are accented with an open hihat. Let me see if that's within the notation rules. The H line uses O for open, which is allowed. This adds some variation and accents the snare.
+
+Alternatively, maybe the user prefers a more consistent pattern. Let me think if there's any conflict with existing instruments. The crash is hitting on every beat, so the hihat can play around that. The ride is empty, so the hihat can take a more prominent role.
+
+Another option: using a steady closed hihat on all 16th notes. That would be X-X-X-X- but each beat must have four characters. Wait, each beat is four 16th notes, so to have 16th notes all hit, it would be X-X-X-X- but that's five characters. Wait no, each beat is four 16th notes. So for a full 16th note pattern, each beat would be X-X- (every other 16th is hit, so 8th notes). To get all 16th notes, it would be X-X-X-X but that's four X's? Wait no, each character is a 16th note. To hit every 16th note, you need X in every position. So for a beat, it would be XXXX, but that might be too busy. Probably better to stick with 8th notes or a mix.
+
+Given the kick is already active with triplets (OOO- in the first beat), maybe a steady 8th note hihat would work. Let's go with H: X-X- repeated across all four beats. That would be H: X-X-|X-X-|X-X-|X-X-
+
+Alternatively, maybe add a little variation in the third and fourth beats. Let me see the original K and S patterns:
+
+The kick is OOO-|--O-|OOO-|-OOO. The snare is on the second and fourth beats. The crash is on every beat. So the groove has a strong downbeat with the kick and crash. Adding a steady hihat on 8th notes would provide a consistent rhythm.
+
+Another consideration: in the Hihat's notation, using X (hard closed) and x (soft closed) alternately can give a subtle swing feel. So X-x-|X-x- etc. might be better than all X's.
+
+Yes, I think using X-x- for each beat would be a good middle ground. Let's try that:
+
+H: X-x-|X-x-|X-x-|X-x-
+
+This gives a steady 16th note pattern with alternating dynamics, which is common in rock or pop grooves. It adds motion without clashing with the kick's triplets or the snare/crash on beats 2 and 4. The user's previous edits often used this pattern when adding hihat, so it's probably safe.
+
+Wait, looking at the user's previous answer when they added hihat to a similar groove (like in the example where the user had K: O--O|----|--O-|---- etc.), they set H to X-X-|X-X- etc. But in another case, they used X-x-. Hmm, perhaps the user prefers alternating. Let me check the exact previous responses.
+
+Looking back, in one of the user's edits, when they added hihat to a groove with no existing hihat, they used H: X-X-|X-X- etc. But in another case, they used X-x-|X-x- etc. It might depend on the context. Since the current groove has a crash on every beat, maybe a closed hihat on all 16th notes (X-X- per beat) would work better to not clash with the crashes. Alternatively, the X-x- might add some variation.
+
+Alternatively, maybe adding an open hit on the first 16th of each beat to match the kick's hard hits. The first beat starts with OOO-, so maybe an open hit on the first 16th. Let's try:
+
+Beat1: O--- (but for hihat, maybe O followed by X's. Wait, the H line's O is open hit. So:
+
+H: O-X-|X-X-|O-X-|X-X- (not sure, but that might complicate). Alternatively, perhaps a simpler approach is better.
+
+To keep it straightforward, I'll go with H: X-x- repeated across all four beats, giving a consistent 16th note pattern with dynamic variation. That should add the hihat without overcomplicating the groove. Let's put that in the final answer.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

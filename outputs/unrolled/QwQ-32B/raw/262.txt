@@ -1,0 +1,35 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only cymbal but also hihat. Looking at the given groove:
+
+First, let's check the current instruments. The Kick (K) has some hits, Snare (S) too, but Toms (T) and Hihat (H) are all dashes. The Ride (R) is active with "o-O-" patterns, which are cymbals. So the problem is that there's no hihat, and they want to add that. The cymbal part is already present through the Ride, so the main task is to add hihat.
+
+The user's request says "not only cymbal but also hihat," which implies that the current groove might have cymbals but lacks hihat. Since Ride is a cymbal, and Hihat is separate, I need to add hihat hits where appropriate.
+
+Looking at the H line, it's all dashes. To add hihat, I need to decide where to place the hits. The existing Kick and Snare patterns can guide this. Typically, hihat is played on the offbeats or consistently to keep the tempo. Since the Ride is doing a steady pattern (o-O- repeating), maybe the hihat can complement that.
+
+In the given Ride pattern "o-O-", each beat is four 16th notes. The "o" is on the first 16th, then "-", then "O" on the third, then "-". Maybe the hihat can play on the first and third 16th notes as well, but using closed hits (X or x) to match the style. Alternatively, a steady eighth note or 16th note pattern.
+
+Looking at the example provided in the drum notation, the Hihat in the example groove is "x---|x---|x---|x---", which is a closed hit on each beat's first 16th note. Maybe a common pattern is to have the hihat on every 8th note, which would be two hits per beat. So for each beat (four 16th notes), the hihat could hit on the first and third 16th notes (like X-x-), creating a steady eighth note pattern.
+
+Let's see the existing Ride's pattern is o-O- per beat. If the hihat is X-x- per beat, that would align with the Ride's hits. Alternatively, maybe matching the Ride's rhythm but with closed hihat.
+
+Alternatively, since the user wants to add hihat, maybe start with a simple closed hihat on every 8th note (so two hits per beat). Let's try that. For each beat, the hihat would be X-x- (since X is hard closed, x is soft closed). Repeating that across all four beats would give H: X-x-|X-x-|X-x-|X-x-.
+
+Alternatively, maybe alternate between X and x for variation, but starting with a basic pattern is safer. Let's go with X-x- for each beat. That should add the hihat without conflicting with the Ride.
+
+Now, check if there are any existing hits that might clash. The Kick and Snare have some hits, but the hihat on the offbeats would complement them. The Ride is on the bell, so the hihat's closed hits would add a different texture.
+
+So the edited H line would be X-x- repeated four times. Let me write that out:
+
+H: X-x-|X-x-|X-x-|X-x-
+
+That should fulfill the request. Let me check the other lines. The cymbal (Ride) is already there, so adding hihat meets the requirement. The user didn't mention removing anything else, so the rest stays the same. The final groove should have the H line filled with the hihat pattern.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

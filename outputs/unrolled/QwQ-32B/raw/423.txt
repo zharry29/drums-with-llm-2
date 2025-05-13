@@ -1,0 +1,39 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any tom and kick parts from the given groove. Let me start by understanding the original groove structure.
+
+Looking at the provided drum notation:
+
+Kick (K): O---|----|O---|----
+Snare (S): ----|O---|----|O---
+Hihat (H): X---|X---|X---|X---
+Toms (T): ----|----|----|----
+Crash (C): ----|----|----|----
+Ride (R): ----|----|----|----
+
+First, I need to eliminate the kick and tom parts. The kick line has "O" hits on the first and third beats, so I'll replace all characters in the K line with dashes. The Toms line is already empty, so no change there. 
+
+Now, check the other instruments. The snare has hits on the second and fourth beats, and the hihat has "X" on every beat. Since the user didn't mention removing snare or hihat, those stay. But wait, the user said "no tom or kick," so snare and hihat are okay. 
+
+Wait, the edit request specifically says "no tom or kick," so I should only clear K and T lines. Let me confirm:
+
+Original K: has O's, so set to all dashes.
+Original T: already all dashes, so no change.
+
+So the edited version should have K and T lines empty. Let me write that out:
+
+K: ----|----|----|----
+S remains as is: ----|O---|----|O---
+H remains: X---|X---|X---|X---
+T: ----|----|----|----
+C and R stay the same (empty).
+
+Double-checking to ensure no typos. Yep, that should do it. The user might also want to confirm that snare and hihat are kept since they weren't mentioned. The request was specifically about tom and kick, so this should meet their needs.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

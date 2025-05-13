@@ -1,0 +1,82 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any tom or hihat parts. Let me start by reviewing the given drum notation and the specific instruments involved.
+
+First, the original groove is provided in the drum notation format. Let me parse each line:
+
+- **K (Kick drum):** All dashes, so no kick hits.
+- **S (Snare drum):** Also all dashes, meaning no snare hits.
+- **H (Hihat):** Has some 'x' and '-' characters. Since the user wants to remove hihat, I need to clear this line.
+- **T (Toms):** All dashes, so already no toms. But the user still wants to ensure they're removed, so I'll confirm it's clear.
+- **C (Crash cymbal):** All dashes, so no crashes.
+- **R (Ride cymbal):** Has some 'x' and 'X' characters. The user didn't mention ride, so unless specified, leave it? Wait, the request is to remove tom or hihat, so ride is okay unless told otherwise. Wait, the user said "I don't want any tom or hihat." So only those two instruments need to be cleared. 
+
+Wait, the user's edit request says "I don't want any tom or hihat." So we need to remove both. Let me check the original again:
+
+Original Hihat line (H) has entries like "----|x---|----|x---" so that needs to be set to all '-'. The Toms (T) line is already all '-', so no change there. The ride (R) has entries like "x---|X-x-|x---|X-x-", which the user hasn't mentioned, so leave that as is unless the request implies removing all cymbals, but the user specifically mentioned "tom or hihat". 
+
+Wait, but in the user's previous examples, sometimes they might have removed ride when similar requests were made. Wait, let me check the problem again. The user's instruction says "I don't want any tom or hihat." So only those two instruments should be removed. The ride is separate, so unless the user specifies ride, it stays. 
+
+Wait, but in the provided example where the user had a similar request before (e.g., "I don't want any ride or tom"), the assistant removed both ride and tom. Here, the request is "tom or hihat", so only those two. So the ride can stay unless the user says otherwise.
+
+Wait, but in the current problem, the user's edit request says "I don't want any tom or hihat." Therefore, we should remove both Toms and Hihats. Let me confirm the lines again.
+
+Original H line has content (like x--- in some beats), so set all H to '----|----|----|----'. The T line is already empty, so leave it as is. The R (ride) remains as it is unless the user mentions it, which they didn't. 
+
+Wait, but in the user's problem statement, the given drum groove already has T (toms) as all dashes, so that's already okay. The Hihat needs to be cleared. The ride is part of the original and not to be touched. 
+
+Wait, but in the user's example in the problem, when they had a similar request like "I don't want any ride or tom", the assistant removed both. Here, since the user says "tom or hihat", so only remove those two. 
+
+So, in this case, the edited groove should have H set to all '-', T remains as all '-', and R stays as original. But let me check the user's exact request again: "I don't want any tom or hihat." So yes, remove both. 
+
+Therefore, the final edit should set H to all dashes and ensure T is already all dashes. The rest (K, S, C, R) stay as they are unless they have toms or hihats, which they don't. 
+
+Wait the original K and S lines are all dashes except maybe the S? Let me check:
+
+Original given groove:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So S is all dashes, so no snare. K is also all dashes. So the only non-empty lines are H and R. The user wants to remove H and T (but T is already empty). So the result should have H set to all '-', and R remains as is. 
+
+Wait but the user might have intended to remove all non-kick and snare? But according to the problem, the user's instruction is only to remove tom and hihat. So the ride is okay. 
+
+Therefore, the edited drum groove would be:
+
+K remains: ----|----
+
+S remains: ----|----
+
+H becomes: ----|----
+
+T remains: ----|----
+
+C remains: ----|----
+
+R stays as x---|X-x-|x---|X-x-
+
+Wait, but in the user's previous examples, when they said "I don't want any ride or tom", the assistant removed ride and tom. Here, since the user says "tom or hihat", so only those two are removed. So the answer should have H set to all dashes, and T already is. The ride remains. 
+
+But let me check if the user's instruction might have a typo or if they meant to include ride? The wording says "tom or hihat", so only those. 
+
+So the final answer should be:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

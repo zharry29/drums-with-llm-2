@@ -1,0 +1,52 @@
+Okay, let me try to work through this. The user wants a tom hit and a cymbal in the very beginning of the drum groove provided. Let me start by understanding the original groove they have.
+
+Looking at the given drum groove:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+So, the kick (K) is hitting on the first and third beats, the snare (S) on the second and fourth, and the hihat (H) is closed hits (X) on every beat. Toms (T) and cymbals (C and R) are not being used here. The user wants a tom hit and a cymbal added at the very beginning, which is the first 16th note of the first beat.
+
+First, I need to figure out which instruments to use for the tom and cymbal. The tom is covered under the T line, so I should add a hit there. The cymbal could be either crash (C) or ride (R). Since the user specified "cymbal," and the crash is more of a sharp hit, maybe using the crash cymbal (C) makes sense for a strong start. Alternatively, the ride (R) might be used, but since the user didn't specify, I'll choose crash (C) as the cymbal here.
+
+Now, the first beat is divided into four 16th notes: the first character in the first segment (before the first |). The original K has an 'O' on the first 16th note of the first beat. The user wants a tom hit and cymbal at the very beginning, so that's the first note. 
+
+So, I need to add a tom hit (T) and a crash (C) on the first 16th note. However, the kick is already hitting there. Let me check the notation rules again. Each instrument's line is independent, so even if the kick is hitting, the tom and cymbal can also hit at the same time. 
+
+Therefore, in the first beat's first 16th note (position 1), I'll add an 'O' for the tom (since it's a hard hit) and an 'O' for the crash. 
+
+Looking at the T line, which was all dashes, I'll change the first character to 'O'. Similarly, the C line is all dashes, so the first character becomes 'O'. 
+
+Let me make sure not to affect other parts of the bar. The rest of the T and C lines should stay as they are unless the user wants more changes, but the request is only for the very beginning. 
+
+So modifying the T line first beat's first note to 'O', and the C line's first note to 'O'. 
+
+Let me check the example given in the problem to see how multiple hits on the same note are handled. In the example provided, instruments can have hits on the same note without conflicting, so this should be okay.
+
+So the new lines would be:
+
+T: O---|----|----|----
+C: O---|----|----|----
+
+The other lines remain the same. Let me verify again:
+
+- The kick still has its 'O' on the first 16th note.
+- The tom now has an 'O' there too.
+- The crash has an 'O' there as well.
+- The snare and hihat remain unchanged except where they were already.
+
+That should fulfill the user's request. I think that's it. Let me just ensure I didn't make any typos in the notation. The vertical bars separate the beats, each four characters per beat. The first segment of each line is the first beat's four 16th notes. So changing the first character of T and C to 'O' is correct.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

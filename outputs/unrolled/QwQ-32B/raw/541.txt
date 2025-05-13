@@ -1,0 +1,28 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any ride or kick elements. 
+
+First, I'll look at the given groove. The K (Kick) line has some hits like O--O and --O-. Since the user doesn't want kick, I'll replace all K's entries with dashes.
+
+Next, the R (Ride cymbal) line is already all dashes, so no change there. But wait, maybe I should double-check. The original R line is empty, so that's good.
+
+The S (Snare) and H (Hihat) parts are okay as they are since they're not related to ride or kick. The T (Toms) are also fine unless they were part of the ride, but toms are separate. 
+
+Wait, the user specified "ride or kick", so only K and R lines need adjustment. Let me confirm each line:
+
+- K: Replace all with ----|----|----|----
+- S remains as is.
+- H remains as is.
+- T remains as is (since no toms were requested to be removed).
+- C (Crash) is already empty.
+- R is already empty.
+
+So the final groove should have the K and R lines all dashes, others unchanged. Let me write that out.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

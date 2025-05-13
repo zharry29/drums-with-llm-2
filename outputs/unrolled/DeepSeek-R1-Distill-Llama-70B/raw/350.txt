@@ -1,0 +1,42 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any snare or cymbal hits from the given pattern. 
+
+First, I'll look at the original groove:
+
+```
+K: OOO-|---O-|OOO-|---O
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+**Kick Drum (K):** It's already set with a mix of hard and soft hits. I'll keep this as is since the user didn't mention changing it.
+
+**Snare Drum (S):** The user wants no snare, so I'll set all its hits to "-".
+
+**Hihat (H):** It's already silent, so no changes needed.
+
+**Toms (T):** Also silent, so no changes.
+
+**Crash Cymbal (C):** Needs to be removed, so I'll set all its hits to "-".
+
+**Ride Cymbal (R):** Already silent, so no changes.
+
+After making these changes, the final groove will only have the kick drum and any other unchanged parts. I'll make sure to set all snare and cymbal lines to "-" to fulfill the request.
+</think>
+
+```
+K: OOO-|---O-|OOO-|---O
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+This groove now features:
+- **Kick Drum (K):** Maintains its original pattern with both hard and soft hits.
+- **Snare Drum (S), Hihat (H), Toms (T), Crash Cymbal (C), and Ride Cymbal (R):** All silenced as per the edit request.
+
+This arrangement creates a minimalist rhythm focused solely on the kick drum without any snare or cymbal hits.

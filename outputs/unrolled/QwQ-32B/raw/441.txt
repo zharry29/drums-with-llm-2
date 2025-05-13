@@ -1,0 +1,47 @@
+Okay, let's see. The user wants me to edit a drum groove by removing any cymbals and snare. The original groove is given, and I need to make sure that the S (snare) and C (crash), R (ride) lines are all dashes. Let me look at the given drum notation first.
+
+The original groove has:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+First, the user says "no cymbal or snare". Cymbals include Crash (C) and Ride (R). Snare is S. So I need to set all S, C, R lines to all '-'.
+
+Looking at the S line: the third beat has 'S---', so I need to replace that with '----'.
+
+The C line has all 'O---' in each beat, so that should become '----|----|----|----'.
+
+The R line is already all dashes, so no change there.
+
+The kick (K) and toms (T) and hihat (H) can stay as they are unless specified otherwise. The user didn't mention those, so leave them.
+
+Wait, the user's request is only about removing cymbals (C and R) and snare (S). So confirm:
+
+- S line should be all dashes.
+- C line should be all dashes.
+- R is already okay.
+
+Let me reconstruct each line:
+
+K remains: -O--|OO--|---O|-OO-
+S becomes: ----|----|----|----
+H stays: x-x-|x-x-|x-x-|x-x-
+T stays: ----|----|---O|----
+C becomes: ----|----|----|----
+R stays: ----|----|----|----
+
+Wait, checking the original R line, it was all dashes already. So the main changes are in S and C lines. That should satisfy the request. Let me make sure there are no other cymbals or snare hits. The S line had an 'S' in the third beat's first hit, so replacing that with '-' is correct. The crash line (C) had all 'O's, so those become dashes. The final groove should look like this with those changes.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|----|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

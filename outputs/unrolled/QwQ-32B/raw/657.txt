@@ -1,0 +1,63 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and cymbal in the very beginning. The original groove is:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+First, the "very beginning" means the first 16th note of the bar, which is the first character of the first beat (before the first |). 
+
+For the snare (S line), currently it's "----" in the first beat. To add a snare hit there, I need to replace the first '-' with either 'O' (hard hit) or 'o' (soft). Since the user didn't specify, maybe start with a hard hit 'O'.
+
+For the cymbal, they might mean crash (C) or ride (R). Looking at the existing C line, it already has crashes on every beat (O--- in each segment). But the user might want an additional hit or perhaps a ride instead. Since the ride (R) is all dashes, maybe adding a ride hit there. Alternatively, maybe they want a crash on the first note. Let me check the user's previous requests. In some past edits, when adding cymbals, they used crash (C). But since the crash is already hitting on the first beat's first 16th note (C: O---), maybe they want an extra cymbal. Alternatively, maybe the user wants the ride instead. Hmm. The instruction says "cymbal", which could be either. Since the ride is not active, perhaps adding a ride hit on the first note. Let me choose R: O--- for the first beat. But need to confirm.
+
+Alternatively, maybe the user wants a crash on the first note, but it's already there. Wait, in the given groove, C is O--- in each segment, so first note of each beat is a crash. So the first note of the bar is already a crash. So maybe the user wants another cymbal, perhaps a ride? Or maybe they want a different cymbal hit. Alternatively, maybe they want the snare and cymbal (like crash and snare) together on the first hit.
+
+Wait, the original S line has no hits in the first beat. So adding a snare hit there. Let's do S: O--- for the first beat. Then, since the crash is already there, maybe that's sufficient. But the user might want an additional cymbal, perhaps a ride. Let me check the R line. It's all dashes, so adding a ride hit on the first note. So R: O--- for the first beat.
+
+Alternatively, maybe the user wants the crash and snare together. Since the crash is already there, adding the snare would fulfill the request. But to be thorough, maybe add both snare and a cymbal (like ride) as the user specified both.
+
+So modifying the S line first beat to O---, and R line first beat to O---. Let's see:
+
+New S: O---|----
+New R: O---|----
+
+Wait, but the existing C line is already O--- in the first beat. So the first note would have a crash (C), snare (S), and ride (R) all hitting. That might be a bit busy, but the user asked for both. Alternatively, maybe the user wants the cymbal to be the ride instead of crash. Let me check if that's better. Since the crash is already present, adding ride might add more. Alternatively, maybe the user wants the cymbal to be a ride, replacing the crash. But the user said "add", so perhaps adding both. Alternatively, maybe they meant a different cymbal. Let me proceed with adding both snare and ride.
+
+So the edited lines would be:
+
+K remains: -O--|OO--|---O|-OO-
+S becomes O---|----
+H stays the same
+T same
+C same
+R becomes O---|----
+
+So the final groove would look like:
+
+K: -O--|OO--|---O|-OO-
+S: O---|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: O---|----|----|----
+
+Wait, but the user might prefer a soft snare? Let me check the S articulation. The user didn't specify, so default to hard hit O. Alternatively, since the later snare hits are 'S---' (which uses S, but according to the notation, S can have X and x as sidestick. Wait, the S line's third beat has 'S---', but according to the notation, S's valid characters are O, o, X, x. Wait, in the given groove's S line: "S---" in third beat. Wait, the user's given S line has "S---" which might be a typo. Wait the original provided groove's S line is:
+
+S: ----|----|S---|----
+
+But according to the notation, the S line should only have O, o, X, x. So maybe "S" here is a mistake. Wait, in the problem description, the S line's characters are defined as O, o, X, x. So "S" in the third beat is invalid. That must be a typo. Maybe it's supposed to be 'o' or another valid character. Hmm, perhaps the user made a typo, but since I can't ask, I'll proceed. Maybe it's a soft open hit 'o'. Alternatively, maybe it's a mistake and should be 'x' or 'X'. Since the third beat's S is 'S---', perhaps it's a typo and should be 'o---'? I'll proceed assuming it's a typo and that the third beat's S is 'o---', but since I can't change that, maybe just leave it as is. The user's edit request is about the beginning, so focus on the first beat.
+
+Therefore, adding the snare hit as O and ride as O in the first beat. That should fulfill the request.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-  
+S: O---|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: ----|----|---O|----  
+C: O---|O---|O---|O---  
+R: O---|----|----|----  
+@@@

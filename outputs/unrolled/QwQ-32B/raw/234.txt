@@ -1,0 +1,113 @@
+Alright, let's tackle this drum groove edit. The user wants the groove to include not only the snare but also the tom. The original groove has kick, snare, and hihat, but no toms or cymbals. The edit request specifically mentions adding tom, so I need to incorporate tom hits into the existing pattern without removing the snare.
+
+First, I'll review the original drum notation to understand the current setup. The kick (K) is hitting on the first and third beats. The snare (S) is on the second and fourth beats. The hihat (H) is consistently closed hits (X) on every beat. Toms (T) are all dashes, meaning they're not played. The user wants to add toms, so I need to place some hits there.
+
+I should consider where to add the toms to complement the existing kick and snare without clashing. Typically, toms can be added on offbeats or as fills. Since the current pattern is pretty sparse (only kick, snare, and closed hihat), adding toms on the "and" of the beats might work well. For example, placing tom hits on the eighth notes between the kicks and snares.
+
+Looking at the first beat: K is O--- (hit on the first 16th note), S is ---- (no snare here), so maybe adding a tom on the "&" (second 16th note) of the first beat. But need to check the entire bar for consistency.
+
+Alternatively, maybe syncopate the toms to add some groove. Let's see each beat:
+
+First beat (K: O---, S: ----, H: X---):
+- Maybe add a tom on the second 16th note (the "&" of 1), so T: -O-- for the first beat.
+
+Second beat (K: ----, S: O---, H: X---):
+- Here, the snare is on the downbeat. Maybe a tom on the "&" of 2: T: -O-- for the second beat.
+
+Third beat (K: O---, S: ----, H: X---):
+- Similar to the first beat, add a tom on "&" of 3: T: -O--
+
+Fourth beat (K: ----, S: O---, H: X---):
+- Add a tom on "&" of 4: T: -O--
+
+Putting that together, each beat would have a tom on the second 16th note. So T: -O--| -O--| -O--| -O--
+
+But maybe varying the hits could add more interest. Alternatively, using a combination of hard and soft hits (O and o) for dynamics. For example, on the first and third beats, use O (hard), and on the second and fourth, use o (soft). That could create a nice variation.
+
+Alternatively, maybe place toms on the third 16th note of each beat. Let's think of the 16th notes as 1 e & a. If the kick is on 1, then maybe tom on "&" (the second 16th) would fit well.
+
+Another approach: since the hihats are closed hits on every beat, adding toms on the "a" (fourth 16th note) of each beat could work. But that might clash with the hihat's steady pattern. Alternatively, syncopate differently.
+
+Wait, let me look at the user's previous edits. In past interactions, when adding toms to a groove without them, they often placed toms on every beat's third 16th note or similar. For instance, in a previous example, they used ---O for each beat, resulting in T: ---O|---O|---O|---O. That's a common pattern where the tom hits on the "a" of each beat, which can add a nice backbeat feel.
+
+Alternatively, maybe a tom on every quarter note but offset. Let me try that. Let's see:
+
+If I set T: ---O for each beat, that would mean the tom hits on the fourth 16th note of each beat. So each beat's tom is on the "a" of the count. That might work well, creating a syncopated tom pattern that contrasts with the kick and snare on the downbeats.
+
+Alternatively, maybe a more active tom pattern. Let's consider the user's previous responses. For example, in one prior edit, when adding toms to a similar setup, they used:
+
+T: --O-|--O-|--O-|--O-
+
+Which places the tom on the third 16th note of each beat (the "&" followed by "a"? Wait, let me parse that. Each beat is four 16th notes. "--O-" would be the third 16th note (the "&a" part? Wait, maybe the third 16th note is the "&", then the fourth is the "a". Hmm, perhaps the user's prior examples can guide me.
+
+Looking back at a previous answer where the user added toms to a groove with kick and snare, they used:
+
+T: --O-|--O-|--O-|--O-
+
+Which would mean the tom is on the third 16th note of each beat. Let me check if that's a good fit here.
+
+In the current groove, the kick is on 1 and 3 of each measure, so first and third beats. The snare is on 2 and 4. Adding a tom on the third 16th note (the "&" of each beat) would create a syncopated feel. Let's see:
+
+First beat (1st beat): K hits on 1 (first 16th), tom on the third 16th (the "&" of 1), so T: --O- for the first beat.
+
+Second beat (2nd beat): Snare on the downbeat, tom on the third 16th (the "&" of 2), so T: --O- again.
+
+Third beat (3rd beat): Kick on the first 16th, tom on third.
+
+Fourth beat (4th beat): Snare on the first 16th, tom on third.
+
+This would create a steady tom pattern on the "&" of each beat, which complements the kick and snare on the downbeats. That seems like a solid approach.
+
+Alternatively, maybe vary the hits between O and o for dynamics. For instance, using O on the first and third beats, and o on the second and fourth for a softer hit. But the user hasn't specified dynamics, so maybe just stick with O for simplicity unless there's a reason to vary.
+
+Another consideration: the user's previous edits sometimes used alternating patterns. For example, in one case they had T: -o--|O---|--o-|--o-, which varies the placement. But maybe for this, keeping it consistent is better.
+
+Alternatively, placing the tom on the second 16th note (the "e" of each beat) would create a different feel. Let's see:
+
+If T: -O-- for each beat, that's the second 16th note. That could work too. Let me think which is more common. The third 16th (the "&") is a typical syncopation point, so that might be better.
+
+So, going with T: --O- for each beat. Let's map it out:
+
+Beat 1: K: O--- | T: --O- → so first beat's tom is on the third 16th.
+
+Same for each beat. So the T line would be:
+
+T: --O-|--O-|--O-|--O-
+
+This adds a tom hit every third 16th note of each beat, creating a syncopated rhythm that works with the existing kick and snare. It doesn't interfere with the snare on beats 2 and 4, and adds a nice driving feel.
+
+Alternatively, maybe using the fourth 16th note (the "a") but that might clash less with the hihat's steady closed hits? Let's see: if T: ---O for each beat, that would be on the "a" of each beat. Since the hihat is X--- (closed on the downbeat), that might be okay. But the "&" (third 16th) is often a common syncopation point, so maybe better there.
+
+Another check: in the user's previous responses, when they added toms to a similar setup (like the example where K: O---|----|O---|---- and S: ----|O---|----|O---), they used T: --O- for each beat. So following that pattern would be consistent with their style.
+
+Therefore, I'll go with T: --O-|--O-|--O-|--O-.
+
+Wait, but in the user's prior example where the original had K: O---|----|O---|---- and S: ----|O---|----|O---, the added T was --O- on each beat. So that's a good model to follow here.
+
+So the final T line should be:
+
+T: --O-|--O-|--O-|--O-
+
+This adds a tom hit on the third 16th note of each beat, creating a syncopated rhythm that works well with the existing kick and snare pattern. It doesn't clash with the snare on beats 2 and 4 since those are on the downbeats, while the toms are on the "&".
+
+I should also check that all characters add up correctly. Each beat is four characters, separated by |, making four beats (16 notes total). Each T line segment is four characters, so that's correct.
+
+So the edited groove would have the T line as above, keeping the rest the same. Let's verify:
+
+Original K: O---|----|O---|----
+Original S: ----|O---|----|O---
+Original H: X---|X---|X---|X---
+T: --O-|--O-|--O-|--O-
+C and R remain as dashes.
+
+Yes, that should fulfill the edit request of adding tom to the groove which previously had only kick, snare, and hihat.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: --O-|--O-|--O-|--O-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

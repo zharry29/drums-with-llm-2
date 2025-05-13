@@ -1,0 +1,44 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any ride or snare parts from the given groove. 
+
+First, I'll look at the original groove provided:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+The user's request is to eliminate the ride (R) and snare (S) elements. 
+
+Starting with the Snare (S line): It's already all dashes, so no changes needed there. Wait, actually looking again, the S line is all dashes, meaning there's no snare in the original. Hmm, maybe the user is concerned about possible hidden snare hits, but according to the input, S is inactive. But since the instruction says "I don't want any ride or snare," perhaps there's a mistake here. However, proceeding as per the given data.
+
+Next, the Ride (R line) has some hits: "x---|X-x-|x---|X-x-". To remove ride, we need to replace all those characters with '-'.
+
+So, the edited R line should be all dashes.
+
+Additionally, checking other instruments to ensure nothing else needs adjustment. The Hihat (H) has some activity, but since the request is only about ride and snare, those can stay.
+
+So the final groove should have:
+
+- K: unchanged (all dashes)
+- S: already all dashes
+- H: unchanged
+- T and C: also unchanged as they're inactive
+- R: all dashes
+
+Let me verify again. The original R line has "x---|X-x-|x---|X-x-", which are closed and open hits on the ride. Removing them by setting to '-'.
+
+Final check: Ensure that only R is modified (to all '-') and S is already clear. That should meet the user's request.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

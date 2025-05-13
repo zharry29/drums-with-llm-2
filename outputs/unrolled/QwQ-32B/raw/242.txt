@@ -1,0 +1,102 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include not just the snare but also toms. Looking at the given groove:
+
+**Original Groove:**
+```
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Hmm, wait a second. The tom line (T) already has notes: `O-o-` repeated in each beat. So the user's request might be a bit confusing because the toms are already present. But maybe they meant that the groove should have more tom involvement alongside the snare, or perhaps the original had no toms and there was a mistake?
+
+Looking back at previous examples, sometimes the user's edits added toms where they were missing. Let me double-check the current T line. In the given groove, T has `O-o-` in each beat, meaning every first and third 16th note is played (hard and soft hits). So toms are already there. Maybe the user's edit request is redundant? Or perhaps there was a typo in the problem statement?
+
+Alternatively, maybe the user wants to ensure that both snare and toms are present, but in the original, the snare only hits in the third beat. Let me see:
+
+The snare (S) is only active in the third beat (`O---`), while the toms are active throughout. The user might want to add more snare or integrate toms more with the snare. But the instruction says "not only snare but also tom," implying that the original had only snare and needed toms added. However, since toms are already present, perhaps the user intended a different scenario?
+
+Wait, looking at the problem again: the user's request is "The groove should have not only snare but also tom." The original might have had no toms, but in the provided groove, toms are present. Maybe there's an error here. Alternatively, maybe the user wants toms in addition to the existing snare, but the snare is minimal. Let me proceed assuming that perhaps the user wants to add more tom hits to complement the snare, or maybe there was a mistake in the problem's setup.
+
+Assuming the user wants to add toms where they weren't present, but in this case, they are. Alternatively, maybe the user wants toms to be more prominent alongside the snare. Let me proceed by enhancing the tom parts to work better with the snare.
+
+The snare is only in the third beat. Let's see:
+
+Beat 1-4 breakdown:
+
+**Kick (K):**
+- Beat 1: O---
+- Beat 2: O---
+- Beat 3: ----
+- Beat 4: O---
+
+**Snare (S):**
+- Beat 3: O---
+
+**Toms (T):**
+- All beats: O-o- (so hits on 1st and 3rd 16th notes of each beat)
+
+Maybe the user wants toms to play with the snare on beat 3. Let's adjust the toms to hit on the snare's beat. For example, in beat 3, the tom could have a hit on the downbeat (1st 16th) which aligns with the snare. Alternatively, add a tom hit on the 3rd 16th note of beat 3 to match the snare's O on the first 16th. Wait, the snare's O is on the first 16th of beat 3. The tom already has an O there. So they are already playing together. Maybe the user wants more variety in the toms?
+
+Alternatively, maybe the user intended the original groove to have no toms, but there was a mistake. Let me check previous examples. In prior interactions, when the user said "not only kick but also tom," they added toms where they were missing. Here, the toms are present, so perhaps the user made a typo and meant "not only kick but also tom," but the current problem states "not only snare but also tom," which is confusing. Alternatively, maybe the snare is sparse and needs more, but the main issue is toms are already there.
+
+Wait, looking at the original problem's S line: S is only active in beat 3. So the snare is minimal. The user might want more snare hits, but the instruction specifically says to add toms. Since toms are already present, perhaps the user wants toms to have more variation. Alternatively, maybe the user wants to replace some kick hits with toms?
+
+Alternatively, maybe I misread the problem. Let me check the given groove again. The T line is indeed filled with O-o- in each beat, so toms are active. The user's instruction might be redundant, but I should follow it by adding more tom hits or modifying them to better配合 with the snare. 
+
+Perhaps in the third beat where the snare hits, the tom could have a harder hit (O) there, or add an extra tom hit. Alternatively, syncopate the toms to create a better groove. Let me try modifying the T line to have hits on the offbeats where the snare is, or complement it. For example, in beat 3, the snare is on the first 16th, so maybe the tom could have a hit on the second or fourth 16th to create a syncopation. Alternatively, add a tom hit on the fourth 16th of each beat for a swing feel.
+
+Alternatively, maybe the user wants toms to play on the snare's beat but with a different articulation. Let me try adjusting the T line to have O on the downbeats and o on the offbeats, but that's already the case. Maybe introduce some variation in the tom hits, like alternating between O and o in different beats. 
+
+Alternatively, since the snare is only in beat 3, perhaps add tom hits in other beats to balance the groove. For example, in beat 4, add a tom hit on the fourth 16th to lead into the next bar. 
+
+Wait, the user's instruction is to ensure there's not only snare but also toms. Since toms are already present, maybe the user's request was due to an error in the problem setup, but I should proceed by enhancing the tom part to make it more prominent or varied. Let me choose to add some tom hits on the offbeats where the kick is silent. For example:
+
+Original T line: O-o- in each beat (positions 1 and 3). Let's modify it to have hits on 1st and 4th 16th notes in some beats to create a different rhythm. For instance, in the third beat (where snare is), maybe O--- to have a strong hit with the snare, then in the fourth beat add an O on the fourth 16th.
+
+Alternatively, let's try this:
+
+**Proposed T line:**
+- Beat 1: O-O- (hits on 1 and 3, but maybe adjust)
+Wait, perhaps making it more varied. Let me try:
+
+T: O-o-|O-o-|O-O-|O-o-
+
+This way, in the third beat (where snare is), the tom has O on 1 and O on 3, making it stronger there. Alternatively, in the third beat, maybe O--- to have a single hit with the snare. 
+
+Alternatively, to add more interaction between snare and toms, in beat 3, the tom could have an O on the first 16th (same as snare) and then another hit on the fourth 16th for a syncopated feel.
+
+Alternatively, the user might just want to confirm that toms are present, so the original is okay. But since the user is asking to edit, perhaps they expect changes. Maybe the original had no toms and there was a mistake. Let me check previous interactions. In previous examples, when the user said "not only X but also Y," they added Y where it was missing. So perhaps in this problem, the T line was initially empty, but here it's filled. Maybe a mistake in the problem's setup, but I'll proceed by enhancing the tom part to make it more dynamic alongside the snare.
+
+Final decision: Add some variation to the tom line to complement the snare's presence in the third beat. For example, in the third beat, have a harder hit on the downbeat and a soft on the offbeat, and maybe add an extra hit in the fourth 16th of that beat. Let me adjust:
+
+Original T: O-o-|O-o-|O-o-|O-o-
+Modified T: O-o-|O-o-|OO-o|O-o- (but that might be too busy). Alternatively, in the third beat, O-O- to have two hits, or O--- to have a single strong hit with the snare. Alternatively, make the third beat's tom hit O on the first 16th (with snare) and then a soft on the third, and add an extra O on the fourth to lead into the next. 
+
+Alternatively, maybe the user just wants toms to be present, so the original is okay. But since the instruction says to edit, I'll make a minor adjustment. Let's add a tom hit on the fourth 16th of each beat for a swing feel:
+
+T: O-o-|O-o-|O-o-|O-o- becomes O-o-|O-o-|O-o-|O-O- (adding an O on the fourth of the last beat). Hmm, not sure. Alternatively, in beat 3, where the snare is, add a tom hit on the fourth 16th to create a syncopation. 
+
+Alternatively, to make it more interesting, vary the tom's soft and hard hits in different beats. For example:
+
+T: O-o-|o-O-|O-o-|O-o-
+
+This alternates the positions. Alternatively, in beat 2, make it o-O- to vary the pattern. 
+
+After considering, I'll adjust the tom line to have a variation in the second beat and add a hit in the fourth beat's fourth 16th to create a driving feel:
+
+Final T line: O-o-|o-O-|O-o-|O-O- 
+
+This way, there's variation and a strong ending in the fourth beat. Let's put that into the final answer.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|o-O-|O-o-|O-O-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

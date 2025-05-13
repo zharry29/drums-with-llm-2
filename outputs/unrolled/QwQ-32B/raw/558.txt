@@ -1,0 +1,36 @@
+Okay, let me tackle this drum groove edit. The user wants to remove the hihat and ride cymbal parts. Let me first look at the original groove provided.
+
+Starting with the K (Kick drum): "O--O|----|--O-|-OO-". That's fine, but I need to check if there's any mention of hihat (H) or ride (R) that I need to eliminate. 
+
+Looking at the S (Snare drum): "----|Oo-o|-o--|O--o". The snare is okay, but the user didn't mention removing snare, so leave it as is. 
+
+Now, H (Hihat) is "X-x-|X-x-|X-x-|X-x-". Since the user wants no hihat, I need to replace all those characters with '-' to indicate no play. 
+
+T (Toms) is all dashes, so that's already clear. 
+
+C (Crash) is empty, so no issue. 
+
+R (Ride) is empty, so no change needed there either. 
+
+Wait, the user said "no hihat or ride". The ride was already empty, so only the H line needs to be cleared. Let me confirm each line:
+
+- K remains as is unless instructed otherwise (since the request is about hihat and ride).
+- S stays.
+- H becomes all '-'.
+- T stays.
+- C stays.
+- R is already empty.
+
+So, the edited version should have H line set to "----|----|----|----".
+
+Let me double-check the original H line to ensure all hits are removed. Original H was X-x- repeated four times. Changing each character to '-' will eliminate all hihat plays. The rest of the instruments are unaffected except for the specified ones. That should meet the user's request.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

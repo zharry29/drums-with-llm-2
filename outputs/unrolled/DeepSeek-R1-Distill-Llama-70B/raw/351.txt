@@ -1,0 +1,51 @@
+Okay, I need to help the user edit their drum groove by removing the kick and cymbals. Let's look at the original groove they provided:
+
+```
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+First, I need to understand what each line represents. The user wants to remove the kick drum (K) and cymbals (C and R). So, I'll focus on the snare (S), hihat (H), and toms (T).
+
+Looking at the kick drum line, it's all "o" and "-" which means soft hits and rests. To remove it, I'll set all characters to "-".
+
+For the cymbals, both crash (C) and ride (R) are present. I'll set both of their lines to all "-" to remove them.
+
+Now, the snare drum (S) has some activity. I'll check if it's necessary to keep it or adjust it. Since the user didn't specify removing the snare, I'll leave it as is.
+
+The hihat (H) has some hits, so I'll keep those to maintain rhythm. The toms (T) are already silent, so no changes needed there.
+
+Putting it all together, the edited groove will have:
+
+- **Kick Drum (K):** All "-" to remove it.
+- **Snare Drum (S):** Keep the existing pattern.
+- **Hihat (H):** Keep the existing pattern.
+- **Toms (T):** Remain silent.
+- **Crash Cymbal (C):** All "-" to remove it.
+- **Ride Cymbal (R):** All "-" to remove it.
+
+I'll make sure to apply these changes correctly in the final notation.
+</think>
+
+```
+K: ----|----|----|----
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+This groove now features:
+- **Kick Drum (K):** Removed by setting all characters to "-".
+- **Snare Drum (S):** Maintains its dynamic pattern with sidestick hits ("X").
+- **Hihat (H):** Maintained with soft closed hits ("x") on beats 2 and 4.
+- **Toms (T):** Kept silent as per the original groove.
+- **Crash Cymbal (C):** Removed by setting all characters to "-".
+- **Ride Cymbal (R):** Removed by setting all characters to "-".
+
+This arrangement creates a minimalist rhythm focused on the snare and hihat without any kick or cymbal hits.

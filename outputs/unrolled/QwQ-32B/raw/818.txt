@@ -1,0 +1,34 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and ride in the very beginning. The original groove has kick, snare, crash, and toms, but the ride is silent. 
+
+First, I need to look at the existing parts. The kick starts with "OOO-" which is a strong hit on the first three 16th notes. The snare comes in on the second beat's first 16th note. The ride is all dashes, so adding a ride hit there makes sense.
+
+The user specified "snare hit and ride in the very beginning." The very first 16th note is a kick hit, so maybe adding a snare there? But the original snare is on the second beat. Wait, the first beat's first 16th note is kick, so maybe the snare can be added on the first 16th note as well. But the snare line is currently dashes for the first beat. Let me check the notation again.
+
+The S line starts with "----", so the snare isn't hitting on the first beat. To add a snare hit at the very beginning (first 16th note), I should change the first character of the S line from '-' to 'O' (hard hit). 
+
+For the ride (R line), the first beat is dashes. To add a ride hit there, maybe a hard hit on the bell, so 'O' on the first 16th note. 
+
+Wait, but the user might want both the snare and ride on the first note. Let me check the existing instruments. The kick is already hitting there, but that's okay. So combining kick, snare, and ride on the first 16th note. 
+
+So modifying the S line's first character to 'O' and the R line's first character to 'O'. That should fulfill the request. Let me make sure the rest of the groove stays intact. The snare's original hits on the second and fourth beats should remain. 
+
+Let me write that out:
+
+Original K: OOO-|--O-|OOO-|-OOO  
+Original S: ----|O---|----|O---  
+Change S to O---|O---|----|O---  
+
+Original R: ----|----|----|----  
+Change R to O---|----|----|----  
+
+Check for any conflicts. The first beat now has K: O, S: O, R: O on the first 16th note. That should work. The rest of the groove remains the same. That should satisfy the edit request.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: O---|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: O---|----|----|----  
+@@@

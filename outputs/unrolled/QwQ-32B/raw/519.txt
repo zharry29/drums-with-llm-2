@@ -1,0 +1,45 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any tom or cymbal parts from the given groove. 
+
+First, I need to recall the instruments involved. The user mentioned "tom" and "cymbal," so that includes the Toms (T) and both Crash (C) and Ride (R) cymbals. The given groove has lines for Kick (K), Snare (S), Hihat (H), Toms (T), Crash (C), and Ride (R). 
+
+Looking at the provided drum groove:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+The user's request is to eliminate any parts involving Toms or Cymbals. That means I need to clear out the T, C, and R lines entirely. 
+
+Starting with the Toms line (T): It's already all dashes, so no action needed there. 
+
+Next, the Crash cymbal (C) has hits on the first beat of each measure: "O---|----|----|----". To remove cymbals, I'll replace all those 'O's with '-' to silence the crash.
+
+The Ride cymbal (R) is already silent, so that's good. 
+
+Now, checking the other instruments to ensure they aren't using any forbidden articulations. The Snare (S) uses 'O' and '-' which are allowed. The Hihat (H) has various hits like '--o-', 'O-o-', etc., which are okay since Hihat isn't a tom or cymbal. The Kick (K) also uses allowed articulations.
+
+So the main changes are removing the Crash (C) hits. Let me rewrite the lines accordingly:
+
+K remains the same.
+S remains the same.
+H remains the same.
+T stays as all dashes.
+C becomes all dashes.
+R stays as all dashes.
+
+Let me double-check the notation to make sure each line has 16 characters (including the | separators). The original C line was "O---|----|----|----", so changing each 'O' to '-' gives "----|----|----|----".
+
+Final edited groove should look like this with only K, S, and H active, and T, C, R silent.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

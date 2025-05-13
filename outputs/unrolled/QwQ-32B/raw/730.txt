@@ -1,0 +1,40 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and hihat in the very beginning. The original groove is:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+First, I need to understand where the "very beginning" is. The first beat is the first four characters before the first |. The user wants both a snare hit and a hihat hit there.
+
+Looking at the snare (S line), currently the first beat is "----", so no hits. To add a snare hit at the very start (first 16th note), I should replace the first '-' with an 'O' (hard hit) since that's the standard for snare. So S becomes "O---|..." 
+
+For the hihat (H line), the first beat is also "----". The user probably wants a closed hihat hit, which is 'X' or 'x'. Since the rest of the H line is empty, starting with a closed hit makes sense. Let's choose 'X' for a hard closed hit. So H's first beat becomes "X---|...".
+
+Check if there are any existing hits in the first beat that might conflict. The kick (K) starts with "OOO-", so three hard kicks on the first three 16th notes. Adding a snare on the first 16th note with the kick might be a bit busy, but the user specifically asked for it. Alternatively, maybe a softer 'o' on the snare? But the request didn't specify soft, so probably 'O' is okay.
+
+The crash (C) already has a hit on the first beat (O---), so adding a snare and hihat there is fine. The user might want to keep the crash as is.
+
+So the edited lines would be:
+
+S: O---|--O---| (Wait, original S after first beat is |O---, so need to check the entire line. Original S is "----|O---|----|O---", so changing first to "O---|O---|----|O---".
+
+H: X---|----|----|----
+
+Let me reconstruct the full lines:
+
+K remains the same since the user didn't mention changing kick.
+
+Final check: Ensure that the first 16th note has both S and H hits. The first beat of S is now O, first beat of H is X. That should fulfill the request.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: O---|O---|----|O---  
+H: X---|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

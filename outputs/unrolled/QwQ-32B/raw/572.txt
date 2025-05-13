@@ -1,0 +1,34 @@
+Okay, I need to edit this drum groove based on the user's request. The user says, "I don't want any kick or snare." Let me look at the given drum groove first.
+
+The original groove has lines for Kick (K), Snare (S), Hihat (H), Toms (T), Crash (C), and Ride (R). The user wants to remove the kick and snare, so I need to set their lines to all '-' characters. Let me check each line:
+
+Starting with the Kick line:
+K: O---|O---|----|O---
+I need to replace all the characters except the separators '|' with '-', so it becomes:
+K: ----|----|----|----
+
+Next, the Snare line:
+S: ----|----|O---|----
+Similarly, replace all non-separator characters with '-':
+S: ----|----|----|----
+
+The other lines (Hihat, Toms, Crash, Ride) should stay the same unless they have any kick or snare elements, but since the user only mentioned removing kick and snare, those lines remain unchanged. Let me verify each one:
+
+Hihat (H): already all '-' except some 'x's which are okay.
+Toms (T): has O-o- repeating, which is fine to keep.
+Crash (C): all '-' so no change.
+Ride (R): all '-' so no change.
+
+Wait, the Toms line has content. Since the user didn't mention removing toms, that's okay. The user only wants kick and snare gone. Let me make sure I didn't miss any other instruments. The edit request is clear: no kick (K) or snare (S). So the final edited groove should have K and S lines blanked out, others as they are.
+
+Putting it all together, the edited version should look like this in the @@@ block.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

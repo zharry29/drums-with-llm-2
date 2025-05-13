@@ -1,0 +1,85 @@
+Okay, let me tackle this problem step by step. The user provided a drum groove and an edit request to remove the hihat on beat 4. I need to make sure I understand the structure and notation first.
+
+First, looking at the given drum groove:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+Each line corresponds to a different drum component. The user wants to remove the hihat (H line) on beat 4. 
+
+Each beat is separated by |, so the bar is divided into four beats. Each beat has four 16th notes. The fourth beat in the H line is "O-o-". Wait, actually, let me check the exact notation again. The H line is written as:
+
+H: --o-|O-o-|O-o-|O-o-
+
+Breaking it down into beats:
+
+Beat 1: --o-
+Beat 2: O-o-
+Beat 3: O-o-
+Beat 4: O-o-
+
+The user wants to remove the hihat on beat 4. So, the fourth beat of the H line currently has "O-o-", which means the first three 16th notes have hits (O, -, o, -?), wait, actually each character is a 16th note. Let me parse this again carefully.
+
+Wait, the H line's fourth beat is the last segment before the last |, which is "O-o-". Each beat is four characters. So for beat 4 of H: the characters are O, -, o, -.
+
+But the user says "don't want hihat on beat 4". That probably means the entire fourth beat should have no hits. So I need to replace all non '-' characters in the fourth beat's H line with '-'.
+
+So the original H line is:
+
+--o- | O-o- | O-o- | O-o-
+
+Breaking each beat:
+
+Beat 1: --o- (characters 1-4)
+Beat 2: O-o- (characters 5-8)
+Beat 3: O-o- (characters 9-12)
+Beat 4: O-o- (characters 13-16)
+
+Wait, actually, the way it's written is each part after the | is a beat. So the H line is divided as:
+
+Beat 1: "--o-"
+Beat 2: "O-o-"
+Beat 3: "O-o-"
+Beat 4: "O-o-"
+
+So the fourth beat (the last segment) is "O-o-". To remove all hits on beat 4 for hihat, we need to replace each character in that beat with '-'. So changing "O-o-" to "----".
+
+Therefore, the modified H line would be:
+
+--o-|O-o-|O-o-|----
+
+Now, I need to check the other lines to ensure that only the H line's fourth beat is altered. The user specified that everything else is fine. Let me confirm each line:
+
+K line remains the same: O---|---o|O-O-|----
+S line remains: ----|O---|----|O---
+T line is all dashes: ----|----|----|----
+C line is O---|----|----|----
+R line is all dashes.
+
+Putting it all together, the edited drum groove should have the H line's fourth beat as "----".
+
+Wait, let me double-check the original H line again to ensure I didn't miscount the beats. The original H line as given is:
+
+H: --o-|O-o-|O-o-|O-o-
+
+Yes, so the fourth beat is indeed "O-o-", so replacing that with "----".
+
+Therefore, the corrected H line is:
+
+H: --o-|O-o-|O-o-|----
+
+Now, compiling the final result with all lines, making sure only the H's fourth beat is changed. The rest should stay as they are. The user's request was specifically about the hihat on beat 4, so other instruments are untouched.
+</think>
+
+@@@
+K: O---|---o|O-O-|----  
+S: ----|O---|----|O---  
+H: --o-|O-o-|O-o-|----  
+T: ----|----|----|----  
+C: O---|----|----|----  
+R: ----|----|----|----  
+@@@

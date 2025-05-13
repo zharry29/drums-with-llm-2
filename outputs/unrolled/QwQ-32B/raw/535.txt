@@ -1,0 +1,66 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any cymbals and the kick drum. First, I need to recall which lines correspond to each instrument. 
+
+Looking at the given groove:
+
+- **K (Kick):** "-O--|OO--|---O|-OO-"  
+- **S (Snare):** "----|----|S---|----"  
+- **H (Hihat):** "x-x-|x-x-|x-x-|x-x-"  
+- **T (Toms):** "----|----|---O|----"  
+- **C (Crash):** "O---|O---|O---|O---"  
+- **R (Ride):** "----|----|----|----"  
+
+The user's request is to remove cymbals (C and R) and kick (K). So I need to clear those lines. 
+
+Starting with **C (Crash)**: All instances of 'O' should be replaced with '-'. 
+
+Then **K (Kick)**: Replace all non '-' characters with '-'. 
+
+Check if there are any other cymbals. The Ride (R) line is already all '-', so no change there. 
+
+The Snare (S) and Toms (T) are okay unless they have cymbal hits, but according to the notation, S is snare and T is toms, so they stay. 
+
+Wait, the Toms line has an 'O' in the third beat. Since toms are allowed unless specified, and the user only mentioned cymbals and kick, so Toms are fine. 
+
+So the edited version should have:
+
+- **K:** All '-'  
+- **C:** All '-'  
+- **R:** Already '-'  
+
+Let me rewrite each line accordingly.
+
+Original K line: "-O--|OO--|---O|-OO-" becomes "----|----|----|----".
+
+C line: "O---|O---|O---|O---" becomes "----|----|----|----".
+
+The rest (S, H, T, R) remain as they are unless they have cymbal parts, but S is snare, H is hihat (allowed?), wait the user said "no cymbal or kick"—Hihat is not a cymbal? Wait, in the instruments listed, H is hihat, which is a closed hi-hat, which is part of the drum set but not a cymbal? Wait, actually, the hi-hat is a cymbal, but maybe the user considers it separate? Wait the problem statement says "I don't want any cymbal or kick." The instruments listed under cymbals are Crash (C) and Ride (R). The Hihat (H) might be considered part of the kit's main components, not a cymbal in this context? Or maybe the user is referring to Crash/Ride when they say cymbals. The user's previous edits (like in the history) sometimes left Hihat when removing cymbals. For example, in a prior example, when they said "no cymbal or tom", the Hihat remained. So perhaps in this case, "cymbal" refers to Crash and Ride, not the hihat. So H remains.
+
+Therefore, the edited groove should keep S, H, T, and remove K, C, R.
+
+So putting it all together:
+
+K: ----|----|----|----
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Let me double-check each line:
+
+- K is all dashes.  
+- C is all dashes.  
+- R is already dashes.  
+- S, H, T are unchanged.  
+
+Yes, that should do it.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

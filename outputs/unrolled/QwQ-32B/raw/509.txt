@@ -1,0 +1,59 @@
+Okay, let me tackle this drum groove edit. The user provided a specific drum notation and wants me to remove any cymbals or toms. Let me start by understanding the original groove.
+
+Looking at the given drum groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+First, I need to identify which lines correspond to cymbals and toms. According to the notation:
+
+- **C** is Crash cymbal.
+- **R** is Ride cymbal.
+- **T** is Toms.
+
+The user's request is to remove any cymbals (so both Crash and Ride) and toms. That means I should set the **C**, **R**, and **T** lines to all '-' characters.
+
+Let me check each line:
+
+- **Kick (K):** OOO-|--O-|OOO-|-OOO – This stays as it's part of the kick drum, which is allowed.
+- **Snare (S):** ----|O---|----|O--- – Also okay, snare is allowed.
+- **Hihat (H):** Already all '-' so no change needed here.
+- **Toms (T):** Already all '-' so no action required.
+- **Crash (C):** O---|O---|O---|O--- – Need to remove all, set to all '-'.
+- **Ride (R):** Already all '-', so no change.
+
+Wait, but the user mentioned "cymbal or tom". Since Toms are already silent, but Crash is active. So only the **C** line needs to be cleared. The **R** line is already clear. 
+
+So the edited version should have:
+
+K remains the same.  
+S remains the same.  
+H remains the same.  
+T remains the same (all '-').  
+C becomes all '-'.  
+R remains all '-'.  
+
+Let me write that out:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----
+
+Double-checking: No cymbals (C and R are both '-' everywhere), toms (T is all '-'). The kick and snare are untouched. That should meet the user's request.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

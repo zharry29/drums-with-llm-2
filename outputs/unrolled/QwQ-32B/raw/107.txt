@@ -1,0 +1,39 @@
+Okay, let me tackle this drum groove edit. The user wants the groove to have both kick and hihat. Looking at the given groove:
+
+The Kick (K) is active with Os and spaces, but the Hihat (H) is completely silent (all dashes). The edit request is to add hihat while keeping the kick. 
+
+First, I need to figure out where to place the hihat hits. Since the kick is already present, the hihat should complement it without clashing. Typically, hihats are played on every 16th note for a steady rhythm, but maybe a swung or sparse pattern would work here.
+
+Looking at the existing kick pattern:
+- First beat: O---
+- Second beat: O---
+- Third beat: ----
+- Fourth beat: O---
+
+Hmm, the kick is on the first note of the first, second, and fourth beats, and the third beat is empty. To add hihat, maybe start with a simple x (closed hit) on every 8th note. That would be x-x- for each beat (since each beat is four 16th notes). Let's test that.
+
+So for each beat separated by |, replacing the H line's dashes with x-x-:
+
+H: x-x-|x-x-|x-x-|x-x-
+
+This would give a steady eighth-note hi-hat pattern. Let me check if that's within the rules. The Hihat can use x for soft closed hits, which fits. The user didn't specify complexity, so a basic pattern is safe. 
+
+Now, ensure that adding this doesn't interfere with other instruments. The snare (S) is only on the third beat's third position (O---), and toms (T) have a steady O-o- pattern. The hihat's x's won't conflict since they're on different instruments. 
+
+Double-check the notation rules: Each line must have 16 characters (4 per beat). The current H line was all dashes, so replacing with x-x- for each beat (4 characters per beat * 4 beats = 16). That's correct.
+
+No other edits are needed since the request is just to add hihat. The kick remains as is. So the final H line becomes x-x- repeated four times. 
+
+Wait, let me confirm the original H line was all dashes. Yes, in the given groove, H is all ----|----|----|----
+
+So replacing each beat's four dashes with x-x- gives the new H line. That should satisfy the edit request.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

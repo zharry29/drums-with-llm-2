@@ -1,0 +1,44 @@
+Okay, let me tackle this drum groove edit. The user wants a ride hit and cymbal in the very beginning. The original groove is:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+First, I need to understand the request. "Ride hit and cymbal in the very beginning" probably means adding a hit on the ride cymbal (R) and crash (C) at the start of the bar. The very beginning would be the first 16th note of the first beat.
+
+Looking at the R line (Ride cymbal), it's all dashes. To add a hit there, I should place an 'O' (hard hit on the bell) at the first position. For the crash cymbal (C), since it's mentioned alongside the ride, adding an 'O' at the start makes sense too, as it's a hard hit.
+
+So, modifying the first character of R and C lines to 'O---' for the first beat. Let me check the notation rules again to confirm:
+
+- R: O is a hard open hit on the bell. So first note of R should be 'O'.
+- C: O is a hard hit. So first note of C should be 'O'.
+
+Original R line starts with '----', changing to 'O---'.
+
+Original C line is all dashes, so first part becomes 'O---'.
+
+Now, checking if this affects other parts. The user didn't mention changing other parts, so the rest should stay as is. Let me verify each line:
+
+K remains the same: O--O|....
+S is unchanged.
+H stays with X-x-...
+T remains empty.
+C now starts with O---.
+R starts with O---.
+
+This should fulfill the request. Let me make sure there's no overlap or conflicting hits. The first note of the bar now has a crash and ride hit along with the kick (O--O). That should work.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: O---|----|----|----
+R: O---|----|----|----
+@@@

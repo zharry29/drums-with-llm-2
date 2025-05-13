@@ -1,0 +1,41 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include not only the hihat but also the tom. Looking at the given groove:
+
+First, check which instruments are already present. The Kick (K) has some activity, Snare (S) on the 2nd and 4th beats, Crash (C) is hitting every beat, but Hihat (H) and Toms (T) are completely silent. The edit request is to add hihat and tom parts.
+
+Since the user mentioned "not only hihat but also tom," I need to ensure both are added. Let's start with the hihat. The original groove has no hihat hits, so I'll add a standard pattern. Typically, hihats are played on every 8th or 16th note. Since there's no existing hihat, maybe a steady 16th note pattern would work. But looking at the notation, the hihat symbols can be O, o, X, x. Since the user didn't specify, I'll choose closed hits (X or x). Let's go for a medium closed pattern, maybe alternating X and x for variation.
+
+Next, the toms (T). The current T line is all dashes. Need to add some tom hits. The snare is on beats 2 and 4, so maybe the toms can complement that. Maybe placing toms on the off-beats or syncopated. Let's see the kick pattern: the first beat has three O's followed by a dash, so maybe on the "&" of the first beat. Alternatively, since the snare is on 2 and 4, toms could be on the "and" of those. Or perhaps a tom fill on the third beat. Let me think of a simple pattern. For example, placing an O (hard hit) on the second 16th note of each beat, or every other beat. Let's try adding a tom hit on the "and" of each beat. Let's make it consistent across all four beats. Maybe on the second 16th note of each beat, so positions like --O-|--O- etc. That would give a steady tom rhythm. Alternatively, syncopate with the kick. Let me check the kick's first beat is OOO- which is three hits on the first three 16th notes. Maybe the tom can be on the fourth 16th of the first beat, but that's a dash. Alternatively, on the second beat's first 16th. Hmm, perhaps starting with a tom on the second 16th of each beat. Let's try:
+
+For Toms (T):
+First beat: --O- (so the third 16th note is O)
+Second beat: |-O-- (so the second 16th is O)
+Wait, need to ensure it's spread across the bar. Alternatively, every other beat. Maybe a tom on the "&" of each beat. Let's structure it as --O-|--O-|--O-|--O- so each beat has a tom hit on the third 16th note. That would create a steady tom pattern. Alternatively, maybe vary it a bit. But keeping it simple for now.
+
+So putting it all together:
+
+Hihat (H): Let's do X-x- on each beat to make a steady 16th closed hihat. So each beat is X-x- separated by |. That would give a consistent rhythm.
+
+Toms (T): Let's add O on every third 16th note of each beat. So each beat's third character is O, so --O- for each beat. So T: --O-|--O-|--O-|--O-
+
+Wait, checking the beats:
+
+Each beat is four 16th notes. So first beat: positions 1-4, then next beat 5-8, etc. So for Toms:
+
+Beat 1: positions 3: --O-
+Beat 2: positions 6 (third of second beat): |-O-- (Wait, second beat's third note would be the third character of the second four, so for the second beat, it would be --O- but separated by |. Wait, the notation is split as four characters per beat. So each beat is four characters. So for the first beat of T: --O- means the third character (third 16th note of the beat) is O. Then the second beat would be the same, so "|--O-". So overall T: --O-|--O-|--O-|--O-
+
+Yes, that would give a tom hit every third 16th note of each beat, creating a steady tom rhythm.
+
+Alternatively, maybe vary it to add some interest. Maybe on the first and third beats, have a harder hit, but since the user didn't specify, keeping it simple is better.
+
+So the edited groove would have H with X-x- on each beat, and T with --O- on each beat. Let me check the original crash is hitting every beat, so that's okay. The snare is on beats 2 and 4. The kick is already active. This should fulfill the request of adding both hihat and tom.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: X-x-|X-x-|X-x-|X-x-
+T: --O-|--O-|--O-|--O-
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

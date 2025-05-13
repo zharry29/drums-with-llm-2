@@ -1,0 +1,46 @@
+Okay, let me try to figure this out. The user wants me to edit a drum groove by removing any ride or cymbal parts. Let me start by looking at the given drum groove.
+
+First, I need to recall the instruments each line corresponds to. The lines are K for Kick, S for Snare, H for Hihat, T for Toms, C for Crash cymbal, and R for Ride cymbal. The user said "I don't want any ride or cymbal," so that means I need to eliminate both the Ride (R) and Crash (C) lines.
+
+Looking at the provided drum groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+So the Crash (C) line has O--- in each beat, meaning it's playing on the first 16th note of every beat. The Ride (R) line is all dashes, so it wasn't being used anyway. But the user mentioned removing both, so I should set both C and R to all dashes.
+
+Wait, but the user specifically said "ride or cymbal". The crash is a cymbal, so that needs to go. The R line is ride, which is already empty. So the main change is to set the C line to all dashes. Let me confirm:
+
+Original C line: O---|O---|O---|O---  
+After removal: should be all dashes: ----|----|----|----
+
+The R line is already all dashes, so no change there. The other lines (K, S, H, T) can stay as they are unless they involve cymbals, but they don't. The kick and snare are allowed. The Hihat and Toms are also okay since they're not cymbals. 
+
+Wait, the user might mean all cymbals, including crash and ride. Since crash is a cymbal, that's the main one to remove. The user didn't mention hihat, which is a closed hi-hat hit (using X and x). Since hihat isn't a cymbal in the same category as crash or ride, maybe it's okay. The problem says "I don't want any ride or cymbal" – but crash is a cymbal, so that's out. The hihat is a separate instrument, so it stays unless specified otherwise. 
+
+Therefore, the final edit should set C and R lines to all dashes, leaving the rest as is. Let me check again the original input:
+
+Original C line had O's, so changing that to dashes. The R line was already clear. So the edited version should have:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----
+
+That should be it. I need to make sure I don't touch the other instruments. The user didn't mention kick or snare, so those stay. Hihat is okay. Toms are also fine. Only the cymbals (crash and ride) are removed.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----
+@@@

@@ -1,0 +1,48 @@
+Alright, let me tackle this drum groove edit. The user wants a cymbal hit and tom in the very beginning. 
+
+First, I need to look at the existing groove. The current setup is:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+The user's request is to add a cymbal (either crash or ride?) and a tom hit at the start. Since the user mentioned "cymbal hit and tom," I'll check which cymbal is already present. Here, the crash (C) and ride (R) lines are both empty except for the first bar of C having an O in some previous examples, but in this given groove, C is all dashes. Wait, let me check again:
+
+In the given groove, C is all dashes. So maybe they want to add a crash or ride in the first note. Since the user didn't specify which cymbal, but in previous edits, when adding a cymbal, sometimes crash (C) is used. Alternatively, if ride (R) is preferred. Hmm. But the user said "cymbal," so maybe crash is the default here. 
+
+Also, they want a tom hit. The tom line (T) is all dashes. The first beat is four 16th notes, so the very beginning is the first character of the first beat. 
+
+So, to add a cymbal hit (let's choose crash C) and a tom hit on the first 16th note. 
+
+For the crash, the first character of the C line should be O (hard hit). For the tom, the first character of the T line should be O (hard hit). 
+
+Let me check if there's any conflict with existing hits. The kick (K) starts with O--O, so the first note is a hard kick. Adding a crash and tom there might be okay. 
+
+So modifying the first characters of C and T to O:
+
+C: O---|----|----|----
+T: O---|----|----|----
+
+That should do it. Let me confirm the notation. Each line has 16 characters, so replacing the first '-' in C and T with O. 
+
+Wait, looking at the original C line: it's all dashes. So first beat for C is "----", changing the first to O gives "O---".
+
+Same for T, which is all dashes. So the new lines would be:
+
+C: O---|----|----|----
+T: O---|----|----|----
+
+The rest of the lines stay the same. Let me double-check the user's request again to ensure I didn't miss anything. They wanted a cymbal and tom in the very beginning, which is the first 16th note. This should satisfy that.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

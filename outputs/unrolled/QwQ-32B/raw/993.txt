@@ -1,0 +1,36 @@
+Okay, let's tackle this drum groove edit. The user wants the closed hihat on all 16th notes with accents on the quarter note downbeats. 
+
+First, I need to recall the hihat notation rules. The problem states that for the hihat (H line), X and x are hard and soft closed hits, while O and o are open. The user wants all 16th notes to be closed, so each character in the H line should be either X or x.
+
+The instruction mentions accents on the quarter note downbeats. A quarter note is four 16th notes, so the downbeats are the first 16th of each beat. To accent those, I should use the hard hit symbol (X) on those positions, and the soft hit (x) for the other 16th notes.
+
+Looking at the original H line: "----|x---|----|x---". Currently, it has x on the second beat's first 16th and the fourth beat's first 16th. But the rest are dashes. To fulfill the request, every 16th note needs to be a closed hit. So each of the 16 positions should be X or x.
+
+Breaking it down beat by beat (each beat is 4 characters):
+
+- Beat 1: All four 16ths should be closed. The first 16th (downbeat) is X, the others x. So "Xxxx".
+- Beat 2: Original has "x---". Need to close all. First 16th is X, then x for the next three: "Xxxx".
+- Beat 3: Original "----" becomes "Xxxx".
+- Beat 4: Original "|x---" becomes "|Xxxx".
+
+So combining all beats, the H line becomes "Xxxx|Xxxx|Xxxx|Xxxx".
+
+Now check other instruments. The user didn't mention changing anything else, so keep K, S, T, C, R as they are. 
+
+Wait, let me confirm the original groove's H line again. The user's original H line was "----|x---|----|x---". So in beat 2, the first 16th was x, but the rest were dashes. The edit requires all to be closed, so yes, changing all to Xxxx for each beat makes sense. 
+
+Also, the accents are only on the downbeats (first 16th of each beat), so those are X, the others x. That should meet the user's request. 
+
+Double-checking the notation rules: Closed hits are X (hard) and x (soft). So using X on the downbeats and x elsewhere adds the accent as specified. 
+
+Final check: The other lines like S, K, R should stay the same unless conflicting, but the user said "everything else is fine" except the hihat. So the edited H line is the main change here.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: Xxxx|Xxxx|Xxxx|Xxxx  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

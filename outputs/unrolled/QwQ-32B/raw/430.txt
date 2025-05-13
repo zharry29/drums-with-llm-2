@@ -1,0 +1,46 @@
+Okay, I need to edit this drum groove based on the user's request to remove any tom or kick parts. Let me first look at the given drum groove to understand what's there.
+
+The original groove is:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+The user wants to eliminate the kick (K) and tom (T) parts. Let's go through each line:
+
+- **K (Kick drum):** The current pattern has hits like O--O and --O-. Since we need to remove kick, I'll replace all characters in the K line with '-' to indicate no hits.
+
+- **S (Snare drum):** This line has some hits, like Oo-o and O--o. Since the user didn't mention snare, I'll leave it as is unless specified. But the request is about tom and kick, so snare stays.
+
+- **H (Hihat):** It's all '-' except maybe in other examples, but here it's empty. Since the user didn't mention hihat, leave it as is.
+
+- **T (Toms):** Already all '-' so no change needed here.
+
+- **C (Crash cymbal):** Also empty here.
+
+- **R (Ride cymbal):** Has a pattern with o-O- repeated. Since ride isn't mentioned, it stays.
+
+So the main changes are to set K's line to all '-' and ensure T remains empty. Let me double-check the user's exact request again: "I don't want any tom or kick." Yep, so K and T lines should be cleared. The rest can stay as they are. Let me confirm each line:
+
+- K: All '-' now.
+- S remains unchanged.
+- H remains unchanged.
+- T already empty.
+- C and R also unchanged.
+
+That should do it. Let me write the final version.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

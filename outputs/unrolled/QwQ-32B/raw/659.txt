@@ -1,0 +1,70 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and cymbal in the very beginning. 
+
+First, I need to look at the original groove provided. Let me parse each line:
+
+Kick (K): O--O|----|--O-|----
+Snare (S): ----|Oo-o|-o--|O--o
+Hihat (H): X-x-|X-x-|X-x-|X-x-
+Toms (T): ----|----|----|----
+Crash (C): ----|----|----|----
+Ride (R): ----|----|----|----
+
+The user's request is to add a snare hit and a cymbal (probably crash or ride) at the very start. The "very beginning" would be the first 16th note of the first beat. 
+
+Looking at the Snare line (S), the first four characters (first beat) are "----", meaning no hits. To add a snare hit there, I need to replace the first '-' with either 'O' (hard hit) or 'o' (soft). Since the user didn't specify, I'll go with 'O' for a strong start. 
+
+Now for the cymbal. The options are Crash (C) or Ride (R). The original has Crash all zeros, and Ride also all zeros. The user might prefer Crash for a more prominent sound at the start. So adding an 'O' in the first position of the Crash line. Alternatively, if Ride is preferred, but since the user mentioned "cymbal" generally, Crash is a safe choice.
+
+Wait, let me check the original Crash line: it's all dashes except maybe not? Looking again, in the given groove, the Crash line is all dashes. So adding a Crash hit at the first note would be appropriate. 
+
+So, modifying the Snare (S) line's first character to 'O', and the Crash (C) line's first character to 'O'. 
+
+Let me verify the positions. The first beat is divided into four 16th notes. The first character is the first note of the bar. So changing S's first '-' to 'O', and C's first '-' to 'O'.
+
+But wait, the original Snare line's first beat is "----", so changing the first '-' to 'O' gives "O---" for the first beat. 
+
+Also, the Crash line's first beat is "----", so changing to "O---".
+
+Wait, but the user might want the cymbal hit on the same note as the snare. Let me make sure. The user says "snare hit and cymbal in the very beginning", so yes, both on the first 16th note of the first beat.
+
+So the edited lines would be:
+
+S: O---|Oo-o|-o--|O--o  
+C: O---|----|----|----
+
+Wait, but in the original, the second beat of S starts with 'Oo-o', so the first beat after edit is 'O---', second is 'Oo-o', etc.
+
+Additionally, check if there are any conflicts. The Hihat is X-x- in the first beat, which is a closed hit (since X is hard closed). That's okay, having a snare and crash with closed hihat is common.
+
+Alternatively, maybe the user wants a ride instead of crash. But since Crash is used in some other parts (like in the original examples sometimes crash is used), but here Crash is initially silent. Let's go with Crash since it's more attention-grabbing at the start.
+
+So the final changes would be:
+
+Snare line first beat: O---
+Crash line first beat: O---
+
+Other lines remain the same except those two.
+
+Let me write that out.
+
+Original K remains same.
+
+S: was ----|Oo-o|-o--|O--o becomes O---|Oo-o|-o--|O--o
+
+C: was ----|----|----|---- becomes O---|----|----|----
+
+Ride remains same.
+
+Double-check the notation rules: For S, 'O' is a hard hit. For C, 'O' is a hard hit. That should be correct.
+
+Yes, this should fulfill the request.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

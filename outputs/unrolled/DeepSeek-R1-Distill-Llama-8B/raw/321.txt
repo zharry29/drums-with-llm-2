@@ -1,0 +1,60 @@
+Okay, so I need to edit this drum groove based on the user's request. The original groove is:
+
+@@@  
+K: -O--|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: ----|----|---O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@
+
+The user wants the groove to have not only snare but also kick. Hmm, looking at the current setup, I see that the Kick drum (K) has some hits, but maybe they're not prominent enough. The Snare drum (S) is present and active in the second beat, but perhaps it's too soft or not enough.
+
+First, I need to understand the notation better. Each line represents an instrument, and each character within the line represents a 16th note. Beats are separated by |, and there are four beats per bar, each consisting of 16 notes. Each character can be a dash (-) if the instrument isn't played on that note, or a letter indicating the type of hit (O for hard, o for soft, X for hard sidestick, x for soft sidestick, etc.).
+
+Looking at the current Kick drum line:
+K: -O--|OO--|---O|-OO-
+
+This means in the first beat, the kick is not played (dash), then in the second beat, it's a hard hit (O), followed by three dashes, then a hard hit (O) again, and finally another hard hit (O). Wait, that seems a bit off. Maybe the user wants the kick to be more consistent or more prominent.
+
+The Snare drum line:
+S: ----|----|S---|----
+
+In the third beat, the snare has a hard hit (S), but the rest are dashes. The user wants the snare to be more active, maybe in all beats or at least in more beats.
+
+The Hihat line is all x-x-|x-x-|x-x-|x-x-, which is soft closed hits. That seems okay, but maybe not relevant to the edit request.
+
+Toms, Crash, and Ride cymbal lines are either inactive or minimal, which is fine since the user didn't mention them needing changes.
+
+So, focusing on the Kick and Snare. The user wants more kick and more snare. Let's start with the Kick.
+
+In the current Kick line, it's -O--|OO--|---O|-OO-. Maybe I should make the kick more consistent across all beats. Let's try changing each beat to have a hard hit (O) in each section.
+
+So, for each beat, instead of having some dashes, let's replace them with O's. That would make the kick more prominent and consistent.
+
+For the Snare, currently, it's only active in the third beat. To make it more active, maybe have it active in all beats, perhaps with a mix of hard and soft hits or different patterns.
+
+Let me try modifying the Kick line to have O's in each beat section.
+
+K: O---|O---|O---|O---  
+This means each beat has a hard hit on the first note, followed by dashes for the next notes. That should make the kick more prominent.
+
+For the Snare, let's activate it in all beats. Maybe alternate between hard (O) and soft (o) hits or use X and x for sidesticks to add variety.
+
+S: X---|X---|---X|---X  
+This gives each beat a hard sidestick hit, which is a common snare pattern.
+
+Now, updating the Kick and Snare lines accordingly, the rest of the instruments can remain as they are unless needed.
+
+Putting it all together, the new groove should have a more active kick and snare, meeting the user's request.
+</think>
+
+@@@  
+K: O---|O---|O---|O---  
+S: X---|X---|---X|---X  
+H: x---|---x|---x|---x  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

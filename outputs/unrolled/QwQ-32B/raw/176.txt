@@ -1,0 +1,92 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include not only toms but also cymbals. Looking at the original groove provided:
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+First, I need to check which instruments are already present. The Kick (K) is active in beats 1, 2, and 4. The Snare (S) only hits on the third beat. The Toms (T) are playing throughout all four beats with a pattern of O-o- repeated. The Crash (C) and Ride (R) cymbals are completely inactive. The Hihat (H) is also silent.
+
+The user's request is to add not just toms but also cymbals. Since the toms are already present, the main task is to introduce either Crash or Ride cymbals. The instruction says "not only tom but also cymbal," which implies that the existing toms should stay, and cymbals (either crash or ride) should be added.
+
+Looking at the original, there's no ride or crash, so adding one or both makes sense. Typically, in grooves, ride is more common for持续的节奏, while crash might be on hits. Since the user might want a more complete sound, adding ride cymbals on the bow (using X or x) could work well. Alternatively, adding crashes on strong beats like the downbeats.
+
+Let me consider the structure. The kick has hits on beats 1 and 2, then 4. The snare is on beat 3. Toms are continuous. To add cymbals without clashing, maybe place ride hits on every beat's first 16th note? Or alternate between closed and open hits. The ride's X and x are closed hits on the bow, which can fit a steady rhythm.
+
+Alternatively, maybe a crash on the first beat for emphasis. Let's try adding a crash on the first beat (O--- for C line) and then use ride for the rest. Alternatively, use ride throughout. Let me draft:
+
+For Ride (R):
+If I add a steady closed hit on every quarter note, maybe X on each beat's first 16th. So R: X---|X---|X---|X--- but that might be too heavy. Alternatively, X on the first 16th of each beat, with some variation.
+
+Alternatively, since the toms are O-o- each beat, maybe syncopate the ride. Let's see:
+
+R: X---|X---|X---|X--- but that's straightforward. Alternatively, X on the first 16th of each beat. Let me check the original's kick and snare. The snare is on the third beat's first 16th (O--- in S's third segment). So maybe the ride can complement that.
+
+Alternatively, add crashes on the first and third beats. C: O---|----|O---|---- which adds crash on beats 1 and 3. But the user might prefer ride for a more sustained feel.
+
+Alternatively, combine both. Let's try adding ride hits on all beats but with some variation. For example:
+
+R: X-x-|X-x-|X-x-|X-x- which would be closed hits on the first and third 16th notes of each beat. That could add a nice rhythm without overpowering.
+
+Alternatively, since the hihats are inactive, maybe the ride can take that role. Let's try that. So updating the R line to X-x- repeated. That gives a steady eighth note feel with the ride.
+
+Alternatively, maybe start with a crash on the first beat and then ride. C: O---|----|----|---- and R: ----|X-x-|X-x-|X-x- but that might not be as integrated.
+
+I think adding the ride with a consistent pattern is better. Let's go with R: X-x-|X-x-|X-x-|X-x-. That way, every beat has a closed hit on the first and third 16th notes, which complements the tom's O-o- pattern.
+
+Wait, checking the original Toms are O-o- each beat. So O is hard, o is soft. The ride's X-x- would be hard and soft closed hits. That could work well.
+
+Alternatively, maybe the crash on the first beat and ride elsewhere. Let me see.
+
+Alternatively, let's make sure that the cymbal is present. The user's request is to have "not only tom but also cymbal," so adding ride or crash is necessary. Since the crash is currently all dashes, adding at least one crash hit, maybe on the first beat, and then ride for the rest.
+
+For example:
+
+C: O---|----|----|----
+R: ----|X-x-|X-x-|X-x-
+
+But that leaves the first beat with a crash and then ride from the second. Alternatively, spread out the crash.
+
+Alternatively, maybe a crash on the first and fourth beats, and ride in between. Let me think of a balanced approach.
+
+Alternatively, since the user might want both tom and cymbal presence, perhaps add a crash on the first beat and ride on others. Let's try:
+
+C: O---|----|----|----
+R: ----|X-x-|X-x-|X-x-
+
+But then the ride starts on beat 2. Alternatively, start ride on beat 1 but with crash as well.
+
+C: O---|----|----|----
+R: X-x-|X-x-|X-x-|X-x-
+
+That way, the crash is only on beat 1, and ride continues. That could work.
+
+Alternatively, maybe the user wants both crash and ride. But maybe just adding ride is sufficient. Let me proceed with that.
+
+So the edited groove would have the existing toms, and added ride cymbal with a pattern like X-x- on each beat. Let's put that into the notation.
+
+Final check: Ensure that the characters are 16 in total per line, separated by | every four characters.
+
+The R line would be:
+
+R: X-x-|X-x-|X-x-|X-x-
+
+Which is 4*4=16 characters.
+
+Alternatively, maybe vary it a bit for interest. Like X--- on the first beat, then X-x- etc. But perhaps simplicity is better here.
+
+Alternatively, using the ride's closed hits (X and x) on every beat's first 16th, but with some variation. Let me confirm the user's instruction again: the groove should have not only tom but also cymbal. Since toms are there, adding ride or crash is needed. The simplest way is to add ride throughout. So I'll proceed with that.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: X-x-|X-x-|X-x-|X-x-
+@@@

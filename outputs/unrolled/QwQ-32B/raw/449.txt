@@ -1,0 +1,33 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any cymbals and snare from the given groove. Let me first look at the original groove they provided.
+
+Starting with each instrument line:
+
+- **Kick (K):** "O---|O---|----|O---" – this is fine since they only want to remove snare and cymbals, so kick stays.
+- **Snare (S):** "----|----|O---|----" – needs to be turned off. Replace all non '-' characters with '-'.
+- **Hihat (H):** All dashes, so no change needed here.
+- **Toms (T):** "O-o-|O-o-|O-o-|O-o-" – since toms aren't mentioned in the removal request, they stay.
+- **Crash (C):** All dashes, so already okay.
+- **Ride (R):** All dashes, so also okay.
+
+Wait, the user said "no cymbal or snare". Cymbals include Crash (C) and Ride (R). But in the original, both C and R lines are already empty. So only the snare (S) needs to be cleared. Let me double-check the original:
+
+Original S line: "----|----|O---|----" – the third beat has an O, which is a hard hit on the snare. So replacing that O with '-' will remove the snare. The rest of the lines (C and R) are already clear. So the edited version should have S as all dashes and keep K, T as they are, and leave H, C, R as they are. Let me confirm:
+
+After editing:
+- K remains: O---|O---|----|O---
+- S becomes: ----|----|----|----
+- H stays: ----|----|----|----
+- T remains: O-o-|O-o-|O-o-|O-o-
+- C and R stay empty.
+
+Yes, that should do it. I need to make sure no other cymbals are present, which they aren't here. So the final groove should look like that.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|----|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

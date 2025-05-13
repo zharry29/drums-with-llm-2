@@ -1,0 +1,27 @@
+Okay, let's tackle this drum groove edit. The user provided a drum pattern and wants to remove the hihat and tom parts. Let me first look at the original groove they gave.
+
+Looking at the K (Kick) line: "-O--|OO--|---O|-OO-". That seems okay, but I need to check the other lines. The S (Snare) line has "----|----|S---|----". Wait, the user didn't mention removing the snare, only hihat and tom. So I should leave the snare as is. 
+
+The H (Hihat) line is "x-x-|x-x-|x-x-|x-x-". Since the user wants no hihat, I need to replace all those x's and - with all dashes. Similarly, the T (Toms) line is "----|----|---O|----". The third beat has a tom hit (O), so that needs to be removed by changing it to dashes. The C (Crash) and R (Ride) lines are already empty except for crashes, but the user didn't mention crashes or ride, so leave those as they are unless specified. 
+
+Wait, the edit request specifically says "no hihat or tom". So I'll set H to all dashes and T to all dashes. Let me double-check each line:
+
+Original H line: x-x-|x-x-|x-x-|x-x- → becomes "----|----|----|----".
+
+Original T line: ----|----|---O|---- → the third beat has "O", so change that to "---O" → "----". So the whole T line becomes "----|----|----|----".
+
+The rest of the lines (K, S, C, R) stay the same except for H and T. Let me make sure the S line is okay. The user didn't ask to remove snare, so the "S---" in the third beat remains. But wait, in the S line, "S" is a sidestick hit (as per the notation, X and x are sidestick, but maybe S is a typo? Wait, looking back at the user's input, in their example, the S line uses X and x. Wait, in the problem description, under S: "X and x are hard and soft sidestick hits". The given groove has "S---" in the third beat. Wait, that might be an error because 'S' isn't listed as a valid character for the snare. But maybe it's a typo and should be 'X'? Or perhaps it's a mistake in the input. Since the user's instruction is to remove hihat and tom, maybe I should leave the S line as is unless it's invalid. But according to the notation rules, 'S' isn't a valid character for S (snare). The valid ones are O, o, X, x. So perhaps it's a mistake. However, since the user hasn't mentioned that, maybe I should proceed as given, just removing H and T. 
+
+Alternatively, maybe the user intended 'S' as a typo and it should be 'X'? But since I can't assume, I'll keep it as 'S' unless instructed otherwise. The user's edit is only about removing hihat and tom, so proceed accordingly.
+
+So putting it all together, the edited groove would have H and T lines all dashes. Let me write that out.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

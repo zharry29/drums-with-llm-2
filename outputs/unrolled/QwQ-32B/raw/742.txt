@@ -1,0 +1,42 @@
+Okay, let's tackle this drum groove edit. The user wants a cymbal hit and snare in the very beginning. Let me look at the given groove first.
+
+The original groove has the Kick (K) starting with "O--O|...", Snare (S) is silent in the first beat, Hihat (H) is all dashes, Toms (T) and Crash (C) are also silent. The Ride (R) has some pattern but the user wants a crash and snare at the start.
+
+First, the very beginning is the first 16th note of the first beat. Since the user mentioned a cymbal hit, that's probably the Crash (C) because Ride is already active. The Snare needs a hit there too. 
+
+Looking at the Snare line (S), the first beat is "----", so I need to add an 'O' (hard hit) on the first 16th note. For the Crash (C), the first beat is "----", so adding an 'O' there as well. 
+
+Wait, the user might want both Crash and Snare on the first note. Let me check the notation rules again. Each character is a 16th note. So first character of each line is the first 16th note. 
+
+So, for the first beat of S, change the first '-' to 'O'. For C, first '-' becomes 'O'. 
+
+Also, the Hihat isn't mentioned, but maybe it's okay to leave it as is unless specified. The user didn't ask for hihat here, just cymbal (crash) and snare. 
+
+Let me make sure I'm not overcomplicating. The user's request is straightforward: add a snare hit and a cymbal (probably crash) on the first note. 
+
+So modifying the S line's first character to 'O' and C's first to 'O'. The rest stays as per original. Let me check the example provided earlier for similar requests. In previous edits, when adding crash, they used 'O' in the C line. 
+
+Yes, so the edited lines should be:
+
+S: O---|Oo-o|-o--|O--o  
+C: O---|----|----|----  
+
+Wait, the original S line was "----|Oo-o|-o--|O--o", so the first beat's S was all dashes. Changing first to 'O' makes it "O---|Oo-o|-o--|O--o". 
+
+And C was all dashes, so first beat becomes 'O---'. 
+
+The Ride (R) remains the same since the user didn't mention ride. 
+
+Let me double-check the notation rules for S: O is a hard hit, which is appropriate here. Crash uses O for hard hit. 
+
+That should fulfill the request. I think that's it.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

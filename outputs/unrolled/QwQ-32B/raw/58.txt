@@ -1,0 +1,33 @@
+Okay, let me tackle this drum groove edit. The user wants the groove to have not only kick but also cymbals. The given groove has kick (K), snare (S), toms (T), but no cymbals (C or R). So I need to add either crash or ride.
+
+First, looking at the existing instruments: the kick is active, snare on the third beat, and toms are doing O-o- repeating. Since the user mentioned "cymbal," maybe adding ride would be better for a continuous feel rather than crash which is more for accents.
+
+The original K line is O---|O---|----|O--- so the kick hits on the first 16th of beats 1 and 2, then the fourth beat. The snare is on the third beat of the third measure. Toms have a pattern O-o- in each beat. 
+
+To add ride, I can place it on the ride cymbal (R). A common approach is to have a steady ride pattern, like every beat or every other 16th note. Since the existing Hihat is all dashes, maybe start with a simple ride pattern. Let's try placing X (closed hit) on every quarter note and maybe some in between. For example, X---|X---|X---|X--- but that's too sparse. Alternatively, X-X-|X-X-|X-X-|X-X- for an 8th note pattern. Alternatively, using X on the first 16th and then maybe a softer x on the third, creating a X-x- pattern. Let's see:
+
+R: X-x-|X-x-|X-x-|X-x- 
+
+That would give a steady 8th feel with a closed hit on the first and third 16th notes of each beat. Alternatively, maybe start with O on the first 16th for a bell hit, but the user might prefer the closed bow hits for a typical ride pattern. Let me go with X-x- repeating. 
+
+Alternatively, check if crash is needed. Since the user said "cymbal," maybe adding a crash on the first beat. But the edit request says "not only kick but also cymbal," so adding ride is sufficient. Let's stick with ride.
+
+So, modifying the R line to have a consistent pattern. Let me set R to X-x- for each beat. That would look like:
+
+R: X-x-|X-x-|X-x-|X-x-
+
+That should add cymbal (ride) to the groove. Let me verify the characters are correct. Each beat is four characters, so four beats make 16. The R line would then be filled with X-x- four times. 
+
+Alternatively, maybe vary it a bit. The existing kick and toms have some variation, so maybe the ride could have a slight variation too. For example, in the first measure, X--- to match the kick's O---, but maybe better to keep it consistent. The user's previous edits often used patterns like X-x- repeating, so that's safe. 
+
+I'll proceed with that. So the final R line is X-x- repeated four times. Let me put that in the final answer.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: X-x-|X-x-|X-x-|X-x-
+@@@

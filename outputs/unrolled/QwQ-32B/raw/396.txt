@@ -1,0 +1,36 @@
+Okay, let me tackle this drum groove edit. The user wants to remove the snare and tom parts. Let me first look at the original groove they provided.
+
+Starting with the Kick (K): "O---|----|O---|----". That's fine, no snare or tom involved there. The Snare (S) line has "----|O---|----|O---", so I need to replace those O's with dashes. The Toms (T) are already all dashes, so nothing to do there. The Hihat (H) is "X---|X---|X---|X---", which I need to check. Wait, the user said no snare or tom, so hihat is okay? Wait, the request was "no snare or tom", so hihat is part of the hi-hat, which is separate. So leave H as is. Wait, but maybe I should double-check. The user might have meant to remove other parts, but according to the instruction, only snare and tom are to be removed. 
+
+Wait, let me confirm the instruments. The S line is snare, T is toms. So I need to clear out S and T lines. The H line is hihat, which is allowed. The C and R lines (crash and ride) are already empty, so they stay. 
+
+So, for the Snare line (S), replace all non-dash characters with dashes. The original S line is "----|O---|----|O---", so changing the O's to dashes gives "----|----|----|----".
+
+The Toms line (T) is already all dashes, so no change. The rest remain as they are. Let me put it all together:
+
+K remains: O---|----|O---|----
+S becomes: ----|----|----|----
+H stays: X---|X---|X---|X---
+T stays: ----|----|----|----
+C and R are already empty.
+
+Wait, let me check the original input again. The user's given groove:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Yes, so after removing snare (S) and tom (T), the S line's O's become dashes, and T is already clear. The final should have S as all dashes and T as well. The Hihat is okay since it's not part of the excluded instruments. So the edited version should look like this.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|----|----|----
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

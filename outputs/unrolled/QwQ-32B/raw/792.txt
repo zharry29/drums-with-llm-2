@@ -1,0 +1,45 @@
+Okay, so the user wants me to add a tom hit and a ride in the very beginning of the given drum groove. Let me look at the current groove first.
+
+The existing groove is:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+The user's request is to have a tom hit and ride in the first part. The first beat is "O---" for the kick, and the tom line is all dashes. So I need to add a tom hit at the very beginning. Since the kick is already hitting on the first 16th note (the 'O'), maybe adding a tom hit on the same note would work. But the tom's notation uses 'O' for hard hits. Let me check the rules again: Toms (T) use O for hard, o for soft. 
+
+So, for the first 16th note of the first beat, the kick is O, so maybe adding a T: O--- in the first beat would introduce a tom hit there. Wait, but the user wants both tom and ride. The ride (R) needs to have a hit. The ride uses O for hard bell hit, o for soft, and X/x for closed hits. Since the user mentioned "ride," maybe starting with an O on the ride's first note. 
+
+Looking at the current R line: it's all dashes except the crash. So changing the first character of R to O would add a ride hit on the first 16th note. 
+
+So for the first beat (first four characters before the |):
+
+T should have O--- to add a tom hit on the first note.
+
+R should have O--- to add a ride hit on the first note.
+
+Wait, but the user said "tom hit and ride in the very beginning," so both should be on the first note. Let me check if that's allowed. Each instrument can have their own hits on the same note. 
+
+So modifying T and R lines accordingly. Let me also check if the crash (C) is already hitting on the first beat. The C line is O---|..., so it has a crash on the first note. The user didn't mention removing that, so maybe they want both crash and tom/ride. 
+
+So the edited lines would be:
+
+T: O---|----|----|----
+R: O---|----|----|----
+
+Wait, but the user might want the ride to start with a hit on the first note as well. That should be okay. Let me confirm the rules again to ensure I'm not mixing up articulations. Tom's O is hard, ride's O is bell hit. So that's correct. 
+
+Therefore, the final edited groove should have T's first beat as O--- and R's first beat as O---. Let me put that into the @@@ block.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: O---|----|----|----
+@@@

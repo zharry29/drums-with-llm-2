@@ -1,0 +1,45 @@
+Okay, let me tackle this drum groove edit. The user wants the groove to have not only kick but also cymbals. The original groove already has kick (K line) and crashes (C line), but maybe they want more cymbal action, perhaps adding ride or varying the crashes?
+
+Looking at the given groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+
+The kick is very active, and the crash is hitting every beat (since C is O on each beat). The request might be to add another cymbal, like ride (R), to complement the crashes. Since the crash is on every downbeat, maybe adding a ride pattern on the offbeats would work. Let's see.
+
+The ride (R) can have X or x for closed hits. Maybe a steady 8th or 16th note pattern. Let's go for 16th notes to add more movement. For example, "x-x-" on each beat. That would make the ride play on every 16th note. But maybe alternating between X and x for dynamics? Or just a consistent soft closed hit.
+
+Alternatively, since the crash is already on every beat, maybe the ride can play on the "and" of each beat. Let's try:
+
+R: -x-x|-x-x|-x-x|-x-x  
+But need to check the notation. Each beat is four 16th notes. So for four beats, each line has 16 characters separated by | into four beats. 
+
+Alternatively, a common ride pattern is quarter notes on the bell, but since they mentioned cymbal, maybe closed hits. Let me try:
+
+R: x---|x---|x---|x--- (on each beat) but that might clash with crashes. Alternatively, adding a cross-stick or ride on the "&"s.
+
+Wait, the user says "not only kick but also cymbal". Since there's already crash, maybe they want ride as well. Let's add a ride pattern. Let's make the ride play every 8th note. Each beat is four 16th notes. So 8th notes would be every two characters. For example, "x-x-" for each beat. That would give a steady 8th note pattern on the ride. So:
+
+R: x-x-|x-x-|x-x-|x-x- 
+
+That way, the ride is adding continuous movement, and the crashes are on the downbeats. That should fulfill the request. Let me check if that's within the notation rules. R uses X/x for closed hits on the bow. Using x (soft closed) would be good for a steady ride. 
+
+So the edited groove would have R: x-x- repeated in each beat. Let me write that out properly:
+
+R: x-x-|x-x-|x-x-|x-x- 
+
+Yes, that's 16 characters. So the final groove would include this R line. The Hihat is all dashes, so maybe keeping it empty unless needed, but the user didn't mention hihat, so just focus on adding ride. The crash is already present, so combining both crash and ride should satisfy "not only kick but also cymbal".
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: x-x-|x-x-|x-x-|x-x-
+@@@

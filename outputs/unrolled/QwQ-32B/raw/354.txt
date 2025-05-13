@@ -1,0 +1,75 @@
+Okay, let's tackle this drum groove edit. The user provided a specific drum notation and wants me to remove any kick or cymbal parts. Let me first parse the given groove and the edit request carefully.
+
+Starting with the original drum groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+The instruments involved are Kick (K), Snare (S), Hihat (H), Toms (T), Crash (C), and Ride (R). The user says, "I don't want any kick or cymbal." Cymbals here include Crash (C) and Ride (R), so those need to be silenced. Additionally, the Kick (K) must be removed.
+
+First step: Remove all entries in the K line. That means replacing every character in the K line with '-' to indicate no hit. The original K line is "-O--|OO--|---O|-OO-", so changing that to "----|----|----|----".
+
+Next, check the C line (Crash cymbal). The original has "O---" in each beat, so replacing those with "----".
+
+The R line (Ride cymbal) is already all dashes except maybe check again. Original R line is "----|----|----|----", so no changes needed there.
+
+Now, check other lines to ensure no other cymbals are present. The S (Snare) and H (Hihat) and T (Toms) are okay unless they have cymbal notations, but according to the notation rules, Snare uses O, o, X, x; Hihat uses O, o, X, x; Toms use O and o. So those are safe.
+
+Wait, the Toms (T) have a hit in the third beat: "----|----|---O|----". Since Toms are allowed (the user didn't mention removing toms), that's fine. The user only wants to remove kick and cymbals.
+
+So after removing K and C:
+
+K line becomes all dashes.
+
+C line becomes all dashes.
+
+Now, check if there are any other cymbals. The Ride (R) was already off. So the edited groove should have K and C lines as all dashes. Let me reconstruct each line:
+
+K: ----|----|----|----
+S remains as is: ----|----|S---|----
+H remains: x-x-|x-x-|x-x-|x-x-
+T remains: ----|----|---O|----
+C becomes: ----|----|----|----
+R remains: ----|----|----|----
+
+Wait, but in the S line, there's an 'S---' in the third beat. Wait, looking back at the original S line: "S: ----|----|S---|----". Wait, the user's notation uses S for snare, but according to the instrument definitions, S is Snare drum. The notation says for S: O is hard hit, o is soft open, X and x are sidestick. So using 'S' here might be a mistake because the allowed characters for S are O, o, X, x. Wait, the user might have made a typo here, but since I have to follow the given input, perhaps the 'S' in the third beat is an error, but according to the problem statement, the user provided this groove, so maybe it's a typo. However, since the user's instruction is to remove kick and cymbals, not to fix notation errors, I'll leave the S line as is unless instructed otherwise. But according to the rules, S can't have 'S' as a character. Wait, looking back at the user's instruction:
+
+In the drum notation explanation, for S (Snare drum), the characters are O, o, X, x. So 'S' isn't a valid character here. That might be an error in the provided groove. But since the user hasn't mentioned it, maybe it's a typo and they meant 'O' or another valid character. However, since the edit request is only to remove kick and cymbals, I should proceed without altering the S line unless it's a cymbal. Since it's the Snare line, even if there's an invalid character, I'll leave it as the user provided unless the instruction says to fix it. So proceed.
+
+Thus, the final edited groove would have K and C lines set to all dashes. Let me write that out:
+
+K: ----|----|----|----
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, but in the original T line, there's a 'O' in the third beat's fourth position: "----|----|---O|----". Since Toms are allowed (the user didn't mention removing toms), that stays.
+
+Double-checking all lines:
+
+- K: All dashes ✔️
+- S: Original entries, even if possibly incorrect, kept as instructed ✔️
+- H: Unchanged ✔️
+- T: Unchanged ✔️
+- C: All dashes ✔️
+- R: Already all dashes ✔️
+
+So that should be the correct edited groove.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

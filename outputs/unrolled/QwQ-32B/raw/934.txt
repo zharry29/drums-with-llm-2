@@ -1,0 +1,34 @@
+Okay, let me tackle this problem. The user provided a drum groove and wants me to remove the snare hit on beat 4 while keeping everything else the same. 
+
+First, I need to look at the original drum notation. Let me parse each line:
+
+The Snare (S) line is:
+S: ----|O---|----|O---
+
+Breaking this down into beats separated by |:
+- Beat 1: ---- (no snare hits)
+- Beat 2: O--- (a hard hit on the first 16th note of beat 2)
+- Beat 3: ---- (no hits)
+- Beat 4: O--- (a hard hit on the first 16th note of beat 4)
+
+The user's request is to remove the snare on beat 4. That means changing the fourth beat's "O---" to "----" so there's no hit there. 
+
+I should check the other lines to ensure they stay the same. The Kick (K), Hihat (H), Toms (T), Crash (C), and Ride (R) lines don't mention any changes, so they remain as they are.
+
+Let me reconstruct the S line after the change:
+Original S: ----|O---|----|O---
+After edit: ----|O---|----|----
+
+Now, putting it all together, the rest of the instruments stay the same. Let me verify each part again to avoid mistakes.
+
+Yes, that should do it. The only change is the last beat of the snare line, replacing the "O" with a "-".
+</think>
+
+@@@
+K: O---|----|O---|----  
+S: ----|O---|----|----  
+H: X---|X---|X---|X---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

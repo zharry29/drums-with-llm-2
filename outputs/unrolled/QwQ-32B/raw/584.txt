@@ -1,0 +1,31 @@
+Alright, let me tackle this drum groove edit. The user wants to remove any ride or cymbal parts. Looking at the given groove:
+
+First, I need to identify which lines correspond to the instruments they want removed. According to the notation key:
+
+- **C** is the Crash cymbal
+- **R** is the Ride cymbal
+
+So, I'll set both **C** and **R** lines to all dashes ('-') to silence those instruments.
+
+Next, check the original groove's C and R lines:
+
+**C: ----|----|----|----**  
+**R: x---|X-x-|x---|X-x-**
+
+The Crash (C) is already silent, but the Ride (R) has some hits. I'll replace all characters in R's line with '-'.
+
+Now, ensure other instruments like Kick (K), Snare (S), and Hihat (H) remain unchanged unless they're part of the cymbals. Since the user only mentioned ride and crash, those are the only lines to adjust.
+
+Final check: Make sure no other cymbal-related instruments are present. The Toms (T) are fine as they're separate. The edited groove should keep K, S, H, and T as they are, with C and R silenced.
+
+Putting it all together, the modified drum groove should look like this with the specified changes.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

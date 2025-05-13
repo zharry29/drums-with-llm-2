@@ -1,0 +1,29 @@
+Okay, so I need to edit this drum groove based on the user's request. The user provided a drum groove and wants me to remove the snare and ride cymbal. Let me first understand the current setup.
+
+Looking at the drum groove, I see each instrument is represented by a line with 16 characters, separated by | into four beats. The current groove has Kick, Snare, Hihat, Tom, Crash, and Ride cymbal. The user wants to remove snare and ride, so I should only keep Kick, Hihat, Tom, and Crash.
+
+First, I need to go through each instrument line and remove the Snare and Ride parts. Let's look at the Snare line: it has "----|X--o|----|O---". Since Snare is being removed, I should replace this with something that represents no snare. Maybe just "----" for each beat.
+
+For the Ride cymbal, it's currently "x---|X-x-|x---|X-x-". Since ride is being removed, I'll replace this with "----|----|----|----", indicating no ride cymbal activity.
+
+Now, I should check if any other instruments are affected. The other lines (Kick, Hihat, Tom, Crash) don't have Snare or Ride, so they can stay as they are.
+
+Let me reconstruct the edited groove. Each line should still have four beats separated by |. For Snare, each beat will be "----". For Ride, each beat will be "----".
+
+Putting it all together, the new groove should only include Kick, Hihat, Tom, and Crash, with Snare and Ride completely removed.
+
+I need to make sure the formatting is correct, with each instrument on its own line and properly separated by @@@ at the end.
+
+So, the final edited groove will have Kick, Hihat, Tom, and Crash only, with no Snare or Ride elements. Each of these instruments will have their respective notes as specified in the original drum notation.
+
+I think that's all. Let me write out the final edited drum groove now.
+</think>
+
+@@@  
+K: ----|----|----|----  
+S: ----|----|----|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

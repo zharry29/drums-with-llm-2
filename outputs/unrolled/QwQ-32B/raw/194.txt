@@ -1,0 +1,86 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include both tom and snare, which it partially does, but maybe the snare isn't prominent enough. Let me look at the original groove first.
+
+The Kick (K) has some activity with Os and -s. The Snare (S) line currently has "S---" in the third beat and nothing else except that. Wait, "S---" might be a typo because the notation uses O, o, X, x, etc. for snare. The user probably meant maybe an O or X there. The Toms (T) only hit once in the third beat with an O. The Ride (R) and Crash (C) are active, but the main issue is the snare needs more presence.
+
+The edit request says "not only tom but also snare," so maybe the snare isn't present enough. Let me check the S line again. The third beat has "S---", but according to the notation rules, S isn't a valid character for snare. The valid ones are O, o, X, x. So maybe that's a mistake. The user might have intended an O or X there. Let's assume they meant O. So correcting that first.
+
+Now, to add more snare hits. The current S line is mostly empty except the third beat. To make the snare more prominent, perhaps adding hits on the backbeats, like beats 2 and 4. Let's see the structure:
+
+The groove has 4 beats. Let's distribute the snare hits. Maybe on beat 2 and 4. For example, in the second beat (which has "OO--" on kick), a snare hit there. Also, the fourth beat ends with "-OO-", so maybe a snare on the last hit of the bar.
+
+Additionally, the tom only has one hit. To make toms more present, maybe add some more tom hits in different beats, maybe on offbeats. Let's spread them out.
+
+Let me sketch this out. For the snare line:
+
+Original S: ---- | ---- | O--- | ---- (assuming S was a typo and corrected to O). Wait, original given was S: ----|----|S---|---- so maybe the third beat's first 16th note is S? But since S isn't valid, changing to O or X. Let's go with O for a hard hit. So third beat's first note is O. Then add another snare on beat 2 and 4.
+
+So new S line could be:
+
+S: ---- | O--- | O--- | -O--
+
+That way, snare hits on second beat first hit, third beat first, and fourth beat fourth hit. That adds more snare presence.
+
+For the Toms (T), originally only the third beat has ---O. Let's add more. Maybe in each beat, like every other 16th note. For example:
+
+T: --O- | -O-- | O-O- | -O-O
+
+But need to check the flow. Alternatively, spread them out evenly. Maybe on the & of each beat. Let's try:
+
+T: -O-- | -O-- | -O-- | -O--
+
+But that might be too simple. Alternatively, vary it. Let me think. Maybe in the first beat, second 16th note: -O--. Second beat third: --O-, etc. Hmm, perhaps a consistent pattern like every second 16th note.
+
+Alternatively, to complement the kick, which has -O-- in first beat, maybe align toms with offbeats. Let's see:
+
+Original K line:
+
+Beat 1: -O--
+Beat 2: OO--
+Beat 3: ---O
+Beat 4: -OO-
+
+So for Toms, maybe hits on the "&" of each beat (the second 16th note) except where kick is heavy. For example:
+
+T: -O-- | -O-- | -O-- | -O--
+
+That way, toms are consistent. Alternatively, in beat 3, since the kick is on the 4th 16th, maybe a tom on the third?
+
+Alternatively, let's make sure the toms are present but not clashing. Let me try:
+
+T: --O- | O--- | -O-- | O-O-
+
+Not sure, perhaps better to keep it simple with a steady tom pattern. Let's go with T: -O-- in each beat, so each beat's second 16th has a tom hit. So:
+
+T: -O-- | -O-- | -O-- | -O--
+
+That would give a consistent tom rhythm.
+
+Putting it all together:
+
+K remains as is.
+
+S: Adding hits on beat 2 first, beat 3 first, and beat 4 fourth. So:
+
+S: ---- | O--- | O--- | ---O
+
+Wait, the original third beat's S was S--- (assuming corrected to O---), so the third beat's first note is O, and adding O in beat 2 first, and beat 4 last.
+
+Toms as -O-- in each beat.
+
+Check the notation length. Each line must have 16 characters (4 beats, 4 notes each). Let me verify:
+
+For T line: "-O--| -O--| -O--| -O--" would be 16 characters (each beat is 4 chars, 4 beats, 4*4=16). Yes.
+
+Snare line: "----|O---|O---|---O" would be 16 as well.
+
+So the final edited groove would have Snare hits on beats 2, 3, and 4 (last), and Toms on every second 16th note. That should fulfill the request.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|O---|O---|---O
+H: x-x-|x-x-|x-x-|x-x-
+T: -O--|-O--|-O--|-O--
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

@@ -1,0 +1,63 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any ride or hihat parts from the given drum groove. Let me first recall the original groove provided:
+
+The original is:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+So, looking at each line:
+
+- **Kick (K):** All dashes, so no kick hits.
+- **Snare (S):** Also all dashes, no snare.
+- **Hihat (H):** Has some x's on the 3rd 16th note of the second and fourth beats.
+- **Toms (T):** Nothing here.
+- **Crash (C):** Nothing.
+- **Ride (R):** Has a pattern with x and X on the first and third beats, and X-x- on the second and fourth.
+
+The user's request is to remove ride (R) and hihat (H). So, I need to set both H and R lines to all dashes. Let me double-check each line:
+
+For Hihat (H): The current entries are "----|x---|----|x---". Changing those to "----|----|----|----".
+
+For Ride (R): The current entries are "x---|X-x-|x---|X-x-". Changing all to "----|----|----|----".
+
+The rest of the instruments (K, S, T, C) remain as they are since they're not mentioned in the removal request. Let me confirm that I'm not missing any other instruments. The user only wants ride and hihat gone, so kick, snare, toms, and crash stay. Since the original K and S were already empty, they stay empty. T and C are also empty except maybe in other examples, but here they are clear.
+
+So the edited version should have H and R lines all dashes. Let me write that out:
+
+K: remains same (all dashes)
+S: same
+H: all dashes
+T: same
+C: same
+R: all dashes
+
+Putting it all together:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Wait, but I should check if there's any other part in the original that might have H or R. Let me re-examine the original:
+
+Original H line: H: ----|x---|----|x---. So yes, those x's need to be removed. The R line has the x and X entries which also need to be dashes. So the final edited version should indeed have both H and R lines as all dashes. That's straightforward. No other instruments are affected. I think that's all. The user didn't mention keeping anything else, so this should fulfill the request.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

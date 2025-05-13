@@ -1,0 +1,92 @@
+Okay, let me try to work through this. The user wants me to edit a drum groove by removing any cymbals and the kick drum. Let me start by understanding the given groove first.
+
+Looking at the provided drum notation:
+
+**Original Groove:**
+```
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+```
+
+Breaking it down line by line:
+
+- **Kick (K):** There are hits on the first and third beats, with some soft hits and rests.
+- **Snare (S):** Snare hits on the second and fourth beats.
+- **Hihat (H):** A mix of open and closed hits, with some variations.
+- **Toms (T):** No activity here.
+- **Crash (C):** A crash on the first beat of each bar.
+- **Ride (R):** None.
+
+The user's request is to remove any cymbals (which include Crash **C** and Ride **R**) and the kick drum **K**. 
+
+So, I need to:
+
+1. **Remove Kick (K):** Set all K line characters to '-'.
+2. **Remove Cymbals:** Both Crash **C** and Ride **R** lines should be cleared. Since the original already has R as empty, just need to ensure C is set to all '-'.
+
+Wait, looking at the original C line: it has "O---" in the first beat, so that's a crash hit. The rest are dashes. So, changing the entire C line to all dashes.
+
+Other instruments (Snare **S** and Hihat **H**) can stay as they are unless they are part of the cymbals. Since the user specified "cymbal" generally, which includes crash and ride, but hihat is a separate category here. The Hihat is part of the drum set's hi-hat, not a cymbal in the same category as crash/ride. Wait, but need to confirm the instruments. According to the problem statement:
+
+The instruments are:
+
+- K: Kick
+- S: Snare
+- H: Hihat
+- T: Toms
+- C: Crash cymbal
+- R: Ride cymbal
+
+So, the user wants to remove **C (Crash)** and **R (Ride)**, but H (Hihat) is separate. The user didn't mention hihat, so it stays unless specified otherwise. Wait, the user's request was "I don't want any cymbal or kick." So cymbals include Crash and Ride, but Hihat is a different category. So Hihat remains. Let me confirm: the user's instruction is to remove cymbals (C and R) and kick (K). The snare and toms are okay unless mentioned. Since Toms (T) are not mentioned, but the original T is empty, so no change there.
+
+Wait, but the user's edit request says "I don't want any cymbal or kick." So:
+
+- Remove Kick (K): set K line to all '-'.
+- Remove Cymbals: set both C and R lines to all '-'.
+
+Hihat (H) is part of the hi-hat, which is a different category from cymbals here (as per the instrument list, it's listed under Hihat, separate from C and R). Therefore, Hihat remains as is.
+
+So, the edited groove should look like this:
+
+- **K:** All '-'.
+- **S:** Unchanged.
+- **H:** Unchanged.
+- **T:** Unchanged (since original had none).
+- **C:** All '-'.
+- **R:** Already all '-', so stays.
+
+Let me reconstruct each line:
+
+**Edited Groove:**
+```
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Wait, let me check each line again to ensure accuracy.
+
+Original K line was `O---|---o|O-O-|----` → becomes `----|----|----|----`.
+
+Original C line was `O---|----|----|----` → becomes `----|----|----|----`.
+
+Other lines remain as per their original entries except for K and C.
+
+Yes, that should be correct. The snare and hihat patterns stay, while kick and crashes are removed.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

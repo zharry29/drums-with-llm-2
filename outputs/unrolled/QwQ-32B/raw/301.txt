@@ -1,0 +1,26 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only ride but also snare. Looking at the given groove:
+
+First, check the current instruments. The kick (K) has some activity, snare (S) is present but maybe not enough, hihat (H) is active with X-x- patterns, toms (T) and crashes (C) are silent, and ride (R) is completely inactive. The edit request is to add ride and ensure snare is also present. Wait, the snare is already there, so maybe the user wants to emphasize both? Or perhaps the original had only ride or only snare? Let me double-check.
+
+Looking at the provided groove:
+S line has some hits: in the second beat "|Oo-o", third "|-o--", and last "|O--o". So snare is present but maybe sparse. The ride (R) is all dashes, so it's missing. The user wants to add ride while keeping the snare. So the main task is to add ride patterns without removing the existing snare.
+
+The user's previous examples often added a steady ride pattern like "-X-X" repeating every beat. Let's see:
+
+In the current S line, there are some snare hits, so we need to make sure that adding ride doesn't conflict. The ride is usually on the bow with X and x for closed hits. A common pattern is quarter notes on the ride, so every beat's first 16th note, maybe alternating X and x for dynamics. Alternatively, an eighth note pattern like "X-x-" per beat.
+
+Let me think of a standard ride pattern. Maybe "-X-X" for each beat (so every other 16th note), which would give a steady eighth note pulse. That's what was used in previous answers. Let's apply that here.
+
+So the R line would be "-X-X|-X-X|-X-X|-X-X". That should add a consistent ride pattern. The snare remains as is. Let me confirm that the S line is okay. The existing snare hits are on the 2nd and 4th beats, which should work with the ride's constant rhythm. No overlaps that would conflict.
+
+Therefore, the edited groove would have the R line filled with the ride pattern, keeping the snare as it is. That should satisfy the request.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: -X-X|-X-X|-X-X|-X-X
+@@@

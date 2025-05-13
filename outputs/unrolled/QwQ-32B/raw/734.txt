@@ -1,0 +1,34 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and hihat in the very beginning. The original groove starts with the kick on the first 16th note, but the snare and hihat are silent there. 
+
+First, I need to look at the existing parts. The kick line starts with "O---", so the first note is a hard kick. The snare line starts with "----", meaning no hit there. The hihat is "--o-", so the first two 16th notes are silent, then a soft open hit on the third. 
+
+The request is to add a snare hit and hihat at the very beginning. The "very beginning" would be the first 16th note of the first beat. 
+
+For the snare, I should add an 'O' (hard hit) on the first 16th note of the first beat. That means changing the S line's first character from '-' to 'O'. 
+
+For the hihat, the user might want a closed hit (since hihat can be closed with X or x). Since the existing hihat starts with '--o-', maybe replacing the first '-' with an 'x' (soft closed hit) to match the closed feel. So changing the first two characters of H's first beat from "--" to "x-" or "X-". Let's go with 'x' for a softer start.
+
+Also, check if other parts need adjustment. The crash and ride are already present but not in the first beat. The user didn't mention them, so leave as is. 
+
+So the edited lines would be:
+S: O---|O---|----|O---
+H: x-o-|O-o-|O-o-|O-o-
+Wait, original H was "--o-", so changing first '-' to 'x' makes it "x-o-" for the first beat. 
+
+Let me verify the counts. Each line must have 16 characters with | separators. 
+
+Original S line: "----|O---|----|O---" becomes "O---|O---|----|O---" for the snare. 
+
+Original H line: "--o-|O-o-|O-o-|O-o-" becomes "x-o-|O-o-|O-o-|O-o-" for the hihat. 
+
+Yes, that should do it. Let me put it all together.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+H: x-o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

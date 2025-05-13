@@ -1,0 +1,46 @@
+Okay, let me tackle this drum groove edit. The user wants to remove the ride cymbal on beat 4, but keep everything else the same. 
+
+First, I need to look at the original groove provided. Let me parse each line:
+
+**Original Groove:**
+```
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+So, the ride (R) is playing on all four beats. Specifically, beat 4 of the ride is "X-x-". The user wants to eliminate the ride on beat 4. 
+
+Breaking down the R line:
+- Beat 1: x---
+- Beat 2: X-x-
+- Beat 3: x---
+- Beat 4: X-x-
+
+The request is to remove the ride on beat 4. That means changing the fourth beat's characters to all '-' since they don't want any ride hits there. 
+
+Looking at the R line's fourth beat: "X-x-" has hits on the first and third 16th notes. To remove them, replace each non '-' character with '-'. So "X-x-" becomes "----".
+
+The rest of the groove remains unchanged. Let me double-check the other instruments to ensure nothing else is touched. 
+
+Kick (K), Snare (S), Hihat (H), Toms (T), and Crash (C) all have no changes needed. Only the Ride (R) on beat 4 needs to be silenced.
+
+Final check: After editing, the R line should be:
+```
+R: x---|X-x-|x---|----
+```
+
+Yes, that looks right. No other parts are altered. The user's instruction was straightforward, so I think this should work.
+</think>
+
+@@@
+K: ----|----|----|----  
+S: ----|----|----|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|----  
+@@@

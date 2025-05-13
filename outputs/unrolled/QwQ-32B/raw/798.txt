@@ -1,0 +1,30 @@
+Okay, let's tackle this drum groove edit. The user wants a tom hit and ride in the very beginning. The original groove is:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+First, I need to add a tom hit (T line) and a ride hit (R line) at the start. The first beat is "o---" for Kick, so the very beginning is the first 16th note of the first beat. 
+
+For the tom hit, since T uses O for hard and o for soft, I'll choose O to start strong. So the first character of T's line should be O, making it "O---|..." 
+
+For the ride, the R line currently starts with "x---". The user mentioned "ride," so using R's notation: O is a hard bell hit. To add a hit at the very beginning, replace the first '-' with O. So R becomes "O---|..." instead of "x---".
+
+Check if there's space. The original R starts with x on the first 16th note of the second beat. Changing the first to O doesn't conflict. Also, ensure other instruments aren't clashing. Kick has a soft hit (o) on the first note, so adding a tom O there is okay. 
+
+Final adjustments: T line starts with O--- and R starts with O---. The rest remains as per the original. Let me verify the notation rules again to be sure. Yep, T: O is a hard hit, R: O is bell. That should do it.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: O---|----|----|----  
+C: ----|----|----|----  
+R: O---|X-x-|x---|X-x-  
+@@@

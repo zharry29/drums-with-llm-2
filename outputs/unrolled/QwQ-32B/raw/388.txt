@@ -1,0 +1,51 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any snare or hihat parts. First, I need to recall the original groove's structure. 
+
+Looking at the given drum groove:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+The user's request is to eliminate the snare (S) and hihat (H). So, I need to set all their entries to '-'.
+
+Starting with the Snare (S) line: Currently, in the third beat, there's an O---. Changing that to ----. The rest are already empty, so the S line becomes all dashes.
+
+For the Hihat (H), all current entries are dashes, so no change there. Wait, checking again: The original H line is all dashes, so that's already okay. 
+
+Now, the Kick (K) and Toms (T) are still present. The user didn't mention removing those, so they stay. 
+
+Wait, double-checking the user's instruction: "I don't want any snare or hihat." So only S and H should be cleared. 
+
+So the edited version should have:
+
+K remains as is: O---|O---|----|O---
+S becomes all dashes: ----|----|----|----
+H is already all dashes, so stays: ----|----|----|----
+Toms stay: O-o-|O-o-|O-o-|O-o-
+C and R are already empty, so no change.
+
+Wait, but the original Toms (T) are playing. The user didn't mention toms, so they stay. The user only wants snare and hihat removed. 
+
+So putting it all together, the final groove should look like:
+
+K: O---|O---|----|O---
+S: ----|----|----|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+That's it. Just ensure that S and H are all dashes. Let me confirm once more. The original S had an O in the third beat's first hit, so that needs to be changed to '-'. The rest were already clear. H was already clear. Yes, that's correct.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|----|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

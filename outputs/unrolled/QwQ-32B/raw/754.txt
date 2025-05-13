@@ -1,0 +1,41 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and kick in the very beginning. The original groove is:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+First, I need to look at the first beat of each line. The kick (K) starts with "O---", so the first 16th note has an O (hard hit). That's already a kick in the beginning. But the user also wants a snare hit there. The snare (S) line starts with "----", meaning no hits in the first beat. So I need to add a snare hit on the first 16th note of the first beat.
+
+The snare can be an O for a hard hit. So changing the first character of S from '-' to 'O'. That gives S: O---|O---|----|O--- (but wait, original S has the second beat as O---, so maybe adjust accordingly). Let me check the original S line again. Original S is "----|O---|----|O---", so first beat is all dashes. So changing first character to O makes S start with O---.
+
+But need to ensure that the rest of the groove remains consistent. The user didn't mention changing other parts, so just the first hit. The hihat (H) starts with "--o-", so the first two 16th notes are closed (since H uses o for soft open, but the user's edit might not affect that unless specified. Since the request is just adding snare and kick at the beginning, and kick is already there, just add snare.
+
+Wait, the kick already has a hit in the first note, so that's good. The user wants both snare and kick at the beginning. So the main change is adding the snare's O in the first position. Let me confirm:
+
+Original K's first beat: O---
+Original S's first beat: ----
+So after edit, S's first beat becomes O---. That adds a snare hit on the first 16th note. That should satisfy the request. The rest remains the same. Let me make sure the crash (C) and others are okay. The crash is already in the first beat, but the user didn't mention removing it, so leave it. The hihat's first beat has --o-, which is two rests, then a soft open. Since the user didn't ask for hihat changes, that's fine.
+
+So the edited groove would be:
+
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+Wait, but the original S line after first beat is "|O---|----|O---", so when adding the first O---, the second beat remains O---, so the full S line becomes O---|O---|----|O---. That's correct. So the final answer should reflect that.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

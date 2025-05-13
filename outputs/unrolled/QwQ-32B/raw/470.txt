@@ -1,0 +1,38 @@
+Alright, let's tackle this drum groove edit. The user provided a drum notation example and a specific groove, then asked to remove both the snare (S) and kick (K) parts. 
+
+First, I'll recall the structure: each line represents an instrument, and each character is a 16th note. The user wants to eliminate any hits from the kick and snare, so I need to set all their entries to '-'.
+
+Looking at the given groove:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+I need to change the K and S lines entirely to '-' while keeping H, T, C, R as they are unless they're also to be removed. The request only mentions snare and kick, so hihat (H), toms (T), crash (C), and ride (R) stay. 
+
+Wait, checking the user's request again: "I don't want any snare or kick." So only K and S are removed. The hihat is still present in H line with X and x. The user didn't mention removing hihat, so it stays. Similarly, Toms and cymbals are untouched unless specified. 
+
+So, replacing K and S lines with all '-' characters. Let me count the characters to ensure there are 16 per line. Each segment between | is 4 characters, so 4 segments make 16. 
+
+For K line: original is "O--O|----|--O-|----". Replacing each character with '-': "----|----|----|----".
+
+Same for S line: "----|Oo-o|-o--|O--o" becomes "----|----|----|----".
+
+The rest remain the same. Let me double-check each line to ensure no K or S notes are left. 
+
+Final check: H line has X-x patterns, which are closed hihat hits. Since the user didn't ask to remove hihat, that's okay. Toms and others are empty except possibly C or R, but in the given example, they are empty. 
+
+Looks good. The edited groove should have K and S lines all dashes, others as original.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

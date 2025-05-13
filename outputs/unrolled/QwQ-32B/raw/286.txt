@@ -1,0 +1,21 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only snare but also ride. Looking at the given groove:
+
+First, check the current instruments. The Kick (K) is active with O's and --O-. The Snare (S) has hits on the second and fourth beats. Hihat (H) is all dashes, so it's not playing. Toms (T) are silent. Crash (C) is hitting every beat with O's. Ride (R) is completely silent.
+
+The edit request says "not only snare but also ride." That means the groove already has snare, but needs to add ride. Since Ride (R) is currently empty, I need to add some ride hits. The user probably wants the ride to complement the snare and kick, maybe providing a steady rhythm.
+
+Looking at the existing patterns: The snare is on beats 2 and 4. The kick has a busy pattern with O's and --O-. The crashes are on every beat. To add ride, a common approach is to have a steady 16th note pattern or something that fits the groove. Since the user's previous edits often used X and -X-X patterns for ride, maybe a closed ride hit on every 16th note would work. Using X for hard closed hits on the bow. So something like -X-X repeated in each beat.
+
+Let me check the notation rules for Ride (R): X and x are hard and soft closed hits on the bow. So using X for a consistent closed ride sound. The current R line is all dashes, so replacing them with -X-X in each beat section. That would give a steady ride pattern without conflicting with the snare and crashes. Also, since the crash is hitting every beat, maybe the ride could play on the offbeats or alternate, but the simplest addition is a steady ride.
+
+So the edited R line would be: -X-X|-X-X|-X-X|-X-X. This adds a consistent ride pattern, fulfilling the request to include ride. The snare is already present, so that's covered. The hihat is still silent, but the request didn't mention it, so leave as is unless required. The user's previous edits sometimes kept other elements unless instructed otherwise. So the final groove should have the added ride pattern.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: -X-X|-X-X|-X-X|-X-X
+@@@

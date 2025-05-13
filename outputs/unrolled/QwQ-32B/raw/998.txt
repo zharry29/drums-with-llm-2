@@ -1,0 +1,39 @@
+Okay, let's tackle this drum groove edit. The user wants the closed hihat on all 16th notes with accents on the quarter note down beats. 
+
+First, I need to recall the notation rules. The H line is for hihats. Closed hits are denoted by X (hard) or x (soft). The instruction says "accent on the quarter note down beats," so every first 16th note of each beat (the downbeats) should be a hard hit (X), and the others soft (x). 
+
+Looking at the original groove:
+
+H: ----|x---|----|x---
+
+Currently, the hihat only plays on the second 16th note of beats 2 and 4. To fill all 16th notes, each beat's four notes need to be filled with X and x. 
+
+Breaking it down per beat:
+- Each beat is four 16th notes. The first note (downbeat) is X (accent), the next three are x. So each beat becomes Xxxx.
+
+Since there are four beats in a bar, the H line should be Xxxx|Xxxx|Xxxx|Xxxx. 
+
+Now check other instruments. The user didn't mention changing them, so leave K, S, T, C, R as they are. 
+
+Original R line has some activity, but since the request is about hihat, no changes there. 
+
+Putting it all together:
+
+K remains all dashes.
+S remains all dashes.
+H becomes Xxxx for each beat.
+Others stay the same.
+
+Wait, let me confirm the user's original input. The given groove has R: x---|X-x-|x---|X-x-. Since the user didn't mention modifying R, keep it. 
+
+So the final H line should be four repetitions of Xxxx separated by |. That's the key change. Double-checking for any typos. Yes, that should do it.
+</think>
+
+@@@
+K: ----|----|----|----  
+S: ----|----|----|----  
+H: Xxxx|Xxxx|Xxxx|Xxxx  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

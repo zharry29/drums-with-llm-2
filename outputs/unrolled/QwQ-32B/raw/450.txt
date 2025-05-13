@@ -1,0 +1,45 @@
+Alright, let's tackle this edit request. The user wants to remove any cymbal or hihat parts from the given drum groove. First, I'll need to recall the structure of the drum notation provided. Each line represents a different drum component: K for kick, S for snare, H for hihat, T for toms, C for crash cymbal, and R for ride cymbal.
+
+Looking at the given drum groove:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+The user specified removing cymbals (C and R) and hihat (H). So, I need to set all the lines for C, R, and H to all dashes. 
+
+Starting with Hihat (H), it's already all dashes, so no change there. But to comply, I'll confirm and ensure it stays that way. 
+
+Next, Crash cymbal (C) is also already all dashes, so that's already done. 
+
+The Ride cymbal (R) has some notes: "o-O-|o-O-|o-O-|o-O-". These need to be replaced with dashes. 
+
+Snare (S) and Kick (K) are okay since the request was only about cymbals and hihat. 
+
+So the edited version should have K and S as they are, H, C, R all dashes. Let me double-check each line:
+
+- K remains unchanged: O--O|----|--O-|----
+- S remains: ----|Oo-o|-o--|O--o
+- H becomes: ----|----|----|----
+- T stays since it's not mentioned: ----|----|----|----
+- C becomes: ----|----|----|----
+- R becomes: ----|----|----|----
+
+Wait, the user also mentioned removing hihat (H), but H is already empty. So no action needed there. The main change is R to dashes. Let me confirm once more. The user didn't mention toms (T), so leave them as is unless they're part of cymbals, but T is toms, so they stay. 
+
+Yes, that's correct. The final result should have R line all dashes and keep the rest as original except for H and C which were already empty. 
+
+I think that's all. Let me write the final notation accordingly.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

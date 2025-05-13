@@ -1,0 +1,37 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any kick or hihat parts. Let me start by looking at the original groove provided.
+
+First, the Kick (K) line is: O---|----|O---|----. So there are hits on the first and third beats. Since the user doesn't want any kick, I need to replace all those O's with dashes. That should make the K line all dashes.
+
+Next, the Hihat (H) line is X--- repeated four times. The X here represents closed hihat hits. Since the user wants no hihat, all those X's should become dashes as well. So the H line becomes all dashes too.
+
+Now, check the other instruments to make sure they're okay. The Snare (S) has hits on the second and fourth beats. The user didn't mention snare, so those stay. Toms (T), Crash (C), and Ride (R) are all silent except maybe R? Wait, looking at the original, R is all dashes. So no changes there.
+
+Wait, let me double-check each line:
+
+Original K: O---|----|O---|---- becomes ----|----|----|----
+
+Original H: X---|X---|X---|X--- becomes ----|----|----|----
+
+Snare remains: ----|O---|----|O--- (Wait, original S was ----|O---|----|O---? Let me confirm. The user's input shows S as ----|O---|----|O---. Since the user didn't mention snare, it stays. So the edited groove should keep the snare but remove kick and hihat.
+
+Putting it all together:
+
+K: all dashes.
+
+S: unchanged.
+
+H: all dashes.
+
+T, C, R stay as they are (all dashes except S).
+
+So the final notation should have K and H lines empty. Let me write that out properly.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

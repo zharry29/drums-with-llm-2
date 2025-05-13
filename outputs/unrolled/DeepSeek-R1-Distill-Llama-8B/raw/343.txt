@@ -1,0 +1,56 @@
+Okay, so I need to edit this drum groove based on the user's request. The user doesn't want any snare or cymbal in the drum beat. Let me first understand the current drum groove and then figure out how to remove the unwanted instruments.
+
+Looking at the current groove:
+
+- **Kick Drum (K)**: It's playing O---|O---|----|O---. So, it's active on the first, third, and fourth beats. I need to keep the kick drum as it's essential for the beat.
+  
+- **Snare Drum (S)**: It's playing ----|----|O---|----. The user wants no snare, so I'll set this to ----|----|----|----.
+
+- **Hihat (H)**: It's playing ----|----|----|----. The user wants no hihat, so I'll set this to ----|----|----|----.
+
+- **Tom Toms (T)**: It's playing O-o-|O-o-|O-o-|O-o-. The user wants no tom, so I'll set this to ----|----|----|----.
+
+- **Crash Cymbal (C)**: It's playing ----|----|----|----. The user wants no cymbal, so I'll set this to ----|----|----|----.
+
+- **Ride Cymbal (R)**: It's playing ----|----|----|----. The user wants no cymbal, so I'll set this to ----|----|----|----.
+
+Wait, but the ride cymbal is already not playing, so that's fine. Now, I need to make sure that only the kick drum is active. Let me double-check each instrument:
+
+- **Kick Drum**: Keep as is, only the necessary notes are played.
+  
+- **Snare Drum**: Remove all activity, set to ----|----|----|----.
+
+- **Hihat**: Remove all activity, set to ----|----|----|----.
+
+- **Tom Toms**: Remove all activity, set to ----|----|----|----.
+
+- **Crash Cymbal**: Remove all activity, set to ----|----|----|----.
+
+- **Ride Cymbal**: Already inactive, keep it as ----|----|----|----.
+
+Wait, but the user only mentioned not wanting snare or cymbal. So, the tom and hihat were already inactive in the original groove. I think I might have misread that. Let me check the original request again.
+
+The user said: "I don't want any snare or cymbal." So, snare and cymbal should be removed, but the hihat and tom were already inactive. So, I don't need to change them because they are already not playing.
+
+Therefore, the final groove should have only the kick drum active, and all other instruments set to inactive.
+
+Let me write that out:
+
+- **Kick Drum (K)**: O---|O---|----|O---  
+- **Snare Drum (S)**: ----|----|----|----  
+- **Hihat (H)**: ----|----|----|----  
+- **Tom Toms (T)**: ----|----|----|----  
+- **Crash Cymbal (C)**: ----|----|----|----  
+- **Ride Cymbal (R)**: ----|----|----|----  
+
+I think that's it. Only the kick drum is active, meeting the user's request of no snare or cymbal. I should present this as the final drum groove within the @@@ notation.
+</think>
+
+@@@  
+K: O---|O---|----|O---  
+S: ----|----|----|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

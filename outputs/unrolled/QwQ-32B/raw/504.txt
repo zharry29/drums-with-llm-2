@@ -1,0 +1,58 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any cymbals or toms from the given groove. Let me first look at the original groove provided.
+
+The original groove has:
+
+- **Kick (K):** O---|O---|----|O---
+- **Snare (S):** ----|----|O---|----
+- **Hihat (H):** ----|----|----|----
+- **Toms (T):** O-o-|O-o-|O-o-|O-o-
+- **Crash (C):** ----|----|----|----
+- **Ride (R):** ----|----|----|----
+
+The user specified "I don't want any cymbal or tom." 
+
+First, I need to identify which lines correspond to cymbals and toms. 
+
+- **Toms (T):** The T line is definitely toms, so that needs to be removed. 
+- **Cymbals (C and R):** The crash (C) and ride (R) lines are cymbals. However, in the original groove, both C and R lines are empty (all dashes). So, even though they are cymbals, there's no activity there. But the user might still want to ensure they're cleared. 
+
+So the main thing to remove is the Toms (T) line. The user might also want to make sure that any cymbals (even if empty) are left as is, but since the request is to remove cymbals, perhaps setting them to all dashes as well. Wait, but in the original, they are already dashes. 
+
+Wait, the user might not want any cymbals, so even if they are not played, maybe they should be omitted? But in the notation, each line must be present with 16 characters. So we just set them to all dashes. Since they are already dashes, maybe no change needed there. 
+
+So the edited groove should have:
+
+- Keep Kick (K) and Snare (S) as they are.
+- Remove Toms (set T to all dashes)
+- Ensure Crash (C) and Ride (R) are all dashes (which they already are)
+
+Looking at the original T line: O-o-|O-o-|O-o-|O-o- → this needs to become ----|----|----|----
+
+So the final groove would be:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, but the user might want to remove hihat as well? Wait, the user said "cymbal or tom", and hihat is a closed hi-hat, which is a drum, not a cymbal. Wait, according to the instrument list:
+
+H: Hihat – which is a drum (the closed/open hits on the hi-hat). Cymbals are Crash (C) and Ride (R). So the user wants to remove toms (T) and any cymbals (C and R). The hihat (H) is separate and allowed unless specified otherwise. However, in the original, the H line is all dashes except maybe? Let me check again.
+
+Original H line: ----|----|----|----, so it's already inactive. So no change there. 
+
+Therefore, the edited groove should disable the Toms (T) and ensure C and R are also disabled (which they are). 
+
+So the final answer should have T set to all dashes, and C and R already are. So the final drum groove is as above.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

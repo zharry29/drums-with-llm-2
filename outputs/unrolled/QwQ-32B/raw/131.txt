@@ -1,0 +1,198 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only tom but also ride. The original groove has kick, snare, and ride, but no toms. So I need to add tom hits where appropriate.
+
+First, I'll look at the existing instruments. The kick is playing on O--O|----|--O-|----, which is a steady pattern. The snare has some variation with Oo-o and O--o. The ride is already present with o-O- repeating. Since the edit requires adding tom, I need to decide where to place them without clashing.
+
+Toms are usually played on off-beats or to add rhythmic interest. Let's check the current bars. In the first bar, the kick hits on the first and third 16th notes. Maybe adding toms on the second and fourth? But need to see the flow.
+
+Looking at the first beat: O--O. The kick is on 1 and 3. Maybe place a tom on the 2nd 16th note? Let's see. Let me try placing O on the second 16th note in the first bar's first beat: so T: -O-- for the first beat. But need to check all bars.
+
+Alternatively, maybe syncopate with the ride. Since ride is on the bell and bow, toms can complement. Let me think of a simple tom pattern. Maybe on every other beat? For example, in each bar, add a tom on the "&" of the beat.
+
+Alternatively, look at the existing ride pattern. The ride is o-O- which is soft on the first 16th, hard on the third. Maybe place toms on the second and fourth 16th notes where the ride is silent. For example, in the first bar's first beat, T: -O-- so on the second 16th. But need to ensure it's consistent across all bars.
+
+Alternatively, maybe a tom fill on the last beat of each bar. Let me try adding O on the fourth 16th note of each beat. So in each beat's fourth 16th note, add a tom hit. That would give T: ---- for each beat but with the last note as O. Wait, the T line is per beat separated by |. So each beat is four characters.
+
+Let me try:
+
+Original T line is all ----. Let's add toms in the second and fourth 16th notes of each beat. For example:
+
+First bar: K: O--O|----
+
+T: -O-O|... ?
+
+Wait, let me go step by step.
+
+First bar: Each beat is divided by |. The first bar has four beats:
+
+First beat: O--O (K)
+Second beat: ---- (K)
+Third beat: --O- (K)
+Fourth beat: ---- (K)
+
+For the toms, maybe in the first beat, add a tom on the second 16th note (since kick is on 1 and 3). So T's first beat would be -O-- ?
+
+Second beat (K is ----), so maybe add a tom on the third 16th note? Or spread them out. Alternatively, a steady tom on every beat's second 16th.
+
+Alternatively, toms on the "and" of each beat. Let's try:
+
+T: -O-- | -O-- | -O-- | -O--
+
+But that might be too simple. Alternatively, vary it. Let's see the existing ride has o-O- which is soft on 1, hard on 3. Maybe toms on 2 and 4?
+
+So for each beat:
+
+T: -O-O | -O-O | -O-O | -O-O ?
+
+But need to check if that works with the kick and snare. Let me see first bar's first beat:
+
+K: O--O (hits 1 and 3)
+T: -O-O (hits 2 and 4)
+That would create a steady 16th note tom pattern, which might clash with the kick but could add drive. Alternatively, maybe only on certain beats.
+
+Alternatively, in the first bar's first beat, tom on 4th 16th (since kick is on 1 and 3). So T: ---O for that beat. Let me try building it beat by beat.
+
+Looking at each beat of the original groove:
+
+First bar:
+
+Beat 1: K: O--O, S: ----, H: ----, R: o-O-
+So tom could be on 2 or 4. Let's do -O-- (tom on 2nd 16th)
+
+Beat 2: K: ----, S: Oo-o, H: ----, R: o-O-
+Here, snare is Oo-o, so maybe tom on 1st and 3rd? But that might clash. Maybe tom on 4th: ---O
+
+Beat 3: K: --O-, S: -o--, H: ----, R: o-O-
+Tom on 2nd again: -O--
+
+Beat4: K: ----, S: O--o, H: ----, R: o-O-
+Tom on 4th: ---O
+
+So first bar's T would be: -O--|---O|-O--|---O
+
+Second bar:
+
+Second bar starts with the second line's next beats. The original second bar for K is ----, then |--O-, etc. Wait, need to parse all bars properly.
+
+Wait, the original K line is "O--O|----|--O-|----". So first bar is four beats: "O--O", "----", "--O-", "----".
+
+Second bar's beats would be the next four. Wait, the entire K line is four beats per bar? Wait no, the entire line is four beats separated by |, so each bar is four beats. Wait the original groove given is in the @@@ block:
+
+The user provided:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+So each instrument's line has four beats (each beat is 4 characters). The entire bar is 4 beats, so the T line is four beats of ---- each. So to add tom, I need to fill in each beat's four characters.
+
+Maybe a simple approach is to add toms on every other 16th note, but avoiding where kick is. Let's try:
+
+For each beat:
+
+If the kick is on 1 and 3 (like first beat: O--O), then tom on 2 and 4: -O-O
+
+Second beat (K: ----): maybe tom on 1 and 3: O-O-
+
+Third beat (K: --O-): kick on 3rd, so tom on 1,2,4? Maybe O-O- but adjust.
+
+Alternatively, toms on the & of each beat (second 16th). Let's try:
+
+First beat (K: O--O):
+
+T: -O--
+
+Second beat (K: ----):
+
+T: -O--
+
+Third beat (K: --O-):
+
+T: -O--
+
+Fourth beat (K: ----):
+
+T: -O--
+
+So T line would be: -O--|-O--|-O--|-O-- but that might be too much. Alternatively, alternate between O and o for dynamics.
+
+Alternatively, maybe add a tom hit on the fourth 16th of each beat:
+
+T: ---O for each beat. So T: ---O|---O|---O|---O
+
+But that's consistent. Let me see if that works with the ride.
+
+The ride is o-O- which is soft on 1, hard on 3. Tom on 4 would add a hit on the fourth 16th, which is the "and" of the third 16th. That could work.
+
+Alternatively, maybe a tom on the second and fourth 16ths for variation.
+
+Alternatively, look at the snare. In the second beat of the first bar, the snare has Oo-o, which is a hard hit on the first 16th, soft open on the second, and open on third? Wait, S's articulation: O is hard, o is soft open, X/x are sidestick. So in the second beat's S: Oo-o, that's first 16th O (hard), second o (soft open), third o (soft open), fourth -. So maybe the tom can play on the fourth 16th here.
+
+This is getting a bit complex. Let me try a simple approach. Since the user just wants toms added along with ride, which is already present, maybe place toms on the off-beats where there's space.
+
+Let me try adding O on the second and fourth 16ths of each beat, but ensuring it doesn't clash with kick. For example:
+
+First beat (K hits 1 and 3):
+
+T: -O-O (so tom on 2 and 4)
+
+Second beat (K is empty):
+
+T: O-O- (tom on 1,3?)
+
+Wait, maybe better to have a consistent pattern. Let's go with every beat's second and fourth 16th notes:
+
+So for each beat:
+
+T: -O-O
+
+Thus, the T line would be:
+
+-O-O|-O-O|-O-O|-O-O
+
+But check if that works with the kick:
+
+First beat K is O--O (1 and 3), so T's -O-O would hit 2 and 4. That's okay.
+
+Second beat K is ----, so T's -O-O would hit 2 and4.
+
+Third beat K is --O- (hit on 3), so T's -O-O hits 2 and4. Okay.
+
+Fourth beat K is ----, so same.
+
+This gives a steady tom pattern on the & of each beat and the & of the third. That should add some drive without clashing.
+
+Alternatively, maybe alternate between O and o for dynamics, but the user didn't specify, so just using O for hard hits.
+
+So the edited T line would be four instances of "-O-O", separated by |:
+
+T: -O-O|-O-O|-O-O|-O-O
+
+But I need to make sure each beat is four characters. Yes, each "-O-O" is four characters.
+
+Now, the ride is already present, so the edit request is met by adding tom. The user's instruction was "not only tom but also ride" which I think means both should be present. Since ride is already there, adding tom fulfills it.
+
+So putting it all together, the new T line is "-O-O" for each beat, and keep ride as is.
+
+Final groove would be:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: -O-O|-O-O|-O-O|-O-O
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: -O-O|-O-O|-O-O|-O-O
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

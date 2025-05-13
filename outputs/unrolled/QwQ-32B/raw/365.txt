@@ -1,0 +1,30 @@
+Alright, let's tackle this drum groove edit. The user provided a drum notation example and a specific groove they want modified. The edit request is to remove any cymbal or ride parts. 
+
+First, I'll recall the instruments involved. The given groove has Kick (K), Snare (S), Hihat (H), Toms (T), Crash (C), and Ride (R). The user wants to eliminate cymbals and ride, so that means setting Crash (C) and Ride (R) lines to all '-' characters.
+
+Looking at the original groove:
+```
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+```
+Wait a second, the C and R lines are already all '-' except maybe in other examples. Wait, in the provided groove here, C and R are already empty. Hmm, maybe the user's request is redundant here? Let me check again.
+
+Wait, in the given groove, the C line is all dashes, and R is also all dashes. So maybe there was a mistake, but according to the user's input, they want to remove cymbal (C) and ride (R). Since both are already inactive, perhaps the user just wants to confirm that those lines are cleared. 
+
+Alternatively, maybe in their original input there were some cymbals or ride hits, but in this specific case, they are already gone. Either way, the correct approach is to ensure that both C and R lines have all '-' characters. 
+
+Therefore, the edited groove should leave K, S, H, T as they are, and set C and R to all '-'. Since in the original, C and R are already empty, the result remains the same. But to comply strictly with the request, I'll present it as such.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

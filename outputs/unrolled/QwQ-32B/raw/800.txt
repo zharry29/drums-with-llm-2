@@ -1,0 +1,56 @@
+Alright, let me tackle this drum groove edit. The user wants a tom hit and ride in the very beginning. Let me start by looking at the original groove provided:
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+First, I need to understand what each line represents. The K line is the kick drum, S is snare, H is hihat, T is toms, C is crash cymbal, and R is ride cymbal. Each character is a 16th note, with four characters per beat separated by |, making four beats total.
+
+The user's request is to add a tom hit and ride in the very beginning. The "very beginning" would be the first 16th note of the first beat. 
+
+Looking at the original Toms (T) line: it's all dashes, meaning no toms are played. Similarly, the Ride (R) line is also all dashes except maybe later, but initially, nothing. So I need to place a tom hit on the first note and a ride hit on the first note as well.
+
+For the tom hit (T), since it's the first note, I'll replace the first '-' in T's line with an 'O' for a hard hit. That would make T: O---|... 
+
+For the ride (R), the first note should have an 'O' as per the request. The R line is currently all dashes, so changing the first character to 'O' gives R: O---|...
+
+Now, I should check if adding these affects other parts. The user didn't mention changing anything else, so the rest should stay the same. Let's verify each line:
+
+- Kick (K) remains O---|----|O---|----
+- Snare (S) stays ----|O---|----|O---
+- Hihat (H) stays X---|X---|X---|X---
+- Toms (T) becomes O---|----|----|----
+- Crash (C) remains all dashes
+- Ride (R) becomes O---|----|----|----
+
+Wait, the user might want the ride to continue its pattern. The original R line is all dashes, so maybe the ride is only added at the beginning. But the user said "ride in the very beginning," so just the first note. That's correct.
+
+Let me also confirm the notation rules. For Toms, O is a hard hit, which is appropriate. For Ride, O is a hard open hit on the bell. That fits the request for a ride hit. 
+
+No conflicts with other instruments on the first note. The kick has an O on the first note, but adding a tom O there is okay since they're different drums. The hihat starts with X, which is a closed hit, but that's separate.
+
+So the edited groove should have T's first character as O and R's first as O. Let me write that out:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: O---|----|----|----
+C: ----|----|----|----
+R: O---|----|----|----
+
+That should fulfill the request. Let me double-check the user's instruction again. They wanted a tom and ride in the very beginning. The first note of the bar (first 16th note) now has both a tom and ride hit. Looks good!
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: O---|----|----|----
+C: ----|----|----|----
+R: O---|----|----|----
+@@@

@@ -1,0 +1,43 @@
+Okay, let's tackle this drum groove edit. The user wants a cymbal hit and a tom in the very beginning. The original groove is:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, I need to focus on the first beat (the first four 16th notes, before the first |). The user wants a cymbal hit and a tom there. 
+
+Looking at the instruments, the cymbals available are Crash (C) and Ride (R). Since the request says "cymbal," maybe Crash is more likely for a strong hit. The tom is on line T. 
+
+In the first beat of the kick (K), there's an O on the first 16th note. To add a tom, I'll put an O on the tom's first note. For the cymbal, adding an O on the crash (C) in the first 16th note makes sense. 
+
+So, modifying the first beat for T and C:
+
+Original T line starts with "----", so changing the first character to O: T: O---|.... 
+
+Original C line is all dashes, so first character becomes O: C: O---|....
+
+Check if there are any conflicts. The kick has an O there too, but that's okay since different instruments can hit simultaneously. 
+
+So the edited lines would be:
+
+K remains the same: O---|....
+S remains: ----|....
+H remains: X---|....
+T becomes: O---|....
+C becomes: O---|....
+R stays as is since user didn't mention ride.
+
+Final check: The first beat now has Kick (O), Tom (O), Crash (O), and Hihat (X). That should fulfill the request.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

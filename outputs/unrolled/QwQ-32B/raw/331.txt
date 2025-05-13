@@ -1,0 +1,37 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the ride and snare parts from the given groove. 
+
+First, I'll look at the original groove provided. The Kick (K) line has some hits: O--O|----|--O-|----. The Snare (S) line has Oo-o, -o--, and O--o, which means there are snare hits in there. The Ride (R) line has o-O- repeated, indicating ride cymbal hits. The user doesn't want any ride or snare, so I need to clear those lines.
+
+Starting with the Snare (S) line: I'll replace all the characters except '-' with '-', so all snare hits are removed. The original S line was:
+S: ----|Oo-o|-o--|O--o
+After removing snare, it becomes:
+S: ----|----|----|----
+
+Next, the Ride (R) line has o-O-|o-O-|o-O-|o-O-. Changing all those to '-' will eliminate the ride. So R becomes:
+R: ----|----|----|----
+
+Check the other instruments: Kick (K), Hihat (H), Toms (T), and Crash (C). The user didn't mention changing these, so they stay as they are. Hihat (H) was all dashes except maybe in the original, but in this case, H is empty, so no change. Toms and Crash also have no hits, so they remain.
+
+So putting it all together, the edited groove should have S and R lines all dashes, keeping K, H, T, C as original. Let me double-check each line to ensure I didn't miss any snare or ride hits. 
+
+Original K: O--O|----|--O-|----
+Original H: (all dashes)
+Original T: (all dashes)
+Original C: (all dashes except maybe not, but in the given, C was all dashes here?)
+
+Wait, looking back at the user's provided groove:
+
+The user's given groove's C line was:
+C: ----|----|----|----
+
+So yes, no crash hits. So the final edit should have S and R lines cleared. That should fulfill the request.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

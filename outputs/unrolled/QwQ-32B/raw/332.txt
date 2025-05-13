@@ -1,0 +1,62 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any ride or snare parts from the given groove. Let me first look at the original groove provided.
+
+The original is:
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+So, the Snare (S) has some hits in the third and fourth beats. The Ride (R) is already empty, but maybe there's a chance I missed something. Wait, the user says "no ride or snare," so I need to ensure both S and R lines are cleared.
+
+Looking at the S line: There's an "O---" in the third beat and the last note of the fourth beat. I need to replace those with '-' to remove the snare hits. The R line is already all dashes, so no changes needed there. The other instruments like Kick (K), Toms (T), and Hihat (H) can stay as they are since the user didn't mention them. Let me double-check each line:
+
+- **K** remains the same because the user didn't ask to remove kick.
+- **S** needs all hits removed. The third beat has "O---", so change that to "----". The fourth beat's last note is "O", so make it "-".
+- **H** is all dashes, so no change.
+- **T** has toms playing on every beat, which is okay.
+- **C** (Crash) is empty, so that's fine.
+- **R** (Ride) is already empty.
+
+Wait, in the fourth beat of S, the original has "|O---|" for the third beat? Let me check again. The S line is: "----|----|O---|----". Wait, the third beat is "O---", so that's a snare hit on the first 16th note of the third beat. The fourth beat ends with an "O" in the fourth position? Let me parse each beat properly.
+
+Breaking down the S line:
+
+First beat: "----" → no snare.
+
+Second beat: "----" → no snare.
+
+Third beat: "O---" → there's an O (hard hit) on the first 16th note of the third beat. That needs to be removed.
+
+Fourth beat: "----" → but wait, the original line is "S: ----|----|O---|----", so the fourth beat is "----". Wait, maybe I miscounted. Let me check the structure again.
+
+Each line is divided into four beats separated by |. Each beat has four characters (16th notes). So for the S line:
+
+- Beat 1: "----"
+- Beat 2: "----"
+- Beat 3: "O---" (so the first 16th note of beat 3 has a snare hit)
+- Beat 4: "----"
+
+Therefore, to remove all snare, I need to replace the "O---" in beat 3 with "----".
+
+The R line is already all dashes, so no changes there. The rest of the instruments stay as they are. Let me reconstruct the edited version accordingly.
+
+So the new S line becomes "----|----|----|----".
+
+Double-checking the other lines to ensure nothing else is needed. The user only mentioned ride and snare, so Kick, Toms, Hihat, and Crash remain. The Toms have "O-o-" repeating, which is okay.
+
+Final check for any typos. Looks good. So the edited groove should have S and R lines cleared.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|----|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

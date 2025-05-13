@@ -1,0 +1,45 @@
+Okay, let's tackle this drum groove edit. The user provided a drum pattern and wants a kick hit and cymbal added at the very beginning. 
+
+First, I need to recall the notation rules. Each line represents an instrument, and each character is a 16th note. The first bar is divided into four beats, each with four notes. The user's request is to add a kick (K) and a cymbal (either crash C or ride R) at the start, which is the first 16th note of the first beat.
+
+Looking at the original groove:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+The kick (K) currently starts on the first beat's first note with an 'O', but the user wants something in the very first 16th note. Wait, actually, the first beat of K is "O---", so the first note is already a hard kick hit. Hmm, maybe the user wants an additional hit or a different cymbal? Wait, maybe they want a crash or ride hit along with the kick at the beginning?
+
+Wait, the original K line starts with "O---", so the first 16th note is a hard kick. But the user says "kick hit and cymbal in the very beginning", so perhaps they want a cymbal hit (either crash or ride) on that first 16th note as well. The original C and R lines are all dashes, so no cymbals. So I need to add a cymbal hit on the first note.
+
+The user might prefer crash or ride. Since the original has C as crash, maybe adding a crash there. The crash uses 'O' for hard hit. So in the C line, first character should be 'O', rest dashes. Alternatively, if they want ride, but the user mentioned "cymbal" generally. Let's go with crash since it's common for starts.
+
+So modifying the C line to "O---|..." and keeping K's first note as O. That should satisfy both a kick and crash at the start.
+
+Wait, but the user might want the cymbal to be ride instead. Let me check previous examples. In prior interactions, when the user asked for ride and hihat, they added R: O---. So maybe here, since they mention "cymbal", either is okay, but perhaps crash is more standard for an intro hit. Alternatively, maybe they want both? But the request is "a cymbal", so one is enough.
+
+So final changes:
+
+K remains the same since it already has the kick hit. Add C: O---| etc. So the edited version would be:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+Wait but the user might want the cymbal to start exactly with the kick. Since that's already covered. So this should be the correct edit.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

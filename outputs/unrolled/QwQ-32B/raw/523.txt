@@ -1,0 +1,51 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any tom or hihat parts from the given groove. 
+
+First, I'll look at the provided drum notation. The original groove has the following lines:
+
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+
+The user's request is to eliminate tom (T) and hihat (H) parts. 
+
+Starting with the Hihat (H line): The current pattern has some x's in the second and fourth beats. Since the user doesn't want hihat, I need to replace all those x's with '-' to indicate no hits. So the H line becomes all dashes.
+
+Next, the Toms (T line) is already all dashes, so no change there. But I should double-check to ensure there are no tom hits accidentally present. Yep, T is clear.
+
+Now, check other instruments to ensure they don't have any tom or hihat references. The Kick (K) and Snare (S) are fine. The Ride (R) is allowed since the request only removes tom and hihat. Wait, the user said "tom or hihat", so Ride is okay unless specified. The edit request doesn't mention Ride, so leave R as is unless the user mentioned it elsewhere. Wait, looking back at the problem statement, the user's exact request was "I don't want any tom or hihat." So Ride is acceptable unless they also want to remove cymbals, but the instruction here doesn't mention that. So Ride stays.
+
+Wait, but in the user's example edits, sometimes they remove ride when similar requests were made. Let me confirm the exact request again. The user here specifically says "tom or hihat", so only those two instruments should be silenced. Therefore, Ride remains.
+
+But looking at the given R line: "x---|X-x-|x---|X-x-". Since Ride is allowed, we leave it. However, the user might have a different intention, but based on the given instruction, proceed as per the explicit request.
+
+Wait, but in some previous examples, when the user said "no ride or hihat", the assistant removed both. But here it's "no tom or hihat", so Ride stays. Let me make sure. The user's instruction here is clear: remove tom and hihat. So proceed accordingly.
+
+So the edited groove would have H set to all '-', T remains all '-', and the rest as is. Wait, but the user might want to remove any cymbals? Wait no, the request is only tom and hihat. So Ride is okay.
+
+Wait the original problem's user input includes the R line with some hits. Since the user didn't mention Ride, we leave it. However, in the problem statement, the user's example might have similar edits where they removed other cymbals when not mentioned, but here it's specified.
+
+Therefore, the final edited groove should have H and T lines as all dashes, while keeping Kick, Snare, and Ride as they are. Let me verify each line:
+
+K: o---|--o-|o---|--o- (unchanged)  
+S: ----|X---|--X-|---- (unchanged)  
+H: ----|----|----|---- (changed from original H's x's to dashes)  
+T: ----|----|----|---- (already okay)  
+C: ---- (no crash in original)  
+R: x---|X-x-|x---|X-x- (unchanged)  
+
+Wait, but the user's instruction was to remove tom or hihat. So that's correct. However, in some previous examples, when the user said "no cymbal or tom", the assistant removed Ride and Crash. Here, since it's "tom or hihat", Ride remains. 
+
+Therefore, the final answer should be the same as the original except H is all dashes and T remains as is.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

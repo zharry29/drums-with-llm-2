@@ -1,0 +1,47 @@
+Okay, let's tackle this drum groove edit. The user wants a cymbal hit and ride in the very beginning. The original groove is:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+First, I need to understand where "the very beginning" is. That's the first 16th note of the first beat. The user mentioned both a cymbal hit and a ride. Looking at the instruments:
+
+- **C** is the Crash cymbal (O for hard hit)
+- **R** is the Ride cymbal (O is a hard bell hit, X/x are closed hits on the bow)
+
+The original R line starts with "x---", which is a soft closed hit on the first note. To add a cymbal (crash) and a ride hit at the start, I should modify the first note of the first beat for both C and R.
+
+For the crash cymbal (C), adding an "O" at the first position makes sense for a hard hit. For the ride (R), maybe changing the first "x" to an "O" to emphasize it with a bell hit. However, the user might want both a crash and ride simultaneously. Since crash is separate, adding C's O and R's O at the first note would work. Let's check the original R's first beat: "x---". Changing the first x to O gives "O-- -".
+
+Wait, but the user said "cymbal hit and ride". The crash (C) and ride (R) can both hit at the same time. So, set C's first note to O and R's first note to O. That should fulfill both parts of the request. Let me adjust the lines:
+
+C: O---|----|----|----
+R: O---|X-x-|x---|X-x- (since the first beat's first note is now O, replacing the x)
+
+Wait, the original R starts with x---, so changing the first character to O would make it O--- for the first beat. So the new R line would be O---|X-x-|x---|X-x-.
+
+Additionally, check if any other adjustments are needed. The user didn't mention changing other parts, so the rest stays the same. Let me confirm:
+
+- K (kick) remains as is.
+- S (snare) is unchanged.
+- H (hihat) stays.
+- T (toms) still empty.
+- C now has a crash on the first note.
+- R has a ride bell hit instead of closed on the first note.
+
+This should add both the crash and a strong ride hit at the beginning as requested. Let me double-check the notation rules to ensure I'm using the correct symbols. For the crash, O is correct. For ride, O is the bell hit. Yes, that's right. The rest of the R line can stay as before. Looks good!
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: O---|----|----|----  
+R: O---|X-x-|x---|X-x-  
+@@@

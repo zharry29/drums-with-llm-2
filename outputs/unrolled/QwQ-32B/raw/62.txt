@@ -1,0 +1,41 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only kick but also cymbal. Looking at the provided groove:
+
+Kick (K) is active with various hits, but the cymbals (C and R) are mostly silent except for the crash (C) which already has hits on every beat. The ride (R) is entirely silent. 
+
+The edit request specifies adding cymbals, so I need to ensure both crash and ride are present. However, the crash is already used on every beat. Maybe the user wants more cymbal activity, perhaps adding ride patterns to complement the crash. 
+
+Alternatively, maybe they want to replace some crash hits with ride or add ride hits in between. Let's check the current setup:
+
+- Crash (C) has O--- on each beat, so hard hits on the first 16th note of each beat.
+- Ride (R) is all dashes, so no activity there.
+
+To fulfill the request, adding ride cymbal hits would be the way to go. The ride can provide a steady rhythm. Since the kick and crash are already present, adding a ride pattern that doesn't clash would work. 
+
+Looking at the hihat (H), it's doing x-x- on each beat, which is a closed hi-hat on the first and third 16th notes. Maybe the ride can play on the offbeats. For example, using a common ride pattern like X-x- (hard closed on 1st, soft on 3rd, and closed on 4th?) Wait, need to check the notation rules again.
+
+From the instructions: For R (ride), O is hard open on the bell, o is soft open on the bell, X and x are hard and soft closed on the bow. So, using X and x for closed bow hits. 
+
+If I add a ride pattern like X-x- on each beat, that would complement the existing crash and kick. Let's see:
+
+Original K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: (currently empty)
+
+Adding R: X-x-|X-x-|X-x-|X-x- would give a steady ride pattern. That should add cymbal activity beyond just the crash. Alternatively, maybe alternate between O and x for variation. But the user just wants "also cymbal," so adding ride hits would suffice. 
+
+I should make sure not to conflict with existing hits. Since crash is on the first 16th of each beat, the ride's X on the first 16th might clash, but that's okay as they're different cymbals. Alternatively, offset it. But the standard approach is to have ride and crash together. 
+
+Thus, the edited groove would include the ride pattern, so the final R line would be X-x- repeated for each beat. Let me format that correctly with the bars.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: X-x-|X-x-|X-x-|X-x-
+@@@

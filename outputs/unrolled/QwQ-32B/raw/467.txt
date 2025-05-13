@@ -1,0 +1,65 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any hihat or snare from the given groove. Let me start by carefully reviewing the provided drum notation and the edit request.
+
+First, I need to recall the instruments each line represents:
+- **K**: Kick drum
+- **S**: Snare drum
+- **H**: Hihat
+- **T**: Toms
+- **C**: Crash cymbal
+- **R**: Ride cymbal
+
+The user's request is to eliminate both the **S (Snare)** and **H (Hihat)**. That means I'll need to set all their entries to '-' (no hit) while keeping the rest of the instruments as they are.
+
+Looking at the given drum groove:
+
+**Original Groove:**
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Starting with the **Snare (S)** line:  
+The S line has "----|----|S---|----". The third beat has "S---", which is a snare hit. To remove the snare, I'll replace all non-'-' characters in the S line with '-'. So the entire S line becomes "----|----|----|----".
+
+Next, the **Hihat (H)** line:  
+The H line is "x-x-|x-x-|x-x-|x-x-". Since the user wants no hihat, all those 'x' and '-' need to be replaced with '-'. So the H line becomes "----|----|----|----".
+
+Now, check the other instruments to ensure they remain unchanged:
+- **Kick (K)** stays as "-O--|OO--|---O|-OO-".
+- **Toms (T)** remain "----|----|---O|----".
+- **Crash (C)** stays "O---|O---|O---|O---".
+- **Ride (R)** is already all '-', so no change there.
+
+Wait, let me double-check the S line. The third beat had "S---". Replacing that with "----" is correct. The rest of the S line was already '-', so that's fine.
+
+H line had a pattern with 'x's. Changing all to '-' removes all hihat hits. 
+
+I should also ensure that no other lines have S or H references. The other lines are K, T, C, R, which are unaffected. 
+
+Final check for any typos or missed characters. The edited groove should look like this:
+
+**Edited Groove:**
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Yes, that looks right. All snare and hihat hits are removed, and the rest remain as per the original.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

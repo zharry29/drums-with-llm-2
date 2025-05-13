@@ -1,0 +1,70 @@
+Okay, let's tackle this drum groove edit. The user wants a hihat hit and tom in the very beginning. Let me first look at the existing groove to understand where to make the changes.
+
+The given drum groove is:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+First, the user's request is to add a hihat hit and a tom hit at the very beginning. The "very beginning" would be the first 16th note of the first beat, which is the first character in the first segment before the first |.
+
+Looking at the Hihat (H) line, it's all dashes in the first beat. So I need to place a hihat hit there. The Hihat can have O (hard open), o (soft open), X (hard closed), or x (soft closed). Since the user didn't specify the type, maybe starting with a standard closed hit, which is X or x. The existing H line has dashes, so adding an X or x on the first note. Let's pick X for a harder closed hit.
+
+Next, the Tom (T) line. The T line is all dashes. To add a tom hit, we can use O for a hard hit. Again, since it's the first note, placing an O there. 
+
+Now, check if there are any conflicts. The Kick (K) on the first note is O--, so the first character is O. So the kick is already hitting on the first 16th note. Adding the hihat and tom here should be okay, as multiple drums can be hit simultaneously. 
+
+So modifying the H line's first character to X, and the T line's first character to O. Let's see:
+
+Original H: ----|.... becomes X---|....
+Original T: ----|.... becomes O---|....
+
+Wait, but the Toms line needs to be adjusted. Each segment is four characters. So first beat's first note (position 1) would be the first character of the T line. So changing the first character from '-' to 'O', making the first segment of T: O---|....
+
+But need to ensure that the rest of the T line remains as dashes unless specified. Since the user only wants the tom in the very beginning, only the first note should have the O. The rest can stay as dashes.
+
+Similarly, the Hihat's first note is now X, so the H line's first segment becomes X---|....
+
+Let me reconstruct each line:
+
+K remains: O--O|----
+
+H becomes: X---|----
+
+T becomes: O---|----
+
+Check the other lines. The Ride (R) has o-O- in the first segment. Since the user didn't mention changing ride, leave it as is. 
+
+Putting it all together, the modified drum groove should be:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X---|----|----|----
+T: O---|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+Wait, but let me double-check the positions. The first beat's first 16th note is the first character. So:
+
+Original H line starts with "----", changing first to X gives "X---".
+
+Original T line starts with "----", changing first to O gives "O---".
+
+Yes, that should do it. The user wanted a hihat (H) and tom (T) hit at the very beginning, which is the first note of the first beat. No other changes are needed as per the request. This should fulfill the edit.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X---|----|----|----
+T: O---|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

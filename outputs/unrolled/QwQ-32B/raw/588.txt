@@ -1,0 +1,39 @@
+Alright, let's tackle this drum groove edit. The user provided a specific drum pattern and wants to remove any snare or ride elements. Let me first parse the original groove to understand what needs to be changed.
+
+Looking at the given drum groove:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+The user's request is to eliminate the snare (S line) and ride (R line). The snare has hits in the third beat of the third measure, and the ride is already empty here. So, I need to set all entries in the S and R lines to '-' to disable them.
+
+Starting with the S line: currently, in the third beat of the third measure, there's an "O---". Changing that to "----" will remove the snare hit. The rest of the S line is already empty, so that's straightforward.
+
+For the R line, it's already all dashes, so no changes needed there. 
+
+Now, I'll go through each line:
+
+- **Kick (K):** Remains unchanged since it's not part of the request.
+- **Snare (S):** All dashes.
+- **Hihat (H):** No changes as it's already silent.
+- **Toms (T):** Stays the same since the user didn't mention toms.
+- **Crash (C):** Also remains as is because the request was about snare and ride.
+- **Ride (R):** Already all dashes, so no action needed.
+
+Let me double-check to ensure I didn't miss any snare hits. The original S line had "O---" in the third measure's third beat. Changing that to "----" removes it. The rest of the S line is empty, so that's correct.
+
+Final check: The edited groove should have the snare and ride lines completely silent, while other instruments remain as per the original except where specified. Looks good. Time to format the answer as specified.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|----|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

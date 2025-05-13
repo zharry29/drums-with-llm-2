@@ -1,0 +1,35 @@
+Okay, let's tackle this drum groove edit. The user provided a drum pattern and wants to remove the kick and cymbals. Let me start by understanding the original groove.
+
+Looking at the given drum groove:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+So, the Kick (K) has hits on the first and third beats of the bar. The Snare (S) is on the second and fourth beats. The Hihat (H) is closed hits (X) on every beat. Toms (T), Crash (C), and Ride (R) are all silent.
+
+The user's request is to remove any kick or cymbal. That means we need to eliminate the Kick (K) line entirely and also check if there are any cymbals. In this case, the cymbals (C and R) are already inactive, so we just need to set K to all dashes. The snare and hihat can stay as they are since they're not being removed.
+
+Wait, let me confirm: the user said "no kick or cymbal". The hihat is part of the hi-hat, which is separate from cymbals. The cymbals here are Crash (C) and Ride (R), which are already off. So the main changes are setting K to all dashes and ensuring C and R remain off. The snare and hihat can stay.
+
+So modifying the K line to all '-' and keeping the rest as is except ensuring C and R are empty. Let me check each line:
+
+- K: All '-' → "----|----|----|----"
+- S: stays the same
+- H: stays the same
+- T, C, R: already empty except T is also silent.
+
+Yes, that should do it. Let me write the final version to make sure.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

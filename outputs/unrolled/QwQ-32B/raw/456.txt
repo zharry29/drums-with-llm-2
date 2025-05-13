@@ -1,0 +1,53 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any cymbals and hihats from the given groove. First, I need to recall which lines correspond to those instruments. 
+
+Looking at the given drum notation:
+
+- **C** is for Crash cymbal.
+- **H** is for Hihat.
+- **R** is for Ride cymbal.
+
+The user's request specifies removing cymbals (which includes crash and ride) and hihat. So I need to zero out the **C**, **H**, and **R** lines.
+
+The original groove provided is:
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Wait a second, looking at this, the Hihat (H) line is already all dashes. The Crash (C) and Ride (R) are also already empty. Hmm, maybe I misread. Let me check again.
+
+Wait the user's input shows:
+
+Original groove's H line is all dashes, C and R also. So maybe there's a mistake here. But the user still says "I don't want any cymbal or hihat". Since those lines are already empty, perhaps the user just wants confirmation. Alternatively, maybe there's an error in the provided example. 
+
+Wait perhaps I need to double-check. Let me parse the user's input again. The given groove's lines:
+
+- **K**: Kick has notes.
+- **S**: Snare has some notes.
+- **H**: Hihat is all dashes.
+- **T**: Toms have O-o- repeating.
+- **C**: Crash is all dashes.
+- **R**: Ride is all dashes.
+
+So in this case, since H, C, and R are already inactive, the edited version would be the same. But maybe the user expects to remove those lines entirely? Or perhaps there was a mistake in the original input. 
+
+Alternatively, maybe the user intended that even if those lines are empty, they should be present but empty. The instruction says "generate a new one in the above notation", so probably just set those lines to all dashes if they aren't already. Since in this case, they are already dashes, the result would be the same as the input. 
+
+Wait, but maybe the user provided an example where those lines had content but in this particular case, they don't. To be safe, I'll proceed to set H, C, R to all dashes (even if they are already), just to comply strictly with the edit request. 
+
+Thus, the final edited groove would look like this, ensuring no cymbals or hihats are present.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

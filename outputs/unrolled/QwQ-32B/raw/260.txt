@@ -1,0 +1,118 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include not only the kick but also the ride. Looking at the given groove:
+
+First, let's parse each line:
+
+- **K (Kick):** "-O--|OO--|---O|-OO-"  
+  There's definitely kick activity here, so that's covered.
+
+- **S (Snare):** "----|----|S---|----"  
+  The 'S' here might be a typo since the notation uses O, o, X, x. Maybe it's supposed to be an 'O' or 'o'? But I'll assume it's a placeholder for a snare hit. Let me check the user's edit request again—they mentioned adding ride, not snare, so maybe that's okay.
+
+- **H (Hihat):** "x-x-|x-x-|x-x-|x-x-"  
+  Hihat is present with closed hits (x).
+
+- **T (Toms):** All dashes, so no toms. But the request is about adding ride, not toms, so that's fine.
+
+- **C (Crash):** "O---|O---|O---|O---"  
+  Crash is active on the first 16th note of each beat.
+
+- **R (Ride):** All dashes. The user wants ride added here.
+
+The task is to add ride without removing the kick. The existing elements are kick, hihat, crash, and snare. Let's focus on the ride line (R). 
+
+Ride patterns often provide a steady rhythm, often on every 8th or 16th note. Since the hihat is already playing a steady x-x- pattern, the ride can complement it. Maybe using closed hits (X/x) on the ride bow to add texture without clashing. Alternatively, using the bell (O/o) for accents.
+
+Looking at the original ride line being empty, I can add a pattern. Let's go for a common 16th note ride pattern. Since the hihat is x on every other 16th, maybe alternate between X and x on the ride for variation. For example, "X-x-" repeated each beat. That would give: X-x-|X-x-|X-x-|X-x-.
+
+Alternatively, maybe start with a harder hit on the first 16th of each beat. Like "O---" but since ride uses O for bell, maybe "O---" but that might clash with crash which is also on O. Wait, crash is on the first 16th of each beat. To avoid overlap, perhaps the ride uses closed hits (X/x) on those beats. For example, first 16th note could be X (hard closed), then x (soft closed) on the next, etc. So the ride line could be "X-x-" for each beat. Let me check:
+
+Original crash is O---|O---|O---|O---, so each first 16th note of each beat has a crash. If the ride also hits on that same note, it might be too much. To avoid that, maybe the ride plays on the offbeats. For example, on the 2nd and 4th 16th notes. So for each beat "|----", the ride could be "-Xx-", but need to adjust. Let's think:
+
+Beat 1: The kick starts with "-O--" so first 16th is -, second is O (kick). The crash is on the first 16th. So maybe the ride plays on the 2nd, 3rd, 4th 16ths. Like "-Xx-". But that would leave the first 16th silent on ride, allowing the crash to stand out.
+
+Alternatively, a common pattern is to have the ride on every 8th note. Since each beat is four 16ths, two 8th notes would be first and third 16ths. So for a steady eighth note ride: X---|X--- etc., but that might be too sparse. Let's see:
+
+Alternatively, a 16th note ride pattern but offset from the crash. Let's try "X-x-" for each beat. So each beat's ride would be X on the second 16th, x on third, and dash on fourth? Wait, "X-x-" would be X on second, x on third, and dash on fourth? Not sure. Maybe "X-X-" or something else.
+
+Alternatively, to make it simple and steady, use "X-X-" for each beat. That would give a steady eighth note feel on the ride. Let's see:
+
+R: X-X-|X-X-|X-X-|X-X-
+
+But let me check the hihat is already doing x-x- so combining with ride's X-X- would create a syncopated feel. Alternatively, maybe alternate between X and x on every 16th. For example "XxXx" but that might be too busy. Alternatively "X-x-" repeated.
+
+Wait, let me structure it properly. Each beat is four characters separated by |. Let's do:
+
+For each beat, the ride plays on the first three 16ths as X, x, X, but need to avoid clashing with crash. Since crash is on the first 16th of each beat, maybe the ride starts on the second. So for beat 1: "-Xx-", beat 2 same, etc. That would give:
+
+R: -Xx-|-Xx-|-Xx-|-Xx-
+
+But let's check:
+
+First beat of K: -O-- so first 16th is -, second is O (kick). The crash is on first 16th. The ride starts on second with X (closed hit), then x on third, and dash on fourth. That could work, adding some rhythm without clashing.
+
+Alternatively, using X on the second and fourth 16ths: "-X-X". So each beat is "-X-X", leading to "-X-X|-X-X|-X-X|-X-X". That might be better for a steady eighth feel.
+
+Alternatively, let's go with "X-X-" for each beat to have a steady eighth note on the ride, but offset from the crash. Let's try:
+
+R: X-X-|X-X-|X-X-|X-X-
+
+But then on the first 16th of each beat, the ride would hit X, which is on the same time as the crash's O. Since they're different instruments (crash and ride), it's okay, but might be too much. Maybe using a softer x on the first 16th instead?
+
+Alternatively, start the ride on the second 16th. Let's try:
+
+R: -X-X|-X-X|-X-X|-X-X
+
+This way, the first 16th has no ride, letting the crash stand out, then ride on 2nd, 4th. That could work. Let me see:
+
+Each beat would have ride hits on the second and fourth 16ths. That's an eighth note pattern but starting on the second 16th. Alternatively, maybe a 16th note pattern but offset. Hmm.
+
+Alternatively, use a pattern like X-x- for each beat, so the ride plays X on the second, x on third, and nothing on fourth. That would be:
+
+R: X-x-|X-x-|X-x-|X-x-
+
+But then each beat has three hits? Not sure. Let me think of common ride patterns. A standard ride pattern might be playing on every 8th note, so for each beat (four 16ths), hits on 1 and 3. But since the crash is on 1, maybe ride on 3. So for each beat: "- -X-". Wait:
+
+First 16th: crash, second: -, third: X (on the third 16th, which is the second 8th), fourth: -. So pattern would be "- -X-".
+
+Thus for each beat: "--X-", so the ride line would be "--X-|--X-|--X-|--X-".
+
+But that might be sparse. Alternatively, combining with the hihat's x-x- pattern, maybe the ride can fill in the gaps.
+
+Alternatively, let's pick a pattern that complements the existing elements. Since the hihat is doing x on every other 16th (x-x-), the ride could play on the opposite 16ths. So if hihat is x on 1 and 3, ride could be on 2 and 4. That would create a 16th note feel. So for each beat, the ride would be "-X-X".
+
+So the ride line would be "-X-X|-X-X|-X-X|-X-X".
+
+This way, the hihat and ride together create a steady 16th note pattern without overlapping. The crash is on the first 16th of each beat, so that's okay.
+
+Let me verify:
+
+Hihat: x-x- (so hits on 1 and 3 of each beat's 16ths)
+
+Ride: -X-X (hits on 2 and 4)
+
+Combined, they cover all 16ths, providing a full rhythm. This seems good.
+
+Therefore, the ride line should be "-X-X" for each beat.
+
+Putting it all together:
+
+K: -O--|OO--|---O|-OO-  
+S: ----|----|S---|---- (assuming S is a typo, maybe O?)  
+H: x-x-|x-x-|x-x-|x-x-  
+T: ----|----|---O|----  
+C: O---|O---|O---|O---  
+R: -X-X|-X-X|-X-X|-X-X  
+
+Wait, but the original S line has "S---" which might be an error. But since the user didn't mention fixing that, I'll leave it as is. The main task is adding ride.
+
+So the final answer would have the R line as "-X-X" repeated for each beat.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: -X-X|-X-X|-X-X|-X-X
+@@@

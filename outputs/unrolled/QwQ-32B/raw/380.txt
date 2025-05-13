@@ -1,0 +1,91 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any kick or tom parts from the provided groove. First, I need to recall the instruments each line corresponds to. 
+
+Looking at the given drum notation:
+
+- **K** is Kick drum
+- **S** is Snare drum
+- **H** is Hihat
+- **T** is Toms
+- **C** is Crash cymbal
+- **R** is Ride cymbal
+
+The edit request is to remove kick (K) and tom (T) parts. So, I'll set all characters in the K and T lines to '-' since they shouldn't be played. 
+
+Let me check the original groove:
+
+**Original:**
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+```
+
+Wait, the T line is already all '-', so no change there. But the K line has some hits. So I need to replace the K line with all '-'.
+
+Also, check if there are any toms (T) that are active. In this case, T is already silent, so that's okay. The user also mentioned "no kick or tom", so confirming that T is already clear.
+
+Now, the R (ride) and C (crash) are allowed unless specified, but the user didn't mention them. Since the request is only to remove kick and toms, we leave S, H, C, R as they are.
+
+Wait, but in the original, the Hihat (H) line is all '-' except maybe in other examples. Let me check again:
+
+Original H line: all '-' except maybe in other examples? Wait, in the given example above, H is all '-' in the provided groove. 
+
+Wait the user's given groove here has:
+
+H: ----|----|----|----
+
+So H is silent. The snare (S) has some hits, but those are okay. The ride (R) has some notes, but since the user didn't mention ride, but the edit was about kick and tom, so R stays unless specified. The user's request was "no kick or tom".
+
+Therefore, the edited version should have K and T lines as all '-'.
+
+So the final should look like:
+
+K: ----|----|----|----
+S: remains the same
+H: remains the same
+T: ---- (already)
+C: remains (but in the given example, C is all '-', so okay)
+R: remains unless user says otherwise.
+
+Wait in the given example, the R line has "o-O-|o-O-|o-O-|o-O-". Since the user didn't mention ride, but the request was "no kick or tom", so R stays. So the final should be:
+
+K: all dashes
+T: already dashes
+Others as original except K and T.
+
+Wait the original T line is already all '-', so no change there. So the final answer is replacing K's line with all '-' and leaving others as is.
+
+Wait checking again the original:
+
+Original K: O--O|----|--O-|----
+So replacing that with all '-'.
+
+The H line is all '-', so stays.
+
+The R line has content, which is allowed.
+
+So the edited groove should be:
+
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+Wait but the user might have wanted to remove ride as well? Wait no, the user said "no kick or tom". So R is okay. But in the previous examples, sometimes when removing cymbals, R and C are removed. But here the user didn't mention ride or crash. So as per instructions, only K and T are removed.
+
+Therefore, the correct edited version is replacing K with all dashes, and T remains as it was (which is all dashes). So the final answer is as above.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

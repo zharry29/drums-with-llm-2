@@ -1,0 +1,53 @@
+Okay, let's tackle this drum groove edit. The user wants a tom hit and a snare in the very beginning. The original groove is:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+First, I need to look at the first beat (the first part before the first |). The kick starts with "O---", so the first 16th note is a hard kick. The user wants a tom hit here too. The toms line (T) is all dashes in the first beat. So I can add an "O" on the first 16th note of the first beat for the tom. But wait, the user also wants a snare there. The snare line (S) starts with "----", so the first beat has no snare. To add a snare hit on the first 16th note, I should replace the first "-" with an "O" since it's a hard hit.
+
+But I need to check if that's possible. Let me see the original S line: "----|O---|----|O---". So first beat is all dashes. Changing the first character to "O" would put a hard snare on the first 16th note. However, the kick is already hitting there. That might be a bit busy, but the user asked for it, so proceed.
+
+So for the first beat:
+- K remains "O---" (since the kick is already there)
+- S becomes "O---" (adding the snare on the first 16th)
+- T becomes "O---" (adding a tom hit on the first 16th)
+
+Wait, but the user said "tom hit and snare in the very beginning". The very beginning is the first 16th note. So all three (kick, snare, tom) would hit together there. That's acceptable if that's what the user wants.
+
+Now, check the rest of the groove. The rest of the snare and tom parts can stay as they are unless there's a conflict. Let me look at the rest of the measures.
+
+Original T line is all dashes except maybe later, but in the first beat, adding "O---".
+
+So the edited lines would be:
+
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+T: O---|----|----|----
+H and C/R remain the same.
+
+Wait, but the user might want only the first hit to have tom and snare. Let me confirm that the rest of the tom line can stay empty unless specified. Since the user only mentioned adding in the very beginning, the rest of the tom line can stay as it was (all dashes except maybe the first beat's tom hit).
+
+So the final edited groove should have:
+
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+T: O---|----|----|----
+H: --o-|O-o-|O-o-|O-o-
+C: O---|----|----|----
+R: ----|----|----|----
+
+Wait, but the original T line had all dashes. So in the first beat, T is O---, others are dashes. That should fulfill the request. Let me double-check. The first beat now has kick, snare, and tom all hitting on the first 16th note. That's exactly what the user asked for. The rest of the groove remains as is. I think that's it.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

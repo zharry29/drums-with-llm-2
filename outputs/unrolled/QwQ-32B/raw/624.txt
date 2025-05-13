@@ -1,0 +1,50 @@
+Okay, let's tackle this drum groove edit. The user wants a cymbal hit and a kick in the very beginning. The original groove is:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+First, I need to look at the first beat (before the first |). The Kick (K) starts with "O--O", so the first 16th note is an O (hard hit). That's good for the kick part of the request. But the user also wants a cymbal hit here. The cymbals available are Crash (C) and Ride (R). Since there's no crash or ride in the first beat, I need to add one.
+
+The user specified "cymbal hit", so either crash or ride. The original has C and R lines empty in the first beat. Let's pick Crash (C) because it's a common choice for a strong hit. So, in the first beat's first 16th note, add an O to the Crash line. That would make C: O---|... 
+
+Wait, but the original C line is all dashes. So changing the first character of C to O. Let me check the notation rules again. C uses O for hard hit. That should work.
+
+Now, the kick already has an O in the first note, so that's covered. So the edited lines would be:
+
+K remains O--O|...
+C becomes O---|----
+
+Let me check if that's all. The user said "in the very beginning", so only the first 16th note of the first beat. The rest should stay as is. Let me verify the other lines to ensure no conflicts. The Snare (S) starts with ----, so no conflict. Hihats (H) have X-x-, which is okay. Toms and Ride are still empty except where they were.
+
+Wait, but the user might want the cymbal to be a crash, which is typical for a strong start. Alternatively, maybe ride, but since Crash is more impactful, I'll stick with C. 
+
+So the final edit should have the first character of C as O, and K's first character is already O. That should fulfill both requests. Let me make sure there are no typos in the bars. Each line must have 16 characters (4 per beat, 4 beats). Let me count:
+
+Original K: "O--O|----|--O-|----" — that's 16? Let's see: Each beat is 4 chars. 4 beats: 4*4=16. Yes.
+
+For C line: "O---|----|----|----" — first beat is O---, then three more beats of ----. That's 16. 
+
+Yes, so the edited version would be:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

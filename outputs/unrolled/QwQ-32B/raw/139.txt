@@ -1,0 +1,208 @@
+Alright, let's tackle this drum groove edit. The user provided a specific drum notation and an existing groove, and the request is to add both tom and hihat parts. Wait, actually, looking at the edit request again: "The groove should have not only tom but also hihat." Hmm, but the original groove might already have one of them. Let me check.
+
+First, let me parse the given groove:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Looking at each line:
+
+- **Kick (K):** There are some hits here, like the first beat has O--O, so some kick activity.
+- **Snare (S):** The second and fourth beats have some snare hits, like Oo-o and O--o.
+- **Hihat (H):** Already has X-x- repeating every beat. So the hihat is already present with closed and open hits.
+- **Toms (T):** All dashes, meaning no tom hits.
+- **Crash (C) and Ride (R):** Also inactive.
+
+The edit request says "not only tom but also hihat." Wait, the hihat is already there. Maybe the user meant that the groove should include both toms and hihat, but since hihat is already present, the main task is to add toms. Alternatively, maybe the original had only one of them and needed both. Let me confirm again.
+
+Original groove's T line is all dashes, so no toms. The hihat is active. So the user wants to add toms (since it's missing) and ensure hihat is there (which it is). So the main edit is to add tom hits.
+
+So the task is to add tom hits without removing the existing hihat. Let me think about how to do that.
+
+First, the existing hihat has X-x- on each beat. X is a hard closed hit, x is soft closed? Wait, according to the notation:
+
+H: O is hard open, o soft open; X and x are hard and soft closed hits. So in H line: X is hard closed, x is soft closed. So the hihat is doing a pattern of hard, soft, hard, soft on each beat? Wait each segment is four characters separated by |, each is a beat. So "X-x-" would be first note hard closed, second soft closed, third -, fourth -, but actually the fourth is also -, so maybe the first two notes of each beat are hits. Wait the notation says each 4 characters are a beat, so each beat has four 16th notes. The H line here is X-x- meaning first 16th note is hard closed, second is soft closed, then rests on 3rd and 4th. That's a common hihat pattern, like on the first and second 16th notes of each beat.
+
+Now, adding toms. Toms (T) can have O (hard) or o (soft). The user probably wants a tom pattern that complements the existing kick and snare. Let's see the kick and snare:
+
+Kick (K) has hits on the first and fourth 16th notes of the first beat (O--O), then nothing on the second beat, then the third beat has --O- (third 16th note), and the fourth beat is similar to first? Wait let me parse each beat:
+
+Breaking down K line:
+
+First beat: O--O → hits on 1st and 4th 16th notes.
+
+Second beat: ---- (no kick)
+
+Third beat: --O- → hit on third 16th note
+
+Fourth beat: ---- (no kick? Wait the last part is |----, so fourth beat is ----. Wait the original K line is "O--O|----|--O-|----". So first beat: O--O, second: ----, third: --O-, fourth: ----.
+
+Snare (S) has on second beat: Oo-o (first note hard hit, second soft open, third open?), wait let me parse:
+
+Second beat (S): Oo-o → first 16th note O (hard hit), second o (soft open), third o (another soft open?), but according to the S description, O is hard, o is soft open, X/x are sidestick. So Oo-o would be hit on first, then two soft open hits? Hmm, maybe that's a specific pattern. The fourth beat has O--o: first note hard hit, then soft open on the fourth?
+
+Overall, the groove has a sparse kick and snare. To add toms, perhaps we can syncopate with the kick or add fills. Since the user wants toms, maybe place them on offbeats where there's space.
+
+Looking at the Toms line which is all dashes, we can add O's (hard) or o's (soft) in places where it complements.
+
+Let me think of a simple tom pattern. Since the kick is hitting on the first and fourth of the first beat, maybe the tom can hit on the second or third? Or on the third beat's third 16th note (where the kick is already there), but maybe a different part.
+
+Alternatively, perhaps a steady tom pattern on every beat's third 16th note, but the third beat's kick is on third, so maybe alternate.
+
+Alternatively, since the user might want toms to be present but not conflicting with kick. Let's try adding O on the third 16th note of each beat. Wait, but the third beat's kick is on third. Hmm, maybe offset.
+
+Alternatively, start with a pattern like on the second 16th note of each beat. Let's see:
+
+For each beat's T line:
+
+First beat: Let's say O on the second 16th: -O--
+
+Second beat: Maybe O on first 16th: O---
+
+Third beat: Maybe O on first 16th: O---
+
+Fourth beat: Same as first?
+
+Alternatively, let's make it a steady eighth notes. Since 16th notes, so every two 16ths. Maybe O every two 16ths, but need to fit into the bar.
+
+Alternatively, a simple pattern like ---O on each beat, so the last 16th of each beat. That would be on the "and" of the beat's fourth, but not clashing with kick.
+
+Let me try:
+
+T line: For each beat, let's do ---O. So the T line would be:
+
+---O | ---O | ---O | ---O
+
+So each beat's last 16th note has a tom hit. That would be subtle and not clash with existing parts. Let's check the existing instruments on those notes:
+
+First beat's fourth 16th: Kick has an O there. So tom and kick hit at the same time? That's okay, but maybe better to avoid. Alternatively, use a different position.
+
+Alternatively, first beat's third 16th: the first beat's third 16th is -, so tom could hit there. Let me think again.
+
+Alternatively, on beats where kick is silent. The second beat has no kick, so maybe tom on first 16th there. Let's see:
+
+First beat: maybe O on third 16th (since kick is on 1 and 4). So O at position 3: --O-
+
+Second beat: since no kick, maybe O on first 16th: O---
+
+Third beat's third 16th is where kick hits, so maybe O on first: O---
+
+Fourth beat: same as first? Maybe --O- but no kick there.
+
+Wait the fourth beat's K is ----, so no kick. So tom could be on third.
+
+This might get complicated. Maybe a consistent pattern like every beat's second 16th note.
+
+So T line: -O-- for each beat. So:
+
+T: -O--|-O--|-O--|-O--
+
+That would give a tom hit on the second 16th of each beat. Let's see if that works with existing parts.
+
+Looking at the S line (snare):
+
+First beat: S is ----, so no conflict.
+
+Second beat's second 16th: the S line's second beat is Oo-o, so second 16th is o (soft open). So tom hit on second 16th while snare has a soft open. That's okay, adds texture.
+
+Third beat's second 16th: S has -o-- (third beat's S line is "-o--"), so second 16th is -, so tom alone there.
+
+Fourth beat's S is O--o, so second 16th is -, so tom hit there.
+
+This seems okay. Alternatively, maybe use a mix of O and o for dynamics, but since the user didn't specify, just using O for hard hits is fine.
+
+Alternatively, maybe a more active tom pattern. Let's try:
+
+For each beat, O on the first and third 16th notes: O-O- 
+
+So T line: O-O-|O-O-|O-O-|O-O-
+
+But check conflicts. First beat's first 16th is O (tom) and kick has O there. That's okay, but might be too much. Alternatively, skip first 16th where kick is present.
+
+Alternatively, for the first beat (which has kick on 1 and 4), maybe tom on 2 and 3: -OO- 
+
+So first beat's T: -OO- 
+
+Second beat (no kick): O-O- 
+
+Third beat (kick on 3): maybe --O- 
+
+Fourth beat (no kick): O-O- 
+
+This is getting complex. Maybe start with a simple pattern that's consistent and doesn't clash.
+
+Alternatively, use the same pattern as the hihat but on toms. The hihat is X-x- (first and second 16ths hit). So tom could be on the third or fourth. Let's do ---O on each beat (last 16th). So:
+
+T: ---O|---O|---O|---O 
+
+This way, the tom hits on the last 16th of each beat. Let's see:
+
+First beat's fourth 16th: kick also has O there. So tom and kick together. That's okay, but maybe the user wants them separate. Alternatively, use ---o (soft) there.
+
+Alternatively, on the third 16th: --O- 
+
+So T: --O-|--O-|--O-|--O- 
+
+First beat's third 16th is -, so tom there, while kick is on 1 and 4. That's good. Second beat (no kick) has tom on third, which is fine. Third beat's kick is on third, so tom and kick hit together. Hmm, that's a conflict. Maybe adjust third beat's tom to first 16th.
+
+Alternatively, make it --O- for all except third beat where it's ---O ?
+
+This is getting too fiddly. Maybe the simplest is to have a steady tom on every third 16th, except where kick is present. Alternatively, just go with a simple pattern that's consistent, even if there's a clash, since the user just wants toms added.
+
+Let me go with the first idea of ---O on each beat. Even if first and third beats have kick on the fourth, it's acceptable. It adds a tom hit on the last 16th of each beat. Let's see:
+
+T: ---O|---O|---O|---O 
+
+So each beat's last 16th note has a tom hit. That should fulfill the requirement of adding toms. The hihat is already present, so the edit is done.
+
+Wait, but the user's edit request says "not only tom but also hihat". Since hihat is already there, maybe the original had no hihat and needed both? Let me check again the original groove provided:
+
+The given groove's H line is X-x-|X-x-|X-x-|X-x- so hihat is present. Therefore, the user wants to add tom (since it's missing) and ensure hihat is there (which it is). So just adding toms.
+
+Thus, adding the tom pattern as above. Alternatively, maybe a more active tom pattern. Let me think of another approach. Since the kick is sparse, toms can fill in.
+
+Alternatively, on beats where kick is not present (second and fourth beats), add tom hits on the downbeats. For example:
+
+Second beat's T line: O---
+
+Fourth beat's T line: O---
+
+So:
+
+T: ----|O---|----|O---
+
+But that only adds two hits. Maybe more consistent.
+
+Alternatively, on the third 16th note of each beat except where kick is present. Let's see:
+
+First beat: third 16th is -, so O there: --O-
+
+Second beat: third 16th: --O-
+
+Third beat's third 16th has kick, so maybe first 16th: O---
+
+Fourth beat: third 16th: --O-
+
+So T line would be:
+
+--O- | O--- | ---O (since third beat's kick is on third, maybe do --O- but then clash? Hmm.
+
+This is getting too time-consuming. Let's go with the simple ---O pattern for all beats. That's straightforward and adds tom hits without too much conflict. So the final T line would be:
+
+T: ---O|---O|---O|---O 
+
+Therefore, the edited groove would have Toms added like that, keeping the hihat as is.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ---O|---O|---O|---O
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

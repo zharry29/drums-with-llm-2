@@ -1,0 +1,31 @@
+Alright, so the user has provided a drum groove and wants me to edit it according to their request. Let me first understand what they're asking for. They have a drum groove with both ride and snare, but they want to remove the ride and keep the snare. 
+
+Looking at the provided groove, I see that the ride cymbal is present in the R line, and the snare drum is in the S line. My task is to remove the ride cymbal hits while keeping the snare drum's pattern intact.
+
+I'll start by identifying the ride cymbal hits in the R line. In the given groove, the R line is "x---|X-x-|x---|X-x-". To remove the ride, I'll set all its characters to "-", which means no hits. 
+
+Next, I'll ensure the snare drum (S line) remains unchanged. The S line is "----|----|----|----", which is already silent, so I'll keep it as is. 
+
+I'll also check the other instruments to ensure they remain unchanged unless specified. The kick (K), hihat (H), toms (T), and crash cymbal (C) should stay the same since the user only wants to remove the ride cymbal.
+
+Finally, I'll construct the new groove with the ride cymbal removed and the snare drum as requested. This way, the rhythm focuses solely on the snare and other unchanged instruments, fulfilling the user's edit request.
+</think>
+
+```
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+This groove now features:
+- **Kick Drum (K):** Silent as per the original groove.
+- **Snare Drum (S):** Silent as per the edit request.
+- **Hihat (H):** Maintained with soft closed hits ("x") on beats 2 and 4.
+- **Toms (T):** Silent as per the original groove.
+- **Crash Cymbal (C):** Silent as per the edit request.
+- **Ride Cymbal (R):** Removed by setting all characters to "-".
+
+This arrangement creates a minimalist rhythm focused solely on the hihat without any kick, snare, or cymbal hits.

@@ -1,0 +1,118 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only kick but also snare. Looking at the given groove:
+
+**Original Groove:**
+```
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+First, the kick (K) is already present with hits on the first, second, and fourth beats. The snare (S) only has a hit on the third beat's first 16th note. The edit request is to ensure there's snare in addition to kick. Since the snare is already there but maybe not as prominently, I need to enhance it.
+
+The current snare line is `----|----|O---|----`, meaning it only hits on the third beat's first 16th note. To add more snare, I should place hits on typical snare positions, usually on the 2nd and 4th beats of the measure. Let's see:
+
+- The kick is on beats 1, 2, and 4. To create a standard backbeat, snare often hits on beats 2 and 4. Let's add an O (hard hit) on beat 2 and 4 for the snare. Also, the third beat's snare is already there but maybe too sparse. Maybe add a second hit on the third beat as well.
+
+Looking at the structure:
+
+Original S line: `----|----|O---|----`
+
+Breaking it down per beat (each beat is 4 characters):
+1. `----`
+2. `----`
+3. `O---`
+4. `----`
+
+To add more snare, let's modify it to have hits on beat 2 and 4. Let's try:
+
+- Beat 2: `O---` (hard hit on first 16th of beat 2)
+- Beat 4: `O---` (same as beat 3)
+- Keep the third beat's snare but maybe add another hit? Alternatively, spread it out.
+
+Alternatively, maybe a common rock pattern with snare on 2 and 4. Let's set:
+
+S: `----|O---|O---|O---`
+
+But need to check if that's too much. Alternatively, maybe:
+
+S: `----|O---|O---|O---` but that would have snare on every beat. Maybe better to have on 2 and 4.
+
+Wait, beat 3's first 16th is already a snare. Let me think again.
+
+Alternatively, adjust to:
+
+S: `----|O---|O---|O---` but that would place snare on beats 2, 3, and 4. Maybe that's okay. Alternatively, on beats 2 and 4:
+
+S: `----|O---|----|O---`
+
+But the original has a snare on beat 3, so combining both:
+
+S: `----|O---|O---|O---` (snare on beats 2, 3, and 4). That might be acceptable, but perhaps too dense. Alternatively, maybe on beats 2 and 4, and leave beat 3 as is?
+
+Wait, the original third beat has a single snare hit. Let's see:
+
+Original third beat: `O---` (hit on first 16th of beat 3). If we add a snare on beat 2 and 4, that would make it more balanced. So:
+
+S: `----|O---|O---|O---`
+
+But that adds snare on every beat except the first. Alternatively, maybe on beats 2 and 4 only, replacing the third beat's snare? Let me think about standard patterns. Maybe a backbeat with snare on 2 and 4, and the third beat's snare is okay.
+
+Alternatively, perhaps the user just wants the snare to be present more than it currently is. Since it's only on beat 3, adding on beats 2 and 4 would fulfill the request. Let's proceed with that.
+
+So modifying the S line to have hits on beats 2 and 4:
+
+New S line: `----|O---|O---|O---`
+
+Wait, but the original third beat's snare is in the third position. Let me write it step by step.
+
+Breaking the S line into beats:
+
+Original:
+Beat 1: `----`
+Beat 2: `----`
+Beat 3: `O---`
+Beat 4: `----`
+
+New:
+Beat 1: `----` (no change)
+Beat 2: `O---` (add snare hit)
+Beat 3: `O---` (keep existing)
+Beat 4: `O---` (add snare hit)
+
+So the new S line would be `----|O---|O---|O---`.
+
+Alternatively, maybe on the 4th 16th note of the beat for a different feel, but since the kick is already on those beats, a snare on the first 16th of 2 and 4 would work.
+
+Let me check if the Toms (T) and others are okay. The Toms have O-o- repeating, which is fine. The user didn't mention modifying those, so leave them as is.
+
+So the edited groove would be:
+
+```
+K: O---|O---|----|O---
+S: ----|O---|O---|O---
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Wait, but in the original K line, the fourth beat is `O---`, so the kick is on the first 16th of beat 4. Adding a snare there as well would create a strong hit on beat 4. That should work.
+
+Alternatively, maybe the user wants the snare to complement the kick without overlapping too much, but since the kick and snare are different instruments, it's okay.
+
+Another consideration: the original groove's S line only had one snare hit. The edit request is to have "not only kick but also snare," so as long as there's snare presence beyond the existing minimal, this should be okay.
+
+Therefore, the final edited groove should have the S line updated as above.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|O---|O---|O---
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

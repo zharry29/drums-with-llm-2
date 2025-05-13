@@ -1,0 +1,36 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any tom or snare parts from the given groove. Let me first look at the original groove provided.
+
+Starting with the Kick (K line): "O---|O---|----|O---". That looks fine since it's just kick hits. The Snare (S) line has "----|----|O---|----", so I need to replace those O's with dashes. The Toms (T) line is "O-o-|O-o-|O-o-|O-o-", which I need to clear out by replacing all non-dash characters with dashes. The other lines (H, C, R) don't have any active hits except maybe the Hihat, but the user didn't mention removing those. Let me double-check the instructions again: "I don't want any tom or snare." So only S and T lines need to be modified. 
+
+Wait, the Hihat (H) is okay unless specified, so leave that as is. Crash (C) and Ride (R) are also okay unless mentioned. Let me go through each line:
+
+Original K: O---|O---|----|O--- → stays since it's kick, and user didn't mention kick removal.
+Original S: ----|----|O---|---- → change the O--- in the third beat to ----.
+Original T: O-o-|O-o-|O-o-|O-o- → all dashes now.
+H, C, R remain as they are unless they have toms or snares, but they don't. 
+
+Wait, the user might have other elements, but according to the request, only tom and snare are to be removed. Let me confirm each line:
+
+- K: Keep as is.
+- S: Remove all snare hits (the O in the third beat).
+- T: Remove all toms.
+- H, C, R: Leave unless they have parts, but in the given groove, H is all dashes except maybe not? Wait, looking back at the original:
+
+Wait, the user's given groove's H line is "----|----|----|----", so no hits there. So after editing, the S and T lines will be all dashes except where they were already. Let me write that out:
+
+Final K: O---|O---|----|O---
+Final S: ----|----|----|----
+Final T: ----|----|----|----
+H, C, R remain as they are (all dashes except maybe others, but in this case, they are all dashes). Wait, looking back, the original T line was "O-o-|O-o-|O-o-|O-o-", so changing that to all dashes. The rest are okay. 
+
+I think that's all. Let me check again to ensure no snare or tom hits remain. Yep, S and T lines are cleared. The kick remains, and other instruments are untouched as per the request.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,43 @@
+Alright, let's tackle this drum groove edit. The user wants a hihat hit and tom in the very beginning. 
+
+First, looking at the original groove:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+The user's request is to add a hihat hit and a tom hit at the start. The "very beginning" refers to the first 16th note of the bar, which is the first character in the first beat (before the first |).
+
+Starting with the hihat (H line). The original H line has all dashes in the first beat. To add a hit there, I need to choose between O, o, X, or x. Since the user didn't specify the type, but the default for hihats might be a closed hit (X or x). Since the existing H line is empty, maybe starting with a closed hit (X) for a crisp sound. So the first character of H becomes X, making the first beat X---
+
+For the tom (T line), the original T line already has O-o- in the first beat. The first note is a hard hit (O). Since the user wants a tom in the beginning, that's already there. Wait, but maybe they want an additional tom or to ensure it's present. The existing T line does have a tom hit on the first note, so maybe that's okay. But perhaps the user wants both hihat and tom added where they weren't before. Since H was all dashes, adding the hihat is necessary. The tom is already present, so maybe that's fine. 
+
+Wait, the user might want both elements added where they weren't before. Let me confirm. The original T line does have a tom hit in the first 16th note (O), so that's already there. The hihat was silent, so adding X there. 
+
+Therefore, the edited lines would be:
+
+H: X---|----|----|----
+T remains the same: O-o-|O-o-|O-o-|O-o-
+
+Wait, but the user might want the tom to be specifically in the beginning. Since it's already there, maybe that's okay. 
+
+But let me check the user's exact words: "I'd like a hihat hit and tom in the very beginning." So both need to be added. Since the tom is already present, maybe that's okay. But perhaps the user wants an additional tom? Or maybe the existing tom is sufficient. Since the user might just want to ensure both are present, the existing T line is okay. 
+
+So the final edit would add X to the H line's first note. 
+
+Wait, but looking at the T line, in the first beat it's O-o-, so the first hit is a hard tom. The user might be okay with that. 
+
+Thus, the final groove should have H's first note as X and keep T as is.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: X---|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

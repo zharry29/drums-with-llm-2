@@ -1,0 +1,28 @@
+Okay, let's tackle this edit request. The user provided a drum groove and wants to remove the hihat and kick parts. Let me start by understanding the current groove structure.
+
+First, I'll look at each line in the given drum notation. The K line (Kick drum) has some hits like O--O and --O-, so I need to clear all those out. The H line (Hihat) is already empty except for some dashes, but maybe there are some notes I missed. Wait, in the given groove, the H line is all dashes, so maybe it's already clear. But the user still says to remove hihat, so I should double-check.
+
+The user's request is to remove both hihat and kick. So, I need to set all characters in the K and H lines to '-'.
+
+Looking at the S (Snare), T (Toms), C (Crash), and R (Ride) lines, they should stay as they are unless they have hihat or kick elements, but those are separate lines. Let me go through each line one by one.
+
+Original K line: "O--O|----|--O-|----" → becomes "----|----|----|----"
+Original H line: "----|----|----|----" → stays the same, but maybe the user wants to ensure it's clear, so same as before.
+S line: "----|Oo-o|-o--|O--o" → remains unchanged.
+T line is already all dashes.
+C line is dashes.
+R line: "o-O-|o-O-|o-O-|o-O-" → stays unless part of hihat or kick, which it isn't.
+
+Wait, the user might have a typo, but according to the request, only remove hihat and kick. So, the final should have K and H lines all dashes. Let me confirm each part again.
+
+Yes, that's correct. So replacing all K's hits with '-', and H is already clear. The rest stay. Let me write that out.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

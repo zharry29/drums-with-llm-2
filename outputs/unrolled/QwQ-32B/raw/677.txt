@@ -1,0 +1,32 @@
+Okay, let's tackle this drum groove edit. The user wants a cymbal hit and a tom in the very beginning. The original groove is:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@
+
+First, I need to understand the structure. Each line represents an instrument, and each character is a 16th note. The first part (before the first |) is the first beat. The user wants both a cymbal (either crash or ride?) and a tom hit at the very start, which is the first 16th note of the bar.
+
+Looking at the existing C (crash) line: it's O--- in the first beat. That means the crash is hit on the first 16th note already. But the user might want an additional cymbal or maybe the ride instead? Wait, the ride is currently all dashes. The request says "cymbal hit", which could be crash or ride. Since the crash is already there, maybe they want a ride instead? Or maybe both? Let me check the previous edits. In prior examples, when adding a cymbal, sometimes they kept the existing and added another. But the user might just want to ensure there's a cymbal hit in the beginning, which is already present on crash. But maybe they want a different cymbal, like ride? Or perhaps they want a tom as well.
+
+The tom line (T) is all dashes. The user wants a tom hit in the beginning. So in the first beat's first 16th note (the first character of the T line), I should add an O (hard hit) or o (soft). Since the user didn't specify, defaulting to O for a hard hit makes sense.
+
+Wait, the existing crash is already hitting the first 16th note. The user might be okay with that, but wants a tom added. So the main change is adding a tom hit at the start. Let me confirm the request again: "I'd like a cymbal hit and tom in the very beginning." Since the crash is already there, maybe they just want the tom added. Alternatively, maybe they want a ride instead of crash? But the crash is part of the existing pattern, so perhaps it's better to keep it and add the tom. 
+
+So, for the tom (T line), first character becomes O, making it O--- for the first beat. The crash remains O---, so both are hit at the start. That should fulfill the request. Let me check the notation rules: T uses O for hard hit. So the edited T line would be T: O---|----|----|----
+
+Therefore, the final groove should have T's first character as O, keeping the rest as is.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: O---|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

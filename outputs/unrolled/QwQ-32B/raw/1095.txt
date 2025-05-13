@@ -1,0 +1,57 @@
+Okay, let me tackle this problem step by step. The user has provided a drum groove in the specified notation and wants me to replace the hihat (H) with toms (T). First, I need to understand the original groove structure.
+
+Looking at the given groove:
+
+K: O---|----|O---|----  
+S: ----|O---|----|O---  
+H: X---|X---|X---|X---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----
+
+The hihat (H) is active on every 16th note, using closed hits (X) on all beats. The toms (T) are completely silent. The task is to replace the hihat's pattern with toms. 
+
+First, I need to decide how to translate the hihat's role into toms. Since the hihat is providing a steady closed hit on every 16th note, replacing that with toms might mean using a tom pattern that maintains a similar rhythmic drive but with the tom's deeper sound. However, toms are usually hit less frequently and in a more accented manner compared to hihats. But since the user explicitly wants to replace the hihat with toms, I'll need to transfer the same rhythmic pattern to the toms.
+
+The original hihat line is "X---|X---|X---|X---" across four beats (since each | separates beats, and each beat has four 16th notes). Wait, actually, looking at the notation, each line is divided into four beats, each with four characters (16th notes). So the H line here has "X---" for the first beat, meaning the first 16th note is a closed hit (X), and the next three are silent. Then the second beat is "X---", so again the first 16th note of the second beat is X, etc. Wait, actually, the H line as written is "X---|X---|X---|X---", which would mean on each beat, only the first 16th note is played (X), and the rest are silent. That's a common hihat pattern for a steady quarter note pulse (since each beat has four 16th notes, so the first 16th of each beat is hit). 
+
+To replace the hihat with toms, I need to apply the same pattern to the toms. So wherever there was an X on the hihat, we'll put an O (hard hit) on the toms, perhaps. But toms can also have softer hits (o), but since the original was a hard closed hit (X on hihat), maybe using O for toms would be appropriate.
+
+So the T line should be "O---|O---|O---|O---", and the H line should be all dashes (since we're replacing it). But wait, the user might want the toms to take over the same exact rhythmic role. Let me check the instruments' articulations again.
+
+For Toms (T), the articulations are: O is a hard hit, o is a soft hit. Since the original hihat used X (hard closed hit), translating that to a hard tom hit (O) makes sense. 
+
+Therefore, the edited groove should have the T line as "O---|O---|O---|O---", and the H line becomes all dashes. Let me verify the original groove's H line:
+
+Original H: X---|X---|X---|X--- (so every first 16th note of each beat is X). 
+
+So replacing that with T: O---|O---|O---|O--- and H: ----|----|----|----
+
+Wait, but maybe the user wants more than just replacing the exact hits? Like, perhaps using toms in a way that's more typical? But the instruction says "replace the hihat with toms", so the direct approach is to take the hihat's note positions and apply them to toms. 
+
+Alternatively, maybe the user wants the toms to play the same rhythm but perhaps with a different articulation or pattern. But since the instruction is straightforward, I'll proceed with the direct substitution. 
+
+Thus, the final edited groove would have:
+
+K: O---|----|O---|----  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: O---|O---|O---|O---  
+C: ----|----|----|----  
+R: ----|----|----|----
+
+But I should double-check the notation rules. Each line must have 16 characters (4 beats × 4 notes). The H line now has four "----" which is correct. The T line has four "O---" which is also correct. 
+
+Wait, another thought: the original hihat was using X (closed hit). The tom's O is a hard hit. Since the hihat's X is a closed hit (hard), the tom's O is appropriate. There's no need for a closed/open distinction on toms, so O is the right choice here. 
+
+Therefore, this should fulfill the request.
+</think>
+
+@@@
+K: O---|----|O---|----  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: O---|O---|O---|O---  
+C: ----|----|----|----  
+R: ----|----|----|----
+@@@

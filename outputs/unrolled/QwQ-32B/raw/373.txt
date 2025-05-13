@@ -1,0 +1,48 @@
+Okay, let me tackle this drum groove edit. The user provided a specific drum notation and wants me to remove any tom or ride elements from the given groove. 
+
+First, I need to recall the instruments each line corresponds to:
+- K: Kick drum
+- S: Snare drum
+- H: Hihat
+- T: Toms
+- C: Crash cymbal
+- R: Ride cymbal
+
+The user's edit request is to exclude "tom or ride," so I need to set the T (Toms) and R (Ride cymbal) lines to all '-' characters. Let me check the original groove provided:
+
+Original Groove:
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Looking at this, the Toms (T) line already has all '-' in each beat. The Ride (R) is also all '-'. Wait, but maybe I need to confirm if there are any existing hits in T or R. In this case, T and R lines are already empty. However, the user might have intended to remove any potential toms or ride even if they weren't present. 
+
+Wait a second, maybe I misread. Let me check again. The given T line is all dashes, so no toms are being played. The R line is also dashes. So perhaps the user's request is already satisfied here. But maybe there's a mistake in the original input. Let me confirm the user's input again.
+
+Wait, the user's given groove might have had some toms or ride before, but in the current input, they are already cleared. Let me recheck the user's input:
+
+Looking at the user's provided drum groove between @@@:
+Yes, T and R lines are all dashes. So perhaps the user wants to ensure that even if there were any, they are removed. Since they are already gone, the edited version remains the same. But maybe the user expects an empty T and R regardless. 
+
+Alternatively, maybe I missed something. Let me check again. The user's edit request is to remove any tom or ride. Since T and R are already empty, the answer would just be the same as the original, but with T and R lines cleared again. 
+
+Alternatively, perhaps in the original input, there were some hits in T or R that I didn't see. Let me triple-check. The user's input shows T: all dashes, R: all dashes. So the answer would be the same as the original, but perhaps the user wants to make sure. 
+
+Therefore, the edited groove should keep K, S, H as they are, and set T and R to all '-'.
+
+So the final answer should be the same as the original, except ensuring T and R are dashes. Since they already are, the output is the same. But maybe the user expects that even if there were, so I'll proceed to present that.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,29 @@
+Alright, let's tackle this drum groove edit. The user wants a kick hit and cymbal in the very beginning. Let me look at the current groove first.
+
+The existing K (Kick) line starts with "O--O|...", so the first 16th note is already a hard kick hit. Wait, the first character is 'O', which is a hard hit. But the user is asking for a kick hit in the very beginning, so maybe they want an additional one or maybe it's already there. Hmm, maybe they want a cymbal too. 
+
+Looking at the C (Crash) and R (Ride) lines, both are all dashes in the first beat except the Crash has some hits later. The user probably wants a crash or ride hit at the start. Since the first beat's first 16th note is already a kick, adding a crash (C) or ride (R) on that same note would fulfill the request. 
+
+The user mentioned "cymbal", which could be either crash or ride. The original groove has crashes (C) in other parts, but not in the first beat. Let's check the existing C line: it's all dashes in the first beat. So adding a crash hit there makes sense. 
+
+So, changing the first character of the C line from '-' to 'O' (hard crash) on the first 16th note. That way, the first note has both kick and crash. Alternatively, if they wanted ride, but since the ride line is also dashes, maybe crash is better for a strong start. 
+
+Let me verify the notation rules again. For Crash, 'O' is a hard hit. So updating the C line's first character to 'O' would work. The user didn't specify which cymbal, so choosing crash as a common choice for accents. 
+
+Therefore, the edited lines would be:
+
+K remains the same since it already has a kick. 
+
+C: O---|... instead of ----|...
+
+That should do it. Let me make sure no other changes are needed. The user didn't mention altering other parts, so keeping the rest as is.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

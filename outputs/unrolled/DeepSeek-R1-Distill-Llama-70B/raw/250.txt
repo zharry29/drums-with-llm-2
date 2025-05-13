@@ -1,0 +1,29 @@
+Okay, so I need to help the user edit their drum groove to include both hihat and tom. Let me start by understanding the original groove and the edit request.
+
+The original groove has the following instruments:
+- **K (Kick Drum):** O---|----|O---|----
+- **S (Snare Drum):** ----|O---|----|O---
+- **H (Hihat):** X---|X---|X---|X---
+- **T (Toms):** ----|----|----|----
+- **C (Crash Cymbal):** ----|----|----|----
+- **R (Ride Cymbal):** ----|----|----|----
+
+The user wants to add both hihat and tom to the groove. 
+
+First, I'll look at the hihat part. It's already present with "X---|X---|X---|X---", which is a steady 16th-note pattern. Since the user wants to emphasize the hihat, I'll keep this part as it is because it's already contributing a solid rhythm.
+
+Next, the tom part is currently empty. To add the tom, I'll need to decide where to place the hits. Toms are often used to add flavor and accents, so I'll add soft hits ('o') on the off-beats to complement the kick and snare. This will add movement without overpowering the other instruments.
+
+So, I'll update the Toms line to "o---|o---|o---|o---". This means a soft hit on the first 16th note of each beat, creating a subtle underlying rhythm.
+
+Putting it all together, the final groove will have the hihat maintaining its steady pattern and the toms adding their soft hits to enhance the rhythm section.
+</think>
+
+@@@
+K: O---|----|O---|---- 
+S: ----|O---|----|O--- 
+H: X---|X---|X---|X--- 
+T: o---|o---|o---|o--- 
+C: ----|----|----|---- 
+R: ----|----|----|---- 
+@@@

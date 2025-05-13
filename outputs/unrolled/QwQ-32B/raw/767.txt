@@ -1,0 +1,55 @@
+Okay, let me tackle this drum groove edit. The user wants a snare hit and a tom in the very beginning. 
+
+First, I need to look at the original groove provided. Let me parse each line:
+
+**Kick (K):** O--O|----|--O-|----
+This starts with "O--O" in the first beat. So the first 16th note is a hard kick hit (O), then three rests. 
+
+**Snare (S):** ----|Oo-o|-o--|O--o
+The snare starts with four rests in the first beat. The first hit is in the second beat with "Oo-o".
+
+**Toms (T):** All rests. No hits here initially.
+
+**Ride (R):** o-O-|o-O-|o-O-|o-O-
+The ride has a pattern but no hits in the very first 16th note.
+
+The user wants a snare and tom hit at the very beginning. The first 16th note is the first position of the first beat. Currently, the kick has an O there, but snare and toms are silent.
+
+To add a snare hit at the very first 16th note, I need to change the first character of the S line from '-' to 'O' (hard hit). Also, for the tom, the first character of the T line should be 'O' since it's a hard hit.
+
+Let me check the notation rules again:
+- S: O is a hard hit.
+- T: O is a hard hit.
+
+So modifying the first character of S and T to O. The rest of their lines can stay as is unless overlapping, but since they were rests, it's okay.
+
+Let me adjust each line:
+
+**K remains the same** since the kick is already hitting first, but the user didn't mention changing kick, just adding snare and tom.
+
+**S line:** Change first '-' to 'O', so first beat becomes "O---" instead of "----".
+
+**T line:** First beat's first character becomes 'O', so T line starts with "O---|...".
+
+Check if this doesn't conflict with other instruments. The kick has an O in first position, so having a snare and tom there might be a bit busy, but the user specifically asked for it. 
+
+Let me verify the resulting lines:
+
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o  
+T: O---|----|----|----  
+R remains same.
+
+Yes, that should do it. The first 16th note now has Kick, Snare, and Tom all hitting hard. But wait, the user said "snare and tom", so maybe just those? But the kick is already there. Maybe that's okay unless the user wanted to remove the kick, but the request says "in addition". 
+
+The edit request is to add snare and tom, so the kick can stay. The user didn't mention removing anything else, so this should be correct.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: O---|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

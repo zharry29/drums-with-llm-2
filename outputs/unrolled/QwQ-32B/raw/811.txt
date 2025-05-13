@@ -1,0 +1,26 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and ride in the very beginning. The original groove is:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+First, the "very beginning" refers to the first 16th note of the bar. Let's look at each instrument.
+
+The Snare (S) line starts with "----", so adding a snare hit there. The user specified "snare hit", so using 'O' for a hard hit. So the first character of S becomes 'O', making it "O---|...".
+
+For the Ride (R), the first part is "x---". The user wants a ride hit. The existing 'x' is a soft closed hit on the bow. But maybe they want a bell hit? The notation says 'O' is hard on the bell. Since it's the beginning, a strong hit might be better. So changing the first 'x' to 'O', making R start with "O---|...".
+
+Check other instruments: Kick (K) already has a soft hit 'o' on the first note. Hihat (H) has nothing in the first beat. Toms and Crash are silent. So adding the S and R hits as specified. Let me verify the notation rules again to ensure correctness. Snare 'O' is a hard hit, Ride 'O' is bell. That should meet the request. Let's put it all together.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: O---|X---|--X-|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: O---|X-x-|x---|X-x-  
+@@@

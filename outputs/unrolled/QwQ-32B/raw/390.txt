@@ -1,0 +1,60 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any snare or hihat parts from the given groove. First, I need to recall the notation rules to make sure I don't make mistakes. 
+
+Looking at the original drum groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+The user's request is to eliminate the snare (S) and hihat (H) parts. 
+
+Starting with the Snare (S line):  
+The S line has hits on the second and fourth beats. Specifically, in the second beat it's "O---" and the fourth beat "O---". To remove these, I'll replace those characters with '-' to indicate no hit. So the S line should become all dashes: "----|----|----|----".
+
+For the Hihat (H line):  
+The H line is already all dashes, so no changes needed there. But since the user mentioned removing hihat, just confirming that it's already empty. 
+
+Now, check other lines to ensure they stay as they are unless affected. The Kick (K) and Crash (C) are to remain unless instructed otherwise. The user didn't mention Ride (R), so leave it as is. 
+
+Wait, the user said "no snare or hihat", so only S and H lines should be cleared. 
+
+Double-check each line:
+
+- **K (Kick):** Remains unchanged because it's allowed.  
+- **S (Snare):** Change all non-dash characters to dashes.  
+- **H (Hihat):** Already all dashes, so no action.  
+- **T (Toms):** Already empty, so no change.  
+- **C (Crash):** Stays as per user's request (they didn't mention crashes).  
+- **R (Ride):** Also stays unless told otherwise.  
+
+Wait, the user's request was "I don't want any snare or hihat." So only S and H are to be removed. The other instruments (Kick, Toms, Crash, Ride) remain as they are. 
+
+Looking at the original S line again:  
+Original S: "----|O---|----|O---"  
+After removing snare, it should be "----|----|----|----".
+
+The H line is already empty. 
+
+So the final edited groove should have S and H lines all dashes. Let me write that out:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|----|----|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+I think that's it. Just need to present this in the required format between the @@@.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

@@ -1,0 +1,32 @@
+Okay, so I need to edit this drum groove based on the user's request. Let's start by understanding what they want. The user said, "I don't want hihat on beat 4 but everything else is fine." 
+
+First, I'll look at the given drum groove to see where the hihat (H line) is playing. The current H line is:
+
+H: ----|----|----|----
+
+Hmm, wait, that means the hihat isn't playing on any beats right now. All the characters are dashes. So if the user is asking to remove the hihat on beat 4, but there's nothing there already, maybe there's a mistake? Let me check again.
+
+Looking at the provided drum groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+Yes, the H line is entirely dashes. That means the hihat isn't active in any part of the bar. So removing it from beat 4 doesn't change anything because it's already not present. 
+
+But the user might have intended that maybe there was a hihat part that wasn't shown, or perhaps there was a typo in their request. However, based strictly on the provided notation, since there's no hihat playing anywhere, the edit won't affect the output. 
+
+Therefore, the edited groove remains the same as the original. But to comply with the user's instruction, I'll present the same drum groove again between the @@@ markers, ensuring that the H line stays as all dashes, confirming that beat 4 (and all other beats) have no hihat.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

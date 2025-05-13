@@ -1,0 +1,55 @@
+Okay, so I have this drum groove that I need to edit. The user has given me a specific drum pattern and wants me to remove the hihat and tom parts. Let me break this down step by step.
+
+First, I need to understand the original drum groove. The user provided the notation, which includes each drum part: Kick, Snare, Hihat, Tom, Crash, and Ride. Each of these is represented on separate lines, and each character corresponds to a 16th note. The lines are divided by |, and each segment between | is a beat. So, four segments make up the bar, each containing four 16th notes.
+
+Looking at the original groove:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+I can see that the Hihat (H) and Tom (T) lines have notes, which the user wants to remove. So, my task is to edit these lines to have no hihat or tom sounds.
+
+Starting with the Hihat line: H: --o-|O-o-|O-o-|O-o-. This means that on the first beat, there's an open hihat, and on the subsequent beats, an open hihat as well. Since the user doesn't want any hihat, I need to remove all the notes in the H line. That means each segment will be filled with dashes instead of the hihat notes.
+
+So, the new H line becomes: H: ----|----|----|----.
+
+Next, the Tom line: T: ----|----|----|----. It seems like the Toms are already not played, as all segments are dashes. But just to be thorough, I'll leave it as is since there are no tom sounds to remove.
+
+Now, I need to ensure that the rest of the drum parts are correctly represented. The Kick, Snare, Crash, and Ride lines should remain unchanged unless they are affected by the removal of hihat or tom. Since the user only mentioned removing hihat and tom, I don't need to alter these other parts.
+
+Let me reconstruct the entire drum groove with the necessary changes:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+Wait, I think I might have missed something. The user's original edit request was to remove ride or snare, but in this case, the edit request was to remove hihat or tom. So, I should double-check that I'm only removing the hihat and tom parts.
+
+Looking back, the H line had hihat notes, so I removed them. The T line had tom notes, but in the original, it was all dashes, so I didn't need to change it. Maybe the user meant to remove any hihat or tom, so perhaps the T line had some notes in another groove, but in this case, it's already empty.
+
+I should also ensure that the rest of the groove makes sense. The Kick line has O--- on the first beat, which is a hard hit, followed by ---o, which is a soft hit on the third note. Then O-O on the fourth beat, which is a hard hit, and then a dash, which might mean a pause or a different rhythm.
+
+The Snare line has O--- on the first beat, which is a hard hit, then ---- on the second beat, a rest, then O--- on the third beat, and O--- on the fourth beat, which is a hard hit.
+
+Crash and Ride lines are also present but don't have any notes except for the Ride line, which has X--- on the first beat, indicating a ride cymbal hit, and then dashes.
+
+After making these changes, I need to present the final groove within @@@ as per the user's instruction. I'll make sure to format it correctly, keeping the structure intact.
+
+I think I've covered all necessary steps: identifying which lines to edit, removing the unwanted notes, and ensuring the rest of the groove remains consistent. Now, I'll present the edited drum groove.
+</think>
+
+@@@  
+K: O---|---o|O-O-|----  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|----|----|----  
+R: x---|----|----|----  
+@@@

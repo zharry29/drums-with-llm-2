@@ -1,0 +1,41 @@
+Okay, let me tackle this drum groove edit. The user wants a kick hit and a tom in the very beginning. Let me start by understanding the original groove.
+
+Looking at the given drum notation:
+
+**Kick (K):** O--O|----|--O-|----
+**Snare (S):** ----|Oo-o|-o--|O--o
+**Hihat (H):** ----|----|----|----
+**Toms (T):** ----|----|----|----
+**Crash (C):** ----|----|----|----
+**Ride (R):** o-O-|o-O-|o-O-|o-O-
+
+The first beat (before the first |) is the first four 16th notes. The user wants a kick and tom hit at the very start, which is the first 16th note of the bar. 
+
+Currently, the kick starts with an "O" on the first 16th note of the first beat. Wait, actually, looking at K's first segment: "O--O". That's the first beat (four 16th notes). The first character is "O", so the kick is already hitting on the first 16th note. Hmm, but the user might want an additional tom hit there. The tom line (T) is all dashes, so no tom hits yet. 
+
+So the request is to add a tom hit along with the existing kick hit at the very beginning. Since the kick is already hitting on the first 16th note, we just need to add a tom hit there. The tom's notation uses "O" for hard hit. So on the first character of the Toms line, change the "-" to "O".
+
+Let me check the other elements. The hihat is silent in the first beat, so that's okay. The ride has "o-O-" starting, but that's fine unless the user wants to change that, but the request doesn't mention ride. 
+
+So the edited lines would be:
+
+**K:** remains the same since kick is already there.  
+**T:** starts with "O---" to add a tom hit on the first 16th note. 
+
+Wait, let me confirm the positions. The first beat for Toms is currently "----", so changing the first character to "O" gives "O---". That's correct. 
+
+Double-checking the user's request: "kick hit and tom in the very beginning". Since the kick is already there, adding the tom on the first 16th note fulfills the request. 
+
+I think that's all. No other changes needed unless I missed something. Let me make sure there are no typos in the notation. Each line should have 16 characters (including the | separators). Let me count for Toms line after change: "O---|----|----|----" which is 16 characters (4 per beat, 4 beats). Yes. 
+
+Alright, that should do it.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: O---|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

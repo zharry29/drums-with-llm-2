@@ -1,0 +1,64 @@
+Okay, let's see. The user provided a drum groove and wants a snare hit and cymbal added in the very beginning. The original groove is:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+The request is to add a snare hit and cymbal at the start. The first beat is four 16th notes, so the very beginning is the first 16th note of the first beat. 
+
+First, I need to decide where exactly to place the snare and cymbal. Since it's the very beginning, that's the first 16th note of the first beat. 
+
+For the snare (S line), currently the first beat is all dashes. To add a hit there, I'll use 'O' for a hard hit. So the first character of S's first segment becomes 'O'.
+
+For the cymbal, the user might want either crash (C) or ride (R). Since the existing R line has some activity, maybe adding a crash on the first note would be better. The C line is all dashes, so placing an 'O' there as the first character.
+
+But wait, the original R line already has a 'x' on the first note. If adding a crash (C) might clash, but since the user specified "cymbal", perhaps crash is better for a strong start. Alternatively, maybe ride? But the user said "cymbal", so crash is more likely. Let me check the notation again.
+
+The crash (C) uses O for hard hits, so adding C: O--- would put a crash on the first note. The ride (R) already has a 'x', so maybe leave that as is. Alternatively, maybe the user wants ride instead, but since they mentioned "cymbal", crash is a separate instrument. So adding C: O--- makes sense.
+
+So modifying the S and C lines for the first beat:
+
+Original S line starts with "----", changing to "O---".
+
+Original C line starts with "----", changing to "O---".
+
+Check if that's allowed. The other lines like Hihat (H) already have some hits, but adding the snare and crash on the first note should be okay. Let me verify the notation rules again to make sure.
+
+Snare: O is a hard hit. That's correct. Crash: O is a hard hit. Correct. 
+
+So the edited lines would be:
+
+S: O---|X---|--X-|----
+C: O---|----|----|----
+
+Wait, but the original S line's second segment is "X---", so the first beat is now "O---", the second remains "X---", etc. That should be okay.
+
+Let me check the other lines. The R line's first segment is "x---", so the first note is a closed hit on the ride. Adding a crash (C) at the same time might create a combined hit, which is acceptable for a strong start.
+
+So the final groove should have:
+
+K: o---|--o-|o---|--o-
+S: O---|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+
+Wait, but in the original, the R's first segment is "x---", so the first note is an X (hard closed hit). Adding a crash on the same note is okay, as they're different cymbals. The user might want that combined sound.
+
+Alternatively, maybe the user prefers the crash only, so removing the ride hit? But the request was to add a cymbal (probably crash) and snare. Since the ride is part of the existing pattern, maybe leave it as is. The user didn't mention removing anything, just adding.
+
+Yes, that's the way to go. So the final answer should reflect those changes.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: O---|X---|--X-|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: O---|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

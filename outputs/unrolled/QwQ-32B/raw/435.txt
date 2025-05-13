@@ -1,0 +1,28 @@
+Okay, I need to edit this drum groove based on the user's request to remove any kick or ride. Let me first look at the given drum groove to see where those instruments are playing.
+
+Starting with the Kick (K line): The K line has several hits like "-O--|OO--|---O|-OO-". Since the user wants no kick, I'll replace all those characters with dashes.
+
+Next, the Ride (R line): The R line is all dashes in the original, so there's nothing to remove there. Wait, actually checking the original input, the R line is "----|----|----|----", so it's already empty. The user probably just wants to ensure that even if there were any, they are removed, but in this case, it's already clear.
+
+Now, check other instruments to make sure they're okay. The Snare (S) has some hits on the third beat. The Toms (T) have a hit on the third beat as well. The Hihat (H) is active throughout, and the Crash (C) has crashes on every beat. Since the user only wants to remove kick and ride, those other parts should stay as they are.
+
+Wait a second, the user said "I don't want any kick or ride". So Kick (K) and Ride (R) should be all dashes. Let me confirm each line:
+
+- K: Replace all with "----|----|----|----"
+- S remains as "----|----|S---|----"
+- H stays "x-x-|x-x-|x-x-|x-x-"
+- T is "----|----|---O|----"
+- C remains "O---|O---|O---|O---"
+- R is already "----|----|----|----", so no change there.
+
+Wait, the original R line was already all dashes, so that's fine. Just making sure I didn't miss any kick hits. The user's edit only affects K and R. So the final groove should have K and R lines empty, others as before.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

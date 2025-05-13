@@ -1,0 +1,39 @@
+Okay, let me tackle this drum groove edit. The user wants to remove the hihat and tom parts. Let me look at the original groove first.
+
+The given groove is:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+So the Kick (K) and Snare (S) are already present. The Hihat (H) has X's in every beat, and Toms (T) are empty. The user says "I don't want any hihat or tom," so I need to eliminate those lines.
+
+First, I'll set the Hihat line (H) to all '-' since they don't want it. The Toms (T) are already all '-', so maybe they are okay, but just to be safe, I'll check. The edit request is to remove hihat and tom, so Toms are already inactive, so no change there. 
+
+Wait, the user might also want to ensure that any other instruments like Crash (C) or Ride (R) are kept unless specified. In this case, C and R are already empty except for K and S. The user didn't mention those, so leave them as is except for H and T.
+
+So the edited version should have H set to all '-' and T remains as all '-'. Let me write that out:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, the original T line was already all '-', so no change there. Just the H line was active. So that's all. Let me double-check the user's request again: remove hihat (H) and tom (T). Since T was already silent, only H needs to be turned off. That's done by replacing all X's with '-' in the H line.
+
+Yes, that should be the correct edit.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

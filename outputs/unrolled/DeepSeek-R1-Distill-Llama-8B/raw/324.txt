@@ -1,0 +1,44 @@
+Alright, so I need to edit this drum groove based on the user's request. The user provided a drum notation and a specific drum groove, and then gave an edit request. Let me go through this step by step.
+
+First, I need to understand the drum notation. Each line represents an instrument: Kick drum (K), Snare drum (S), Hihat (H), Toms (T), Crash cymbal (C), and Ride cymbal (R). Each character in the lines represents a 16th note, and each four characters separated by | make a beat. There are 16 notes in total, not counting the |, which make up 4 beats per bar.
+
+Now, looking at the given drum groove:
+
+@@@  
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@
+
+The user's edit request is: "I don't want any ride or snare." So, I need to remove any parts related to the Ride cymbal (R) and Snare drum (S). 
+
+Looking at each instrument line:
+
+- **Kick drum (K)**: It's currently set to "o---|--o-|o---|--o-". This seems to be a pattern of soft hits. Since the user didn't mention anything about the kick drum, I'll leave it as is unless I misinterpret something later.
+
+- **Snare drum (S)**: The current line is "----|X---|--X-|----". The user wants no snare, so I need to remove the X's and replace them with dashes. So, it becomes "----|----|----|----".
+
+- **Hihat (H)**: The current line is "----|x---|----|x---". The user didn't specify anything about the hihat, so I'll leave it as is.
+
+- **Toms (T)**: It's currently "----|----|----|----", so no changes needed here.
+
+- **Crash cymbal (C)**: Also currently "----|----|----|----", so no changes.
+
+- **Ride cymbal (R)**: The current line is "x---|X-x-|x---|X-x-". The user wants no ride, so I'll replace the X's with dashes. It becomes "----|----|----|----".
+
+Putting it all together, the edited groove should have the Snare and Ride lines completely removed (replaced with dashes), while the Kick, Hihat, Toms, and Crash cymbal remain as they are.
+
+I should double-check to ensure that only the specified instruments are modified. No changes are needed for Kick, Hihat, Toms, and Crash cymbal. The final edited groove should look clean, with only the necessary instruments present.
+</think>
+
+@@@  
+K: o---|--o-|o---|--o-  
+S: ----|----|----|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

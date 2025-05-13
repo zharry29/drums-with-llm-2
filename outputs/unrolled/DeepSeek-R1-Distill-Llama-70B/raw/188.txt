@@ -1,0 +1,33 @@
+Okay, I need to help the user edit their drum groove to include both ride and tom elements. Let me first understand the problem.
+
+The user provided a drum groove that's pretty minimal. The kick, snare, crash, and toms are mostly silent, and the hihat has some activity. The ride cymbal is already being used, which is good. The task is to add tom hits to this groove.
+
+Looking at the original groove:
+- **K:** All dashes, so no kick drum.
+- **S:** All dashes, so no snare.
+- **H:** Has some 'x' symbols, indicating soft closed hits on the hihat.
+- **T:** All dashes, so no tom hits.
+- **C:** All dashes, so no crash.
+- **R:** Alternates between 'x' and 'X', showing a mix of soft and hard closed hits on the ride.
+
+The edit request is to have "not only ride but also tom." So, I need to add tom hits without removing the ride cymbal elements.
+
+I'll start by identifying where to place the tom hits. Toms are often used to add flavor and rhythm, so I'll place them on off-beat positions to add interest. I'll use 'O' for hard hits on the tom to make them stand out.
+
+I'll add a tom hit in the third position of the first beat and another in the first position of the fourth beat. This should complement the ride cymbal without overpowering it.
+
+I'll leave the ride cymbal pattern as is since it's already providing a steady rhythm. The hihat can remain unchanged to keep the groove smooth.
+
+Finally, I'll ensure that the rest of the instruments stay the same unless necessary. Since the user didn't mention other changes, I'll keep kick, snare, and crash silent.
+
+Now, I'll construct the new groove with the added tom hits and present it to the user.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|O---
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

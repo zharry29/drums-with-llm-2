@@ -1,0 +1,50 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any kick or hihat parts. Let me first look at the original groove provided.
+
+Starting with the Kick (K) line: "O---|O---|----|O---". Since the user doesn't want any kick, I need to replace all the O's and any other hits here with dashes. So the K line becomes all dashes: "----|----|----|----".
+
+Next, the Snare (S) line is "----|----|O---|----". The user didn't mention snare, so I should leave that as is unless there's a conflict. Wait, the request was only to remove kick and hihat, so snare stays. But let me check again. The user said "I don't want any kick or hihat," so snare is okay. So S remains unchanged.
+
+The Hihat (H) line is all dashes except maybe? Wait, looking at the original given groove here: "H: ----|----|----|----". Oh, actually in the provided example, H is already silent. Wait, let me check the user's input again. The user's given groove's H line is all dashes, so removing hihat here would just keep it as is. But maybe I need to confirm. The user might have meant to remove any hihat, so even if it's already silent, we can leave it as dashes.
+
+Toms (T) are "O-o-|O-o-|O-o-|O-o-". Since the user didn't mention toms, those stay.
+
+Crash (C) and Ride (R) are already silent, so no changes there.
+
+Wait, the user's edit request is to remove kick and hihat. The original K line has O's, so replacing those with dashes. The H line is already all dashes, so no change. The rest of the instruments (S, T, C, R) stay as they are unless they're part of what's to be removed. Since the user didn't mention snare, toms, crash, or ride, they should remain. 
+
+Wait, but in the S line, there's an O--- in the third beat. Let me make sure that's allowed. The user's instruction was only to remove kick (K) and hihat (H), so the snare can stay. So the final edited groove should have K and H lines as all dashes, others as original.
+
+So putting it all together:
+
+K: all dashes
+S: unchanged
+H: all dashes (already)
+T: unchanged
+C: unchanged
+R: unchanged
+
+Let me double-check each line:
+
+Original K: O---|O---|----|O---
+After edit: ----|----|----|----
+
+Original S: ----|----|O---|----
+Kept as is.
+
+Original H: all dashes, so no change.
+
+Toms stay the same.
+
+Crash and Ride are already silent, so no change.
+
+Yes, that should do it.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

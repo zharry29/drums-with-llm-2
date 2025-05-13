@@ -1,0 +1,82 @@
+Okay, let's tackle this drum groove edit. The user wants to avoid having the snare on the downbeats of counts 2 and 4. 
+
+First, I'll look at the original groove provided:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+The snare (S line) is only playing on the third beat of the third measure (|S---|). But the user mentioned avoiding downbeats on 2 and 4. Wait, maybe I need to check where the snare is placed. Let me parse each beat:
+
+The bar is divided into four beats separated by |. Each beat has four 16th notes.
+
+Looking at the S line:
+- First beat: ---- (no snare)
+- Second beat: ---- (no snare)
+- Third beat: S--- (snare on the first 16th note of the third beat, which is the downbeat of beat 3)
+- Fourth beat: ---- (no snare)
+
+Hmm, the user's request might be about avoiding snare on the 2nd and 4th beats' downbeats. But in the original, the snare is only on beat 3. Maybe the user is referring to the entire bar's structure? Let me double-check the counts.
+
+In a 4/4 bar with 16th notes, the downbeats are the first 16th note of each beat. So beats 1, 2, 3, 4 each have their downbeats. The original snare is on the downbeat of beat 3. The user wants to avoid snare on the downbeats of 2 and 4, but in the original, those positions are already empty. Wait, perhaps the user's request is to move the existing snare from beat 3's downbeat to another position, or maybe there was a misunderstanding?
+
+Alternatively, maybe the user's example had snares on beats 2 and 4, but in this case, they don't. Let me re-examine the given S line again:
+
+S: ----|----|S---|----
+
+So the snare is only on the third beat's first 16th note. The user's instruction might be to avoid snares on the downbeats of beats 2 and 4. Since they aren't there, maybe the user wants to ensure that if there were any, they're removed. But perhaps the user intended that the snare shouldn't be on the downbeats of any beats, so moving the snare from beat 3's downbeat to an offbeat?
+
+Alternatively, maybe the user wants to redistribute the snare hits. Let me think of possible edits.
+
+The current snare is on the downbeat of beat 3. To comply, perhaps moving it to an offbeat, like the "&" of the third beat. For example, changing S--- to -S-- (so the snare is on the second 16th note of beat 3). That way, it's not on the downbeat. Also, check if there are any other snare hits on beats 2 or 4. Since there aren't, maybe that's sufficient. 
+
+Alternatively, maybe the user wants to add snares elsewhere but not on the downbeats. Since the current S line only has one hit, perhaps moving that hit to an offbeat. Let me adjust that.
+
+So the edited S line would be:
+
+S: ----|----|-S--|----
+
+But looking at the original, the third beat's S is at the start, so changing to -S-- would place it on the "and" of beat 3. That should avoid the downbeat. 
+
+Wait, let me confirm the positions:
+
+Each beat's 16th notes are positions 1, 2, 3, 4. The first 16th is the downbeat. So beat 3's first 16th is the downbeat of beat 3, so moving it to the second 16th (position 2) would be the "&".
+
+Alternatively, maybe the user wants to remove the snare from beat 3's downbeat and add it elsewhere but not on beats 2 or 4. Alternatively, maybe the user's request was a general instruction, so even if there's no snare on 2 and 4, ensuring that if any were present, they are removed. Since in the given groove there isn't, but perhaps the user wants to adjust the existing snare to not be on a downbeat.
+
+So the main change would be moving the snare hit from the downbeat of beat 3 to an offbeat. Let's do that. 
+
+Therefore, the edited S line would be:
+
+S: ----|----|-S--|----
+
+But I need to check if that's allowed. The user's instruction is to avoid snare on the downbeats of 2 and 4. The current snare is on beat 3's downbeat, which isn't part of 2 or 4. Wait, maybe the user's instruction was a general "avoid snare on downbeats of any beats", but that's unclear. Since the user's example in the problem might have had snares on 2 and 4, but in this case, they don't. Perhaps the user wants to ensure that even the existing snare isn't on a downbeat. 
+
+Alternatively, maybe there's a mistake in the problem, and the original S line actually has snares on 2 and 4. Let me check again:
+
+Original S line: S: ----|----|S---|----
+
+No, it's only on beat 3. So perhaps the user's instruction is to remove that as well? Or maybe they want to spread the snare hits to other positions. Alternatively, maybe the user wants to have the snare not on any downbeats, so moving it to an offbeat.
+
+Proceeding with moving the snare from the downbeat of beat 3 to an offbeat, like the "&", so changing S--- to -S--. 
+
+Thus, the new S line would be:
+
+S: ----|----|-S--|----
+
+Additionally, check the other lines to ensure no other snares are present. The other parts are okay. 
+
+So the final groove would have the S line adjusted as above. Let me write that out.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-  
+S: ----|----|-S--|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: ----|----|---O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

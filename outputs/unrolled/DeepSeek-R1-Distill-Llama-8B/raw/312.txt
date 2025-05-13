@@ -1,0 +1,55 @@
+Okay, so I need to edit this drum groove. The user wants the groove to have not only snare but also cymbal. Let me look at the original groove first.
+
+The original groove is:
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+So, the Kick drum (K) is using o and |, which I think are soft hits. The Snare drum (S) is using X and |, which are hard and soft sidestick hits. The Hihat (H) is using x and |, which are soft closed hits. The Tom (T) and Crash cymbal (C) are not playing anything, and the Ride cymbal (R) is using X and x, which are hard and soft closed hits on the bow.
+
+The user wants to add cymbal. So, I need to modify either the Cymbal parts or the Ride cymbal to include cymbal sounds. Wait, the Ride cymbal is already using X and x, which are closed hits. Maybe I should add more cymbal articulations.
+
+Looking at the notation, each instrument line has 16 characters, separated by | into four beats. Each character represents a note. So, for the Cymbal (C), it's currently all dashes, meaning no cymbal. I can add some O's and o's to represent cymbal hits.
+
+Similarly, for the Ride cymbal (R), it's using X and x, which are already closed hits. Maybe I can add some O's and o's to include open hits as well.
+
+Let me plan the changes:
+
+1. For the Crash cymbal (C), I'll add O's and o's in some beats to represent cymbal hits. Maybe on the first and third beats.
+
+2. For the Ride cymbal (R), I'll add O's and o's on the second and fourth beats to include both open and closed hits.
+
+So, the edited C line would look like O---|O---|----|---O, using O for hard hits and o for soft ones.
+
+The R line would be x---|---O|---x|---O, adding O's for open hard hits and x's for closed soft hits.
+
+Wait, but in the original R line, it's x---|X-x-|x---|X-x-. So, X is a hard closed hit, and x is a soft closed hit. Maybe I can replace some X's with O's to add open hits.
+
+Alternatively, maybe I should add both O and X for different types of hits.
+
+Let me try:
+
+C: O---|O---|----|---O
+
+R: x---|O---|x---|O---
+
+This way, the Cymbal has O's for hard open hits and the Ride cymbal has O's for open hits and x's for closed hits.
+
+Wait, but the user said the groove should have not only snare but also cymbal. So, the main change is adding cymbal to the C and R lines.
+
+I think that's a good approach. Let me apply these changes and make sure everything else remains consistent.
+</think>
+
+@@@  
+K: o---|--o-|o---|--o-  
+S: X---|X---|---X|---X  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: O---|O---|----|---O  
+R: x---|O---|x---|O---  
+@@@

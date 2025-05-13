@@ -1,0 +1,78 @@
+Okay, let me tackle this drum groove edit. The user wants a tom hit and a kick in the very beginning. Let's look at the original groove first.
+
+The given groove is:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So the first beat (before the first |) for Kick (K) is "o---". The user wants a kick and tom hit at the very beginning, which is the first 16th note of the bar. 
+
+First, the kick. The existing first note is a soft hit (o). To add a kick hit at the very start, maybe we can make it a hard hit (O) instead. That would make the first character of the K line's first beat an "O".
+
+Next, the tom (T). The T line is all dashes in the first beat. To add a tom hit on the first 16th note, we need to put an "O" there since it's a hard hit. So the first character of the T line's first beat would be "O".
+
+Wait, but the user said "tom hit and kick in the very beginning". So both instruments should hit the first 16th note. Let me check the Toms (T) line. Originally, it's all dashes in the first beat. So changing the first character to "O" would add a hard tom hit there. 
+
+So modifying the K and T lines:
+
+Original K first beat: o---
+Change to O--- (hard kick on first note).
+
+Original T first beat: ----
+Change to O--- (hard tom on first note).
+
+But let me check the user's previous edits to see if there's a pattern. Looking back at previous examples, when adding a kick and another hit, like in the first example where they added a snare and ride, they just added the O for kick and the respective instrument. 
+
+Wait, but in the user's previous edits, for instance, when adding a snare and ride in the beginning, they set the S line's first character to O and R's first to O. So following that pattern, here, adding kick (K) and tom (T) both on the first note would require changing their first characters to O.
+
+So the new K line's first beat becomes O---, and T's first beat becomes O---. 
+
+Let me check if that's correct. The user's request is to have both a tom hit and kick at the very beginning (the first 16th note). So yes, that's exactly what those changes do.
+
+Now, let me ensure that the rest of the groove remains as per the original, except for the first note of K and T. 
+
+So the new K line would be:
+
+K: O---|--o-|o---|--o-  
+(Note: The original second beat of K was |--o-, so keeping that same.)
+
+The T line becomes:
+
+T: O---|----|----|----
+
+Wait, the original T line was all dashes, so the first beat is now O---, then the rest remain ---- for the other beats.
+
+The rest of the lines (S, H, C, R) stay the same unless needed. The user didn't mention changing anything else, so we leave them as is.
+
+Wait, but let me double-check. The user might not want to disrupt the existing hits. For example, in the K line, originally the first note was a soft hit (o). Changing it to a hard hit (O) is okay as per the request. The tom was not present before, so adding the tom hit is necessary.
+
+Therefore, the final edited groove should have the K's first note as O and T's first note as O. Let me write that out:
+
+K: O---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: O---|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+Wait, but in the T line, after the first beat, the user's original had all dashes. So yes, that's correct.
+
+Wait, but in the original T line, the entire bar was all dashes. So changing only the first beat's first note to O and the rest remain dashes. 
+
+Yes, that should do it. Let me make sure there are no other changes. The user only asked for the very beginning, so the first 16th note of the bar (the first character of each line's first beat). 
+
+So the final answer should reflect that. I think that's it.
+</think>
+
+@@@
+K: O---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: O---|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

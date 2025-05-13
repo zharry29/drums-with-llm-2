@@ -1,0 +1,75 @@
+Alright, so I need to help this user edit their drum groove based on their request. Let me see what they've provided.
+
+First, the user provided a drum notation system with different instruments like Kick drum (K), Snare drum (S), Hihat (H), Toms (T), Crash cymbal (C), and Ride cymbal (R). Each line in the bar represents an instrument, and each character within those lines denotes whether the note is played or not, along with how it's played (hard or soft, open or closed hits, etc.).
+
+The user's current drum groove is:
+
+@@@  
+K: O---|O---|----|O---  
+S: ----|----|O---|----  
+H: ----|----|----|----  
+T: O-o-|O-o-|O-o-|O-o-  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@
+
+And the edit request is: "I don't want any ride or snare." So, that means the user wants to remove any parts related to the Ride cymbal (R) and Snare drum (S).
+
+Looking at the current groove, the S line has some notation in the second beat: "----|----|O---|----". Wait, actually, in the provided example, the S line has "----|----|O---|----". But according to the user's edit request, they don't want any snare, so I should remove the S line entirely.
+
+Similarly, the R line is entirely empty except for the headers, so removing the R line makes sense too.
+
+Now, I need to check if the other instruments are affected. The K line seems fine, just kick drum parts. H line is Hihat, which is okay. T line is Toms, which is okay. C line is Crash cymbal, which is okay. So, I can leave those as they are.
+
+So, the new groove should include only K, H, T, and C lines, with S and R lines removed.
+
+Let me reconstruct the bar without S and R.
+
+Original structure:
+
+K: ...  
+S: ...  
+H: ...  
+T: ...  
+C: ...  
+R: ...  
+
+So, the new structure will be:
+
+K: ...  
+H: ...  
+T: ...  
+C: ...  
+
+Each line corresponds to the instrument, so I'll keep the headers and the content for K, H, T, C, and remove S and R lines.
+
+Looking at the user's previous examples, the H line was represented as "----|----|----|----" which means no hits in each beat. Since the user didn't specify any changes for H, I'll keep it as is.
+
+Similarly, T line was "O-o-|O-o-|O-o-|O-o-", which is fine to keep.
+
+C line was "----|----|----|----", so that's also fine.
+
+So, the final edited groove should only have K, H, T, and C lines, with S and R removed.
+
+Let me write that out properly, ensuring that each line starts and ends correctly with the same number of characters and correct separators.
+
+I need to make sure that each line has the same number of beats and that the | separators are correctly placed.
+
+So, the edited bar will look like this:
+
+@@@  
+K: O---|O---|----|O---  
+H: ----|----|----|----  
+T: O-o-|O-o-|O-o-|O-o-  
+C: ----|----|----|----  
+@@@
+
+That should fulfill the user's request by removing the snare and ride elements, leaving only the kick, hihat, toms, and crash cymbal.
+</think>
+
+@@@  
+K: O---|O---|----|O---  
+H: ----|----|----|----  
+T: O-o-|O-o-|O-o-|O-o-  
+C: ----|----|----|----  
+@@@

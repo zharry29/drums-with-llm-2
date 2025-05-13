@@ -1,0 +1,58 @@
+Okay, let's see. The user wants me to edit a drum groove by removing any snare or cymbal parts. The original groove is given here, and I need to make sure that after the edit, neither the snare (S line) nor any cymbals (C and R lines) have any notes.
+
+First, I'll look at the original drum notation provided. Let me parse each line:
+
+Starting with the Kick drum (K):
+K: o---|--o-|o---|--o-
+This line has some soft hits (o) and rests (-). Since the user didn't mention removing kick, this stays as is.
+
+Snare (S):
+S: ----|X---|--X-|----
+Here, there are X and x hits. Since the request is to remove snare, I need to replace all non '-' characters in the S line with '-'.
+
+Hihat (H):
+H: ----|x---|----|x---
+The user didn't mention hihat, so it stays unless specified. Since the edit is about snare and cymbals, hihat can remain. Wait, but the user said "no snare or cymbal". Hihat is separate from cymbals? Let me check the instruments list. The H line is Hihat, which is part of the drum set but not a cymbal. The cymbals are C (Crash) and R (Ride). So Hihat is okay to keep unless specified otherwise. The user didn't mention hihat, so I should leave it as is unless the instruction implies removing all non-kick. But the instruction says "no snare or cymbal", so hihat is allowed. Wait, but let me check the edit request again. The user wrote, "I don't want any snare or cymbal." Cymbals include crash (C) and ride (R). The hihat is a separate category, so it's okay.
+
+Now the Toms (T) are all dashes, so no change needed.
+
+Crash cymbal (C):
+C: ----|----|----|----
+It's already empty, so no action here.
+
+Ride cymbal (R):
+R: x---|X-x-|x---|X-x-
+This line has x and X, which are closed hits on the bow. Since ride is a cymbal, all these need to be replaced with '-'.
+
+So the steps are:
+
+1. Set all characters in the S line to '-'.
+2. Set all characters in the C and R lines to '-'.
+
+Let me verify each line:
+
+Original S line:
+S: ----|X---|--X-|----
+After edit:
+S: ----|----|----|----
+
+Original R line:
+R: x---|X-x-|x---|X-x-
+After edit:
+R: ----|----|----|----
+
+Other lines remain as they are. Hihat stays because it's not a cymbal. The kick and toms are unaffected.
+
+Wait, the user might have intended to remove all cymbals (both crash and ride) which I did. The snare is also removed. So the final groove should have K, H, and T lines as original, S, C, R all dashes.
+
+Yes, that should meet the edit request. Let me double-check the notation rules to make sure I didn't miss anything. The S line uses X and x, which are sidestick hits, but since the user said no snare, those are removed. The R line's X and x are closed hits on the ride bow, so those are cymbals and removed. Crash is already empty. So the final version should be correct.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

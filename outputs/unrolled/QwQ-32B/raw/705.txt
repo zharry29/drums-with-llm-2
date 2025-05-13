@@ -1,0 +1,47 @@
+Okay, let me tackle this drum groove edit. The user wants a cymbal hit and hihat in the very beginning. The original groove is:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, I need to focus on the first 16th note of the first beat (the first character in each line). The user mentioned adding a cymbal hit and hihat here. 
+
+Looking at the cymbal options, there are Crash (C) and Ride (R). Since the user didn't specify which cymbal, Crash is a common choice for the beginning. So, I'll add an 'O' on the Crash cymbal in the first position. 
+
+For the hihat, the current pattern starts with 'X' on the second 16th note of the first beat. But the user wants it in the very beginning. The hihat's 'X' is a closed hit. So, changing the first character of H to 'X' would place it there. 
+
+Wait, checking the Hihat's notation: X/x are closed hits. The original starts with X---, so the first hit is on the second 16th note. To move it to the first, I need to adjust the first character to 'X' instead of '-'? Wait, no. Wait the H line is currently X---|X--- etc. Wait the first beat is X---, so first note is X. Wait, the user wants hihat in the beginning, which is already there. Wait, maybe I misread. Let me check again.
+
+Original H line: H: X---|X---|X---|X---. That means the hihat is closed on the first 16th note of each beat. So the first note of the first beat is already an X. So maybe the user wants that, but also a cymbal hit there. So the hihat is already present. But maybe they wanted to add both cymbal and hihat on the first note? Let me confirm.
+
+The request says "a cymbal hit and hihat in the very beginning." Since the hihat is already on the first note, perhaps they just want to ensure it's there and add the cymbal. So the main change is adding the crash on the first note. 
+
+So, in the C line, first character should be 'O' instead of '-'. The rest can stay as per the original except for the first note of C. Let me check the Toms and others to ensure no conflicts. Since Toms and Ride are silent, adding Crash there is okay. 
+
+Wait, the user might also want the hihat to be present. Since it's already there, that's covered. So the final edit would be:
+
+C: O---|----|----|----
+
+So putting it all together:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+That should fulfill the request by adding a crash hit on the first note and keeping the hihat's existing start.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,65 @@
+Okay, so I need to edit this drum groove based on the user's request. The user said, "I don't want any hihat or cymbal." Let me start by understanding what instruments are present in the given groove and which ones need to be removed.
+
+First, looking at the original drum groove provided:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+Breaking this down line by line:
+
+- **K (Kick drum):** There are hits marked with O and -O-- etc. The user didn't mention removing kick, so this stays.
+- **S (Snare drum):** The third beat has an S---, which I think might be a typo or maybe a placeholder. Wait, according to the notation, S's valid characters are O, o, X, x. The 'S' here isn't listed. Maybe it's a mistake? But the user's edit request doesn't mention snare, so perhaps it's okay to leave it as is unless instructed otherwise. Wait, the user might have intended to remove snare? Wait no, the user said "I don't want any hihat or cymbal," so snare is okay unless there's an issue with the notation here. Hmm, maybe the 'S' in the S line is an error. But since the user didn't mention snare, maybe I should leave it. Alternatively, maybe it's a typo and should be O or another valid character. But since the user didn't flag it, perhaps I should just proceed as instructed.
+
+- **H (Hihat):** The line has x-x- repeated in each beat. Since the user wants to remove hihat, this entire line should be converted to all '-'.
+
+- **T (Toms):** The fourth beat has ---O. The user didn't mention toms, so that stays.
+
+- **C (Crash cymbal):** This has O--- in all beats. Since crash is a cymbal, this needs to be removed, so all '-'.
+
+- **R (Ride cymbal):** All '-' already, so no change needed.
+
+So the steps are:
+
+1. Set all characters in the H line to '-'.
+2. Set all characters in the C line to '-'.
+3. Check if the S line has valid characters. The third beat has 'S---', which isn't a valid character (since S's allowed are O, o, X, x). This might be an error. However, since the user's instruction doesn't mention snare, perhaps it's better to leave it as is unless instructed otherwise. Alternatively, maybe it's a typo and should be O or another valid symbol. But without clarification, I'll assume it's intentional and leave it unless the user's request includes it. Since the user didn't mention snare, proceed.
+
+Wait, but the user might have made a typo in the original input. But as per instructions, I should only remove hihat and cymbals. So proceed accordingly.
+
+So the edited version would look like this:
+
+K remains the same.
+S remains the same (even if possibly incorrect).
+H becomes all '-'.
+T remains the same.
+C becomes all '-'.
+R remains the same.
+
+Therefore, the final notation would be:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: ----|----|----|----
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Wait, but the S line's third beat has 'S---'. Since S can only have O, o, X, or x, this might be an error. But since the user didn't mention the snare, maybe it's best to leave it as is unless it's invalid. Alternatively, maybe the 'S' is a mistake, but I can't assume that. The user's instruction is only to remove hihat and cymbals, so proceed with the above.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: ----|----|----|----
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

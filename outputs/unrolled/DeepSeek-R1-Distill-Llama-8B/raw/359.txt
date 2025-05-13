@@ -1,0 +1,70 @@
+Alright, so I need to edit this drum groove by removing the kick and cymbal parts. Let me start by understanding the drum notation provided. Each line corresponds to a different instrument: Kick, Snare, Hihat, Tom, Crash Cymbal, and Ride Cymbal. Each character represents a 16th note, and each set of four characters separated by | makes a beat. There are 16 notes in total, making four beats per bar.
+
+The original drum groove is as follows:
+
+@@@
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+@@@
+
+My task is to remove the Kick (K) and Crash Cymbal (C) parts. So, I'll focus on the remaining instruments: Snare (S), Hihat (H), Tom (T), and Ride Cymbal (R).
+
+Let's go through each instrument line by line.
+
+1. **Kick (K):** The original line is "O--O|----|--O-|----". Since I need to remove the Kick, this line will be set to empty or removed entirely. I'll remove it.
+
+2. **Snare (S):** The original line is "----|Oo-o|-o--|O--o". This line is for the Snare drum, which I want to keep. So, I'll keep this as is.
+
+3. **Hihat (H):** The original line is "X-x-|X-x-|X-x-|X-x-". This line is for the Hihat, which I want to keep. So, I'll keep this as is.
+
+4. **Tom (T):** The original line is "----|----|----|----". This line is for the Toms, which I want to keep. So, I'll keep this as is.
+
+5. **Crash Cymbal (C):** The original line is "----|----|----|----". Since I need to remove the Crash Cymbal, this line will be set to empty or removed entirely. I'll remove it.
+
+6. **Ride Cymbal (R):** The original line is "----|----|----|----". This line is for the Ride Cymbal, which I want to keep. So, I'll keep this as is.
+
+Now, putting it all together, the edited drum groove will only include the Snare, Hihat, Tom, and Ride Cymbal parts. Here's how it should look:
+
+@@@
+
+S: ----|Oo-o|-o--|O--o
+
+H: X-x-|X-x-|X-x-|X-x-
+
+T: ----|----|----|----
+
+R: ----|----|----|----
+
+@@@
+
+I need to make sure that the formatting is correct and that each instrument line corresponds correctly to its respective part. Also, I should double-check that I haven't missed any parts or made any formatting errors.
+
+Let me review the changes:
+
+- **Kick (K):** Removed entirely.
+- **Snare (S):** Kept as "----|Oo-o|-o--|O--o".
+- **Hihat (H):** Kept as "X-x-|X-x-|X-x-|X-x-".
+- **Tom (T):** Kept as "----|----|----|----".
+- **Crash Cymbal (C):** Removed entirely.
+- **Ride Cymbal (R):** Kept as "----|----|----|----".
+
+Everything seems to be in order. The final edited drum groove now excludes the Kick and Crash Cymbal, focusing only on the Snare, Hihat, Tom, and Ride Cymbal. This should meet the edit request perfectly.
+</think>
+
+@@@
+
+S: ----|Oo-o|-o--|O--o
+
+H: X-x-|X-x-|X-x-|X-x-
+
+T: ----|----|----|----
+
+R: ----|----|----|----
+
+@@@

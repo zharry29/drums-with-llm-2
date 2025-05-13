@@ -1,0 +1,41 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any kick or tom parts. Let's look at the original groove first.
+
+Starting with the Kick (K) line: "O--O|----|--O-|----". Since the user doesn't want any kick, I need to replace all the O and o hits with dashes. That means changing each character in the K line to '-'.
+
+Next, the Snare (S) line is "----|Oo-o|-o--|O--o". The user didn't mention snare, so I should leave that as is unless instructed otherwise. The edit request only mentions removing kick and tom, so snare stays.
+
+Hihat (H) is "X-x-|X-x-|X-x-|X-x-". No changes needed here since it's not mentioned in the request.
+
+Toms (T) line is "----|----|----|----". Since there are no tom hits here, it's already okay. But just to confirm, the user wants no toms, so even if there were hits, they should be removed. Here, it's all dashes, so no change.
+
+Crash (C) and Ride (R) are already empty. The user didn't mention crashes, but the request was about kick and toms. So leave those as they are.
+
+Wait, the user said "no kick or tom". The Toms line is already empty, so that's fine. The Kick line needs to be all dashes. Let me double-check each part of the K line:
+
+First beat: O--O becomes ----
+Second beat: ---- stays
+Third beat: --O- becomes ----
+Fourth beat: ---- stays
+
+So the new K line should be "----|----|----|----".
+
+The rest of the lines (S, H, C, R) remain unchanged except ensuring Toms are clear, which they already are. Let me put it all together:
+
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+That should do it. Just making sure there are no kick hits and toms are already empty. Looks good!
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

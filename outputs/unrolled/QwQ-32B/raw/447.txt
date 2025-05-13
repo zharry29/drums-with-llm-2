@@ -1,0 +1,69 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any cymbals and snare. 
+
+First, I need to recall which lines correspond to each instrument. From the notation guide:
+
+- K: Kick drum
+- S: Snare drum
+- H: Hihat
+- T: Toms
+- C: Crash cymbal
+- R: Ride cymbal
+
+The user said "no cymbal or snare," so I need to eliminate the S (snare) and both C (crash) and R (ride) lines. 
+
+Looking at the given groove:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So, I'll set S, C, and R lines to all '-'.
+
+But wait, the H line is hihat. The user didn't mention hihat, so it stays unless specified. The edit is only about cymbals (C and R) and snare (S). 
+
+So the edited version should have:
+
+- K remains as is unless they also wanted kick removed, but the request didn't say that. Wait the user's exact words: "I don't want any cymbal or snare." So kick is okay.
+
+So the final lines:
+
+K remains unchanged.
+S becomes all '-'.
+H stays as is.
+T stays as is (but in the original T is all '-', so no change).
+C becomes all '-'.
+R becomes all '-'.
+
+Wait checking the original:
+
+Original S line has X and x, which are sidestick hits on the snare. Since S is snare, those need to be removed. 
+
+Original R line has x and X, which are ride hits. Those must be removed.
+
+C is already empty, so no change there.
+
+So putting it all together:
+
+K: o---|--o-|o---|--o-
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, in the original R line, the user might have had some notes, so replacing them with '-'.
+
+Yes, that's correct. The final should have S, C, R lines empty, K and H as before, T remains empty as it was.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

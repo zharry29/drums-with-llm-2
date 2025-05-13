@@ -1,0 +1,35 @@
+Okay, let's tackle this drum groove edit request. The user wants the groove to include not only snare but also hihat. Looking at the given groove:
+
+First, I'll check each instrument line to see what's already there. 
+
+The Kick (K) has some hits, Snare (S) has a few in the third and fourth beats. Toms (T) are active with O-o- repeating. Hihat (H) is completely empty. Crash (C) and Ride (R) are also inactive.
+
+The user's request is to add hihat. Since the current groove has toms and snare, but no hihat, I need to add hihat hits without conflicting with existing parts. 
+
+The hihat line is all dashes. To add hihat, I should decide on a pattern that complements the existing kick and snare. Common hihat patterns are eighth notes or a steady closed hi-hat. Since the kick and snare are on downbeats, maybe a steady closed hi-hat (using X or x) on every 16th note would work. Alternatively, a pattern that matches the tom's rhythm.
+
+Looking at the toms: O-o- repeats every beat. Maybe mirror that with hihat? Or use a steady pattern. Let's go with a steady closed hi-hat (X) on all 16th notes for consistency. 
+
+Wait, but the user might want something less overpowering. Maybe alternating between X and x for dynamics. Alternatively, place hits on the "and" of each beat. Let me check previous examples. In prior edits, when adding hihat, they used x-x- or similar. Let me see:
+
+In a previous example, when adding hihat to a groove without it, they used X-x- or x-x- patterns. Let's choose a pattern that's consistent. Since the existing snare is on the third beat's first 16th and the fourth beat's first, maybe syncopate the hihat.
+
+Alternatively, use a simple X on every beat's first 16th note. Let's try:
+
+H: X---|X---|X---|X--- but that might be too sparse. Maybe eighth notes with X on each beat and x on the "and". Like X-x- for each beat.
+
+So each beat would be X-x- separated by |, making the hihat line: X-x-|X-x-|X-x-|X-x-
+
+This provides a steady eighth-note pattern with a harder hit on the beat and softer on the off-beat. That should add the needed hihat without clashing. Let me confirm that none of the other instruments are conflicting in those spots. The snare is only on specific beats, and the kick and toms have their own patterns. This should work.
+
+So the edited groove would add that hihat line. Let me write that out.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: X-x-|X-x-|X-x-|X-x-
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

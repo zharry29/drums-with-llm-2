@@ -1,0 +1,33 @@
+Alright, let's tackle this drum groove edit. The user wants to remove the kick and snare from the provided groove. 
+
+First, I need to look at the original drum notation given. The kick drum (K) has "O--O|----|--O-|----" and the snare (S) has "----|Oo-o|-o--|O--o". The user's request is to eliminate any kick or snare, so I should set all K and S lines to all dashes.
+
+Looking at the other instruments: Hihat (H) is empty except for the first two beats, Toms (T) and Crash (C) are inactive, and Ride (R) has some patterns. Since the user didn't mention removing those, they stay as is. 
+
+Wait, the original R line is "o-O-|o-O-|o-O-|o-O-", so I need to ensure that remains. The H line is all dashes except for the first two beats, but since the user didn't ask to remove hihat, maybe I misread. Wait, no, the user said "no kick or snare", so H and R can stay unless specified. 
+
+Wait, in the original problem statement, the user might have wanted to remove only K and S. Let me double-check the user's exact request: "I don't want any kick or snare." So yes, only K and S lines should be cleared. 
+
+So, replacing K's line with "----|----|----|----" and S's line with the same. The rest remain. Let me confirm each line:
+
+Original K: O--O|----|--O-|----
+Edited K: All dashes.
+
+Original S: ----|Oo-o|-o--|O--o
+Edited S: All dashes.
+
+H, T, C, R stay as they were. 
+
+Wait, in the original provided groove, the H line is "----|----|----|----", so that's fine. The R line has the o-O- patterns. So the final should have K and S empty, others as is. 
+
+I think that's it. Let me write the final answer in the required format.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

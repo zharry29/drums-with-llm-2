@@ -1,0 +1,54 @@
+Okay, let's tackle this drum groove edit. The user provided a groove and wants it to include not only ride but also tom. Let me first parse the original groove to see what's there.
+
+Looking at the given drum groove:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+So the kick (K) is hitting on the first and second beats hard, and the third beat is empty, then the fourth. The snare (S) is only on the third and fourth beats. The toms (T) are playing a steady pattern with hard and soft hits every 16th note. But the ride (R) is completely silent. The user wants to add ride in addition to keeping the toms. 
+
+The instruction says "not only ride but also tom," which implies that the existing toms should stay, and ride should be added. Since the current toms are already present, the main task is to add the ride. But maybe also ensure that the toms are maintained, perhaps enhanced? The user might want both elements present.
+
+So the plan is to introduce the ride cymbal (R) into the groove. The current R line is all dashes, so we need to add some hits there. The ride is often used to provide a steady rhythm, maybe on every beat or a consistent pattern. Let's see the existing kick and snare to coordinate.
+
+The kick has hits on the first and second beats (first two O--- and O--- in the first two beats), then the third beat is empty, and the fourth has an O---. The snare is on the third and fourth beats. The toms are playing every 16th note, which is a busy pattern.
+
+To add ride, common patterns are quarter notes on the ride (every beat), or eighth notes. Let's go with quarter notes first. So on each beat (every four 16th notes), maybe a closed hit (X or x) on the ride. Alternatively, maybe a mix of open and closed. Since the user might want some variation, perhaps alternate between X and x or O and o. 
+
+Looking at the ride's notation: R uses O for hard open on the bell, o for soft open, X and x for hard and soft closed on the bow. A typical ride pattern might use closed hits (X or x) on the beats. Let's try placing X on each beat. Since each beat is four 16th notes, the first character of each beat (after the |) would be the downbeat. So for each beat, the first character could be X, and the rest dashes. Let's see:
+
+Original R line is all dashes. Let's replace the first character of each beat with X. So:
+
+R: X---|X---|X---|X---
+
+But maybe that's too sparse. Alternatively, eighth notes (every two 16th notes). So every two characters, like X-x- for each beat (since each beat is four 16th notes). Wait, for an eighth note pattern, every two 16th notes would be X on the first and third of each beat. So each beat would be X-X- or something. Alternatively, maybe a more common ride pattern is quarter notes (every beat) with closed hits. Let me think.
+
+Alternatively, since the toms are already playing every 16th note, adding ride on every beat might clash. Maybe alternate between X and x on each beat. Or maybe start with X on the first beat, then x on the second, etc. Let me see an example.
+
+Alternatively, let's make it a steady eighth note pattern on the ride. So for each beat (four 16ths), the first and third positions (1 and 3) would have hits. So for each beat, like X-x- (since the first and third 16ths are hits). So:
+
+R: X-x-|X-x-|X-x-|X-x-
+
+That would give an eighth note pattern on the ride, which is common. Let me check the original groove's time signature. Since it's a bar of 4 beats, 4/4 probably. That should work. 
+
+So the edited R line would be X-x- repeated for each beat. Let me confirm the original Toms (T) are already there, so no changes needed there. The user's request is to have both ride and tom, so adding ride as above would satisfy that. 
+
+Wait, but in the original T line, the toms are already present, so the user's instruction is to have not only ride but also tom. Since the toms are already there, adding ride is the main task. So the final edit would be adding the ride as described. 
+
+Let me double-check the notation. Each line has four beats, each beat is four characters. So for R: X-x-|X-x-|X-x-|X-x- would be correct. Let me make sure there are 16 characters (4 beats ×4). Yes, each segment is four characters, so four segments make 16.
+
+So the final groove would have the original K, S, T lines, and add the ride as above. Let me write that out.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: X-x-|X-x-|X-x-|X-x-
+@@@

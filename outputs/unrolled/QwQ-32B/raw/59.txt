@@ -1,0 +1,35 @@
+Okay, let me tackle this drum groove edit. The user wants the groove to have not only kick but also cymbals. Looking at the given groove:
+
+The Kick (K) is active with O and o hits. The Snare (S) has some O hits. The Hihat (H) has some o and O hits. But the Crash (C) and Ride (R) are only on the first beat of the first measure for C, and R is entirely silent.
+
+The request is to add cymbals. Since Crash is already used once, maybe expand its use or add Ride. Let me check previous examples. In past edits, when adding cymbals, they often added Ride in a steady pattern, like X-x- repeating. Also, sometimes they combined Crash and Ride.
+
+Looking at the current groove, the Crash is only on the first beat of the first measure. To make it more consistent, perhaps add Ride hits on every beat. The user might want a steady cymbal presence. Let's see the Hihat is already doing some open and closed hits, so Ride could complement that.
+
+Let me structure the Ride (R) to have a consistent pattern. Maybe a simple X on each beat, like X--- but since Ride uses X for closed hits on the bow, maybe X-x- for each beat to add some variation. Let's try:
+
+R: X-x-|X-x-|X-x-|X-x-
+
+That way, every beat has a closed hit followed by a cross-stick-like pattern. Also, maybe keep the existing Crash on the first beat, but perhaps add another Crash somewhere for emphasis. Alternatively, leave the Crash as is and just add Ride. Since the instruction is to have "not only kick but also cymbal," adding Ride should suffice.
+
+So the edited version would include the existing K, S, H, C, and add the Ride pattern. Let me check the character counts to ensure each line has 16 notes (4 beats of 4 notes each). 
+
+Original C line: C: O---|----|----|---- so only first beat has a Crash. Maybe keep that and add Ride. The final version should look like:
+
+K remains the same.
+S remains the same.
+H remains the same.
+C remains the same (unless adding more crashes, but maybe leave as is).
+R gets the new pattern.
+
+So the final answer should have R: X-x- repeated in each beat.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: X-x-|X-x-|X-x-|X-x-
+@@@

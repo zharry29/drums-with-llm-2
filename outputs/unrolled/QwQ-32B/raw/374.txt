@@ -1,0 +1,61 @@
+Alright, let's tackle this drum groove edit. The user provided a specific drum notation and wants me to remove any elements involving the tom (T) and ride (R) cymbals. Let me first parse the given groove to understand what needs to be changed.
+
+Looking at the original groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+Wait, actually, in the given groove, T (Toms) is already all dashes, meaning no tom hits. The user mentioned removing tom and ride, so the main focus here is on the ride (R) since T is already clear. But let me double-check. The user's edit request is "I don't want any tom or ride." 
+
+So even though T isn't active, I need to ensure that both T and R are set to all dashes. The R line currently has dashes except in some previous examples maybe? Wait no, looking at the given groove above, R is already all dashes. Wait, in the given example above, the user's provided groove shows R as all dashes. Wait, perhaps there was a typo or mistake. Let me check again.
+
+Wait the user's input shows:
+
+The given drum groove is:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+@@@
+
+So in this case, Toms (T) are already inactive (all dashes), and Ride (R) is also inactive. The only active cymbal here is the Crash (C), which the user hasn't mentioned removing. The user's request is to remove tom and ride. Since both are already inactive, perhaps there was a mistake in the problem? Wait, maybe I misread.
+
+Wait, the user's edit request says "I don't want any tom or ride." So they want to remove any tom (T) or ride (R). Since in the given groove, T is already all dashes and R is also all dashes, the only thing left is to ensure that those lines stay as dashes. However, the crash (C) is active here with O--- in each beat. The user didn't mention removing crash cymbals, so we shouldn't touch that. 
+
+Wait, but maybe I made a mistake here. Let me confirm again. The user's instruction is to remove "tom or ride". Tom is T, ride is R. The crash is C, which is separate. So the user's request doesn't affect the crash. Therefore, the edited groove should keep the kick (K), snare (S), hihat (H), and crash (C) as they are, while setting T and R to all dashes. But in the original, T and R are already dashes, so maybe this is a trick question where no changes are needed except perhaps confirming. Wait, perhaps in the given example, there's a typo? Let me check again.
+
+Wait the user's input shows:
+
+Original groove's T line is all dashes, R is all dashes. So the user's request would not require any changes except maybe ensuring that those lines remain as dashes. However, perhaps the user intended that even if T or R had hits, they should be removed. Since in this case they are already inactive, the final answer would be the same as the original except perhaps ensuring that T and R are cleared, which they already are.
+
+Therefore, the edited groove should be identical to the original except confirming that T and R are all dashes. Therefore, the final answer would be the same as the original, but let me check if I missed anything.
+
+Alternatively, maybe I misread the original. Let me look again at the user's input:
+
+The given groove's T line is:
+
+T: ----|----|----|----
+
+R: ----|----|----|----
+
+Yes, so they are already inactive. Therefore, the edited groove would just leave everything else as is. But the user's request is to remove tom and ride, which are already gone. So the answer remains the same except for maybe formatting.
+
+Wait, perhaps the user made a mistake in the input, but since I have to follow strictly, I'll proceed accordingly. The answer should keep K, S, H, and C as they are, set T and R to all dashes (which they already are). Hence, the final drum groove is the same as provided, but just to confirm.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

@@ -1,0 +1,38 @@
+Alright, let's tackle this edit request. The user wants to remove the hihat and kick from the given drum groove. First, I'll review the original groove to identify which lines correspond to those instruments.
+
+Looking at the provided drum notation:
+
+- **K (Kick drum):** The line starts with "OOO-" and has several hits. Since the user doesn't want any kick, I'll replace all characters in the K line with '-'.
+
+- **S (Snare drum):** This line has some hits, but the user didn't mention removing snare, so it stays as is.
+
+- **H (Hihat):** The H line is all '-' already, so no changes needed here. Wait, actually, the user said to remove hihat, but in the given groove, H is already empty. Maybe I should double-check. The original H line is "----|----|----|----", so it's already not playing. But to be safe, confirm the request again. The user says "I don't want any hihat or kick," so even if H is empty, ensuring it's clear.
+
+- **T (Toms):** No hits here, so it remains.
+
+- **C (Crash cymbal):** Has hits, which are allowed since only hihat and kick are removed.
+
+- **R (Ride cymbal):** Also empty, so no change.
+
+So, the main changes are to set the K line to all '-' and ensure H is also clear (though it already is). Let me rewrite each line accordingly:
+
+- **K:** Replace all characters with '-' → "----|----|----|----"
+- **S:** Keep as "----|O---|----|O---"
+- **H:** Already "----|----|----|----", so leave it.
+- **T:** No changes.
+- **C:** Keep crashes.
+- **R:** No changes.
+
+Wait, but in the original, the H line was already silent. The user might have intended to remove any existing hihat, but since there's none, it's okay. The key is the kick removal. Let me double-check the user's request to ensure I didn't miss anything else. The user only asked to remove hihat and kick, so the rest stays. 
+
+Final check: The edited version should have K and H lines all '-', which they do. Snare, toms, crash, and ride remain as per their original entries except where specified. Looks good.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

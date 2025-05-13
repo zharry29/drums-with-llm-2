@@ -1,0 +1,37 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any ride or hihat parts from the given drum groove. Let me start by understanding the original groove provided.
+
+Looking at the given drum notation:
+
+**K (Kick drum):** OOO-|--O-|OOO-|-OOO  
+**S (Snare drum):** ----|O---|----|O---  
+**H (Hihat):** ----|----|----|----  
+**T (Toms):** ----|----|----|----  
+**C (Crash cymbal):** O---|O---|O---|O---  
+**R (Ride cymbal):** ----|----|----|----
+
+The user's request is to eliminate the ride (R) and hihat (H). Since the original already has H and R lines as all dashes (meaning no hihat or ride is played), maybe there's a misunderstanding. Wait, let me check again.
+
+Wait, the H line is all dashes, so hihat isn't present. The R line is also all dashes, so ride isn't there either. That's odd—the user might have thought there were parts to remove, but in this case, the groove already doesn't include ride or hihat. 
+
+Hmm, perhaps there was a mistake in the input, or maybe the user wants to ensure they're removed even if they weren't there. Either way, the correct approach is to leave K, S, T, and C as they are, and confirm that H and R are empty. Let me double-check each line:
+
+- **Kick (K):** All the O's are fine, no changes needed.
+- **Snare (S):** The snare hits on the second and fourth beats are okay.
+- **Hihat (H):** Already empty, so no action.
+- **Toms (T):** No toms are played, so leave as is.
+- **Crash (C):** Crashes on each beat. The user didn't mention removing crashes, so keep them.
+- **Ride (R):** Already empty, so no change.
+
+Therefore, the edited groove remains the same as the original because the requested instruments weren't present. But maybe the user intended to remove crashes too? Wait, the request specifically mentions ride and hihat. Since crashes are separate (C line), they stay. 
+
+I should present the same groove but ensure that H and R are indeed empty. The user might have expected some parts to be removed, but according to the input, they weren't there. So the final answer will mirror the original, confirming that ride and hihat are absent.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

@@ -1,0 +1,21 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the kick and ride cymbal parts. 
+
+First, I'll look at the original groove provided. The Kick (K) line is "o---|--o-|o---|--o-". Since the user doesn't want any kick, I'll replace all the characters in the K line with dashes to silence it. That part is straightforward.
+
+Next, the Ride (R) line is "x---|X-x-|x---|X-x-". The request is to remove ride, so I'll set all those to dashes as well. 
+
+Now, checking the other instruments to make sure they're okay. The Snare (S) has some X and x hits, but since the user didn't mention snare, those stay. The Hihat (H) has x's, which are allowed unless specified. Toms and Crash are already silent, so no changes there.
+
+Wait, let me double-check the user's exact request: "I don't want any kick or ride." Yep, so just those two lines need to be cleared. 
+
+So the edited version should have K and R lines all dashes, while others remain as they are. Let me put that together.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

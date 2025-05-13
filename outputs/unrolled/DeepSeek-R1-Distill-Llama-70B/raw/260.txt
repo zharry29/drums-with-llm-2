@@ -1,0 +1,29 @@
+Okay, I need to help the user edit their drum groove to include both kick and ride cymbal. Let me first understand the original groove and the edit request.
+
+The original groove has:
+- **Kick (K):** O---|----|O---|---- (so, beats 1 and 3)
+- **Snare (S):** ----|----|S---|---- (beat 3)
+- **Hihat (H):** x-x-|x-x-|x-x-|x-x- (steady 16th notes)
+- **Toms (T):** ----|----|---O|---- (beat 3)
+- **Crash Cymbal (C):** O---|O---|O---|O--- (beats 1, 2, 3, 4)
+- **Ride (R):** ----|----|----|---- (no hits)
+
+The edit request is to have not only kick but also ride. So, I need to add ride cymbal hits without removing the kick drum hits.
+
+Looking at the original, the kick is on beats 1 and 3, and the crash cymbal is on every beat. The ride cymbal is currently not played at all.
+
+I need to add ride cymbal hits. Since the crash is already on every beat, adding ride on off-beats or specific beats can add texture without clashing. Maybe adding ride on beats 2 and 4 would complement the kick on 1 and 3.
+
+So, I'll modify the ride line to have hits on beats 2 and 4. I'll use 'X' for a hard closed hit to keep it subtle and not overpowering.
+
+Final ride line: X---|----|X---|----
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: X---|----|X---|----
+@@@

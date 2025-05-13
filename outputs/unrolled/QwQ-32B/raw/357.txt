@@ -1,0 +1,50 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any kick or cymbal parts from the provided groove. 
+
+First, I'll look at the original drum notation:
+
+K: OOO-|--O-|OOO-|-OOO (Kick drum)
+S: ----|O---|----|O--- (Snare drum)
+H: ----|----|----|---- (Hihat)
+T: ----|----|----|---- (Toms)
+C: O---|O---|O---|O--- (Crash cymbal)
+R: ----|----|----|---- (Ride cymbal)
+
+The user's request is to eliminate the kick (K) and any cymbals (C and R). Since R (ride) is already empty, we just need to clear K and C.
+
+So, replacing K's line with all dashes. For C, same thing. The snare (S) and hihat (H) and toms (T) remain as they are unless they were part of the cymbals, but according to the instruments listed, Toms (T) are separate. 
+
+Wait, checking the instruments again: C is crash cymbal, R is ride. So only C and K need to be removed. 
+
+Let me verify each line:
+
+- K line becomes all dashes.
+- S stays as is.
+- H stays as is (all dashes here originally).
+- T stays as is (all dashes).
+- C becomes all dashes.
+- R is already empty.
+
+So the edited version should look like:
+
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, but the original H and T lines were already empty. Let me confirm the original input again. The user's provided groove has H and T as all dashes, so they stay. 
+
+Double-checking that I didn't miss any cymbals. The crash (C) was O--- in each beat, so those get cleared. The ride (R) was empty, so no change there. 
+
+Yes, that should be it. The final edited groove removes all kick and cymbal hits, leaving only the snare and any other non-affected parts. In this case, the snare remains, and hihat/toms were already silent except for the snare hits.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

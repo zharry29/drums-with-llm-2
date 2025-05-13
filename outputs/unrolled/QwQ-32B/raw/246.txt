@@ -1,0 +1,76 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include not just the hihat but also the tom. Looking at the given groove:
+
+First, I'll check each line. The Kick (K) has some hits, Snare (S) too, Hihat (H) is active with various hits, but Toms (T) are all dashes. The edit request is to add tom hits. 
+
+The original T line is all "----|----|----|----". So I need to add O or o in some positions. Since the user mentioned "not only hihat but also tom," the focus is on adding tom parts without removing the hihat. 
+
+Looking at the existing parts: The hihat has a pattern in each beat. For the toms, maybe syncopate or add hits on offbeats. Let's see the structure:
+
+First beat: K: O---, S: ----, H: --o-
+Second beat: K: ---o, S: O---, H: O-o-
+Third beat: K: O-O-, S: ----, H: O-o-
+Fourth beat: K: ----, S: O---, H: O-o-
+
+Possible places for toms could be on the offbeats. Let's see:
+
+Maybe add a tom hit on the "and" of each beat. For example, in the first beat, the third 16th note (position 3) is a hihat o. Maybe add a tom there or on another position. Alternatively, mirror the kick or snare hits but on toms. 
+
+Alternatively, in the third beat where the kick has O-O-, perhaps the tom can have a hit on the second O. Let's try to distribute the tom hits across the bar. Let's try adding O on every other 16th note to add some depth without clashing. 
+
+Testing:
+
+T: ---O|---O|---O|---O (adding a tom hit on the 4th 16th of each beat). That might work. But maybe vary it. Alternatively, in the first beat, third position: --O-, so T: --O- for first beat, then similar. 
+
+Alternatively, in the first beat, since the hihat is --o-, maybe the tom can be on the first 16th: O---. 
+
+Wait, need to ensure it complements the existing parts. Let me try to place toms where there's space. For example:
+
+First beat: K has O on first 16th. Maybe tom on third? So T: --O- for first beat. Second beat, K has ---o (fourth 16th). The snare is on second beat's first 16th. Maybe tom on the second 16th here? T: -O--? But need to check all beats. 
+
+Alternatively, to keep it simple, add a tom hit every beat on the third 16th note (like the hihat's o in first beat). So:
+
+T: --O-|--O-|--O-|--O-
+
+That way, it's on the "&" of each beat. Let's see if that works with the existing hihats and kicks. The hihat in first beat has --o-, so the tom would be on the same as the hihat's o. Maybe that's okay. Alternatively, offset it. 
+
+Alternatively, in the first beat, T: ---O (on 4th 16th), matching the kick's O on first. 
+
+Hmm. Let me try:
+
+First beat: T: --O- (third 16th)
+Second beat: T: -O-- (second 16th)
+Third beat: T: O--- (first 16th)
+Fourth beat: T: ---O (fourth 16th)
+
+But this might be too scattered. Alternatively, a steady tom on every fourth 16th note? Like T: ----|----|----|O---? No, that's only on last beat. 
+
+Alternatively, place toms on the offbeats where there's no kick or snare. For example, in the first beat, the kick is on 1, so tom on 3. In second beat, snare on 1, tom on 3. Third beat, kick on 1 and 3, so maybe tom on 2 or 4. Fourth beat, snare on 4, so tom on 2. 
+
+Let me try:
+
+First beat (O---): T: --O- (third)
+Second beat (---o, O--- snare): T: -O-- (second)
+Third beat (O-O-): T: -O-O (second and fourth)
+Fourth beat (----, O--- snare on fourth): T: --O- (third)
+
+But this might complicate. Alternatively, just add a tom hit on every beat's third 16th note to keep it simple. That would be T: --O-|--O-|--O-|--O- 
+
+Checking with the original:
+
+First beat H: --o- (so tom on third 16th where hihat has o). That's okay, maybe a soft hit o? Or hard O. 
+
+Since the user didn't specify, just adding O would work. Let's go with that. 
+
+So the final T line would be:
+
+T: --O-|--O-|--O-|--O-
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: --O-|--O-|--O-|--O-
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

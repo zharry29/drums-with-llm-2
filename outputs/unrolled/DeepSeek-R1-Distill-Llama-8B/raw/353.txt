@@ -1,0 +1,28 @@
+Okay, so I need to edit this drum groove by removing the kick and cymbal parts. Let me look at the current groove first.
+
+The current groove has four instruments: Kick, Snare, Hihat, Tom, Crash Cymbal, and Ride Cymbal. But the user doesn't want any kick or cymbal, so I need to remove those parts entirely.
+
+Starting with the Kick drum (K:), I see the pattern is O---|---o|O-O-|----. I'll replace all the K lines with dashes to indicate that the kick is not played. So, K: will become ----|----|----|----.
+
+Next, the Snare drum (S:) has ----|O---|----|O---. Since the user only wants to remove the kick and cymbal, the snare can stay. So, S: remains the same.
+
+The Hihat (H:) is --o-|O-o-|O-o-|O-o-. This is fine, as it's a hihat and not affected by the edit request. So, H: stays as is.
+
+The Tom (T:) is ----|----|----|----, which is also unaffected. So, T: remains the same.
+
+Now, the Crash Cymbal (C:) is O---|----|----|----. Since the user doesn't want any cymbal, I'll replace all C lines with dashes. So, C: becomes ----|----|----|----.
+
+The Ride Cymbal (R:) is ----|----|----|----. This is a cymbal, so I'll replace it with dashes as well. So, R: becomes ----|----|----|----.
+
+Putting it all together, the edited groove should have only the Hihat and Snare drum active. Let me double-check to make sure I didn't miss any parts.
+
+Yes, Kick and both cymbals are removed, while the other instruments remain. This should fulfill the user's request.
+</think>
+
+The final edited drum groove, with kick and cymbal parts removed, is as follows:
+
+@@@
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+@@@

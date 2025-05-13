@@ -1,0 +1,19 @@
+Okay, let me tackle this drum groove edit. The user wants a cymbal hit and hihat in the very beginning. Let's look at the given groove first.
+
+The Kick (K) starts with "O--O" in the first beat. The Snare (S) is quiet in the first part. The Hihat (H) has "X-x-" which are closed hits. The Toms (T), Crash (C), and Ride (R) are silent in the first beat. The user wants a cymbal (probably Crash or Ride) and Hihat at the start.
+
+First, the very beginning is the first 16th note of the first beat. The Hihat already has an X there, which is a closed hit. Maybe they want an open hit instead? Or maybe add another layer. But the user specified "hihat", so maybe just ensure it's there. But since it's already there, perhaps they want a crash or ride hit there too. The Crash line is all dashes in the first beat, so adding an O there would add a hard crash hit on the first note. That makes sense for a strong start. Let me check the notation rules again: C uses O for hard hits. So replacing the first character of C's line to O. 
+
+So, the first beat for C would be "O---" instead of "----". That adds a crash on the first 16th note. The Hihat is already playing, so that's covered. Let me make sure not to disrupt the existing Hihat pattern. The H line starts with X, which is fine. So the edited lines would be:
+
+K remains the same unless needed, but the user didn't ask for kick changes. So final edit should have C's first note as O, and H is already okay. Let me double-check the user's request: "cymbal hit and hihat in the very beginning". Since Hihat is already present, adding the crash on the first note should suffice.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

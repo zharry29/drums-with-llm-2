@@ -1,0 +1,41 @@
+Alright, let me tackle this drum groove edit. The user wants to remove any cymbals (crash and ride) and toms. Let me first parse the original groove given.
+
+Looking at the provided drum notation:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+So, the Kick (K) has some hits, Snare (S) has some as well, Hihat (H) is silent, Toms (T) are off, Crash (C) is off, and Ride (R) has a pattern. The user doesn't want cymbals (so C and R must be removed) and toms (T is already off, so just confirm that).
+
+First step: Set all characters in the C and R lines to '-' since they should have no hits. The T line is already all '-', so no change there. The K and S lines remain as they are unless they have any cymbal-related hits, but looking at them, they don't. The S line has 'Oo-o' and 'O--o', which are snare articulations, which are allowed. The K line has O and o hits, which are kick hits, also allowed.
+
+So the edited version should have K and S lines unchanged, H, T, C, R lines all set to '----|----|----|----'.
+
+Wait, but the Hihat line (H) is already all '-', so that's fine. The user didn't mention hihat, so if they wanted to remove hihat too, but the request was only cymbals and toms. Since hihat is a separate category, and the user didn't mention it, but in the original H line is empty, so no problem.
+
+Double-checking the Ride (R) line: it has 'o-O-' patterns, which are ride hits. Setting those to '-' is correct. Crash (C) is already off. Toms (T) are off. So the final edited groove should have K and S as original, others all dashes.
+
+Let me write that out:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Yes, that should be it. Just removed the ride and crash, left everything else as is. The user didn't mention kick or snare, so those stay. Toms were already silent. Hihat was already silent too. So this meets the edit request.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

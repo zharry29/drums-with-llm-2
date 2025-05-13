@@ -1,0 +1,41 @@
+Alright, let me tackle this drum groove edit. The user wants to remove any cymbals and hihats from the given groove. Let me start by understanding the original groove structure.
+
+Looking at the provided drum notation:
+
+**Kick (K):** OOO-|--O-|OOO-|-OOO  
+**Snare (S):** ----|O---|----|O---  
+**Hihat (H):** ----|----|----|----  
+**Toms (T):** ----|----|----|----  
+**Crash (C):** O---|O---|O---|O---  
+**Ride (R):** ----|----|----|----
+
+First, the user specified "no cymbal or hihat". The cymbals here are the Crash (C) and Ride (R). The Hihat (H) is already silent in all beats, so that's already okay. But I need to ensure that Crash and Ride are removed entirely.
+
+So, for **Crash (C)**, every character should be replaced with '-', since the user doesn't want any crash hits. Similarly, **Ride (R)** is already empty, so that's fine. 
+
+Let me check each line:
+
+- **Kick (K):** No changes needed since it's not a cymbal/hihat.
+- **Snare (S):** Also okay, as it's part of the drums, not cymbals.
+- **Toms (T):** All dashes, so no issue.
+- **Crash (C):** Needs to be all '-'.
+- **Ride (R):** Already all '-'.
+
+Wait, the user said "no cymbal", which includes Crash and Ride. Since Ride is already empty, only Crash needs to be cleared. Let me confirm the original Crash line: it's O--- in each beat, so replacing each 'O' with '-'.
+
+So the edited lines would be:
+
+**C: ----|----|----|----**  
+**R: ----|----|----|----** (already correct)
+
+Putting it all together, the final groove should have all cymbals (C and R) cleared, and hihat (H) is already clear. Let me double-check to ensure no other instruments are affected. The Kick, Snare, and Toms remain as they are. Yep, that should do it.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

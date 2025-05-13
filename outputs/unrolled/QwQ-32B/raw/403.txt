@@ -1,0 +1,46 @@
+Okay, let me try to figure out how to approach this. The user wants me to edit a drum groove by removing the snare and tom parts. Let me start by understanding the given drum notation and the specific request.
+
+First, the original drum groove is provided in the @@@ block. Let me look at each line:
+
+- **K (Kick drum):** -O--|OO--|---O|-OO-
+- **S (Snare drum):** ----|----|S---|----
+- **H (Hihat):** x-x-|x-x-|x-x-|x-x-
+- **T (Toms):** ----|----|---O|----
+- **C (Crash cymbal):** O---|O---|O---|O---
+- **R (Ride cymbal):** ----|----|----|----
+
+The user's request is to remove any snare (S) and tom (T) parts. That means I need to set all the S and T lines to all dashes ('-').
+
+Let me go through each line:
+
+1. **Kick drum (K):** This stays as it is because the request doesn't mention removing kick.
+2. **Snare drum (S):** All characters should be replaced with '-'. The original has 'S---' in the third beat, so I'll change that to '----'.
+3. **Hihat (H):** This remains unchanged since the user didn't ask to remove it.
+4. **Toms (T):** All characters become '-', so the line becomes '----|----|----|----'.
+5. **Crash cymbal (C):** Also stays the same unless instructed otherwise.
+6. **Ride cymbal (R):** No changes here either.
+
+Wait, let me double-check the original S line: "S: ----|----|S---|----". So the third beat has 'S---', so replacing that with '----' would make the entire S line all dashes. The T line has '----|----|---O|----', so the third beat has an 'O' which needs to be replaced with '-'.
+
+Let me reconstruct each line accordingly:
+
+- **K:** Unchanged: -O--|OO--|---O|-OO-
+- **S:** All dashes: ----|----|----|----
+- **H:** Unchanged: x-x-|x-x-|x-x-|x-x-
+- **T:** All dashes: ----|----|----|----
+- **C:** Unchanged: O---|O---|O---|O---
+- **R:** Unchanged: ----|----|----|----
+
+Wait, but the user might also want to check if there are any other instruments involved. The request specifically mentions snare and tom, so crash and ride are okay. The hihat is also allowed unless the user said otherwise, but the request didn't mention hihat. The original hihat has 'x-x-' in each beat, which are closed hits (since X/x are closed for hihat). Since the user didn't ask to remove hihat, those stay.
+
+Therefore, the edited groove should have S and T lines all dashes. Let me write that out properly in the notation format.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|----|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

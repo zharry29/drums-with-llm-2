@@ -1,0 +1,50 @@
+Okay, let me tackle this drum groove edit. The user wants to remove the hihat on beat 4, but keep everything else the same. 
+
+First, I need to look at the original groove provided. Let me parse each line:
+
+**Original Groove:**
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+```
+
+Wait a second, looking at the H line (Hihat), it's all dashes except maybe I missed something. Let me check again. The H line shows "----|----|----|----", which means the hihat isn't playing on any beat. But the user is asking to remove hihat on beat 4, which suggests maybe there was a hit there that needs to be erased. Hmm, maybe there's a typo in the original? Or perhaps the user expects that even if it's not there, they want to confirm it's not present?
+
+Wait, maybe I misread. Let me check again:
+
+Original H line: All four beats are "----". So, there's no hihat playing at all. The user's request might be based on a different version, or perhaps they assumed there was a hit. Since the user says "everything else is fine", I need to make sure that removing the hihat on beat 4 (even if it's already not there) doesn't affect anything else. 
+
+Alternatively, maybe the user provided the H line with some hits, but in the given example here, it's all dashes. Wait, let me check again the user's input.
+
+Looking back at the user's message, the given drum groove's H line is indeed all dashes. So there's no hihat playing in any beat, including beat 4. Therefore, the user's request might be based on an error, but since they specified to remove hihat on beat 4, even if it's not present, perhaps I should just ensure that beat 4 of H is dashes, which it already is. 
+
+Wait, but the user might have intended that in their version, there was a hit on beat 4, so maybe in the provided example, it's a mistake. Alternatively, maybe I need to check again. Let me re-express the H line:
+
+The H line is four bars of "----", so each beat is four dashes. Therefore, the user's request might be redundant here, but since they asked to remove hihat on beat 4, the correct action is to make sure that in the fourth beat (the last segment after the last |), the hihat is not playing. Since it's already dashes, the edit doesn't change anything. 
+
+However, to comply strictly with the request, I'll present the same groove, ensuring that the H line's fourth beat remains as "----".
+
+So the edited version would be exactly the same as the original, because there's nothing to remove. But maybe I need to confirm. Alternatively, perhaps there was a mistake in the input. Wait, the user might have intended the H line to have something on beat 4 but it's not shown here. Let me double-check the user's input again.
+
+Looking at the user's provided drum groove:
+
+The H line is:
+H: ----|----|----|----
+
+So all four beats have no hihat. Therefore, the user's request is already fulfilled. However, since they asked to make the edit, perhaps they expect the same result. So the final answer should reflect that, keeping everything the same except ensuring hihat on beat 4 is gone (which it already is).
+
+Therefore, the final edited groove remains unchanged except perhaps formatting, but the user wants the final between @@@. So I'll present it as is, but maybe the user expects that even if it's already correct, to just reproduce it.
+</think>
+
+@@@
+K: O--O|----|--O-|----  
+S: ----|Oo-o|-o--|O--o  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: o-O-|o-O-|o-O-|o-O-  
+@@@

@@ -1,0 +1,155 @@
+Okay, I need to convert the given drum groove into a metal-style groove. Let me start by recalling what defines a metal drum beat. Metal genres often have heavy, double bass patterns, syncopated rhythms, and a lot of cymbal work like crashes and open hihats. The kick drum is usually more active, maybe with double strokes or faster patterns. The snare should be on the backbeat but maybe with ghost notes. Also, the hihat or ride should be steady but with some variation.
+
+Looking at the original groove:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+So the kick is hitting on the first beat of each bar, then again on the second and fourth. The snare is only on the third beat of the third bar. The toms have a steady O-o- pattern every beat. But this feels pretty sparse and not metal enough. 
+
+First, the kick needs to be more active. Maybe adding double bass hits. In metal, the kick often plays on every 16th note or in a syncopated pattern. Let me adjust the kick to have more hits. Maybe replace some of the rests with 'O's or 'o's. Also, maybe add some ghost notes on the snare. 
+
+The snare is only hitting once, so maybe add some ghost notes around it. Metal often uses ghost notes between the main hits. Also, the snare might need harder hits. 
+
+The toms are playing every beat, but maybe they can be adjusted to fit a more driving pattern. Alternatively, maybe reduce the toms and focus more on kick and snare. 
+
+The hihat is completely off, which is unusual. In metal, the hihat is often closed and steady, maybe on every 16th note. Alternatively, using a ride with some closed hits. 
+
+Adding crashes on strong beats would help. Metal often uses crashes on the first beat or after hits. 
+
+Let me start modifying:
+
+Kick (K): Instead of O---|O---|----|O---, maybe make it more active. Like O-O-|O-O-|O-O-|O-O- for a double bass feel. But maybe syncopate it. Alternatively, O---|OO--|O---|OO-- for alternating patterns. Wait, need to think of a typical metal pattern. Maybe O-O-|O-O-|O-O-|O-O- for constant eighth notes. Or maybe faster, like OO--|OO--|OO--|OO-- for 16th notes. Let's try O---|O-O-|O---|O-O- to vary it a bit. Hmm, not sure. Alternatively, a common metal pattern might have the kick on every beat and some extra hits. Let's try O---|O---|O---|O--- but that's too simple. Maybe O-O-|O-O-|O-O-|O-O- for a consistent double bass.
+
+Snare (S): The original has a single O on the third beat of the third bar. To make it metal, maybe add ghost notes. Like on the "and" of beats. So maybe something like -o-o| -o-o| O-o-| -o-o. Wait, the snare should hit on the backbeats (beats 2 and 4). Let me think. In metal, snare is often on 2 and 4, maybe with ghost notes. Let's put the main snare hits on beats 2 and 4, and add some ghost notes around them. For example:
+
+S: ----|O---|----|O--- (original) → maybe change to -o-o| -o-O-| -o-o| -o-O- to add ghost notes before the main snare hits. Or on the "and" of the beat.
+
+Hihat (H): Needs to be active. Maybe closed hihats on every 16th note, so X--- repeated. But metal often uses steady hihat. Let's do X---|X---|X---|X---, but maybe add some variation. Alternatively, X-x- to have some variation, but the user wants it to sound more metal, so maybe keep it steady but closed.
+
+Crash (C): Add crashes on the first beat of each bar. So C: O---|----|----|----
+
+Toms (T): The original has toms on every beat. Maybe reduce them or make them part of the groove. Alternatively, leave them as is but adjust the kick to be more prominent.
+
+Putting it all together:
+
+K: Maybe O-O-|O-O-|O-O-|O-O- (constant double bass eighth notes). But maybe start with O--- on the first beat, then O-O- etc. Let's try O---|O-O-|O---|O-O- to vary it a bit.
+
+Snare: Let's put the main snare hits on beats 2 and 4 with ghost notes. For example:
+
+S: -o-o| -o-O-| -o-o| -o-O- (but need to check the positions). Each bar is four 16th notes. Let's see:
+
+First bar: K is O--- (beat 1), so snare could have ghost notes on the "and" of 1 and 2? Maybe -o-o for the first beat, but need to think in terms of 16th notes.
+
+Alternatively, S: ----|O---|----|O--- → change to -o-o|O---| -o-o|O---. Hmm, maybe better to have ghost notes before the main snare hits. So for beat 2 (second quarter note), the snare hits on the second 16th note of the second beat? Not sure. Maybe:
+
+S: -o-o| -o-O-| -o-o| -o-O- where the O is the main hit on beats 2 and 4, and the o's are ghost notes.
+
+Alternatively, S: ---O|O---|---O|O--- with ghost notes around, but perhaps:
+
+Let me structure each bar as four 16th notes separated by |.
+
+Wait, the notation is four 16th notes per beat, so four beats per bar. Each bar has four beats, each beat divided into four 16th notes. So each bar is 16 characters (four groups of four). Wait, the user's example shows K: O---|----|O---|---- which is four beats, each beat has four characters (16th notes). So each | separates a beat.
+
+So in the given example, K's first bar is O--- (first beat: O on the first 16th, then three rests), then |---- (second beat: rest all), |O--- (third beat: O on first 16th), |---- (fourth beat rest).
+
+To make it metal, maybe have the kick on every 16th note, but that's too busy. Maybe a double bass pattern like O-O- on each beat. So each beat has O on first and third 16th notes. So K: O-O-|O-O-|O-O-|O-O-.
+
+Snare: Let's have the snare on beats 2 and 4, with ghost notes. For example, on the second beat (beat 2), the snare hits on the second 16th (the "and" of 1?), but need to map it correctly.
+
+Alternatively, snare hits on the second and fourth beats, with some ghost notes. Let's try:
+
+S: -o-o| -o-O-| -o-o| -o-O- where each beat is four characters. So first beat's snare has o on the third 16th (ghost note before the kick?), but need to align with the kick. Maybe the main snare hits are on the second and fourth beats' second 16th note (the "and" of the beat). So:
+
+Beat 2: the second beat's second 16th (position 2 in the second beat's four 16ths). So for S:
+
+First bar:
+
+Beat1: ---- (no snare)
+Beat2: O--- (snare hit on first 16th of beat2? Not sure. Maybe need to adjust.
+
+Alternatively, S: ----|O---|----|O--- (original) → to add ghost notes, maybe change to -o-o|O---| -o-o|O---. That way, before the main snare hits on beats 2 and 4, there are ghost notes.
+
+Hihat: Make it steady closed hihats on every 16th note: X--- repeated. So H: X---|X---|X---|X---.
+
+Crash: Add a crash on the first beat of each bar, so C: O---|----|----|----
+
+Toms: Maybe reduce them or keep as is, but in metal, toms might be less prominent. Alternatively, adjust toms to play on certain beats. But the original has toms every beat. Maybe remove some or leave them as is.
+
+Putting it all together:
+
+K: O-O-|O-O-|O-O-|O-O- (double bass every eighth note)
+S: -o-o|O---| -o-o|O--- (ghost notes before snare hits on beats 2 and 4)
+H: X---|X---|X---|X---
+C: O---|----|O---|----
+R: ---- (no ride, since hihat is active)
+
+Wait, but the original toms are O-o- every beat. Maybe that's okay, but in metal, toms might be less common unless it's a groove with them. Alternatively, reduce toms to only certain beats. Let me check:
+
+Original T: O-o-|O-o-|O-o-|O-o- (each beat has O on first 16th, o on third). Maybe keep that, but it might clash with the kick. Alternatively, remove toms for a simpler metal groove. Let's try removing toms for now.
+
+So the final might look like:
+
+K: O-O-|O-O-|O-O-|O-O-  
+S: -o-o|O---| -o-o|O---  
+H: X---|X---|X---|X---  
+C: O---|----|O---|----  
+T: ----|----|----|----  
+R: ----|----|----|----
+
+Wait, but the user's example had toms in the original. Maybe adjust toms to hit on the third beat or something. Alternatively, leave them as is but add a crash on the first beat. Alternatively, make toms part of the groove but not too busy.
+
+Alternatively, adjust the kick to have more variation. Maybe the first bar's kick is O---, then next bar O-O- etc. Let me think again.
+
+Alternatively, for a more aggressive metal groove, the kick could have syncopated hits. Maybe:
+
+K: O---|O-O-|O---|O-O-  
+S: -o-o| -o-O-| -o-o| -o-O-  
+H: X-x-|X-x-|X-x-|X-x- (varying the hihat with some open hits)
+C: O---|----|----|----
+
+Hmm, adding some variation in the hihat could add interest. Also, adding a crash on the first beat.
+
+Another approach: Metal often uses a "power chord" feel with the kick and snare. Let me structure it so kick is on 1 and 3, and the snare on 2 and 4, with ghost notes. 
+
+Kick on beats 1 and 3 (first and third 16th of each beat?), but maybe more active. Alternatively, a double bass pattern where kick is on every 16th note. 
+
+Alternatively, K: O---|OO--|O---|OO-- (alternating between single and double hits). 
+
+Wait, let's try this:
+
+Kick: O---|O-O-|O---|O-O- (so first beat kick on 1, second beat kicks on 1 and 3, etc.)
+
+Snare: -o-o| -o-O-| -o-o| -o-O- 
+
+Hihat: X---|X---|X---|X---
+
+Crash: O---|----|----|----
+
+Toms: Maybe O-o-|----|----|----
+
+But maybe that's better. Alternatively, let me try to make sure each element is contributing to a heavy metal feel.
+
+Finalizing, perhaps:
+
+K: O---|O-O-|O---|O-O-  
+S: -o-o| -o-O-| -o-o| -o-O-  
+H: X-x-|X-x-|X-x-|X-x- (some open hihats for variation)  
+C: O---|----|----|---- (crash on first beat)  
+T: ----|----|----|----
+
+This way, the kick has some variation, snare with ghost notes, hihat with some open hits for variety, and a crash at the start. That should sound more metal. Let me check the notation again to ensure it's correctly formatted with four characters per beat, separated by |.
+</think>
+
+@@@
+K: O---|O-O-|O---|O-O-  
+S: -o-o| -o-O-| -o-o| -o-O-  
+H: X-x-|X-x-|X-x-|X-x-  
+C: O---|----|----|----  
+T: ----|----|----|----  
+R: ----|----|----|----
+@@@

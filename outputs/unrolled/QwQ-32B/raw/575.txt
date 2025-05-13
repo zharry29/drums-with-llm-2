@@ -1,0 +1,59 @@
+Okay, let's see what I need to do here. The user provided a drum groove and wants me to edit it by removing any kick or snare. Let me first understand the structure of the drum notation they use.
+
+Looking at the example they gave, each line corresponds to a different drum component: K is kick, S is snare, H is hihat, T is toms, C is crash, and R is ride. Each character in the line represents a 16th note, with four characters making a beat separated by |. So there are four beats in a bar, each with four 16th notes.
+
+The given drum groove is:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+The user's request is to remove any kick (K) or snare (S). That means I need to set all the characters in the K and S lines to '-' since that denotes no hit. Let me go through each line:
+
+For the K line: Currently it's OOO-|--O-|OOO-|-OOO. Changing all those to dashes would make it "----|----|----|----".
+
+For the S line: It has ----|O---|----|O---. Similarly, replacing all non-dash characters with dashes gives "----|----|----|----".
+
+The other lines (H, T, C, R) should stay as they are unless they're part of what's being removed, but the user didn't mention those. The Hihat (H) and Toms (T) are okay, Crash (C) and Ride (R) too. 
+
+Wait, checking the original request again: "I don't want any kick or snare." So only K and S are to be removed. The rest can remain. Let me confirm each line:
+
+- K line becomes all dashes.
+- S line becomes all dashes.
+- H is already all dashes except maybe some parts? In the given, H is all dashes except maybe not? Wait, looking back:
+
+Original H line is "----|----|----|----", so no changes needed there.
+
+T is all dashes, so no change.
+
+C has "O---" in each beat. Since the user didn't mention crashes, leave them as is.
+
+R is all dashes, so no change.
+
+Putting it all together, the edited groove should have K and S lines empty, others same. Let me write that out properly with the correct formatting. Each line should have 16 characters (including the | separators). Let me count to make sure.
+
+Original K line after edit: "----|----|----|----" which is 16 characters (4 chars + | repeated 4 times). Same for S.
+
+Yes, that looks correct. So the final drum groove after editing should be:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

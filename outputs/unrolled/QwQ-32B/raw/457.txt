@@ -1,0 +1,52 @@
+Okay, let's see. The user wants me to edit a drum groove by removing any cymbal or hihat parts. The original groove is given, and I need to make sure that in the final version, the C (crash) and R (ride) lines are all dashes, and the H (hihat) line is also all dashes.
+
+First, I'll look at each line of the provided drum groove. 
+
+Starting with the Kick (K): "o---|--o-|o---|--o-". That's okay, since the user didn't mention removing kick. 
+
+Snare (S): "----|X---|--X-|----". The user didn't ask to remove snare, so this stays. 
+
+Hihat (H): "----|x---|----|x---". Since the user wants no hihat, I need to replace all the 'x's with '-'.
+
+Crash (C): "----|----|----|----". It's already empty, so that's good.
+
+Ride (R): "x---|X-x-|x---|X-x-". Need to clear this line by replacing all characters with '-'.
+
+Wait, let me double-check each line. 
+
+Original H line has 'x' in some positions. Changing those to '-' will remove the hihat. The R line has 'x' and 'X' which are ride hits, so those need to be dashes. 
+
+So the edited version should have:
+
+K remains the same.
+
+S remains the same.
+
+H becomes all '-'.
+
+C is already clear.
+
+R becomes all '-'.
+
+Let me write that out:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, the Toms (T) line was already all dashes, so no change there. 
+
+I think that's it. Just make sure that H and R lines are all dashes. Let me check again. Yes, the user said no cymbals (C and R) and no hihat (H). So crash is C, ride is R, hihat is H. All those lines should be cleared. The provided C line was already empty, so only H and R need changes.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

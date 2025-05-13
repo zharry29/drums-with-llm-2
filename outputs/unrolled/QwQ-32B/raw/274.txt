@@ -1,0 +1,27 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only ride but also kick. Looking at the original groove:
+
+Kick (K) is already present with some soft hits (o and --o- patterns), but the Ride (R) is only playing on certain notes. The edit request is to ensure both ride and kick are present. Wait, the kick is already there, so maybe the user wants to add more kick or make sure the ride is more prominent? Let me check again.
+
+The original K line has "o---|--o-|o---|--o-", so there's kick activity. The Ride (R) has "x---|X-x-|x---|X-x-", which is some activity but maybe not enough. The user might want to reinforce the ride to complement the kick.
+
+Hmm, maybe they want the ride to be more consistent, like adding a steady pattern. The current ride has some closed hits (X and x) but maybe a common approach is to have a steady eighth or sixteenth note pattern on ride. Let's see. Since the kick is already there, adding a consistent ride pattern like -X-X or similar would add more drive.
+
+Alternatively, maybe the user wants to ensure that wherever there's a kick, there's also a ride hit? Let me look at the kick and ride lines together:
+
+In the first beat, K is o--- and R is x---. The kick hits on the first 16th note, but the ride is silent there. To add ride where kick is present, maybe place a ride hit on the first note of each beat. Alternatively, create a steady ride pattern across all beats.
+
+Another consideration: the user's previous edits often added a repeating -X-X pattern across all beats for the ride. For example, in past responses, when adding ride, they used something like -X-X|-X-X etc. Maybe that's the pattern to follow here for consistency.
+
+So, the plan is to replace the current R line with a steady -X-X pattern across all four beats, ensuring the ride is active throughout, while keeping the existing kick. Let's check if that works with the rest of the groove. The snare has some sidestick hits, and the hihat is minimal. Adding a consistent ride would add stability.
+
+Testing the pattern: R: -X-X|-X-X|-X-X|-X-X. That should provide a steady closed ride rhythm, complementing the kick's pattern. This should fulfill the requirement of having both kick and ride prominently.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: -X-X|-X-X|-X-X|-X-X
+@@@

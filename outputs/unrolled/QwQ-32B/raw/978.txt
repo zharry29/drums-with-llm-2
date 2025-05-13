@@ -1,0 +1,51 @@
+Okay, let's tackle this drum groove edit. The user wants "less notes," so I need to simplify the given groove. Let me first parse the original groove to understand where the notes are.
+
+Starting with the Kick (K): "OOO-|--O-|OOO-|-OOO". That's a lot of hits. Maybe reduce some of the O's to dashes. The Snare (S) has hits on the second and fourth beats: "----|O---|----|O---". Maybe cut one of those. The Toms (T) and Hihat (H) are silent except for crashes and other instruments. The Crash (C) is hitting every beat: "O---|O---|O---|O---". That's four crashes, which is a lot. The Ride (R) is empty, so maybe leave that as is unless needed.
+
+The user wants fewer notes, so I should look for instruments with the most activity. The Kick has a lot of hits, especially in the first and third beats. The Crash is hitting every beat, so reducing that would help. Let me try cutting the Kick's activity. Maybe make the first beat "O---" instead of "OOO-". The third beat could be "O---" too. For the Snare, maybe remove the fourth beat hit. The Crash could be reduced to every other beat. Let me draft:
+
+K: O---|--O-|O---|----  
+S: ----|O---|----|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|----|O---|----  
+R: ----|----|----|----
+
+Wait, that might be too sparse. Alternatively, keep some kick activity but reduce the multiple hits. Original K had "OOO-" on first and third beats. Maybe change to "O--O" or "O-O-". Let me try:
+
+K: O--O|--O-|O--O|----  
+S: ----|O---|----|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|----|O---|----  
+R: ----|----|----|----
+
+Hmm, that reduces the kick's density. Alternatively, maybe just keep one hit per beat for kick and crash. Let me check again. The user might prefer minimal changes but fewer notes. Maybe the Crash can be on the first beat only. Let me try another version:
+
+K: O---|----|O---|----  
+S: ----|O---|----|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|----|----|----  
+R: ----|----|----|----
+
+This removes most notes, but maybe too much. Alternatively, keep two crashes and some kick:
+
+K: O---|--O-|O---|----  
+S: ----|O---|----|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|----|O---|----  
+R: ----|----|----|----
+
+I think this reduces the density without removing everything. Let me check the original again to ensure I'm not missing anything. The original had tom and hihat inactive except crashes. The user said "less notes," so this should work.
+</think>
+
+@@@
+K: O---|--O-|O---|----  
+S: ----|O---|----|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|----|O---|----  
+R: ----|----|----|----  
+@@@

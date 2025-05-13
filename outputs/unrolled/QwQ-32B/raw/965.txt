@@ -1,0 +1,32 @@
+Alright, let's tackle this drum groove edit. The user wants to remove the tom hits on beat 4 but keep everything else the same. First, I need to look at the original groove provided.
+
+Looking at the Toms line (T:), the current pattern is "----|----|----|----". Wait, actually, in the given drum groove, the T line is all dashes. Hmm, maybe I misread. Let me check again. The user's input shows:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+So the Toms line is all dashes, meaning there are no tom hits in the original. The user's request mentions removing tom on beat 4, but if there are no toms playing on beat 4 already, then maybe there's a mistake. Alternatively, perhaps there was a typo or the user intended another line. Wait, maybe I should check if another line has toms. Let me see:
+
+Looking at the Toms line (T:), it's indeed all dashes. The other lines are Kick, Snare, Hihat, Crash, and Ride. The user might have confused another instrument with Toms. Alternatively, maybe in the original problem statement, there was a different setup, but according to the given groove, Toms aren't active. 
+
+Since the user specifically mentioned "tom on beat 4", but in the provided data, there's nothing there, the correct response would be to leave it as is. However, maybe I missed something. Let me double-check each line again. 
+
+Wait, perhaps the user intended to refer to another instrument? For example, maybe the Ride or Crash? But the edit request clearly states "tom on beat 4". Since the Toms line is already clear, the edited version remains unchanged. So the final answer should be the same as the original, but I should confirm that. 
+
+Alternatively, maybe there was a mistake in the input. To be safe, I'll proceed with the given data and ensure that the Toms line remains all dashes, thus fulfilling the request since there's nothing to remove.
+</think>
+
+@@@
+K: O--O|----|--O-|----  
+S: ----|Oo-o|-o--|O--o  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: o-O-|o-O-|o-O-|o-O-  
+@@@

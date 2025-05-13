@@ -1,0 +1,40 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any snare or tom parts. Let me first look at the given groove to understand what needs to be changed.
+
+The original groove is:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+So, the user's request is to eliminate the snare (S) and tom (T) parts. Let me check each line:
+
+- **Kick (K):** Looks okay, no changes needed here since it's not part of what's being removed.
+- **Snare (S):** The S line has hits in the second and fourth beats. I need to replace all those with '-' to remove the snare.
+- **Hihat (H):** The user didn't mention removing hihat, so leave it as is unless there's a mistake. Wait, the request was snare or tom. So Hihat stays.
+- **Toms (T):** Already all '-' so no change needed.
+- **Crash (C) and Ride (R):** Not mentioned, so leave them.
+
+Wait, but the user said "no snare or tom". Since Toms are already empty, only the S line needs adjustment. Let me double-check:
+
+Original S line: "----|O---|----|O---" so in the second and fourth beats, there are O's. Replacing those with '-' will remove the snare hits.
+
+So the edited S line should be all '-'.
+
+H line remains as it's hihat, which is allowed. The crash and ride are unaffected unless specified. The user didn't mention them, so leave crashes as they are.
+
+Putting it all together, the new groove should have the S line cleared and T remains empty. Let me write that out.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|----|----|----
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

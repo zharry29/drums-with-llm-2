@@ -1,0 +1,30 @@
+Okay, let's tackle this drum groove edit. The user wants a kick hit and a tom in the very beginning. The original groove is:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+First, I need to look at the first beat (before the first |). The kick (K) starts with "O---", so the first 16th note is already a hard kick hit. But the user wants a tom hit there too. The tom line (T) is all dashes in the first beat, so adding an "O" (hard hit) on the first 16th note would add the tom. 
+
+Wait, the user said "kick hit and tom in the very beginning." The kick is already there, so maybe they want an additional tom hit alongside? Let me check previous examples. In prior edits, when adding a tom and kick, they just added the tom's O in the first position. Since the kick is already present, the edit is just adding the tom. 
+
+So for the first beat of the tom line (T), change the first character from '-' to 'O', making T: O---|.... 
+
+Let me double-check the notation rules. For Toms, O is a hard hit. That's correct. The rest of the groove remains the same. So the new T line would start with O---. 
+
+Looking at the other lines, the crash (C) has a hard hit in the first beat. The user didn't mention changing that, so leave it as is. The hihat (H) starts with --o-, which is okay. The snare (S) is empty in the first beat. 
+
+So the final edited groove should have the Tom line's first beat as O---, while keeping the Kick's first hit. That should satisfy the request.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

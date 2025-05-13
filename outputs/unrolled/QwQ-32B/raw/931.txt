@@ -1,0 +1,36 @@
+Okay, let me tackle this problem step by step. The user wants me to modify a drum groove by removing the snare on beat 4 while keeping everything else the same. First, I need to understand the existing groove structure.
+
+Looking at the given drum groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+The snare (S line) has "O---" in the fourth beat (the part after the last |). The user wants to eliminate the snare on beat 4. So, I should change the fourth beat of the snare line from "O---" to "----", making sure not to affect other parts. 
+
+Let me check each line to confirm:
+
+- **Kick (K):** No changes needed since the request is about the snare.
+- **Snare (S):** The fourth beat is "|O---", so replacing the 'O' with '-' to make "----".
+- **Hihat (H), Toms (T), Crash (C), Ride (R):** All other lines are okay as per the request.
+
+Wait, the crash (C) has "O---" on beat 4. But the user only mentioned removing the snare. So leaving the crash as is is correct. 
+
+Double-checking the notation: Each beat is separated by |, so the fourth beat is the last segment. The S line's fourth segment is "O---", so replacing the first character (the 16th note of beat 4) with '-' would make it "----".
+
+So the edited S line becomes: ----|O---|----|----
+
+Putting it all together, the final groove should look like this with the snare's fourth beat cleared.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

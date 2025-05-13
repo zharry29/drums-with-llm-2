@@ -1,0 +1,93 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only tom but also snare. Looking at the original provided groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+First, I notice that the snare (S) and toms (T) are completely inactive. The kick (K) is also silent. The hihat (H) has some closed hits on the second and fourth beats, and the ride (R) has a pattern with some closed hits. The user wants to add both tom and snare, so I need to introduce those elements without removing the existing ride and hihat parts.
+
+Starting with the snare. Since there's no snare at all, a common placement would be on the backbeat (beats 2 and 4). Let's try putting hard hits (O) on those positions. For example, in the second and fourth beats of the snare line. Let's see:
+
+S: ----|O---|----|O---
+
+But maybe adding some variation. Alternatively, maybe a more syncopated pattern. Since the ride has some activity, maybe sync with that. Alternatively, start simple with O on beats 2 and 4.
+
+Now for the toms. The user wants "not only tom" which might mean they want more than just one tom hit? Or maybe the original had no toms, so adding some. Let's add tom hits (O) perhaps on offbeats to complement the snare. For example, maybe on the "and" of beats 1 and 3. Let's try:
+
+T: --O-|--O-|--O-|--O-
+
+This would place a tom hit on the eighth note after each beat, creating a steady tom pattern. Alternatively, maybe a different pattern, but this is a common approach for a tom fill or groove.
+
+Also, check if kick is needed. The original kick is all dashes. Maybe adding some kick to ground the beat. But the user didn't mention kick, so maybe leave it as is unless necessary. Since the user didn't specify kick, perhaps leave K as all dashes unless adding kick would help. Alternatively, maybe a simple kick on beat 1 and 3? Let's see:
+
+K: O---|--O-|O---|--O-
+
+But the user might not want kick, but since the original had no kick, maybe better to keep it as per user's edit request which only mentions tom and snare. So maybe leave K as all dashes unless necessary. But perhaps the kick is optional here. The user's instruction is to add tom and snare, so focus on those.
+
+Putting it all together:
+
+Snare (S) gets O on beats 2 and 4. Toms (T) get a steady eighth note pattern. Let me check the existing ride and hihat to ensure they don't clash. The hihat is on the "and" of 2 and 4, so the tom on the "and" of 1 and 3 would fit. The ride has X on the second and fourth beats' "and" perhaps? Wait the ride line is x---|X-x-|x---|X-x-. Let me parse that:
+
+First beat (R): x--- → first 16th note is a closed hit (x)
+Second beat: X-x- → first 16th is X (hard closed?), then - , then x, then -
+Wait, the ride notation: X and x are closed hits. So maybe the second beat has a hard closed hit on the first 16th, then a soft on the third.
+
+Hmm, but the main point is that adding the tom and snare should complement without clashing. The snare on 2 and 4, tom on the "and" of 1 and 3 should work.
+
+So the edited groove would be:
+
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|x---|----|x---
+T: --O-|--O-|--O-|--O-
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+Wait but in the T line, each beat is four characters. Let me check the tom line:
+
+Each bar has four beats, each with four 16th notes. So for T: --O-|--O-|--O-|--O- means:
+
+Beat 1: --O- → third 16th note (the "&" of beat 1)
+Beat 2: --O- → same position on beat 2
+Wait, no. Let's parse each beat:
+
+First beat: "--O-" → 16th notes 1: -, 2: -, 3: O, 4: -
+So that's an O on the third 16th of the first beat, which is the "and" of beat 1.
+
+Similarly, each beat's third 16th note has an O. So the tom is hitting on every "&" of each beat. That should work as a steady tom pattern.
+
+Alternatively, maybe a different tom pattern, but this is straightforward.
+
+Alternatively, maybe the user wants more tom hits, but the minimal addition would be this. Since the user said "not only tom" implying they want tom in addition to snare, but the original had no tom or snare, so adding both.
+
+Wait the user's request is "The groove should have not only tom but also snare." Wait, maybe the original had tom but not snare? Let me check the original provided groove again.
+
+Original groove:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+Ah, right! The original has no tom and no snare. So the user wants both added. So the edit needs to include both.
+
+So the above edit adds S and T. That should be correct. Let me check again.
+
+Yes, so the final answer should have S with O on beats 2 and 4, and T with a consistent pattern. I think that's the way to go.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|x---|----|x---
+T: --O-|--O-|--O-|--O-
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

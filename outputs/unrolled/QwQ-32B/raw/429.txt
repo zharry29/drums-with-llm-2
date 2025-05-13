@@ -1,0 +1,39 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any tom or kick parts from the given groove. 
+
+First, I'll look at the original groove provided. Let me parse each line:
+
+**Kick (K):** O---|---o|O-O-|----
+**Snare (S):** ----|O---|----|O---
+**Hihat (H):** --o-|O-o-|O-o-|O-o-
+**Toms (T):** ----|----|----|----
+**Crash (C):** O---|----|----|----
+**Ride (R):** ----|----|----|----
+
+The user's request is to eliminate the kick (K) and tom (T) parts. Since Toms are already all dashes, I just need to set the K line to all dashes. 
+
+Wait, checking the T line: it's already empty, so no changes there. The main change is the K line. Let me make sure:
+
+- Keep the Snare (S) as is unless there's overlap with toms, but since T is empty, no conflict.
+- Hihat (H) stays the same.
+- Crash (C) remains, and Ride (R) is untouched.
+
+So the edited version should have K set to all '-', T remains as '-', and others stay unless they had tom elements, which they don't. Let me confirm each line:
+
+**Edited K:** ----|----|----|----
+**S remains:** ----|O---|----|O---
+**H remains:** --o-|O-o-|O-o-|O-o-
+**T stays:** ----|----|----|----
+**C remains:** O---|----|----|----
+**R stays:** ----|----|----|----
+
+Wait, but in the original, the user might have a crash on the first beat. Since they didn't mention removing crashes, it's okay. The key is to remove kick and toms only. The T line was already clear. So the final edited groove should look like that. Let me double-check the user's instruction again to ensure I didn't miss anything. Yep, just no tom or kick. So this should be correct.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

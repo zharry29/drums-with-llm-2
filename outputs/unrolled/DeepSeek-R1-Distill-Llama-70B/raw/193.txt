@@ -1,0 +1,34 @@
+Okay, so I need to help the user edit their drum groove to include both tom and snare. Let me start by understanding the problem.
+
+First, I'll look at the original drum groove they provided. It has the following lines for each instrument:
+
+- **K (Kick drum):** O---|O---|----|O---
+- **S (Snare drum):** ----|----|O---|----
+- **H (Hihat):** ----|----|----|----
+- **T (Toms):** O-o-|O-o-|O-o-|O-o-
+- **C (Crash cymbal):** ----|----|----|----
+- **R (Ride cymbal):** ----|----|----|----
+
+The user wants the groove to have not only tom but also snare. From the original groove, I can see that the snare is only played on the third beat of the second bar. The toms are played consistently throughout with a pattern of O-o-|O-o-|O-o-|O-o-.
+
+My goal is to enhance the groove by adding more snare hits while keeping the tom hits. I should ensure that the snare and tom hits complement each other without clashing.
+
+Let me think about where to add the snare hits. Typically, in many grooves, the snare is played on beats 2 and 4, creating a backbeat. Since the user's groove is already using the snare on beat 3 of the second bar, I can add snare hits on beats 2 and 4 in each bar to create a more driving rhythm.
+
+Looking at the hihat line, it's currently empty. Adding some hihat articulation will make the groove more dynamic. I'll add a steady 16th-note pattern using 'x' for soft closed hits to keep it subtle but present.
+
+For the toms, the existing pattern is good, but I can make it a bit more interesting by varying the articulation. I'll keep the 'O' for hard hits and 'o' for soft hits, but adjust the pattern slightly to add some variety without losing the consistency.
+
+The crash cymbal is currently not used, so I'll leave it out to keep the focus on the snare and tom. The ride cymbal is also not used in the original, so I'll add a simple pattern to add some texture without overpowering the other instruments.
+
+Putting it all together, I'll adjust each line to incorporate these changes, ensuring that the groove remains balanced and cohesive.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|O---|----|O---
+H: x-x-|x-x-|x-x-|x-x-
+T: O---|O---|O---|O---
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

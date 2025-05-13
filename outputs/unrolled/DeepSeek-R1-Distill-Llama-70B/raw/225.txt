@@ -1,0 +1,23 @@
+Alright, let me try to figure out how to approach this problem. So, I'm given a drum groove and an edit request. The original groove doesn't have any kick drum or tom hits, and the edit request is to add both. 
+
+First, I need to understand the drum notation. It looks like each line represents a different drum or cymbal. The characters in each line show when and how each instrument is played. For example, "O" is a hard hit for the kick drum, and "o" is a soft hit. For the snare, "O" is a hard hit, "o" is a soft open hit, and "X" and "x" are sidestick hits.
+
+Looking at the original groove, the kick drum (K) and tom (T) lines are all "-", meaning they're not played at all. The edit request is to add both kick and tom, so I need to decide where to place these hits.
+
+I'll start by adding kick drum hits. In most music, the kick drum often plays on beats 1 and 3, providing a solid foundation. So, I'll place "O" on the first and third beats of each bar for the kick drum.
+
+Next, for the tom hits, they usually play on off-beats or to add flavor. I'll add a soft tom hit ("o") on the second and fourth beats of the second bar to give it some movement without overpowering the kick.
+
+I'll make sure not to change the other instruments unless necessary. The hihat (H) has a steady rhythm, and the ride cymbal (R) has a nice pattern, so I'll leave those as they are.
+
+Finally, I'll double-check to ensure that the kick and tom hits are added correctly and that the overall groove still flows well together.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|o---
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

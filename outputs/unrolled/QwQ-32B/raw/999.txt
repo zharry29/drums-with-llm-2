@@ -1,0 +1,26 @@
+Okay, let's tackle this drum groove edit. The user wants the closed hihat on all 16th notes with accents on the quarter note downbeats. 
+
+First, I need to understand the original groove. The Hihat line is "--o-|O-o-|O-o-|O-o-". That means it's playing open and closed hits in some places. The request is to have closed hihat on every 16th note, so I need to replace all non '-' characters with closed hits. But also, the accents (hard hits) should be on the quarter notes. 
+
+Quarter notes are the first 16th note of each beat. So in each beat group (like the first |----|), the first note should be an 'X' (hard closed hit) and the rest 'x' (soft closed). So each beat would be Xxxx. Repeating that for all four beats gives Xxxx|Xxxx|Xxxx|Xxxx. 
+
+Now check other instruments. The Kick and Snare have their own patterns. Since the user only mentioned the hihat change, I should leave the rest as is unless conflicting. The original Hihat has some open hits (O and o), which need to be replaced. 
+
+So replacing the H line with Xxxx for each beat. Let me verify:
+
+Original H: "--o-|O-o-|O-o-|O-o-"
+New H: "Xxxx|Xxxx|Xxxx|Xxxx"
+
+That should cover all 16th notes with closed hihat, and the first of each beat is 'X' (accent). The other instruments remain unchanged. Let me make sure no other parts are affected. Kick and Snare lines stay the same. Crash and Ride are silent except for the original C and R lines. 
+
+Yes, this should meet the request. Final check for any mistakes. Looks good.
+</think>
+
+@@@
+K: O---|---o|O-O-|----  
+S: ----|O---|----|O---  
+H: Xxxx|Xxxx|Xxxx|Xxxx  
+T: ----|----|----|----  
+C: O---|----|----|----  
+R: ----|----|----|----  
+@@@

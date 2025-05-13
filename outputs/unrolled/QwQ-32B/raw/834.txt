@@ -1,0 +1,23 @@
+Okay, let's tackle this drum groove edit. The user wants a tom hit and a kick in the very beginning. Let me first look at the original groove to see what's there.
+
+The original K (kick) line starts with "O---|----|O---|----". So the first beat has a hard kick on the first 16th note. The T (toms) line is all dashes, meaning no tom hits yet. The user wants a tom hit along with the kick at the very start. 
+
+Since the first beat's kick is already an "O" (hard hit), maybe we can add a tom hit on the same 16th note. The tom's notation uses O and o, so a hard hit would be "O". To add a tom hit on the first 16th note of the first beat, the T line's first character should be "O". 
+
+But I need to check if there's space. The original T line is "----|----|----|----", so changing the first character to "O" would add the tom hit. That should work. 
+
+Wait, the user specified "tom hit and kick in the very beginning". The kick is already there, so adding the tom on the same note makes sense. Let me make sure not to conflict with other instruments. The snare (S) starts with "----", so no conflict there. 
+
+So the edited T line would start with "O---|..." and the K line remains the same. Let me confirm the positions. Each 4 characters are a beat, so the first four characters are the first beat. The first character is the first 16th note. 
+
+Yes, so changing T's first character to O adds the tom hit on the first 16th note. That should satisfy the request. Let me write the final version.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: O---|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

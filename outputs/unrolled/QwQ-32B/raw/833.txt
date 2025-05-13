@@ -1,0 +1,62 @@
+Alright, let's tackle this drum groove edit. The user wants a tom hit and a kick in the very beginning. Let me first look at the original groove provided.
+
+The original drum notation is:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+So, breaking this down:
+
+- **Kick (K):** No hits in the first beat (all dashes).
+- **Snare (S):** Also no hits in the first beat.
+- **Hihat (H):** Starts with closed hits on the second 16th note of the second beat.
+- **Toms (T):** No hits anywhere.
+- **Ride (R):** Starts with a soft closed hit on the first 16th note of the first beat, then alternates between harder and softer closed hits.
+
+The user's request is to add a tom hit and a kick in the very beginning. The "very beginning" would be the first 16th note of the first beat. Since each beat is divided into four 16th notes separated by |, the first beat's first note is the first character in each line.
+
+First, I need to ensure that the kick (K) and tom (T) are hit on the first 16th note. 
+
+For the kick, a hard hit is denoted by 'O', so I'll set the first character of K to 'O'. 
+
+For the tom, a hard hit is also 'O', so the first character of T should be 'O'.
+
+But I need to check if there are any existing hits that might conflict. Looking at the original, the first beat for K and T are all dashes, so it's safe to add there. 
+
+Wait, but the ride (R) already has an 'x' on the first note. The user didn't mention changing the ride, so I should keep that. So the first note will have K:O, T:O, and R:x. That's okay as they can be played simultaneously.
+
+So modifying the first beat for K and T:
+
+K: O---|----|----|----
+T: O---|----|----|----
+
+Let me double-check the rules to make sure I'm using the correct symbols. For K and T, 'O' is a hard hit, which fits the request for a "hit" without specifying softness. 
+
+The rest of the groove should stay the same. Let's put it all together:
+
+K: O---|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: O---|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+Wait, but the original R line starts with 'x---', which is a soft closed hit. The user didn't mention changing the ride, so that's okay. The kick and tom are added without conflicting. 
+
+I think that's it. The first note now has both a kick and tom hit, fulfilling the request.
+</think>
+
+@@@
+K: O---|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: O---|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

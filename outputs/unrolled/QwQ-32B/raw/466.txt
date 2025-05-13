@@ -1,0 +1,30 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any hihat or snare from the given groove. First, I'll look at the original drum notation provided to understand each instrument's role.
+
+The original groove has the kick (K), snare (S), hihat (H), toms (T), crash (C), and ride (R) lines. The user's request is to eliminate both the hihat and snare. 
+
+Starting with the snare (S line): In the given groove, the snare has hits in the second and fourth beats. To remove them, I'll replace all non '-' characters in the S line with '-'. That means changing "O---|----|----|O---" to all dashes.
+
+Next, the hihat (H line): The hihat has a pattern with various hits like "--o-|O-o-|O-o-|O-o-". Removing the hihat means replacing every character in the H line with '-', turning it into "----|----|----|----".
+
+I need to ensure that only the specified instruments are removed and others remain untouched. The kick drum, toms, and crash should stay as they are. Let me check each line:
+
+- **Kick (K):** Remains "O---|---o|O-O-|----".
+- **Snare (S):** Now all '-'.
+- **Hihat (H):** All '-'.
+- **Toms (T):** Still "----|----|----|----".
+- **Crash (C):** Remains "O---|----|----|----".
+- **Ride (R):** Already empty, so stays "----|----|----|----".
+
+Wait, the user mentioned removing hihat and snare, so crash is allowed? The edit request didn't mention crash, so it should stay. Yes, that's correct. 
+
+Double-checking each line for any remaining snare or hihat hits. The S and H lines are now all dashes. The other instruments are unchanged. This should fulfill the user's request. Let me format it properly between the @@@ markers.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,37 @@
+Okay, let's tackle this edit request. The user wants to remove any hihat or ride from the given drum groove. 
+
+First, I need to recall which lines correspond to each instrument. The given groove has:
+
+- **K (Kick):** O---|O---|----|O---
+- **S (Snare):** ----|----|O---|----
+- **H (Hihat):** ----|----|----|----
+- **T (Toms):** O-o-|O-o-|O-o-|O-o-
+- **C (Crash):** ----|----|----|----
+- **R (Ride):** ----|----|----|----
+
+The user's request is to eliminate hihat (H) and ride (R). Looking at the current setup, the Hihat line is already all dashes, so there's nothing to remove there. The Ride line (R) is also all dashes, meaning it's not being used anyway. 
+
+Wait a second, maybe I should double-check. The user might have thought there were elements there, but according to the provided groove, both H and R are inactive. However, to comply strictly with the request, even if they're already empty, I should set them explicitly to dashes in the final output. 
+
+So, the edited groove should keep the Kick, Snare, Toms, and Crash as they are, and ensure H and R are all dashes. Let me confirm each line:
+
+- **K:** stays the same.
+- **S:** stays the same.
+- **H:** set to all '-' since the user doesn't want hihat.
+- **T:** remains unchanged.
+- **C:** no change here.
+- **R:** set to all '-' as per the request.
+
+Wait, but in the original, R was already all dashes. So the main thing is to ensure that in the final output, H and R lines are cleared, even if they were already empty. That way, the user's request is fully addressed. 
+
+Therefore, the final edited groove should look exactly like the original except for the H and R lines, which are already clear. But to make it explicit, I'll format it accordingly.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

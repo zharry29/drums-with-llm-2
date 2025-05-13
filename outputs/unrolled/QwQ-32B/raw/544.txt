@@ -1,0 +1,40 @@
+Okay, let's tackle this drum groove edit. The user provided a specific drum notation and wants me to remove any ride or kick elements. Let me start by understanding the original groove.
+
+Looking at the given drum groove:
+
+K: ----|----|----|----  
+S: ----|----|----|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-
+
+First, I need to identify which lines correspond to the instruments mentioned. 
+
+- **K** is the Kick drum. The user said "no kick," so I should set all K line characters to '-'.
+- **R** is the Ride cymbal. The edit request also says "no ride," so the entire R line should be '-'.
+
+The other instruments (S, H, T, C) are allowed unless specified. Let's check:
+
+- **S** (Snare) is all '-', so no changes there.
+- **H** (Hihat) has some 'x' hits. Since the user didn't mention hihat, it stays.
+- **T** (Toms) and **C** (Crash) are already empty, so no action needed there.
+
+Now, applying the changes:
+
+1. **Kick (K):** Replace all characters with '-'.
+2. **Ride (R):** Replace all characters with '-'.
+
+The hihat (H) remains as is because the user didn't ask to remove it. Let me double-check the original R line to ensure I'm not missing any ride hits. The R line was "x---|X-x-|x---|X-x-", so setting those to '-' removes all ride activity.
+
+Final check to ensure no kick or ride remains and other parts are untouched. Looks good!
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

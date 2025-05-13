@@ -1,0 +1,48 @@
+Alright, let's tackle this drum groove edit. The user provided a drum pattern and wants to remove any kick (K) or hihat (H) parts. Let me first parse the original groove to understand what needs to be changed.
+
+Looking at the given drum groove:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+The user's request is to eliminate kick and hihat. So I need to set all K and H lines to all '-' characters. Let me check each line:
+
+- **Kick (K):** The current pattern has some hits like O--O in the first beat. Removing these means replacing every non '-' in K's line with '-'.
+- **Hihat (H):** Already all '-', so no change there, but to be thorough, ensure it's clear.
+- The other instruments (S, T, C, R) should stay as they are unless they conflict, but the user only mentioned removing kick and hihat.
+
+Wait, the S (snare) and R (ride) have patterns. Since the user didn't mention those, leave them. Let me reconstruct each line:
+
+For K line: Replace everything with '----|----|----|----'
+
+H line remains '----|----|----|----'
+
+Check the other lines:
+
+S: ----|Oo-o|-o--|O--o → stays
+
+T: all '-' → stays
+
+C: all '-' → stays
+
+R: o-O-|o-O-|o-O-|o-O- → stays
+
+So the edited groove should have K and H lines cleared. Let me write that out properly, ensuring the structure with | between beats and 16 characters total.
+
+Double-checking each line's length. Each line should have four beats (four groups of four characters separated by |), totaling 16 characters. For example, K's line becomes four groups of '----', so "----|----|----|----".
+
+Yes, that's correct. The rest of the lines remain unchanged. That should fulfill the user's request.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

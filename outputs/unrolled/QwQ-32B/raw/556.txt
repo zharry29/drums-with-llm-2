@@ -1,0 +1,32 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any tom and snare parts from the given groove. Let me first parse the original groove to see what's there.
+
+Looking at the provided drum notation:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+So, the kick (K) has some hard hits, the snare (S) has hits on the second and fourth beats, crashes (C) are hitting every beat, and the rest are empty except for the kick and snare. The user wants no tom (T) or snare (S). Since T is already empty, I just need to remove the snare by replacing its line with all dashes. Also, check if there's any other instruments involved. The crash is present, but the user didn't mention removing crashes, so leave C as is. The ride (R) is empty, so that stays.
+
+So, the edited version should have S line all dashes, keep K, H, T, C, R as they are except S. Let me double-check:
+
+Original S line:  
+S: ----|O---|----|O---  
+
+After removing snare:  
+S: ----|----|----|----
+
+Yes. The rest of the lines (K, H, T, C, R) stay the same. So the final groove should look like this with the S line cleared.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|----|----|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+@@@

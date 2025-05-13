@@ -1,0 +1,199 @@
+Okay, let me tackle this drum groove edit. The user wants to add ghost notes on the snare while keeping the kick the same. First, I need to understand the existing groove.
+
+Looking at the given drum groove:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+The snare (S) currently has only an 'S' in the third beat of the third segment. But according to the notation rules, 'S' isn't listed as a valid character for the snare. Wait, the user's notation says for S: O, o, X, x are valid. Oh, maybe that's a typo? The original problem might have a mistake here. Let me check the user's input again. Oh, in the user's provided groove, the S line has 'S---' but according to the notation, valid characters are O, o, X, x. So perhaps that's an error. Maybe the user intended an 'O' there? I'll proceed assuming that maybe it's a typo and the snare hit is supposed to be an O.
+
+So the snare currently has a hit on the third 16th note of the third beat (third segment). To add ghost notes, which are soft hits, I should use 'o' on the snare. Ghost notes are typically softer and often placed around the main hits to add texture.
+
+The user's request is to add ghost notes on the snare. Let me look at each segment:
+
+First segment: K: -O-- | ... S is all dashes. Maybe add some o's here. But need to see where the kick is. The kick here has a hit on the second 16th note of the first beat. Maybe add ghost notes on the offbeats.
+
+Second segment: K: OO-- | ... The kick hits on first and second 16th notes. The snare is all dashes here. Maybe add ghost notes here as well.
+
+Third segment: K: ---O | ... Kick on the fourth 16th note of the third beat. The snare has an O on the third 16th note of the third beat. Adding ghost notes around that.
+
+Fourth segment: K: -OO- | ... Kick on second and third 16th notes. The snare is dashes here except maybe the last part? Wait the fourth segment's S line is ----, so nothing. Need to add ghost notes there too.
+
+So the plan is to insert 'o's on the snare where appropriate without conflicting with existing hits. Let me go beat by beat.
+
+First segment (K: -O--):
+
+The kick hits on the second 16th note (position 2). Maybe add ghost notes on the first and third 16th notes of the first beat. So S: o-o- ?
+
+Second segment (K: OO--):
+
+Kick hits on first and second. Maybe ghost notes on third and fourth? Or maybe on the offbeats. Since the kick is on 1 and 2, maybe ghost on 3 and 4? So S: -o-o ?
+
+Third segment (K: ---O | ...):
+
+The third segment's third beat has the kick on the fourth 16th note (position 4 of that beat). The snare has an O on the third 16th note (position 3). So maybe add ghost notes on positions 1 and 2, or maybe 4? Let's see. The existing S line here is S---, which I'll assume is O---. Adding o's before and after the main hit? So maybe o-O- or something. Wait, the third segment's S line is "S---", so the third beat's third 16th note is the hit. Let's adjust that to O, so the third beat's third position is O. Then, adding o's on positions 1 and 2, maybe?
+
+Fourth segment (K: -OO-):
+
+Kick hits on positions 2 and 3. The snare is empty. Maybe ghost notes on 1 and 4? So S: o--o ?
+
+Putting it all together:
+
+First segment S: o-o- (assuming that's the first beat's S line)
+Second segment S: -o-o (for the second beat)
+Third segment: Maybe the third beat (third segment) has the existing O on position 3. So adding o's before and after. Let's say the third beat's S line is o-O- (so positions 1, 3). But the existing third segment's S is S---, so maybe the third beat's third position is O, so the third segment's third beat's S would be o-O- ?
+
+Wait, let me structure each beat properly. Let me break down each segment into beats:
+
+The entire S line is four beats separated by |. Let me parse each beat:
+
+Original S line: "----|----|S---|----"
+
+Breaking into beats:
+
+Beat1: ----
+Beat2: ----
+Beat3: S---
+Beat4: ----
+
+Assuming that 'S' is a typo and should be 'O', then beat3's third position is O. To add ghost notes around it, in beat3, maybe positions 1 and 2 as o, so beat3 becomes o-oO. But that might be too much. Alternatively, o on the first and third? Hmm.
+
+Alternatively, in beat3, maybe ghost notes on positions 1 and 2, then the main hit on 3. So "o-oO".
+
+For beat4, which is all dashes, adding some ghost notes, like on positions 1 and 3: "o--o" or similar.
+
+Putting this all together:
+
+First beat (Beat1): Let's add o on 1 and 3: "o-o-"
+
+Second beat (Beat2): Maybe add o on 3 and 4: "-o-o"
+
+Third beat (Beat3): o on 1 and 2, then O on 3: "ooO-"
+
+Fourth beat (Beat4): Add o on 1 and 3: "o-o-"
+
+Wait, but the fourth beat's K is -OO- (positions 2 and 3). So maybe ghost notes on 1 and 4? So "o--o".
+
+Putting all together:
+
+S: o-o- | -o-o | ooO- | o--o
+
+But let me check each beat's structure. Each beat is four characters. Let me ensure that each beat has exactly four characters.
+
+Alternatively, maybe a more even distribution. Let me try:
+
+First beat: o--- (but that might be too sparse). Alternatively, -o-o? But the kick is on position 2, so maybe ghost on 1 and 3.
+
+Wait, perhaps a better approach is to place ghost notes on the "ands" (the offbeats) where there are no kicks. Let's see:
+
+In the first segment (K: -O--):
+
+Beat1: positions 1: -, 2: O (kick), 3: -, 4: -
+
+So the kick is on 2. Ghost notes could be on 1,3,4. Maybe add o on 1 and 3: o-o-.
+
+Second segment (K: OO--):
+
+Beat2: positions 1: O (kick), 2: O (kick), 3: -, 4: -
+
+So the kicks are on 1 and 2. Ghost notes could be on 3 and 4: -o-o.
+
+Third segment (K: ---O):
+
+Beat3: positions 1: -, 2: -, 3: -, 4: O (kick). The snare has an O on position 3 (assuming S is O). So the snare's main hit is on 3, and the kick is on 4. So ghost notes on 1 and 2: oo-O? Wait, the beat is four characters. If the snare's third position is O, then positions 1 and 2 can have o's, so "ooO-".
+
+Fourth segment (K: -OO-):
+
+Beat4: positions 1: -, 2: O (kick), 3: O (kick), 4: -
+
+So kicks on 2 and 3. Ghost notes on 1 and 4: o--o.
+
+Putting this all together:
+
+S: o-o- | -o-o | ooO- | o--o
+
+But let me check the notation for snare: O is hard, o is soft open. Ghost notes are typically soft, so o is appropriate.
+
+Now, let's write the final S line as:
+
+S: o-o-|-o-o|ooO-|o--o
+
+Wait, but the original third beat's S was "S---", so in the third beat's third position (position 3 of the third beat), the O is there. So the third beat's S line would be o-oO? Or ooO-?
+
+Wait, the third beat's third position is the third 16th note of the third beat. Let me think:
+
+Third beat in the third segment (third segment is the third beat of the bar? Wait no, the segments are beats. Wait the entire bar is four beats, each separated by |. So each segment is a beat. So the third segment is the third beat of the bar. The third beat's K is ---O (so kick on the fourth 16th note of that beat). The snare's third beat (third segment) was originally "S---", so third position is the hit. Assuming that's O, then the third beat's snare would be:
+
+positions 1: o, 2: o, 3: O, 4: -, so "ooO-".
+
+Yes.
+
+So the final S line would be:
+
+S: o-o- | -o-o | ooO- | o--o
+
+But let me check each beat's length. Each beat must have exactly four characters. Let's confirm:
+
+First beat: o-o- (4 chars)
+Second beat: -o-o (4)
+Third beat: ooO- (4)
+Fourth beat: o--o (4)
+
+Yes, that works.
+
+Now, check if any of these ghost notes conflict with existing hits. The kick is only where specified, so as long as the snare's o's are on positions not hit by kick, it's okay. Let's check each beat:
+
+First beat (K: -O--): kick at 2. Snare has o at 1 and 3: okay.
+
+Second beat (K: OO--): kicks at 1 and 2. Snare o at 3 and 4: okay.
+
+Third beat (K: ---O): kick at 4. Snare has O at 3, o at 1 and 2: okay.
+
+Fourth beat (K: -OO-): kicks at 2 and 3. Snare o at 1 and 4: okay.
+
+Looks good. So the final S line is:
+
+S: o-o-|-o-o|ooO-|o--o
+
+But let me write it as:
+
+S: o-o-| -o-o | ooO- | o--o 
+
+But in the notation, the bars are separated by | without spaces, so:
+
+S: o-o-|-o-o|ooO-|o--o
+
+Wait, but the user's original S line was:
+
+S: ----|----|S---|----
+
+So the third segment (third beat) had an S in the third position, which I assumed is O. So replacing that with O and adding the o's before. The rest of the segments get their ghost notes added as above.
+
+Therefore, the final drum groove with ghost notes on snare would be:
+
+K: -O--|OO--|---O|-OO-
+S: o-o-|-o-o|ooO-|o--o
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+I need to ensure that the characters used are valid. For S, o and O are allowed. The X and x are also allowed but not needed here. So this should be okay.
+
+Another thing to check: the user's edit request was to add ghost notes on the snare, so making sure that the existing snare hits (the O in the third beat) are still there. Yes, in the third beat's third position, it's O. The other O's are part of the existing structure? Wait, in the second beat's S line, the user's original had all dashes. So adding the o's is fine.
+
+This should fulfill the request.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: o-o-|-o-o|ooO-|o--o
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

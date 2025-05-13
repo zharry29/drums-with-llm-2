@@ -1,0 +1,65 @@
+Alright, let me tackle this drum groove edit. The user wants to remove any tom or snare parts from the given groove. Let's start by looking at the original drum notation provided.
+
+First, I need to recall which lines correspond to which instruments. The lines are labeled as K (Kick), S (Snare), H (Hihat), T (Toms), C (Crash), and R (Ride). The user's request is to eliminate any parts played on the tom (T) and snare (S) drums. 
+
+Looking at the given groove:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+I notice that the S line has some activity in the third beat: "S---". The Toms line has a note in the fourth beat: "---O". My job is to set those to all '-' to remove them. 
+
+Starting with the Snare (S line), I'll replace the "S---" in the third beat with "----", making the entire S line all dashes. For the Toms (T line), the fourth beat has an "O", so I'll change that to '-' as well. 
+
+I also need to ensure that the Kick (K), Hihat (H), Crash (C), and Ride (R) remain untouched unless they're part of the tom or snare. Since the user didn't mention those, I leave them as is. 
+
+Let me double-check each line:
+
+- **K line**: No changes needed. The kick pattern stays.
+- **S line**: The third beat's "S---" becomes "----", so the whole line is "----|----|----|----".
+- **H line**: Hihat remains unchanged.
+- **T line**: The fourth beat's "O" becomes '-', so the T line becomes "----|----|----|----".
+- **C line**: Crash stays the same.
+- **R line**: Ride remains all dashes.
+
+Wait, looking again at the original Toms line: "----|----|---O|----". The third beat has "---O", so changing that to "---" (but since each beat is four characters, maybe it's "--- " (with a space?) but in the notation, it's separated by |. Let me confirm the format. Each beat is four characters separated by |, so the T line is split into four beats. The third beat is "---O", so changing the last character to '-', making it "---O" → "--- " but actually, replacing the 'O' with '-', so it becomes "--- " but in the given example, the T line's fourth beat is "----". Wait, the original T line is "----|----|---O|----". So the third beat's last character is O. Changing that to '-', so third beat becomes "--- " but since each beat is four characters, it should be "----" for the third beat? Wait, maybe I need to adjust each beat properly. Let me parse each beat:
+
+Original T line: "----|----|---O|----"
+
+Breaking down each beat:
+
+1st beat: "----"
+2nd beat: "----"
+3rd beat: "---O" (third character is '-', fourth is O)
+4th beat: "----"
+
+So to remove the tom hits, the third beat's O becomes '-', making the third beat "----". So the entire T line becomes "----|----|----|----".
+
+Similarly, the S line's third beat has "S---". The first character is S, so changing that to '-', so third beat becomes "----".
+
+After making these changes, the edited drum groove should have S and T lines all dashes, while others remain as they were.
+
+Let me write that out:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|----|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+That should be the correct edit. I'll double-check once more to ensure no S or T hits remain. Yep, looks good. The user's request is satisfied.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|----|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

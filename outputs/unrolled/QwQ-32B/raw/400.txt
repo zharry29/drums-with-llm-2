@@ -1,0 +1,36 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any snare or tom parts from the given groove. Let me first look at the original groove provided:
+
+The kick (K) line is: O--O|----|--O-|----
+The snare (S) line is: ----|Oo-o|-o--|O--o
+The hihat (H) is all dashes except maybe some closed hits, but in the given, it's all dashes.
+The toms (T) are all dashes.
+Crash (C) and ride (R) are also dashes except the ride has some notes: o-O-|o-O-|o-O-|o-O-
+
+The user's request is to eliminate snare and tom. Since tom (T) is already empty, I just need to clear the snare (S) line. The existing S line has some soft and open hits, so I'll replace all those with dashes. The kick and ride remain as they are unless there's a conflict, but the user didn't mention ride, so it stays. Wait, the user said "no snare or tom," so ride is okay unless specified otherwise. 
+
+Wait, looking back, the user's request is only about removing snare and tom. So I'll set S and T lines to all dashes. The R line can stay as is. Let me check the original again to make sure I don't miss anything. The hihat (H) was all dashes in the original, so no need to touch that. The kick remains, and the ride's pattern is allowed. So the final edited groove should have S and T lines empty, keeping K, H, C, R as they were except S and T. Wait, the crash (C) line here is all dashes except maybe in the original? Let me check the given groove again. The user's provided groove for C is all dashes, so that's fine. So the edited version should have S and T lines set to all dashes. Let me write that out.
+
+Final check: S line was ----|Oo-o|-o--|O--o → becomes ----|----|----|----
+T is already all dashes. So the final should look like:
+
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: (original H was all dashes)
+T: ----|----|----|----
+R: remains o-O-|o-O- etc.
+
+Wait, the original H line in the user's groove is all dashes? Let me confirm:
+
+The given groove's H line is: H: ----|----|----|----
+
+Yes, so H stays as is. So putting it all together, the edited version should have S and T cleared. The user's request is met. I think that's it.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

@@ -1,0 +1,44 @@
+Okay, let's tackle this edit request. The user wants to remove any ride or cymbal parts from the given drum groove. First, I need to recall which lines correspond to those instruments. According to the notation guide:
+
+- **C** is the Crash cymbal.
+- **R** is the Ride cymbal.
+
+Looking at the provided drum groove:
+
+Original Groove:
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+```
+
+So, the **C** line is already empty (all dashes), which means there's no crash cymbal being used here. The **R** line has some activity: `o-O-` repeated in each beat. To comply with the request, I need to clear out the Ride cymbal (R line) by replacing all its characters with dashes. 
+
+Let me double-check the other instruments to ensure I'm not missing anything. The Kick (K), Snare (S), and Hihat (H) and Toms (T) lines are fine as they don't involve ride or cymbals. The user only mentioned removing ride and cymbals, so crash (C) is already off, and ride (R) needs to be turned off. 
+
+So the edited groove should have the R line all dashes. Let me write that out:
+
+Edited Groove:
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Wait, let me confirm each line again. The original R line had `o-O-|o-O-|o-O-|o-O-`, so replacing each character with '-' makes sense. Yes, that should do it. No other lines need changes. The user didn't mention anything about the hihat, so even if H is silent, that's okay. The main thing is removing ride and crash. Since crash wasn't active, only ride needs to be cleared. Looks good!
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

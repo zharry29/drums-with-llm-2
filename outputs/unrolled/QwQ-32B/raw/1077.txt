@@ -1,0 +1,99 @@
+Okay, let's tackle this drum groove edit. The user wants the hihat pattern to be more varied. The original groove has the hihat line empty, so I need to add some hits there. 
+
+First, I'll look at the existing instruments. The kick is doing O---|O---|----|O---, which is a steady pattern. The snare is on the third and fourth beats of the third and fourth bars. The toms are O-o- repeating every beat. 
+
+Since the hihat is currently all dashes, I need to create a pattern that complements the kick and snare without clashing. In many genres, hihats often play on every 8th or 16th note. To make it varied, maybe alternate between open and closed hits, or add some syncopation.
+
+Let me consider the tempo. Since each line is 16th notes, each character is a 16th. The kick is on the first 16th of the first and second beats. Maybe the hihat can play on the offbeats. 
+
+For variation, I can use a mix of X and x (closed and open hits). Maybe start with closed hits on the beats and open on the offbeats. Let's try something like X-x- for each beat. That would give a steady 8th note pattern with closed on the downbeat and open on the up. But the user wants more variety, so maybe add some rests or different rhythms.
+
+Alternatively, using a swung feel or syncopation. For example, in the first two bars where the kick is active, maybe have the hihat play a syncopated rhythm. Let's see:
+
+First bar: The kick is on the first 16th of each beat. So beats 1-4 of the first bar (each beat is 4 16ths). Let's make the hihat play on the 2nd and 4th 16ths of each beat. So for each beat: --X- would be every other 16th, but maybe X-x- (closed on first 16th, open on third). Wait, need to think in 4 parts per beat.
+
+Wait, each beat is divided into four 16ths. So each | separates beats. For each beat's four 16ths:
+
+If I do "X-x-" for each beat, that's hits on 1st and 3rd 16ths. That's an 8th note triplet feel? Wait, no, that's 8th notes. Hmm.
+
+Alternatively, maybe alternate between closed and open on each 16th, like XxXx. But that might be too busy. Alternatively, a pattern like X--- for the first beat, then --X-, varying each beat.
+
+Wait, the user wants it more varied, so maybe different patterns in each beat. Let me try:
+
+First bar (K: O---|O---):
+
+Beat 1: K hits on first 16th. Hihat could do X--- (closed on first 16th), then next beat O--- (open on first 16th). Then maybe the third beat (no kick) do something like -X-- or X-x-.
+
+Alternatively, let's try:
+
+H: X-x-|O--x|X-x-|O--x
+
+This way, mixing closed and open hits, with some variation between the beats. Let me check if that flows with the kick and toms. The toms are O-o- every beat, so they hit on the first and third 16ths. If hihat is doing X-x-, that's overlapping with the toms on the first 16th. Maybe that's okay, but maybe better to offset. Alternatively, hihat on 2nd and 4th 16ths.
+
+Alternatively, for each beat, hihat plays on the 2nd and 4th 16ths, like -X-X. But that's four hits per beat, which might be too much. Hmm.
+
+Alternatively, using a pattern like X--- for the first beat, then --X- for the second, etc., creating a shifting pattern.
+
+Alternatively, let's try this:
+
+H: X-x-|O--x|X-x-|O--x
+
+This way, each beat alternates between closed and open hits, with some rests. Let me see:
+
+First beat: X (first 16th), then -, then x (third), then -. So hits on 1 and 3.
+
+Second beat: O (open on first 16th), then -, -, x (fourth). So hits on 1 and 4.
+
+Third beat: same as first, but maybe different.
+
+Fourth beat: O on first, then rest, rest, x on fourth.
+
+This creates variation between the beats. It adds some syncopation and alternates between closed and open hits, making it more dynamic. The toms are O-o- every beat, so their hits are on 1 and 3. The hihat's first hit on 1 would clash with the toms, but maybe that's okay for a full sound. Alternatively, offset the hihat to 2 and 4.
+
+Wait, if the toms are hitting on 1 and 3, maybe hihat on 2 and 4 would complement better. Let's try that:
+
+H: -X-X| -X-X etc. But written as -X-X for each beat. That would be four 16ths per beat, so each beat would be -X-X, which is two hits per beat on the offbeats. That might work, but maybe too steady. To make it varied, perhaps alternate between different patterns.
+
+Alternatively, first beat: X--- (hit on 1), second beat: -X--, third: --X-, fourth: ---X. But that would spread out the hits, but over four beats, which might be too sparse.
+
+Hmm, perhaps combining both on and off beats with variations. Let's go back to my initial idea but adjust for the toms.
+
+Alternatively, in the first two bars where kick is active, have hihat play a busier pattern, and in the third bar (where kick is off) do something else.
+
+Wait the original groove's third bar is ---- for kick, so maybe in that bar, hihat can have a fill or more activity. Let me structure it as follows:
+
+First beat (K hits): X-x- (closed on 1, open on 3)
+
+Second beat (K again): O--x (open on 1, and x on 4)
+
+Third beat (no kick): maybe Xx-- (closed on 1 and 2, rest)
+
+Fourth beat (K hits again): O-x- (open on 1, x on 3)
+
+This would give variation. Let me write that out:
+
+H: X-x- | O--x | Xx-- | O-x-
+
+But need to ensure it's 16 characters. Let me check each beat's 4 characters:
+
+First beat: X-x- (4 chars)
+
+Second beat: O--x (4)
+
+Third beat: Xx-- (4)
+
+Fourth beat: O-x- (4)
+
+Yes. So the full H line would be X-x-|O--x|Xx--|O-x-
+
+This way, each beat has a different pattern, mixing closed and open hits, varying the placement. That should make the hihat more varied. Let me check if this works with the existing instruments. The toms are O-o- every beat, so they hit on 1 and 3. The hihat's first beat has hits on 1 and 3, so overlapping with the toms on 1, but that's okay. The second beat's hihat hits on 1 and 4, which is different. Third beat hits on 1 and 2, and fourth on 1 and 3. This adds variety and keeps it interesting.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: X-x-|O--x|Xx--|O-x-
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

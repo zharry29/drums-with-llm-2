@@ -1,0 +1,31 @@
+Okay, let me tackle this drum groove edit. The user wants a snare hit and cymbal in the very beginning. The original groove has no kick, snare, toms, or crashes, only hihat and ride. 
+
+First, I need to look at the first beat, which is "----" for all instruments except the hihat and ride. The user specified "very beginning," so probably the first 16th note of the first beat.
+
+For the snare (S line), I should add an 'O' (hard hit) on the first 16th note. But wait, the existing S line is all dashes. So changing the first character of the first beat from '-' to 'O'.
+
+For the cymbal, the options are Crash (C) or Ride (R). Since the ride is already playing (R: x---|...), maybe adding a crash on the first hit would give a stronger start. So set the first character of the Crash line (C) to 'O'.
+
+Check if that's allowed. The original C line is all dashes, so adding an 'O' there makes sense. Also, ensure that no other hits are conflicting. The first beat's K and S were empty except H and R. So adding Snare and Crash on the first note should work.
+
+Wait, the ride is already hitting on the first note with 'x'. But the user wants a cymbal, which could be crash or ride. Since they mentioned "cymbal," maybe adding a crash is better for emphasis. So proceed with C: O--- for the first beat.
+
+So the edited lines would be:
+
+K remains ---- (no kick needed unless specified, user only asked for snare and cymbal)
+S becomes O---|....
+C becomes O---|....
+
+Check the notation again. Each line's first beat is four characters. So yes, first character of S and C lines in the first beat should be 'O'.
+
+That should fulfill the request. Let me put that into the final answer.
+</think>
+
+@@@
+K: ----|----|----|----
+S: O---|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

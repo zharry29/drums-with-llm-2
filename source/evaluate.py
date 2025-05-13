@@ -16,6 +16,7 @@ parser.add_argument('--data', choices=['instantiated', 'unrolled'], required=Tru
 parser.add_argument('--model', required=True, help="")
 parser.add_argument('--start', type=int, default=0, help="ID index to start from in the requests list")
 parser.add_argument('--silent', action='store_true', help="Suppress print statements if set")
+parser.add_argument('--no_audio', action='store_true', help="Do not convert to midi/audio if set")
 args = parser.parse_args()
 
 with open("../../drums_llm_key.json") as f:
@@ -157,17 +158,17 @@ for id in request_ids[args.start:]:
         log("No unit tests provided.")
     # Diff
     log(diff(original_drum_dict, drum_dict))
-    # Convert to MIDI
-    out_midi_fname = os.path.join(output_dir, "midi", f"{id}.mid")
-    notation_to_midi(drum_notation, out_midi_fname)
-    out_midi_original_fname = os.path.join(output_dir, "midi", f"{id}_original.mid")
-    notation_to_midi(original_drum_notation, out_midi_original_fname)
-    # Convert to audio
-    out_audio_fname = os.path.join(output_dir, "audio", f"{id}.wav")
-    midi_to_audio(out_midi_fname, out_audio_fname)
-    out_audio_original_fname = os.path.join(output_dir, "audio", f"{id}_original.wav")
-    midi_to_audio(out_midi_original_fname, out_audio_original_fname)
+
+    if not args.no_audio:
+        # Convert to MIDI
+        out_midi_fname = os.path.join(output_dir, "midi", f"{id}.mid")
+        notation_to_midi(drum_notation, out_midi_fname)
+        out_midi_original_fname = os.path.join(output_dir, "midi", f"{id}_original.mid")
+        notation_to_midi(original_drum_notation, out_midi_original_fname)
+        # Convert to audio
+        out_audio_fname = os.path.join(output_dir, "audio", f"{id}.wav")
+        midi_to_audio(out_midi_fname, out_audio_fname)
+        out_audio_original_fname = os.path.join(output_dir, "audio", f"{id}_original.wav")
+        midi_to_audio(out_midi_original_fname, out_audio_original_fname)
     
-
-
     print("\n")

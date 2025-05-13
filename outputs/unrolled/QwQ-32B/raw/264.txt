@@ -1,0 +1,107 @@
+Okay, let me tackle this drum groove edit request. The user wants the groove to include not only cymbal but also hihat. Looking at the given groove:
+
+**Original Groove:**
+```
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+First, I notice that the hihat (H line) is completely silent. The user wants to add hihat, so I need to figure out where to place the hits. Since the kick (K) and crash (C) are already present, I should make the hihat complement those without clashing. 
+
+The kick has a busy pattern with lots of O's (hard hits). The crash is on every beat (O--- in each segment). A common hihat pattern is a steady eighth or sixteenth notes. Let's go with a closed hihat (X or x) to keep a consistent rhythm. Maybe start with X on each beat and x on the offbeats for a typical 4/4 feel.
+
+Looking at each segment separated by |:
+
+1. **First beat (OOO-):**
+   - Kick hits on the first three 16th notes. 
+   - Crash is on the first 16th note.
+   - Hihat could be X on the first 16th, then x on the next three to match the kick's rhythm but not interfere.
+
+Wait, maybe a steady eighth notes (every two 16th notes). Let's try X on each beat (every four 16th notes). Alternatively, a common pattern is X on each eighth note (every two 16th notes), like X-x-|X-x- etc.
+
+Let me structure it as X-x- for each beat. So each segment would have X on the first 16th, then -, then x on the third, and -. That gives a X-x- pattern per beat. Let me check:
+
+For each | segment:
+- First beat: X-x- | 
+- Second: X-x-
+- Third: same, etc.
+
+So for the entire bar, H line would be:
+
+H: X-x-|X-x-|X-x-|X-x-
+
+But let me check the existing instruments. The crash is on the first 16th of each beat, so having an X (closed hihat) there might clash. Maybe use x (softer closed hit) instead. Let's adjust to x-X- or something else.
+
+Alternatively, maybe start with X on the first 16th, but since the crash is also there, perhaps using a softer x to avoid too much noise. Let me try:
+
+H: x-X-|x-X-|x-X-|x-X-
+
+Wait, that's every two 16th notes. So each beat has x on the first, X on the third. That might work. Let me see:
+
+Breaking down each beat (each segment is 4 16th notes):
+
+- First segment (OOO-):
+  - K: O O O -
+  - C: O - - -
+  - H: x X - -
+Hmm, but the first 16th has a crash (C) and hihat x. Maybe that's okay. Alternatively, start hihat on the second 16th. Let me think again.
+
+Alternatively, a standard hihat pattern for a rock groove with a busy kick might be closed hihats on every 8th note (every two 16th notes). So X on beats 1 and 3 of each beat (positions 1 and 3 in the 4-note segment). So for each segment:
+
+X - X - | repeated.
+
+So for each beat (4 notes):
+
+X - X - 
+
+Thus, the H line would be:
+
+H: X-X-|X-X-|X-X-|X-X-
+
+This way, every other 16th note has a hihat hit, which pairs well with the kick's pattern. Let me check overlapping with crash:
+
+Crash is on the first 16th of each beat. So hihat X on the first 16th along with crash's O. Since crash is a cymbal and hihat is a closed hit, they can coexist. It might sound busy but that's okay.
+
+Alternatively, use a softer x on the first 16th to match the crash's O. Let's adjust:
+
+H: x-X-|x-X-|x-X-|x-X-
+
+That way, the first hit is a softer hihat with the crash, then harder on the third 16th. That might balance better.
+
+Alternatively, maybe a steady X on every 16th note? Let's see:
+
+H: X-X-X-X-| etc. But that's four hits per beat, which might be too much with the kick's O's. Maybe better to go with every other.
+
+Alternatively, the user might prefer a more sparse hihat. Let me go with the X-X- pattern per beat. Let's try that:
+
+Final H line: X-X-|X-X-|X-X-|X-X-
+
+So the edited groove would add that to H. Also, since the user mentioned "not only cymbal but also hihat," the crash is already present, so adding hihat is sufficient. The ride (R) is silent, but the user didn't mention needing ride, so leave it as is unless required. The edit only needs hihat added.
+
+Wait, the original had no hihat, so adding the hihat as above should fulfill the request. Let me confirm:
+
+**Edited Groove:**
+```
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: X-X-|X-X-|X-X-|X-X-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Wait, but in the H line, using X (hard closed hit) on the first and third 16th notes of each beat. That should work. Alternatively, maybe using x for a softer feel. But the user didn't specify, so either is okay. Let's go with X for a steady, driving hihat pattern.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: X-X-|X-X-|X-X-|X-X-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

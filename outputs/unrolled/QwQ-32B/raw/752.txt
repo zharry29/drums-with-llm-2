@@ -1,0 +1,23 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and kick in the very beginning. The original groove starts with all rests in the first beat for Kick (K) and Snare (S). 
+
+First, I need to look at the first beat (the part before the first |). The current K line is "----", so adding a kick there. Since the user didn't specify soft or hard, I'll go with a standard hard hit 'O' on the first 16th note. So change the first character of K's first beat from '-' to 'O', making it "O---".
+
+Next, the snare (S) also starts with "----". The user wants a snare hit here. Again, defaulting to a hard hit 'O' on the first 16th note. So S's first beat becomes "O---".
+
+Now check the hihat (H) and other instruments. The user didn't mention changing those, so leave them as is. The hihat already has some hits starting on the second beat, so no changes needed there. The ride (R) has a pattern that starts with 'x---', which is okay.
+
+Let me verify the notation rules. For the kick, 'O' is a hard hit, which fits. For snare, 'O' is a hard hit on the head, which is correct. The rest of the groove should stay the same. 
+
+Wait, the user's request was specifically for the very beginning, so only the first 16th note of the first beat for both K and S should be modified. The rest of their lines can stay as they are. Let me double-check the original groove's S line: it's all "----" except the third and fourth beats. Adding the 'O' in the first beat's first position won't interfere. 
+
+Yes, this should fulfill the request without affecting other parts unless specified. So the final edited groove should have K: O---|.... and S: O---|....
+</think>
+
+@@@
+K: O---|----|----|----
+S: O---|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

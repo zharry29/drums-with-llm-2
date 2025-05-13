@@ -1,0 +1,27 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and kick in the very beginning. The original groove starts with a kick on the first 16th note, but the snare isn't there. Let me look at the given groove:
+
+Original K (Kick): O---|----|O---|----
+Original S (Snare): ----|O---|----|O---
+
+So the kick hits on the first 16th note of the first beat (the "O" in the first segment), but the snare is silent there. The user wants both a snare and kick at the very start. That means I need to add an "O" (hard hit) on the snare's first 16th note.
+
+Looking at the snare line, the first segment is "----", so changing the first character to "O" would add the snare hit there. The kick already has an "O" there, so that's good. The rest of the snare hits are on the second beat's first 16th note and the fourth beat's first, so maybe keeping the rest as is maintains the groove's structure.
+
+Wait, the user's request is specifically for the very beginning, so only the first note needs the snare. Let me check the hihat and other instruments to ensure there's no conflict. The hihat is doing X---|X--- etc., which is closed hits, so that's fine. No cymbals or ride in use here, so adding the snare hit on the first 16th note should work.
+
+So the edited snare line would be "O---|O---|----|O---" but wait, the original second segment for snare is "|O---", so changing the first segment's first character to O. Let me structure it correctly:
+
+Original S line: S: ----|O---|----|O---
+After edit: S: O---|O---|----|O---
+
+Yes, that adds the snare hit on the first 16th note. The kick remains as is. That should fulfill the request. I'll make sure not to alter other parts unless necessary. The user didn't mention changing other elements, so keeping the rest the same is best.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: O---|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

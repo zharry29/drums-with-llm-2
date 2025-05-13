@@ -1,0 +1,70 @@
+Okay, let me tackle this problem step by step. The user wants to edit a drum groove by removing any parts involving toms (T) or cymbals (C and R). Let me first understand the given groove and then apply the changes.
+
+Looking at the provided drum notation:
+
+**Original Groove:**
+```
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+The user's request is to remove all tom (T) and cymbal (C, R) parts. Let's go through each line:
+
+1. **Kick (K):** This line is fine as it's only kick, no toms or cymbals.
+2. **Snare (S):** The snare has some X and x hits. Since X and x here are sidestick hits on the snare, they’re allowed. So no changes needed here.
+3. **Hihat (H):** The hihat has x and possibly closed hits (since H uses x for closed). The user didn't mention removing hihat, so leave this as is.
+4. **Toms (T):** Already all dashes, so nothing to remove here.
+5. **Crash (C):** All dashes, so no issue.
+6. **Ride (R):** This has x and X-x patterns. Since ride is a cymbal, we need to clear this line entirely.
+
+Wait, but the user said "no tom or cymbal". Toms are already clear. The cymbals here are Crash (C) and Ride (R). Both C and R lines need to be set to all dashes. Let me check again:
+
+- **C line:** Already all dashes, so no change.
+- **R line:** Has x and X hits, so needs to be replaced with all '-'.
+
+Also, the Hihat is allowed since it's not a cymbal? Wait, the instruments listed are K, S, H, T, C, R. Hihat (H) is separate and isn't a cymbal? Wait the description says H is hihat, which is a closed hi-hat or open. The cymbals are Crash (C) and Ride (R). So the user wants to remove T, C, R. So Hihat is okay to stay.
+
+Therefore, the only line needing change is the Ride (R), which should be all dashes. The Tom line is already clear. Let me verify:
+
+Original R line: `x---|X-x-|x---|X-x-` → change to `----|----|----|----`
+
+So the edited groove would be:
+
+K remains the same.
+
+S remains the same.
+
+H remains the same.
+
+T stays as all dashes.
+
+C stays as all dashes.
+
+R becomes all dashes.
+
+Putting it all together:
+
+```
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+I should double-check if there's any other cymbal or tom hits. The T line is clear. The R line is now all dashes. The C line was already clear. So this should meet the user's request.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

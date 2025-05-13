@@ -1,0 +1,33 @@
+Okay, let me tackle this drum groove edit. The user wants a hihat hit and tom in the very beginning. 
+
+First, I need to look at the original groove. The kick (K) starts with "OOO-" which is three hard hits on the first beat. The hihat (H) is all dashes, so no hits. Toms (T) are empty. The crash (C) has hits on every beat. The ride (R) is also empty.
+
+The request is for a hihat hit and tom at the very start. The very beginning is the first 16th note of the first beat. Since the user specified "very beginning," that's the first note of the first beat.
+
+For the hihat, adding an 'X' or 'x' would make sense. Since the original hihat line is all dashes, I can add a closed hit (X or x). Let's choose 'X' for a hard closed hit on the first note. So the first character of H becomes X.
+
+Now the tom. The toms (T) are empty. Adding a tom hit on the first note. Since the user didn't specify soft or hard, default to 'O' for a hard hit. So T's first character becomes O.
+
+Check if there's any conflict. The kick already has O on the first note. Adding a tom and hihat there is okay. The crash also has O on the first beat, but that's on the beat, so the first 16th note is okay.
+
+So modifying H and T lines:
+
+Original H: ----|----|----|----
+Change first character to X: X---|----
+
+Original T: ----|----|----|----
+Change first character to O: O---|----
+
+Double-check notation rules. Hihat's X is a closed hit, which fits. Tom's O is a hard hit. That should meet the request.
+
+Final check: The first 16th note now has K:O, H:X, T:O. That's the hihat and tom added at the very beginning. The rest remains the same. That should do it.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: X---|----|----|----  
+T: O---|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

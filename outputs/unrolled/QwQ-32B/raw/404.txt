@@ -1,0 +1,48 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any snare or tom parts from the given groove. 
+
+First, I need to look at the original groove provided. Let's break it down line by line:
+
+**Original Groove:**
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+The user's request is to eliminate the snare (S) and tom (T) parts. Let me check each line:
+
+- **Kick (K):** This line is fine as it is. The user didn't mention removing kick, so we leave it untouched.
+- **Snare (S):** The entire S line needs to be cleared. All characters except '-' should be replaced with '-'.
+- **Hihat (H):** The user didn't mention removing hihat, so it stays. The H line has X and x characters, which are allowed since they're hihat hits.
+- **Toms (T):** Already all '-' in the original, so no change needed here.
+- **Crash (C) and Ride (R):** These are also not mentioned, so they stay as they are. In this case, both are empty except for some '-'.
+
+Wait, let me double-check the S line. The original S has some hits like Oo-o and O--o. Removing those means replacing all non-'-' characters with '-'. So the S line becomes all '-'.
+
+Similarly, the T line is already clear, so nothing to do there. The Hihat is okay unless the user also wanted that removed, but the request was only snare and toms. 
+
+So the edited version should look like this:
+
+```
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Wait, but the user might have wanted to ensure that there's no snare at all. Let me confirm each part again. Yes, the S line is now all '-', and T remains empty. The kick and hihat are preserved. Crash and ride are still as original. Looks correct.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

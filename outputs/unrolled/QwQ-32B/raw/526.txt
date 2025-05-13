@@ -1,0 +1,39 @@
+Okay, let me tackle this drum groove edit. The user provided a specific drum notation and wants me to remove any elements involving toms (T) and hihats (H). Let me first parse the given groove to understand what's there.
+
+Looking at the original groove:
+
+- **Kick (K):** O---|---o|O-O-|----
+- **Snare (S):** ----|O---|----|O---
+- **Hihat (H):** --o-|O-o-|O-o-|O-o-
+- **Toms (T):** All dashes, so no toms here.
+- **Crash (C):** O---|----|----|----
+- **Ride (R):** All dashes, so no ride.
+
+The user's request is to remove toms and hihats. Since T is already inactive, I just need to clear the H line. Also, check if there's any mention of ride or crash, but the user didn't mention those, so leave C as is unless specified. Wait, the request specifically says "no tom or hihat," so only H and T lines need to be set to all dashes. 
+
+Wait, the user might also want to remove any cymbals? The instruction says "I don't want any tom or hihat." So only T and H are to be eliminated. The crash (C) is a cymbal, but the user didn't mention it. Since the user's request is clear about tom and hihat, I should leave C unless told otherwise. However, in previous interactions, sometimes "cymbal" includes crash and ride. But here, the user's exact words are "tom or hihat," so focus on those.
+
+So, the edited groove should have H set to all dashes and T already is. The crash remains as is unless the user wants to remove all cymbals, but that's not stated here. Wait, the original request says "I don't want any tom or hihat," so only those two instruments are to be removed. Therefore, the crash can stay. However, looking at the example edits from previous interactions, sometimes when a user says "no cymbal or tom," they mean both crash and ride. But in this case, the user specified only tom and hihat. 
+
+Wait, let me recheck the user's exact request again: "I don't want any tom or hihat." So, only remove T and H. The crash (C) is a separate cymbal, but since it's not mentioned, leave it. So in the provided groove, the H line has activity, so set all H to dashes. T is already empty. 
+
+So the edited version would have:
+
+- K: unchanged
+- S: unchanged
+- H: all dashes
+- T: all dashes (already)
+- C: unchanged
+- R: unchanged (since it's ride, which wasn't mentioned, but user didn't ask about ride. Wait, the user said "tom or hihat," so ride is okay unless specified. But in the original problem, the user might have meant all cymbals? Hmm. Wait, in the problem statement, the user's edit request is only about tom and hihat. So proceed as per that.
+
+Wait, but the user might have a typo, but I should follow exactly. Let me confirm the user's request again: "I don't want any tom or hihat." So only remove T and H. The crash is allowed unless specified. Therefore, the final edited groove should have H set to all dashes and T remains empty. Let me write that out.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

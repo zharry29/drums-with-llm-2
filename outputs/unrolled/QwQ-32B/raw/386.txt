@@ -1,0 +1,43 @@
+Okay, let's see what the user is asking here. They want me to edit a drum groove by removing the kick and tom parts. The given drum groove is in a specific notation where each line represents a different drum component. 
+
+First, I'll look at the provided drum notation to understand each part. The user's instruction says "I don't want any kick or tom," so I need to eliminate the K (Kick) and T (Toms) lines entirely or set them to silence. 
+
+Looking at the original groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+Wait, actually in the provided example, the T (Toms) line is already all dashes, so maybe that's already silent. But the user still mentions removing tom, so maybe just to confirm. The Kick line (K) has some hits, so those need to be turned off. 
+
+The user's request is straightforward: remove Kick and Tom. Since Tom is already silent, the main change is to set the K line to all dashes. Also, ensure that the other instruments (Snare, Hihat, Crash, Ride) remain as they are unless they were using tom which they aren't here. 
+
+So the edited version would have the K line replaced with all '-' and keeping the rest the same. Let me double-check each line:
+
+Original K line: OOO-|--O-|OOO-|-OOO → Replace with ----|----|----|----
+
+S, H, T, C, R lines stay the same. Wait, T is already all dashes, so that's okay. The crash (C) has some hits, but since the user didn't mention removing cymbals, only kick and tom, so leave C and R as is unless the edit request specifies. The user's request was "no kick or tom", so crash is allowed.
+
+So putting it all together, the edited drum groove should have K set to all dashes and T remains as dashes. The final result should look like:
+
+K: ----|----|----|----  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+I think that's it. Let me make sure there are no typos. Each line after K, S, H, T, C, R should be adjusted only for K. Yep, looks good. The user might have expected that even if T was already silent, it's still okay to include it as per the notation rules.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

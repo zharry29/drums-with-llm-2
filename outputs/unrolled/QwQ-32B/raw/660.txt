@@ -1,0 +1,42 @@
+Okay, let me tackle this drum groove edit. The user wants a snare hit and cymbal in the very beginning. The original groove is:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+First, I need to look at the first beat of each line. The user wants a snare hit (S) and a cymbal (either C or R) at the very start. The very beginning is the first 16th note of the first beat, which is the first character in each line.
+
+Looking at the Snare (S) line, the first beat is "----", so there's no hit there. To add a snare hit, I should replace the first '-' with an 'O' (hard hit) since that's a standard start. 
+
+For the cymbal, the user didn't specify crash or ride, but in previous examples, they used crash (C) when adding cymbals. The Crash (C) line starts with "----", so changing the first '-' to 'O' would add a hard crash at the beginning. Alternatively, if they prefer ride, the Ride (R) line starts with "o-O-", so changing the first 'o' to 'O' might work. But since the user mentioned "cymbal" generally, maybe Crash is safer unless specified otherwise.
+
+Wait, the original R line has 'o-O-', so the first note is a soft closed hit on the ride. If adding a crash, that's a separate cymbal. The user might want a crash, so I'll set C's first character to 'O'. 
+
+So, updating S and C lines:
+
+S: O---|Oo-o|-o--|O--o (first beat 'O---')
+
+C: O---|----|----|----
+
+But I need to check if that's the right approach. The original R line has a ride pattern, but adding a crash at the beginning would introduce a crash cymbal hit. Alternatively, maybe the user wants the ride to have a hit there. But the request says "cymbal", so Crash makes sense. 
+
+Alternatively, if they want the ride to have a hit, changing the first character of R from 'o' to 'O' (hard bell hit). But since the user mentioned "cymbal" without specifying, maybe Crash is better. Let me go with Crash for now.
+
+So the edited lines would be:
+
+K remains the same unless needed, but the user didn't mention kick. The main edits are S and C.
+
+Final check: Ensure the first beat of S is 'O---' and C's first is 'O---'. That should fulfill the request.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

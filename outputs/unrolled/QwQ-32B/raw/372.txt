@@ -1,0 +1,35 @@
+Okay, let's tackle this drum groove edit. The user wants me to remove any tom or ride elements from the given groove. Let me first look at the provided drum notation to see which lines correspond to those instruments.
+
+The given groove is:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+Breaking it down line by line:
+
+- **K (Kick drum):** All dashes, so no kick hits.
+- **S (Snare drum):** Also all dashes, so no snare.
+- **H (Hihat):** Has some 'x' and '-' characters. The 'x' here, according to the notation, represents a soft closed hit on the hihat since H's closed hits are X and x (hard and soft). The user didn't mention removing hihats, so this stays.
+- **T (Toms):** All dashes, so no toms already. But the user wants to remove toms, so this line remains as is.
+- **C (Crash cymbal):** Dashes, so no crash.
+- **R (Ride cymbal):** This line has 'x', 'X', and '-' characters. The ride uses 'O' for hard bell hits, 'o' for soft bell, and X/x for closed bow hits. Since the user wants to remove ride, this entire line should be cleared out.
+
+The user's request is to eliminate any tom or ride. Since Toms (T) are already inactive, I just need to zero out the Ride (R) line. The Hihat (H) is allowed because it wasn't mentioned. Let me double-check the notation rules to confirm R's symbols. Yep, R's X/x are part of the ride, so removing those is correct.
+
+So the edited groove should have the R line set to all dashes. The rest stay as they are. Let me write that out.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

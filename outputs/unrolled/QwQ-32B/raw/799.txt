@@ -1,0 +1,74 @@
+Okay, let me try to work through this step by step. The user wants a tom hit and ride in the very beginning of the given drum groove. Let me start by understanding the current groove and the request.
+
+First, looking at the provided drum notation:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So, the kick (K) and snare (S) are completely silent. The hihat (H) has some closed hits on the second and fourth beats. The ride (R) has a pattern starting with x on the first 16th note, then X-x- on the second beat, repeating. Toms (T) and crash (C) are inactive.
+
+The user's request is to add a tom hit and ride in the very beginning. Since the "very beginning" refers to the first 16th note of the bar, I need to modify the first character of the T (toms) and R (ride) lines.
+
+For the tom hit (T line), since it's the first 16th note, I should place an 'O' there because a tom hit is typically a hard hit (as per the notation rules: T: O is hard, o is soft). So the T line would start with O---|...
+
+For the ride (R line), the existing first character is 'x', which is a soft closed hit on the bow. But the user wants a ride hit in the beginning. The ride can have O (hard bell), o (soft bell), X/x (closed bow). Since they might want a bell hit to stand out, maybe replacing the first 'x' with 'O' would be better. Alternatively, keeping the closed hit but ensuring there's a ride sound. However, the user mentioned "ride in the very beginning," so adding a bell hit might be more impactful. Let's check existing R line:
+
+Original R: x---|X-x-|x---|X-x-
+After edit: O---|X-x-|x---|X-x- (changing first 'x' to 'O')
+
+Wait, but the user might just want to ensure that the ride is present. The original R already has a hit on the first note, but maybe they want it to be a bell hit instead of a closed bow. So changing that first 'x' to 'O' would make it a hard bell hit at the start.
+
+Additionally, adding the tom hit on the first 16th note. The T line was all dashes, so first character becomes 'O', making T: O---|----
+
+Let me confirm the rules again:
+
+For Toms (T):
+- O is hard hit, o is soft.
+
+For Ride (R):
+- O is hard open hit on the bell, o is soft bell.
+- X and x are closed hits on the bow (hard and soft).
+
+So, to add a tom hit at the very beginning (first 16th note), set T's first character to 'O'.
+
+For the ride, the first note is currently 'x' (soft closed bow). To make it a ride hit in the beginning, perhaps using 'O' for a bell hit would be better, as that's a more prominent sound. Alternatively, maybe keeping the 'x' but ensuring the ride is there. Since the user says "ride hit", maybe the existing 'x' is okay, but they might want an open hit. Let's go with 'O' to emphasize the start.
+
+So the edited lines would be:
+
+T: O---|----|----|----
+R: O---|X-x-|x---|X-x-
+
+Wait, but in the original R line, the first beat was x---. Changing that first x to O would make it O--- for the first beat.
+
+Putting it all together, the new drum groove should have:
+
+K remains the same (all dashes)
+S remains dashes
+H remains as is
+T starts with O---
+R starts with O---
+
+Let me check if there are any other considerations. The user didn't mention modifying other parts, so the rest stays the same. Let me write that out:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: O---|----|----|----
+C: ----|----|----|----
+R: O---|X-x-|x---|X-x-
+
+Yes, that should add a tom hit (hard) and a ride bell hit at the very beginning. That should fulfill the request.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: O---|----|----|----
+C: ----|----|----|----
+R: O---|X-x-|x---|X-x-
+@@@

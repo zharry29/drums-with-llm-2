@@ -1,0 +1,56 @@
+Okay, let me tackle this drum groove edit. The user provided a specific drum notation and wants me to remove the hihat and snare parts.
+
+First, I need to recall the instruments each line corresponds to. The given groove has lines for Kick (K), Snare (S), Hihat (H), Toms (T), Crash (C), and Ride (R). The user's request is to eliminate any hihat or snare, so I should set those lines to all '-' characters.
+
+Looking at the original groove:
+- **K** (Kick): o---|--o-|o---|--o-
+- **S** (Snare): ----|X---|--X-|----
+- **H** (Hihat): ----|x---|----|x---
+- **T** (Toms): ----|----|----|----
+- **C** (Crash): ----|----|----|----
+- **R** (Ride): x---|X-x-|x---|X-x-
+
+Since the user doesn't want snare (S) or hihat (H), I'll replace their lines with all '-'.
+
+For the **S line**, it currently has X and x hits. Replacing those with '-' will silence the snare.
+For the **H line**, it has x and - characters. Replacing them with '-' will remove the hihat.
+
+The other instruments (K, T, C, R) remain as they are unless they're also part of the removal, but the user only specified hihat and snare. Wait, the user's request says "no hihat or snare", so only S and H lines should be cleared.
+
+Wait, checking again: The user says "I don't want any hihat or snare." So yes, S and H lines should be all '-'.
+
+Let me verify each line:
+
+- **K** stays the same: o---|--o-|o---|--o-
+- **S** becomes ----|----|----|----
+- **H** becomes ----|----|----|----
+- **T**, **C**, **R** remain unchanged unless there's an error. Wait, the original T and C are all '-', so they stay. The Ride (R) has some hits, but since the user didn't mention ride, it stays.
+
+Wait the user's request didn't mention ride or toms/crash, so only S and H are removed. 
+
+Wait, in the original, the Ride (R) line has x---|X-x-|x---|X-x-. Since the user didn't ask to remove ride, those stay. 
+
+So the edited groove should have S and H lines all '-', while others remain as before except those two.
+
+Putting it all together:
+
+K: o---|--o-|o---|--o-
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+Wait, but the user's instruction says "only the final groove should be between @@@ which will be used." So I need to present that in the specified format, ensuring that S and H are cleared.
+
+Let me double-check each line for correctness. The Kick line has o and - which is okay. The Snare and Hihat are all dashes. The Toms, Crash, and Ride remain as they were unless there's an error. The user didn't mention those, so they stay. The final result should look like that.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

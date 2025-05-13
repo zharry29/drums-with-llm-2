@@ -1,0 +1,65 @@
+Okay, so I need to edit this drum groove based on the user's request. Let me start by understanding the current groove and the changes needed.
+
+The user provided the drum groove in the given notation. Let me parse each line:
+
+- **Kick (K):** OOO-|--O-|OOO-|-OOO  
+  This looks like a busy kick pattern with multiple hits, maybe on the downbeats and some offbeats.
+
+- **Snare (S):** ----|O---|----|O---  
+  Snare hits on the second and fourth beats, which is a common backbeat pattern.
+
+- **Hihat (H):** ----|----|----|----  
+  No hihat hits at all right now. The user wants hihat in the beginning.
+
+- **Toms (T):** All dashes, so no toms.
+
+- **Crash (C):** O---|O---|O---|O---  
+  Crash on every first 16th note of each beat, so four crashes per bar.
+
+- **Ride (R):** All dashes, so no ride hits. The user wants ride in the beginning.
+
+The edit request is to add a ride hit and hihat in the very beginning. The "very beginning" likely refers to the first 16th note of the bar. Since each line is divided into four beats separated by |, the first beat is the first four characters (before the first |).
+
+First, let's address the hihat. The current H line has all dashes. To add a hihat hit at the very start, I need to place an articulation on the first character. The user didn't specify open or closed, but since the existing H line is empty, maybe starting with a closed hit (X or x) is common. Let's pick X (hard closed hit) for a strong start. So the first character of H would be X, making the first beat X---.
+
+Next, the ride hit. The R line is all dashes. To add a ride hit at the very beginning, we need an articulation on the first 16th note. The ride can be O (hard bell hit) or o (soft bell), or X/x for closed bow. Since the user mentioned "ride in the very beginning," maybe a strong hit is better. Let's use O for a hard bell hit on the first note. So the R line becomes O---|... 
+
+Now, checking the existing patterns to ensure they don't conflict. The kick starts with OOO-, so adding a ride and hihat on the first note won't clash. The snare is on the second and fourth beats, so the first note is safe for ride and hihat.
+
+Wait, but the user said "ride hit and hihat in the very beginning." So both should be on the first 16th note. Let me confirm:
+
+- H: first character X (closed hit)
+- R: first character O (bell hit)
+
+That should work. Let me make sure the rest of the lines stay as they are except for the first characters.
+
+So modifying the H line from "----|----|----|----" to "X---|----|----|----".
+
+Modifying the R line from "----|----|----|----" to "O---|----|----|----".
+
+Let me check the original groove again to ensure I'm not missing anything else. The user didn't mention changing other parts, so only the first 16th note of the bar for H and R should be modified. The rest remains the same.
+
+Wait, but the user's previous examples sometimes added more, but in this case, the request is specifically for the very beginning. So just the first note of the first beat for both instruments.
+
+Therefore, the edited drum groove should look like this:
+
+K remains the same: OOO-|--O-|OOO-|-OOO  
+S remains: ----|O---|----|O---  
+H becomes: X---|----|----|----  
+T stays: ----|----|----|----  
+C stays: O---|O---|O---|O---  
+R becomes: O---|----|----|----
+
+Let me double-check the notation rules. The Hihat's X is a hard closed hit, which is allowed. The Ride's O is a hard bell hit. Since the user didn't specify soft or closed, O is a safe choice. 
+
+I think that's all. The user wanted ride and hihat at the start, so that's addressed. The rest of the groove remains unchanged as per the request.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: X---|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: O---|----|----|----  
+@@@

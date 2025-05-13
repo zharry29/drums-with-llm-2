@@ -1,0 +1,64 @@
+Okay, let me tackle this drum groove edit request. The user wants a hihat hit and tom in the very beginning. The original groove is given, so I need to look at each line and figure out how to add those elements starting at the first 16th note.
+
+First, let me recall the notation rules. Each line represents an instrument: K is kick, S snare, H hihat, T toms, C crash, R ride. Each character is a 16th note, with four per beat separated by |. The first bar has four beats, so 16 characters total.
+
+Looking at the provided groove:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+The user wants a hihat hit and tom at the very beginning. The "very beginning" would be the first 16th note of the bar, which is the first character in the first beat (before the first |).
+
+For the hihat (H line), currently the first beat starts with "--o-". The first character is '-', meaning no hit. To add a hihat hit here, I need to replace that '-' with the appropriate articulation. Since the user didn't specify open or closed, but the existing H pattern has a mix, maybe using a closed hit (X or x) would fit. Let's check existing H line. The first beat has "--o-", so the third 16th note is an open soft hit (o). Maybe starting with a closed hit (like X) would make sense for a sharp start.
+
+For the tom (T line), it's all dashes in the first beat. To add a tom hit on the first 16th note, replace the first '-' with O (hard hit) or o (soft). Since the user probably wants a noticeable hit, O might be better.
+
+Now, check if other parts need adjustment. The existing crash (C) has a hit on the first 16th note (O---). The user didn't mention removing that, so leave it. The kick (K) starts with O---, so there's already a kick hit. The request is for hihat and tom in addition, so that's okay.
+
+So, modifying H and T lines:
+
+H's first beat changes from "--o-" to "X-o-" (assuming closed hit X on first 16th). Alternatively, maybe the user wants to keep the existing pattern but add the hit. Wait, the first beat's H is "--o-", so first two are '-', then o. To add a hit at the first note, set first character to X or x. Let's pick X for a hard closed hit.
+
+T's first beat starts with "----", so first character becomes O, making it "O---".
+
+Let me write that out:
+
+H: X-o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+
+Wait, but need to ensure that the total characters per line are 16. Let me check each line length.
+
+Original H line: "--o-|O-o-|O-o-|O-o-" which is 16. Changing first beat to "X-o-" keeps it at 4 per beat, so total 16.
+
+Original T line is all dashes, so changing first to O--- keeps it 16.
+
+So the edited groove would be:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: X-o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+Wait, but the user might prefer the hihat to start with a closed hit and tom on the first note. That's the main point. Let me confirm that this meets the request. The first 16th note has K: O (kick), H: X (hihat closed), T: O (tom). That's two hits (kick and tom) but also the hihat. Wait, the user wanted "a hihat hit and tom in the very beginning." So both should be added. Since the kick is already there, but the user didn't mention removing it, so that's okay. The main thing is adding the hihat and tom to the first note.
+
+Alternatively, maybe the user wants the hihat and tom without the existing kick? But the original K starts with O---, so kick is already there. The request didn't mention removing the kick, so keeping it is fine.
+
+Yes, this should work. Let me check if there are any conflicts. The crash also has a hit on the first note (C: O---). So first 16th note has K, C, H (X), and T (O). That's a lot, but the user might want that intensity. Since the user only specified adding hihat and tom, that's acceptable.
+
+So the final edited groove would be as above.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: X-o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,84 @@
+Okay, so I need to edit this drum groove to include not only snare but also cymbal. Let me start by understanding the given drum groove and the notation.
+
+First, I see that each line in the drum notation corresponds to a different instrument: Kick drum (K), Snare drum (S), Hihat (H), Toms (T), Crash cymbal (C), and Ride cymbal (R). Each character in a line represents a 16th note, and each four characters separated by | make a beat. There are 16 notes in a bar, which make up 4 beats.
+
+The user provided the current groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+And the edit request is to include not only snare but also cymbal. So, I think this means adding articulations for the Crash cymbal (C) and Ride cymbal (R) instruments, as they seem to be missing in the current groove.
+
+Looking at the existing groove, I notice that the Hihat (H) has some activity, specifically on the second and fifth notes with 'x---' and 'x---', which I assume are closed hits. The Toms (T) and Crash cymbal (C) are all '-' except for the Ride cymbal (R), which has some 'X-x-' and 'x---', indicating perhaps closed hits on the bow.
+
+So, to include cymbal, I need to add the appropriate characters for Crash and Ride cymbals. From the initial explanation, I know that for Crash cymbal (C), 'O' is a hard hit, while 'o' is a soft hit. For Ride cymbal (R), 'O' is a hard open hit on the bell, and 'o' is a soft open hit on the bell. Additionally, 'X' and 'x' denote hard and soft closed hits on the bow.
+
+In the current groove, the Crash cymbal (C) is all '-', which means it's not being played. I need to add some activity here. Similarly, the Ride cymbal (R) has some 'X's, but maybe I can add more for a more dynamic feel.
+
+Let me start by editing the C line. I'll add 'O---|---O|---O|---O' to the Crash cymbal. This means each beat has a hard hit on the 1st, 3rd, and 5th notes, and a soft hit on the 2nd, 4th, and 6th notes. Wait, but the bar only has 4 beats, so each line should have 16 characters, right? Let me count: 4 beats x 4 notes = 16 notes. So, each line should have 16 characters, split into 4 beats by '|'.
+
+So, for C: O---|---O|---O|---O, that's 16 characters, meaning each beat has O on the first, third, and fifth notes, and '-' on the second, fourth, and sixth? Wait, no, the way the notation works is that each four characters separated by | constitute a beat. So, each beat is four characters, and there are four beats, making 16 characters total.
+
+Therefore, for C, I should have each beat with O on the first and third notes, and '-' on the second and fourth. Wait, but the user's initial example for C was O---|----|----|----, which means all '-' except the first note of each beat. So, maybe I should follow that pattern.
+
+Wait, no, the user's initial example for C was O---|----|----|----, which means the first note of each beat is O, and the rest are '-'. So, I think that's how it's supposed to be. So, for C, I'll make the first note of each beat O, and the rest '-'. So, C: O---|----|----|----.
+
+But the user's edit request is to include cymbal, so maybe I should add more activity. Alternatively, perhaps I should follow the same pattern as Ride cymbal, which has 'X-x-' in the first beat, 'x---' in the second, 'x---' in the third, and 'X-x-' in the fourth. Wait, but in the current groove, R is x---|X-x-|x---|X-x-, which is four beats: x---, X-x-, x---, X-x-.
+
+So, perhaps for C, I can add similar patterns. For example, first beat: O---, second beat: ---O, third beat: ---O, fourth beat: ---O. But that might not be very dynamic. Alternatively, I can alternate between O and x for a more interesting pattern.
+
+Wait, but the user's initial example for C was O---|----|----|----, so maybe I should stick to that for consistency. Similarly, for R, the user's initial example was O---|----|----|----, but in the current groove, it's x---|X-x-|x---|X-x-.
+
+Hmm, perhaps I should add more activity to both C and R to make them more prominent.
+
+So, for C, I'll make the first note of each beat an O, and the rest '-'. So, C: O---|----|----|----.
+
+For R, I'll add some X's and x's. Maybe something like X---|X-x-|x---|X-x- for Ride cymbal.
+
+Wait, but in the current groove, R is x---|X-x-|x---|X-x-, which is four beats. So, perhaps I can keep that pattern for consistency.
+
+So, putting it all together, the edited groove would have:
+
+K: ----|----|----|----  
+S: ----|----|----|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: O---|----|----|----  
+R: x---|X-x-|x---|X-x-
+
+But wait, the user's edit request was to include not only snare but also cymbal. In the current groove, the Snare drum (S) is all '-', so perhaps I should add some activity there as well, to include snare. So, for S, I can add some X's or o's.
+
+Looking back at the initial notation, S: ----|X--o|----|O---, which means the first beat has X--o, second beat is ----, third beat has O---. So, maybe I can add similar patterns.
+
+So, for S, I can make the first beat X---, second beat X---, third beat o---, fourth beat O---. So, S: X---|X---|o---|O---.
+
+That way, the snare drum has some activity, including hard and soft hits.
+
+Putting it all together, the final groove would be:
+
+@@@  
+K: ----|----|----|----  
+S: X---|X---|o---|O---  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: O---|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@  
+
+I think this includes both snare and cymbal as per the edit request. The snare drum now has some activity, and the cymbal has some hits added as well.
+</think>
+
+@@@  
+K: ----|----|----|----  
+S: X---|X---|o---|O---  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: O---|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

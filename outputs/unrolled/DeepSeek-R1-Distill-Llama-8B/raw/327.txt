@@ -1,0 +1,27 @@
+Okay, so I need to edit this drum groove based on the user's request. The user provided a drum groove and wants me to remove the snare and ride cymbal. Let me first understand the current groove.
+
+Looking at the current drum groove, I see that the Kick drum (K), Snare drum (S), Hihat (H), Tom (T), Crash cymbal (C), and Ride cymbal (R) are all present. The user wants to remove both the snare and ride cymbal. That means I need to edit the S and R lines to have only their respective inactive notes.
+
+Starting with the Snare drum (S), it currently has some active notes like 'O---' and 'X---'. Since the user doesn't want any snare, I'll replace all active notes with '-'.
+
+For the Ride cymbal (R), the current line has '----|----|----|----', which means no active notes. I think the user wants to remove any ride, so maybe I should add some inactive notes, but since it's already inactive, perhaps I can leave it as is or maybe add some '-' to be consistent.
+
+Wait, the user specifically said to remove ride and snare, so I should ensure that both S and R lines are completely inactive. The current S line has '----|----|----|----', which is all inactive. So maybe I don't need to change it. But to make sure, I'll replace any active notes with '-'.
+
+Looking back, the user's edit request was clear: "I don't want any ride or snare." So, I should ensure that both S and R are completely inactive. For the S line, it's already all inactive, so I'll leave it as is. For the R line, I'll replace any active notes with '-'.
+
+Now, I'll reconstruct the drum groove with the edited S and R lines. The rest of the instruments (K, H, T, C) can remain as they are unless specified otherwise.
+
+Putting it all together, the new drum groove should have S and R lines completely filled with '-', while the other instruments stay the same. Let me double-check to make sure I didn't miss any active notes in S or R.
+
+Yes, S is all '-', and R is also all '-'. The other instruments are still active. That should fulfill the user's request.
+</think>
+
+@@@  
+K: O---|----|O---|----  
+S: ----|----|----|----  
+H: X---|X---|X---|X---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

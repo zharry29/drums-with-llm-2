@@ -1,0 +1,46 @@
+Okay, I need to help the user edit their drum groove to include both cymbals and snare. Let me start by understanding the original groove and the edit request.
+
+The user provided a drum groove with the following setup:
+
+- **K:** O---|----|O---|---- (Kick drum)
+- **S:** ----|O---|----|O--- (Snare drum)
+- **H:** X---|X---|X---|X--- (Hihat)
+- **T:** ----|----|----|---- (Toms)
+- **C:** ----|----|----|---- (Crash cymbal)
+- **R:** ----|----|----|---- (Ride cymbal)
+
+The edit request is to have "not only cymbal but also snare." So, I need to ensure that both the cymbals (Crash and Ride) and the snare are included in the groove.
+
+Looking at the original groove, the snare is already present on beats 2 and 4. The cymbals are not used at all. So, my task is to add cymbal hits while keeping the snare hits.
+
+I should decide where to place the cymbal hits. Typically, crash cymbals are used on strong beats to add accentuation. Let's add crash cymbals on beats 1 and 3. For the ride cymbal, it's often used on off-beats or to add rhythm, so I'll add ride hits on the "and" of beat 2 and the "and" of beat 4.
+
+So, the updated lines would be:
+
+- **C:** O---|----|O---|---- (Crash on beats 1 and 3)
+- **R:** ----|x---|----|x--- (Ride on the "and" of beats 2 and 4)
+
+I'll keep the snare hits as they are since they're already in the groove.
+
+Putting it all together, the final groove should look like this:
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: O---|----|O---|----
+R: ----|x---|----|x---
+@@@
+
+This way, both the cymbals and snare are included, fulfilling the edit request.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: O---|----|O---|----
+R: ----|x---|----|x---
+@@@

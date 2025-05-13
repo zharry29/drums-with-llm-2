@@ -1,0 +1,195 @@
+Okay, let's tackle this drum groove edit. The user wants me to add some snare to the existing groove. Let me first look at the current setup.
+
+The given groove has a pretty active kick drum (K: OOO-|--O-|OOO-|-OOO) and crashes on every beat (C: O---|O---|O---|O---). The snare line is currently empty except for two hits in the second and fourth beats (S: ----|O---|----|O---). Wait, no, actually checking again, the S line is all dashes except for the second and fourth bars? Wait, let me parse this correctly.
+
+Looking at the S line: "S: ----|O---|----|O---". So in the second beat (after the first |), there's an O on the first 16th note, and in the fourth beat (after the third |), another O on the first 16th. That's minimal snare presence. The user wants to add more snare, so I need to enhance that.
+
+First, I should consider where to place the snare hits. Since the kick is already busy, maybe complement it. The existing snare is on beats 2 and 4, which is common for a backbeat. To add more, perhaps adding some off-beat or syncopated hits. Let me see the structure:
+
+The bar is divided into four beats, each with four 16th notes. The current snare hits are on the first 16th of beats 2 and 4. To add more, maybe add hits on the "&" (the offbeat) of some beats, or maybe on the third 16th note. Alternatively, adding a snare on every beat but softer, or maybe a rimshot pattern.
+
+Another approach is to mirror the kick's activity. The kick has O's in the first three 16th notes of the first beat (OOO-), then --O- in the second, etc. Maybe adding snare hits where the kick isn't as busy, or in between.
+
+Also, considering the existing crashes on every beat, maybe align snare with crashes for emphasis, but the current S has O on the first 16th of beats 2 and 4, which are the same as the crash positions. Maybe adding more on the "&" of those beats.
+
+Alternatively, adding a snare on the third 16th note of some beats. Let's think step by step.
+
+First beat: K has OOO-, so first three 16ths are kicks. Maybe add a snare on the fourth 16th (the "-") of the first beat? But that's silent now. Or maybe the third beat's K is OOO-, so similar.
+
+Second beat: K is --O-, so the third 16th is a kick. The snare is on the first 16th. Maybe adding a hit on the third 16th here as well, but that's where the kick is. Maybe instead on the second 16th (the "&").
+
+Fourth beat: K is -OOO, so the last three 16ths are kicks. The existing snare is on the first 16th. Maybe adding a hit on the fourth 16th here?
+
+Alternatively, creating a syncopated pattern like O-x- or something. Since S can use X and x for sidestick, but the user might prefer O for harder hits.
+
+Wait, the user's instruction is to add snare, so using O or o. Let me see.
+
+Perhaps adding a snare hit on the "&" (second 16th) of beats 1 and 3, where the kick is busy. For example:
+
+In the first beat's S line, currently "----", maybe change to "-O--" so that the second 16th has a snare. That would complement the kicks on 1,2,3.
+
+Similarly, in the third beat's S line (which is currently "----"), adding a hit on the second 16th: "-O--".
+
+For the second beat, maybe add a hit on the fourth 16th: so "O---" becomes "O--O".
+
+Fourth beat's S line is "O---", so maybe add a hit on the fourth 16th: "O---" → "O---" but with the last character as O? Wait, the fourth beat's S is currently "O---", so first 16th is O. To add another, maybe make it "O-O-" or "O--O".
+
+Alternatively, perhaps a more consistent pattern. Let's think of a standard rock beat: snare on 2 and 4, but with some extra hits. Since the existing has 2 and 4, maybe adding the "&" of 2 and 4.
+
+Alternatively, let's see the current S line:
+
+S: ---- | O--- | ---- | O---
+
+So each bar is four beats:
+
+Beat 1: ---- (no snare)
+Beat 2: O--- (snare on first 16th)
+Beat 3: ---- (no snare)
+Beat 4: O--- (snare on first 16th)
+
+So the user wants more snare. Maybe adding hits on the "&" of each beat. Let's try:
+
+For each beat, add a snare on the second 16th (the "&"):
+
+So:
+
+Beat 1: -O-- (snare on "&" of beat 1)
+Beat 2: O-O- (snare on 1 and "&")
+Beat 3: -O-- (snare on "&" of beat3)
+Beat4: O-O- (snare on 1 and "&")
+
+But need to check if that's too much. Alternatively, maybe on the "&" of beats 1 and 3, and adding another hit on beat 3's third 16th?
+
+Alternatively, making the snare pattern like O-x- or something. Let me try:
+
+S: -O-- | O-O- | -O-- | O-O-
+
+But let's write that in the notation with the bars separated by |.
+
+So the S line would be:
+
+S: -O--|O-O-|-O--|O-O-
+
+But need to check if that's within 16 characters. Each beat is 4 characters, so 4 beats make 16.
+
+Alternatively, maybe a more spaced pattern. Alternatively, adding a third snare hit on beat 3.
+
+Alternatively, since the existing has snare on beats 2 and 4, perhaps adding some ghost notes (soft hits) on the "&" of those beats.
+
+So, for example:
+
+Beat2: O-o- (hard hit on 1, soft on &)
+Beat4: O-o-
+
+That could add some variation.
+
+Alternatively, let's think of a pattern that adds more hits without overcrowding. Let me try:
+
+In the first beat, add a snare on the fourth 16th: so "----" becomes "--O-".
+
+Second beat remains O--- but maybe add an "&": "O-O-".
+
+Third beat add a hit on the third 16th: "-O--".
+
+Fourth beat add an "&": "O-O-".
+
+Putting it all together:
+
+S: --O- | O-O- | -O-- | O-O-
+
+Wait, let me write each beat's four characters:
+
+Beat1: --O- (third 16th)
+Beat2: O-O- (first and second)
+Beat3: -O-- (second)
+Beat4: O-O- (first and second)
+
+Hmm, but maybe that's not the best. Alternatively, perhaps a consistent pattern across all beats except where the kick is too busy.
+
+Alternatively, since the kick is busy in the first beat (OOO-), maybe adding a snare on the fourth 16th there. Then in the second beat, the kick is --O-, so adding a snare on the first and third? Not sure.
+
+Alternatively, let's try to make the snare hit on every beat's second 16th (the "&") and the existing 2 and 4:
+
+So S would have:
+
+Beat1: -O-- (snare on "&" of 1)
+Beat2: O-O- (snare on 1 and "&")
+Beat3: -O-- (snare on "&" of 3)
+Beat4: O-O- (snare on 1 and "&")
+
+This way, snare is on "&1", "1 and &2", "&3", "1 and &4".
+
+This adds more hits while keeping it rhythmic.
+
+Alternatively, maybe a more dense pattern. Let's try this:
+
+S: -O-- | O-O- | -O-- | O-O-
+
+So that's:
+
+Beat1: -O-- (hit on 2nd 16th)
+Beat2: O-O- (hits on 1 and 2)
+Beat3: -O-- (hit on 2nd)
+Beat4: O-O- (1 and 2)
+
+This way, the snare is more active but not overwhelming the kick. Let me check if this fits with the existing kick and crashes.
+
+The crashes are on every beat's first 16th (C: O---|O--- etc.), so the snare on beat2 and 4's first 16th would align with crashes, which is fine. The "&" hits would add syncopation.
+
+Alternatively, maybe using soft hits (o) for the "&" to keep it subtle. So:
+
+Beat2: O-o- (hard on 1, soft on &)
+Beat4: O-o-
+
+That could work. So:
+
+S: -O-- | O-o- | -O-- | O-o-
+
+This way, the "&" hits are softer, which might sound better.
+
+Alternatively, using X or x for sidestick, but the user might prefer standard snare hits. Since the instruction says "add some snare", using O or o is better.
+
+Another option: adding a snare on the third 16th of some beats. For example, in beat1: "--O-", so third 16th. But need to see.
+
+Alternatively, making the snare pattern like a paradiddle or something, but that might be complex.
+
+Alternatively, let's look at the user's previous edits. In prior examples, when adding snare, they sometimes placed hits on the second and fourth beats' "&" positions. For instance, in a previous response, they added O on the second 16th of beats.
+
+Given that, maybe the best approach is to add a snare hit on the "&" (second 16th) of every beat, along with the existing 2 and 4.
+
+So the S line would be:
+
+Beat1: -O-- (snare on "&1")
+Beat2: O-O- (1 and &2)
+Beat3: -O-- ("&3")
+Beat4: O-O- (1 and &4)
+
+So putting it all together:
+
+S: -O--|O-O-|-O--|O-O-
+
+But need to check the total characters. Each beat is 4 characters, so four beats make 16. That works.
+
+Alternatively, using o for some hits to vary dynamics. Let me see.
+
+Alternatively, maybe adding a third snare hit on beat 3's first 16th. But the original only had beats 2 and 4. Adding beat3's first would make it O--- in that beat's section, but that might clash with kick if present.
+
+Looking at the K line for beat3: OOO- (so first three 16ths are kicks). So snare on first 16th of beat3 would clash with kick's first hit. Probably not ideal. So better to avoid that.
+
+Thus, the above pattern seems safe. Let me confirm the final S line would be:
+
+S: -O--|O-O-|-O--|O-O-
+
+So the final drum groove would have that S line, keeping the rest the same. Let me double-check the original given groove's S line was all dashes except for |O---| and |O---|. Wait, original S line is "S: ----|O---|----|O---". So in beat2, it's O--- (hit on first 16th), and beat4 O--- same.
+
+Adding the above would enhance it with more hits. That should fulfill the request.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: -O--|O-O-|-O--|O-O-
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

@@ -1,0 +1,26 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the hihat and tom parts. First, I need to look at the given groove and see where the hihat (H) and tom (T) are active.
+
+Looking at the original groove:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+Hmm, the H line is all dashes, so hihat isn't actually being used here. But the T line has O-o- repeating in each beat. So the toms are playing on every beat. The user wants no hihat or tom, so I need to silence the T line.
+
+The edit request says to remove hihat and tom. Since H is already silent, I just need to set T to all dashes. Also, check if any other instruments are involved. The kick (K) and snare (S) are okay as they are. The crash (C) and ride (R) are also silent, so no problem there.
+
+So the edited version should have T set to all dashes. Let me make sure I don't touch any other lines. The final groove should look like this with T line cleared.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

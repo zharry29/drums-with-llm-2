@@ -1,0 +1,35 @@
+Okay, let me tackle this drum groove edit. The user wants a tom hit and a kick in the very beginning. 
+
+First, I need to look at the original groove provided. Let me parse each line:
+
+Kick (K): O--O|----|--O-|----
+Snare (S): ----|Oo-o|-o--|O--o
+Hihat (H): ----|----|----|----
+Toms (T): ----|----|----|----
+Crash (C): ----|----|----|----
+Ride (R): o-O-|o-O-|o-O-|o-O-
+
+The user wants the first 16th note (the very beginning) to have both a kick and a tom hit. Let's break down the first beat, which is "O--O" for the kick. The first note is an 'O', which is a hard kick hit. So the kick is already playing on the first note. Now, the tom line is all dashes in the first beat. To add a tom hit there, I need to place an 'O' (since it's a hard hit, probably) on the first 16th note of the first beat.
+
+So, modifying the Toms line (T) from "----|----|----|----" to "O---|----|----|----". That adds a hard tom hit on the first note. 
+
+Wait, let me check the structure again. Each beat is four characters. The first beat for Toms is the first four characters before the |. So changing the first character from '-' to 'O' gives T: O---|----|----|----
+
+Now, the kick already has an 'O' there, so combining both kick and tom on the first note. That should satisfy the request. Let me make sure there's no conflict. The other instruments in the first beat are all dashes except the ride, which has 'o-O-' starting with a soft open hit. The tom's 'O' won't interfere.
+
+So the edited lines would be:
+
+K remains: O--O|----
+T becomes: O---|----
+
+Let me double-check the user's instruction: "tom hit and kick in the very beginning". Since the kick is already there, adding the tom is the main change. The rest of the groove stays the same. I think that's it. No other changes needed unless I missed something. The user didn't mention anything else, so this should work.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: O---|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

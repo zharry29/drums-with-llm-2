@@ -1,0 +1,39 @@
+Okay, let me try to figure out how to approach this drum groove edit. The user provided a drum notation example and explained each part. The task is to remove the hihat (H) and any cymbals (C and R). 
+
+First, I need to look at the given groove:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+The user wants to eliminate hihat (H) and cymbals (C and R). So I should set all H, C, and R lines to all dashes. 
+
+Looking at the original, the H line has X's, which are closed hits. Since the user doesn't want hihat, those need to be replaced with '-'. The C and R lines are already empty, but just to be safe, I'll confirm they are all dashes. 
+
+The kick (K) and snare (S) lines are okay as they are, since the request is only about removing hihat and cymbals. So the edited version should keep K and S as they are, and set H, C, R to all '-'.
+
+Wait, the user said "hihat or cymbal". Cymbals include both crash (C) and ride (R). So indeed, all those lines should be cleared. Let me double-check each line:
+
+- K remains: O---|----|O---|----
+- S remains: ----|O---|----|O---
+- H becomes: ----|----|----|----
+- T stays as is (no tom requested to remove, user didn't mention tom): ----|----|----|----
+- C becomes: ----|----|----|----
+- R becomes: ----|----|----|----
+
+Wait, the user didn't mention toms, so T stays as it is. The original T line is all dashes, so that's fine. 
+
+So putting it all together, the edited groove should have H, C, R lines all dashes. Let me write that out.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

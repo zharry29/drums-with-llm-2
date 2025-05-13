@@ -1,0 +1,39 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any hihat or ride elements from the provided groove. 
+
+First, I'll look at the original groove:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+The user mentioned not wanting hihat (H) or ride (R). So I need to set those lines to all '-'.
+
+Looking at the H line: it's X--- repeated four times. Since X is a hard closed hit on the hihat, removing it means replacing all X's with '-'. 
+
+The R line is already all '-', so no change there. 
+
+Now check the other instruments to ensure they're okay. The Kick (K) has O's, Snare (S) has O's on the second and fourth beats, Toms (T) are silent. Since the user didn't mention Kick or Snare, those stay. 
+
+So the edited version should have H and R lines cleared. Let me confirm each line:
+
+- K remains the same.
+- S remains the same.
+- H becomes ----|----|----|----
+- T stays as is.
+- C is unchanged (no crash mentioned in the request).
+- R is already clear.
+
+Double-check that no other instruments are affected. Looks good. The final groove should have H and R lines empty.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

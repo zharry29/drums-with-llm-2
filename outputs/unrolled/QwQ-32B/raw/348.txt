@@ -1,0 +1,55 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any snare or cymbal parts from the given groove. First, I need to look at each line of the provided drum notation and identify where the snare (S) and cymbals (C and R) are playing.
+
+Starting with the original groove:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+The kick (K) has hits on the first and third beats. The snare (S) is hitting on the second and fourth beats. The hihat (H) is closed (X) on every beat. Toms (T) are silent, and both crash (C) and ride (R) cymbals are also silent.
+
+The user's request is to remove snare and cymbals. So, I need to set all entries in the S, C, and R lines to '-' (no hit). Let's go through each line:
+
+- **Kick (K):** No changes needed since it's unaffected.
+- **Snare (S):** Replace all non-'-' characters with '-'. The original S line has O's on the second and fourth beats. Changing those to '-' will silence the snare.
+- **Hihat (H):** The user didn't mention hihat, so leave it as is unless instructed otherwise. Since the request is only about snare and cymbals, H remains.
+- **Toms (T):** Already silent, so no change.
+- **Crash (C) and Ride (R):** Both are already all '-', so no change there either.
+
+Wait a second, the user said "no snare or cymbal". Cymbals include crash (C) and ride (R). In the original, C and R are already silent, so only the snare needs to be turned off. Let me confirm:
+
+Original S line: "----|O---|----|O---" has O's on the second and fourth beats. Changing those to '-' will remove the snare hits. The rest of the instruments stay the same unless specified. Since the user didn't mention hihat, we leave H as it is.
+
+So the edited groove should have:
+
+K remains the same.
+
+S becomes all '-'.
+
+H stays with X--- on each beat.
+
+T, C, R remain as they are.
+
+Putting it all together:
+
+K: O---|----|O---|----
+S: ----|----|----|----
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+That should fulfill the request. Let me double-check for any snare or cymbal hits. Snare line is clear. C and R are silent. Hihat is still there, but that's allowed. Yep, looks good.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|----|----|----
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

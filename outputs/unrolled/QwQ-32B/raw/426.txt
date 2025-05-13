@@ -1,0 +1,41 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any tom and kick parts from the given drum groove. First, I need to look at each line of the provided notation and identify which instruments are being used.
+
+Starting with the Kick (K line): "o---|--o-|o---|--o-". Since the user doesn't want any kick, I'll replace all the characters in this line with '-' to indicate no hits.
+
+Next is the Snare (S line): "----|X---|--X-|----". The user didn't mention removing the snare, so I'll leave this as is unless there's a misunderstanding. Wait, the edit request specifically says "no tom or kick," so snare should stay. But I should double-check the request again. The user said, "I don't want any tom or kick." So yes, snare is okay.
+
+Hihat (H line): "----|x---|----|x---". The user didn't mention hihat, so it stays unless there's an error. The request is about tom and kick, so hihat remains.
+
+Toms (T line): "----|----|----|----". Already empty, so no change needed here. But just to confirm, since the user wants no tom, even if there were notes, they should be removed. In this case, it's already clear.
+
+Crash (C line) and Ride (R line): The user didn't mention these, so they stay as is unless part of the edit. The request is only about tom and kick, so they remain.
+
+Looking at the Ride (R line): "x---|X-x-|x---|X-x-". That's fine.
+
+Wait, the user might have meant to remove only tom and kick, so the final groove should have K and T lines all '-'.
+
+Let me reconstruct each line:
+
+K: All '-' → "----|----|----|----"
+
+S remains unchanged: "----|X---|--X-|----"
+
+H remains: "----|x---|----|x---"
+
+T: Already all '-' → "----|----|----|----"
+
+C and R stay the same since not mentioned.
+
+Wait the original C line was "----|----|----|----" and R as given. So the final should reflect that.
+
+Putting it all together, ensuring that Kick and Toms are cleared. Let me double-check each line to make sure no K or T notes are present. Yep, looks good. That should be the edited groove.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

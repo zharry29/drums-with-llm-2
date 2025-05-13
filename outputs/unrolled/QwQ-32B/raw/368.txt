@@ -1,0 +1,33 @@
+Okay, let's tackle this drum groove edit. The user provided a specific drum notation and wants me to remove any cymbal or ride parts. First, I need to understand the given groove and identify which lines correspond to cymbals or ride.
+
+Looking at the original groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+The lines are labeled K (Kick), S (Snare), H (Hihat), T (Toms), C (Crash cymbal), and R (Ride cymbal). The user wants no cymbals or ride, so I should set both C and R lines to all '-'.
+
+The Kick (K) and Snare (S) lines are fine as they are. Hihat (H) and Toms (T) are already inactive. So, the main changes are in C and R. Let me double-check each line:
+
+- **C (Crash cymbal):** Currently has "O---" in each beat. Need to replace all with '-'.
+- **R (Ride cymbal):** Already all '-', so no change needed there.
+
+So, replacing the C line with "----|----|----|----" and leaving R as is. Let me ensure there are no other cymbal elements. The user specified "no cymbal or ride," so crash (C) and ride (R) are both targets. The other instruments (K, S, H, T) are okay. 
+
+Final check for typos in the notation. Each line must have 16 characters (4 beats of 4 notes each). The original C line has four "O---" separated by |, so replacing each O with - will keep the structure. The rest of the lines remain unchanged except for C. 
+
+Yes, that should do it. The edited groove should have all cymbal parts muted.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

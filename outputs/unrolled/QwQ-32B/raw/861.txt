@@ -1,0 +1,38 @@
+Okay, let me tackle this drum groove edit. The user wants a kick hit and tom in the very beginning. The original groove is:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, I need to focus on the first beat (the part before the first |). The kick (K) currently starts with "O---", so the first 16th note has a hard kick hit. But the user wants a tom hit there as well. The tom line (T) is all dashes, so I need to add a tom hit on the first 16th note. Since the user mentioned both a kick and tom in the beginning, maybe they want them together on the first note.
+
+Looking at the T line, adding an "O" (hard hit) on the first note would make sense. So, changing T's first character from "-" to "O". That gives T: O---|.... 
+
+But wait, the kick already has an O there. So combining both kick and tom on the first note. That should satisfy "kick hit and tom in the very beginning". 
+
+Let me check the notation rules. For Toms, O is a hard hit. So that's correct. The user didn't specify soft, so hard is safe. 
+
+Are there any other changes? The rest of the groove seems okay. The hihats are closed (X) throughout, snare on the second and fourth beats. The edit only affects the first 16th note of the first beat for K and T. Wait, the original K already has an O there. The user might want an additional tom hit there, so the kick is already there, but adding the tom. So the user's request is met by adding the tom hit on the first note. 
+
+So the final edit would be:
+
+K remains O--- since kick is already present. Add T: O---|... 
+
+So the new T line starts with O---. 
+
+Double-checking the user's request: "kick hit and tom in the very beginning" – the kick is already there, so adding the tom. 
+
+Yes, that should do it.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: O---|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

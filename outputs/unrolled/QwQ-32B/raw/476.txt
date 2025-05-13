@@ -1,0 +1,30 @@
+Alright, let me tackle this drum groove edit. The user wants to remove any snare or kick parts from the given groove. Let me start by carefully looking at the provided drum notation.
+
+First, I'll go through each line to identify which instruments are being used. The user specified not to use snare (S) or kick (K), so I need to set those lines to all dashes. Let me check each line:
+
+- **K (Kick drum):** The current pattern is "-O--|OO--|---O|-OO-". Since we need to remove the kick, I'll replace all characters here with '-'.
+- **S (Snare drum):** The line is "----|----|S---|----". The third beat has an 'S', so replacing that with '-' as well.
+- **H (Hihat):** The pattern is "x-x-|x-x-|x-x-|x-x-". The user didn't mention removing hihat, so this stays.
+- **T (Toms):** "----|----|---O|----" has a tom hit on the third beat. Since toms aren't mentioned to be removed, leave this as is.
+- **C (Crash cymbal):** "O---|O---|O---|O---" – the user didn't say to remove crashes, so keep them.
+- **R (Ride cymbal):** All dashes, so no change needed.
+
+Wait, but let me double-check the user's request again. They said "I don't want any snare or kick." So only K and S lines should be cleared. The rest can stay. Let me verify each line again:
+
+- **K line:** All dashes now.
+- **S line:** All dashes now.
+- **H, T, C remain as they are.**
+
+Looking at the Toms line, there's an 'O' in the third beat. Since the user didn't mention toms, that's okay. The crash cymbals are present in every beat, which is allowed. The hihat's pattern with x's is also okay. 
+
+I think that's all. Just zero out K and S, leave the rest. Let me write the final notation accordingly.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

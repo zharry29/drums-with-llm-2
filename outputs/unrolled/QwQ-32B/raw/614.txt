@@ -1,0 +1,46 @@
+Okay, let me try to figure out how to approach this drum groove edit. The user wants a hihat hit and snare in the very beginning. The original groove is:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+So first, the very beginning is the first beat, which is "OOO-" for the kick. The snare currently starts on the second beat with "O---". To add a snare hit at the very beginning, I need to modify the first part of the snare line. The first beat of the snare is "----", so changing the first character to an 'O' would add a hard snare hit there. 
+
+For the hihat, the original has all dashes in the first beat. The hihat line starts with "----", so to add a closed hit (since X and x are closed hits), maybe use an X. The user might want a closed hihat here, so replacing the first '-' with 'X' makes sense.
+
+Wait, but the user specified "hihat hit and snare in the very beginning". The hihat's closed hit is X or x. Let's use X for a hard hit. So the first character of the H line should be X. 
+
+So modifying the S and H lines:
+
+Original S first beat: "----" → change to "O---" to have a snare hit on the first 16th note.
+
+Original H first beat: "----" → change to "X---" for a closed hihat hit.
+
+Let me check the notation rules again to confirm. Hihat's X and x are hard and soft closed hits. So using X is correct for a closed hit.
+
+The rest of the groove should stay the same. Let me write the modified lines:
+
+K remains the same: OOO-|--O-|OOO-|-OOO
+
+S becomes: O---|O---|----|O--- (first beat changed from ---- to O---)
+
+H becomes: X---|----|----|----
+
+C and R remain unchanged.
+
+Wait, but the user might want the hihat to start with a hit on the first note, so that's correct. Let me check for any other changes. The rest of the groove should stay as is. 
+
+Yes, that should do it. The edited groove will have the snare and hihat hits at the beginning.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: O---|O---|----|O---  
+H: X---|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

@@ -1,0 +1,34 @@
+Okay, let me tackle this drum groove edit. The user wants a cymbal hit and kick in the very beginning. The original groove has:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+Looking at the first beat (before the first |), the kick has "o---", which is a soft hit on the first 16th note. To add a kick, maybe make it a hard hit (O) instead. 
+
+For the cymbal hit, the user didn't specify which cymbal, but since Crash (C) and Ride (R) are options. The original has Ride (R) active with "x---", which is a soft closed hit. Maybe add a Crash (C) hit on the first note. But since Crash is more impactful, maybe using O for a hard hit there. Alternatively, if they prefer Ride, but it's already playing. Let me check the user's request again: they want a cymbal hit and kick in the very beginning. Since C is empty initially, adding a Crash hit there makes sense.
+
+So, first note of Kick: change the 'o' to 'O' for a harder kick. First note of Crash (C) should have an 'O' to add the cymbal hit. The original C line is all dashes, so change first character to O.
+
+Let me verify:
+
+Original K first beat: o---
+After: O---
+
+Original C first beat: ----
+After: O---
+
+That should do it. The rest can stay the same unless conflicting, but since C wasn't playing before, this should be okay. The user didn't mention removing anything else, so just those two changes.
+</think>
+
+@@@
+K: O---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

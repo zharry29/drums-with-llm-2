@@ -1,0 +1,65 @@
+Okay, let me try to figure out how to approach this drum groove edit. The user wants a tom hit and cymbal in the very beginning. Let me start by looking at the original groove they provided.
+
+The given drum groove is:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+So, the user wants a tom hit (T) and a cymbal (either C or R) added at the very beginning. The first beat is "O---" for the kick (K), and the rest are dashes for tom and cymbals. 
+
+First, the "very beginning" would be the first 16th note of the first beat. The kick is already hitting on the first note (O). To add a tom hit there, I need to place an O or o in the T line's first position. Since the kick is a hard hit (O), maybe a tom hit there could be a soft hit (o) to not clash too much, but the user didn't specify, so maybe just a standard O.
+
+For the cymbal, they might want either crash (C) or ride (R). Looking at the existing C line, it has O--- in the first beat, so the crash is already hitting on the first beat. Wait, the user might want an additional cymbal hit, or maybe they want to ensure there's a cymbal there. Let me check the original C line:
+
+C: O---|----|----|----
+
+So the crash is already hitting the first 16th note of the first beat (O). But maybe the user wants a different cymbal or an extra hit? Or perhaps they want to add a ride instead. Alternatively, maybe they want both tom and cymbal added where there wasn't before. Wait, the original C line already has a crash on the first note. So maybe the user just wants to ensure that the tom is added there, and maybe confirm the cymbal is present. Since the crash is already there, perhaps that's sufficient. But maybe they want a ride instead? Let me see the edit request again: "I'd like a tom hit and cymbal in the very beginning." Since the crash is already present, maybe just adding the tom is enough. But let me check the T line: it's all dashes. So adding a tom hit on the first note. 
+
+So, for the T line first beat: change the first character from '-' to 'O' (assuming a hard hit). The cymbal is already there with the crash. Alternatively, maybe the user wants a different cymbal, but since they mentioned "cymbal" generally, the existing crash might be okay. 
+
+Wait, but maybe the user wants to add both a tom and a cymbal that wasn't there before. Let me check again. The original C line has a crash on the first note, so that's already a cymbal. So adding a tom hit there is the main change. 
+
+Therefore, the T line's first beat should have an O in the first position. Let's adjust that. The rest of the T line can stay as dashes unless needed. 
+
+So the edited T line would be:
+
+T: O---|----|----|----
+
+And the C line remains as is, since it's already hitting the first note. 
+
+Let me verify the other parts. The user didn't mention changing anything else, so the rest should stay. 
+
+Wait, the user's instruction is to add a tom hit and cymbal in the very beginning. Since the cymbal (crash) is already there, maybe the user just wants to confirm that, but perhaps they wanted an additional cymbal? Alternatively, maybe they wanted a ride instead of crash. But since the original has crash, maybe it's okay. 
+
+Alternatively, maybe the user intended to have a ride cymbal instead of crash, but since the edit request is to add both tom and cymbal, and crash is already there, perhaps it's okay. 
+
+So the final edit would be adding the tom hit on the first note of the first beat. 
+
+Let me write that out:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+Wait, but in the original, the T line was all dashes. So adding the O in the first position of the T line's first beat. That's the main change. 
+
+I think that's it. Let me check again. The user wants a tom and cymbal at the very start. The crash is already there, so adding the tom hit on the first 16th note. The rest remains the same. That should fulfill the request.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

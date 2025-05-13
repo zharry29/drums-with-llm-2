@@ -1,0 +1,21 @@
+Okay, let's tackle this drum groove edit. The user wants a kick hit and a tom in the very beginning. The original groove starts with the kick on the second 16th note of the first beat (the 'o' in "o---"). But the request is to have both a kick and a tom at the very start, which is the first 16th note of the first beat.
+
+First, I need to check the current setup. The original K line starts with "o---", so the first hit is a soft kick on the first 16th note. To add a hard kick there, I should change that 'o' to an 'O'. That gives a harder hit right at the beginning.
+
+Next, the tom (T line) is all dashes in the first beat. To add a tom hit on the first 16th note, I need to put an 'O' there since it's a hard hit. So the T line's first part becomes "O---".
+
+I should also ensure that other elements don't conflict. The snare (S) and hihat (H) don't have anything on the first note, so no issues there. The ride (R) starts with 'x---', which is a closed hit, but that's okay since the kick and tom are separate.
+
+Wait, the user might want the kick and tom to both hit on the first 16th note. So modifying the K and T lines as mentioned should do it. Let me double-check the notation rules. For the kick, 'O' is a hard hit, which fits. For toms, 'O' is a hard hit. Perfect.
+
+No other changes needed elsewhere since the rest of the groove is fine. Just the first note of the first beat for K and T need adjustment. Let me write that out.
+</think>
+
+@@@
+K: O---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: O---|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

@@ -1,0 +1,71 @@
+Okay, let me tackle this drum groove edit. The user wants the groove to include not only cymbal but also tom. Looking at the given groove:
+
+The current setup is:
+- Kick (K) is all dashes, so no kick hits.
+- Snare (S) is also all dashes, no snare.
+- Hihat (H) has some x's on the second and fourth beats.
+- Toms (T) are completely silent.
+- Crash (C) is silent.
+- Ride (R) has a pattern with x and X on alternating beats.
+
+The edit request is to add tom. Since the user mentioned "not only cymbal but also tom," I need to ensure that toms are added where they make sense without conflicting with existing parts.
+
+First, the existing cymbals are on the ride (R) and there's no crash. To add toms, I should place them in a way that complements the ride pattern. The hihat is already providing some rhythm on the 2nd and 4th beats, so the toms can add more depth.
+
+Looking at the ride's pattern: "x---|X-x-|x---|X-x-". The ride is played on every 16th note but with variations in hardness. Maybe the toms can hit on the downbeats or offbeats to add weight.
+
+Let me try adding toms on the first 16th note of each beat. For example, on the first beat of each measure. Let's see:
+
+In the first beat: "----" for Toms. Let's add an O on the first 16th note: "O---".
+
+Second beat: "|----", maybe an O on the first 16th as well: "|O---".
+
+Third beat: "|----", same here: "|O---".
+
+Fourth beat: "|----", again "|O---".
+
+So T: O---|O---|O---|O---.
+
+But maybe that's too repetitive. Alternatively, syncopate it with the ride. The ride has an X on the first 16th of the second beat. Maybe the tom can hit on the third 16th note of the first beat to create a syncopation.
+
+Alternatively, let's see the existing hihat is on the second and fourth beats. Maybe place toms on the offbeats where the hihat isn't hitting. For example, on the '+' of each beat (third 16th note).
+
+Alternatively, the user might want to introduce a tom pattern that's simple but effective. Since the groove is minimal, adding a tom on the third 16th note of each beat could work. Let's try:
+
+T: --O-|--O-|--O-|--O-.
+
+This way, the toms hit on the third 16th note of each beat, creating a syncopated rhythm that complements the ride and hihat. Let me check if that fits.
+
+Alternatively, maybe a pattern like O---|---O|O---|---O to alternate between beats. But keeping it consistent might be better for a groove.
+
+Wait, the user's example in previous edits often added a steady tom pattern. Let me check previous answers for similar requests. For instance, in a prior edit where tom was added, the assistant used a pattern like "--O-|--O-|O---|O---" in the T line. Maybe a similar approach here.
+
+Alternatively, since the ride is active, toms can emphasize certain parts. Let me try putting a tom hit on the first 16th of each beat. That would be straightforward.
+
+So T: O---|O---|O---|O---. But maybe that's too much. Alternatively, every other beat.
+
+Alternatively, since the hihat is on the 2nd and 4th beats, maybe the toms can hit on the 1st and 3rd.
+
+Wait, the hihat's pattern is H: ----|x---|----|x---. So on the second beat's first 16th (the second beat's first note), hihat is hit. So maybe toms can hit on the first and third beats' first 16th notes.
+
+Alternatively, toms on the third 16th of each beat as I thought before.
+
+Hmm. Let me proceed with adding a tom hit on the third 16th of each beat, so "--O-" for each beat. That would give T: --O-|--O-|--O-|--O-.
+
+Alternatively, to make it more dynamic, maybe alternate between O and o for soft and hard hits. But the user's previous edits often used O for simplicity.
+
+So finalizing the Toms line as "--O-|--O-|--O-|--O-".
+
+Additionally, since the user mentioned "not only cymbal but also tom," maybe ensure that the crash (C) is also present, but in the original groove, C is all dashes. However, the edit request specifically mentions adding tom, so perhaps the crash isn't required unless specified. Wait, the request is "not only cymbal but also tom," implying that there should be both cymbal (which exists in ride) and tom. Since the ride is already there, adding tom is the main task.
+
+Therefore, the edited groove would have the Toms line filled with the pattern I mentioned, and leave the crash as is unless needed. But the user didn't mention adding crash, just tom. So the final answer would be adding the tom hits as above.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: --O-|--O-|--O-|--O-
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

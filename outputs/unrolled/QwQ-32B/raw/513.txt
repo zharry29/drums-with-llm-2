@@ -1,0 +1,73 @@
+Okay, let me try to figure this out. The user wants me to edit a drum groove by removing any parts involving toms or cymbals. Let me start by looking at the given drum notation.
+
+First, the original groove is:
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+So, breaking it down by each instrument:
+
+- **Kick (K):** Has hits on the first and third beats (O--- and O---).
+- **Snare (S):** Hits on the second and fourth beats (O--- and O---).
+- **Hihat (H):** Has X--- repeated every beat. Since X is a closed hit for the hihat, that's okay.
+- **Toms (T):** All dashes, so no toms are being used.
+- **Crash (C):** Also all dashes, no crashes.
+- **Ride (R):** All dashes, no ride either.
+
+The user's request is to remove any tom or cymbal. The tom line (T) is already empty, so no changes needed there. The cymbals here are Crash (C) and Ride (R), which are also already empty. The hihat (H) is a closed hi-hat (X), which is part of the hihat, not a cymbal. Wait, but sometimes people might consider hihat as part of the cymbal family? Hmm, but according to the problem statement, the instruments are listed as Kick, Snare, Hihat, Toms, Crash, Ride. So the user specified "no tom or cymbal", which would include Crash and Ride, but Hihat is separate. Since the original already has no Crash or Ride, and the user didn't mention hihat, maybe they just want to ensure that those are removed if present. But in this case, the only non-zero parts are Kick, Snare, and Hihat. Since the user didn't mention removing hihat, we can leave it as is. Wait, but the user said "no tom or cymbal". Hihat is a cymbal? Let me check the definitions again.
+
+Looking back at the instrument descriptions:
+
+- **H: Hihat** has articulations including X and x as closed hits. The problem statement's instruments list Hihat separately from Crash and Ride cymbals. So hihat is its own category. Therefore, the user's request to remove tom or cymbal would exclude hihat. Since the original already has no toms (T line is clear) and no cymbals (C and R are clear), then the groove is already compliant. But maybe the user wants to make sure that even hihat is removed? Wait, the user's exact words: "I don't want any tom or cymbal." Since hihat is a type of cymbal, perhaps they want to remove that too. But the problem statement separates Hihat from the other cymbals (Crash and Ride). Let me recheck the initial notation example given:
+
+In the example provided by the user:
+
+H: x---|x---|x---|x---
+
+Which is part of the standard notation. Since the user's instruction says to remove cymbals (Crash and Ride) and toms, but Hihat is a separate instrument, perhaps they want to keep it. However, if the user's intention is to exclude all cymbals including hihat, then H line should be cleared. But the problem statement's example includes Hihat in the instruments, so maybe the user is okay with hihat remaining as it's not a crash or ride. 
+
+Wait, the user's exact edit request is "I don't want any tom or cymbal." Since "cymbal" here might refer to Crash and Ride, which are explicitly listed under C and R. The Hihat is a different category, so the user probably wants to keep it unless specified. Since in the original, the H line is X---, which is allowed, the only changes needed are to ensure T, C, R are empty. Which they already are. Therefore, the groove as given is already compliant. However, maybe I should double-check if there's any other cymbal involvement. Let me look again.
+
+Original T line is all dashes, so no toms. C and R lines are also dashes, so no crash or ride. The H line is present, but since it's hihat and not a cymbal in the user's request, it stays. Therefore, the edited version would be the same as the original. Wait, but maybe I missed something. Let me confirm each line:
+
+- **K**: Okay, no change.
+- **S**: No cymbals involved here, just snare.
+- **H**: Closed hihat hits (X), which are part of the hihat, not a cymbal per the problem's separation.
+- **T**: Already empty.
+- **C**: Already empty.
+- **R**: Already empty.
+
+Therefore, the answer should be the same as the original, but maybe the user wants to ensure that H is also removed? If that's the case, then we need to clear H. But the problem states "I don't want any tom or cymbal", so unless hihat is considered a cymbal here, which the problem separates, then H can stay. Since the user didn't mention hihat specifically, I'll proceed to leave it as is. Thus, the final edited groove remains unchanged except possibly the H line if needed. Wait, the user might have intended to remove all cymbals including hihat. Let me see the problem's instrument list again:
+
+The instruments are K, S, H, T, C, R. So H is Hihat, which is a cymbal type, but listed separately. The user says "no cymbal", so that would include Hihat. Oh, that's a good point. Because technically, the hihat is a closed hi-hat cymbal. So if the user says "no cymbal", then H should also be removed. Wait, but in the problem's initial example, the H line is present in the example drum notation, so perhaps the user's instruction is to remove Crash and Ride (C and R) and Toms (T), but Hihat (H) is allowed. Alternatively, maybe the user considers hihat as part of the cymbals. This is ambiguous. 
+
+Looking at the problem's description:
+
+Under the instruments, H is Hihat, and the cymbals are Crash (C) and Ride (R). So the user's request to remove "tom or cymbal" would mean removing T, C, R. Hihat is a separate instrument, so it should stay. Therefore, the original's H line is okay. Therefore, the edited version is the same as original except making sure T, C, R are empty, which they already are. Therefore, the final answer should be the same as the original. Wait, but the user's instruction says "I don't want any tom or cymbal." Since the original already has no toms (T line is clear) and no cymbals (C and R are clear), then the groove is already okay. So the edited version is the same as the original. 
+
+Therefore, the answer is:
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

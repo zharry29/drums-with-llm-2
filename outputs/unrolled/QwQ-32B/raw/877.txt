@@ -1,0 +1,128 @@
+Okay, let's tackle this drum groove edit. The user wants to avoid having the snare on the downbeats of beats 2 and 4. First, I need to understand the current groove structure.
+
+Looking at the given drum groove:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+Breaking it down beat by beat (each | separates beats 1-4):
+
+**Beat 1:**
+- Kick: O (hard hit on first 16th note)
+- Snare: nothing
+- Others: nothing except Ride.
+
+**Beat 2:**
+- Kick: nothing
+- Snare: Oo-o (hard hit on second 16th, soft open on third, open on fourth? Wait, need to check notation rules. S: O is hard, o is soft open. So "Oo-o" would be first 16th: -, second: O (hard), third: o (soft open), fourth: o (soft open? Wait, maybe I need to parse each character. Let me clarify the S line for beat 2: "Oo-o" so each character is:
+
+Positions 1-4 of beat 2 (the second beat):
+
+1: O (hard hit on the first 16th of beat 2, which is the 5th 16th note overall)
+2: o (soft open on the second 16th)
+3: - (no hit? Wait no, the string is "Oo-o", so maybe the fourth character is o. Wait the beat is divided into four 16th notes. Let me parse each character:
+
+Beat 2's S line is "Oo-o", but each beat has four characters. Wait the user's example had "----|X--o" so each beat is four characters. So "Oo-o" is three characters, but that can't be. Wait the user's input must have a typo? Wait the given S line is:
+
+S: ----|Oo-o|-o--|O--o
+
+So each beat is four characters. Let's check again:
+
+First beat S: ---- (all four 16ths silent)
+Second beat S: O o - o? Wait "Oo-o" would be four characters? Let me count:
+
+The second beat's S is "Oo-o" – that's four characters? O, o, -, o? Wait "Oo-o" is four characters? O, o, -, o? Wait no, "Oo-o" is four? Let me see:
+
+The original line is written as S: ----|Oo-o|-o--|O--o
+
+Breaking down each beat:
+
+- First beat: "----" (4 characters)
+- Second beat: "Oo-o" – wait that's only 4? O, o, -, o? Wait maybe the user made a typo? Let me see the exact input again.
+
+The user's input for S is:
+
+S: ----|Oo-o|-o--|O--o
+
+So each beat is separated by |, so between the |, each group is four characters. The second beat is "Oo-o" – that's four characters? Let me see:
+
+"Oo-o" is four characters: O, o, -, o? Wait that's four? O (first 16th), o (second), - (third), o (fourth). So the snare on beat 2 has hits on the first, second, and fourth 16th notes. The downbeat of beat 2 is the first 16th note of that beat (the 5th 16th note overall). So the first hit of beat 2's snare is on the downbeat (the first 16th of beat 2). The user wants to avoid that.
+
+Similarly, beat 4's snare is "O--o". So the first character of beat 4 is O, which is the downbeat of beat 4 (the 13th 16th note). So that's the downbeat of beat 4. So the user wants to remove those two O's on the first 16th note of beats 2 and 4.
+
+So the plan is to remove the snare hits on the first 16th notes of beats 2 and 4. Let's adjust the S line accordingly.
+
+Original S line:
+
+Beat 2: Oo-o → first character is O (downbeat), so remove that. Replace it with -, making it -o-o.
+
+Beat 4: O--o → first character is O (downbeat), replace with -, making it - - - o → but wait the original is "O--o", so replacing first O with -, it becomes - --o → "- --o" but need to keep it four characters. So "- -o" no, wait:
+
+Original beat4's S is "O--o" → four characters: O, -, -, o. To remove the first O (downbeat), set it to -, so the beat4 S becomes "- - - o" → "- - - o" but need to check notation rules. Alternatively, perhaps move the hit to the next 16th? Or just remove it.
+
+So the edited S line would be:
+
+First beat: ---- (unchanged)
+
+Second beat: -o-o (instead of Oo-o)
+
+Third beat: -o-- (unchanged?)
+
+Wait the third beat's S is "-o--", so that's okay.
+
+Fourth beat: --o (no, need four characters. Original was O--o → becomes - --o? So "- --o" (four characters: -, -, -, o? Wait "- --o" is four characters: first '-', then '-', '-', 'o'? No, maybe "- - - o" but that's four. Wait the original fourth beat's S is "O--o" which is O, -, -, o. So changing the first to -, it becomes -,-,-,o → "- - - o".
+
+So putting it all together:
+
+S: ---- | -o-o | -o-- | - - o (wait, need four characters for each beat)
+
+Wait let me structure it properly:
+
+Original S line:
+
+S: ----|Oo-o|-o--|O--o
+
+After editing:
+
+S: ---- | -o-o | -o-- | - - - o → but written as "----|-o-o|-o--|---o"
+
+Wait let's verify:
+
+Beat 2's S was "Oo-o" → changing first O to '-', so "-o-o".
+
+Beat 4's S was "O--o" → changing first O to '-', so "- --o" (but written as "---o").
+
+Yes, so the new S line would be:
+
+S: ----|-o-o|-o--|---o
+
+Additionally, check if any other snare hits are on downbeats 2 and 4. The user specifically mentioned downbeats of 2 and 4, so only those first 16ths of beats 2 and 4 need adjustment. The rest can stay.
+
+So the final edited groove would have the S line changed as above.
+
+Let me reconstruct the entire groove with this change.
+
+Original K, H, T, C, R lines remain the same except S.
+
+So the final answer should be:
+
+K: O--O|----|--O-|----
+S: ----|-o-o|-o--|---o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|-o-o|-o--|---o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

@@ -1,0 +1,30 @@
+Okay, let me tackle this drum groove edit. The user wants a snare hit and kick in the very beginning. The original groove is:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+First, I need to look at the first beat of each line. The kick (K) starts with "OOO-" in the first beat, so the first 16th note is already a hard hit (O). That's the kick in the beginning. But the snare (S) starts with "----", meaning no hit on the first beat. The user wants a snare hit there too.
+
+So, I should add an "O" (hard hit) on the first 16th note of the snare line. The original S line is "----|O---|----|O---", so changing the first part to "O---" would put a snare hit on the first note. That makes sense because the kick is already there, so combining them gives the desired "snare hit and kick in the very beginning".
+
+Wait, but the user might mean both instruments on the first note? Let me confirm. The kick is already hitting hard on the first note. Adding a snare hit there would make both hit together. The original snare has its first hit on the second beat. This edit would add a snare on the first 16th note of the first beat. That should fulfill the request.
+
+Also, check if there are any other changes needed. The hihat and toms are silent, which is fine. The crash has hits on every beat, which might be okay unless the user wants to adjust that, but the request doesn't mention it. So just modify the S line's first part to "O---".
+
+So the edited S line becomes "O---|O---|----|O---". The rest stays the same. Let me double-check:
+
+K's first beat is OOO-, so first note is O (kick). S's first beat is now O---, so first note is O (snare). That's exactly what the user asked for. Looks good!
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: O---|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

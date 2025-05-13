@@ -1,0 +1,44 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any cymbals and the kick. Let me start by understanding the original groove.
+
+Looking at the given drum groove:
+
+K: ----|----|----|----  
+S: ----|----|----|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+
+The Kick (K) is already all dashes, so that's good—no kick there. The Snare (S) is also empty. The Hihat (H) has some activity: on the second and fourth beats, there's an x. The Toms (T) are silent. The Crash (C) is empty, but the Ride (R) has some hits: x, X-x, etc.
+
+The user says "no cymbal or kick." Since kick is already gone, need to remove cymbals. The Ride (R) and Crash (C) lines are the cymbals here. The Hihat (H) is a closed hi-hat, which is part of the drum set, not a cymbal, right? Wait, the problem says "cymbal" includes crash and ride, but the hihat is a separate category. The user didn't mention hihat, so maybe it's okay to leave it unless specified. The instruction says "no cymbal or kick," so cymbals are crash and ride. So, set R and C to all dashes. The H line can stay as is.
+
+So the edited version should have:
+
+K: all dashes (already done)  
+S: same as before (still empty)  
+H: remains as it is  
+T: still empty  
+C: all dashes  
+R: all dashes  
+
+Let me check again. The original H line has x's which are closed hits (since H's x is a closed hit). Since the user didn't mention removing hihat, it's okay. The ride and crash are cymbals, so those get cleared.
+
+Final result should be:
+
+K: ----|----|----|----  
+S: ----|----|----|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

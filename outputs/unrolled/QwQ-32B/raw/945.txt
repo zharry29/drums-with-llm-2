@@ -1,0 +1,28 @@
+Okay, let's tackle this drum groove edit. The user wants me to remove the kick drum on beat 4 while keeping everything else the same. First, I need to look at the given groove to see where the kick is hitting.
+
+Looking at the K line: "OOO-|--O-|OOO-|-OOO". Each beat is separated by |, so there are four beats. The fourth beat here is "-OOO". The user wants no kick on beat 4, so I need to replace all the characters in the fourth beat of the K line with '-'.
+
+Let me break it down beat by beat:
+
+1st beat: "OOO-" – stays the same.
+2nd beat: "--O-" – stays the same.
+3rd beat: "OOO-" – stays the same.
+4th beat: "-OOO" – needs to become "----".
+
+So the new K line should be "OOO-|--O-|OOO-|----".
+
+Now check the other instruments to make sure nothing else is changed. The S, H, T, C, and R lines should remain exactly as they are. The snare (S) has hits on beats 2 and 4, but the user didn't mention changing those. The crash (C) is on all four beats, and we only remove the kick on beat 4. 
+
+Double-checking the original request: "I don't want kick on beat 4 but everything else is fine." So yes, only the kick's fourth beat is modified. The crash on beat 4 stays because it's not related to the kick. 
+
+I think that's all. Let me write the final version with the adjusted K line and the rest untouched.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|----  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

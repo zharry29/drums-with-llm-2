@@ -1,0 +1,70 @@
+Okay, let's tackle this drum groove edit. The user wants a tom hit and hihat in the very beginning. Let me start by looking at the given groove to understand what's already there.
+
+The original groove is:
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+So, breaking it down:
+
+- **Kick (K):** Starts with a hard hit (O) on the first 16th note of the first beat, then another O on the first note of the second beat. The third beat is empty, and the fourth has an O on the first note.
+- **Snare (S):** Only active on the third beat with an O hit.
+- **Hihat (H):** Completely silent throughout.
+- **Toms (T):** A pattern of O-o- repeating every beat, which is a hard hit followed by a soft hit and two rests.
+- **Crash (C) and Ride (R):** Both inactive.
+
+The user's request is to add a tom hit and hihat in the very beginning. Since "very beginning" likely refers to the first 16th note of the first beat, I need to adjust the T (tom) and H (hihat) lines there.
+
+First, the tom hit: The existing tom pattern starts with O-o- on the first beat. To add a tom hit at the very start, maybe we can make that first O even harder or just ensure it's there. But the user might want an additional hit? Wait, the current tom already has an O on the first note. Hmm, maybe they want a separate tom hit along with the kick? Or perhaps they want the tom to be played there if it wasn't already. Let me check again.
+
+Wait, the T line is O-o-|O-o- etc. So the first beat's tom is O on the first 16th note. So the tom is already hitting there. But maybe the user wants an additional hit, but since it's the very beginning, perhaps just confirming it's there. Alternatively, maybe they want a different articulation? The instruction says "tom hit" without specifying, so probably just the existing O is okay, but maybe they want the hihat added.
+
+The hihat is currently silent. The user wants a hihat in the beginning. The hihat line (H) is all dashes. To add a hit on the first 16th note, we need to put an articulation there. The options for H are O (hard open), o (soft open), X (hard closed), x (soft closed). Since it's the beginning, maybe a closed hit (X or x) would be common for a steady hihat. Let's choose X for a hard closed hit on the first note.
+
+So, modifying H to have X on the first 16th note. The rest can stay as per original, but the user might want the hihat to continue. Looking at the original H line, it's all dashes except maybe the user wants a pattern. Wait, the user only mentioned adding in the very beginning, so maybe just the first note. But perhaps the hihat should be active throughout as per typical patterns. Let me see the original H line was all dashes. Maybe the user wants a standard hihat pattern starting with the hit. Alternatively, just the first note. Since the instruction is vague, safest to add the hit on the first 16th note. So H's first character becomes X, rest as dashes unless needed. Let's set H: X---|.... 
+
+Wait, but maybe the hihat should be a standard pattern like the example given in the notation (which has x---|x--- etc). Since the user didn't specify, but wants a hit in the very beginning, perhaps just the first note. So H would be X followed by --- for the first beat.
+
+So the edited lines would be:
+
+T remains the same since it already has the tom hit at the start.
+
+H: X---| followed by whatever. But maybe the user wants the hihat to continue. Let me check the example notation. In the example, H is x---|x--- etc, so maybe a steady closed hi-hat. Since the user's original H was all dashes, adding X on the first note and perhaps continuing with x's for a standard pattern. Alternatively, just X on the first note and leave the rest as per original. Since the user only specified the beginning, but maybe they want the hihat to be active throughout. To make it more complete, perhaps setting H to X-x- or similar. Let me think.
+
+Alternatively, maybe the user just wants the first note to have both tom and hihat, so H's first character is X, and the rest can stay as dashes unless needed. Since the user didn't specify more, I'll go with the first note only. So H becomes X---|----
+
+Wait, but the user might expect a standard hihat pattern. Let me look at the example given in the problem statement. The example has H: x---|x---|x---|x---, which is a steady closed hit on every quarter note. Maybe the user wants that. Since the original H was all dashes, adding the first hit and then continuing the pattern. But since the user's request is only for the beginning, perhaps just the first hit. Alternatively, to make it flow better, adding a standard hihat pattern starting from the first note. Since the user's instruction is to add "in the very beginning", maybe just the first note's hit is sufficient. Let's proceed with that.
+
+So the final edits would be:
+
+- **Toms (T):** Already has the O on the first note, so no change needed.
+- **Hihat (H):** Add X on the first 16th note, so first beat becomes X---.
+
+Therefore, the modified groove would be:
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: X---|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Wait, but maybe the hihat should be more active. Let me check again. The user's instruction is to add a tom hit and hihat in the very beginning. Since the tom is already there, just the hihat is needed at the start. The rest can stay as per original unless the user expects a hihat pattern. Since the original H was all silent, perhaps adding the first hit is enough. Alternatively, to make it sound better, maybe continuing the hihat on every beat. For example, X--- on the first beat and then maybe --- for the rest? Or maybe the user just wants the first note. To be safe, I'll just add the X on the first note and leave the rest as dashes unless instructed otherwise.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: X---|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

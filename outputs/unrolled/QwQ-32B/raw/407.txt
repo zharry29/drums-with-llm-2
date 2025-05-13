@@ -1,0 +1,43 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any hihat or cymbal parts. First, I need to look at the given drum notation and identify which lines correspond to hihat (H) and cymbals (C and R for crash and ride). 
+
+Looking at the provided groove:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+So, the H line has hihat hits, and the C line has crash cymbal hits. The R line is empty here, but since the user mentioned "no cymbal," I should also ensure that R is cleared just in case.
+
+The edit request is straightforward: set all characters in H, C, and R lines to '-' (no hit). Let me go through each line:
+
+- **Kick (K):** Remains the same since it's allowed.
+- **Snare (S):** Also stays as it's not being removed.
+- **Hihat (H):** All entries become '-'.
+- **Toms (T):** Already empty, so no change.
+- **Crash (C):** All entries set to '-'.
+- **Ride (R):** Already empty, but confirm it's clear.
+
+Let me double-check each part:
+
+Original H line: "--o-|O-o-|O-o-|O-o-"
+After removal: "----|----|----|----"
+
+Original C line: "O---|----|----|----"
+After removal: "----|----|----|----"
+
+R is already empty, so nothing to do there.
+
+Putting it all together, the edited groove should have H, C, and R lines all dashes. Let me make sure the structure remains with 16 notes per line and correct separators.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

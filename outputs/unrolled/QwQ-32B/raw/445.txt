@@ -1,0 +1,78 @@
+Okay, let me tackle this problem step by step. The user provided a drum groove and wants me to edit it by removing any cymbal and snare parts. Let me first recall the notation rules to make sure I understand correctly.
+
+First, each line corresponds to an instrument:
+- K: Kick drum
+- S: Snare drum
+- H: Hihat
+- T: Toms
+- C: Crash cymbal
+- R: Ride cymbal
+
+The user's request is to remove cymbals (C and R) and snare (S). So, I need to set the S, C, and R lines to all '-' characters, keeping only the Kick (K) and Hihat (H) parts. Let me check the original groove again.
+
+Original groove:
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Looking at each line:
+- **K (Kick)**: Has some hits, so we keep it as is.
+- **S (Snare)**: Needs to be removed. So replace all characters with '-'.
+- **H (Hihat)**: The user didn't mention removing hihat, so leave it.
+- **T (Toms)**: Already all '-' so no change.
+- **C (Crash)**: Remove, set to '-'.
+- **R (Ride)**: Remove, set to '-'.
+
+Wait, the user said "no cymbal or snare". Cymbals include Crash (C) and Ride (R), so those lines become all '-'. Snare (S) also becomes all '-'. The Hihat (H) is a closed hi-hat here (using X and x), but since it's not a cymbal? Wait, according to the instrument list, H is Hihat, which is part of the drum set but technically a closed hi-hat is a hit, but the user didn't mention removing hihat. The instruction was to remove cymbals (C and R) and snare (S). So Hihat stays.
+
+So modifying the S, C, R lines to all '-'.
+
+Let me reconstruct each line:
+
+**K** remains:
+O---|----|O---|----
+
+**S** becomes:
+----
+
+**H** stays:
+X---|X---|X---|X---
+
+**T** stays:
+----
+
+**C** becomes:
+----
+
+**R** becomes:
+----
+
+Putting it all together between the @@@:
+
+@@@
+K: O---|----|O---|----
+S: ----|----|----|----
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Wait, but let me double-check the original S line. The original S had hits on the second and fourth beats. By setting S to all '-', those are removed. The user's request is met. Also, confirming that crash and ride (C and R) were already empty except maybe in other examples, but here they are already all '-', so setting them to '-' again is redundant but correct.
+
+Yes, this should be the correct edited groove.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|----|----|----
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

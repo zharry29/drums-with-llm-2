@@ -1,0 +1,65 @@
+Alright, I need to modify the given drum groove to remove any cymbal or ride cymbal. Let's look at the original groove first.
+
+Original Groove:
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+The original groove has:
+- **Kick Drum (K):** On beats 1 and 3 with "O".
+- **Snare Drum (S):** On beat 3 with "S".
+- **Hihat (H):** Steady rhythm with "x".
+- **Toms (T):** On beat 3 with "O".
+- **Crash Cymbal (C):** On beats 1, 2, 3, and 4 with "O".
+- **Ride Cymbal (R):** Silent.
+
+The user wants to remove any cymbal or ride cymbal. So, I need to eliminate the crash cymbal and ride cymbal from the groove.
+
+First, I'll remove the crash cymbal by setting its line to all "-".
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Now, I'll remove the ride cymbal by setting its line to all "-".
+
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+So, the final groove without cymbal or ride is as above.
+
+**Final Groove:**
+```
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+This groove now features:
+- **Kick Drum (K):** On beats 1 and 3 with "O".
+- **Snare Drum (S):** On beat 3 with "S".
+- **Hihat (H):** Steady rhythm with "x".
+- **Toms (T):** On beat 3 with "O".
+- **Crash Cymbal (C):** Removed.
+- **Ride Cymbal (R):** Removed.
+
+This arrangement keeps the core rhythm intact while removing the cymbal and ride cymbal as requested.

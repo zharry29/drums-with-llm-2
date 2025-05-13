@@ -1,0 +1,43 @@
+Alright, let's tackle this drum groove edit. The user provided a drum notation example and a specific groove they want modified. The edit request is to remove any tom or hihat parts. 
+
+First, I'll review the original groove to understand what's there. The given groove is:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+Looking at each line:
+
+- **Kick (K):** There's a pattern with hard hits (O) and a rest on the fourth 16th note of each beat. The kick is active throughout.
+- **Snare (S):** Snare hits on the second and fourth beats, using hard hits (O).
+- **Hihat (H):** All dashes, meaning no hihat is played here.
+- **Toms (T):** Also all dashes, so no toms are present.
+- **Crash (C):** Crash cymbal hits on every beat, hard hits (O).
+- **Ride (R):** No ride cymbal.
+
+The user's request is to remove tom and hihat. Since both H and T are already empty in the original, maybe the user just wants to ensure they stay that way. But perhaps there was a mistake, or maybe they also want to remove other elements? Wait, the crash is present here. The user didn't mention removing crashes, so I should leave that unless specified. 
+
+Wait, the request says "I don't want any tom or hihat." Since those lines are already empty, the groove already complies. But maybe the user wants to ensure that even if there were some, they are removed. Since the original doesn't have them, the edited version would be the same. However, looking at the crash line (C), it has crashes on every beat. The user didn't mention removing cymbals, so I shouldn't touch that. 
+
+Wait, perhaps the user wants to remove all cymbals (since they mentioned tom and hihat, but maybe a typo?). But the instruction says "tom or hihat," so only those. Therefore, the correct edit is to ensure T and H are empty, which they already are. So the final groove remains the same. But maybe the user made a mistake in their request, or perhaps there's a hidden part. Let me double-check the original:
+
+Original H line: all dashes. Toms also all dashes. So the user's request is already fulfilled. Therefore, the edited version should be identical. However, maybe the user intended to remove cymbals (crash) as well, but since they specified only tom and hihat, I must adhere strictly. 
+
+Therefore, the final answer should keep the crash but remove any toms/hihat, which are already gone. So the output is the same as the input. But looking back at the user's previous interactions, sometimes they might have typos. Let me ensure I didn't misread. 
+
+Yes, the user says "I don't want any tom or hihat." Since those are already not present, the groove is acceptable. So the edited version is the same as the original.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

@@ -1,0 +1,38 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any tom or ride parts from the given groove. Let me first look at the original drum notation they provided.
+
+Starting with the Kick (K): "O---|O---|----|O---". That's straightforward, just kick hits on the first and second beats of the first two bars and the fourth beat of the last bar. 
+
+Snare (S) is "----|----|O---|----", so the snare comes in on the third beat of the third measure. 
+
+Hihat (H) is all dashes, so no hihat here. 
+
+Toms (T) are "O-o-|O-o-|O-o-|O-o-". That means toms are playing on every 16th note, alternating between hard and soft hits. Since the user wants no toms, I need to replace all those O and o with dashes. 
+
+Crash (C) is empty, so that's already fine. 
+
+Ride (R) is also empty, so no changes needed there either. 
+
+Wait, the user said "no tom or ride". Since ride is already silent, only the toms need to be erased. Let me double-check each line. 
+
+Looking at Toms line: each measure has "O-o-", so four characters per measure. Replacing each O and o with '-' will make the T line all dashes. 
+
+So the edited version should have T as "----|----|----|----". The rest of the instruments remain as they are unless they involve ride or crash. But since crash and ride are already not active, only T changes. 
+
+Let me confirm the user's request again: "I don't want any tom or ride." So yes, set T and R to all dashes. But in the original, R is already dashes. So just T needs to be cleared. 
+
+Final check: 
+
+Original T line: O-o-|O-o-|O-o-|O-o-
+After editing: ----|----|----|----
+
+All other lines stay the same. That should do it.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

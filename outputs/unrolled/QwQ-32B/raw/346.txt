@@ -1,0 +1,55 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any snare or cymbal parts. Let me start by understanding the original groove provided.
+
+Looking at the K (Kick) line: It has some hits like O---, ---o, O-O-, etc. Since the user wants to keep the kick, I'll leave that as is. 
+
+Now the S (Snare) line has hits in the second and fourth beats: ----|O---|----|O---. Since the request is to remove snare, I need to replace all those O's with '-'.
+
+The H (Hihat) line has some open and closed hits: --o-|O-o-|O-o-|O-o-. The user didn't mention hihat, so I'll keep it unless told otherwise. Wait, the edit is about snare and cymbals. So hihat is okay unless specified. But let me check the request again. The user says "I don't want any snare or cymbal." So cymbals include crash (C) and ride (R), but hihat isn't a cymbal? Wait, hihat is a separate category. The instruments listed are Kick, Snare, Hihat, Toms, Crash, Ride. So hihat is allowed unless the user specifies otherwise. The user didn't mention hihat, so I should leave it as is unless it's part of cymbals. Wait, hihat is a type of cymbal? Hmm, the notation separates Hihat (H) from Crash (C) and Ride (R). So probably, the user wants to remove only snare (S) and cymbals (C and R), leaving hihat (H) and toms (T) if present. But in the given groove, Toms (T) are all dashes, so they're not used. The C (Crash) line has O--- in the first beat, so that needs to be removed. The R (Ride) line is all dashes, so no change there.
+
+So the steps are:
+
+1. Remove all Snare (S) hits by replacing with '-'.
+2. Remove all Crash (C) and Ride (R) hits by replacing with '-'.
+3. Keep Kick (K), Hihat (H), and Toms (T) as they are unless instructed otherwise.
+
+Looking at the original:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: (all dashes)
+C: O---|----|----|----
+R: (all dashes)
+
+After edits:
+
+S line becomes all dashes. C line becomes all dashes. The others remain. So the new groove should be:
+
+K: O---|---o|O-O-|----
+S: ----|----|----|----
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, but the user might not want hihat either? Wait, the instruction was "I don't want any snare or cymbal." Since hihat is a separate category (not a cymbal?), then it's okay. But sometimes hihat is considered part of the cymbal family. Let me check the original problem's instrument list again. The user provided:
+
+H: Hihat
+
+C: Crash cymbal
+
+R: Ride cymbal
+
+So hihat is a separate instrument. The user only wants to remove snare (S) and cymbals (C and R). Therefore, Hihat (H) remains. So the edited version should keep H as is. 
+
+Therefore, the final edited groove should have S and C lines cleared, R already clear. So the answer is as above.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|----|----|----
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

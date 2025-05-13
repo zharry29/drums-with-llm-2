@@ -1,0 +1,57 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any kick (K) and cymbal (C, R) parts. Let me first look at the original groove provided.
+
+Starting with the Kick (K) line: "o---|--o-|o---|--o-". Since the user doesn't want any kick, I need to replace all the 'o's and '-' with '-' to silence the kick entirely. So the K line becomes all dashes: "----|----|----|----".
+
+Next, the Snare (S) line is "----|X---|--X-|----". The user didn't mention snare, so we leave it as is unless instructed otherwise. Wait, the edit request was to remove kick and cymbals, so snare stays. Let me confirm: "I don't want any kick or cymbal." So S remains.
+
+Hihat (H) is "----|x---|----|x---". That's okay to keep unless specified. The user didn't mention hihat, so leave it.
+
+Toms (T) are all dashes, so no change there.
+
+Cymbals: Crash (C) and Ride (R) need to be silenced. The Crash line is all dashes except the first beat: "----|----|----|----" (Wait, original C line was "----|----|----|----"? Wait, looking back:
+
+Original given groove's C line was "----|----|----|----" and R was "x---|X-x-|x---|X-x-". Wait, the user's input shows:
+
+Original drum groove:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+Ah, so the Ride (R) has notes. The user wants no cymbals, so both Crash (C) and Ride (R) must be silenced. So set C and R lines to all dashes.
+
+Putting it all together:
+
+K becomes all dashes.
+
+S remains as it is.
+
+H remains as it is.
+
+T remains.
+
+C and R become all dashes.
+
+So the edited groove should look like:
+
+K: ----|----|----|----
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, but need to check if the user wants to remove any other parts. The edit request was only about kick and cymbals, so snare and hihat stay. Tom remains as it was already silent except maybe? In the original, T was all dashes. So yes, the final should have only S and H active, with K, C, R silent.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

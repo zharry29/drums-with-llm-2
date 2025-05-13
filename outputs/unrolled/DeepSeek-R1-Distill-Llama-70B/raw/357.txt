@@ -1,0 +1,47 @@
+Okay, I need to help the user by editing their drum groove according to their request. They don't want any kick or cymbal in the final groove. Let me look at the original groove they provided.
+
+First, I'll examine each instrument:
+
+- **Kick Drum (K):** It's currently "OOO-|---O-|OOO-|---O-". I need to remove all kick drum hits, so I'll set all characters to "-".
+
+- **Snare Drum (S):** It's "----|O---|----|O---". I'll keep this as it is since the user didn't mention removing the snare.
+
+- **Hihat (H):** It's "----|----|----|----". I'll leave it silent as per the original.
+
+- **Toms (T):** It's "----|----|----|----". I'll keep it silent.
+
+- **Crash Cymbal (C):** It's "O---|O---|O---|O---". I need to remove all cymbal hits, so I'll set all to "-".
+
+- **Ride Cymbal (R):** It's "----|----|----|----". I'll leave it silent.
+
+Putting it all together, I'll set K and C to all "-" to remove kick and cymbal hits, keeping S, H, T, and R as they are.
+
+The final groove will have:
+
+- **K:** All "-".
+- **S:** "----|O---|----|O---".
+- **H:** "----|----|----|----".
+- **T:** "----|----|----|----".
+- **C:** All "-".
+- **R:** "----|----|----|----".
+
+This way, the groove focuses only on the snare drum without any kick or cymbal.
+</think>
+
+```
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+This groove now features:
+- **Kick Drum (K):** Removed by setting all characters to "-".
+- **Snare Drum (S):** Maintains its backbeats on beats 2 and 4 with hard hits ("O").
+- **Hihat (H):** Kept silent as per the original groove.
+- **Toms (T):** Kept silent as per the original groove.
+- **Crash Cymbal (C) and Ride Cymbal (R):** Both removed by setting all characters to "-".
+
+This arrangement creates a minimalist rhythm focused solely on the snare drum without any kick or cymbal hits.

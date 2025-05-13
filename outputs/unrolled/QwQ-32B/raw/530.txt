@@ -1,0 +1,69 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any tom or hihat parts from the given drum groove. Let me start by understanding the original groove structure.
+
+Looking at the provided drum notation:
+
+**Kick (K):** O--O|----|--O-|----  
+**Snare (S):** ----|Oo-o|-o--|O--o  
+**Hihat (H):** X-x-|X-x-|X-x-|X-x-  
+**Toms (T):** ----|----|----|----  
+**Crash (C):** ----|----|----|----  
+**Ride (R):** ----|----|----|----
+
+The user's request is to eliminate any parts involving toms or hihats. Since the Toms line is already empty (all dashes), I just need to focus on removing the Hihat line. 
+
+So, I'll set the Hihat (H) line to all dashes. The other instruments (Kick, Snare, Crash, Ride) should remain as they are unless they involve toms or hihats, which they don't in this case. Wait, actually, the user said "no tom or hihat," so Crash and Ride are cymbals. The user didn't mention cymbals, only tom and hihat. Wait, the instruction says "I don't want any tom or hihat," so Crash and Ride are okay unless specified. Since the original edit request only mentions removing tom and hihat, I should leave Crash and Ride as they are, but in this particular groove, Crash and Ride are already inactive (all dashes except maybe check again).
+
+Wait, checking the given groove again:
+
+Crash (C): All dashes.  
+Ride (R): Also all dashes. So actually, in this case, only the Hihat has activity. Therefore, removing Hihat (set H to all dashes) and keeping the rest as is. 
+
+Wait, but the user might have intended to remove all cymbals? Wait no, the request specifically says "tom or hihat". Since Crash and Ride are cymbals, but the user didn't mention them, so they stay unless the original had some. In this case, the original has C and R lines empty except maybe check again:
+
+Original given groove's C and R lines are all dashes except maybe in the user's input. Let me recheck:
+
+In the user's provided groove:
+
+C: ----|----|----|----  
+R: ----|----|----|----
+
+Yes, both are inactive. So the only active non-kick/snare parts are the Hihat. Therefore, the edit is straightforward: set H to all dashes.
+
+So the edited version should have:
+
+H: ----|----|----|----  
+T remains as all dashes, which it already is. 
+
+Therefore, the final groove would be:
+
+K: O--O|----|--O-|----  
+S: ----|Oo-o|-o--|O--o  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----
+
+Wait, but the original K line in the user's input is "O--O|----|--O-|----" but in the problem statement, the user might have a typo? Let me confirm the exact input.
+
+Wait, the user's given groove is:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Yes, so K's last beat is "----", but that's okay. So the edited version just needs H to be all dashes. The rest remains as is. So the final answer should replace the H line with all dashes.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

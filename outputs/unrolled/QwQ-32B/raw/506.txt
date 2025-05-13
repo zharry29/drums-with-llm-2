@@ -1,0 +1,35 @@
+Okay, let's tackle this drum groove edit. The user provided a specific drum notation and wants me to remove any cymbals (crash and ride) and toms. Let me start by understanding the given groove.
+
+Looking at the original groove:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So, the Kick (K) and Snare (S) are already inactive. The Hihat (H) has some activity on the second and fourth beats. The Toms (T) are silent. The Crash (C) is off, but the Ride (R) has notes. The user wants no cymbals (so Ride and Crash must be removed) and no toms, which are already off.
+
+The main task here is to eliminate the Ride (R) since it's the only cymbal active. The Hihat remains as it's not a cymbal or tom. So, I'll set all Ride hits to '-'.
+
+After making those changes, the final groove should have only the Hihat's pattern. Let me double-check each line:
+
+- K: All dashes, correct.
+- S: All dashes, correct.
+- H: Keep the x's on the 2nd and 4th beats.
+- T: Already all dashes.
+- C: All dashes.
+- R: Change all 'x' and 'X' to '-'.
+
+Yes, that should do it. The result will only have the Hihat's closed hits as specified.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,62 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any kick or tom parts from the given groove. Let me start by understanding the original drum notation provided.
+
+Looking at the given drum groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+First, I need to identify which lines correspond to kick (K) and tom (T). 
+
+- **K (Kick drum):** All dashes, so it's already not playing. That's good, but the user wants to ensure there's no kick. Since it's already empty, no change needed here.
+  
+- **T (Toms):** Also all dashes. So no tom hits either. But the user mentioned removing tom, so maybe just confirming that T line is cleared. It is, so no action needed there.
+
+The user also doesn't want any kick or tom. Since both K and T lines are already empty, the main focus is to ensure that the remaining instruments (Snare, Hihat, Crash, Ride) stay as they are unless they were using kick/tom. 
+
+Wait, but the user might have a typo? Let me check again. The original K and T lines are already empty. The Hihat (H) has some activity, and the Ride (R) has some notes. The user's request doesn't mention removing snare, hihat, or cymbals/ride, so those should stay. 
+
+Wait, the user said "I don't want any kick or tom." So as long as K and T are cleared, which they are, the rest can remain. Therefore, the edited version should keep S, H, C, R as they are, and ensure K and T are dashes. Let me double-check each line:
+
+- **K:** All dashes. ✅
+- **S:** All dashes. The user didn't mention snare, so leave it. ✅
+- **H:** Has x on certain notes. Since hihat isn't mentioned to be removed, keep it. ✅
+- **T:** All dashes. ✅
+- **C (Crash):** Dashes. No crash here. ✅
+- **R (Ride):** Has x and X. The user didn't mention ride, so unless the request was broader, but the request was only kick/tom. So keep ride. Wait, but the user might have meant "no cymbals", but the exact request was "no kick or tom". Since ride is a cymbal but the user didn't mention it, maybe it's okay. Wait, the user's previous edits sometimes removed ride when asked about cymbals, but here it's specified as kick or tom. So the ride stays unless instructed otherwise. 
+
+Wait, the user's exact request here is "I don't want any kick or tom." So only those two instruments are to be removed. Since K and T are already off, the rest remains. But looking at the original, the ride (R) has notes. So the final answer should just leave everything else as is, but since K and T are already empty, the output remains the same as input? Wait no, maybe I'm missing something.
+
+Wait the original R line has "x---|X-x-|x---|X-x-". The user didn't ask to remove ride, so that's okay. The user only wants kick and tom gone. Since those are already gone, the answer is the same as the input. But perhaps in some previous examples, even if the user says "no kick or cymbal", they might still leave other parts. Wait, let me check the user's previous interactions to see if there's a pattern.
+
+Looking back at previous interactions, for example, when the user said "I don't want any kick or cymbal," the assistant would clear K and C lines, leaving others. Here, since the user is asking for no kick or tom, and those lines are already empty, the answer remains the same except ensuring that any existing K or T are cleared. Since they are, the output is the same as input? Wait, but maybe the user expects to see the K and T lines explicitly set to dashes, but they already are. So perhaps the correct answer is the same as the input. But maybe I should just present it again as the edited version, even if unchanged. Alternatively, maybe there's a mistake in the original input where T had some notes, but in this case, T is all dashes.
+
+Wait, let me recheck the given drum groove again:
+
+The user's input is:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So, K and T are already empty. The edit request is to remove kick (K) and tom (T), which are already not present. Therefore, the edited version is the same as the original. But the user might expect that even if they were present, they should be cleared. Since they are already cleared, the final answer is the same as the input. 
+
+Therefore, the correct edited groove is as above, with K and T lines remaining as dashes, and other instruments unchanged.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

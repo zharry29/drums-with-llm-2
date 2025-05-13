@@ -1,0 +1,33 @@
+Alright, so I'm trying to help the user edit a drum groove based on their request. Let me go through this step by step. 
+
+First, the user provided a drum notation system with various instruments like Kick, Snare, Hihat, Toms, Crash Cymbal, and Ride Cymbal. Each instrument has specific characters that denote the type of hit, either hard or soft, and sometimes where it's hit on the drum or cymbal.
+
+The original groove they provided has the Kick, Snare, Hihat, Toms, Crash Cymbal, and Ride Cymbal. The user's edit request is to modify this groove so that it includes not only Snare but also Cymbal. Hmm, wait, looking back, the original already has both Snare and Cymbal, so maybe the user wants more emphasis on them or perhaps additional parts.
+
+Looking at the original groove:
+- Kick (K): O---|O---|----|O--- which seems to be a hard hit on the first and third beats, soft on the second.
+- Snare (S): ----|----|O---|---- So the snare is played on the third beat with a hard hit.
+- Hihat (H): ----|----|----|---- No hihat notation here, so maybe it's not being used.
+- Toms (T): O-o-|O-o-|O-o|---o This looks like toms being played on the first and third beats, with a soft hit on the fourth.
+- Crash Cymbal (C): ----|----|----|---- No crash cymbal here, so maybe it's not being used.
+- Ride Cymbal (R): ----|----|----|---- No ride cymbal here either.
+
+Wait, the user said the edit request is to have not only snare but also cymbal. So in the original, the snare is there, but cymbal isn't. So I need to add cymbal to the groove.
+
+But looking at the provided response, the user added cymbal to both the Crash and Ride. That makes sense because both types of cymbals can be used in a groove. So in the response, they added O---|O---|O---|O--- to the Crash Cymbal, indicating a hard hit on each beat. For the Ride Cymbal, they used X---|---X|---X|---X, which represents a hard stick hit on the first and third beats, and a soft hit on the second and fourth.
+
+I think the user wanted to emphasize both snare and cymbal, so adding more elements to both instruments makes sense. The Kick and Toms were already present, so they kept those as they were. The Hihat was also present but not detailed, so maybe it's okay as is.
+
+I should make sure that each instrument's notation follows the guidelines provided. For example, using the correct characters for each instrument's hits, like 'O' for hard and 'o' for soft, and 'X' for stick hits on cymbals.
+
+So, in the final response, both Crash and Ride Cymbals have been updated to include cymbal hits, satisfying the user's request to have not only snare but also cymbal in the groove.
+</think>
+
+@@@  
+K: O---|O---|----|O---  
+S: ----|----|O---|----  
+H: ----|----|----|----  
+T: O-o-|O-o-|O-o|---o  
+C: O---|O---|O---|O---  
+R: X---|---X|---X|---X  
+@@@

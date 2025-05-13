@@ -1,0 +1,30 @@
+Okay, let's see. The user wants me to add some cymbal to the groove so that it's not just kick anymore. The current groove has kick, snare, and ride, but the edit request says "not only kick but also cymbal." Wait, the existing R (ride) line already has some hits, but maybe they want another cymbal like crash? Let me check the original problem again.
+
+Looking at the given groove:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So the ride (R) is already active. But the edit request mentions adding cymbal, which might include crash (C). Since the crash line (C) is all dashes, maybe I should add some crash hits there. The user might want both ride and crash. Alternatively, maybe they just want to ensure that there's at least one cymbal part, which is already covered by ride, but perhaps the instruction is to add another layer or make sure both cymbals are present.
+
+Wait, the original instruction says "the groove should have not only kick but also cymbal." The existing groove has kick (K), snare (S), and ride (R). Since ride is a cymbal, technically it's already there. But maybe the user wants to include crash as well. Let me think about common drumming practices. Often, crashes are used on downbeats or for accents. Let's look at the kick pattern to see where crashes could fit.
+
+The kick (K) is on the first and third 16th notes of the first and third beats, and on the fourth 16th of the second and fourth beats. Maybe adding a crash on the first beat of each measure would add emphasis. Let's try adding a crash (C: O---) on the first 16th note of the first beat. That would make the crash line start with an O there. Alternatively, maybe on the downbeat of each measure. Let me see the structure:
+
+The bar is divided into four beats separated by |. Each beat has four 16th notes. So the first beat's first 16th is the downbeat. Putting a crash there would make sense. Let's set C: O---|----|----|---- so the crash hits on the first 16th of the first beat. That should add a cymbal (crash) to complement the ride. Alternatively, maybe every other beat? Let's check the existing ride pattern. The ride has x on the first 16th of the first beat, then X on the third, etc. Adding a crash on the downbeat would add a different texture.
+
+Alternatively, maybe the user just wants to make sure that there's at least one cymbal part, which is already present in ride, but perhaps they want more cymbal activity. Since the instruction is to "have not only kick but also cymbal," and the kick is already there with ride, maybe they just want to ensure that the crash is also present. Adding a crash on the first beat would fulfill that. Let me adjust the crash line accordingly.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

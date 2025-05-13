@@ -1,0 +1,45 @@
+Okay, let's tackle this drum groove edit. The user provided a drum notation example and a specific groove to modify. The edit request is to remove any ride or cymbal parts. 
+
+First, I need to recall the instruments mapped to each line:
+- K: Kick drum
+- S: Snare drum
+- H: Hihat
+- T: Toms
+- C: Crash cymbal
+- R: Ride cymbal
+
+The user wants to eliminate "ride or cymbal," which includes both the Crash (C) and Ride (R) lines. So I should set those lines to all '-' characters.
+
+Looking at the given groove:
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Wait, in the provided groove, both C and R lines are already empty (all '-'). That might be a mistake in the problem setup, but perhaps the user wants to ensure they're cleared. Let me double-check the original groove again.
+
+Original groove's C and R lines are indeed all '-', so removing them won't change anything. However, maybe there's a typo or oversight. Alternatively, perhaps the user wants to ensure that even if there were notes in C or R, they should be erased. Since in this case they are already empty, the edited groove remains the same except for confirming those lines are clear.
+
+Alternatively, maybe the user intended to remove hihat (H) as part of "cymbal," but according to the problem statement, H is hihat, which is separate from crash/ride. So the instruction is specifically ride (R) and crash (C). Therefore, H stays as is.
+
+Thus, the final edited groove should keep K, S, H, T the same, and set C and R to all '-'. Since they are already empty, the result is the same as the original except maybe formatting? Wait, looking again:
+
+Original C and R are already all '-', so the edited version is identical. But maybe I should present it as is. Alternatively, perhaps there was a mistake in the input, and the user expects me to make sure those lines are clear. Since the user's request is straightforward, I'll proceed to present the groove with C and R lines empty, which they already are.
+
+Wait, the user's instruction says "I don't want any ride or cymbal." The crash cymbal (C) and ride (R) should be removed. Since both are already empty, the answer is the same as the input. But maybe I should confirm that. Alternatively, perhaps in the original problem's context, there were notes in those lines that need to be erased. Let me check the input again.
+
+Looking back: The given groove's C line is "----|----|----|----" and R is same. So no changes needed. Therefore, the edited version is the same as the original except maybe ensuring those lines are clear. Since the user might expect an edited version, I'll present it as is but explicitly set C and R to all '-' in case there was a mistake.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

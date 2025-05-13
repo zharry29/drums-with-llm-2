@@ -1,0 +1,54 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any cymbals and hihats from the given groove. First, I'll need to look at each line of the provided drum notation and identify which lines correspond to cymbals and hihats.
+
+Looking at the instruments listed:
+
+- **K**: Kick drum
+- **S**: Snare drum
+- **H**: Hihat
+- **T**: Toms
+- **C**: Crash cymbal
+- **R**: Ride cymbal
+
+The user's request is to eliminate both **C** (crash cymbal) and **H** (hihat). So, I'll need to set all their entries to '-' (no hit) in every position. 
+
+Starting with the original groove provided:
+
+```
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+```
+
+Let's go through each line:
+
+1. **K (Kick)**: This is allowed, so leave it as is.
+2. **S (Snare)**: Also allowed, so no changes here.
+3. **H (Hihat)**: Needs to be removed. Replace all characters with '-'.
+4. **T (Toms)**: Already silent (all '-'), so no change.
+5. **C (Crash)**: Already silent, but confirm and set to '-' just in case.
+6. **R (Ride)**: Also silent, but since it's a cymbal, ensure it stays silent.
+
+Wait, the original C line is already all '-', so no action needed there. Similarly, R is also silent. The main change is the H line. Let's adjust that:
+
+Original H line: `H: X-x-|X-x-|X-x-|X-x-`
+
+After removal: `H: ----|----|----|----`
+
+So the final adjusted groove should have the H line all dashes, and ensure C and R remain as they are (already silent). Let me double-check each line to confirm no other cymbals are present. The S line has some soft hits but that's okay since snare is allowed. 
+
+Yes, this should meet the user's request. The final output will have the H line cleared, and the others untouched except for ensuring cymbals (C and R) are off.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

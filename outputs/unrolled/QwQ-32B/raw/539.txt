@@ -1,0 +1,31 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any cymbals and the kick. Let's look at the given groove first.
+
+Starting with the Kick (K): The current pattern is "O--O|----|--O-|----". Since we need to eliminate the kick, I'll replace all non '-' characters in the K line with '-', making it all dashes.
+
+Next, the Snare (S): The snare has "----|Oo-o|-o--|O--o". Since snare isn't mentioned to be removed, this stays as is.
+
+Hihat (H): The user didn't mention removing hihat, so the "X-x-|X-x-|X-x-|X-x-" remains. Wait, but the edit request says "no cymbal or kick". Hihat is a closed hi-hat here (X and x), which isn't a cymbal but part of the hi-hat. The user might have meant removing cymbals like crash or ride, but hihat is separate. But the instruction says "no cymbal or kick", so maybe hihat is okay? Let me confirm the instruments: the user listed "cymbal" and "kick". Since hihat is a separate category, not under cymbals, so it stays.
+
+Toms (T) and Ride/Crash (C, R) are already empty, so they stay as all dashes.
+
+Wait, the user said "I don't want any cymbal or kick". Cymbals include crash (C) and ride (R), which are already cleared. The kick (K) is being removed. Hihat (H) is a different instrument, so it's okay to leave as is.
+
+So the edited groove should have K set to all '-', and others unchanged except C and R which are already clear. Let me double-check each line:
+
+K: All dashes.
+S: Unchanged.
+H: Unchanged.
+T: Already clear.
+C and R: Already clear.
+
+Yes, that should meet the request.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

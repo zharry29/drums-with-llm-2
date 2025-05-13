@@ -1,0 +1,40 @@
+Okay, let's tackle this drum groove edit. The user wants a tom hit and hihat in the very beginning. Let me look at the original groove first.
+
+The kick (K) starts with "O---", so the first 16th note is a hard hit. The snare (S) is quiet in the first beat. The hihat (H) has "--o-" in the first beat, which is a soft open hit on the third 16th note. The toms (T) are silent everywhere. The crash (C) has a hard hit on the first note of each beat. Ride (R) is all quiet.
+
+The user wants a tom hit and hihat added at the very beginning. The "very beginning" would be the first 16th note of the first beat. Since the kick already has an O there, maybe we can add a tom hit on the same note? But toms are separate, so T's first note could be O to add a tom hit alongside the kick. 
+
+For the hihat, the existing first beat's hihat is "--o-", so the first two 16th notes are silent. To add a hihat at the very start, we can change the first character of H's first beat from '-' to either X or x (closed hit). Since the rest of the hihat uses 'o' which is open, maybe a closed hit (X or x) would contrast well. Let's pick X for a hard closed hit to make it noticeable.
+
+So, modifying the T line's first character to O and H's first character to X. Let me check if that's allowed. The Toms (T) can have O for hard hits, and Hihat (H) can have X for a hard closed hit. The original hihat's first two notes are silent, so changing the first to X adds the hit there. The kick's O remains, so the first 16th note will have both kick and tom? Wait, the user said "tom hit and hihat", not necessarily with the kick. But since the kick is already there, adding the tom and hihat alongside is okay.
+
+Wait, the user might just want those two elements added, not necessarily replacing anything. So the kick stays, add tom and hihat. So T's first note becomes O, H's first note becomes X. Let me see the original T line is all dashes, so adding O at the start of T's first beat. 
+
+Let me write that out:
+
+Original K: O---|---o|O-O-|----
+Modified T: O---|----|----|----
+Original H: --o-|O-o-|O-o-|O-o-
+Modified H: X-o-|O-o-|O-o-|O-o- (changing first character of first beat to X)
+
+Wait, the first beat of H is "--o-", so changing first '-' to X makes it "X-o-".
+
+Yes. That adds a closed hihat hit on the first 16th note, and a tom hit on the first 16th as well. The kick is still there, so it's a combined hit. The user didn't specify if they want the kick to stay or not, but since they mentioned "tom hit and hihat", maybe just adding those. The original kick is fine. 
+
+Let me check if there are any other changes. The rest of the groove seems okay. So the final lines would be:
+
+K remains the same: O---|---o|O-O-|----
+T becomes O---|.....
+H's first beat starts with X.
+
+So the final notation should reflect that.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: X-o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

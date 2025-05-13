@@ -1,0 +1,31 @@
+Okay, let me tackle this drum groove edit. The user wants the groove to have not only snare but also kick. Looking at the given groove:
+
+The Kick (K) line is already active in some parts: "O---|O---|----|O---". But in the third beat, it's silent ("----"). The Snare (S) is only hitting on the third and fourth beats. The Toms (T) have a pattern but the user wants more kick.
+
+The request is to add more kick where it's missing. The third beat of K is empty, so I can add some kicks there. Maybe mirror the snare's placement? Let's see:
+
+Original K: O--- | O--- | ---- | O---
+Original S: ---- | ---- | O--- | O---
+
+The snare hits on the third and fourth beats' first 16th note. To add kick where there's snare, maybe syncopate or add kicks on those same hits. Let's modify the third beat of K to have an O where the snare hits. So third beat becomes "O---".
+
+Also, check if other parts can have more kick without clashing. The fourth beat's K is already "O---", so maybe that's okay. Let me adjust the K line to:
+
+K: O---|O---|O---|O---
+
+But wait, the original had some variation. Alternatively, keep some of the original's structure. The original K's third beat was empty, so filling that with O--- would add kick where the snare is present. That should fulfill the request. Let me verify:
+
+After edit:
+K: O---|O---|O---|O---
+S: ----|----|O---|O---
+This way, every beat has kick, especially where the snare is. The toms are still there but the kick is now consistent. That should do it.
+</think>
+
+@@@
+K: O---|O---|O---|O---
+S: ----|----|O---|O---
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

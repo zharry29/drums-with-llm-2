@@ -1,0 +1,40 @@
+Okay, let's tackle this drum groove edit. The user wants a cymbal hit and ride in the very beginning. The original groove has the kick, snare, hihat, and toms, but the crash (C) and ride (R) are silent except for the crash on the first beat of each measure. Wait, actually looking at the given groove:
+
+Original:
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Hmm, actually in the provided groove, both C and R lines are all dashes. The user wants a cymbal hit (probably crash) and a ride hit at the very beginning. The "very beginning" would be the first 16th note of the bar, which is the first character of the first beat (before the first |).
+
+So, for the crash cymbal (C), adding an 'O' on the first 16th note. For the ride (R), since it's a cymbal hit, maybe an 'O' on the bell. Let me check the notation rules again.
+
+From the instructions:
+- C: O is hard hit, o is soft.
+- R: O is hard open on the bell, o is soft on the bell; X and x are closed on the bow.
+
+Since the user wants both a cymbal (probably crash) and ride hit at the start, I'll set the first note of C to 'O' and the first note of R to 'O'. But wait, can they both hit at the same time? The user might mean one or the other, but the request says both. Let me confirm.
+
+The user wrote: "I'd like a cymbal hit and ride in the very beginning." So adding both a crash (C) and ride (R) on the first note. That's allowed, as different cymbals can be played together.
+
+So, modifying the first character of C and R lines to 'O':
+
+C: O---|----|----|----
+R: O---|----|----|----
+
+Let me check the rest. The existing parts of C and R are all dashes, so only the first note changes. The other instruments remain the same. Let me verify the positions again.
+
+Original K line starts with O--O, so the first note is O (kick hard hit). The user wants cymbal and ride added there. So the first 16th note of the bar (first character) for C and R should have O. The rest of the C and R lines can stay as they were, unless the user wants more, but the request is only for the beginning. Looks good.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: O---|----|----|----
+R: O---|----|----|----
+@@@

@@ -1,0 +1,28 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and tom in the very beginning. Let me start by looking at the original groove provided.
+
+The original K (Kick) line is "O---|---o|O-O-|----", so the first beat has a hard kick hit. The S (Snare) line starts with "----", meaning no snare in the first beat. The T (Toms) line is all dashes, so no toms initially. The user wants both a snare and a tom at the very start, which is the first 16th note of the first beat.
+
+First, I need to add a snare hit on the first 16th note. Since the user didn't specify soft or hard, I'll go with the standard 'O' for a hard hit. So changing the first character of the S line from '-' to 'O', making it "O---|..." 
+
+Next, the tom hit. The Toms line is all dashes, so I need to place an 'O' (hard hit) on the first 16th note as well. That changes the T line's first character to 'O', so "O---|...".
+
+Wait, but I should check if there's any existing notes in the first beat that might clash. Looking at Hihat (H) and others, the first beat has "--o-" which is a soft open hit on the third 16th note. The kick is on the first, so adding snare and tom on the first should be okay rhythmically. 
+
+Also, need to ensure that the total characters per line are 16. Let me confirm:
+
+Original S line: "----|O---|----|O---" (16 characters)
+After change: "O---|O---|----|O---" which is still 16.
+
+For Toms, original is "----|----|----|----", changing first to "O---|----|----|----" keeps it at 16.
+
+I think that's it. The user didn't mention modifying other parts, so the rest stays the same. Let me double-check the edit request again: "snare hit and tom in the very beginning" – first 16th note of the first beat. Yep, that's covered.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

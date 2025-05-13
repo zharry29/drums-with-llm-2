@@ -1,0 +1,25 @@
+Okay, let's tackle this drum groove edit. The user wants a cymbal hit and ride in the very beginning. The original groove has the kick, snare, toms, and crashes, but the ride is silent. 
+
+First, I need to look at the first beat of each line. The request is for the very beginning, so the first 16th note of the first beat (the first character in each line before the first |). 
+
+The kick (K) starts with "OOO-", so the first three 16th notes are hard hits. The snare (S) is "----" in the first beat, so nothing there. The hihat (H) is all dashes, so no hits. Toms (T) are also silent. The crash (C) has "O---", so a hard crash on the first note. The ride (R) is all dashes, so nothing.
+
+The user wants a cymbal hit and ride in the beginning. The crash is already hitting on the first note, so maybe that's the cymbal part. But the ride needs a hit too. The ride line (R) is all dashes, so adding an 'O' on the first note would add a hard open hit on the bell. That should fulfill the request. 
+
+Wait, the user might mean both a crash and a ride hit at the start. Since the crash is already there, adding the ride's first note as 'O' makes sense. Let me check the notation rules again. The ride's 'O' is a hard bell hit, which is a common starting point. 
+
+So, modifying the ride line (R) to start with 'O---', keeping the rest as dashes. That way, the first note has both the crash (C) and ride (R) hitting. The other instruments remain the same. Let me make sure all lines have 16 characters. 
+
+Original R line was "----|----|----|----", changing the first character to O gives "O---|----|----|----", which is correct. 
+
+I think that's it. The edit adds the ride hit at the very beginning alongside the crash, fulfilling the request.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: O---|----|----|----  
+@@@

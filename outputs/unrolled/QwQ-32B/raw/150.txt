@@ -1,0 +1,100 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only hihat but also snare. Looking at the given groove:
+
+Original Groove:
+```
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+```
+
+First, check the Snare (S) line. Right now, it has hits on the second and fourth beats but maybe they can be enhanced. The Hihat (H) already has some activity, so we need to ensure the snare is more present without conflicting.
+
+Looking at the S line:
+- Beat 2 has an O (hard hit) and beat 4 also O. Maybe adding some more snare hits on other beats where it's empty. Let's see the structure.
+
+The user's request is to add snare where it's currently missing. The S line has ---- in the first and third beats. Let's add some soft or hard hits there. Maybe on the offbeats for a more driving feel.
+
+For example, in the first beat (O--- for kick), adding a snare on the "and" of 1 (first 16th note) as a soft hit (o) might work. Similarly, in the third beat (O-O-), maybe a snare on the second 16th note. Let's see:
+
+Proposed S line:
+```
+S: -o--|O---|-o--|O---
+```
+
+This adds a soft snare on the first 16th note of beat 1 and the second 16th of beat 3. Alternatively, maybe a harder hit (O) but might clash with kick. Alternatively, use x or X if allowed, but according to the rules, S can have O, o, X, x. Since the original uses O and ----, maybe stick to O and o.
+
+Alternatively, maybe add a snare on the "and" of beat 3 as well. Let me check the Hihat to avoid clashing. The Hihat has --o- on beat 1, so the first two 16th notes are -, then o. So adding a snare on the first 16th of beat 1 (position 1) would be okay. Similarly in beat 3, which has O-o- for Hihat, so the first 16th is O (hard open). Adding a snare on the second 16th (position 5) would be okay.
+
+Alternatively, maybe make the snare more consistent. Let me see the current kick and hihat to find natural places. The kick is O--- on beat 1, so maybe snare on the "and" of 1 (position 1). Beat 2 has a snare on the downbeat. Beat 3 has O-O- kick, so maybe a snare on the "&" of 3 (position 11). Beat 4 has O--- kick, so snare on the downbeat as is.
+
+Alternatively, to make the snare more active, maybe add a hit on every beat. Let me see the original S line again. It has hits on beat 2 and 4. To add more, perhaps on beat 1 and 3. But beat 1's kick is O---, so maybe a snare on the "&" of 1 (position 1) as a soft hit. Similarly, on beat 3, since the kick is O-O-, maybe a snare on the "&" of 3 (position 11) or the third 16th (position 10).
+
+Let me try:
+
+Beat 1: -o-- (snare on first 16th, soft)
+Beat 3: -o-- (snare on first 16th of beat 3, which is position 9? Wait, beats are separated by |. Let me recount:
+
+Each beat is four 16th notes. So first beat is positions 1-4, second 5-8, third 9-12, fourth 13-16.
+
+So beat 3's first 16th is position 9. So in the third beat's S line, maybe add an o there.
+
+So S line becomes:
+
+S: -o-- | O--- | -o-- | O---
+
+This adds a soft snare on the first 16th of beat 1 and beat 3, while keeping the existing hits on beats 2 and 4.
+
+Alternatively, maybe harder hits (O) but that might clash with kick. Let's see:
+
+Kick on beat 1 is O--- (first 16th is O). So snare on the first 16th would clash. So better to put it on the second 16th (position 2) as a soft hit. So:
+
+S: --o- | O--- | --o- | O---
+
+That way, snare on beat 1's "&", which is position 2. Similarly for beat 3.
+
+So the S line would be:
+
+S: --o- | O--- | --o- | O---
+
+This way, snare hits on the "&" of 1 and "&" of 3, along with beats 2 and 4. That might make the snare more present without clashing with kick.
+
+Alternatively, maybe add a snare on the third 16th of each beat? Let me see.
+
+Alternatively, perhaps a more standard backbeat approach, but the user just wants snare added where it's missing. Since the original has snare on beats 2 and 4, adding on 1 and 3 could give a different feel.
+
+Alternatively, maybe the user just wants to ensure that there are snare hits in all beats where possible. Let me check the original S line again:
+
+Original S line:
+Beat1: ---- (no snare)
+Beat2: O--- (snare on first 16th of beat2, which is position5)
+Beat3: ---- (no snare)
+Beat4: O--- (position13)
+
+So the user wants to add snare in beats 1 and 3. So adding at least one hit in those beats.
+
+Alternatively, maybe add a snare on the third 16th of beat1 (position3) and beat3 (position11). Let's try:
+
+S: ---O | O--- | ---O | O---
+
+But that might be too much. Alternatively, soft hits.
+
+Alternatively, to keep it simple, adding a single snare hit in beats 1 and 3, perhaps on the downbeat but that would clash with kick. So better on the offbeats.
+
+So final decision: Add soft snare hits on the "&" of beats 1 and 3. So:
+
+S: --o- | O--- | --o- | O---
+
+This way, the snare is present in all four beats, adding to beats 1 and 3. That should fulfill the request.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: --o-|O---|--o-|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

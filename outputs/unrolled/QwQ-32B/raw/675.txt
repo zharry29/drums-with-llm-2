@@ -1,0 +1,41 @@
+Okay, let's tackle this drum groove edit. The user wants a cymbal hit and tom added in the very beginning. The original groove is:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+First, I need to figure out where "the very beginning" is. Since each line is divided into beats separated by |, the first beat is the first four characters. The user wants both a cymbal hit and a tom hit there.
+
+Looking at the instruments, the cymbals are Crash (C) and Ride (R). The Ride is already active in the first beat with an 'x' on the first 16th note. But maybe they want a Crash instead? Or maybe adding to the existing Ride?
+
+Wait, the user said "cymbal hit", which could be either. Since Crash isn't being used here, maybe adding a Crash hit on the first note. Alternatively, maybe they want to keep the Ride and just add a tom. Let me check the edit history examples. In previous edits when adding a tom and hihat, they added O to T and X to H in the first beat. Since the user now wants cymbal (maybe Crash) and tom, I'll add a Crash hit on the first note (C: O---) and a tom (T: O---).
+
+But let me make sure. The first beat of K is 'o---', so the first 16th note is a soft kick. The user wants a cymbal and tom there. So in the first beat's first note, add O to Crash (C line) and O to Tom (T line). 
+
+So updating the C line to start with O--- and T line to start with O---. Let me check if that's allowed. The Toms (T) can have O for hard hit. The Crash (C) can have O as a hard hit. 
+
+Original C line is all ----, so changing the first character to O. The T line is all ----, so first character O. 
+
+So the new lines would be:
+
+C: O---|----|----|----
+T: O---|----|----|----
+
+Wait, but maybe the user wants the cymbal to be a Ride? The original R line has x--- starting. But since they specified "cymbal", Crash might be better for a distinct hit. Alternatively, maybe both? But the request is for "a cymbal", so adding Crash makes sense.
+
+Let me confirm the notation rules again. For Toms: O is hard hit. For Crash: O is hard. So that's correct. 
+
+Therefore, the edited groove should have the first beat's first note with O on Crash and O on Tom. Let me write that out.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: O---|----|----|----  
+C: O---|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

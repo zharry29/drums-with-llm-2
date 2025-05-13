@@ -1,0 +1,49 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any snare or hihat parts. Let me look at the original groove first.
+
+The given drum groove is:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+Hmm, so the snare (S line) is already all dashes, meaning no snare is being played. But the hihat (H line) has some hits. Specifically, on the second and fourth beats of the bar, there are 'x' and '-' in between. The user said no hihat, so I need to clear that line.
+
+Additionally, the ride (R line) has some activity. Since the user didn't mention ride, but the instruction was only about snare and hihat, I should leave ride and other instruments (kick, toms, crash) as they are unless specified. Wait, looking back at the problem statement, the user's edit request is specifically "I don't want any snare or hihat." So only S and H lines need to be cleared.
+
+Wait, checking the original input again, the K line is all dashes, so kick isn't present. The Toms (T) are also empty. The crash (C) is empty here. So the only instruments present are Hihat and Ride. Since the user wants no snare (already none) and no hihat, so set H line to all dashes. The ride can stay as is unless the user wanted to remove cymbals, but the request didn't mention that. Wait, the user's exact words: "I don't want any snare or hihat." So only S and H lines need to be turned off.
+
+Therefore, the edited groove should have H line set to all '-', and S remains as all '-'. The rest (R, T, K, C) stay as they are. Wait, in the original, C is all dashes too. So the only change is H line becomes all '-'.
+
+Wait the original H line is:
+
+H: ----|x---|----|x---
+
+So changing that to all '-'.
+
+The R line is:
+
+R: x---|X-x-|x---|X-x-
+
+That stays. So the final groove would be:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+Let me double-check. The user didn't mention removing ride or other cymbals, so that's okay. Just snare and hihat are removed. Since snare was already off, only H needs to be cleared. Yep, that's the correct edit.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

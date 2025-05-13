@@ -1,0 +1,52 @@
+Alright, let's tackle this drum groove edit. The user wants snare on every 16th note in the second beat. First, I need to understand the original groove.
+
+Looking at the given groove:
+
+**Kick (K):**  
+O---|O---|----|O---  
+So the kick hits on the first 16th note of beats 1, 2, and 4.
+
+**Snare (S):**  
+----|----|O---|----  
+Snare only on the third beat's first 16th note.
+
+**Toms (T):**  
+O-o-|O-o-|O-o-|O-o-  
+Toms are playing a pattern every beat, but the snare is sparse.
+
+The user's request is to have the snare on every 16th note of the second beat. Since each beat has four 16th notes, the second beat (between the first and second |) needs all four notes to have snare hits.
+
+Original S line for the second beat is "----". To fulfill the request, this should become "OOOO" (assuming hard hits, as the user didn't specify soft). But I need to check if there's any restriction, like using 'O' or 'o' for the snare. The notation says S: O is hard, o is soft open, X/x are sidestick. Since the user didn't mention soft or sidestick, I'll go with 'O' for hard hits.
+
+Now, modifying the S line:
+
+Original:  
+S: ----|----|O---|----
+
+After edit:  
+S: ----|OOOO|O---|----
+
+Wait, but the third beat's snare is already on the first 16th note. The user only wants the second beat to have all 16th notes with snare. The rest can stay as is. Let me confirm the positions:
+
+- First beat: no snare (remains ----)
+- Second beat: all four 16th notes (OOOO)
+- Third beat: original O--- (so first 16th note only)
+- Fourth beat: no snare (remains ----)
+
+That should meet the requirement. Now check other instruments. The kick and toms might need adjustment if there's overlap, but the user didn't mention conflicts, so probably okay. Let's ensure total notes don't exceed any hidden limits, but the user only specified the snare addition. 
+
+Final check: The edited S line should be:
+
+S: ----|OOOO|O---|----
+
+Yes, that's correct. The rest remain the same.
+</think>
+
+@@@
+K: O---|O---|----|O---  
+S: ----|OOOO|O---|----  
+H: ----|----|----|----  
+T: O-o-|O-o-|O-o-|O-o-  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

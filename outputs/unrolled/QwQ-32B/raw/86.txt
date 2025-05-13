@@ -1,0 +1,74 @@
+Okay, let's see. The user provided a drum groove and wants it to include both cymbal and tom. The original groove has kick, snare, hihat, and ride, but no tom or crash. The edit request says "not only cymbal but also tom," so I need to add toms. Since there's no crash in the original, maybe the cymbal here refers to ride? Or maybe they want crash added too? Wait, the user might mean the existing cymbal (ride) is present, but they also want tom.
+
+Looking at the given groove:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So Toms (T) are all dashes. Need to add some tom hits. Let's pick a pattern that complements the existing rhythm without clashing. The kick is on the first and third beats, and the snare has sidestick hits. The hihat is on the second and fourth beats. The ride has a steady pattern.
+
+Maybe add toms on the offbeats or syncopated. Let's see:
+
+First beat of the bar: K is o--- (hit on first 16th). Maybe add a tom on the second 16th? Like -O-- for the first beat. But need to check the existing instruments. Let's try adding tom hits on the "and" of each beat. For example, in the first beat: T: -O-- so that it's on the second 16th note. 
+
+Alternatively, maybe a simple pattern like --O- or something. Let me think of a pattern that fits. Let's look at the first measure:
+
+First part (first beat): K has o--- so first 16th note. The snare has nothing here. Hihat is ----. Ride has x--- (hit on first 16th). So maybe tom on the second 16th (position 2) to add some body. So T: -O-- for the first segment.
+
+Second beat (|--o-): K has --o- (hit on third 16th). Snare has X--- (first 16th of the second beat). Hihat is x--- (first 16th). Ride is X-x- (hit on first and third). Maybe tom on the fourth 16th here? So T: ---O for the second segment.
+
+Third beat (|o---): K has o--- again. So similar to first beat. Maybe another tom on the second 16th here: T: -O-- again.
+
+Fourth beat (|--o-): K has --o- (third 16th). Snare has --X- (third 16th). Hihat is x--- (first 16th). Ride has X-x- (first and third). Maybe tom on the fourth 16th here again: ---O.
+
+Putting it all together for Toms:
+
+First segment: -O--
+Second: ---O
+Third: -O--
+Fourth: ---O
+
+So T: -O--|---O|-O--|---O
+
+But let me check the counts again. Each segment is 4 characters (16th notes). Let me verify each part:
+
+First beat (K: o---): T: -O-- (hit on second 16th)
+Second beat (|--o-): T: ---O (hit on fourth 16th)
+Third beat (|o---): T: -O-- (second 16th)
+Fourth beat (|--o-): T: ---O (fourth 16th)
+
+This creates a tom pattern on the "&" of each beat (second 16th) and the "a" of the fourth 16th? Wait, maybe it's better to have a consistent rhythm. Alternatively, maybe a quarter note pattern, but spread out.
+
+Alternatively, maybe a tom on every other beat. Let me think again. The user just wants toms added, so as long as they're present and not clashing, it's okay. Alternatively, maybe a simple --O- on each beat? Let me see another approach.
+
+Alternatively, adding a tom on the third 16th of each beat. For example, in the first beat, third 16th would be the "&" of the second 8th note. Hmm.
+
+Alternatively, to avoid clashing with kick, maybe on the offbeats where kick isn't hitting. Since kick is on the first and third 16ths of the first and third beats, maybe placing toms on the second and fourth 16ths where kick isn't present.
+
+So for the first beat (K: o---), T: -O-- (second 16th) and maybe the fourth? But that might be too much. Alternatively, just the second. Then on the second beat (K: --o-), the kick is on third, so T could hit on first or fourth. Maybe first? But then it might clash with the snare's X on the first 16th of the second beat. So better on the fourth.
+
+This way, the tom is on the offbeats where there's less activity. Let me go with the initial idea:
+
+T: -O--|---O|-O--|---O
+
+So the final T line would be:
+
+T: -O--|---O|-O--|---O
+
+That should add toms without clashing too much. Let me check the other instruments. The crash (C) is all dashes, so the cymbal here is the ride (R), which is already present. The user said "not only cymbal but also tom", so adding tom is sufficient. 
+
+Thus, the edited groove should include the tom line as above.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: -O--|---O|-O--|---O
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

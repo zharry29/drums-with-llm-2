@@ -1,0 +1,74 @@
+Okay, let's tackle this drum groove edit. The user wants to remove all cymbals and the kick drum. Let me start by recalling the original groove provided.
+
+Looking at the given drum groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+The user's request is to eliminate any cymbals (which include Crash Cymbal (C) and Ride Cymbal (R)) and the Kick drum (K). 
+
+First, I need to set all Kick (K) lines to silence. The original K line has a bunch of O's and -'s, so replacing all non '-' characters with '-' will do that. 
+
+Next, the Crash cymbal (C) line is all O's in each beat, so that entire line should be turned into all '-'.
+
+The Ride cymbal (R) line is already silent (all '-'), so no change there. 
+
+The Snare (S) and Hihat (H) lines are okay as they are, since the user only wants to remove cymbals and kick. Wait, in this case, the Hihat is already silent. So the main changes are to K and C.
+
+Wait, let me double-check each line:
+
+- **K line**: Remove all hits. So replace all 'O' and 'o' with '-'.
+Original K: OOO-|--O-|OOO-|-OOO  
+After edit: ----|----|----|----
+
+- **S line**: Keep as is since it's snare, which is allowed.
+Original S: ----|O---|----|O---  
+No changes here.
+
+- **H line**: Already all '-', so no change.
+
+- **T line**: Toms are allowed? Wait, the user said "no cymbal or kick". Toms are separate, so unless specified to remove toms, they stay. Wait, in the problem statement, the user says "I don't want any cymbal or kick." So Toms are okay. The T line here is already empty, so nothing to do.
+
+- **C line**: Crash cymbal, so set all to '-'.
+Original C: O---|O---|O---|O---  
+After edit: ----|----|----|----
+
+- **R line**: Already all '-', so no change.
+
+Putting it all together, the edited drum groove should have K and C lines silenced, others as original except where they were already silent.
+
+Wait, let me verify again. The user's exact words: "I don't want any cymbal or kick." So cymbals include both Crash (C) and Ride (R)? Wait, in the original, R is already all '-', so Ride is already not playing. But just to be thorough, even if R had notes, they should be removed. But here, since it's already clear, no change needed there.
+
+So final lines should be:
+
+K: all '-'  
+S: unchanged  
+H: unchanged  
+T: unchanged  
+C: all '-'  
+R: unchanged (already '-')
+
+So the final notation should look like:
+
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+I think that's it. Let me check if there's any oversight. The user might have meant to exclude all cymbals (both crash and ride), but since Ride wasn't active, only Crash needed fixing. Kick is fully removed. Snare and toms stay. Hihat was already silent. Looks correct.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

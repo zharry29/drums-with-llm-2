@@ -1,0 +1,49 @@
+Okay, let's tackle this drum groove edit. The user wants a tom hit and a snare in the very beginning. The original groove is:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, I need to focus on the first beat. The kick starts with "O--O" but the snare and toms are silent there. The user wants both a tom hit and a snare at the very beginning, which is the first 16th note of the first beat.
+
+Looking at the kick line, the first note is an "O", which is a hard hit. To add a tom hit, I'll need to place an "O" in the Toms line's first position. For the snare, the S line currently starts with "----", so changing the first note to an "O" would add a hard snare hit there.
+
+So modifying the first beat's first note:
+
+Original K: O--O|...
+Modified T: O---|... (adding a hard tom hit on the first note)
+Modified S: O---|... (adding a hard snare hit on the first note)
+
+Wait, but the original snare has some hits in other parts. Let me check the original S line again. The first part is "----", so starting with "O---" would place a snare hit on the first 16th note. That should work.
+
+Now, I need to ensure that the rest of the groove stays intact except for these changes. The user didn't mention altering other parts, so only the first beat's first note for both snare and toms should be modified.
+
+Let me double-check the notation rules. For the Toms (T line), "O" is a hard hit. The first beat's Toms were "----", so changing the first to "O" would work. For the Snare (S line), "O" is a hard hit, so replacing the first "-" with "O" adds the snare there.
+
+Putting it all together:
+
+K remains the same except the first beat's first note is already O, so no change there. The new S and T lines should have their first note as O. Let me write that out.
+
+Final version would be:
+
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: O---|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, but the user wanted both a tom and snare in the very beginning. So the first note of Toms and Snare should both have hits. That's exactly what I did here. The first beat's first 16th note now has a snare (O) and a tom (O). The kick also has an O there, so that's a combined hit. That should fulfill the request. Let me confirm there's no other changes needed. The rest of the groove is untouched, so this should be correct.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: O---|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,50 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any cymbals and hihats. First, I need to recall which lines correspond to those instruments. From the notation guide:
+
+- **C** is the Crash cymbal.
+- **R** is the Ride cymbal.
+- **H** is the Hihat.
+
+So, the user's request means I need to clear out the **C**, **R**, and **H** lines. Let me look at the given drum groove:
+
+Original groove:
+```
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+Starting with **H** (Hihat), the line has some hits on the 2nd and 4th beats. Since the user doesn't want hihats, I'll replace all characters in the H line with '-'.
+
+Next, **C** (Crash) is already empty, so no changes there. 
+
+Then **R** (Ride) has some notes. Those need to be removed too, replacing with '-'.
+
+The **K** (Kick) and **S** (Snare) lines are already empty except for their placeholders. Since the user didn't mention Kick or Snare, those stay as they are.
+
+Wait, the user said "no cymbal or hihat," so confirming that Kick and Snare are okay. 
+
+Let me reconstruct each line:
+
+- **K** stays the same: `K: ----|----|----|----`
+- **S** stays the same: `S: ----|----|----|----`
+- **H** becomes all dashes: `H: ----|----|----|----`
+- **T** remains unchanged (no toms mentioned): `T: ----|----|----|----`
+- **C** is already clear: `C: ----|----|----|----`
+- **R** becomes all dashes: `R: ----|----|----|----`
+
+Double-checking to ensure no cymbals (C and R) or hihats (H) are left. Yep, all those lines are cleared. The Kick and Snare are untouched since they were already silent except for their structure. 
+
+I think that's it. The final groove should have all specified instruments removed.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

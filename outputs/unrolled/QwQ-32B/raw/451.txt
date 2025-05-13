@@ -1,0 +1,43 @@
+Okay, I need to edit the given drum groove based on the user's request. Let me first understand what they want. The user said, "I don't want any cymbal or hihat." So, I need to remove all the parts related to cymbals (which include crash and ride) and the hihat.
+
+Looking at the original drum groove provided:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+Let me break down each line:
+
+- **K (Kick drum):** This has some hits, but since the user didn't mention removing kick, I leave it as is.
+- **S (Snare drum):** The user didn't mention snare, so it stays unless there's an overlap with cymbals or hihat.
+- **H (Hihat):** Needs to be removed entirely because the user doesn't want hihat.
+- **T (Toms):** No changes needed unless there's something else, but it's empty here.
+- **C (Crash cymbal):** Must be removed.
+- **R (Ride cymbal):** Also needs removal since it's a cymbal.
+
+So, I'll set the H, C, and R lines to all '-' characters. The other lines (K, S, T) stay unless they have cymbal-related parts, but in this case, S is snare, which is allowed, and T is empty. 
+
+Wait, the user said "cymbal" which includes both crash (C) and ride (R), so those are both out. The hihat (H) is also gone. The snare (S) is okay. The kick (K) and toms (T) remain. 
+
+Let me double-check each line:
+
+- **H line:** Replace all characters with '-'.
+- **C line:** Replace all with '-'.
+- **R line:** Replace all with '-'.
+
+The rest stay the same. Let me reconstruct the drum groove accordingly.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

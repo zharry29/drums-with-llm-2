@@ -1,0 +1,50 @@
+Alright, let's tackle this drum groove edit. The user wants the groove to include not just the snare but also the tom. Looking at the given groove:
+
+First, let's parse the existing elements. The Kick (K) has some soft hits, the Snare (S) has X and x hits, the Hihat (H) has some activity, and the Toms (T) are completely silent. The Ride (R) has some patterns too.
+
+The edit request is to add tom hits. Since the current T line is all dashes, I need to place some O or o characters in there. The key is to integrate the toms in a way that complements the existing snare and kick without clashing.
+
+Looking at the structure of each beat (each | separates 4 beats, each beat has 4 16th notes):
+
+Original T line:
+T: ----|----|----|----
+
+I need to decide where to place the toms. Maybe syncopate them with the snare or kick. Let's see the snare pattern:
+
+S: ----|X---|--X-|----
+
+In the second beat, there's an X on the first 16th note, and in the third beat, an X on the third 16th. The fourth beat has an X on the first 16th again.
+
+Maybe place toms on offbeats. For example, in the first beat, maybe add a tom on the third 16th note (since kick is o there). Let's see:
+
+First beat: o--- so maybe add a tom on the third note: o--O ?
+
+But need to check the existing instruments. Also, in the second beat, the snare is X on the first, so maybe a tom on the fourth? Let's see:
+
+Second beat: --o- (kick is --o-), so maybe on the third or fourth? If snare is on first, perhaps tom on fourth: ---O ?
+
+Third beat: o---, so maybe third note again: o--O ?
+
+Fourth beat: --o-, similar to second.
+
+Alternatively, maybe mirror the snare's pattern but offset. Let me try:
+
+T: ---O|---O|---O|---O (each beat's last 16th note). That would create a steady tom on the & of each beat's fourth 16th. That might work.
+
+Alternatively, mix hard and soft hits. Since the snare uses X (hard) and x (soft), maybe O for hard toms. Let's go with that.
+
+So inserting O on the last 16th of each beat. Let's test:
+
+T: ---O|---O|---O|---O
+
+That should add a tom hit on each beat's last 16th note. Let me check if that's not conflicting with other instruments. The ride has x---|X-x- etc., but on the last 16th of first beat, ride has -, so okay. Snare's last 16th in first beat is -, so no conflict. That should work. Alternatively, maybe vary it a bit, but simplest is to start with that. Let's go with that.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ---O|---O|---O|---O
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

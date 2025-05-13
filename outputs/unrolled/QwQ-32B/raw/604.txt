@@ -1,0 +1,33 @@
+Okay, let's tackle this drum groove edit. The user wants a tom hit and cymbal in the very beginning. The original groove has kick, snare, toms, and crash cymbals. Let me look at the given drum notation first.
+
+The kick (K) starts with "OOO-" which is a triplet of hard hits followed by a rest. The snare (S) has an "O" on the second beat. The toms (T) are all dashes, so no hits there except maybe the crash (C) which is "O---" on every beat.
+
+The user wants a tom hit and cymbal at the very beginning. The first 16th note is the first character of each line. Right now, the kick is hitting on the first note, so maybe we can add a tom hit there. Since the user mentioned "tom hit," I should check the T line. The original T line is all dashes, so adding an "O" (hard hit) on the first note would introduce a tom hit. 
+
+For the cymbal, they might want a crash or ride. The crash (C) is already hitting on the first beat, but maybe they want an additional cymbal hit. Alternatively, if they want the cymbal to start with the tom, maybe adjust the crash timing. But the original crash is on the first 16th note of each beat. Let me see: the first beat's first note (position 1) has kick "O", and crash "O". So perhaps the user wants a tom instead of the kick there? Or in addition?
+
+Wait, the user said "tom hit and cymbal in the very beginning," so maybe the first note should have both a tom and a cymbal. Let me check the original first beat:
+
+Original first beat:
+K: O---
+S: ----
+T: ----
+C: O---
+
+So kick and crash are both hitting the first note. To add a tom hit there, we can add "O" to the T line's first note. So T's first beat becomes "O---". That adds a tom hit on the first note along with the kick and crash. Alternatively, maybe remove the kick and have tom and cymbal? But the user didn't say to remove the kick, just to add tom and cymbal. Since the crash is already there, maybe that's sufficient. Wait, the crash is already on the first note. So perhaps they want a different cymbal, like ride, but the user specified "cymbal," so maybe just ensure that the crash is there. Since it's already there, maybe the main change is adding the tom.
+
+So the plan is: on the first 16th note (first character of each line), in the T line, change the first '-' to 'O' to add a tom hit. The crash is already present. So the edited T line would start with "O---". Let me check the rest of the T line to ensure it's okay. The original T line was all dashes, so adding the tom hit only on the first note.
+
+Wait, the user said "in the very beginning," so maybe only the first note of the first beat. Let me confirm the structure. Each beat is four characters separated by |. The first beat is "OOO-" for K, so first four notes. The first note (position 1) is K: O, T: O (added), and C: O. That should fulfill the request. The rest of the groove can stay as is unless there's a need to adjust other parts. Since the user didn't mention changing anything else, I'll just make that first change.
+
+So the final edited groove should have the T line starting with "O---" in the first beat, keeping the rest the same.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: O---|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

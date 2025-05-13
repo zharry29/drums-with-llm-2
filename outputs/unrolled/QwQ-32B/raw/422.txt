@@ -1,0 +1,28 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the hihat and kick parts from the given groove. 
+
+First, I'll look at the original drum notation provided. The user's current groove has entries for Kick (K), Snare (S), Hihat (H), Toms (T), Crash (C), and Ride (R). The edit request specifies removing hihat (H) and kick (K), so those lines need to be cleared out.
+
+Starting with the Kick (K) line: "O---|---o|O-O-|----". To remove it, I'll replace all characters except the separators "|" with dashes "-". So each segment between | should be "----".
+
+Next, the Hihat (H) line is "--o-|O-o-|O-o-|O-o-". Similarly, I'll replace all non-separator characters with dashes to silence the hihat.
+
+The other instruments (Snare, Toms, Crash, Ride) should remain as they are unless they were part of the request to remove. Since the user only mentioned hihat and kick, those stay. Let me double-check each line:
+
+- Snare (S): "----|O---|----|O---" – keep this.
+- Toms (T): empty, so no change.
+- Crash (C): "O---|----|----|----" – keep.
+- Ride (R): empty, so no change.
+
+Wait, the user's edit request says "I don't want any hihat or kick." So yes, only K and H lines should be turned into all dashes. Let me verify each line again to ensure I didn't miss anything. 
+
+Original K line becomes all dashes. Original H line becomes all dashes. The rest remain. That should do it. Let me write the final version now.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

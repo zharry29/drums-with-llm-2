@@ -1,0 +1,47 @@
+Okay, let me tackle this drum groove edit. The user wants a tom hit and cymbal in the very beginning. The original groove is:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+First, the "very beginning" refers to the first 16th note of the first beat. So, I need to add a tom hit (T) and a cymbal (either C or R) there.
+
+Looking at the instruments:
+- Toms (T) are currently all dashes, so adding a hit there.
+- The cymbals available are Crash (C) and Ride (R). The user didn't specify which, so I'll choose Ride since it's already active in the original R line. Alternatively, maybe Crash for a louder start, but the original has R's already. Let me check the original R line: it has o-O- in the first beat. The first note is 'o', which is a soft closed hit on the bow. To add a cymbal hit at the very start, maybe replace the first 'o' with an O for a harder hit, but the user might prefer adding a crash. Hmm.
+
+Wait, the user said "cymbal" generally. Since the original has R active, maybe keep that and add a crash on the first note. Let me see:
+
+Original C line is all dashes. So adding a C hit at the first note. So in the C line, first character becomes O (hard hit). 
+
+For the tom, in the T line, first note of the first beat should be O (hard hit).
+
+So modifying T and C lines:
+
+T: O---|----|----|----
+C: O---|----|----|----
+R remains as is, but check if overlapping. The first note of R is 'o', so the first beat's first 16th note for R is o. But adding a C hit there is okay, they can be played together.
+
+So the new lines would be:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: O---|----|----|----
+C: O---|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+Wait, but the user might want the tom and cymbal specifically at the very first note. That's done here. Let me double-check the notation rules. Each line's first four characters are the first beat. The first 16th note is the first character. So yes, T's first hit is O on the first note, and C has O there. The R's first note is still o, but that's okay, as multiple cymbals can be played together. Alternatively, maybe the user prefers only one cymbal, but since they mentioned "cymbal", either is fine. I think this meets the request.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: O---|----|----|----
+C: O---|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

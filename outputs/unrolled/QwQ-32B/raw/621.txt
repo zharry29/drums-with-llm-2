@@ -1,0 +1,46 @@
+Alright, let's tackle this drum groove edit. The user wants a cymbal hit and kick in the very beginning. 
+
+First, I need to look at the original groove:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+The first beat (before the first |) has no kick or cymbal. The user wants both in the first 16th note. 
+
+For the kick (K line), the first character is '-', so changing it to 'O' for a hard hit makes sense. 
+
+For the cymbal, there are two options: Crash (C) or Ride (R). The existing R line starts with 'x---', which is a closed hit on the ride. But the user specified "cymbal," which could be crash. The crash line (C) is all '-', so adding an 'O' there would introduce a crash hit. 
+
+So, in the first 16th note (first character of each line):
+
+- K: Change first '-' to 'O'
+- C: Change first '-' to 'O' (for a crash hit)
+- Leave R as is unless conflicting, but since the user didn't mention ride, maybe just add crash.
+
+But need to check if adding both C and R in the first note is okay. The original R has 'x' in first, so if we add C:O, that's a separate instrument, so it's okay. 
+
+So the edited lines would be:
+
+K: O---|----|----|----
+C: O---|----|----|----
+R remains x---|X-x-|x---|X-x-
+
+Wait, but the user might prefer just one cymbal. Since they said "cymbal," maybe crash is better for a strong start. So set C to O and leave R as is. 
+
+Double-check the notation rules. Crash (C) uses O for hard hit. So yes, that works. 
+
+So the final edited groove should have the first note of K and C as O, rest as original.
+</think>
+
+@@@
+K: O---|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

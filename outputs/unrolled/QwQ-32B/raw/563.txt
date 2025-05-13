@@ -1,0 +1,71 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any hihat or ride parts from the given groove. 
+
+First, I'll recall the instruments involved. The hihat (H) and ride (R) lines need to be cleared out. Let me look at the original groove provided:
+
+The given drum groove is:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+So, the H line (Hihat) has some hits like --o-, O-o-, etc., and the R line (Ride) is already all dashes except maybe in other parts? Wait, looking again, in the given example, the R line is all dashes. Wait, let me check again:
+
+Looking at the user's input, the R line here is:
+
+R: ----|----|----|----
+
+So actually, the ride isn't being used here. The user might have mentioned "ride" just in case, but maybe they still want to ensure it's cleared. The main thing is the Hihat (H) line has some activity.
+
+So the edit request is to remove hihat and ride. Since ride is already silent, we just need to set H to all dashes. 
+
+Therefore, the edited version should have:
+
+- K, S, T, C lines as they are (unless there's a mistake, but the user didn't mention those)
+- H line becomes all dashes
+- R line stays as all dashes
+
+Let me double-check each line:
+
+Original K: O---|---o|O-O-|----
+Original S: ----|O---|----|O---
+Original H: --o-|O-o-|O-o-|O-o- → change to ----|----|----|----
+Original T: all dashes
+Original C: O---|----|----|----
+Original R: already all dashes
+
+So the final should look like:
+
+K remains the same.
+S remains the same.
+H becomes all dashes.
+T, C, R stay as they are.
+
+Wait, but the user's instruction says "I don't want any hihat or ride." So hihat (H) and ride (R) must be silenced. Since R is already silent, just set H to all '-'.
+
+Therefore, the edited groove should be:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+I think that's it. Just replace the H line with all dashes. Let me make sure I didn't miss any other lines. The user didn't mention other instruments, so leave kick, snare, toms, and crash as they are. Yep, that should do it.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

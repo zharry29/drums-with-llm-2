@@ -1,0 +1,55 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any tom or cymbal parts from the given groove. Let me start by understanding the original groove and then figure out what needs to be changed.
+
+First, looking at the given drum notation:
+
+**Kick (K):** O--O|----|--O-|----
+**Snare (S):** ----|Oo-o|-o--|O--o
+**Hihat (H):** ----|----|----|----
+**Toms (T):** ----|----|----|----
+**Crash (C):** ----|----|----|----
+**Ride (R):** o-O-|o-O-|o-O-|o-O-
+
+The user's request is to remove any tom or cymbal. That means I need to set the Toms (T) and both Crash (C) and Ride (R) lines to all dashes (-). Let me confirm each instrument:
+
+- **Tom (T):** Already all dashes, so no change needed here.
+- **Crash (C):** Also already all dashes. So actually, the only cymbal present is the Ride (R). 
+
+Wait a second, the Ride line (R) has "o-O-" repeating. Since the user mentioned removing cymbals, Ride is a cymbal, so that needs to be cleared. The Tom line is already empty, so that's fine.
+
+So the main changes are:
+
+1. Set the Ride (R) line to all dashes.
+2. Ensure Toms (T) and Crash (C) are already clear, which they are.
+
+Let me double-check the original to confirm:
+
+Original R: o-O-|o-O-|o-O-|o-O-
+After edit: should be ----|----|----|----
+
+Other instruments:
+
+- Kick and Snare remain as they are because they're not cymbals or toms.
+- Hihat is already silent, so no issue.
+
+Wait, but the user didn't mention the hihat. Since they only asked to remove tom or cymbal, hihat is allowed. So no changes there.
+
+Putting it all together, the edited groove should have:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+I think that's all. Let me just make sure there are no other cymbals. Crash is clear, Ride is now clear. Toms are clear. Yep, looks good.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

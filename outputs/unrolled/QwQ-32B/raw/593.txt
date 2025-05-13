@@ -1,0 +1,32 @@
+Alright, the user wants me to edit a drum groove by removing the snare and ride parts. Let me look at the given drum notation first.
+
+The original groove has the Kick (K), Snare (S), Hihat (H), Toms (T), Crash (C), and Ride (R) lines. The user's request is to eliminate any snare or ride elements. 
+
+Starting with the Snare line (S): In the given groove, S has hits in the second and fourth beats. I need to replace all those with '-' to mute the snare. 
+
+Next, the Ride (R) line is already empty (all '-'), so no changes there. But just to be sure, I'll check each part. 
+
+Now, the Kick (K) has a pattern with O's and --O-, which is fine to keep. The Hihat (H) is all silent except maybe some closed hits, but since the user didn't mention hihat, it stays as is. The Crash (C) has crashes on every beat, which are cymbals but not ride, so those remain unless the user also wanted crashes removed. Wait, the request was only for snare and ride. So crashes are okay.
+
+Wait, let me confirm the user's exact words: "I don't want any snare or ride." So only S and R lines need to be cleared. 
+
+Looking at each line:
+
+- K: OOO-|--O-|OOO-|-OOO → Keep as is.
+- S: Needs all hits removed. Original S has |O---| and |O---|. Replace those with |----| in all four beats.
+- H: Remains unchanged.
+- T: Already silent, so no change.
+- C: Crash is allowed, so leave the O--- in each beat.
+- R: Already all '-', so no change.
+
+Double-checking each part to ensure only S is cleared. The edited version should have S line all '-' and R stays empty. That should meet the user's request.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|----|----|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

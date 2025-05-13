@@ -1,0 +1,91 @@
+Okay, so I need to edit this drum groove based on the user's request: "I'd like a ride hit and cymbal in the very beginning." Let me start by understanding the current groove and what changes need to be made.
+
+First, looking at the given drum groove:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+The user wants a ride hit and a cymbal (probably crash) at the very beginning. The "very beginning" would be the first 16th note of the first beat, which is the first character in each line.
+
+Let's break down each instrument:
+
+- **Kick (K):** The first beat starts with "O--O". The first note is an "O", which is a hard kick hit. The user wants a ride and cymbal here, but the kick is already present. Maybe they want to keep the kick and add the other elements?
+
+- **Snare (S):** The first beat is "----", so no snare in the first beat. The snare comes in later.
+
+- **Hihat (H):** All dashes, so no hihat.
+
+- **Toms (T):** All dashes, no toms.
+
+- **Crash (C):** All dashes, no crash.
+
+- **Ride (R):** The first beat is "o-O-", so the first note is an "o" (soft open hit on the bell) on the first 16th note. But the user wants a ride hit and cymbal (crash) in the beginning. 
+
+Wait, the user specified both a ride hit and a cymbal. Since "cymbal" could refer to the crash cymbal (C line), perhaps they want a crash hit along with the ride hit at the start. 
+
+Currently, the ride (R) starts with an "o" (soft bell hit). To add a crash (C), we need to place an "O" (hard hit) on the first note of the crash line. Also, maybe the ride could have a harder hit there, like "O" instead of "o".
+
+Let me check the notation rules again:
+
+- **Ride (R):** "O" is hard open on the bell, "o" is soft. X/x are closed hits on the bow. Since the user mentioned a ride hit, maybe a hard hit (O) on the ride bell would be better for emphasis at the start.
+
+- **Crash (C):** Adding an "O" (hard crash) on the first note would introduce the cymbal.
+
+So, modifying the first note of R and adding a crash:
+
+For the first beat (first four characters before the first |):
+
+- **R's first note:** Change from "o" to "O" (hard bell hit).
+- **C's first note:** Add "O" (hard crash).
+
+Let me adjust each line accordingly:
+
+Original R line: o-O-|o-O-|o-O-|o-O-
+Modified R line: O-O-|o-O-|o-O-|o-O- (changed first character to O).
+
+Original C line: ----|----|----|----
+Modified C line: O---|----|----|---- (first character is O).
+
+The kick and snare can stay as they are unless the user wants to remove the kick. But the request didn't mention removing anything, just adding the ride and cymbal. So keeping the kick's "O" is okay.
+
+Let me check if there's any conflict. The first beat's kick is O (first 16th note), and now the ride is O (same position), and crash is O. That's three hits at the same time: kick, crash, and ride. That's acceptable in drumming, though might be busy. But the user asked for both, so proceed.
+
+Final lines would be:
+
+K remains: O--O|----
+S remains: ----
+H remains: ----
+T remains: ----
+C becomes: O---|----
+R becomes: O-O-|o-O-|o-O-|o-O-
+
+Wait, let me confirm the exact positions. The first beat's first 16th note is the first character. So:
+
+Original R: o-O- → becomes O-O- for the first beat.
+
+Yes. So putting it all together:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: O-O-|o-O-|o-O-|o-O-
+
+Wait, but in the original R line, after the first beat, the rest are o-O-, so the second beat's R is o-O-, which is okay.
+
+I think that's it. Let me double-check the user's request: a ride hit and cymbal (crash) in the very beginning. The first note now has a crash (C: O) and ride (R: O), along with the kick (K: O). That should fulfill the request.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: O-O-|o-O-|o-O-|o-O-
+@@@

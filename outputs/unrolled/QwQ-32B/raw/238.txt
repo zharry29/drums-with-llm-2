@@ -1,0 +1,98 @@
+Alright, let's tackle this drum groove edit. The user wants the groove to have not only snare but also tom. Looking at the provided groove:
+
+First, let's parse the existing elements. The Kick (K) has some activity, the Snare (S) is present with various hits, the Hihat (H) is silent, Toms (T) are entirely inactive, and the Ride (R) has a pattern. The edit request specifically mentions adding tom hits where there's currently only snare, so I need to focus on the T line.
+
+The original T line is all dashes, meaning no tom hits. To add toms, I should place O or o characters in the T line. The goal is to complement the snare without conflicting. Let's look at the snare's pattern:
+
+In the first beat (S: ----), so no snare here. Maybe add toms here to fill the space. Second beat (S: Oo-o) has hits on the first, third, and fourth 16th notes. Perhaps syncopate the toms here. Third beat (S: -o--) has a soft open hit on the third 16th. Maybe a tom on the first or second. Fourth beat (S: O--o) starts with a hard hit and ends with a soft. Toms could go in between.
+
+Also, the Ride (R) has a consistent o-O- pattern, so maybe align toms with that or contrast. Let's distribute tom hits in offbeats. For example, in the first beat where there's no snare, add O--- or something. In the second beat, maybe place a tom on the second 16th. Third beat, perhaps on the first 16th. Fourth beat, maybe on the third.
+
+Testing this, let's try:
+
+T: O---|O---o|O---|O--- (but need to check 16 notes). Wait, each beat is four characters. Let me structure each beat properly.
+
+First beat (K: O--O, S: ----): T could have O on first 16th. So T: O---
+
+Second beat (S: Oo-o): Maybe O on second 16th: --O- but need to see. Alternatively, O on the offbeat. Let's say O--- but that might clash. Maybe O on the second: -O--
+
+Third beat (S: -o--): Maybe O on first or second. Let's do O--- here as well.
+
+Fourth beat (S: O--o): Maybe O on third 16th: --O-.
+
+Putting together:
+
+T: O---|O--O|O---|---O ?
+
+Wait, need to ensure it's 4 beats of 4 characters each. Let me think step by step.
+
+First beat (positions 1-4): T: O--- (hit on first 16th)
+Second beat (5-8): S has hits on 5,7,8. Maybe tom on 6: -O--
+Third beat (9-12): S hit on 11. Tom on 9: O---
+Fourth beat (13-16): S hits on 13 and 16. Tom on 15: --O-
+
+So T: O---|-O--|O---|--O- ?
+
+Alternatively, maybe spread them more evenly. Let me check the example previous edits. In previous answers, sometimes toms are on every beat but offset. Like in the user's previous example, they used ---O|O---| etc. 
+
+Alternatively, to make it consistent, maybe place a tom on every beat but different positions. Let's see:
+
+Beat 1: O---
+Beat 2: -O--
+Beat 3: --O-
+Beat 4: ---O
+
+That way, each beat has one tom hit, each on a different 16th note. So T: O---|-O--|--O-|---O
+
+That would give a steady tom pattern without clashing with snare. Let me verify:
+
+First beat's tom on 1, snare none. Good.
+
+Second beat's tom on 2, snare hits 1,3,4. So 2 is free.
+
+Third beat's tom on 3, snare hit on 3 (soft open). Hmm, that might clash. Maybe better to have tom on 2 in third beat?
+
+Alternatively, adjust third beat's tom to first: O--- which is okay since snare's hit is on third.
+
+Alternatively, maybe third beat's tom on first 16th, which is fine.
+
+Alternatively, to avoid clashing, let's adjust third beat's tom to second 16th: -O--
+
+So T: O---|-O--|-O--|--O- ?
+
+But then third beat's tom is on second, snare is on third. That's okay.
+
+Alternatively, let's ensure that where snare has hits, toms are not there. For example, in the second beat, snare hits 1,3,4. Tom on 2 is okay. Third beat's snare is on 3, so tom on 1 or 2. Let's pick 1. Fourth beat's snare on 1 and 4, so tom on 3.
+
+So T: O--- (beat1), -O-- (beat2), O--- (beat3), --O- (beat4)
+
+This way, the toms are on 1,2,1,3 respectively. Not clashing much. Let's write that as:
+
+T: O---|-O--|O---|--O-
+
+Wait, that's 4 beats. Let me count each beat's four characters:
+
+First beat: O---
+Second beat: -O--
+Third beat: O---
+Fourth beat: --O-
+
+Yes, that's 16 characters. Alternatively, maybe vary the soft and hard hits. Since the user's previous examples used O for hard, maybe alternate between O and o for variation. But the main thing is to add tom hits where there are none.
+
+Alternatively, the user might prefer a consistent pattern. Let's go with this pattern and see. That should fulfill the edit request. Let me check again.
+
+Original S has in beat2: Oo-o (hits on 1,3,4). Tom on 2 is fine. Beat3's snare is -o-- (hit on 3), so tom on 1 or 2. Here, tom on 1 is okay. Beat4's snare O--o (hit 1 and 4), tom on 3 is okay. This works.
+
+So final T line would be:
+
+T: O---|-O--|O---|--O-
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: O---|-O--|O---|--O-
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

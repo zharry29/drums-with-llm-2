@@ -1,0 +1,28 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any tom and snare parts from the given groove. Let me first look at the original notation to see where those are.
+
+Starting with the Kick (K line): "O--O|----|--O-|----". That's fine, since we're keeping kick. The Snare (S) line has "----|Oo-o|-o--|O--o". Since the user doesn't want snare, I'll replace all those characters with '-'.
+
+Next, the Toms (T) line is all dashes, so no change there. The Hihat (H) is already empty, so that's okay. The Crash (C) and Ride (R) are also okay as they aren't mentioned in the request. Wait, the user only mentioned removing tom and snare. The Ride (R) has some notes: "o-O-|o-O-|o-O-|o-O-". Since ride isn't mentioned, we leave it. But wait, the user didn't say anything about ride or crash, so they stay. 
+
+Wait, the original problem says "I don't want any tom or snare." So only S and T lines need to be cleared. Let me double-check each line:
+
+- K remains as is.
+- S becomes all '-'.
+- T is already empty.
+- H, C, R stay as they are unless specified.
+
+So replacing the S line's non-dash characters with dashes. Let me reconstruct each part:
+
+Original S line: " ----|Oo-o|-o--|O--o " becomes " ----|----|----|---- ".
+
+Check that all other lines (except S and T) are untouched. The T line was already all dashes, so no change. The final groove should have S and T lines cleared. Let me write that out properly in the notation.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

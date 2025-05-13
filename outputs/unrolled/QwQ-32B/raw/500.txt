@@ -1,0 +1,71 @@
+Okay, so I need to edit this drum groove based on the user's request. The user said, "I don't want any ride or tom." Let me start by looking at the given drum groove to see which parts I need to remove.
+
+First, let me recall the instruments and their corresponding lines. The lines are K for Kick, S for Snare, H for Hihat, T for Toms, C for Crash cymbal, and R for Ride cymbal. The user wants to remove the Ride (R) and Tom (T) parts. 
+
+Looking at the original drum groove provided:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+Wait, the T line currently has some hits in the third beat: "----|----|---O|----". So there is a Tom hit on the third beat's third 16th note. The user wants no Toms, so I need to set all T's characters to '-'.
+
+The R line is already all dashes except maybe the last part? Let me check again. The R line is "----|----|----|----", so it's already empty. But maybe I should double-check to ensure there are no hits there. Since it's all dashes, removing ride isn't needed here, but the user's instruction still applies, so just to confirm, set all R to '-'.
+
+So the steps are:
+
+1. For the T line, replace all non-'-' characters with '-'.
+2. For the R line, ensure all are '-' (which they already are, but just to make sure).
+3. Leave other instruments (K, S, H, C) as they are unless they have Ride or Tom parts, but the user only wants those two removed.
+
+Wait, the user's edit is to remove ride (R) and tom (T). So yes, only T and R lines need to be cleared. Let me check each line:
+
+- K: Kick is okay, not to be removed.
+- S: Snare is okay.
+- H: Hihat is allowed since the user didn't mention it.
+- T: Must be all '-'.
+- C: Crash is okay.
+- R: Must be all '-'.
+
+Looking at the original T line: "----|----|---O|----" has an 'O' in the third beat's third 16th note. Changing that to '-'.
+
+So the modified lines would be:
+
+K remains:
+-K: -O--|OO--|---O|-OO-
+
+S remains:
+-S: ----|----|S---|----
+
+H remains:
+-H: x-x-|x-x-|x-x-|x-x-
+
+T becomes:
+-T: ----|----|----|----
+
+C remains:
+-C: O---|O---|O---|O---
+
+R remains as all dashes:
+-R: ----|----|----|----
+
+Wait, but the user's edit request is to remove ride (R) and tom (T), so yes, that's exactly what I did. The crash (C) is still present unless the user also wanted that removed, but the request didn't mention crash. So the final groove should have T and R lines all dashes.
+
+Let me double-check the original T line again. The third beat's third note is 'O', so changing that to '-' makes T's line all '-'.
+
+Yes, that's correct. The rest of the instruments stay as they are. The user didn't mention anything about kick, snare, hihat, or crash, so those are kept. So the final drum groove after edits should look like this with T and R lines cleared.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

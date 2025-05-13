@@ -1,0 +1,50 @@
+Okay, let's tackle this drum groove edit. The user wants a hihat hit and tom in the very beginning. Let me start by understanding the current groove.
+
+Looking at the given drum notation:
+
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-
+
+The first beat (before the first |) is the "very beginning." Let's break it down by instrument:
+
+- **Kick (K):** The first 16th note is an 'o' (soft hit), then three '-' (no hit). So the kick starts with a soft hit on the first 16th note.
+- **Snare (S):** All '-' in the first beat, so no snare there.
+- **Hihat (H):** All '-' in the first beat, so no hihat initially.
+- **Toms (T):** All '-' in the first beat, so no tom hit.
+- **Ride (R):** The first note is 'x', which is a soft closed hit on the bow.
+
+The user wants a hihat hit and a tom in the very beginning. Since the first beat is the first four 16th notes (positions 1-4), I need to add these elements there. 
+
+First, the hihat hit. The H line is all '-' in the first beat. To add a hihat hit on the first 16th note (position 1), I can use 'x' (soft closed hit) or 'X' (hard closed hit). Since the existing Hihat in the second beat starts with 'x', maybe keeping consistency with 'x' here. So change the first character of H to 'x'.
+
+Next, the tom hit. The Toms line is all '-' in the first beat. To add a tom hit on the first 16th note, use 'O' for a hard hit. Alternatively, maybe a soft 'o' if desired, but since the user didn't specify softness, 'O' is safer. So set the first character of T to 'O'.
+
+I should check if there are any conflicts. The kick already has a soft hit on the first note. Adding a tom hit there is okay, as they're different instruments. The hihat's 'x' would also be okay alongside the kick's 'o'.
+
+Let me also verify the notation rules again to ensure correctness. For Toms, 'O' is a hard hit, which is allowed. Hihat's 'x' is a soft closed hit, which fits. 
+
+So the modified lines would be:
+
+H: x---|x---|----|x---  
+T: O---|----|----|----  
+R remains the same unless needed, but the user didn't mention ride, so leave it as is.
+
+Wait, the original H line's first beat was '----', so changing the first character to 'x' makes the first beat 'x---'. The Toms first beat becomes 'O---'.
+
+Let me double-check the user's request: "hihat hit and tom in the very beginning." That's exactly what this does. The rest of the groove remains unchanged except adding those two hits at the start.
+
+I think that's it. Let me put the final version in the required format.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: x---|x---|----|x---  
+T: O---|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

@@ -1,0 +1,23 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the hihat and tom parts. First, I need to look at the original groove they provided.
+
+Looking at the H line (Hihat), there are x's in some positions. Since the request is to remove hihat, I should replace all those x's with dashes. Similarly, the T line (Toms) is all dashes already, so maybe that's already okay, but I should double-check. The user might have wanted to ensure that no tom hits are present, so confirming that T remains all dashes.
+
+The given groove has:
+H: ----|x---|----|x---
+So, in the second and fourth beats, there are x's on the hihat. Changing those to '-' will eliminate the hihat entirely.
+
+Also, checking the R (Ride) and S (Snare) lines. The user didn't mention ride or snare, so unless there's a hidden issue, those can stay. Wait, the edit request was specifically about hihat and tom, so snare and ride are okay to remain unless specified otherwise. The user's instruction was "I don't want any hihat or tom," so we only need to modify H and T lines.
+
+The Toms line (T) is already all dashes, so no change there. The Hihat line needs all hits removed. Let me rewrite the H line to all dashes.
+
+So the edited version would have H as all dashes and T remains as is. Let me put that together.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

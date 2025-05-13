@@ -1,0 +1,32 @@
+Okay, so I need to edit this drum groove according to the user's request. Let me see what they asked for. They don't want any hihat or tom in the groove. 
+
+Looking at the original groove, I see that the hihat is present on beats 2 and 4 with soft closed hits ("x"). The toms are also present but set to "-" in the given groove, so they're already silent. The crash cymbal and ride cymbal are also present, but the user didn't mention them, so I guess they can stay.
+
+First, I need to remove the hihat completely. That means setting all the hihat characters to "-". Since the toms are already "-", they're already removed, so I don't need to change anything there.
+
+I should also ensure that no other instruments are affected. The kick, snare, crash, and ride should remain as they are unless specified otherwise.
+
+So, I'll go through each line and set the hihat and tom lines to all "-". The final groove should only have the kick, snare, crash, and ride, with hihat and tom removed.
+
+Let me double-check to make sure I didn't miss any hihat or tom hits. Yep, they're all set to "-", so the groove now only features the requested instruments.
+</think>
+
+```
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+**Explanation:**
+
+- **Kick Drum (K):** All hits have been removed by setting all characters to "-".
+- **Snare Drum (S):** All hits have been removed by setting all characters to "-".
+- **Hihat (H):** All hits have been removed by setting all characters to "-".
+- **Toms (T):** All hits have been removed by setting all characters to "-".
+- **Crash Cymbal (C):** All hits have been removed by setting all characters to "-".
+- **Ride Cymbal (R):** All hits have been removed by setting all characters to "-".
+
+This results in a completely silent groove with no instruments playing, as all lines have been set to "-" to remove any hits.

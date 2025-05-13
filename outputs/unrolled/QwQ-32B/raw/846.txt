@@ -1,0 +1,58 @@
+Okay, let's tackle this drum groove edit. The user wants a tom hit and hihat in the very beginning. First, I need to look at the current groove to see what's there. 
+
+The given groove is:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+The first beat (before the first |) for each instrument is:
+
+Kick (K): o---
+Snare (S): ----
+Hihat (H): ----
+Toms (T): ----
+Crash (C): ----
+Ride (R): x---
+
+So, the first 16th note of the bar is a soft kick hit (o) and a ride closed hit (x). The user wants a tom hit and hihat added at the very beginning. 
+
+First, adding the tom hit. The tom line (T) is all dashes in the first beat. To add a tom hit on the first 16th note, I can use 'O' for a hard hit. Since there's nothing there now, replacing the first '-' with 'O' would work. 
+
+Next, the hihat. The current hihat starts with '----', so the first note is silent. The user might want either an open or closed hit. Looking at the existing hihat pattern, the second beat has 'x---', which is a closed hit (since H uses X/x for closed). To match, maybe start with a closed hit. So change the first '-' to 'x'.
+
+Wait, but the user specified "hihat in the very beginning"—maybe they want it open? Let me check previous examples. In some prior edits, when adding hihat, sometimes they used X or x. Since the user didn't specify, maybe closed is safer. Let's go with 'x' for the first note.
+
+So, updating Toms (T) first beat to 'O---' and Hihat (H) first beat to 'x---'.
+
+Let me check if that's allowed. The tom's articulation uses O and o, so 'O' is correct. The hihat's closed hits are X and x. Lowercase x is a soft closed hit. That should be okay.
+
+Let me write the new lines:
+
+K remains as o--- (since the user asked for tom and hihat, not changing kick unless necessary). But wait, the user might want the kick replaced? Wait, the request is "tom hit and hihat", so the existing kick is o---, maybe leave it as is. But maybe the user wants to replace the kick with the tom? Hmm, no, the instruction says "add" so probably just add both. So keep the kick's first note as 'o', and add T's first note as 'O', and H's first as 'x'.
+
+So the new lines would be:
+
+K: o---|--o-|o---|--o-
+T: O---|----|----|----
+H: x---|x---|----|x---
+R stays the same.
+
+Wait, but in the original H line, the second beat was 'x---', so starting with x in first beat would be consistent.
+
+Let me check for conflicts. The kick has an 'o' and tom has 'O' on the first note. That's okay, they can play together. The hihat's x and ride's x on the same note—ride is on a different instrument, so that's fine.
+
+So the final edited groove should have T's first beat as O--- and H's first as x---.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: x---|x---|----|x---  
+T: O---|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

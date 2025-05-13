@@ -1,0 +1,37 @@
+Okay, the user wants me to edit their drum groove by removing any cymbal or ride parts. Let me look at the given groove first.
+
+The original groove has:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+So the user mentioned removing cymbals and ride. The cymbals here are Crash (C) and Ride (R). Looking at the lines, the C line is all dashes, so no crash cymbal is used. But the R line has o-O- patterns in each beat, meaning the ride is being played. 
+
+The edit request says to remove both cymbal (which includes crash and ride) and ride specifically. Since the ride is under R, I need to clear that line. Also, check if there are any crash hits. Since C is already empty, no need to change that. 
+
+Snare (S) and Kick (K) are okay as they aren't mentioned to be removed. Hihat (H) and Toms (T) are also not part of the removal request. 
+
+So the edited version should have the R line set to all dashes. Let me double-check each line:
+
+- K remains the same.
+- S stays as is.
+- H is already empty, so no change.
+- T is empty, stays.
+- C is already empty.
+- R needs to be cleared.
+
+Final check: Ensure only the R line is modified to all dashes. Yep, that should do it.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

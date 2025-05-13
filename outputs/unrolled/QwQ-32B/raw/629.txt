@@ -1,0 +1,24 @@
+Okay, the user wants a cymbal hit and kick in the very beginning of the drum groove. Let me look at the provided groove first.
+
+The original K (Kick) line starts with "O---|...", so the first hit is on the first 16th note. The C (Crash cymbal) line is all dashes except maybe later. The user wants both a kick and cymbal at the very start.
+
+So, in the first beat (first four characters before the |), the kick already has an O on the first 16th note. To add a cymbal hit there, I need to set the first character of the C line to O, since that's a hard hit. The rest of the C line can stay as dashes unless specified otherwise.
+
+Wait, the original C line is all dashes except maybe not? Let me check again. The given C line is "C: ----|----|----|----". So yes, it's all dashes. To add a crash at the very beginning, set the first character of the first beat to O. That would be "C: O---|----|----|----".
+
+The kick is already there, so that's covered. The user didn't mention changing anything else, so the rest of the groove should stay the same. Let me verify each line:
+
+- K remains the same except maybe? The first character is already O, so no change needed there.
+- S, H, T, R stay as they are unless the edit requires something else. The request was only for the beginning, so the rest should stay.
+
+So the final edit would add "O" in the first position of the C line. Let me make sure the counts are correct. Each line has 16 characters with | after every 4. Adding O in the first spot of C won't affect that. Looks good.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

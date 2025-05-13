@@ -1,0 +1,36 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any tom or hihat parts. 
+
+First, I'll look at the original groove provided. The instruments involved are Kick (K), Snare (S), Toms (T), and maybe others. The user specifically mentioned removing toms and hihats. 
+
+Looking at the given drum notation:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+So, the Toms (T) line has O-o- repeating in each beat. Since the user doesn't want toms, I need to replace all those characters with '-' to indicate no hit. 
+
+Also, the Hihat (H) line is all '-', so there's nothing there. But just to be sure, since the user mentioned removing hihats, even if there were notes, they should be cleared. In this case, H is already empty.
+
+The other lines (Kick, Snare, Crash, Ride) are okay as they don't involve toms or hihats. So the main change is on the T line. 
+
+Let me double-check the request again: "I don't want any tom or hihat." So confirming that T and H lines should be all '-'.
+
+Updating the T line to all '-' and leaving others as is. That should fulfill the request. Let me make sure there are 16 characters per line (4 beats of 4 notes each). Each line after | should have four characters. 
+
+Original T line: O-o-|O-o-|O-o-|O-o- becomes ----|----|----|----
+
+Yes, that's correct. No other changes needed. The final groove should have T and H lines cleared.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

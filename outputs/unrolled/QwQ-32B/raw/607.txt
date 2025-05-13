@@ -1,0 +1,56 @@
+Alright, let me tackle this drum groove edit. The user wants a tom hit and cymbal added at the very beginning. Let me first parse the existing groove.
+
+Looking at the given drum groove:
+
+**Kick (K):** o---|--o-|o---|--o-
+**Snare (S):** ----|X---|--X-|----
+**Hihat (H):** ----|x---|----|x---
+**Toms (T):** All dashes, so no hits.
+**Crash (C):** All dashes.
+**Ride (R):** x---|X-x-|x---|X-x-
+
+The user's request is to add a tom hit and cymbal (probably crash or ride) at the very start. Since the first beat is "o---" for kick and nothing in snare, toms, or cymbals, I need to insert these.
+
+First, the "very beginning" would be the first 16th note of the first beat. Let's see:
+
+For the **tom hit**, since Toms (T) are currently all dashes, I'll add an 'O' (hard hit) on the first 16th note of the first beat. That would make T: O---|... 
+
+For the **cymbal**, the user didn't specify crash or ride. The original has Ride (R) active, but Crash (C) is silent. Since they mentioned "cymbal," maybe Crash is better for an accent. So, add an 'O' on the first 16th note of Crash (C). That would set C: O---|... 
+
+Wait, but the original Ride has some hits. If they want a cymbal, maybe they want to keep Ride but add a crash. Alternatively, if they want only a crash, then set C to O on the first hit. Since the user didn't specify, I'll go with Crash since it's a common accent. 
+
+So updating T and C lines:
+
+**T:** O---|----|----|----
+**C:** O---|----|----|----
+
+But I need to check if this overwrites any existing notes. The original T and C have all dashes, so it's safe. 
+
+Let me verify the structure again. Each line has 16 characters split into 4 beats by |. The first beat of each line is the first four characters. 
+
+So for Toms, first beat becomes O---, and Crash becomes O---. 
+
+Let me reconstruct all lines:
+
+K remains: o---|--o-|o---|--o-
+S remains: ----|X---|--X-|----
+H remains: ----|x---|----|x---
+T becomes: O---|----|----|----
+C becomes: O---|----|----|----
+R remains: x---|X-x-|x---|X-x-
+
+Wait, but the user might prefer the cymbal to be on the first note only. Since they said "in the very beginning," perhaps just the first 16th note. 
+
+Double-checking the notation: Each line starts with the first beat's four notes. So adding O at the first position for T and C should be correct. 
+
+I think this meets the request. Let me present it in the required format.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: O---|----|----|----  
+C: O---|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

@@ -1,0 +1,57 @@
+Alright, let me tackle this drum groove edit. The user wants to remove any tom or cymbal parts from the given groove. 
+
+First, I'll look at each line of the provided drum notation to identify which instruments are being used. The given groove is:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@
+
+Breaking it down:
+
+- **Kick (K):** Has some activity with O's and a dash.  
+- **Snare (S):** Plays on the second and fourth beats.  
+- **Hihat (H):** Completely silent.  
+- **Toms (T):** Also silent.  
+- **Crash (C):** Plays crashes on every beat.  
+- **Ride (R):** Silent.  
+
+The user's request is to remove tom and cymbal parts. Since cymbals include both Crash (C) and Ride (R), but in this case, only the Crash (C) line has notes. Toms (T) are already silent, so no change there. 
+
+So, the main action here is to clear out the Crash (C) line. Let me make sure there are no other cymbals involved. The Ride (R) is already empty, so that's fine. 
+
+After removing the Crash, the new groove should have:
+
+- K and S as they are.  
+- H, T, R, and C all set to dashes.  
+
+Double-checking each line:
+
+- **K:** Remains "OOO-|--O-|OOO-|-OOO".  
+- **S:** Remains "----|O---|----|O---".  
+- **H:** Already all dashes, so stays.  
+- **T:** Already silent, so stays.  
+- **C:** Change all "O---" to "----".  
+- **R:** Already silent.  
+
+That should fulfill the request. Let me ensure there are no typos and that the structure remains with 16 characters per line. Each line after editing should have four beats (four sets of four characters separated by |). 
+
+Final check for the Crash line (C): Original was "O---|O---|O---|O---", changing each "O" to "-" gives "----|----|----|----". 
+
+Looks good. No toms or cymbals left. The kick and snare patterns remain intact. The user didn't mention hihat, so since it was already silent, that's acceptable. 
+
+Final answer should be formatted correctly within the @@@ tags.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

@@ -1,0 +1,19 @@
+Alright, let's tackle this drum groove edit. The user provided a drum pattern and wants it to include not just cymbals but also kick. Looking at the original groove:
+
+The Kick (K) line has some hits: "O---|O---|----|O---". The Snare (S) is only on the third and fourth beats. Hihat (H) and Ride/Crash (C, R) are all empty except for Toms (T) which have a steady pattern.
+
+The edit request says "not only cymbal but also kick". Wait, the original already has kick. Maybe they meant adding cymbals where there are none? Because the current groove lacks cymbals (C and R lines are empty except for Toms). Maybe the user wants to add cymbals in addition to the existing kick. Let me check the previous examples. 
+
+Looking at prior interactions, when the user said "not only hihat but also snare", they meant adding snare to a groove that had only hihat. So here, "not only cymbal but also kick" likely means the current groove has only cymbals and needs kick added. Wait, but in this case, the original has kick and toms, but no cymbals. The user might have made a typo. Alternatively, maybe the user wants both cymbals and kick to be present, but currently, cymbals are missing. So the task is to add cymbals (either Crash or Ride) to the groove which currently has Kick and Toms but no cymbals.
+
+So the plan is to add some cymbal hits, probably on the crash or ride, maybe on the downbeats. Let's look at the structure. The kick hits are on the first 16th note of beats 1, 2, and 4. The toms are continuous "O-o-" repeating. Let's add crashes on the first beat of each measure, or maybe on the kick hits. For example, adding C: O---|----|----|---- to have a crash on the first beat. Alternatively, using ride (R) for a more sustained sound. Since the user mentioned "cymbal", maybe Crash is better. Let's place a hard crash (O) on the first beat of each bar. Also, check if kick needs adjustment, but since it's already there, just adding cymbals should suffice. Let me draft that.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: O---|----|----|O---
+R: ----|----|----|----
+@@@

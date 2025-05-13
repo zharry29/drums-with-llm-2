@@ -1,0 +1,36 @@
+Okay, let's tackle this drum groove edit. The user wants a hihat hit and a cymbal in the very beginning. The original groove is:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+First, I need to look at the first beat (before the first |). Right now, the Kick (K) has an 'o' on the first 16th note, but the Hihat (H) and Crash (C) are both '-' there. The user wants a hihat hit and a cymbal (probably crash or ride, but since the user mentioned cymbal, maybe Crash C is intended) at the very start.
+
+Looking at the Hihat line (H), the first four characters are "----", so no hit there. To add a hihat hit, I should replace the first '-' with either X, x, O, or o. Since the rest of the Hihat in the first beat is x---, maybe keeping it closed (x) is better for consistency. So change the first '-' to 'x' making it "x---".
+
+For the cymbal, the Crash (C) line is all '----', so adding a 'O' (hard hit) at the first note would introduce the crash. So C's first beat becomes "O---".
+
+Wait, but the user might mean Ride instead? The original has Ride (R) starting with 'x---'. But the user specifically said "cymbal", so Crash (C) is more likely. Let me check previous examples. In some prior edits, when adding a cymbal to the start, they used Crash (C: O---). So I'll go with that.
+
+So the edited lines would be:
+
+H: x---|x---|----|x---
+C: O---|----|----|----
+R remains as x--- unless needed, but user asked for cymbal (C), so R stays.
+
+Wait, the original R line is x---, which is a closed hit on the ride. But since the user specified a cymbal (C), maybe we don't need to touch R. So the main changes are to H and C.
+
+Therefore, the final groove should have H's first note as 'x' and C's first note as 'O'. Let me double-check the original to ensure no conflicts. The Kick has an 'o' there, which is okay. The Snare is silent in the first beat. So this should work.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: x---|x---|----|x---  
+T: ----|----|----|----  
+C: O---|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

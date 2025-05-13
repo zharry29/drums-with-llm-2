@@ -1,0 +1,39 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any tom or kick parts from the given groove. Let me first look at the original groove provided:
+
+The original is:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+The user's request is to eliminate tom (T) and kick (K) parts. 
+
+Starting with the Kick (K line): It's already all dashes, so no action needed there. The Toms (T line) is also all dashes, so that's already good. 
+
+Now, check if there are any other instruments that might be using tom or kick. The Snare (S) is empty, Hihat (H) has some activity, Crash (C) is empty, and Ride (R) has some patterns. Since the user only wants to remove tom and kick, which are already absent or zero, the only thing left is to ensure that T and K lines remain empty. 
+
+Wait, maybe I should double-check each line:
+
+- **K line**: All dashes, so no kick hits. Good.
+- **T line**: All dashes, so no tom hits. Good.
+- **H line**: Has 'x' on some 16th notes. Since the user didn't mention removing hihat, it stays.
+- **R line**: The ride has some 'x' and 'X' which are closed hits. Since ride isn't being removed, those stay.
+
+Therefore, the edited groove should keep everything except any T or K hits, which are already not present. So the result is the same as the original. But let me confirm again to make sure I didn't miss any tom or kick notes. 
+
+Looking again at the original T line: All dashes, so no toms. K is also all dashes. So the user's request is already fulfilled. The final answer should just present the same groove without changes.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

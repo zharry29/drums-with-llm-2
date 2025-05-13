@@ -1,0 +1,47 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any cymbals and the kick drum. Let me start by understanding the given groove.
+
+Looking at the original:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+First, I need to eliminate the kick (K line) and any cymbals. The cymbals here are the Ride (R) and Crash (C). The user mentioned "cymbal" generally, so I should check both. The C line is already empty, but the R line has some activity. So I need to clear both K and R lines.
+
+The Snare (S) and Toms (T) are okay as long as they aren't cymbals. Wait, Toms are separate, so they stay unless instructed otherwise. The user didn't mention toms, so leave them. But in this case, T is already empty.
+
+So, the steps are:
+
+1. Set K line to all '-'.
+2. Set R line to all '-'.
+3. Leave S, H, T as they are unless they have cymbal elements. Wait, H is hihat, which is a closed hi-hat, so that's allowed. The S line is snare, which is fine.
+
+Let me double-check:
+
+Original S line has Oo-o, -o--, O--o. Those are snare hits, which are okay. H is empty except maybe closed hits? The H line here is all '-', so no problem.
+
+So the edited version should have K and R lines cleared. Let me write that out.
+
+Final result should be:
+
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, the user might have wanted to keep the hihat? The original H line was all '-', so no hihat hits. The user didn't mention hihat, so it's okay. Since the user only removed cymbals (ride and crash) and kick, this should be correct.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

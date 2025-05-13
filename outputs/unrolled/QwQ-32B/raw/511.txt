@@ -1,0 +1,41 @@
+Okay, so the user wants me to edit a drum groove by removing any cymbals or toms. Let me look at the given drum groove first.
+
+The original groove has the Kick (K), Snare (S), Hihat (H), Toms (T), Crash (C), and Ride (R) lines. The user's request is to eliminate cymbals (which include Crash and Ride) and toms. 
+
+Looking at each line:
+
+- **K (Kick):** O---|----|O---|---- This is okay, since it's the kick and not a cymbal or tom.
+- **S (Snare):** ----|O---|----|O--- Also fine, as it's the snare.
+- **H (Hihat):** X---|X---|X---|X--- The hihat is allowed, so leave this as is.
+- **T (Toms):** All dashes, so no problem here. But since the user wants no toms, even if it's empty, maybe just confirm it's empty? Well, it's already inactive.
+- **C (Crash):** All dashes, so no crash hits. Good to leave.
+- **R (Ride):** All dashes, so no ride either. 
+
+Wait, actually, the user said "no cymbal or tom". Crash and Ride are cymbals, so need to ensure those lines are cleared. But in the original provided groove, both C and R lines are already empty. So maybe this drum groove already doesn't have any cymbals or toms. Let me check again.
+
+Original input's drum groove:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+So the Toms (T) are inactive, Crash (C) and Ride (R) are also inactive. The user wants to remove any cymbals (C and R) and toms (T). Since those lines are already empty, the only thing left is Kick, Snare, and Hihat. The user didn't mention removing hihat, so that stays. 
+
+Therefore, the edited version would just be the same as the original, because all the specified instruments to remove are already not present. 
+
+But let me double-check the edit request again: "I don't want any cymbal or tom." Since the original doesn't have any cymbals (C and R are empty) or toms (T is empty), then the groove is already compliant. So the final answer would just be the same as the input, except maybe ensuring that T, C, R are all dashes. 
+
+Yes, that's exactly the case here. So the final groove remains unchanged except confirming those lines are empty. The user might have thought there were some, but in this case, it's already correct.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

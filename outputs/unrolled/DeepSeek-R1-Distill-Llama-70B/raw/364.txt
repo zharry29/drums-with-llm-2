@@ -1,0 +1,26 @@
+Alright, so I need to help the user create a drum groove without any cymbal or ride. Let me start by understanding the original groove they provided. It looks like it's a 4/4 time signature with 16 16th notes per bar. Each line represents a different drum or cymbal, and each character shows what's played on that 16th note. A '-' means it's not played, while other characters represent different hits or articulations.
+
+The user wants to remove any cymbal or ride hits. Looking at the original groove, I see that the ride and crash cymbal are already not present, so there's not much to remove there. The main elements are the kick, snare, hihat, and toms.
+
+I'll focus on keeping the kick and snare as the primary elements. The hihat can stay since it's not a cymbal. I'll make sure the ride and crash cymbal lines are all '-' to ensure they're silent.
+
+Finalizing the groove, I'll ensure it's balanced and maintains a good rhythm without the cymbals or ride.
+</think>
+
+```
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+This groove now features:
+- **Kick Drum (K):** Maintains its original soft hit pattern to provide a subtle foundation.
+- **Snare Drum (S):** Maintains its dynamic pattern with "X".
+- **Hihat (H):** Maintained with soft closed hits ("x") on beats 2 and 4.
+- **Toms (T):** Kept silent as per the original groove.
+- **Crash Cymbal (C) and Ride Cymbal (R):** Both removed by setting all characters to "-".
+
+This arrangement creates a minimalist rhythm focused on the kick and snare without any cymbal or ride hits.

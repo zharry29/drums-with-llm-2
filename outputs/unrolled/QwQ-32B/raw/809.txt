@@ -1,0 +1,49 @@
+Okay, let me tackle this drum groove edit. The user wants a ride hit and snare in the very beginning. The original groove is:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, I need to look at the first beat (before the first |). The kick starts with "O--O", so the first 16th note is a hard kick. The snare (S) has "----" in the first beat, meaning no snare there. The ride (R) is all dashes, so no ride either.
+
+The user wants a snare and ride hit at the very beginning. That means in the first 16th note (the first character of each line), I should add a snare hit and a ride hit. 
+
+For the snare (S line), the first character should be an 'O' for a hard hit. So changing the first '---' of S's first beat from '-' to 'O', making it "O---|..." instead of "----|...".
+
+For the ride (R line), the first character should be an 'O' for a hard open hit on the bell. So the R line starts with "O---|..." instead of "----|...".
+
+I need to check if there are any conflicts. The kick is already hitting on the first 16th note (O), so adding snare and ride there is okay. The hihat is closed (X) on the first note, which is fine. 
+
+Let me adjust the lines:
+
+Original S: ----|Oo-o becomes O---|Oo-o for the first beat.
+Original R: ----|---- becomes O---|----
+
+Wait, the first beat of R would be "O---", so the full R line would be O---|----|----|----
+
+Putting it all together:
+
+K remains the same: O--O|....
+S becomes O---|Oo-o|...
+R becomes O---|.... 
+
+Let me check again:
+
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+R: O---|----|----|----
+
+Yes, that adds a snare hit and ride hit on the first 16th note. The rest stays as is. That should fulfill the request.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: O---|----|----|----
+@@@

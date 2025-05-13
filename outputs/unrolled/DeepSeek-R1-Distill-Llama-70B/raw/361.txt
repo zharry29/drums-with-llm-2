@@ -1,0 +1,49 @@
+Okay, I need to help the user edit their drum groove to remove any cymbal or ride cymbal hits. Let me look at the original groove they provided.
+
+The original groove has the following instruments:
+- **Kick Drum (K):** O--O|----|--O-|----
+- **Snare Drum (S):** ----|Oo-o|-o--|O--o
+- **Hihat (H):** ----|----|----|----
+- **Toms (T):** ----|----|----|----
+- **Crash Cymbal (C):** ----|----|----|----
+- **Ride Cymbal (R):** o-O-|o-O-|o-O-|o-O-
+
+The user wants to remove any cymbal or ride. So, I need to make sure that both the Crash Cymbal (C) and Ride Cymbal (R) are removed. 
+
+First, I'll look at the Ride Cymbal (R) line: o-O-|o-O-|o-O-|o-O-. To remove the ride, I'll set all its characters to "-".
+
+Next, the Crash Cymbal (C) is already set to "----|----|----|----", so it's already removed. 
+
+Now, I'll keep the Kick Drum (K), Snare Drum (S), Hihat (H), and Toms (T) as they are since the user didn't ask to remove them.
+
+So, the edited groove will be:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+I'll make sure to only include the final groove in the specified format.
+</think>
+
+```
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@w
+```
+
+This groove now features:
+- **Kick Drum (K):** Maintains its original pattern to provide a solid foundation.
+- **Snare Drum (S):** Maintains its dynamic pattern with "O", "o", and "X".
+- **Hihat (H):** Kept silent as per the original groove.
+- **Toms (T):** Kept silent as per the original groove.
+- **Crash Cymbal (C) and Ride Cymbal (R):** Both removed by setting all characters to "-".
+
+This arrangement creates a minimalist rhythm focused on the kick and snare drum without any cymbal or ride hits.

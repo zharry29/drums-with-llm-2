@@ -1,0 +1,132 @@
+Okay, let's tackle this drum groove edit. The user wants more low-frequency sounds. From the notation, I know that low-frequency instruments are typically the Kick (K) and Toms (T). The given groove has some kick and a ride cymbal (R) but no toms. 
+
+First, looking at the original:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+The Kick has some hits but maybe not enough. The Toms are completely inactive. To add more low-end, I should强化 the Kick and add Toms.
+
+For the Kick, maybe add more O's where there are gaps. Like in the second beat (----), maybe add some Os. Also, the Toms can take over some of the Ride's patterns but in lower frequencies. The Ride (R) has a repeating o-O- pattern. Translating that to Toms, using O for hard hits could work.
+
+So, let's start by filling in the Kick's empty beats. The second and fourth beats in the first measure are empty. Maybe add O every other 16th note there. For Toms, replicate the Ride's pattern but with Os. Also, check if the Snares or Hihats can be adjusted, but since the user asked specifically for low frequencies, focus on K and T.
+
+Wait, the Ride is using o (soft open on the bell). Replacing that with Toms using O would definitely add low-end. Let me try:
+
+K: O--O|O-O-|--O-|O-O-  
+T: ----|o-O-|----|o-O-  
+
+Wait, but need to make sure the Toms' pattern matches the desired feel. Alternatively, maybe make the Toms play on every beat where the Ride was doing something. Since Ride is o-O- in each beat, maybe Toms do O--O or similar. Alternatively, mirror the Kick's pattern but in Toms.
+
+Hmm, perhaps the best approach is to keep the existing Kick but add Toms in the places where the Ride was active. Since Ride has o-O- in each beat, which is a soft hit on the first 16th and a hard on the third. For Toms, maybe reverse that? Or use O on the same positions but with harder hits. Let me try:
+
+T: o-O-|o-O-|o-O-|o-O- but using T's O. Wait, Toms can have O and o. Since we want more low, use O where possible. So maybe T: O-O-|O-O-|O-O-|O-O- but need to fit the rhythm. Alternatively, take the R's pattern and shift to T with harder hits.
+
+Alternatively, maybe add a tom pattern that's consistent. For example, in each beat, have a tom hit on the first and third 16th notes (like O-O-). That would add consistent low-end.
+
+So updating T to O-O- for each beat. Let me adjust:
+
+K remains as is, but maybe beef it up. Original K has O--O in first beat, then ---- in second, --O- in third, ---- in fourth. To fill the gaps, maybe add more Os in the empty spots. For example, second beat could be O--- or O-O-.
+
+Putting it all together:
+
+K: O--O|O-O-|--O-|O---  
+T: O-O-|O-O-|O-O-|O-O-  
+
+Wait, but need to check the total length. Each line must have 16 characters (4 beats of 4 notes each). Let me ensure each line is correct.
+
+Original K's first measure: O--O|----|--O-|---- (Wait, original K line is "O--O|----|--O-|----" which is 16 characters. The user's input shows K: O--O|----|--O-|----
+
+Wait, the user's given K line is "O--O|----|--O-|----". Let me parse each beat:
+
+First beat: O--O (4 notes)
+Second beat: ----
+Third beat: --O-
+Fourth beat: ----
+
+So in the second and fourth beats of the first measure, the kick is silent. To add more low, I can fill those with Os. Maybe make the kick play on every beat but keep the original pattern where possible.
+
+Alternatively, add Toms in the silent kick parts. Since the Toms were all dashes before, adding T hits there would help.
+
+So for Toms, in the second beat (where kick is silent), add some hits. Let's see:
+
+Original R (ride) has o-O- in each beat. So in each beat, positions 1 and 3. For Toms, maybe hit on those same positions but with O.
+
+So T's line would be o-O-|o-O-|o-O-|o-O- but using T's articulation. Since T can use O or o, to make it low and strong, use O on the first and third 16th notes. So T: O-O- repeated four times. That would be O-O-|O-O-|O-O-|O-O- but need to check the exact placement.
+
+Alternatively, mirror the ride's pattern but with harder hits on toms.
+
+So T: O-O-|O-O-|O-O-|O-O- 
+
+That would give a steady low-end pulse. Also, the kick can be adjusted to have more hits. For example, in the second beat (originally ----), maybe add an O on the first 16th note. So K: O--O|O---|--O-|----
+
+Wait, but the user's original K has:
+
+K: O--O|----|--O-|----
+
+So in the second beat (----), making it O--- would add a kick hit on the first 16th. Similarly, the fourth beat (----) could be O--- or --O- etc. But to keep some variation, maybe alternate.
+
+Alternatively, keep the original kick but add toms wherever possible. Since the user's main request is more low, adding toms where they weren't before is key.
+
+Putting it all together, the edited version would have Toms active with a repeating O-O- pattern across all beats, and possibly enhancing the kick in the silent spots.
+
+Finalizing:
+
+K: O--O|O-O-|--O-|O-O-  
+S: unchanged  
+H: unchanged  
+T: O-O-|O-O-|O-O-|O-O-  
+C: unchanged  
+R: unchanged but maybe reduce? No, user said keep else same except add low.
+
+Wait the user says "keep everything else", so Ride stays. So the final answer would be adding Toms with O-O- in each beat, and maybe beef up the kick where possible. Let me write it out properly.
+
+Wait the original T line was all dashes. So the edited T would be O-O- four times. Each beat is four characters, so four beats: O-O-|O-O-|O-O-|O-O- which is 16 characters.
+
+Yes. So the T line becomes:
+
+T: O-O-|O-O-|O-O-|O-O-
+
+Additionally, maybe the kick can have more hits. For example, in the second beat (originally ----), add an O on the first 16th. So K's second beat becomes O--- instead of ----. So K would be:
+
+K: O--O|O---|--O-|----
+
+Wait but the fourth beat was originally ----, so adding an O there too. Let's see:
+
+Original K's beats:
+
+1: O--O
+
+2: ----
+
+3: --O-
+
+4: ----
+
+To add more kick, maybe make beat 2: O--- and beat4: O---. So:
+
+K: O--O|O---|--O-|O--- 
+
+That adds kick hits in beats 2 and 4 first 16th note. That would enhance low end further.
+
+So combining both changes:
+
+K: O--O|O---|--O-|O---  
+S: same  
+T: O-O-|O-O-|O-O-|O-O-  
+R: same  
+
+This should fulfill the request by adding both more kick and toms.
+</think>
+
+@@@
+K: O--O|O---|--O-|O---  
+S: ----|Oo-o|-o--|O--o  
+H: ----|----|----|----  
+T: O-O-|O-O-|O-O-|O-O-  
+C: ----|----|----|----  
+R: o-O-|o-O-|o-O-|o-O-  
+@@@

@@ -1,0 +1,35 @@
+Alright, let me tackle this drum groove edit. The user wants to remove any snare or hihat parts from the given groove. First, I'll need to look at each line of the provided drum notation and identify which lines correspond to the snare (S) and hihat (H). 
+
+The original groove is:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+So, the S line is for the snare, and the H line is for the hihat. The user's request is to eliminate both, so I'll set all their entries to '-' which means no hit. 
+
+Looking at the S line: "----|O---|----|O---", I'll replace all non-'-' characters with '-'. Similarly for the H line: "--o-|O-o-|O-o-|O-o-", all non-'-' become '-'.
+
+The other instruments (Kick, Toms, Crash, Ride) should remain as they are unless they're also being removed, but the user didn't mention them. The edited lines should look like:
+
+S: ----|----|----|----
+H: ----|----|----|----
+
+I need to ensure that I don't accidentally modify other lines. Let me double-check each part. The Kick (K) has some hits, but since the user didn't ask to remove kick, leave it. Toms (T) and Crash (C) are present but not targeted. Ride (R) is empty already.
+
+So the final edited groove should have S and H lines cleared. Let me write that out properly with the correct formatting.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

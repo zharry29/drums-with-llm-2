@@ -1,0 +1,43 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the tom and kick parts from the given drum groove. 
+
+First, I need to look at the original groove provided. Let me parse each line:
+
+**Kick (K):** -O--|OO--|---O|-OO-
+**Snare (S):** ----|----|S---|----
+**Hihat (H):** x-x-|x-x-|x-x-|x-x-
+**Toms (T):** ----|----|---O|----
+**Crash (C):** O---|O---|O---|O---
+**Ride (R):** ----|----|----|----
+
+The user's request is to eliminate any tom or kick elements. 
+
+Starting with the **Kick (K)** line. Since they don't want kick, I'll replace all characters in the K line with '-' to silence it. So the K line becomes: ----|----|----|----
+
+Next, the **Toms (T)** line has some hits in the third beat: ---O. Removing tom means setting all T line entries to '-', so T becomes: ----|----|----|----
+
+Now, check the other instruments to ensure they stay as they are unless they conflict. The Snare has an 'S' in the third beat, which is okay since the request is about tom and kick. The Hihat and Crash are unaffected. The Ride remains silent as per original.
+
+Wait, the original S line has "S---" in the third beat. Since the user didn't mention snare, it should stay. The crash is also allowed. So final adjustments are just K and T lines cleared.
+
+Let me double-check the notation rules to ensure I'm not missing anything. Each line's characters must be 16 notes (4 beats of 4). Replacing K and T with all '-' should be straightforward.
+
+Final edited groove should look like:
+
+K: all dashes
+S remains
+H remains
+T all dashes
+C remains
+R remains
+
+Yes, that should do it.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

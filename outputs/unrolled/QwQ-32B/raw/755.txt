@@ -1,0 +1,43 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and kick in the very beginning. Let's look at the original groove first.
+
+The given drum groove is:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+The first beat of the kick (K) is "-O--", so the first 16th note is silent, then a hard hit on the second. The snare (S) starts with "----", so nothing in the first beat. The user wants both a snare and kick at the very beginning, which is the first 16th note of the first beat.
+
+First, adjust the kick. The first character of the K line is "-", so to have a kick hit there, I need to replace that with either "O" or "o". Since the original has a hard hit on the second note, maybe keeping it consistent with a hard hit ("O") makes sense. So the first part of K becomes "O---".
+
+Now, the snare (S) needs a hit on the first 16th note. The original S starts with "----", so changing the first character to "O" for a hard hit. That would make the first part of S "O---".
+
+I should check if there are any conflicts or if the crash (C) is already hitting there. The crash has "O---" in the first beat, so a crash is happening on the first 16th note too. That's okay, but maybe the user just wants the snare added without removing the crash. The edit request doesn't mention changing the crash, so leave it as is.
+
+Also, ensure that the hihat (H) and other instruments aren't conflicting. The hihat has "x-x-" in the first beat, which is a closed hit on the first note. The "x" is a closed hit, which is fine alongside the snare and kick.
+
+So the modified lines would be:
+
+K: O---|OO--|---O|-OO-
+S: O---|----|S---|----
+H remains the same.
+C remains the same.
+
+Wait, but in the original S line, the third beat had an S---. The user's request doesn't mention changing that, so leave it as is. The main change is adding the snare hit at the beginning.
+
+Let me double-check the notation rules. For the snare, "O" is a hard hit, which is appropriate for the start. The kick's first note is now a hard hit. That should fulfill the request. The crash is already there, so that's a cymbal hit as well, but the user didn't mention removing it. Since the request was specifically for a snare and kick, this should be okay.
+
+I think that's it. The final groove should have the first 16th note of the first beat for both K and S.
+</think>
+
+@@@
+K: O---|OO--|---O|-OO-  
+S: O---|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: ----|----|---O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

@@ -1,0 +1,47 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any hihat or cymbal parts. Let me look at the given groove first.
+
+Looking at the provided drum notation:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So, the kick (K) and snare (S) are already silent. The hihat (H) has hits on the second and fourth beats, and the ride (R) has a pattern across all beats. The user doesn't want hihat or cymbals, which include crash (C) and ride (R). 
+
+First, I need to clear out the H line entirely. The existing H line has "----|x---|----|x---", so changing all those to dashes. Then, the ride (R) has "x---|X-x-|x---|X-x-", so that needs to be all dashes too. The crash (C) is already empty, so no change there. The kick and snare are already silent, so they stay. 
+
+Wait, let me double-check. The user said "no hihat or cymbal". Cymbals include crash (C) and ride (R). So both H, C, R lines must be cleared. 
+
+So the edited version should have:
+
+K remains the same (all dashes)
+S remains all dashes
+H becomes all dashes
+T is already clear
+C becomes all dashes
+R becomes all dashes
+
+So the final should have all lines except maybe kick and snare, but since those are already empty, the whole thing is silent except maybe kick and snare. Wait, in the original, the kick and snare were already silent. So the entire drum groove would be empty except maybe kick? But in the original K is all dashes. So the result is all instruments set to dashes. Let me confirm each line:
+
+After editing:
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Yes, that removes all hihat (H) and cymbals (C and R). The user might want to keep any existing kick or snare, but in this case, they were already absent. So the final answer should be all dashes across all lines except maybe kick and snare, but since those were empty too, everything is silent.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,58 @@
+Okay, let's tackle this drum groove edit. The user wants a tom hit and a cymbal in the very beginning. The original groove is:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+First, I need to figure out where "the very beginning" is. That's the first 16th note of the first beat, right? So the first character in the K line, which is currently "-".
+
+They want a tom hit here. The Toms line (T) currently has dashes in the first beat. So I'll add an 'O' (hard hit) on the first 16th note of the first beat for the Toms. 
+
+Then, the cymbal part. The user mentioned "cymbal" but didn't specify crash or ride. Looking at the existing C and R lines: Crash (C) has O--- in the first beat, which is a hard crash on the first 16th note. But maybe they want an additional hit or a different cymbal. Since the user didn't specify, maybe just adding a ride or crash hit at the start. Let's check existing cymbals. The Crash is already hitting on the first note of each beat. But maybe they want a ride instead? Alternatively, maybe they want an extra hit. Wait, the user might want the cymbal to be present in the beginning, so perhaps adding a ride hit if there isn't one. The Ride (R) line is all dashes. So maybe adding an 'O' on the first 16th note of the first beat for Ride? Or Crash? Since Crash is already there, perhaps Ride is better for a sustained sound. Alternatively, maybe the user wants both. But since the instruction is a bit vague, perhaps just adding a Ride hit at the start.
+
+Wait, let me re-read the request: "I'd like a tom hit and cymbal in the very beginning." So two things: tom and a cymbal. The tom is handled by T, and the cymbal could be either Crash or Ride. Since Crash is already hitting on the first beat's first note (C: O---), maybe that's sufficient. But perhaps the user wants an additional cymbal, like Ride. Alternatively, maybe they want to replace the crash with ride. But since Crash is already there, maybe adding a Ride hit as well. Alternatively, maybe they want the cymbal to start with a different articulation. Let me think. The Crash is a hard hit (O) on the first 16th. Maybe that's okay, but the user might want a ride. Since the user said "cymbal" and Ride is also a cymbal, maybe adding a ride hit at the start. Let's add an 'O' on R's first note. 
+
+So the changes would be:
+
+- Toms (T) first beat: O--- instead of ----
+- Ride (R) first beat: O--- instead of ---- (or maybe X? Wait, the Ride's articulation: O is bell, X is closed bow. Maybe O is better for a starting hit.)
+
+Wait, the user might want the cymbal to be the crash, which is already present. But maybe they want an extra hit. Alternatively, maybe they just want the tom and the existing crash. Hmm, the original request says "tom hit and cymbal". Since the crash is already there, maybe that's okay. But to be safe, perhaps adding a ride hit as well. Let me proceed with adding both T and R at the start.
+
+So modifying T and R lines:
+
+T: O---|----|---O|----
+R: O---|----|----|----
+
+Wait, but the original C line already has a crash on the first note. So the user might be okay with that. Alternatively, maybe the user wants the cymbal to be a ride instead of crash. Let me check the original groove's C line. The Crash is hitting every beat's first 16th note. If the user wants a cymbal in the very beginning, maybe just ensuring that there's a cymbal hit there. Since it's already present via Crash, perhaps the user just wants the tom added. But the instruction says "and cymbal", so maybe adding a ride as well. Alternatively, maybe the user wants the cymbal to be the ride instead of crash. Let me think again.
+
+Alternatively, maybe the user wants a cymbal hit (either crash or ride) at the very start, which is already there via the crash. So perhaps the user just wants the tom added. But the wording says "tom hit and cymbal", so perhaps adding both. Since the crash is already there, maybe adding a ride as an extra. Let me go with that.
+
+Final adjustments:
+
+Toms first beat: O---
+
+Ride first beat: O--- (so R: O---|----|----|----)
+
+Wait, but the user might not want to add ride if it's not needed. Alternatively, maybe the user just wants the tom and the existing crash is sufficient. The wording is a bit ambiguous, but since they specified "cymbal", adding a ride hit at the start would make sense.
+
+So the final edited groove would have:
+
+T: O---|----|---O|----
+
+R: O---|----|----|----
+
+And the rest remains the same except for those changes.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: O---|----|---O|----  
+C: O---|O---|O---|O---  
+R: O---|----|----|----  
+@@@

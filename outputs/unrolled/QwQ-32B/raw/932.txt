@@ -1,0 +1,43 @@
+Okay, let me tackle this drum groove edit. The user wants to remove the snare on beat 4 but keep everything else the same. 
+
+First, I'll look at the original groove provided. Let me parse each line:
+
+**Kick (K):** -O--|OO--|---O|-OO-
+**Snare (S):** ----|----|S---|----
+**Hihat (H):** x-x-|x-x-|x-x-|x-x-
+**Toms (T):** ----|----|---O|----
+**Crash (C):** O---|O---|O---|O---
+**Ride (R):** ----|----|----|----
+
+The user's request is to eliminate the snare hit on the fourth beat. Looking at the Snare line, the fourth beat is "----", which actually has no snare hits. Wait, that's confusing. Let me check again.
+
+The Snare line is: "----|----|S---|----". Each part separated by | is a beat. The fourth beat here is "----", so there's no snare on beat 4 already. Hmm, maybe I misread. Let me confirm the beats:
+
+Breaking down each beat for Snare (S):
+- Beat 1: "----" (no hits)
+- Beat 2: "----" (no hits)
+- Beat 3: "S---" (a single hit on the first 16th note of the third beat)
+- Beat 4: "----" (no hits)
+
+So the snare isn't playing on beat 4 to begin with. But the user's request says to remove snare on beat 4. Maybe there was a mistake in the input, or perhaps I need to check another part. Alternatively, maybe the user intended to refer to another instrument? Let me double-check the other lines.
+
+Looking at the Crash (C): "O---|O---|O---|O---" so each beat has a crash on the first 16th note. The user might have confused crash with snare? But the request specifically mentions snare. 
+
+Alternatively, maybe the user meant the fourth beat's snare is present but not shown. Wait, perhaps the original Snare line has a typo? Let me check again the given Snare line in the problem:
+
+The user provided:
+S: ----|----|S---|----
+
+Yes, so beat 4 is indeed "----". Therefore, there's no snare on beat 4 already. The user might have a misunderstanding, but since the instruction is to proceed, perhaps the request is redundant. However, to comply, I should ensure that the fourth beat of the snare is empty. Since it already is, the groove remains the same except maybe confirming no changes are needed. But maybe I missed something. Let me re-express the problem.
+
+Wait, perhaps the user is referring to beat 4's snare in another context. Let me check all instruments again. The only other instrument with activity on beat 4 is the Crash (C) and Ride (R). The user's instruction is specifically about the snare, so unless there's a typo, the edit doesn't change anything. However, to fulfill the request, even if it's already correct, I'll present the same groove as the edited version, ensuring that beat 4 of the snare remains empty.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: ----|----|---O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

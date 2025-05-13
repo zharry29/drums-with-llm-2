@@ -1,0 +1,92 @@
+Okay, so I need to edit this drum groove based on the user's request. Let me start by understanding the problem. The user says, "I don't want any cymbal or tom." Looking at the given drum groove, I need to remove all hits from the cymbals (Crash and Ride) and the Toms. 
+
+First, let me recall the instruments and their lines:
+
+- **K**: Kick drum
+- **S**: Snare drum
+- **H**: Hihat
+- **T**: Toms
+- **C**: Crash cymbal
+- **R**: Ride cymbal
+
+The user wants to eliminate any sounds from **T** (Toms) and both **C** (Crash) and **R** (Ride) cymbals. 
+
+Looking at the provided drum groove:
+
+```
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+```
+
+Let me go through each line:
+
+1. **Kick (K):** This line has some hits, but since the user didn't mention Kick, it stays.
+2. **Snare (S):** The third beat has an "S---", but according to the notation rules, "S" isn't a valid character. Wait, the user might have a typo here. The valid characters for Snare (S) are O, o, X, x. The "S" here might be a mistake. But since the user's instruction is to remove cymbals and toms, maybe I should leave Snare as is unless there's an error. But I'll proceed as per instructions.
+3. **Hihat (H):** The user didn't mention removing Hihat, so it stays.
+4. **Toms (T):** The third beat has " ---O" so there's a hit on the fourth 16th note of the third beat. Need to replace that with '-'.
+5. **Crash (C):** The entire line has "O---" in each beat, which are hard hits. Need to replace all with '-'.
+6. **Ride (R):** All '-' so no changes needed here, but since Ride is to be removed, ensure it's all '-'.
+
+Wait, the user said "no cymbal or tom". So Crash (C) and Ride (R) are cymbals, and Toms (T) must be removed. 
+
+Starting with **Toms (T)**: The line currently is `T: ----|----|---O|----`. The third beat has an "O" on the last 16th note. I need to set that to '-' so the entire T line becomes `T: ----|----|----|----`.
+
+**Crash (C)**: The line is `C: O---|O---|O---|O---`. All those O's are hard hits on crash. Replace all with '-' so `C: ----|----|----|----`.
+
+**Ride (R)**: Already all '-', so no change needed. But since the user wants no ride, it's okay as is.
+
+Now check the **Snare (S)** line: `S: ----|----|S---|----`. The third beat has "S---", but according to the notation rules for S, valid characters are O, o, X, x. The 'S' here might be a mistake. However, since the user didn't mention Snare, maybe it's a typo but I should leave it as is unless instructed otherwise. Since the user only wants to remove cymbals and toms, perhaps it's better to leave S as is unless it's an error. But since I can't correct typos unless told, I'll proceed.
+
+So the edited drum groove should have:
+
+- K: unchanged
+- S: unchanged (assuming 'S' is a typo but user didn't flag it)
+- H: unchanged
+- T: all dashes
+- C: all dashes
+- R: unchanged (already dashes)
+
+Wait, but the user's instruction was to remove cymbals (C and R) and toms (T). Since R is already all dashes, no problem. So the final should have T and C lines cleared.
+
+So putting it all together:
+
+K remains: `-O--|OO--|---O|-OO-`
+
+S remains: `----|----|S---|----`
+
+H remains: `x-x-|x-x-|x-x-|x-x-`
+
+T becomes: `----|----|----|----`
+
+C becomes: `----|----|----|----`
+
+R stays as `----|----|----|----`
+
+So the final notation should be:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Wait, but I should double-check for any other cymbals or toms. The Toms line now has all '-', Crash is all '-', and Ride is already clear. The Snare's 'S' might be an error, but since the user didn't mention it, I leave it. The user's instruction was only about cymbals and toms, so this should be correct.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

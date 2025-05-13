@@ -1,0 +1,39 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the hihat and kick parts from the given drum notation. 
+
+First, I'll look at the original groove provided:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+The user's request is to eliminate both the kick (K) and hihat (H) sections. So I need to set all their entries to '-' characters. 
+
+Starting with the Kick (K line): Currently it has some soft hits (o and --o- patterns). To remove it, I'll replace every non-'-' character in the K line with '-'. That means changing "o---|--o-|o---|--o-" to "----|----|----|----".
+
+Next, the Hihat (H line) has "----|x---|----|x---". Since we're removing hihat, all those x's and the rest become '-', so the H line becomes "----|----|----|----".
+
+Now, check the other instruments to ensure they stay as they are unless specified. The Snare (S), Toms (T), Crash (C), and Ride (R) lines should remain unchanged except for any parts that might be tied to hihat or kick, but since the user only mentioned removing those two, the others stay. 
+
+Wait, the user didn't mention anything about the Ride or Snare, so those should stay. Let me confirm each line:
+
+- S: remains as "----|X---|--X-|----"
+- T: already all '-' so no change
+- C: all '-' so no change
+- R: remains "x---|X-x-|x---|X-x-"
+
+Putting it all together, the edited groove should have K and H lines cleared. Let me double-check for any mistakes. Yes, that looks right. No kick or hihat notes left. The snare and ride patterns are intact as per the user's request. 
+
+I think that's all. The final notation should reflect these changes.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|X---|--X-|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

@@ -1,0 +1,40 @@
+Okay, so the user wants to modify a drum groove by removing the kick and cymbals. Let me start by understanding the original groove.
+
+Looking at the provided notation, I see that the kick drum (K) is present, along with the snare (S), hihat (H), toms (T), crash cymbal (C), and ride cymbal (R). The user specifically wants to eliminate the kick and cymbals, which includes both the crash and ride cymbals.
+
+First, I'll focus on the kick drum. In the original, the kick has a pattern like O---|O---|----|O---. To remove it, I'll set all its characters to "-", so it becomes ----|----|----|----.
+
+Next, the cymbals. The crash cymbal (C) and ride cymbal (R) both need to be removed. In the original, they have patterns like O---|----|----|---- for the crash and similar for the ride. I'll set both of these to all "-" as well.
+
+Now, looking at the snare (S) and hihat (H), they can remain to carry the rhythm. The snare has a pattern ----|----|O---|----, which I'll keep. The hihat is already at ----|----|----|----, so it's already minimal.
+
+Toms (T) have a pattern O-o-|O-o-|O-o-|O-o-. Since the user didn't mention removing toms, I'll keep them as they are to add some flavor.
+
+Putting it all together, the new groove will have:
+
+- Kick (K): All "-" to remove it.
+- Snare (S): Keep the original pattern.
+- Hihat (H): Keep the minimal pattern.
+- Toms (T): Keep the original pattern.
+- Crash (C) and Ride (R): All "-" to remove them.
+
+I'll make sure to format this correctly in the notation, ensuring that only the snare and toms are active, with all other instruments silenced.
+</think>
+
+```
+K: ----|----|----|----
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+This groove now features:
+- **Kick Drum (K):** Removed by setting all characters to "-".
+- **Snare Drum (S):** Maintains its backbeat on beat 3 with a hard hit ("O").
+- **Hihat (H):** Kept silent as per the original groove.
+- **Toms (T):** Maintained the original pattern for added flavor.
+- **Crash Cymbal (C) and Ride Cymbal (R):** Both removed by setting all characters to "-".
+
+This arrangement creates a minimalist rhythm focused on the snare and toms without any kick or cymbal hits.

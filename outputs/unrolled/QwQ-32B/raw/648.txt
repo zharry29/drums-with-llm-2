@@ -1,0 +1,43 @@
+Alright, let's tackle this drum groove edit. The user wants a hihat hit and tom in the very beginning. 
+
+First, I need to look at the given groove. The original starts with the kick (K: O--O|...) but no hihat (H line is all X-x- etc. starting from the second beat) and no tom (T line is all dashes). So the first 16th note of the first beat has a kick (O) but nothing else.
+
+The request is to add a hihat hit and a tom hit at the very beginning. 
+
+Looking at the Hihat line (H: X-x-|...), the first character is X, which is a closed hit. Since the user wants a hihat hit in the beginning, maybe they just want to ensure it's there. Wait, actually, the first beat's first 16th note is already X. Wait, let me check again. The H line is X-x-|X-x-| etc. So the first 16th note of the first beat is X. So the hihat is already hitting there. Hmm, maybe the user wants an open hit instead? Or perhaps they want an additional hit?
+
+Wait, the user's request is "a hihat hit and tom in the very beginning." The existing hihat is already there (the first note is X). Maybe they want an open hit (O) instead of closed (X)? Or maybe they want both hihat and tom on the first note. Let me check the original again.
+
+Original H line: X-x-|X-x-|X-x-|X-x-  
+So the first 16th note is X (hard closed hit). The tom line is all dashes. So adding a tom hit on the first note would satisfy the request. The user might want both the hihat (already present) and a tom. Since the user says "hit and tom", maybe the tom is the missing part. So the main edit is to add a tom hit on the first 16th note.
+
+Looking at the Toms line (T: ----|----|----|----), so first beat is all dashes. So changing the first character to O (hard hit) would add a tom hit there.
+
+Therefore, the changes needed are:
+
+- On the Toms line, first character (first 16th note) should be O instead of -, making it O---| etc.
+
+The user didn't mention changing the hihat, so perhaps it's okay to leave it as X. But maybe the user wants an open hihat? Let me check the notation again. Hihat can have O (hard open), o (soft open), X/x (closed). Since the user just says "hihat hit", which is already present. So the main edit is adding the tom.
+
+Thus, the final groove should have T: O---|----|----|----
+
+Let me confirm all lines:
+
+K: remains O--O|...
+S: unchanged
+H: unchanged (since hihat is already there)
+T: first note O
+C: unchanged
+R: unchanged
+
+Yes, that should do it.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: O---|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

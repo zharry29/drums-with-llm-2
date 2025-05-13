@@ -1,0 +1,52 @@
+Okay, let's tackle this edit request. The user wants to remove any cymbal or hihat parts from the given drum groove. First, I need to recall which lines correspond to those instruments. From the notation key:
+
+- **C** is the Crash cymbal
+- **R** is the Ride cymbal
+- **H** is the Hihat
+
+So, I need to set all the characters in the C, R, and H lines to '-' (no hit). Let me check the original drum groove provided:
+
+Original Groove:
+```
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Looking at each line:
+
+- **K** (Kick) is okay, no changes needed.
+- **S** (Snare) is allowed since the user only removed cymbals and hihat.
+- **H** (Hihat) has hits like X--- in each beat. These need to be replaced with '----'.
+- **T** (Toms) are already silent, so no change.
+- **C** (Crash) is already silent, so no change.
+- **R** (Ride) is also silent, so no change.
+
+Wait, but the user said "I don't want any cymbal or hihat." Since both C and R are cymbals, even if they're silent, maybe I should confirm they stay silent. The H line needs to be all '-'.
+
+So modifying the H line to all '-', and ensuring C and R remain as they are (since they're already empty). Let me double-check:
+
+After editing:
+```
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Yes, that should do it. The Kick and Snare remain, while Hihat, Crash, and Ride are all silent. The user didn't mention Kick or Snare, so those stay as they were.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

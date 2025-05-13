@@ -1,0 +1,21 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the snare on beat 4 while keeping everything else the same. First, I need to look at the original groove provided.
+
+Looking at the S (Snare drum) line: it's all dashes except maybe somewhere? Let me check each beat. The original S line is "----|----|----|----". Hmm, so actually there's no snare hits at all. Wait, the user might have made a mistake, or maybe there's a snare in another part. Let me double-check all lines. 
+
+Wait, the H (Hihat) is hitting on certain 16th notes, and the R (Ride cymbal) has some hits. The user mentioned "snare on beat 4", but in the given groove, the snare line is entirely dashes. That means there's no snare in any beat, including beat 4. So maybe the user thought there was a snare on beat 4, but actually, there isn't. 
+
+In that case, the edit request might be based on a misunderstanding. But since the instruction is to comply, perhaps I should just confirm that the snare line remains all dashes, so no changes are needed. Alternatively, maybe there was a typo in the input, but given the information, I'll proceed to output the same groove since there's nothing to remove.
+
+Wait, let me check again. The user's edit request says "I don't want snare on beat 4 but everything else is fine." Since the original has no snare, the answer is just the same as the original. But maybe I missed something. Let me parse each line again:
+
+Original K: all kick patterns, S: all dashes, H has some hits, T and C are dashes, R has ride hits. So yes, the snare isn't playing anywhere. Therefore, the edited version is the same as the original. But the user might have intended a different setup. However, following instructions strictly, I'll present the same groove since there's no snare to remove.
+</think>
+
+@@@
+K: ----|----|----|----  
+S: ----|----|----|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

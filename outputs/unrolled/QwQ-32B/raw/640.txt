@@ -1,0 +1,29 @@
+Okay, let's tackle this drum groove edit. The user wants a ride hit and a tom in the very beginning. First, I need to look at the given groove to see what's already there.
+
+Looking at the Kick (K): The first beat is "O--O", so the first 16th note is a hard kick. The Snare (S) starts with "----", so no hit there. Hihat (H) is all dashes, so no hihat. Toms (T) are empty too. Crash (C) is empty, and Ride (R) starts with "o-O-" in the first beat. The first note of the ride is a soft open hit on the bell (o), but the user wants a ride hit in the very beginning. Since it's already there, maybe they want a harder hit? The first note is an 'o', so changing it to 'O' would make it a hard hit. 
+
+But the main request is adding a tom hit. The Toms line is all dashes, so I need to add a tom hit on the first 16th note. The user specified "tom," so using 'O' for a hard hit makes sense. 
+
+So, modifying the Tom line (T) to start with 'O---'. Also, check if the ride's first note should be a hard hit. The original R starts with 'o', so changing that to 'O' would fulfill the ride hit part more strongly. 
+
+Wait, the user said "ride hit and tom in the very beginning." The ride already has a hit, but maybe they want it emphasized. Let me confirm the notation rules. For Ride, 'O' is a hard bell hit, which is louder. So changing the first 'o' to 'O' and adding the tom's 'O' on the first note should do it. 
+
+Let me check the other lines to ensure no conflicts. The kick already has an 'O' on the first note, so adding a tom hit there would create a stacked hit, which is okay. 
+
+So the edited lines would be:
+T: O---|.... (adding the tom hit)
+R: O-O-|... (changing the first 'o' to 'O')
+
+Wait, but the original R's first beat is "o-O-". If I change the first character to 'O', it becomes "O-O-". That should work. 
+
+Double-checking the user's request: "ride hit and tom in the very beginning." Both are addressed. The rest of the groove remains the same. That should be the correct edit.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: O---|----|----|----
+C: ----|----|----|----
+R: O-O-|o-O-|o-O-|o-O-
+@@@

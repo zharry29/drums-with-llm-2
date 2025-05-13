@@ -1,0 +1,26 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the hihat and tom parts. First, I need to check the given groove.
+
+Looking at the original:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+Wait, the H line (hihat) is already all dashes, so no hihat is being played. The T line (toms) is also all dashes. So actually, the current groove doesn't have hihat or toms. But maybe the user is just being cautious or there was a mistake. Let me double-check the input again.
+
+The user's given groove shows H and T lines as empty. So the edit request might be redundant here. But perhaps they want to ensure that even if there were any, they are removed. Since they are already empty, the edited version should keep them as dashes. The Kick, Snare, and Crash are present. The user said "I don't want any hihat or tom," so confirming those lines stay empty. The final answer should just present the same groove but explicitly setting H and T to all dashes, even though they already are. Maybe the user wants to make sure no hidden hits are there. So the answer remains the same except for possibly reformatting, but according to the instructions, only the final between @@@ is needed. Let me check the example responses. In previous cases, when removing instruments, even if they were already off, they kept them as dashes. So the correct output is as the user's input but ensuring H and T are clear. Since they are already clear, the answer is same as input except maybe aligning the lines properly. Wait, looking at the input:
+
+The user's input has H and T as all dashes, so the edited version doesn't need changes. Therefore, the final answer is the same as the input, just presented again.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

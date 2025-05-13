@@ -1,0 +1,43 @@
+Okay, let me try to figure out how to approach this. The user provided a drum groove and wants a kick hit and snare added at the very beginning. 
+
+First, I need to recall the notation rules. Each line represents an instrument: K for kick, S for snare, etc. Each character is a 16th note, and four characters make a beat. The first part of the bar is the first beat, so the "very beginning" would be the first 16th note of the first beat.
+
+Looking at the given groove:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+The user wants a kick and snare hit in the very first 16th note. 
+
+For the kick (K line), the first character is '-', so I need to replace that with 'O' (hard hit) since that's the standard for a kick hit. So the first beat's first note becomes 'O---'.
+
+For the snare (S line), similarly, the first character is '-', so changing it to 'O' (hard hit on the snare). So the S line starts with 'O---'.
+
+Other instruments like H, T, C, R should stay the same unless needed. The Hihat has x's starting on the second 16th note of the first beat, so that's fine. The Ride (R) starts with 'x---', which is okay.
+
+Wait, need to check if the user wants the kick and snare on the first 16th note specifically. The original K and S lines have all '-' in the first beat, so changing the first character of each to 'O' should do it.
+
+So the edited lines would be:
+
+K: O---|----|----|----
+S: O---|----|----|----
+H remains the same.
+R also remains.
+
+Let me double-check the notation rules to make sure. The kick uses O for hard, snare O is hard hit. That's correct. The rest of the groove stays as is. 
+
+I think that's all. The final groove should have the first note of K and S as O, others unchanged.
+</think>
+
+@@@
+K: O---|----|----|----
+S: O---|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

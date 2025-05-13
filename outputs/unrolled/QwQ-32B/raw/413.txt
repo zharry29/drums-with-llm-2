@@ -1,0 +1,70 @@
+Okay, so the user wants me to edit a drum groove by removing the hihat and cymbal parts. Let me look at the given drum notation first.
+
+The original groove is:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+The user's request is to eliminate any hihat (H) and cymbal (C and R) elements. Let me break down each line:
+
+- **Kick (K):** Already has some soft hits (o and --o-), so that's okay to keep.
+- **Snare (S):** Has X and x, which are sidestick hits. Since the user didn't mention removing snare, those stay unless specified. The request was about hihat and cymbals, so snare remains.
+- **Hihat (H):** The line has x--- and x at certain points. Need to replace all non '-' characters here with '-'.
+- **Toms (T):** All dashes, so no change.
+- **Crash (C):** All dashes, so no change needed here either.
+- **Ride (R):** Has x and X-x patterns. Since ride is a cymbal, these need to be replaced with '-'.
+
+Wait, the user said "no hihat or cymbal". Cymbals include crash (C) and ride (R). The crash line is already empty, so only the ride (R) needs to be cleared. The hihat (H) line also needs to be cleared.
+
+So, modifying each line accordingly:
+
+- Keep K and S as they are (unless S is considered part of the issue, but the user didn't mention snare, so leave it).
+- Set H to all '-'.
+- Set R to all '-'.
+- C is already all '-', so no change.
+
+Let me check each part step by step.
+
+For H line:
+Original: H: ----|x---|----|x---
+After removal: H: ----|----|----|----
+
+For R line:
+Original: R: x---|X-x-|x---|X-x-
+After removal: R: ----|----|----|----
+
+So the final should look like:
+
+K remains the same.
+S remains the same.
+H and R become all dashes.
+T and C are already clear.
+
+Putting it all together:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Wait, but the user might have wanted to remove all cymbals. The ride (R) is a cymbal, so yes, that's correct. The snare's X and x are sidestick, which are allowed unless specified. The user didn't mention snare, so it stays. The hihat is entirely removed. That should be the correct edit.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

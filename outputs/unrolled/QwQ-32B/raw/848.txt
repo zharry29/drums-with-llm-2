@@ -1,0 +1,21 @@
+Okay, let me tackle this drum groove edit. The user wants a tom hit and hihat in the very beginning. 
+
+First, I need to look at the given groove. The original starts with the kick (K: OOO-) but no toms or hihat in the first beat. The user wants a tom hit there, so I should add an 'O' to the Toms line (T) at the first 16th note. 
+
+Also, the hihat (H) is all dashes in the first beat. To add a hihat, maybe a closed hit (X or x). Since the existing hihat pattern is silent, starting with a hard closed hit (X) would make sense for emphasis.
+
+So, modifying the first beat of T to 'O---' and H to 'X---'. Let me check if that fits the notation rules. Each line has 16 characters separated by | into 4 beats. The first segment is the first beat. 
+
+Original T line was all dashes, so changing the first character to O. H line was all dashes, so first character to X. The rest can stay as is. Let me make sure no other changes are needed. The user didn't mention altering other parts, so the rest should remain. 
+
+Double-checking the instruments: Toms use O for hard hits. Hihat uses X for hard closed. Yep, that should work. Let me put it all together.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: X---|----|----|----  
+T: O---|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

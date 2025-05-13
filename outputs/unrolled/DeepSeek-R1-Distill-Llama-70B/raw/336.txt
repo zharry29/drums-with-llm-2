@@ -1,0 +1,34 @@
+Okay, so I need to help the user edit their drum groove to remove the hihat and tom hits. Let me start by understanding the original groove they provided.
+
+Looking at the original groove, I see that the hihat (H) and tom (T) are both present. The user wants to remove these, so I need to set all their hits to "-". 
+
+First, I'll look at the hihat line. It's currently "----|x---|----|x---", which means it's playing on the second and fourth beats with soft closed hits ("x"). To remove the hihat, I'll change all the "x" to "-", resulting in "----|----|----|----".
+
+Next, the tom line is "----|----|----|----", which means it's already silent. So, I don't need to make any changes there.
+
+I'll also check the other instruments to ensure they remain unchanged. The kick drum (K) and snare drum (S) should stay as they are, as well as the crash (C) and ride (R) cymbals.
+
+After making these changes, I'll review the groove to ensure that only the hihat and tom are removed, and the rest of the instruments remain intact. This way, the groove will focus solely on the kick, snare, crash, and ride cymbals, without any hihat or tom hits.
+
+Finally, I'll present the revised groove in the correct notation, ensuring that all lines are properly formatted and only the requested changes are applied.
+</think>
+
+```
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+**Step-by-Step Explanation:**
+
+1. **Kick Drum (K):** Maintained the original soft hit pattern to provide a subtle foundation.
+2. **Snare Drum (S):** Kept the dynamic pattern with sidestick hits ("X") on beats 2 and 4.
+3. **Hihat (H):** Removed all hits by setting all characters to "-".
+4. **Toms (T):** Already silent in the original groove, so no changes were needed.
+5. **Crash Cymbal (C):** Kept silent to avoid adding unnecessary accents.
+6. **Ride Cymbal (R):** Maintained the dynamic pattern with soft ("x") and hard ("X") hits for texture.
+
+This arrangement creates a rhythm focused on the kick and snare drums, with the ride cymbal adding texture, and without any hihat or tom hits.

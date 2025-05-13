@@ -1,0 +1,30 @@
+Okay, let's tackle this drum groove edit. The user wants a cymbal hit and tom in the very beginning. The original groove is:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, the "very beginning" refers to the first 16th note of the first beat. So, the first character in each line before the first |.
+
+The user wants a cymbal hit here. The cymbal line (C) is all dashes in the first beat. So I need to add an 'O' (hard hit) or 'o' (soft) on the first note. Since they didn't specify soft, probably 'O' for a strong start.
+
+Also, a tom hit. The tom line (T) already has an 'O' on the first note. Wait, looking at T's first beat: "O-o-". The first character is O, so the tom is already hitting on the first 16th note. But maybe the user wants an additional cymbal there. Since T is already there, adding the cymbal makes sense. 
+
+So, changing C's first note from '-' to 'O'. That adds a crash cymbal hit at the start. The tom is already present, so no change needed there. Let me confirm:
+
+Original C line starts with "----", so first character is '-', making it 'O---' for the first beat. Then the rest remains the same. The tom's first hit is already there, so the edit is just adding the crash on the first note.
+
+Wait, but the user might have wanted both a cymbal and tom in the beginning, and since the tom is already there, just adding the cymbal is sufficient. So the edited groove should have C: O---| etc. Let me check if there's any other consideration. The user might mean adding both, but since tom is already present, only the cymbal needs adding. That's the correct approach.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

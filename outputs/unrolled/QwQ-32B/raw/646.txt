@@ -1,0 +1,32 @@
+Okay, let me tackle this drum groove edit. The user wants a ride hit and a tom in the very beginning. The original groove has kick, snare, hihat, but no ride or tom in the first part. 
+
+First, I need to check where the "very beginning" is. The first beat is the first four 16th notes (the first part before the first |). The user wants a ride hit there. The ride line (R) is all dashes right now. So, I should add an 'O' (hard hit on the bell) at the first 16th note of the first beat. That would be the first character in the R line.
+
+Next, the tom hit. The tom line (T) is all dashes. The tom can have O or o. Since it's the beginning, maybe a hard hit (O) on the first 16th note. So, the first character of T's first beat becomes O.
+
+Wait, but I need to make sure that adding these doesn't conflict with existing notes. The kick has an O--O in the first beat, so the first 16th note of K is O. Adding the tom's O on the same note might be okay, but maybe it's better to have the tom on the first note as well. 
+
+Let me look at the original K line: "O--O|...." So the first note is a kick hit. Adding a tom hit on the same note could add some weight. The user didn't specify where exactly, just the beginning, so first note is logical.
+
+So, updating T's first character to O and R's first to O. Let me check the other lines. The hihat has X-x- which is closed hits. That's okay. The snare is quiet in the first beat. 
+
+So the edited lines would be:
+
+K: O--O|----|--O-|----
+S: unchanged
+H: unchanged
+T: O---|----|----|----
+C: unchanged
+R: O---|----|----|----
+
+Wait, but the original R line was all dashes. So the first beat for R becomes O---, making the first note a ride hit. The tom's first beat is O---. That should fulfill the request. Let me double-check the user's instruction: "ride hit and tom in the very beginning". Yes, that's covered. I think that's all. Let me make sure no other changes are needed. The rest can stay as is.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: O---|----|----|----
+C: ----|----|----|----
+R: O---|----|----|----
+@@@

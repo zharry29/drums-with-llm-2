@@ -1,0 +1,26 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any snare or kick from the existing groove. First, I need to look at the given drum notation and identify which lines correspond to the kick (K) and snare (S). 
+
+Looking at the provided groove:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+The Kick (K) line already has all dashes, so there's no kick to remove here. The Snare (S) line is also all dashes, meaning there's no snare either. Wait, the user might have thought there were some elements, but according to the input, they're already absent. However, maybe I should double-check to ensure I didn't miss any notes. Let me go through each line again.
+
+The user's request is to remove snare or kick, but since both are already empty, the edited version should keep the rest as is. The Hihat (H), Toms (T), Crash (C), and Ride (R) can stay. The Hihat has some x's on the 2nd and 4th beats, and the Ride has a pattern with x and X. Since the user didn't mention removing those, they should remain. 
+
+I need to make sure that in the final output, the K and S lines are all dashes, which they already are. So essentially, the groove doesn't change except confirming that K and S are cleared. Let me present the final result accordingly.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

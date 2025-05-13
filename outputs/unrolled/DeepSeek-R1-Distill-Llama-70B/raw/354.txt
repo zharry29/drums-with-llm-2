@@ -1,0 +1,53 @@
+Okay, I need to help the user edit their drum groove according to their request. They don't want any kick or cymbal in the final groove. Let me look at the original groove they provided.
+
+The original groove has the following lines:
+- **K (Kick Drum):** `-O--|OO--|---O|-OO-`
+- **S (Snare Drum):** `----|----|S---|----`
+- **H (Hihat):** `x-x-|x-x-|x-x-|x-x-`
+- **T (Toms):** `----|----|---O|----`
+- **C (Crash Cymbal):** `O---|O---|O---|O---`
+- **R (Ride Cymbal):** `----|----|----|----`
+
+The user wants to remove both the kick drum and cymbals (Crash and Ride). So, I'll need to set all hits for K, C, and R to `-`.
+
+Let's go through each line:
+
+1. **Kick Drum (K):** I'll set all characters to `-` to remove any hits.
+2. **Snare Drum (S):** I'll leave this as is since the user didn't mention removing it.
+3. **Hihat (H):** I'll leave this as is to maintain the rhythm.
+4. **Toms (T):** I'll leave this as is since the user didn't mention removing it.
+5. **Crash Cymbal (C):** I'll set all characters to `-` to remove any hits.
+6. **Ride Cymbal (R):** I'll set all characters to `-` to remove any hits.
+
+So, the edited groove will have:
+
+- **K:** `----|----|----|----`
+- **S:** `----|----|S---|----`
+- **H:** `x-x-|x-x-|x-x-|x-x-`
+- **T:** `----|----|---O|----`
+- **C:** `----|----|----|----`
+- **R:** `----|----|----|----`
+
+I think this meets the user's request by removing both kick and cymbal hits while keeping the snare, hihat, and toms. I should double-check to ensure no other edits are needed and that the rhythm still flows well.
+
+Yes, this should work. The snare on the third beat and the toms on the fourth beat will provide enough interest without the kick and cymbals.
+</think>
+
+```
+K: ----|----|----|----
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+**Step-by-Step Explanation:**
+
+1. **Kick Drum (K):** Removed by setting all characters to "-".
+2. **Snare Drum (S):** Maintains its original pattern with a hit on beat 3.
+3. **Hihat (H):** Maintained its dynamic pattern with soft and hard closed hits.
+4. **Toms (T):** Maintains its original hit on the third beat of the third measure.
+5. **Crash Cymbal (C) and Ride Cymbal (R):** Both removed by setting all characters to "-".
+
+This arrangement creates a minimalist rhythm focused on the snare, hihat, and toms without any kick or cymbal hits.

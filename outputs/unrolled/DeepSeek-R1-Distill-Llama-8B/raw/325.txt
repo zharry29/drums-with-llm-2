@@ -1,0 +1,31 @@
+Okay, so I need to edit this drum groove based on the user's request. The original groove has both snare and ride cymbal, but the user wants to remove both of them. That means the final groove should only have the kick drum and maybe some other instruments if they're allowed, but according to the edit request, no ride or snare. 
+
+First, I'll look at the original groove to see how the instruments are currently represented. The Kick drum (K) is already present, and it seems to be the only one playing in the groove. The Snare (S) is active in some beats, and the Ride cymbal (R) is also active in some parts. My task is to edit this so that both Snare and Ride are completely removed, leaving only the Kick drum.
+
+I'll start by examining each instrument line one by one. For the Snare drum (S), I'll go through each beat and remove any 'X' or 'o' characters. Similarly, for the Ride cymbal (R), I'll remove any 'X' or 'o' characters as well. The Kick drum (K) should remain as it is, only adding or modifying if necessary, but in this case, it seems fine.
+
+Looking at the Kick drum line, it's currently set to 'o---' in the first beat, which is a soft hit. The user hasn't specified any changes for the Kick drum, so I'll leave it as is unless I need to adjust it for better rhythm or structure. But since the request is only about removing snare and ride, I won't change the Kick drum.
+
+Now, I'll go through each beat position. There are four beats in a bar, each separated by a '|'. For each beat, I'll check the Snare and Ride lines and remove any active notes. 
+
+In the first beat, the Snare has an 'X---' which I'll replace with '----', and the Ride has 'x---' which I'll also replace with '----'. The Kick drum is 'o---', which I'll keep. 
+
+Moving to the second beat, the Snare has '---X', so I'll change it to '----'. The Ride has 'X-x-', which I'll replace with '----'. The Kick drum is '---O', which I'll leave as it is.
+
+In the third beat, the Snare is 'o---', so I'll change it to '----'. The Ride has '---X', which I'll replace with '----'. The Kick drum is 'O---', which stays.
+
+For the fourth beat, the Snare is 'O---', so I'll keep it as '----' since it's not active. The Ride has 'X---', which I'll replace with '----'. The Kick drum is '---O', which remains.
+
+After making these changes, I'll review the edited groove to ensure that Snare and Ride are completely removed and only the Kick drum is present. I'll double-check each beat to confirm that no active notes for Snare or Ride remain.
+
+Finally, I'll format the edited groove correctly, ensuring that each instrument line aligns properly and that the notation is consistent throughout the bar. This way, the final groove will meet the user's request of having only the Kick drum without any Snare or Ride cymbal.
+</think>
+
+@@@  
+K: o---|---O|---O|---O  
+S: ----|----|----|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

@@ -1,0 +1,44 @@
+Okay, let me tackle this drum groove edit. The user provided a specific drum notation and wants me to remove any ride or cymbal parts. Let's start by understanding the original groove.
+
+Looking at the given drum groove:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, I need to check which lines correspond to cymbals. According to the notation:
+
+- **C** is the Crash cymbal.
+- **R** is the Ride cymbal.
+
+The user's request is to remove any ride or cymbal. That means both the **C** and **R** lines should have all their notes replaced with '-', since they're the cymbal parts. 
+
+Looking at the original lines:
+
+- **C** line is already all '-', so no change needed there.
+- **R** line is also all '-', so no action required for ride either. 
+
+Wait a second, the original already has no crash or ride hits. The user might have thought there were some, but in this case, the C and R lines are already empty. So the edit doesn't actually change anything. 
+
+But maybe I should double-check. Let me go through each line again:
+
+- **K** (Kick): Has O and - symbols. Since the request is about ride and cymbals, this stays.
+- **S** (Snare): Some O's in the third and fourth beats. Not a cymbal, so okay.
+- **H** (Hihat): All '-', so no issue.
+- **T** (Toms): Has O-o- repeating. Toms are not cymbals, so they stay.
+- **C** and **R**: Already clear.
+
+Therefore, the edited version is the same as the original. But the user might expect that even if there were cymbals, they should be removed. Since there are none, the groove remains unchanged. I'll present the same notation as the final answer, ensuring that only the required parts are addressed.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

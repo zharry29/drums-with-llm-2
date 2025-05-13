@@ -1,0 +1,25 @@
+Okay, let's see. The user wants me to remove any snare or hihat from the given drum groove. Let me first look at the original groove provided.
+
+Starting with the Kick (K line): "O--O|----|--O-|----". That's okay, since the user didn't ask to remove kick. The Snare (S line) has some hits: "----|Oo-o|-o--|O--o". I need to eliminate all of those. So I'll replace the S line with all dashes.
+
+Next, the Hihat (H line) is all dashes except maybe some closed hits? Wait, the original H line here is "----|----|----|----", so actually there's nothing there. But the user still wants to ensure no hihat, so even if there were, we remove them. Since it's already empty, that line stays as is.
+
+Toms (T) and Crash (C) and Ride (R) are okay as they are unless instructed otherwise. The user only mentioned snare and hihat. The Ride (R) has "o-O-|o-O-|o-O-|o-O-", which is allowed since the request doesn't mention ride. Wait, the user said "no snare or hihat", so Ride is still okay. So only S and H lines need to be cleared.
+
+Wait, checking the original again: The H line was already empty. So the edited version should have S as all dashes and H remains dashes. Let me confirm each line:
+
+Original S: "----|Oo-o|-o--|O--o" → becomes "----|----|----|----".
+
+H is already "----|----|----|----".
+
+So the final groove should have K, T, C, R as before, with S and H cleared. Let me structure that properly.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

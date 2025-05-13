@@ -1,0 +1,70 @@
+Okay, so the user wants me to edit a drum groove by removing any snare or ride elements. Let me start by understanding the given drum notation and the specific instruments involved.
+
+First, looking at the provided drum groove:
+
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-
+
+The user's request is to remove snare (S) and ride (R). So I need to set all the S and R lines to all dashes ('-').
+
+Let me check each line:
+
+- **Kick (K):** This is okay, no changes needed since it's not related to snare or ride.
+- **Snare (S):** Currently has some X and x hits. I'll replace all characters in this line with '-'.
+- **Hihat (H):** This has some x hits. Since the user didn't mention hihat, it stays as is.
+- **Toms (T):** All dashes, so no change.
+- **Crash (C):** Also all dashes, so no change.
+- **Ride (R):** This has x and X characters. Replace all with '-'.
+
+Wait, the user didn't mention hihat or crash, so those should stay unless specified. The request is specifically about snare and ride. So I'll only modify S and R lines.
+
+Let me reconstruct each line step by step:
+
+**Kick (K):**
+Original: o---|--o-|o---|--o-
+No changes, so remains the same.
+
+**Snare (S):**
+Original: ----|X---|--X-|----
+Change all to dashes: ----|----|----|----
+
+**Hihat (H):**
+Original: ----|x---|----|x---
+No change, so stays as is.
+
+**Toms (T):**
+All dashes, no change.
+
+**Crash (C):**
+All dashes, no change.
+
+**Ride (R):**
+Original: x---|X-x-|x---|X-x-
+Change all to dashes: ----|----|----|----
+
+Putting it all together, the edited drum groove should look like this:
+
+K: o---|--o-|o---|--o-  
+S: ----|----|----|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----
+
+I need to ensure that the structure of each line (four characters per beat, separated by |) is maintained. Let me double-check each line's length and separators.
+
+Yes, each line has 16 characters (including the | separators). The S and R lines now have all dashes where they previously had notes. The other lines remain unchanged except for the specified instruments. That should fulfill the user's request.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|----|----|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

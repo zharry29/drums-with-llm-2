@@ -1,0 +1,71 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any snare or tom parts from the given drum groove. Let me first look at the original groove provided:
+
+The original is:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+First, I need to understand each line. The user mentioned removing snare (S) and tom (T). Let's check each line:
+
+- **K (Kick):** o---|--o-|o---|--o- → This is okay to keep since it's kick, which isn't being removed.
+- **S (Snare):** ----|X---|--X-|---- → This line needs to be cleared because it's the snare. All characters here should become '-'.
+- **H (Hihat):** ----|x---|----|x--- → Wait, the user didn't mention removing hihat. The request was to remove snare and tom. So hihat stays unless specified otherwise. But let me double-check the request. The user says "I don't want any snare or tom." So hihat remains. However, looking at the R (Ride) line, it has some activity. The user didn't mention ride, so that stays too.
+- **T (Toms):** Already all '-' so no change needed.
+- **C (Crash):** Also empty, so no issue.
+- **R (Ride):** x---|X-x-|x---|X-x- → This stays unless specified.
+
+Wait, the user's edit request is to remove snare (S) and tom (T). So only S and T lines should be cleared. Let's verify each line:
+
+- **Snare (S):** Must become all '-'.
+- **Tom (T):** Already all '-', so no change.
+- The rest remain as is unless there's a mistake.
+
+Wait, in the original, the Hihat (H) has some hits. Since the user didn't mention removing hihat, those should stay. The user's request is only about snare and tom. So the edited version should leave Kick, Hihat, Crash, and Ride as they are, but set Snare to all '-'.
+
+Wait, but looking at the R (Ride) line, it's part of the cymbals. The user didn't mention ride, so it stays. Let me confirm again the user's exact words: "I don't want any snare or tom." So only S and T are to be removed. The other instruments (K, H, C, R) remain.
+
+Therefore, the edited groove should have:
+
+- S line all '-'.
+- T line remains as is (already empty).
+- The rest unchanged.
+
+Let me write that out:
+
+K remains: o---|--o-|o---|--o-
+S becomes: ----|----|----|----
+H stays: ----|x---|----|x---
+T stays: ----|----|----|----
+C stays: ----|----|----|----
+R stays: x---|X-x-|x---|X-x-
+
+So putting it all together between the @@@:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+Wait a second, but in the original, the Hihat (H) has some x's. Since the user didn't ask to remove hihat, that's okay. The user only wanted to remove snare and tom. So this should be correct.
+
+I think that's all. Let me double-check each line again to ensure I didn't miss anything. Snare is cleared, toms are already clear. Other lines are as before. Yep, that should do it.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

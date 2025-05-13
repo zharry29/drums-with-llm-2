@@ -1,0 +1,62 @@
+Alright, let's tackle this drum groove edit. The user provided a specific drum notation and wants me to remove any hihat or snare from the given groove. 
+
+First, I need to recall the instruments each line represents. The lines are:
+
+- K: Kick drum
+- S: Snare drum
+- H: Hihat
+- T: Toms
+- C: Crash cymbal
+- R: Ride cymbal
+
+The user's request is to eliminate both the hihat (H) and snare (S). So, I'll need to set all their entries to '-' characters, indicating no hits. 
+
+Looking at the provided drum groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+I notice that the S line already has all '-' characters, so snare is already inactive. However, the H line has some hits (x--- and x---). I need to clear those out. 
+
+So, for the H line, I'll replace every non-'-' character with '-'. The rest of the instruments (K, T, C, R) can stay as they are unless they're also supposed to be removed, but the request only mentions hihat and snare.
+
+Wait, let me double-check the user's instruction: "I don't want any hihat or snare." So, S and H lines should be all '-'. The other lines (K, T, C, R) should remain as they are unless specified otherwise. 
+
+Looking at the R line, there are some hits (x and X), which are ride cymbal articulations. Since ride isn't mentioned in the removal request, those stay. Similarly, the C line is empty, so no changes there. The K and T lines are also inactive except for possible other parts, but in this case, they're all '-'.
+
+Wait, in the original groove provided by the user, the K line is all '-', T is all '-', C is all '-', so the only active instruments besides H and S (which are being removed) are R. Since R is allowed, we just need to zero out H and S.
+
+Therefore, modifying the H line to all '-' and ensuring S remains all '-'. Let me write that out.
+
+Final check: 
+
+- S line remains all '-'.
+- H line becomes all '-'.
+- Others stay the same.
+
+So the edited groove should look like:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+I think that's it. Just making sure I didn't miss any characters in the H line. The original H had "----|x---|----|x---", so changing those x's to '-' in each beat.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

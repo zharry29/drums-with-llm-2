@@ -1,0 +1,59 @@
+Alright, let me tackle this drum groove edit. The user wants to remove any snare or cymbal parts from the given groove. 
+
+First, I'll look at the original groove provided:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+The user's edit request is to eliminate snare (S) and cymbals (C and R). Let's break down each line:
+
+- **Kick (K):** Already has no hits. So it stays as is.
+- **Snare (S):** The user doesn’t want snare, so this line should be all dashes.
+- **Hihat (H):** The existing hihat has some activity. Since the request doesn’t mention removing hihat, it stays unless specified. But wait, the user said "no snare or cymbal," and hihat isn't a cymbal? Wait, hihat is a part of the hi-hat, which is a cymbal? Hmm, the instruments listed are H: Hihat, C: Crash, R: Ride. So Hihat is a separate category, not a cymbal. The user specified removing snare (S) and cymbals (C and R). So Hihat (H) is okay to keep unless told otherwise.
+
+But let me double-check the instruments. The problem statement says "I don't want any snare or cymbal." The cymbals here are Crash (C) and Ride (R). The hihat (H) is a different category, so it should remain unless the user considers it a cymbal. But according to the given instrument list, H is Hihat, separate from C and R. So keeping H is okay.
+
+So, the edits needed are:
+
+- Set all S line to dashes.
+- Set all C and R lines to dashes.
+
+Looking at the original R line (Ride): it has some hits. Those need to be removed. Similarly, C is all dashes already, but to be safe, set all to dashes.
+
+So modifying each line:
+
+**K:** stays as ----|----|----|----
+
+**S:** becomes ----|----|----|----
+
+**H:** remains ----|x---|----|x---
+
+**T:** stays as is (no toms involved)
+
+**C:** becomes ----|----|----|----
+
+**R:** becomes ----|----|----|----
+
+Wait, but the user might have considered hihat as a cymbal. Let me check the instrument description again. 
+
+The H line is Hihat, which the user might not want to remove. Since the instruction was specifically "no snare or cymbal," and hihat is its own category, I think it's safe to leave H as is unless the user's definition includes hihat in cymbals. But according to the problem's instrument list, they are separate. So proceed with that.
+
+So final adjusted groove should have S, C, R lines cleared, keeping H if allowed. 
+
+Putting it all together, the final notation should look like this.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

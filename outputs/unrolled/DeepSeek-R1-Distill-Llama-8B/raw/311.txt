@@ -1,0 +1,27 @@
+Alright, I need to edit the given drum groove to include both snare and cymbal as per the user's request. Let me break down the problem step by step.
+
+First, I'll look at the current groove provided. The user mentioned that the current groove only has snare, but the edit request wants both snare and cymbal. So, I need to add cymbal parts to the existing groove.
+
+Looking at the instruments, I see that the current groove has Kick, Snare, Hihat, Tom, Crash Cymbal, and Ride Cymbal. But in the provided code, the Crash and Ride cymbals are all "--" in their lines, meaning they aren't being played. I need to modify these to include cymbal notes.
+
+I'll start by examining the Crash Cymbal (C) line. The current line is "----|----|----|----". I need to add some cymbal hits here. Since cymbals are usually played with open sounds, I can use 'O' for a hard hit and 'o' for a soft hit. Maybe alternate between 'O' and 'o' in each beat for a more dynamic feel.
+
+Similarly, for the Ride Cymbal (R) line, it's currently all "--". I'll add 'X' for a hard closed hit and 'x' for a soft closed hit, perhaps in an alternating pattern to add some variation.
+
+Next, I'll update the Snare (S) line to include both snare hits and maybe some sidesticks. The current line is "----|----|----|----", but I can add 'X' and 'x' in some beats to represent sidestick hits, giving the snare a more dynamic presence.
+
+I'll make sure each change is correctly placed within each beat section, separated by '|'. Each character represents a 16th note, and each four characters form a beat. I'll count the characters to ensure I don't exceed the 16-note limit per bar.
+
+After updating all the necessary lines, I'll review the changes to ensure that the cymbal and snare parts are added without disrupting the existing structure. It's important to maintain the 4-beat structure per bar and ensure that each instrument's line correctly reflects its part.
+
+Finally, I'll format the updated groove within the specified @@@ notation, making sure each instrument's line is properly aligned and each beat section is accurately represented. This should fulfill the user's request by including both snare and cymbal elements in the drum groove.
+</think>
+
+@@@  
+K: O---|----|O---|----  
+S: X---|X---|----|----  
+H: X---|X---|X---|X---  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: X---|X---|----|----  
+@@@

@@ -1,0 +1,158 @@
+Okay, let me tackle this drum groove edit. The user wants the groove to include not only tom but also cymbal. Looking at the provided groove:
+
+The current setup has Kick (K), Snare (S), Hihat (H), Toms (T), Crash (C), and Ride (R). The edit request specifies adding tom and cymbal, but wait—the existing groove already has Toms and Crash cymbals. Wait, let me check again.
+
+Original Groove:
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+Wait, the Toms (T) line has some hits in the third and fourth beats. The Crash cymbal (C) is active in all four beats with O--- each. So the user might be referring to adding more tom parts or perhaps a different cymbal (like Ride instead of Crash) to complement the existing Crash?
+
+Wait the request says "not only tom but also cymbal"—maybe the original groove has only toms and no cymbals? Wait no, Crash is already present. Wait perhaps there's a misunderstanding. Let me check again.
+
+Looking at the user's edit request: "The groove should have not only kick but also snare." Wait no, in previous examples, sometimes the user might have a similar phrasing. Wait in this case, the user says "not only tom but also cymbal"—maybe the original groove has toms but not cymbals, but in this case, C has O--- in all beats. So perhaps the user wants more cymbal parts (like adding Ride) or maybe the Toms are underutilized?
+
+Wait maybe the user's request is phrased as "not only tom but also cymbal"—meaning that currently, the groove only has toms and needs cymbals added? But in this case, Crash is already there. Alternatively, maybe the user wants both Toms and another cymbal (like Ride) instead of just Crash. The original has Crash on every beat, which might be too much, so perhaps adding Ride and reducing Crash?
+
+Alternatively, maybe the user wants to add more tom hits and ensure cymbals are present. Let me see the original T line: T has ---O in the third beat and --O- in the fourth? Wait, the T line is:
+
+T: ----|----|---O|----
+
+Wait third beat is ---O, fourth is ----? Wait the fourth part is |-OO-, so maybe I misread. Let me parse each part properly.
+
+Breaking down each line:
+
+K line: -O-- | OO-- | ---O | -OO-
+So beats 1-4 (each bar has four beats separated by |):
+
+First beat: - O - -
+Second beat: O O - -
+Third beat: - - - O
+Fourth beat: - O O O
+
+S line: all dashes except third beat has S---, so third beat's first 16th note is S (but S's articulation rules: O is hard, o soft open, X/x sidestick. Here it's S? Wait no, the S line uses characters like O, o, X, x. Wait in the given groove, the S line has "S---" in the third beat. Wait that can't be right. Wait in the user's input, the S line is:
+
+S: ----|----|S---|----
+
+Wait that's a typo? Because according to the notation rules, S can only have O, o, X, x, or -. The 'S' here is invalid. Wait that must be a mistake. Maybe it's supposed to be 'O'? Or perhaps a typo from the user. Hmm, this might be an error in the input. Since the user provided it as is, perhaps I should proceed assuming it's a typo and correct it to O or another valid character. Alternatively, maybe the user intended a different articulation. Since the problem says to edit the groove as per the request, perhaps I can adjust that S--- to a valid character like O---.
+
+But since the user's instruction is to add tom and cymbal, maybe focusing on T and C/R. Let me proceed.
+
+Original Toms (T) have hits only in the third beat (---O) and maybe the fourth? Wait fourth part is |-OO- so that's the fourth beat? Wait the fourth segment after the last | is -OO-, which is the fourth beat of the bar. Wait the T line is:
+
+T: ----|----|---O|----
+
+So third beat (third segment) has ---O (so the fourth 16th note of that beat is O, a hard hit). The fourth segment is ----, so no toms there. So Toms are sparse. The user wants not only toms (so more toms?) but also cymbals. But Crash is already active throughout. Maybe the user wants to add Ride cymbal in addition to Crash? Or maybe reduce Crash and add Ride?
+
+Alternatively, perhaps the user meant that the groove currently only has toms and needs cymbals, but actually there are crashes. Maybe they want to add Ride as well to have both cymbals.
+
+So possible edits: add Ride (R) hits in some places, or adjust Toms to have more hits. Since the user says "not only tom but also cymbal", maybe the current groove has only toms and needs cymbals, but that's not the case here. Alternatively, perhaps the user wants to ensure both toms and cymbals are present, so adding more tom parts where they are missing, and ensuring cymbals are there. Since Toms are only in the third beat, maybe add more Toms in other beats. Let's see.
+
+Alternatively, maybe the user's request is to have both Toms and Cymbals (Crash and Ride) instead of just Crash. Since R is currently all dashes, adding some Ride hits there would fulfill "also cymbal".
+
+So plan:
+
+1. Add Ride (R) hits to complement the existing Crash (C). For example, in the first beat, maybe add Ride on some notes where Crash is present.
+
+2. Ensure Toms have more activity. The T line has only one hit in the third beat. Maybe add some T hits in other beats where it's empty.
+
+Looking at the existing C line: O--- in each beat, meaning a hard hit on the first 16th note of each beat. That's quite persistent. Maybe reduce some of the C hits and add Ride instead, or keep Crash and add Ride in between.
+
+Let me try modifying the R line to have some hits. For example, in the first beat, add X on the third 16th note (so R: -X-- | ... ), but need to check the notation.
+
+Alternatively, since the user might want both Crash and Ride, perhaps leave Crash as is and add Ride in the offbeats.
+
+Let me try adding Ride in the second and fourth 16th notes of each beat. For example:
+
+R: --X- | -X-- | X--- | -X-X (just brainstorming). But need to fit the 16 notes.
+
+Alternatively, mirror the Crash pattern but on Ride. Since C is O--- on each beat (hit on first 16th), maybe R has hits on the third 16th of each beat: R: --X- repeated for each beat.
+
+So R: --X-|--X-|--X-|--X-
+
+That way, Ride has a syncopated hit on the "&" of each beat (third 16th), adding texture.
+
+Also, for Toms, let's add more hits. Currently T has ---O in the third beat. Maybe add an O in the second beat's third position: T: ----|---O|---O|----
+
+Wait, let me structure this properly:
+
+Original T line is:
+
+T: ----|----|---O|----
+
+So first two segments (beats 1 and 2) have no T hits. Let's add a tom hit in beat 2, maybe on the third 16th note: so second beat becomes ---O. So T would be:
+
+T: ----|---O|---O|----
+
+Wait but the fourth segment is ----, so fourth beat no tom. Alternatively, spread out.
+
+Alternatively, add a tom in the first beat as well. Let's decide.
+
+Alternatively, make the T line have O--- in the first beat, ---O in third, and maybe --O- in the fourth? Not sure, but need to make toms more present.
+
+Alternatively, since the user wants "not only tom", perhaps the current tom presence is minimal, so adding more hits there.
+
+Putting it all together:
+
+Modified Groove:
+
+K remains as is unless needed, but user didn't ask about kick.
+
+S line has an S--- in third beat, which might be a typo. Assuming it's O---, so third beat's first note is O.
+
+But since the user's instruction is about toms and cymbals, focus there.
+
+Final edits:
+
+Add Ride (R) hits on the "&" of each beat (third 16th note), so R: --X- repeated in each beat.
+
+Add Toms in beats 1 and 2, maybe:
+
+T: ---O|---O|---O|----
+
+So first beat: ---O (tom on fourth 16th note), second beat same, third as original ---O, fourth no tom.
+
+Alternatively, distribute differently.
+
+Finalizing:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|O---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ---O|---O|---O|----
+C: O---|O---|O---|O---
+R: --X-|--X-|--X-|--X-
+
+Wait but the fourth beat's R would be --X-? That would mean on the third 16th note of each beat.
+
+This adds Ride hits on the "&" of each beat, providing a syncopated cymbal layer, and adds Toms in beats 1 and 2 to have more tom presence. The Crash remains as before, so now there are both Crash and Ride cymbals, fulfilling the "also cymbal" part, and Toms are more present.
+
+I need to ensure that the total characters per line are 16 (4 per beat *4 beats). Let's check:
+
+For R line: "--X-" repeated four times would be 4*4=16 characters. Yes.
+
+T line: Each beat is four characters:
+
+First beat: ---O (4 chars)
+Second: ---O (4)
+Third: ---O (4)
+Fourth: ---- (4)
+Total 16.
+
+Yes.
+
+This should satisfy the user's request of having both toms and cymbals (now with Ride added alongside Crash).
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|O---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ---O|---O|---O|----
+C: O---|O---|O---|O---
+R: --X-|--X-|--X-|--X-
+@@@

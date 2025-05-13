@@ -1,0 +1,27 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include not only cymbals but also the kick. Looking at the given groove:
+
+First, check the current instruments. The Kick (K) has some hits: O--O|----|--O-|----. The Snare (S) has Oo-o and O--o in some beats. The Hihat (H) is active with X-x- patterns, but the Toms (T) and Crash (C) are silent. The Ride (R) is also off.
+
+The edit request says to include cymbals and kick. Wait, but the kick is already present. Maybe the user wants more emphasis on both or to ensure that both are present where they weren't before? Alternatively, perhaps the original groove didn't have cymbals, but in the provided example, the Crash (C) is empty. Oh, right! The user's instruction says "not only cymbal but also kick"—maybe the original had only cymbals and needed kick added. But in this case, the kick is present, so perhaps the user wants to add cymbals (Crash or Ride) where they are missing.
+
+Looking at the given groove, the Crash (C) line is all dashes. The Ride (R) is also dashes. So the cymbals aren't present. The user probably wants to add either Crash or Ride hits while keeping the existing kick. So the task is to add cymbals (since they're missing) and ensure the kick is there (which it is). 
+
+So I need to add some cymbal hits. Let's pick between Crash (C) or Ride (R). The user might prefer Crash on strong beats. Let's place Crash hits on the downbeats. For example, in each beat (every four notes), the first 16th note could have an O (hard hit). Let's try:
+
+C: O---|O---|O---|O--- 
+
+Alternatively, maybe vary it. Let's check the Kick's pattern to not clash. The Kick hits on the first and third 16th notes of the first beat (O--O), then third of the third beat (--O-), etc. So placing Crash on the first 16th of each beat might work. 
+
+Also, ensure that the Ride or Crash is added. Let's go with Crash since it's more prominent. So updating the C line to have O's on the downbeats. Let me adjust that. 
+
+The final groove should have K's existing hits plus C's added. The Hihat is already there with X's, so that's fine. The Snare is present too. The user's edit request is to include cymbals (which were missing) and kick (already there). So the main change is adding Crash hits. Let me write that out.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

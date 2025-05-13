@@ -1,0 +1,76 @@
+Okay, let's tackle this drum groove edit. The user wants a hihat hit and snare in the very beginning. Let me start by understanding the original groove.
+
+Looking at the given drum notation:
+
+**Kick (K):**  
+o---|--o-|o---|--o-  
+So the first beat has a soft kick on the first 16th note, then nothing until the second beat's third note, etc.
+
+**Snare (S):**  
+----|X---|--X-|----  
+Snare starts on the second beat with a sidestick hit (X), then another sidestick on the third beat's third note.
+
+**Hihat (H):**  
+----|x---|----|x---  
+Hihat has closed hits (x) on the second and fourth beats.
+
+**Toms, Crash, Ride are silent except for the ride.**
+
+The user wants a hihat hit and snare at the very beginning (first 16th note of the bar). Let's see:
+
+First, the hihat. The original H line starts with "----", so the first four 16th notes (first beat) have no hihat. To add a hit here, I need to replace the first '-' with either X, x, O, or o. Since the existing hihats are using x (soft closed hits), maybe keeping consistency would be good. So change the first character of H to 'x' making the first beat's first 16th note a closed hihat hit.
+
+Next, the snare. The original S line starts with "----", so no snare on the first beat. To add a snare hit at the very beginning, the first character of S should be an O (hard hit) or o (soft). Since the user specified "snare", and the existing snare uses X and x (sidestick), maybe a regular hit is better here. Let's use O for a strong start.
+
+So modifying the S line's first character to 'O' and H's first to 'x'.
+
+Wait, but need to check if the user wants both hihat and snare on the first 16th note. That's possible as they are separate instruments. So:
+
+Original S starts with '----', changing to 'O---' for a hard snare on the first 16th.
+
+Original H starts with '----', changing to 'x---' for a closed hihat on the first 16th.
+
+Now check if there are any other changes. The rest of the groove should stay as is unless needed. Let me confirm:
+
+- The user only asked for the beginning, so the rest remains the same.
+
+Wait, but looking at the original H line, the second beat has 'x---', so the second beat's first 16th is already a hihat hit. But the user wants the very first note to have hihat. So changing the first beat's first note to 'x' is correct.
+
+Similarly, the first snare was on the second beat. Adding the snare on the first beat's first note.
+
+No conflicts here. The kick on the first note is a soft hit (o), so combining with snare and hihat is okay.
+
+Let me write the modified lines:
+
+**K remains:**  
+o---|--o-|o---|--o-  
+
+**S becomes:**  
+O---|X---|--X-|----
+
+**H becomes:**  
+x---|x---|----|x---
+
+Wait, original H's second beat is 'x---', so first beat becomes 'x---', so the full H line would be:
+
+H: x---|x---|----|x---
+
+But need to check if the user wants the hihat hit specifically on the first 16th, which this does. The rest of the hihat remains as per original except the first beat now has x on the first note.
+
+Wait, original H line was:
+
+H: ----|x---|----|x---
+
+So changing first four to 'x---' (assuming closed hits as before). That should be okay.
+
+Let me verify the other instruments. Toms, Crash, Ride are unchanged except Ride has some hits but user didn't mention changing them. So the final edit should have these changes.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: O---|X---|--X-|----  
+H: x---|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

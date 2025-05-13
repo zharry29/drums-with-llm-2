@@ -1,0 +1,45 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any kick or hihat parts. Let me start by understanding the original groove.
+
+Looking at the given drum notation:
+
+**K (Kick):** O---|---o|O-O-|----
+**S (Snare):** ----|O---|----|O---
+**H (Hihat):** --o-|O-o-|O-o-|O-o-
+**T (Toms):** ----|----|----|----
+**C (Crash):** O---|----|----|----
+**R (Ride):** ----|----|----|----
+
+The user's request is to eliminate the kick (K) and hihat (H) parts. That means I need to set all their entries to '-'.
+
+Starting with the Kick (K): Replace all characters in the K line with '-'. The original has O's and o's, so changing them to '-' will silence the kick.
+
+Next, the Hihat (H): Similarly, replace all entries in the H line with '-'. The original has a mix of open and closed hits (like --o-, O-o- etc.), so replacing those with '-' removes the hihat entirely.
+
+Now, check the other instruments to ensure they remain as they are. The Snare (S) has some hits, but the user didn't mention removing snare, so leave it. Toms (T) are silent, so no change. Crash (C) has a crash on the first beat, and Ride (R) is silent. The user didn't mention these, so they stay.
+
+Wait, let me double-check the edit request again. The user specifically said "no kick or hihat," so only those two lines should be cleared. The rest should remain untouched. 
+
+Let me reconstruct each line:
+
+- **K:** All dashes: ----|----|----|----
+- **S:** Remains as is: ----|O---|----|O---
+- **H:** All dashes: ----|----|----|----
+- **T:** No changes: ----|----|----|----
+- **C:** No changes: O---|----|----|----
+- **R:** No changes: ----|----|----|----
+
+Yes, that should do it. Just need to make sure there are no accidental changes to other lines. The final groove should have only the snare, crash, and toms (though toms are silent here), and ride remains as is. Since the user didn't mention those, it's safe to leave them. 
+
+Wait, looking at the crash (C) line: the first beat has an O, which is a hard crash hit. The user didn't ask to remove crashes, so that stays. The rest of the crash line is dashes, so that's fine. 
+
+Alright, I think that's all. Let me write the final notation with the changes applied.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

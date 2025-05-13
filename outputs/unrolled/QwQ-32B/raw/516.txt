@@ -1,0 +1,47 @@
+Okay, so the user wants me to edit this drum groove by removing any parts that involve toms or cymbals. Let me start by looking at the original groove they provided.
+
+First, I'll go through each line of the drum notation to identify where the toms (T) and cymbals (C and R) are being used. 
+
+Looking at the given groove:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+So, the Toms (T) line has O-o- repeated in each beat. Since the user doesn't want any toms, I'll need to replace all those characters with '-' to indicate they're not played. 
+
+For cymbals, the Crash (C) line is all '-', so that's already okay. The Ride (R) is also all '-', so no action needed there either. Wait, but the user said "no cymbal or tom," so I just need to ensure that both T, C, and R lines are cleared. 
+
+Wait, checking again. The Toms (T) line has hits, so that's the main one to address. The other cymbals (C and R) are already inactive here. 
+
+So the edited version should have the T line set to all '-', and leave the others as they are except for T. 
+
+Let me double-check each line:
+
+Kick (K) remains the same since it's allowed. Snare (S) is okay. Hihat (H) is also fine. 
+
+So the final edited groove should look like:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Yes, that removes all tom hits and ensures no cymbals are present. The user might have wanted to keep the hihat since it's separate, but the request was specifically about toms and cymbals. Since hihat is H, which isn't a cymbal in this context? Wait, the Hihat is a separate category. The user said "no tom or cymbal," so cymbals include crash (C) and ride (R), but hihat is its own category. So hihat is allowed unless specified. Since the user didn't mention hihat, it's okay to leave it as is. 
+
+Wait the original H line was all '-', so in this case, there's no hihat playing anyway. So the edited version is correct as above.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

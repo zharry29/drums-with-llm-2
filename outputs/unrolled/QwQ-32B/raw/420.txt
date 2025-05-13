@@ -1,0 +1,72 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the hihat and kick parts from the given groove. Let me first look at the original drum notation provided.
+
+The original groove is:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Breaking this down line by line:
+
+- **K (Kick drum):** There are some hits here, like O--O in the first beat and --O- in the third. Since the user doesn't want kick, I'll need to replace all K line characters with '-'.
+
+- **S (Snare drum):** The snare has some patterns, but the user didn't mention removing snare, so leave this as is.
+
+- **H (Hihat):** The hihat is active with X-x- across all beats. Since it's to be removed, set all H line characters to '-'.
+
+- **T, C, R:** These are already empty except for possible other parts, but since the user didn't mention them, leave as is unless they're part of the hihat or kick.
+
+So the plan is:
+
+1. Set all characters in the K line to '-'.
+2. Set all characters in the H line to '-'.
+3. Keep S, T, C, R lines unchanged otherwise.
+
+Let me double-check each line:
+
+- **K line:** Original had O--O|----|--O-|---- → becomes ----|----|----|----
+- **S line:** No changes needed.
+- **H line:** X-x- in each beat → becomes ---- in all.
+- **T, C, R remain the same.**
+
+Wait, looking at the original, T, C, R are already all dashes except maybe R? Let me check:
+
+Original R line is all dashes. So no issues there.
+
+Putting it all together:
+
+K: all dashes.
+
+S stays the same.
+
+H all dashes.
+
+T, C, R as before.
+
+So the edited version should look like:
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+I think that's it. Let me make sure there are no typos. Each line's characters are correctly replaced. The user's request was specifically about hihat and kick, so other elements stay. Yep, looks good.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

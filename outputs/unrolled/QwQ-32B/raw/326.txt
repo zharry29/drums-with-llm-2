@@ -1,0 +1,23 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any ride or snare parts. Let me start by looking at the given groove.
+
+First, check the existing instruments. The Kick (K) has some soft hits, the Snare (S) has X and --X, which are sidestick hits. The Hihat (H) has some x's, Toms (T) are silent, Crash (C) is off, and Ride (R) has x and X patterns.
+
+The user's request is to eliminate ride and snare. So I need to set S and R lines to all '-'.
+
+Looking at the Snare line (S: ----|X---|--X-|----), I'll replace all non '-' characters with '-'. That means the second beat's X--- becomes ----, and the third beat's --X- becomes ----. So S becomes all dashes.
+
+For the Ride (R: x---|X-x-|x---|X-x-), same thing: replace all x and X with '-', making all beats '----|----|----|----'.
+
+The Kick and Hihat can stay as they are since they're not part of the request. Let me double-check the other lines to ensure no snare or ride remains. Toms and Crash are already off. 
+
+Wait, the Crash (C) is also off, so that's fine. The Hihat's x's are allowed since the request only mentions ride and snare. So the final edited groove should have S and R lines blanked out, keeping Kick, Hihat, and Crash as they were. Let me write that out.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

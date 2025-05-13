@@ -1,0 +1,63 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any ride or tom parts. Let me first look at the given groove to see where those are.
+
+Starting with the original groove:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So, the ride (R) has some hits like x and X-x, which need to be eliminated. The toms (T) are already all dashes, so they're already clear. The user's request is straightforward here. 
+
+First, I'll go through each line. The Kick (K) and Snare (S) are okay since they're not mentioned to be removed. The Hihat (H) is also allowed unless specified. The main targets are Ride (R) and Toms (T). 
+
+Looking at the Ride line (R), every occurrence of 'x', 'X', or any other characters need to be replaced with '-'. Let me check each beat segment:
+
+First beat of R: "x---" → "----"
+Second beat: "X-x-" → "----"
+Third beat: "x---" → "----"
+Fourth beat: "X-x-" → "----"
+
+So replacing all non-dash characters in R with dashes. The Toms line is already all dashes, so no change needed there. 
+
+Double-checking other lines to ensure nothing else is affected. The Snare has X and x, but those are sidestick hits, which are allowed since the user only mentioned ride and toms. Hihat's x's are closed hits, which are okay unless the user wanted to remove hihat too, but the request was specifically ride and tom. 
+
+Wait, the user said "I don't want any ride or tom." So only ride and tom lines should be cleared. Hihat is separate and allowed. 
+
+So the final adjusted groove should have R and T lines all dashes. Let me reconstruct each line:
+
+K remains the same:
+K: o---|--o-|o---|--o-
+
+S remains:
+S: ----|X---|--X-|----
+
+H remains:
+H: ----|x---|----|x---
+
+T becomes all dashes:
+T: ----|----|----|----
+
+C is unchanged (crash is allowed unless specified):
+C: ----|----|----|----
+
+R becomes all dashes:
+R: ----|----|----|----
+
+Putting it all together in the required format. Need to make sure the structure is correct with four beats separated by | and 16 characters per line. Let me verify each line's character count:
+
+For example, K line: "o---|--o-|o---|--o-" has four beats (split by |), each beat has four characters. So total 16. Same for others. After replacing R's characters, it should still be 16. 
+
+Yes, looks good. So the final answer should be the adjusted drum groove with R and T lines cleared.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

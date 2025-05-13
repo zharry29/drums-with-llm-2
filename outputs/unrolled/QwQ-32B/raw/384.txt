@@ -1,0 +1,42 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any kick or tom parts. Let me first look at the original groove provided.
+
+Starting with the Kick (K line): "o---|--o-|o---|--o-". Since the user doesn't want any kick, I need to replace all the 'o's and '-' with '-', effectively silencing the kick drum. So the K line should become all dashes: "----|----|----|----".
+
+Next, the Snare (S line): "----|X---|--X-|----". There's no mention of removing snare, so this stays as is. But wait, the user's request was only about kick and tom, so yes, snare is okay.
+
+Hihat (H line): "----|x---|----|x---". This is also unaffected since the request doesn't mention hihat. Keep it the same.
+
+Toms (T line): "----|----|----|----". Already empty, so no change needed here. But just to confirm, the user wants no toms, so even if there were notes, they should be removed. Since it's already clear, no action required.
+
+Crash (C) and Ride (R) lines: The user didn't mention these, so unless specified, they stay. However, the edit request is only about kick and tom. Wait, the user said "I don't want any kick or tom," so crash and ride are okay unless they were part of the original. Looking at the original, C is empty, and R has "x---|X-x-|x---|X-x-". Since the user didn't mention cymbals or ride, those should remain unless the request implies removing all cymbals. Wait, the user specifically said "kick or tom", so cymbals (crash and ride) are allowed. So R line stays.
+
+Wait, but in the user's previous examples, sometimes when they removed cymbals, they also removed ride. Let me check the exact request again. The user wrote: "I don't want any kick or tom." So only those two instruments are to be removed. Therefore, the crash and ride can stay unless they are considered cymbals. The user's instruction here doesn't mention cymbals, so we leave them.
+
+Putting it all together:
+
+K: all dashes.
+
+S, H, R remain as in the original except where they might have kick or tom. Wait, the T line was already empty, so no change there.
+
+Wait, the original R line is "x---|X-x-|x---|X-x-". Since ride is allowed, that stays. The user didn't ask to remove ride. So the final should have K and T lines as dashes, others as before.
+
+Wait, but let me double-check the user's exact wording. The edit request is "I don't want any kick or tom." So kick (K) and tom (T) lines should be cleared. All other instruments (S, H, C, R) stay as they are unless they have tom or kick parts, which they don't. So the corrected groove should have K and T lines all dashes, and the rest unchanged.
+
+So the final answer should be:
+
+K: ----|----|----|----
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

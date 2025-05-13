@@ -1,0 +1,45 @@
+Okay, so I have to edit this drum groove to include both snare and cymbal, right? Let me see what I have here.
+
+First, looking at the original groove, I see that the kick drum (K) is playing notes on the 1st, 3rd, and 5th beats, using 'O' for each. The snare drum (S) is playing on the 2nd and 4th beats with 'X' and 'o' respectively. The hi-hat (H) is playing on every beat with 'x' and 'o'. The toms (T) aren't playing anything, and neither are the crash cymbal (C) or ride cymbal (R). 
+
+The user wants to add both snare and cymbal. Wait, but isn't snare already there? Oh, maybe they mean more snare or adding cymbal to the existing groove. The edit request says "not only snare but also cymbal," so perhaps I need to add cymbal parts to the groove.
+
+Looking at the current setup, the crash cymbal (C) and ride cymbal (R) are both not playing anything. So I need to add some notes for these. 
+
+Starting with the crash cymbal, I can add some 'O's on the 1st and 3rd beats, and maybe some 'o's on the 2nd and 4th beats. For ride cymbal, I can use 'X's on the 1st and 3rd beats, and 'x's on the 2nd and 4th beats. 
+
+Wait, but I need to make sure the timing aligns correctly. Each instrument's line has four beats, separated by |. So for each instrument, I need to assign notes to each beat.
+
+Let me structure this step by step:
+
+1. **Kick Drum (K):** Keep the existing pattern, maybe adjust a bit for variety, but not necessary.
+2. **Snare Drum (S):** Already has some notes, perhaps add more for complexity.
+3. **Hi-Hat (H):** Maybe add more dynamic parts with 'O' and 'o'.
+4. **Toms (T):** Maybe add some fills here and there.
+5. **Crash Cymbal (C):** Add 'O' and 'o' in different beats.
+6. **Ride Cymbal (R):** Add 'X' and 'x' in different beats.
+
+I should also ensure that each instrument's line has 16 characters, so I need to fill in the '-' where appropriate.
+
+Let me try drafting each instrument:
+
+- **K:** Maybe alternate between 'O' and 'o' for a more dynamic feel.
+- **S:** Add more 'X' and 'o' for a snappy snare sound.
+- **H:** Use 'x' and 'o' to create a nice hi-hat pattern.
+- **T:** Add some 'O' and 'o' to give the toms some presence.
+- **C:** Use 'O' and 'o' to simulate crash cymbal hits.
+- **R:** Use 'X' and 'x' to create ride cymbal effects.
+
+I need to make sure that each line has four beats, each with four notes, separated by |, and each note is either '-' or the appropriate character.
+
+Let me put this all together, making sure to add cymbal parts without disrupting the existing snare and other instruments.
+</think>
+
+@@@  
+K: O---|---O|---O|---O  
+S: X---|---X|---X|---X  
+H: x---|---x|---x|---x  
+T: O---|---O|---O|---O  
+C: O---|---O|---O|---O  
+R: X---|---X|---X|---X  
+@@@

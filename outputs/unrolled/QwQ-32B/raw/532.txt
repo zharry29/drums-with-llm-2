@@ -1,0 +1,54 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any cymbals and the kick drum. Let me start by understanding the original groove they provided.
+
+Looking at the given drum notation:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, the user's request is to eliminate cymbals (which include crash [C] and ride [R]) and the kick drum [K]. So I need to set all the K and C and R lines to all '-' characters. 
+
+Starting with the Kick (K line): Currently, there are O's in the first, second, and fourth beats. I'll replace all those with '-' to remove the kick entirely.
+
+Next, check the cymbals. The Crash (C) line is already empty, so no change there. The Ride (R) is also empty. So those lines stay as all '-'.
+
+Now, the Snare (S) and Toms (T) are the remaining instruments. The user didn't mention removing snares or toms, so those should stay as they are. Let me confirm:
+
+Snare (S) has hits in the third and fourth beats. Toms (T) have a pattern throughout. Since the request is only about cymbals and kick, those should remain untouched.
+
+Wait, let me double-check the original request again: "I don't want any cymbal or kick." Yep, so only K, C, R are to be removed. The Toms (T) and Snare (S) are okay.
+
+So the edited version should have K, C, R lines all '-', and S and T as original.
+
+Let me reconstruct each line:
+
+K: All dashes: "----|----|----|----"
+
+S remains: "----|----|O---|----"
+
+H (HiHat) is already all '-', so no change.
+
+T remains: "O-o-|O-o-|O-o-|O-o-"
+
+C and R are all dashes.
+
+Putting it all together, the final notation should look like this. Let me make sure each line is correctly formatted with 16 characters (4 beats of 4 notes each). Checking each line:
+
+- K: 16 dashes, correct.
+- S: The third beat has "O---", others dashes. That's 4 beats, so 16 characters.
+- T: Each beat is "O-o-", so 4*4=16, correct.
+
+Looks good. No other instruments involved. This should fulfill the user's request.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

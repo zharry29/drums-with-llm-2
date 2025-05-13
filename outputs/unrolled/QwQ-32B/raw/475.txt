@@ -1,0 +1,59 @@
+Okay, let's see what the user is asking for here. They provided a drum groove and want me to edit it by removing any snare or kick parts. The original drum notation has lines for Kick (K), Snare (S), Hihat (H), Toms (T), Crash (C), and Ride (R). The user's request is straightforward: eliminate the snare (S) and kick (K) components.
+
+First, I need to look at the given drum groove:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+The task is to remove the K and S lines entirely. That means replacing all their entries with dashes. Let me check each line:
+
+- **Kick (K):** The first line has some hits like O, o, etc. I need to set all those to '-'.
+- **Snare (S):** The second line has O's in some beats. Those should also become '-'.
+- The other lines (H, T, C, R) can stay as they are unless they're also supposed to be removed, but the user only mentioned snare and kick. 
+
+Wait, the user said "I don't want any snare or kick," so only K and S are to be cleared. Let me confirm that Hihat, Toms, Crash, and Ride are okay to remain. The user didn't mention those, so they should stay. 
+
+Looking at the Hihat line (H), it has some o and O hits. Since the user didn't ask to remove hihat, those stay. Similarly, Crash has O--- in the first beat. Since crash is a cymbal and the user didn't mention cymbals, but only snare and kick, those should stay too.
+
+So the edited version should have K and S lines replaced with all '-' characters. Let me reconstruct that:
+
+For K:
+Original: O---|---o|O-O-|----
+Edited: ----|----|----|----
+
+For S:
+Original: ----|O---|----|O---
+Edited: ----|----|----|----
+
+The rest remain unchanged. Let me double-check each line to ensure no K or S hits are left. Also, ensuring that the structure with the | separators is maintained correctly. Each line should have 16 characters (including the |). Let me count for K's edited line:
+
+"----|----|----|----" has 4 +1 +4 +1 +4 +1 +4? Wait, no. Each part between | is 4 characters, so four beats: 4*4=16. The line is divided as four beats separated by |, so total 16 notes. The edited K and S lines should each have four groups of four dashes separated by |, totaling 16 characters. 
+
+Yes, "----|----|----|----" is correct. 
+
+Now, putting it all together, the final drum groove should look like this:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+Wait, but in the original, the Hihat line starts with "--o-", which is okay. Crash has O--- in the first beat. Since the user didn't mention removing crash, that stays. 
+
+I think that's all. Let me just make sure I didn't miss any parts. The user's request was clear, so this should be correct.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

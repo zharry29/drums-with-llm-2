@@ -1,0 +1,48 @@
+Okay, let's see. The user wants me to edit a drum groove by removing any tom and ride parts. Let me start by understanding the original groove they provided.
+
+Looking at the given drum notation:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+First, I need to identify which lines correspond to the instruments they want removed. The user mentioned "no tom or ride". 
+
+- Toms are labeled as T. Here, T has "----|----|---O|----". So there's a tom hit in the third beat (---O). I need to remove that, replacing it with all '-'.
+- Ride cymbal is labeled R. In this case, R is all dashes already, so no change there. But just to be thorough, maybe check if there's any accidental notation. Looks like R is clean.
+
+Additionally, check for any other instruments. The user didn't mention snare or crash, so leave S and C as is unless there's a mistake. 
+
+Wait, the user said "no tom or ride", so confirm that T and R are the only ones to be cleared. The crash (C) is still present with O--- in all beats. Since the user didn't mention removing crashes, those stay.
+
+So the steps are:
+
+1. Set all T line characters to '-'.
+2. Ensure R is already clear, which it is.
+3. Leave K, S, H, and C untouched unless there's an error.
+
+Let me reconstruct each line:
+
+Kick (K) remains the same: -O--|OO--|---O|-OO-
+Snare (S) stays: ----|----|S---|----
+Hihat (H) is unchanged: x-x-|x-x-|x-x-|x-x-
+Toms (T) becomes: ----|----|----|----
+Crash (C) stays: O---|O---|O---|O---
+Ride (R) is already empty: ----|----|----|----
+
+Double-check that T's third beat's O is removed. Yes, replacing ---O with ----. 
+
+Everything else looks good. No other instruments to adjust. This should meet the user's request.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

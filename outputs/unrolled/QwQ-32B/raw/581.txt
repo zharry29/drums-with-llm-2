@@ -1,0 +1,45 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any ride or cymbal parts. First, I need to check which lines correspond to those instruments. 
+
+Looking at the given notation, the lines are labeled K (Kick), S (Snare), H (Hihat), T (Toms), C (Crash), and R (Ride). The user mentioned removing ride and cymbal, so the R (Ride) and C (Crash) lines need to be cleared. 
+
+Looking at the provided drum groove:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, actually, in the given groove, the C (Crash) line is already all dashes. The R (Ride) line is also all dashes. Hmm, maybe I need to double-check. The user's edit request is to remove ride or cymbal, but in this case, both C and R lines are already empty. So perhaps there's a mistake here? Or maybe I misunderstood the input.
+
+Wait, let me check again. The user's provided drum groove:
+
+The C line is "----|----|----|----" and R is also "----|----|----|----". So there are no crashes or ride hits in the original. Therefore, the edit request might be redundant here. But maybe the user wants to ensure that even if there were, they should be removed. Since they are already gone, the edited version remains the same. 
+
+Alternatively, maybe I misread the input. Let me confirm. The user's input is:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+So indeed, both C and R lines are empty. Therefore, the edited version is the same as the original. But the user might have intended there to be some cymbals or ride, but in this case, they aren't present. So the correct edit is just to leave everything else as is, confirming that no ride or cymbal is present. Thus, the final answer should be the same as the input, but with C and R lines still empty. 
+
+Wait, but maybe I missed something. Let me check the user's edit request again. They said, "I don't want any ride or cymbal." Since the original already doesn't have any, the answer is the same. 
+
+Therefore, the final edited drum groove remains unchanged except ensuring those lines are clear. So the answer should be the same as the input provided, but only between the @@@ markers.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,153 @@
+Okay, let's tackle this drum groove edit. The user wants to add ghost notes on the snare while keeping the kick the same. First, I need to understand the original groove. 
+
+Looking at the given drum notation:
+
+**Kick (K):** 
+O---|O---|----|O---
+So the kick hits on the first 16th note of each beat except the third beat. 
+
+**Snare (S):**
+----|----|O---|----
+The snare only hits hard on the third beat (third quarter note, which is the first 16th of the third beat). 
+
+**Toms (T):**
+O-o-|O-o-|O-o-|O-o-
+The toms have a pattern of hard, soft, hard, soft on each beat. 
+
+The user wants ghost notes on the snare. Ghost notes are typically soft hits, often on the "ands" of the beats, which add complexity and groove without being the main hits. Since the original snare only has a single hit on the third beat, I need to add soft hits (using 'o') on other parts where it's appropriate. 
+
+Let me look at each beat:
+
+1. First beat (O--- for kick): 
+   - Kick hits on the first 16th. 
+   - Snare is empty here. Maybe add ghost notes on the "and" of 1 and maybe the "and" of 2? 
+
+2. Second beat (O--- for kick):
+   - Kick again on the first 16th. 
+   - Snare is empty. Ghost notes here could be on the "and" of 2, maybe?
+
+3. Third beat (---- for kick):
+   - No kick here, snare hits on the first 16th (hard). Ghost notes could be around this, maybe on the "and" of 2 or 3?
+
+4. Fourth beat (O--- for kick):
+   - Kick on first 16th. Snare is empty. Maybe ghost notes on the "and" of 3 or 4?
+
+I need to make sure not to interfere with the existing snare hit on the third beat. Also, the toms are already busy with their pattern, so ghost notes on snare should complement that.
+
+Let me try adding 'o's on the "and" of each beat where possible. For example:
+
+Beat 1: Maybe on the second 16th (the "and" of 1). So the first beat's snare line could be "-o--" or "-o-o" ?
+
+Wait, the original snare is all dashes except the third beat. Let me structure each beat as four 16ths separated by |.
+
+Original S line: 
+S: ----|----|O---|----
+
+So each beat is four characters. Let's go beat by beat.
+
+**First beat (S: ----):**
+Adding ghost notes here. Maybe on the second 16th (the "and" of 1). So change to "-o--". But maybe also the fourth? Like "-o-o" ?
+
+Alternatively, a common ghost note pattern is on the "and" of 1 and 2, so "-o-o".
+
+**Second beat (S: ----):**
+Same approach. "-o-o".
+
+**Third beat (S: O---):**
+The existing O is the main hit. Ghost notes could be on the "and" of 2 and 3. So maybe "O-o-" becomes "O-o-" but already the third beat's snare is O followed by three dashes. Let me see:
+
+Wait the third beat's S is "O---", so the first 16th is the hard hit. To add ghost notes, maybe on the second and fourth 16ths? Like "O-o-" or "O-o-o"?
+
+Wait, but the user said "ghost notes", which are soft. So maybe "O-o-" where the second 16th is a soft hit. So "O-o-".
+
+**Fourth beat (S: ----):**
+Again, similar to the first and second beats. Add "-o-o".
+
+Putting this together:
+
+S line would be:
+S: -o-o | -o-o | O-o- | -o-o
+
+Wait, let me check each beat:
+
+Beat1: -o-- or -o-o ?
+
+Alternatively, maybe the first beat's ghost notes on the "and" of 1 and 3? Hmm, but typically ghost notes are on the offbeats.
+
+Alternatively, maybe:
+
+First beat: -o-- (soft on the second 16th)
+
+Second beat: -o-- 
+
+Third beat: O-o- (soft on the second 16th)
+
+Fourth beat: -o--
+
+But that might be sparse. Alternatively, adding more. Let me think again.
+
+Another approach: The toms are playing O-o- on each beat, so maybe align ghost notes with that? Not sure.
+
+Alternatively, since the user wants "more dynamic", adding ghost notes on the "and" of each beat's first 16th and maybe others.
+
+Wait, let me look at examples from previous answers. For instance, in a previous similar request, when adding ghost notes to a snare with existing hits, they used patterns like "-o-o" on beats without main hits and added soft hits around the main hit.
+
+In the third beat where there's an O, maybe adding o's on the "and" of 1 and 2, so "O-o-".
+
+Putting it all together:
+
+First beat: -o-- (soft on the second 16th)
+
+Second beat: -o-o (soft on second and fourth?)
+
+Wait, perhaps better to spread them out. Let me try:
+
+S: -o-o | -o-o | O-o- | -o-o
+
+So each beat except the third has "-o-o", and the third has "O-o-".
+
+Wait, but the third beat's S is O---, so the first character is O, then three dashes. To add a ghost note on the second 16th (the "and" of the beat's first 16th), it would be O-o-.
+
+Yes, that makes sense. Let me check the total:
+
+Beat 1: -o-o (soft on 2nd and 4th 16ths)
+
+Beat 2: -o-o same
+
+Beat3: O-o- (hard on first, soft on second)
+
+Beat4: -o-o
+
+This adds ghost notes on the "and" of 1 and 3 for the first beat, etc. It maintains the main snare hit on beat 3 and adds soft hits around.
+
+Alternatively, maybe the fourth beat could have "-o--" but to keep symmetry, maybe "-o-o".
+
+Wait, let me count the characters. Each beat is 4 characters. So the S line would be:
+
+S: -o-o | -o-o | O-o- | -o-o 
+
+Yes, that's 4 beats, each 4 characters. Let me check if that's within the notation.
+
+Alternatively, maybe in the third beat, the soft hit could be on the fourth 16th as well? Like O-o- or O-o-o? But keeping it simple.
+
+I think that should work. Let me make sure there's no conflict with other instruments. The toms are O-o- each beat, so their pattern is every first and third 16th? Wait, T's line is O-o-|O-o-|O-o-|O-o-.
+
+So each beat for T is O (first), o (second), - (third?), no, wait: O-o- is four characters. Wait, each beat for T is "O-o-", so first 16th is O, second o, third -, fourth -? Or maybe the third is -, fourth is -? Wait the T line is written as "O-o-" so four characters. So first is O, second o, third -, fourth -. 
+
+So the toms hit on 1 and 2 of each beat? Hmm, maybe overlapping with the ghost notes, but that's okay as they're different instruments.
+
+Therefore, the edited S line would be:
+
+S: -o-o | -o-o | O-o- | -o-o 
+
+So the final notation would have that for the Snare. Let me write it out properly with the @@@.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: -o-o|-o-o|O-o-|-o-o
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

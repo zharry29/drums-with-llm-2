@@ -1,0 +1,25 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only snare but also cymbal. The original groove provided has kick (K), snare (S), hihat (H), and nothing on toms (T), crash (C), or ride (R). The edit request specifically mentions adding a cymbal, so I need to decide whether to use crash (C) or ride (R). 
+
+Looking at the existing elements: the snare is already present, so the main task is to add either crash or ride. The hihat is active with X and x hits, which are closed hits. Since the user mentioned "cymbal" generally, either crash or ride could work. But in typical drum grooves, ride is often used alongside snare and hihat for a more continuous rhythm, while crash is more for accents. 
+
+The current ride (R) line is empty. To add ride, I can create a steady pattern. The hihat is doing eighth notes (X-x- repeated), so maybe the ride can complement that. A common ride pattern is alternating between closed and open hits, like -X-X or something similar across the bar. That would add a cymbal element without conflicting with the hihat.
+
+Alternatively, adding crash (C) on strong beats like the downbeats could work. But crashes are usually less frequent, so maybe only on the first beat. However, the user might prefer a more consistent cymbal presence. Since the instruction says "not only snare but also cymbal," and the ride is a cymbal, it's safer to go with ride to ensure continuous cymbal activity.
+
+So, I'll add a ride pattern. Let's see the structure. Each bar has four beats separated by |. The existing snare has hits on the second and fourth beats. To avoid clashing, the ride can play on all 16th notes but alternate between X and x (closed hits on the bow). For example, "-X-X|-X-X|-X-X|-X-X" would give a steady 16th note ride pattern. That should integrate well without overpowering the snare and hihat. 
+
+Let me check the original groove again:
+
+Original R line is all dashes. So replacing it with the ride pattern. That should fulfill the edit request. I'll make sure not to add anything to crash (C) unless specified, since ride is a cymbal and the user just asked for "cymbal" generally. 
+
+Final check: Snare is there, added ride cymbal. Yep, that meets the requirement.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: -X-X|-X-X|-X-X|-X-X
+@@@

@@ -1,0 +1,39 @@
+Okay, let's tackle this drum groove edit. The user provided a specific drum notation and wants me to remove any ride or tom parts. Let me first parse the given groove to see which instruments are active.
+
+Looking at the given drum groove:
+
+- **Kick (K):** O--O|----|--O-|----
+- **Snare (S):** ----|Oo-o|-o--|O--o
+- **Hihat (H):** ----|----|----|----
+- **Toms (T):** ----|----|----|----
+- **Crash (C):** ----|----|----|----
+- **Ride (R):** o-O-|o-O-|o-O-|o-O-
+
+The user's request is to remove the ride and toms. Since the Toms line (T) is already all dashes, there's nothing to do there. The Ride (R) line has "o-O-" repeated, so I need to replace those with dashes. The rest of the instruments should stay as they are unless they're also to be removed, but the user only mentioned ride and toms. Let me double-check the original request: "I don't want any ride or tom." So, confirm that K, S, H, and C remain, but R and T are cleared.
+
+Wait, the Hihat is already inactive (all dashes), but maybe the user didn't mention it because it's already off. So, I just need to set R to all dashes. Let me reconstruct each line:
+
+- K remains: O--O|----|--O-|----
+- S remains: ----|Oo-o|-o--|O--o
+- H remains: ----|----|----|----
+- T stays as all dashes
+- C remains: ----|----|----|----
+- R becomes: ----|----|----|----
+
+Wait, the original C line is all dashes except maybe in other examples? Wait no, in the given groove above, C is all dashes. Let me check again:
+
+Original C line: C: ----|----|----|----
+
+So, yes. So the only change is the Ride line. So the final groove should have R's line replaced with all dashes.
+
+Wait, but in the user's edit request examples, sometimes when they remove instruments, other parts might have been active but not mentioned. But in this case, the user specifically said ride and tom, so I just need to zero those out. The Toms were already inactive, so only R changes. Let me make sure I didn't miss anything else. The user's edit request is straightforward here. So the final answer should reflect that.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

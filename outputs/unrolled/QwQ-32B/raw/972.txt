@@ -1,0 +1,47 @@
+Okay, so I need to edit this drum groove based on the user's request. Let's start by understanding what they want. The user said, "I don't want tom on beat 4 but everything else is fine." 
+
+First, I should recall the structure of the drum notation provided. Each line represents an instrument, and each set of four characters separated by | is a beat. The T line is for Toms. The user wants to remove any tom hits on the 4th beat. 
+
+Looking at the given drum groove:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+Wait, actually in the provided example, the Toms line (T) is already all dashes. So there's no tom playing in any beat. The user might have made a mistake, but maybe I misread.
+
+Wait, let me check again. The user's given groove has:
+
+T: ----|----|----|----
+
+So the Toms are not active at all. The user might have intended to remove something else, but according to their instruction, they specifically mentioned "tom on beat 4". Since there's nothing there, maybe the request is redundant. But perhaps there was a previous version where toms were present, but in the current input, they aren't. 
+
+Alternatively, maybe I should check other instruments. The user might have confused "tom" with another instrument. But the instruction is clear: remove tom on beat 4. Since the Toms line is already empty, the groove is already as requested. 
+
+However, to be thorough, I should confirm. Let me parse each line again:
+
+- K: Kick has some activity.
+- S: Snare has X and --X.
+- H: Hihat has x on beats 2 and 4.
+- T: Toms are all dashes.
+- C: Crash is inactive.
+- R: Ride has some pattern.
+
+Since the Toms line (T) has no hits, removing tom on beat 4 doesn't change anything. Therefore, the correct response is to leave it as is. But maybe the user intended to refer to another instrument, but since the instruction is specific to tom, I'll proceed accordingly.
+
+Thus, the edited version remains the same as the original, except maybe ensuring that the Toms line's 4th beat is clear. But since it's already clear, the final answer should be the same as the input.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

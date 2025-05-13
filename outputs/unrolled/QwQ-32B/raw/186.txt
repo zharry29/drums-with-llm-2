@@ -1,0 +1,135 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include not only ride but also tom. Looking at the provided groove:
+
+First, check the current instruments:
+- Kick (K) has some hits.
+- Snare (S) is active in some beats.
+- Hihat (H) is silent.
+- Toms (T) are completely silent.
+- Crash (C) is silent.
+- Ride (R) has a pattern with 'o-O-' repeating.
+
+The edit request is to add tom since it's currently missing. The ride is already present, so we just need to add tom hits without removing the ride. 
+
+I need to decide where to place the tom hits. Toms can add rhythm and depth. Let's look at the existing structure. The ride has a consistent pattern, so maybe syncopate the toms to complement it. Let's see the kick and snare patterns to avoid clashing. 
+
+In the first beat: K has O--O, so hits on 1st and 3rd 16th notes. The snare is silent here. Maybe add toms on the offbeats. 
+
+Second beat: K is quiet, S has Oo-o. The snare is on the 2nd and 4th 16th notes. Maybe place toms on the first and third to contrast.
+
+Third beat: K has --O-, so a hit on the third 16th. The snare has -o--. Maybe add toms on the first and fourth.
+
+Fourth beat: K has --O- again, and snare O--o. Perhaps syncopate with toms on the second and fourth.
+
+Alternatively, a simpler approach: place toms on every other 16th note but offset from the ride. Let's try a pattern like --O- for the first beat, then adjust others similarly. Wait, but need to check all four beats.
+
+Alternatively, maybe mirror the ride's pattern but on toms. The ride is o-O- which is soft, hard, open? Wait, the ride's notation uses o and O. The tom uses O and o. Let me make sure the tom's articulation is correct. Since the user didn't specify, just use O for hard hits where needed.
+
+Let me try:
+
+T: --O- | -O-- | --O- | -O--
+
+But need to check each beat:
+
+First beat (K: O--O, R: o-O-):
+- T could have hits on the 3rd and 4th? Not sure. Maybe start with --O- so third and fourth 16th notes? Wait each beat is four characters. Let me think step by step.
+
+First beat:
+R: o-O- (positions 1: soft, 2: hard, 3: open, 4: -)
+Maybe add tom on position 3 (same as R's open hit?), but maybe better to alternate. Alternatively, place toms on the offbeats where there's space.
+
+Alternatively, maybe:
+
+T: -O-- | --O- | O--- | --O-
+
+But need to ensure it's spread out. Alternatively, a steady tom pattern like O--- on each beat, but that might clash. Alternatively, syncopate.
+
+Alternatively, toms on the "and" of each beat. For 16th notes, positions 2 and 4? Let's see:
+
+First beat: positions 2 and 4: -O-O but that might be too much. Alternatively, every other 16th.
+
+Alternatively, let's look at previous examples the user provided. In a prior similar edit, when adding tom, they used a pattern like --O-|--O-|--O-|--O- which is every third 16th note. Maybe follow that pattern here.
+
+So for T: --O- | --O- | --O- | --O- but adjusted per beat. Wait, but need to check for each beat.
+
+Alternatively, since the ride is on o-O- each beat, perhaps place toms on the 3rd 16th note of each beat (the 'O' in ride's pattern?), but as a tom hit.
+
+So for each beat:
+
+T: ---O | ---O | ---O | ---O ?
+
+But that would be the 4th 16th note each beat. Alternatively, third.
+
+Alternatively, maybe start with:
+
+First beat: T: --O- (third and fourth? Wait each beat is four notes. Let me think of each beat's four characters:
+
+Beat 1: positions 1-4: O--O (kick), S: ---- (snare), so tom can hit on 2 and 4? Like -O-O ?
+
+But need to ensure it's not clashing. Alternatively, toms on the 1st and 3rd?
+
+Wait, maybe a simple pattern like O--- for the first beat, but that might clash with kick's O on first. Maybe O--- on the second beat where kick is quiet.
+
+Alternatively, since the user's previous edits often added tom on every third 16th note, like --O-, let's try that.
+
+So T: --O- | --O- | --O- | --O- but check each beat:
+
+First beat: T: --O- would hit on third and fourth? Wait, the notation is four characters per beat. So "--O-" means the third character is O (hit), the fourth is -, so hit on the third 16th note of the beat.
+
+So for all four beats, T: --O- | --O- | --O- | --O-.
+
+That way, toms are on the third 16th of each beat. That might work, adding a steady tom on the "&" of each beat's third, complementing the ride's pattern.
+
+Alternatively, to add more variation, maybe alternate between O and o (hard and soft), but the user might prefer just adding presence.
+
+So finalizing T's line as --O- repeated for all four beats.
+
+Wait, but let me check the entire groove again:
+
+Original given groove:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+Adding T: --O- in each beat:
+
+T: --O-|--O-|--O-|--O- ?
+
+Wait, each beat is four characters, so for four beats:
+
+T: --O- | --O- | --O- | --O-
+
+Yes. So each beat has a tom hit on the third 16th note.
+
+Alternatively, maybe vary it a bit. Let's see the first beat's R is o-O-, so the third is an open hit. Adding a tom there might add depth.
+
+This should satisfy the edit request of adding tom while keeping ride.
+
+So the edited groove would be:
+
+K remains the same.
+
+S same.
+
+H still ----.
+
+T: --O-|--O-|--O-|--O-
+
+C still ----.
+
+R remains o-O- etc.
+
+Wait, but the user might want both ride and tom, which is achieved here. So that should work.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: --O-|--O-|--O-|--O-
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

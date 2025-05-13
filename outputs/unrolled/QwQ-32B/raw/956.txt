@@ -1,0 +1,35 @@
+Okay, let's tackle this problem. The user provided a drum groove and wants to remove the hihat on beat 4. First, I need to understand the current setup.
+
+Looking at the given drum groove:
+
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+The H line (Hihat) has "----|x---|----|x---". The user wants to eliminate the hihat on beat 4. Beat 4 is the last part after the last |, so the fourth beat here is "x---". To remove it, I should replace those x's with dashes. 
+
+So the H line should become "----|x---|----|----".
+
+I need to check if there's any other hihat on beat 4 that I might have missed. The original H line's fourth beat is "x---", so changing that to "----" will remove the hihat there. The rest of the elements (Kick, Snare, Toms, Crash, Ride) are supposed to stay the same, so I just need to ensure those lines remain unchanged.
+
+Let me verify each line:
+
+- K: remains the same.
+- S: stays as is.
+- H: modify the fourth beat to "----".
+- T, C, R: no changes.
+
+That should fulfill the user's request. Let me write the final version accordingly.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+@@@

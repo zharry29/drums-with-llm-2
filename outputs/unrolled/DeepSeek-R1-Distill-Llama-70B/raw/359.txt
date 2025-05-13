@@ -1,0 +1,47 @@
+Alright, I need to edit the drum groove according to the user's request. They don't want any kick or cymbal in the final groove. Let me look at the original groove first.
+
+Original Groove:
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+So, the kick drum (K) is present, and there are no cymbals (C or R) in this groove, which is good because the user doesn't want any cymbals. But they also don't want any kick, so I need to remove the kick drum hits.
+
+First, I'll remove the kick drum hits by setting all K line characters to "-". The snare drum (S) has a dynamic pattern with "O", "o", and "X", which is fine since the user only mentioned removing kick and cymbals. The hihat (H) has a pattern with "X" and "x", which is okay. Toms (T) are silent, and cymbals (C and R) are already silent.
+
+So, the edited groove will look like this:
+
+```
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+I've set the K line to all "-" to remove the kick drum, while keeping the rest of the instruments as they are since they don't violate the user's request.
+</think>
+
+```
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+This groove now features:
+- **Kick Drum (K):** Removed by setting all characters to "-".
+- **Snare Drum (S):** Maintains its dynamic pattern with "O", "o", and "X".
+- **Hihat (H):** Maintained with "X" and "x".
+- **Toms (T):** Kept silent as per the original groove.
+- **Crash Cymbal (C) and Ride Cymbal (R):** Both removed by setting all characters to "-".
+
+This arrangement creates a minimalist rhythm focused on the snare and hihat without any kick or cymbal hits.

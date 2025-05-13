@@ -1,0 +1,35 @@
+Okay, let's see. The user wants a snare hit and tom in the very beginning of the drum groove provided. The original groove starts with the kick on the second 16th note of the first beat (that's the "-O--" in the K line), but there's no snare or tom there. The snare first comes in on the second beat, and the toms are only on the third beat of the third measure. 
+
+So, to fulfill the request, I need to add a snare hit and a tom hit at the very start. The first beat's first 16th note is currently "-", so that's where I should place them.
+
+For the snare (S line), putting an "O" there would be a hard hit. But maybe the user just wants any hit, so "O" is good. Then, for the tom (T line), the first note should be an "O" as well for a hard hit. 
+
+Looking at the existing Toms line: it's "----|----|---O|----" originally. Changing the first character to "O" would add a tom hit on the first 16th note. 
+
+Wait, but the user might not want to remove the existing tom hits. Let me check the original T line again. The original T line has a tom hit on the third beat's third 16th note (third measure). Adding a tom hit at the beginning shouldn't interfere. 
+
+So, modifying the first character of S to "O" and first of T to "O". Let me make sure that in the K line, the existing "-O--" remains. The user didn't mention changing the kick, just adding snare and tom. 
+
+Putting it all together:
+
+Original K: -O--|OO--|---O|-OO-
+Modified S: O---|----|S---|----
+Modified T: O---|----|---O|----
+
+Wait, but the original T line was "----|----|---O|----". Changing the first character to "O" gives "O---|----|---O|----".
+
+Yes, that adds a tom hit on the first 16th note. The snare's first note is now "O---", so that's the snare hit there. 
+
+Double-checking the notation rules. For S, "O" is a hard hit, which is fine. For T, "O" is a hard hit as well. The user didn't specify soft, so default to hard. 
+
+That should do it. The edited groove now has both snare and tom hits at the very beginning.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-  
+S: O---|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: O---|----|---O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

@@ -1,0 +1,42 @@
+Okay, let's see what the user is asking here. They want me to edit a drum groove by removing the snare and tom parts. The original groove is given in that specific notation, and the user provided an example of how previous edits were done. 
+
+First, I need to understand the structure. Each line corresponds to a drum part: K is kick, S is snare, H is hihat, T is toms, C is crash, and R is ride. The user's request is to eliminate any snare (S) and tom (T) hits. So, I should go through each line and set S and T to all '-' characters.
+
+Looking at the given drum groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+Wait, the T line already has all '-' so no change there. The S line has some hits. I need to replace the S line with all '-'.
+
+So the edited version should have S as all dashes. The rest remains the same except S and T. Let me double-check. The user said "no snare or tom", so S and T lines must be silent. The kick, crash, and ride can stay as they are unless they were part of the request. Since the user didn't mention those, leave them. 
+
+Wait, in the original, T is already all '-', so that's already done. The S line needs to be changed from having O's to all '-'. Let me confirm each part:
+
+Original S line:  
+S: ----|O---|----|O---
+
+After removing snare, it becomes:  
+S: ----|----|----|----
+
+Yes. The rest stays. The crash (C) is still there unless the user also wanted that removed, but the request was only snare and tom. So the final should look like:
+
+K remains the same, S all dashes, T remains, C stays, R stays.
+
+Wait the user's example in previous interactions, like when they removed kick and tom, they just set those lines to dashes. So following that pattern, this should be straightforward.
+
+Let me make sure I didn't miss any other instruments. The user didn't mention hihat, crash, or ride, so they stay as in the original. The edited groove should then have S and T lines cleared where necessary.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

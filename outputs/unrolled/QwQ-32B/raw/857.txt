@@ -1,0 +1,26 @@
+Okay, let me try to figure this out. The user wants a kick hit and a tom in the very beginning of the drum groove they provided. Let me look at the given groove first.
+
+The original K (kick) line is "-O--|OO--|---O|-OO-". The first beat is "-O--", which starts with a rest (the first character is "-"), then a hard hit on the second 16th note. So the very first 16th note isn't hit. The user wants a kick hit there, so I need to change that first "-" to an "O" or "o". Since they didn't specify soft or hard, maybe default to hard "O".
+
+For the tom hit, the T line is "----|----|---O|----". The first beat has all dashes, meaning no tom hits. So to add a tom hit at the very beginning, the first character of the T line should be "O" (hard) or "o" (soft). Again, maybe "O" unless specified otherwise.
+
+Let me check the other instruments to ensure there's no conflict. The crash (C) has "O---" in the first beat, so a crash is already happening on the first 16th note. But the user didn't mention removing that, so it's okay to have both kick and tom along with the crash.
+
+So modifying the K line's first character to "O" and T line's first to "O". Let me write that out.
+
+Original K: -O-- becomes O---
+Original T: ---- becomes O---
+
+Wait, but the user said "kick hit and tom in the very beginning". The very first 16th note is the first character, so yes, changing those first characters. Let me make sure the rest of the lines stay the same. The S, H, and R lines should remain unchanged unless needed, but the edit request doesn't mention them. The crash is already there, so that's fine.
+
+Double-checking the notation rules: For K, O is hard, T's O is also hard. That should satisfy the request. Alright, that should do it.
+</think>
+
+@@@
+K: O---|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: O---|----|---O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

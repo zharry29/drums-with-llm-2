@@ -1,0 +1,200 @@
+Okay, let's see what I need to do here. The user provided a drum groove and wants me to edit it so that it includes not only the ride but also the tom. The original groove has kick, snare, crash, and toms are currently silent. Wait, actually looking at the given groove:
+
+The T line is all dashes, so there's no tom. The R (ride) is also all dashes. The edit request says to include both ride and tom. So I need to add parts for both instruments where they are currently not present.
+
+First, let me parse the existing groove again to make sure I understand:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+
+So, Kick has some activity, snare on the second and fourth beats, crashes on every beat, but no toms or ride. The user wants both ride and tom added. 
+
+The instruction says "not only ride but also tom," meaning both should be present where they weren't before. Since the original has neither, I need to add both. 
+
+Let me think about how to approach this. For the ride, typically, ride is played on the bow with X or x, maybe on every beat or a steady pattern. Since the existing groove has a crash on every beat, maybe the ride can complement that without clashing. Alternatively, maybe the ride can be on the offbeats. 
+
+Toms (T line) can be added in between the kick hits. Since the kick is quite active, maybe the toms can be on the "and" of the beats or alternate with the kick. Let me look at the kick's pattern:
+
+First beat: OOO- (so hits on 1, 2, 3 of the 16th notes in the first beat)
+Second beat: --O- (hit on the 3rd 16th note)
+Third beat: OOO- again
+Fourth beat: -OOO (hits on 2,3,4 of the last beat)
+
+Hmm, that's a busy kick. Adding toms might need to be in places where the kick isn't too heavy. Alternatively, maybe syncopated. Let's consider a tom pattern that's steady but not too overpowering. Maybe every other 16th note? Or on the offbeats. 
+
+For the ride, since the crashes are on every beat, perhaps the ride plays on the "and" of each beat. Let me think of a common ride pattern. Maybe a steady 8th note or 16th note pattern. Let's try a 16th note pattern with X and x for closed hits on the bow. 
+
+Alternatively, since the user might want a balance, maybe the ride is on every beat's first 16th note, and the tom on the offbeats. Let me sketch possibilities.
+
+Starting with Toms (T line). Let's pick a pattern that's simple. Maybe on the "&" of each beat. For example, in each beat (which is 4 16th notes), the first note is the downbeat, the second is "&". So for T, maybe O on the second 16th note of each beat. So like -O-- for each beat. But since there are four beats separated by |, the T line would be -O--|-O--|-O--|-O--. But maybe more varied. Alternatively, a pattern like O---|O---|O---|O--- would put toms on the first 16th of each beat, but that might clash with kick's OOO- in the first beat. Maybe better to stagger. 
+
+Alternatively, since the kick's first beat has three hits, maybe the tom can be on the fourth 16th note of each beat. So like ---O|---O| etc. Let me see:
+
+For Toms, perhaps a pattern like ---O|---O|---O|---O. That would place toms on the fourth 16th note of each beat. Let's check if that works with the kick:
+
+First beat: K has OOO- (so hits on 1,2,3; tom on 4)
+Second beat: K has --O- (hit on 3; tom on 4)
+Third beat same as first
+Fourth beat: K has -OOO (hits on 2,3,4; tom on 4 would clash with kick's 4th hit. Hmm, that's a problem. 
+
+Alternatively, maybe the tom is on the second 16th note of each beat, so -O--. Let's see:
+
+First beat: K has O on 1,2,3. Tom on 2 would clash with kick's O on 2. Not ideal. 
+
+Alternatively, third 16th note: --O- would clash with kick's third hit in first and third beats. 
+
+Hmm, tricky. Maybe alternate the tom between beats. For example, first beat: tom on 4, second on 2, third on 4, fourth on 2? That could work. Let me try:
+
+First beat: ---O (tom on 4)
+Second beat: -O-- (tom on 2)
+Third beat: ---O (tom on 4)
+Fourth beat: --O- (tom on 3?)
+
+Wait, the fourth beat's kick is -OOO, so hits on 2,3,4. If tom is on 3, that would clash. Alternatively, fourth beat's tom on 1? But kick has O there. Maybe the fourth beat's tom on the first 16th note? Let's see:
+
+Alternatively, maybe a pattern like -O--|---O|O---|---O. Not sure. Maybe a simple pattern where tom is on every other beat. Let's think of a tom pattern that's not conflicting. Maybe every two beats. Alternatively, start with a simple pattern and adjust.
+
+Alternatively, since the kick is very active, maybe the tom can be on the "and" of the third beat. Let me think of the T line as --O- for each beat. So in each beat, the tom hits on the third 16th note. Let's see:
+
+First beat: K has O on 1,2,3; tom on 3 would clash with kick's third hit. So that's bad.
+
+Hmm. Maybe the tom should be on the fourth 16th of every beat except where kick is hitting there. For example, first beat's tom on 4 (since kick's first beat's fourth is empty). Second beat's tom on 4 (since kick's second beat's fourth is empty). Third same as first. Fourth beat's kick has a hit on 4, so tom can't be there. So maybe fourth beat's tom on 2?
+
+Alternatively, maybe the tom is only on beats 1 and 3, but that might be sparse.
+
+Alternatively, perhaps a simpler approach: use a tom on every other 16th note but offset from the kick. Let me try:
+
+T: O---|O---|O---|O--- (tom on first 16th of each beat). But first beat's kick starts with OOO-, so tom on 1 would clash with kick's first hit. So that's bad.
+
+Hmm. Maybe the tom can be on the second 16th note of each beat except when the kick is hitting there. Let's see:
+
+Second 16th note:
+
+First beat: kick hits on 1,2,3. So tom on 2 would clash with kick's second hit (O). So bad.
+
+Third 16th note:
+
+First beat's kick has O on 3, so tom on 3 would clash.
+
+Fourth 16th note:
+
+First beat's fourth is empty, so tom on 4 is okay.
+
+Second beat's fourth is empty (since kick's second beat is --O- (hit on 3)), so tom on 4 is okay.
+
+Third beat same as first: tom on 4 is okay.
+
+Fourth beat's fourth is hit by kick's -OOO (hit on 4), so tom can't be there. So in the fourth beat, maybe tom on the second 16th note (but kick's second is hit in the fourth beat? Wait, the fourth beat's kick is -OOO: positions 2,3,4. So second 16th is hit by kick. So no. Maybe fourth beat's tom on first? But first is hit by kick's -OOO (the first position is -, so maybe the first 16th is not hit. Wait, the fourth beat's kick is "-OOO", so first 16th is -, second is O, third O, fourth O. So first 16th is free. So tom on 1 of fourth beat? But that would be on the downbeat, same as kick's first hit in other beats. Maybe that's okay if it's a tom instead of kick. Let me see:
+
+Tom on first 16th of fourth beat would be on the downbeat of the fourth beat, which is the start of the last beat. Since the kick's fourth beat starts with -, the tom can hit there. So in that case, the T line could be:
+
+For each beat:
+
+Beat1: ---O (tom on 4)
+Beat2: ---O (tom on 4)
+Beat3: ---O (tom on 4)
+Beat4: O--- (tom on 1)
+
+So overall T: ---O|---O|---O|O---
+
+But let's check each beat:
+
+Beat1 (positions 1-4): K: O O O -, T: - - - O. So tom on 4, okay.
+
+Beat2 (positions 5-8): K: - - O -, T: - - - O. Tom on 4 (position 8), okay.
+
+Beat3 (positions 9-12): same as beat1, so tom on 12 (position 12).
+
+Beat4 (positions 13-16): K: - O O O, T: O - - -. So tom on 13 (position 13), which is the start of the fourth beat. Since kick's first hit here is on 14 (position 14?), wait, need to confirm numbering.
+
+Wait, each beat is four 16ths. The fourth beat is the last four 16ths (13-16). The kick in the fourth beat is "-OOO", so positions 13 (no), 14 (O), 15 (O), 16 (O). So tom on 13 (position 13) is okay, as that's the first 16th of the fourth beat, not hit by kick. So that's acceptable.
+
+So T line would be: ---O|---O|---O|O---. That gives a tom on the last 16th of the first three beats and the first 16th of the fourth beat. That might work, adding some variation.
+
+Now for the ride (R line). The original has no ride, so need to add a pattern. Since the crash is on every beat (C line has O--- on each beat), maybe the ride can play on the offbeats. Let's think of a common ride pattern. Maybe a steady 16th note pattern with closed hits (X and x). For example, X-x- repeated each beat. Let's see:
+
+R: X-x-|X-x-|X-x-|X-x-
+
+That would give a closed hit on the first and third 16ths of each beat, with the third being softer. Let's see how it interacts with other elements.
+
+Alternatively, maybe alternate between O and X for variation. But the user might just want a basic ride pattern. Let me go with X-x- for each beat. So:
+
+R: X-x-|X-x-|X-x-|X-x-
+
+Check for conflicts. The snare is on the second and fourth beats (S line has O--- on the second and fourth beats). So on beat 2, the snare hits on the first 16th (since S: ----|O--- means the second beat's first 16th is O). The ride's first 16th of beat2 would have X, which is okay because snare's hit is also on that 16th. Since they're different instruments, it's fine. 
+
+The hihat is all dashes, so no conflict there. The crash is on every beat's first 16th, so the ride's first 16th note of each beat would coincide with the crash. That might be a bit much, but perhaps acceptable. Alternatively, maybe the ride could be on the "and" of each beat (the second and fourth 16ths). Let's try that:
+
+R: -X--| -X-- etc. but that's sparse. Alternatively, maybe X on the second and fourth 16ths. Hmm, but maybe the user just wants ride added, so even if it's on the same as crash, it's okay. Let's proceed with X-x- pattern.
+
+Alternatively, maybe the ride plays on the second and fourth 16ths of each beat. Like --X-| -X--? Not sure. Let me stick with the initial idea unless there's a conflict.
+
+Putting it all together:
+
+K remains the same.
+
+S remains the same.
+
+T: ---O|---O|---O|O---
+
+R: X-x-|X-x-|X-x-|X-x-
+
+C remains as O--- on each beat.
+
+Wait, but the user's edit request says "not only ride but also tom". Since the original had no ride and no tom, adding both is necessary. The above does that.
+
+Wait, but let me check the T line again. The fourth beat's T is O---, so the first 16th of the fourth beat (position13) has a tom hit. The kick's fourth beat is "-OOO", so position13 is -, so that's okay. 
+
+Alternatively, maybe a more consistent pattern for T. Let me see if there's a better way. Maybe the tom is on every fourth 16th except the last beat. Or maybe a different pattern. Alternatively, maybe start with O on the first beat's second 16th, but that would clash with kick. Hmm.
+
+Alternatively, the tom could be on every third 16th note. Let's try:
+
+For each beat, tom on the third 16th (position3):
+
+T: --O-|--O-|--O-|--O-
+
+But first beat's kick has an O there (since first beat is OOO-), so clash. Not good.
+
+Hmm, perhaps the initial approach is the best. Let's proceed with the T line as ---O|---O|---O|O--- and R as X-x-|X-x-|X-x-|X-x-.
+
+Wait, but in the fourth beat's T line, O--- would mean tom on the first 16th of the fourth beat. Let me confirm the counts:
+
+Beat1: positions1-4: K: O O O -, T: ---O (tom on 4)
+Beat2: positions5-8: K: - - O -, T: ---O (tom on 8)
+Beat3: same as beat1
+Beat4: positions13-16: K: - O O O, T: O--- (tom on13)
+
+So that's okay.
+
+Now let's write the final groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ---O|---O|---O|O---  
+C: O---|O---|O---|O---  
+R: X-x-|X-x-|X-x-|X-x-  
+
+Wait, but the R line needs to be four beats. Each beat is four characters. Let me check the R line:
+
+Each beat is X-x- so four characters. So yes, four beats would be X-x-|X-x-|X-x-|X-x-.
+
+That's correct. 
+
+Alternatively, maybe the R pattern should be more varied. For example, alternating between X and x, or using O for the bell on certain hits. But since the user didn't specify, a simple pattern is okay.
+
+I think this should fulfill the request: adding both ride and tom where they were absent before.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ---O|---O|---O|O---
+C: O---|O---|O---|O---
+R: X-x-|X-x-|X-x-|X-x-
+@@@

@@ -1,0 +1,38 @@
+Okay, so the user wants me to edit their drum groove by adding a ride hit and a tom in the very beginning. Let me look at the given drum notation first. The original groove is:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+Hmm, the request is for a ride hit and tom in the very first 16th note. The first bar starts with the kick on the second 16th note (the "-O--" part). The ride currently has nothing in the first bar. The toms are also silent in the first bar except for the third beat. 
+
+So, to add a ride hit at the very beginning, I need to change the first character of the R line from '-' to something. Since the user mentioned "ride hit," and the ride can have O (hard bell) or o (soft bell), or X/x for closed bow hits. Since they didn't specify, maybe start with a hard hit on the bell, so 'O'.
+
+For the tom, the T line is all '-' in the first beat. The toms can have O or o. A hard hit would be O. So the first character of T should be 'O'.
+
+Wait, but the user wants both in the very beginning, which is the first 16th note. Let me check the positions. Each bar is divided into four beats, each with four 16th notes. The first bar's first beat is "-O--" for the kick. The first 16th note is the first character, which is '-', so that's where we need to add the hits.
+
+So for the ride (R line), the first character should be 'O' to hit the bell hard. For the tom (T line), the first character should be 'O' as a hard hit. Let me adjust those lines.
+
+Original R line: "----|----|----|----" becomes "O---|----|----|----".
+
+Original T line: "----|----|---O|----" becomes "O---|----|---O|----".
+
+Wait, but in the original T line, the third beat has "---O", so keeping that. The first beat now has an O in the first 16th note.
+
+Let me check the other lines to make sure nothing else is conflicting. The crash has O's in each bar, so that's okay. The snare starts on the third beat. The hihats are already active. 
+
+This should fulfill the request. Let me put it all together.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: O---|----|---O|----  
+C: O---|O---|O---|O---  
+R: O---|----|----|----  
+@@@

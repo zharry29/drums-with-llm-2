@@ -1,0 +1,53 @@
+Okay, I need to edit this drum groove based on the user's request to remove any kick or hihat. Let me start by understanding the original groove provided.
+
+Looking at the given drum notation:
+
+K: o---|--o-|o---|--o- (Kick drum)
+S: ----|X---|--X-|---- (Snare drum)
+H: ----|x---|----|x--- (Hihat)
+T: ----|----|----|---- (Toms)
+C: ----|----|----|---- (Crash cymbal)
+R: x---|X-x-|x---|X-x- (Ride cymbal)
+
+The user wants to eliminate both the kick (K) and hihat (H) parts. So, I'll set all their entries to '-' to indicate no hits. The snare (S), toms (T), crash (C), and ride (R) can stay unless specified otherwise. Let me check the edit request again to confirm—yes, only kick and hihat are to be removed.
+
+First, I'll go through each line:
+
+- **Kick (K):** Replace all characters with '-' since we're removing it. The original has o's and -'s, so replacing everything with '-' will silence it.
+- **Snare (S):** Keep as is unless there's a conflict, but the user didn't mention snare. The S line has X and x, which are sidestick hits. Since the request is only about kick and hihat, leave S untouched.
+- **Hihat (H):** Similarly, replace all entries with '-' to remove all hihat hits.
+- **Toms (T), Crash (C), Ride (R):** These are already inactive except for Ride which has some patterns. Since the user didn't mention them, they stay unless there's a mistake. Wait, in the original, Toms are all '-', so no change needed. Crash is also '-', so no issue. Ride has some activity, which is allowed as it's not part of the removal request.
+
+Wait a second, the user might have wanted to remove only kick and hihat, so the snare and ride can stay. Let me double-check the original edit request: "I don't want any kick or hihat." So, correct, only K and H are removed.
+
+Now, constructing the new groove:
+
+K line becomes all '-' with the same structure:
+K: ----|----|----|----
+
+H line similarly:
+H: ----|----|----|----
+
+The rest remain as they are. Let me verify each line again to ensure no mistakes.
+
+Snare (S):
+Original: S: ----|X---|--X-|----
+This should stay the same because the user didn't ask to remove snare.
+
+Ride (R):
+Original: R: x---|X-x-|x---|X-x-
+This remains as well since it's not a cymbal to be removed here (the user didn't mention ride specifically).
+
+Toms and Crash are already inactive, so no changes there.
+
+Putting it all together, the edited drum groove should look like this between the @@@:
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|X---|--X-|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

@@ -1,0 +1,51 @@
+Okay, I need to edit this drum groove by removing all cymbals and snares. Let me look at the given drum notation first.
+
+The original groove is:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+The user doesn't want any cymbals (C and R) or snares (S). So, I need to clear out the S, C, and R lines. Let me check each line:
+
+- **Kick (K):** This stays unless there's a cymbal here, but K is allowed.
+- **Snare (S):** Remove all entries here.
+- **Hihat (H):** Since it's not a cymbal or snare, it's okay. Wait, the user said "no cymbal or snare." Hihat is H, which is a hi-hat, not a cymbal. The cymbals are C (crash) and R (ride). So H can stay unless specified otherwise. The user didn't mention hihat, so keep H.
+- **Toms (T):** They are fine, so leave as is.
+- **Crash (C) and Ride (R):** Remove these entirely.
+
+Wait, let me confirm the instruments again. The problem states the user wants no cymbals (so C and R lines) and no snare (S line). The hihat (H) is a separate part, not a cymbal, so it stays unless the user specified against it, which they didn't. So H remains.
+
+So, modifying each line:
+
+- K remains as is.
+- S becomes all dashes.
+- H stays the same.
+- T stays the same.
+- C and R become all dashes.
+
+Let me rewrite each line:
+
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, the original T line was all dashes, so that's okay. The H line was active, so it stays. The user didn't mention hihat, so it's allowed. The final result should look like that. Let me double-check:
+
+Yes, the user only excluded cymbals (C and R) and snare (S). The kick and toms are okay. Hihat is separate. So this should be correct.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

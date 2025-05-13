@@ -1,0 +1,55 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any ride or tom parts from the given groove. 
+
+First, I need to recall the instruments each line corresponds to. The given groove has lines for Kick (K), Snare (S), Hihat (H), Toms (T), Crash (C), and Ride (R). The user's request is to eliminate the Ride (R) and Toms (T). 
+
+Looking at the provided groove:
+
+Original:
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@
+
+Wait a second, the original Toms (T) line is already all dashes, meaning there are no tom hits. The user might have mentioned toms just in case, but in this case, T is already inactive. The Ride (R) is also all dashes. Hmm, maybe the user wants to ensure that even if there were any, they're removed. But in this specific case, both T and R lines are empty. 
+
+However, maybe I should double-check. The user's instruction says "I don't want any ride or tom." So regardless of current state, set those lines to all dashes. 
+
+So, even if T and R are already empty, to comply strictly, I should confirm they are set to all '-', which they are. Therefore, the edited version remains the same as the original except perhaps ensuring T and R are clear. But since they already are, the groove doesn't change. 
+
+Wait, but maybe I misread the original. Let me check again:
+
+Looking at the T line: "----|----|----|----" – yes, no toms. R is also all dashes. So the user's edit doesn't require any changes here. But perhaps the user expects that even if there were elements, they should be removed. Since there are none, the result is the same.
+
+Therefore, the final edited groove should be the same as the original, but only including the required lines with dashes for T and R. 
+
+Alternatively, maybe the user provided a different groove? Let me check again the user's input. The user's given groove is:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@
+
+Yes, so T and R are already inactive. Therefore, the edited version is the same. But since the user might expect an action, perhaps there's a mistake. Alternatively, maybe I misread the T line. Let me confirm each part:
+
+- Toms (T) line is all dashes, so no tom hits. 
+- Ride (R) is also all dashes. 
+
+Therefore, the edited version remains unchanged. However, perhaps the user intended that even if there were, but in this case, there's nothing to remove. So the final answer is the same as the original, but I need to present it properly between the @@@.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

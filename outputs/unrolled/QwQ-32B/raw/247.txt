@@ -1,0 +1,25 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include not only the hihat but also toms. Looking at the given groove:
+
+The Kick (K) and Snare (S) lines are all dashes, meaning they're not being used. The Hihat (H) has some x's on the 2nd and 4th beats, and the Ride (R) has a pattern with x and X. The Toms (T) are completely silent. The request is to add toms, so I need to figure out where to place them without conflicting with existing elements.
+
+First, since the hihat is already present on beats 2 and 4, maybe the toms can complement those. The ride has a steady pattern, so adding toms on the offbeats or syncopated could work. Let me look at the hihat's placement: on the second 16th note of the second and fourth beats. Maybe align the toms with the hihat hits but on different subdivisions. Alternatively, place toms on the downbeats where there's no kick or snare.
+
+Since the kick and snare are empty, maybe the toms can take over some rhythmic roles. Let's see the structure. Each bar is divided into four beats, each with four 16th notes. The hihat is on the second 16th note of beats 2 and 4. The ride has a repeating x-X-x-X pattern every beat.
+
+To add toms, perhaps place a hard hit (O) on the first 16th note of each beat to create a foundation. That would be on the downbeats. Alternatively, syncopate them between the hihat hits. Let me try putting an O on the first 16th of each beat. So for each beat's first note, T has O. That would be T: O---|O---|O---|O---. But maybe alternating with softer hits for variation. Or maybe every other beat.
+
+Wait, the user's previous examples often added toms on every beat but offset. For instance, in earlier edits, Toms were placed on the third 16th note of each beat like --O-|--O- etc. Let me check the previous interactions to see the pattern. Looking back, in one of the user's previous edits, when adding toms to a similar situation where only hihat and ride were active, they placed toms on the third 16th note of each beat (like --O-). That might be a consistent approach here.
+
+So following that pattern, for each beat, the third 16th note would have a tom hit. Let's try that. For each beat separated by |, the third character is O. So for four beats, it would be --O-|--O-|--O-|--O-. That way, the toms are on the "&" of each beat (the third 16th note), which is a common offbeat placement. This would complement the hihat on the second 16th note of beats 2 and 4, adding a tom on the third 16th note of every beat. That should fulfill the request without clashing with existing elements. Let me write that out for T line: T: --O-|--O-|--O-|--O-.
+
+Alternatively, maybe vary the hits, like alternating O and o for dynamics, but the user might prefer a consistent hard hit first. Since the original groove's ride and hihat are steady, the toms adding a consistent rhythm would work. I think that's the way to go. Let me check if that's within the notation rules. Toms use O and o, so using O for hard hits is correct. The other instruments are okay as they are. So the final T line would be --O- on each beat. That should do it.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: --O-|--O-|--O-|--O-
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

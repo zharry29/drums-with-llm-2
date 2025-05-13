@@ -1,0 +1,45 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any kick or hihat parts. Let me start by looking at the original groove provided.
+
+First, the Kick (K) line is "-O--|OO--|---O|-OO-". To remove the kick, I need to replace all non '-' characters with '-'. So each 'O' or '-' should stay as '-' if it's already there, but any hits like 'O' need to become '-'. So the K line becomes "----|----|----|----".
+
+Next, the Snare (S) line has "----|----|S---|----". The user didn't mention snare, so I should leave that as is unless there's a mistake. Wait, the request was to remove kick and hihat, not snare. So S stays.
+
+Now the Hihat (H) line is "x-x-|x-x-|x-x-|x-x-". Since we need to remove hihat, all those x's and - become '-'. So H becomes "----|----|----|----".
+
+The Toms (T) line is "----|----|---O|----", which is fine to keep unless instructed otherwise. The Crash (C) is "O---|O---|O---|O---", and Ride (R) is "----|----|----|----". Since the user only wants to remove kick and hihat, those remain as they are.
+
+Wait, the user might have meant to keep other instruments like toms and crashes? Let me double-check the edit request: "I don't want any kick or hihat." So yes, only those two lines should be cleared. The snare, toms, crashes, and ride stay as they are unless they were part of the original instruction to remove. The original S line has a 'S---' in the third beat. Since the user didn't mention snare, that stays. 
+
+Wait, but in the provided example earlier, when similar requests were made, sometimes the assistant removed other elements if they were part of the excluded categories. Let me confirm the user's exact request again: "I don't want any kick or hihat." So only K and H lines need to be cleared. 
+
+So final lines would be:
+
+K: all dashes.
+
+S remains as original.
+
+H all dashes.
+
+T, C, R stay.
+
+Let me check the original again to make sure:
+
+Original K: -O--|OO--|---O|-OO-
+
+After removal: ----|----|----|----
+
+Original H: x-x-|x-x-|x-x-|x-x- → all dashes.
+
+Snare line has an 'S---' which is a sidestick hit (since X and x are sidestick). The user didn't mention snare, so that stays. 
+
+So the edited groove should have K and H lines cleared, others unchanged.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|S---|----
+H: ----|----|----|----
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

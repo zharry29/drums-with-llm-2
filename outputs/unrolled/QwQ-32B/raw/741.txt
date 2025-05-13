@@ -1,0 +1,54 @@
+Okay, let me tackle this drum groove edit. The user wants a cymbal hit and a snare in the very beginning. The original groove is:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+First, I need to figure out where the "very beginning" is. The first beat is the first four characters before the first |. The user wants both a cymbal and a snare hit there.
+
+Looking at the current instruments:
+- The Kick (K) starts with "O---", so a hard kick on the first 16th note.
+- The Snare (S) is "----" in the first beat, so no snare there yet.
+- The Crash (C) has "O---", so a hard crash on the first 16th note already.
+
+Wait, the Crash already has a hit in the first 16th note. The user wants a cymbal hit, which could be Crash or Ride. Since Crash is already there, maybe they just want to confirm or adjust, but the main thing is adding a snare. 
+
+The edit request says "cymbal hit and snare in the very beginning." Since the Crash is already there, perhaps the user wants to ensure that both are present. The Snare isn't there yet, so adding a snare hit on the first 16th note. 
+
+So for the Snare (S) line, the first beat should have an 'O' (hard hit) on the first 16th note. The original S line starts with "----", so changing that to "O---".
+
+But wait, the Crash (C) already has an 'O' there. So the first beat will have Kick (O), Snare (O), and Crash (O) all on the first 16th note. That's a lot, but maybe that's what the user wants. Alternatively, maybe the cymbal refers to Ride instead of Crash? Let me check the original groove again.
+
+In the original, Crash (C) is active with O---, so first note is a crash. The user might just want to add a snare there. 
+
+So the changes would be:
+
+- S line: first beat changes from "----" to "O---".
+
+No other changes needed unless the user wants a different cymbal. Since they mentioned "cymbal", but Crash is already present, perhaps that's okay. The user might just want the snare added. 
+
+So the edited groove would be:
+
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+Wait, but the Hihat (H) starts with "--o-", which might be a soft open hit on the third 16th note. The user didn't mention changing that, so it stays.
+
+Let me double-check the original request: "cymbal hit and snare in the very beginning." The cymbal is already there (Crash), so adding the snare. That should be it.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: O---|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

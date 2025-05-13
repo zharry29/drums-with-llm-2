@@ -1,0 +1,26 @@
+Okay, let's tackle this drum groove edit. The user wants a cymbal hit and tom in the very beginning. The original groove has no kick, snare, toms, or crash in the first beat. The hihat is only on the second and fourth beats, and the ride is playing a pattern.
+
+First, I need to add a cymbal hit. The user specified "cymbal," but the options are Crash (C) or Ride (R). Since the ride is already active, maybe adding a crash on the first note would make sense for a strong start. The crash is denoted by 'O' for a hard hit. So, in the first beat of the crash line (C), I'll put an 'O' in the first 16th note.
+
+Next, the tom (T). The toms are currently silent. To add a tom hit in the beginning, I can use 'O' for a hard hit on the first 16th note of the tom line. That should give the required tom hit at the start.
+
+Now, check the other instruments. The kick (K) and snare (S) are already quiet in the first beat, so no changes there. The hihat (H) is also okay as is. The ride (R) already has its pattern, so leaving it as is maintains the rhythm.
+
+Let me verify the positions. The first beat is four characters before the first |. So for C: the first character should be 'O', making it O---|... and similarly for T: O---|....
+
+Yes, that should do it. The edited lines would be:
+
+C: O---|----|----|----
+T: O---|----|----|----
+
+Everything else stays the same. Let me double-check the notation rules to ensure I'm using the right symbols. Crash uses 'O' for hard, and tom also uses 'O' for hard. Perfect. This should fulfill the user's request without conflicting with existing elements.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: O---|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

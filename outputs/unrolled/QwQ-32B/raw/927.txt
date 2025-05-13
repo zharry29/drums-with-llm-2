@@ -1,0 +1,28 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the cymbal on beat 4 but keep everything else the same. First, I need to check the original groove provided.
+
+Looking at the given drum notation:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+The user mentioned "cymbal on beat 4". Since the cymbals here are represented by the 'C' (Crash) and 'R' (Ride) lines, I need to check both. 
+
+Looking at the 'R' line (Ride cymbal), each beat is "o-O-". The fourth beat is "o-O-", so the last part of the fourth beat (the fourth 16th note) has an 'o' which is a soft hit on the ride bell. Since the user wants to remove cymbals on beat 4, I need to set all characters in the fourth beat of the Ride line to '-'.
+
+The 'C' line (Crash) is all dashes, so no crash cymbal is being used here. Therefore, only the Ride cymbal needs adjustment.
+
+So, modifying the 'R' line's fourth beat from "o-O-" to "----". The rest of the lines remain unchanged. Let me double-check to ensure I didn't affect other beats. The first three beats of 'R' stay as "o-O-", only the fourth beat is cleared. That should meet the user's request without altering anything else.
+</think>
+
+@@@
+K: O--O|----|--O-|----  
+S: ----|Oo-o|-o--|O--o  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: o-O-|o-O-|o-O-|----  
+@@@

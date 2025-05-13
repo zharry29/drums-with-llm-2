@@ -1,0 +1,133 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only kick but also snare. Looking at the given groove:
+
+**Original Groove:**
+```
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+Hmm, wait a second. The snare line (S) already has some hits: in the second beat `Oo-o`, third `-o--`, and fourth `O--o`. So the snare is already present. But the user's request says "not only kick but also snare," which might mean they want more snare or perhaps the snare wasn't there before. Maybe there was a mistake in the request, or maybe I need to ensure the snare is more prominent.
+
+Alternatively, maybe in the original problem, the snare was missing entirely, and the user wants to add it. Let me check again. The S line does have some hits, so perhaps the user wants to enhance the snare part. But since the instruction says "the groove should have not only kick but also snare," maybe the original had only kick and no snare, but in this case, there is some snare. 
+
+Wait, looking at the S line again: the first beat is all dashes, so the first beat has no snare. Maybe the user wants the snare to be more consistent across all beats. Let me see. The current S line is:
+
+- Beat 1: `----` (no snare)
+- Beat 2: `Oo-o` (has hits)
+- Beat 3: `-o--` (has a soft open hit on the third 16th note)
+- Beat 4: `O--o` (hard hit on first, soft on last)
+
+So the first beat lacks snare. Maybe the user wants snare in all beats. Alternatively, perhaps the original had no snare at all, but in the given groove, there is some. Maybe the user's request is a standard one, so I should add snare where it's missing.
+
+Let me proceed to enhance the snare part. The kick is already present (K has hits), so adding more snare hits where possible.
+
+First beat (K: O--O). Let's add a snare hit on the 4th 16th note (the last of the first beat) to match the kick's O--O. Maybe a soft hit there. So S's first beat could be `----` to `--o-` (soft on the 4th).
+
+Second beat (S has Oo-o). Maybe keep that.
+
+Third beat (S has -o--). Maybe add a hit on the first 16th note to make it O-o-.
+
+Fourth beat (O--o). Maybe keep as is.
+
+Alternatively, to make it more consistent, maybe add a snare hit on the 4th beat of each measure. Let me structure it so that each beat has a snare hit on the 4th 16th note. Let me try:
+
+Adjusting S line:
+
+Beat 1: `---o` (soft hit on last 16th)
+Beat 2: `Oo-o` (already has it)
+Beat 3: `-o-o` (soft on third and fourth?)
+Wait, original third beat is `-o--`, so changing to `-o-o` would add a hit on the fourth.
+
+Fourth beat is `O--o` which already has the last hit as soft. So maybe:
+
+S: `---o|Oo-o|-o-o|O--o`
+
+But need to check if that fits the original structure. Alternatively, maybe the user wants more pronounced snare hits. Alternatively, adding a hard hit on the second beat's first 16th note and similar.
+
+Alternatively, since the user's instruction is to add snare where it's not present, focusing on the first beat which has none. Let's put a hard snare hit on the 4th 16th of the first beat, so S's first part becomes `---O`.
+
+Wait, but in the S line, the first beat is `----`, so changing to `---O` would add a hard hit on the last 16th. That would make the snare present in all beats.
+
+Alternatively, maybe add a snare on the 2nd 16th of the first beat. Let's see.
+
+Alternatively, let's see the kick's first beat is O--O. The kick hits on the first and fourth 16th notes. To sync with that, maybe the snare also hits on the fourth. So S first beat: `---o` (soft) or `---O` (hard).
+
+Let me go with `---O` to make it a strong hit. Then:
+
+S: `---O | Oo-o | -o-- | O--o`
+
+Wait, but in the third beat, the original has `-o--`. Maybe adding a hit on the fourth to make it `-o-o`?
+
+Alternatively, perhaps the user just wants to ensure that snare is present, so even adding one hit in the first beat is sufficient. Let's proceed with that.
+
+So the edited S line would be:
+
+S: `---O | Oo-o | -o-- | O--o`
+
+But let me check the notation rules for S: O is hard, o is soft open, X/x are sidestick. Since the original uses O and o, maybe keeping that style.
+
+Alternatively, maybe the user wants a more standard snare pattern, like on beats 2 and 4. Let's see:
+
+In a typical 4/4, snare is on 2 and 4. Since this is 16th notes, each beat is 4 notes. So for each measure's beats 2 and 4 (i.e., the second and fourth beats), but maybe that's overcomplicating.
+
+Alternatively, the user just wants the snare to be present in the groove, which it is, but maybe they want more emphasis. Let's make sure the first beat has a snare hit. 
+
+Final decision: Add a hard snare hit (O) on the fourth 16th note of the first beat, so S becomes:
+
+S: `---O | Oo-o | -o-- | O--o`
+
+But let me write it properly with the bars:
+
+S: ---O | Oo-o | -o-- | O--o
+
+Wait, the third beat is ` -o-- ` (original). Changing to `-o-o` would make it hit on third and fourth? Not sure. Alternatively, leave it as is and only add the first beat's hit.
+
+Alternatively, maybe the user wants the snare to have more hits. Let me see the original S line:
+
+Original S line has in beat 2: Oo-o (hard, soft open, soft open?), beat 3: -o-- (soft open on third), beat4: O--o (hard first, soft last). 
+
+Perhaps adding a hard hit on the first 16th of each beat? Not sure. Alternatively, to make it more standard, add a snare hit on every beat's fourth 16th note. Let me try that.
+
+So each beat's fourth 16th note has a snare hit (soft or hard). Let's see:
+
+Beat 1: `---o` (soft)
+Beat 2: `Oo-o` (already has o on fourth)
+Beat3: `-o-o` (change from `-o--` to `-o-o`)
+Beat4: `O--o` (already has o on fourth)
+
+So S would be:
+
+S: `---o | Oo-o | -o-o | O--o`
+
+This way, every beat has a snare hit on the fourth 16th note. That might make it more consistent. 
+
+Alternatively, maybe the user wants the snare to have more drive. Let me also check if the kick is too busy. The K line has O--O in first beat, so first and fourth 16th notes. Adding a snare on the fourth 16th would sync with kick. 
+
+So final S line:
+
+S: `---o | Oo-o | -o-o | O--o`
+
+But need to make sure each part is four characters. Let's verify:
+
+First beat: `---o` (correct)
+Second: `Oo-o` (correct)
+Third: `-o-o` (correct)
+Fourth: `O--o` (correct)
+
+Yes. So that's the edited snare line.
+
+Other instruments can stay as they are unless needed. Since the user only asked for snare addition, and the original had some, this should suffice.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ---o|Oo-o|-o-o|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

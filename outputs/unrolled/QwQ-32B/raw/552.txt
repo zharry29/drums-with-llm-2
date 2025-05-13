@@ -1,0 +1,36 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any tom or snare parts from the given groove. Let's look at the original notation first.
+
+The given groove is:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+First, I need to identify which lines correspond to the instruments the user wants removed. The S line is for snare, and T is for toms. The user said no tom or snare, so I need to clear those lines entirely. 
+
+Looking at the S line, it's already all dashes, so no action needed there. The T line is also all dashes, so that's already okay. Wait, maybe I should double-check. The user might have had some snare or tom hits in the original that I need to remove. But according to the provided groove, both S and T lines are empty. Hmm, maybe the user is just following a pattern from previous edits, but in this case, the lines are already clear.
+
+The remaining instruments are Kick (K), Hihat (H), Crash (C), and Ride (R). Since the user didn't mention removing those, they should stay as they are. 
+
+Wait, the user's instruction is "I don't want any tom or snare." Since both are already absent, the groove remains the same. But maybe I should confirm that there are no hidden tom or snare hits. Let me check each line again:
+
+- K: Kick is all dashes except maybe not? Wait the K line here is all dashes. So the kick isn't played either. The Hihat has some x's, which are closed hits according to the notation. The Ride has x, X-x patterns. Crash is all dashes.
+
+Wait, maybe I misread. The user might have intended to remove Kick? No, the instruction specifically says tom or snare. Since the groove provided doesn't have those, the edited version is the same as the original. 
+
+Alternatively, perhaps there was a mistake in the provided groove, but given the input, I have to work with what's there. So the final answer should just replicate the original but ensure that S and T are dashes. Since they already are, the output remains unchanged.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

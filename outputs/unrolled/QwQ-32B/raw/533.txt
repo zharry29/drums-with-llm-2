@@ -1,0 +1,59 @@
+Okay, let me tackle this problem step by step. The user provided a drum groove and wants me to remove any cymbals and the kick drum. First, I need to understand the given drum notation and the instruments involved.
+
+Looking at the original groove:
+
+K: o---|--o-|o---|--o-  
+S: ----|X---|--X-|----  
+H: ----|x---|----|x---  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: x---|X-x-|x---|X-x-  
+
+The instruments are Kick (K), Snare (S), Hihat (H), Toms (T), Crash (C), and Ride (R). The user's request is to remove cymbals (which include Crash and Ride) and the kick drum. So I need to set K, C, and R lines to all '-'.
+
+Starting with the Kick (K line): it has some soft hits (o and --o- patterns). Since we need to remove the kick entirely, replace all characters in K's line with '-'.
+
+Next, the Crash (C) and Ride (R) lines: both should be turned into all '-' as they are cymbals. The original R line has some x and X characters, which need to be erased.
+
+The Snare (S) and Hihat (H) lines are allowed since they aren't cymbals or kick. However, I should check if any of their articulations involve cymbals, but according to the notation, S is snare and H is hihat, so they’re okay. The S line has X and x, which are sidestick hits on the snare, not cymbals. The H line has x and closed hits (x is a closed hit here per the H description), so those stay.
+
+So modifying each line:
+
+- K becomes all '-'.
+- C becomes all '-'.
+- R becomes all '-'.
+- S and H remain as they are.
+
+Let me verify the counts. Each line should have 16 characters (4 beats of 4 notes each). Let's check each line after changes:
+
+K: All '-' → "----|----|----|----" (16 characters)
+S: "----|X---|--X-|----" → 16?
+Breaking down each beat segment:
+First beat: "----" (4), second "|X---" (4), third "|--X-" (assuming the third beat after the third | is "--X-", that's 4, and fourth "|----" (4). Total 4*4=16. Correct.
+
+H: "----|x---|----|x---" → same structure, 16.
+
+T is already empty, so stays.
+
+C and R all '-'.
+
+So the final edited groove should look like:
+
+K: all dashes
+S: unchanged
+H: unchanged
+T: unchanged (already empty)
+C: all dashes
+R: all dashes
+
+Putting it all together in the required format between @@@.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

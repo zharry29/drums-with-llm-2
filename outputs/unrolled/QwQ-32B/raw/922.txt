@@ -1,0 +1,38 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the cymbal on beat 4 but keep everything else the same. Let me start by understanding the original groove.
+
+Looking at the given drum groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+The user specifically mentioned the crash cymbal (C line) and ride cymbal (R line), but in this case, the crash cymbal is active on all four beats. The request is to remove the cymbal on beat 4. Since the crash is on beat 4 (the last segment |-OOO), but looking at the C line, it's "O---|O---|O---|O---", so each beat has an 'O' on the first 16th note. Wait, actually, each beat in the C line is "O---", so beat 4's first 16th note is an O. But the user says "don't want cymbal on beat 4". 
+
+Wait, maybe I should check the original notation again. Each line is divided into four beats separated by |. Each beat has four 16th notes. So for the C line:
+
+C: O---|O---|O---|O---
+
+That means each beat starts with an O (hard hit) and then three rests. So beat 4 is "O---", meaning the first 16th note of beat 4 has a crash. The user wants to remove the cymbal on beat 4. Since the crash is on beat 4's first 16th note, I need to replace that 'O' with '-' to silence it. The rest of the C line should stay the same. The R line (ride) is all rests, so no change there.
+
+So the edited C line would be:
+
+C: O---|O---|O---|----
+
+That way, beat 4 of the crash cymbal is removed. The other instruments remain unchanged as per the user's instruction. Let me double-check to make sure I didn't miss any other cymbals. The R line is all dashes, so no ride cymbal is playing. The only cymbal is the crash on beat 4. So replacing that O with a - in the fourth beat's first position should do it.
+
+Final check: The user said "I don't want cymbal on beat 4 but everything else is fine." So crash on beat 4 is the target. The edited version should have C's fourth beat as "----" instead of "O---".
+
+Yes, that's correct. The rest of the lines stay the same. Let me format that into the required notation.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|----  
+R: ----|----|----|----  
+@@@

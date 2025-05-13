@@ -1,0 +1,40 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include both tom and snare. Looking at the given groove:
+
+The Kick (K) is active with O's and --O- patterns. The Snare (S) has O's on the second and fourth beats but is otherwise quiet. The Toms (T) are completely silent, and the Ride (R) is also inactive. The user's request is to add tom parts while keeping the snare. 
+
+First, I need to ensure that the snare remains. The current S line has O's on the 2nd and 4th beats, so maybe just leave those as is. Now, adding toms. The T line is all dashes, so I need to place O's (hard hits) or o's (soft) in some positions. Since the kick is already busy, maybe syncopate the toms on offbeats. For example, placing a tom hit on the "and" of each beat. Let's try every eighth note but offset from the kick. Alternatively, maybe on the third 16th note of each beat. Let me check the existing kick pattern:
+
+K: OOO-|--O-|OOO-|-OOO
+
+Breaking down each beat (each | is a beat with 4 16th notes):
+
+Beat 1: O O O -
+Beat 2: - - O -
+Beat 3: O O O -
+Beat 4: - O O O
+
+So, toms could be placed where the kick isn't as busy. For example, on the third 16th note of each beat. Let's try:
+
+T: --O-|--O-|--O-|--O-
+
+This would place a tom hit on the third 16th note of each beat. That should complement the kick without clashing too much. Alternatively, maybe a pattern like -O-- for variation. Wait, but the user just wants to add tom, so any pattern that's consistent. Let me go with the --O- for each beat. That gives a steady tom pattern every third 16th note. 
+
+Alternatively, maybe start with -O-- on the first beat. Hmm, but the user's previous examples sometimes use --O- for toms. Let me stick with that. 
+
+So updating the T line to --O-|--O-|--O-|--O-.
+
+Check that this doesn't conflict with the snare. The snare is only on the 2nd and 4th beats, on the first 16th note (since S: ----|O---|----|O---). So the tom hits on the third 16th notes won't clash. 
+
+Also, since the user mentioned "not only tom but also snare," but the snare is already there, so just adding tom is sufficient. The crash (C) is active but that's okay. The ride is off, but the user didn't mention ride. 
+
+So the final edited groove should have the Toms line filled in with --O- for each beat. Let me write that out properly in the notation.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: --O-|--O-|--O-|--O-
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

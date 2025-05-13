@@ -1,0 +1,56 @@
+Okay, so I need to help the user edit their drum groove by removing both the ride and snare drums. Let's see, they provided a specific drum notation format, and I need to make sure I follow that correctly.
+
+First, I'll look at the original drum groove they provided. It looks like this:
+
+```
+K: OOO-|---O-|OOO-|---O
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Alright, so my task is to remove any ride or snare drum hits. Let's break this down.
+
+1. **Identify the Snare Drum (S):** In the original groove, the snare drum has hits on beats 2 and 4. To remove it, I'll set all characters in the S line to "-", which means no hits.
+
+2. **Identify the Ride Cymbal (R):** The ride cymbal is already silent in the original groove, but I'll double-check to ensure it remains that way by keeping all characters as "-".
+
+3. **Maintain Other Instruments:** The kick drum (K), hihat (H), toms (T), and crash cymbal (C) should remain unchanged unless specified. Since the user only wants to remove ride and snare, I'll leave these as they are.
+
+So, after making these changes, the updated groove should look like this:
+
+```
+K: OOO-|---O-|OOO-|---O
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+I think that's all. I'll make sure to present this in the correct notation format as the user requested.
+</think>
+
+Here is the edited drum groove with the ride and snare removed:
+
+```
+K: OOO-|---O-|OOO-|---O
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+**Explanation:**
+
+- **Kick Drum (K):** Maintains its original pattern to provide a solid foundation.
+- **Snare Drum (S):** Removed all hits by setting all characters to "-".
+- **Hihat (H):** Kept silent as per the original groove.
+- **Toms (T):** Kept silent to avoid adding unnecessary flavor.
+- **Crash Cymbal (C):** Maintained its accents on the first beat of each measure.
+- **Ride Cymbal (R):** Removed all hits by setting all characters to "-".
+
+This arrangement creates a rhythm focused on the kick drum and crash cymbal without any snare or ride cymbal.

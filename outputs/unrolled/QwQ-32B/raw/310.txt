@@ -1,0 +1,60 @@
+Okay, let me try to figure this out. The user wants me to edit a drum groove so that it includes not only the snare but also a cymbal. The original groove given is:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+First, I need to check which instruments are already present. The Kick (K) and Snare (S) are active, but the Cymbals (C and R) are only partially used. The Ride (R) has some notes, but the Crash (C) is entirely silent. The user mentioned adding a cymbal, so I should probably add Crash hits to complement the existing Ride.
+
+Looking at the Snare line (S), there are some soft open hits (o) and a mix of other articulations. The Ride (R) has a pattern with 'o-O-' repeating, which might be a steady rhythm. To add a cymbal, Crash (C) can be placed on strong beats, like the downbeats, to add emphasis. Alternatively, maybe the existing Ride can stay, and Crash is added on certain hits for variation.
+
+Since the user specified "not only snare but also cymbal," and the Ride is already present but maybe not considered a crash cymbal? Wait, the problem says "cymbal," so Crash (C) is the main cymbal here. The Ride (R) is a cymbal too, but perhaps the user wants Crash to be included as well.
+
+Let me check the original edit requests in previous examples. In some prior cases, when adding "ride" they filled in the R line. Here, since the user wants "cymbal," maybe adding Crash hits on the downbeats would work. Let's see:
+
+The Kick is hitting on the first and third beats of the first bar (O--O), so maybe Crash on the first beat of each bar. Let's look at each bar:
+
+First bar:
+K: O--O
+So first 16th note is O (beat 1), then three rests. So Crash could hit on the first note of each bar. Let's add C: O--- in each bar. That would make the Crash hit on beat 1 of each bar. Alternatively, maybe on the Kick hits. Since Kick is on first and third 16th notes in the first bar, but that's a bit early. Maybe align with the downbeats (every 4th note? Wait, each bar is 4 beats, each beat has 4 16ths. So the first note of each bar is the first 16th of beat 1. Maybe Crash on the first 16th of each bar (the O in K's first bar) would be good.
+
+So for each bar, set C's first character to O. Let's see:
+
+C: O---|O---|O---|O--- 
+
+But need to check if that's too much. Alternatively, maybe on the first beat of each bar (the first 16th note), so that's the first character of each bar. That would give Crash hits on every downbeat. Alternatively, maybe only on the first bar, but the user probably wants it throughout.
+
+Alternatively, maybe the user wants both Crash and Ride, but the Ride is already there. Wait, the original R line has some notes. The user's instruction says "not only snare but also cymbal," implying that snare is already there and cymbal (probably Crash) needs to be added. Since Ride is a cymbal, maybe they want another cymbal like Crash. So adding Crash hits would be the way to go.
+
+So modifying the C line to have O--- in each bar, so that Crash hits on the first 16th note of each bar. Let me see:
+
+Original R line is o-O-|o-O-|o-O-|o-O-, which is a pattern of soft, then open, etc. The Ride is already present, so adding Crash on the downbeats would add another layer. That should fulfill the request. Let me write that:
+
+Modified C line:
+C: O---|O---|O---|O---
+
+So the final groove would have:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: o-O-|o-O-|o-O-|o-O-
+
+Wait, but in previous examples, when adding ride, they used X and x patterns. But here the user asked for cymbal (Crash), so Crash is C. So this should be okay. Let me check if there's any conflict. The existing Ride has notes, but Crash on the downbeats would add a harder hit there. That should work. I think that's the correct approach.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: o-O-|o-O-|o-O-|o-O-
+@@@

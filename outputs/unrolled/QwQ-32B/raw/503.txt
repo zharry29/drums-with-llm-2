@@ -1,0 +1,41 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any ride or tom parts from the given groove. Let me first look at the provided drum notation.
+
+The original groove is:
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Breaking this down:
+
+- **Kick (K):** Has hits on the first and third beats (O--- and O---).
+- **Snare (S):** Snare hits on the second and fourth beats (O--- and O---).
+- **Hihat (H):** Closed hits (X) on every beat.
+- **Toms (T):** Nothing here, all dashes.
+- **Crash (C):** None.
+- **Ride (R):** Also none.
+
+The user's request is to remove any ride or tom. But in the original, both T and R are already empty. Wait, maybe I misread. Let me check again. 
+
+Looking at the T line: all dashes, so no toms. R is also dashes. So actually, the existing groove doesn't have ride or tom parts. The user might have thought there were some, but perhaps they want to ensure they're removed just in case. 
+
+Alternatively, maybe there's a mistake in the input? The user might have intended to have some ride or toms but they aren't present. To comply strictly, I'll set T and R to all dashes, which they already are. So the edited version remains the same as the original. 
+
+Wait, but the user's instruction says "I don't want any ride or tom." Since those lines are already clear, the result is the same. Maybe I should confirm, but according to the given data, the answer should just keep the existing lines for T and R as dashes. 
+
+Therefore, the edited drum groove remains unchanged except perhaps ensuring that T and R are empty. Since they are, the final answer is the same as the input.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

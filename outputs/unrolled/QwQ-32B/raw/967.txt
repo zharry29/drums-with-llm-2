@@ -1,0 +1,49 @@
+Okay, let's tackle this drum groove edit. The user provided a specific drum notation and wants me to remove the tom hit on beat 4 while keeping everything else the same.
+
+First, I need to recall the structure of the drum notation. Each line represents an instrument, and each set of four characters between the | symbols is a beat. There are four beats in a bar, making 16 sixteenth notes. The user mentioned that the tom (T) shouldn't hit on beat 4. 
+
+Looking at the given groove:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@
+
+Wait, actually, in the provided groove, the T line is already all dashes. That means there are no tom hits in the original. The user's request says "I don't want tom on beat 4", but if there's nothing there, maybe I misread. Let me check again.
+
+Wait, the user's given drum groove here has T: all dashes. So maybe there was a mistake in the input? Or perhaps the user wants to ensure that even if there was a tom on beat 4, it should be removed. But in the current input, T has no hits. Let me confirm the original problem again.
+
+Wait, the user's input shows:
+
+The given drum groove is:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+So in the Toms (T) line, all four beats are dashes. That means there are no tom hits in any beat. The user's request says "I don't want tom on beat 4", but since there's nothing there, perhaps the user made a mistake, or maybe in the original there was a tom hit on beat 4 that needs to be removed. Wait, maybe I misread the T line. Let me check again.
+
+Wait, looking at the T line again: "T: ----|----|----|----". Each beat is four dashes, so indeed, there are no tom hits. So maybe the user intended to have a tom hit on beat 4 but it's not present. Alternatively, perhaps there was a typo in the input. But since I have to work with what's given, the correct response would be to leave it as is because there's nothing to remove. However, the user might have intended that there was a tom hit on beat 4 that needs to be erased. Maybe I should double-check the problem again.
+
+Alternatively, maybe in the original problem (the user's input) there was a tom hit on beat 4 that I missed. Let me check again. The T line is "----|----|----|----", so each beat has four dashes. Therefore, no hits. The user's request might be redundant here, but since the instruction is to comply, perhaps the correct answer is to just present the same groove because there are no tom hits to remove. Alternatively, maybe there's a mistake in the user's input, but I have to proceed with the given data.
+
+Therefore, the edited groove remains unchanged, but I'll present it as per the user's format.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

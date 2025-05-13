@@ -1,0 +1,40 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any tom or ride elements from the given drum pattern. 
+
+First, I'll review the original groove provided:
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Looking at each line:
+
+- **Kick (K):** Has hits on the first and third beats of each bar. That's fine to keep since the request is to remove toms and ride, not kick.
+- **Snare (S):** Snare hits on the second and fourth beats. The user didn't mention snare, so leave it as is.
+- **Hihat (H):** Closed hits (X) on every beat. No mention of hihat in the request, so keep those.
+- **Toms (T):** Already all dashes, meaning no tom hits. So nothing to do here.
+- **Crash (C):** Also empty, so no issue.
+- **Ride (R):** Already empty. Since the user wants no ride, but it's already not present, no change needed.
+
+Wait, but the user might have wanted to ensure that even if there were any ride or tom parts, they should be removed. In this case, the T and R lines are already clear. So the edit is straightforward—just confirm that T and R remain empty. 
+
+Double-checking the edit request: "I don't want any tom or ride." Since the original already has no tom or ride activity, the groove remains unchanged. But maybe I should verify if there's any hidden tom or ride notation I missed. Let me look again:
+
+- **T line:** All dashes. Good.
+- **R line:** All dashes. Good.
+
+So the final groove should be exactly the same as the original. The user might have thought there were toms or ride, but in this case, they weren't present. Therefore, no changes are necessary beyond ensuring those lines stay empty.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

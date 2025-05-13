@@ -1,0 +1,40 @@
+Okay, so I need to edit this drum groove based on the user's request. Let me first understand what they want. The user says, "I don't want hihat on beat 4 but everything else is fine." Alright, so the task is to remove the hihat hits on the fourth beat of the bar while leaving all other parts as they are.
+
+First, I'll recall the structure of the drum notation provided. Each line represents an instrument, and each beat is separated by |. Each beat has four 16th notes. The H line corresponds to the Hihat. The user wants to eliminate any hihat hits on the fourth beat, which is the last segment after the last |.
+
+Looking at the given drum groove:
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@
+
+Breaking it down, the Hihat (H line) has "x-x-" for each beat. The fourth beat here is "x-x-". To remove the hihat on beat 4, I need to replace all non-hyphen characters in the fourth beat's segment with hyphens. But wait, the notation uses 'x' for closed hits. Since the user wants no hihat on beat 4, all characters in the fourth beat's segment should be '-'.
+
+So, the original H line is:
+H: x-x-|x-x-|x-x-|x-x-
+
+After editing, the fourth beat's segment should be "----". So the new H line becomes:
+H: x-x-|x-x-|x-x-|----
+
+I need to ensure that only the fourth beat's hihat is removed and nothing else changes. Let me check each line to confirm that other instruments are untouched.
+
+Kick (K), Snare (S), Toms (T), Crash (C), and Ride (R) lines should stay the same. The edited H line is the only change. 
+
+Wait a second, let me verify the positions again. Each beat is separated by |, so the fourth beat is the part after the third |. The original H line's fourth segment is "x-x-", so replacing that with "----" would remove all hihat hits on that beat. 
+
+Yes, that's correct. The rest of the lines are as per the original, so the final edited groove should look like this with the H line's fourth beat cleared.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: x-x-|x-x-|x-x-|----  
+T: ----|----|---O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

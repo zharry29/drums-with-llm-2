@@ -1,0 +1,61 @@
+Okay, let's tackle this drum groove edit. The user wants a cymbal hit and a snare in the very beginning. The original groove is:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, I need to focus on the first beat (before the first |). The user mentioned adding a cymbal hit and a snare there. The cymbal could be a crash (C) or ride (R). Since the crash is already present in other parts but not here, maybe using the crash makes sense. Alternatively, the ride might fit better if the rest of the groove uses it. Looking at the original, the Ride (R) line is all dashes, so maybe the user wants to introduce a crash. 
+
+The snare (S) currently starts in the second beat. To add a snare in the first beat, I need to place an 'O' (hard hit) or 'o' (soft) on the first 16th note. Since the beginning is usually a strong hit, 'O' would be better. 
+
+For the cymbal, the crash (C) line is empty. Adding an 'O' on the first note would give a strong crash at the start. Alternatively, if the user prefers ride, but since the request says "cymbal," crash is more likely. 
+
+So, modifying the first beat of S to have an 'O' and C to have 'O' on the first note. Let me check the notation rules again. 
+
+For S: O is hard hit. So first note of S's first beat becomes 'O---' but the original first beat of S is '----', so changing the first character to 'O'. 
+
+C line was all dashes. The first beat should be 'O---' to have a crash hit on the first 16th note. 
+
+Wait, but the user's request says "cymbal hit and snare in the very beginning." So both should be on the first 16th note. 
+
+So, S's first character becomes 'O', and C's first character becomes 'O'. 
+
+Let me verify if there's any conflict. The kick (K) starts with 'O--O', so the first note is a kick hit. Adding a snare and crash on the same first 16th note would create a powerful start. That should be okay. 
+
+So the edited lines would be:
+
+K remains the same: O--O|----
+
+S becomes O---|Oo-o ... 
+
+Wait, original S line is: S: ----|Oo-o|-o--|O--o. So the first beat is '----', changing first character to 'O', so first beat is 'O---'.
+
+C line was all dashes, so first beat becomes 'O---|----|----|----'.
+
+So putting it all together:
+
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+That should add a snare hit (O) and crash (O) at the very beginning (first 16th note). Let me double-check the rules for S and C. 
+
+Yes, S's O is a hard hit, and C's O is a hard hit. That fits the request. The hihat is already present with X, which is a closed hit. The user didn't mention changing hihat, so it stays. 
+
+I think that's it. The final groove should have the first beat's S and C activated with O hits.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

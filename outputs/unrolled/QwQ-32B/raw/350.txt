@@ -1,0 +1,52 @@
+Okay, let me tackle this drum groove edit. The user provided a specific drum notation and wants me to remove any snare or cymbal parts. Let me start by understanding the original groove first.
+
+Looking at the given drum groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+So, the Kick (K) has some hits, Snare (S) is playing on the second and fourth beats, Crash (C) is hitting every beat, and the rest are silent. The user wants to eliminate snare and cymbals, which includes S and C lines. The Ride (R) is already silent, so that's fine.
+
+First step: Remove all entries in the S (Snare) line. The original S line has hits on the second and fourth beats. Changing those to all '-'.
+
+Next, the Crash (C) line has O--- in each beat, meaning a hard hit on the first 16th note of each beat. To remove cymbals, set all C entries to '-' as well.
+
+Check the other instruments. The Kick (K) is okay since the request is only about snare and cymbals. Hihats (H) and Toms (T) are already silent, so they stay. Ride (R) is also silent, so no changes there.
+
+Let me reconstruct each line:
+
+K remains the same: OOO-|--O-|OOO-|-OOO  
+S becomes all dashes: ----|----|----|----  
+H stays: ----|----|----|----  
+T stays: ----|----|----|----  
+C becomes dashes: ----|----|----|----  
+R stays: ----|----|----|----
+
+Wait, need to ensure that each line has exactly 16 characters (4 beats of 4 notes each). Let me double-check each line's structure. The original K line is "OOO-|--O-|OOO-|-OOO". Breaking it down per beat:
+
+- First beat: OOO-  
+- Second: --O-  
+- Third: OOO-  
+- Fourth: -OOO  
+
+But wait, each beat should be 4 characters. Let me confirm:
+
+Yes, each segment between | is 4 characters. So the total for each line is 4 beats * 4 = 16. The S line originally had "----|O---|----|O---", so changing the O's to - in the second and fourth beats. So S becomes "----|----|----|----".
+
+Similarly, the C line was "O---" in each beat, so changing each O to -, resulting in "----|----|----|----".
+
+Everything else remains. Let me write the final version to ensure correctness.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

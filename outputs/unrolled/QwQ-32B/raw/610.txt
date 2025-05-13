@@ -1,0 +1,53 @@
+Okay, let me tackle this drum groove edit. The user wants a tom hit and cymbal in the very beginning. The original groove is:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, the "very beginning" refers to the first 16th note of the bar, right? So I need to add a tom hit (T) and a cymbal (either C or R) there. 
+
+Looking at the Toms line (T), it's all dashes. So I should add an 'O' (hard hit) on the first note. For the cymbal, the user didn't specify crash or ride, but since the original has no cymbals, maybe adding a crash (C) makes sense. The Crash line (C) is all dashes, so adding an 'O' there too.
+
+Let me check the Kick (K) line. The first segment is O--O. The first note is an O, so adding a tom hit on the same note would layer it with the kick. That's okay, but maybe the user wants them separate? Wait, "in the very beginning" could mean the first note, so it's acceptable. Alternatively, maybe the tom on the first 16th, and the cymbal as well. Let me proceed.
+
+So modifying the T line to start with O---, and the C line to O---. Let me see:
+
+T: O---|----|----|----
+C: O---|----|----|----
+
+Does that fit? Also, check if there's any other cymbal or tom hits. The original has no cymbals, so this should be okay. The user might not want other cymbals, so only the first note gets the crash.
+
+Wait, the user said "tom hit and cymbal in the very beginning". So first note of the bar, both T and C should have hits. That's what I did. Let me confirm the notation. Each line's first segment is four characters, so first note is the first character. So T's first character becomes 'O', and C's first becomes 'O'.
+
+Therefore, the edited groove should have:
+
+K remains the same.
+S unchanged.
+H same.
+T starts with O---
+C starts with O---
+R still all dashes.
+
+Let me write that out:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+Wait, but in the original T line was all dashes. So adding the tom hit on the first note. That should fulfill the request. I think that's correct. Let me double-check the instructions again. The user wants a tom hit and cymbal at the very start, so first note. This should do it.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

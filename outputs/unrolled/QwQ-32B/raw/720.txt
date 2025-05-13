@@ -1,0 +1,64 @@
+Alright, let's tackle this drum groove edit. The user wants a hihat hit and cymbal in the very beginning. Let me first parse the existing groove to see what's there and what needs to change.
+
+Looking at the given groove:
+
+**Kick (K):** O--O|----|--O-|----  
+This starts with a hard kick on the first 16th note, then three rests, followed by another pattern. The user wants a hihat and cymbal at the very beginning, so maybe adjust the first beat.
+
+**Snare (S):** ----|Oo-o|-o--|O--o  
+The snare starts on the second beat with a soft open hit and some variations. The first beat here is silent, so that's where we can add the cymbal and hihat.
+
+**Hihat (H):** All dashes except the last beat. The user wants a hihat hit at the very beginning, so the first 16th note of the first beat needs a hit. Since the user mentioned "hihat hit and cymbal," probably a closed hihat (using X or x) and a crash or ride. But the user specified "cymbal," so maybe Crash (C) or Ride (R). The existing Crash (C) line is all dashes except the first beat has an O. Wait, let me check:
+
+**Crash (C):** All dashes except maybe not? Wait, in the given groove, the Crash line is:
+
+C: ----|----|----|----
+
+So no crash hits yet. The user wants a cymbal hit, so either Crash or Ride. Since the user said "cymbal," Crash might be more impactful, but the Ride is already in the example. Let me see the Ride line:
+
+**Ride (R):** o-O-|o-O-|o-O-|o-O-  
+The Ride is active throughout. The user might want a Crash instead, but since the Ride is already playing, maybe adding a Crash on the first note would add the needed cymbal hit. Alternatively, the user might just want the Ride to start earlier, but the wording says "cymbal hit," so Crash is likely.
+
+So the plan is:
+
+1. On the first 16th note (the very beginning), add a hihat hit. Since the user might want a closed hihat (common for starts), use 'X' (hard closed hit) or 'x' (soft). Let's pick 'X' for a strong start.
+
+2. Add a Crash (C) hit on the first 16th note. The Crash line currently has dashes, so change the first character to 'O' for a hard hit.
+
+But wait, the user might want the Ride to also be present. The existing Ride already starts on the first beat with 'o' (soft open hit on the bell). But maybe they want the cymbal (Crash) instead. Hmm. Let me re-read the request: "I'd like a hihat hit and cymbal in the very beginning." So two elements: hihat and a cymbal (either Crash or Ride). Since the Ride is already playing, perhaps the cymbal refers to adding a Crash. Alternatively, maybe they want the Ride to have a hit there. Since the Ride's first note is an 'o', which is a soft bell hit, maybe that's sufficient. But the user might want an additional cymbal. Alternatively, maybe they want the hihat and the cymbal (Crash) together on the first note. Let's go with adding a Crash hit on the first note to fulfill the "cymbal" part.
+
+So modifying:
+
+- **Hihat (H):** The first character of the first beat (first 16th note) changes from '-' to 'X' (hard closed hit).
+
+- **Crash (C):** The first character of the first beat changes from '-' to 'O' (hard hit).
+
+Let me check if that's allowed. The Crash line's first beat is currently "----", so changing the first character to 'O' would add a crash on the first note. 
+
+Now, check if this doesn't conflict with other instruments. The Kick has an 'O' on the first note. Having Kick + Crash + Hihat on the first 16th note is okay for a strong start.
+
+Alternatively, maybe the user wants the hihat and cymbal without the kick? But the original request says "kick hit and hihat" in previous examples, but here it's "hihat hit and cymbal". The original Kick's first note is already a hit, so perhaps they want to keep that but add the hihat and cymbal.
+
+So the edited lines would be:
+
+H: X---|----|----|----
+
+C: O---|----|----|----
+
+The rest remains the same. Let me confirm with the notation rules:
+
+- Hihat 'X' is a hard closed hit.
+
+- Crash 'O' is a hard hit.
+
+This should fulfill the request. Let me put it all together.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X---|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

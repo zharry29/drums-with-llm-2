@@ -1,0 +1,57 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any kick or cymbal parts. Let me start by recalling the original groove provided:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+First, I need to identify which lines correspond to kick and cymbals. 
+
+- **K** is the kick drum. So I'll need to replace all the characters in the K line with '-' to silence it.
+- **C** is the crash cymbal, and **R** is the ride cymbal. Both of these lines should also be set to all '-' since the user doesn't want any cymbals.
+
+Looking at the snare (S) and hihat (H) lines, they should remain unless they have cymbal articulations, but in this case, the snare uses 'O', 'o', and 'X/x' which are allowed. The hihat uses 'X-x-' which are closed hits (as per the notation rules), so they're okay to keep.
+
+Wait, let me double-check the hihat notation. The user's instruction says to remove kick and cymbals, but hihat isn't a cymbal? Wait, actually, the hihat is a separate category. The cymbals here are crash (C) and ride (R). The hihat (H) is its own category, so it's allowed to stay unless the user specifically mentioned it. Since the request was "no kick or cymbal", hihat is okay.
+
+So the edited version should have:
+
+- K line all '-'
+- C and R lines all '-'
+- S and H lines unchanged
+
+Let me reconstruct each line:
+
+**K:** All '-' instead of the original O--O|----|--O-|----
+So: K: ----|----|----|----
+
+**S:** Remains as is since it's snare, not a cymbal or kick.
+S: ----|Oo-o|-o--|O--o
+
+**H:** Also remains as it's hihat, not a cymbal.
+H: X-x-|X-x-|X-x-|X-x-
+
+**T:** Tom remains the same since the request didn't mention toms.
+T: ----|----|----|----
+
+**C:** All '-'
+C: ----|----|----|----
+
+**R:** All '-'
+R: ----|----|----|----
+
+Let me verify once more to ensure I didn't miss any cymbals or kick parts. The original had no crash or ride hits, so setting C and R to '-' is straightforward. The kick was present, so that's silenced. The snare and hihat are kept as they are. Looks good!
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,41 @@
+Okay, let me try to figure out how to approach this drum edit. The user provided a drum groove and wants a tom hit and hihat in the very beginning. 
+
+First, I need to look at the existing groove. The current setup is:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So, the kick (K) and snare (S) are completely silent. The hihat (H) has some closed hits on the second and fourth beats. The ride (R) has a pattern starting with an 'x' on the first 16th note, then a mix of X and x. Toms and crash are unused.
+
+The user wants a tom hit and hihat added at the very beginning. The "very beginning" would be the first 16th note of the bar. 
+
+For the tom hit (T), since it's the start, I should place an 'O' (hard hit) on the first 16th note of the first beat. So the T line would start with O---. 
+
+For the hihat (H), currently it's silent on the first beat. The existing hihat has x--- on the second beat, which is a closed hit. To add a hihat at the beginning, maybe a closed hit (X or x) would fit. Since the rest of the hihat uses x (soft closed?), maybe starting with X to match the closed nature. So the first part of H would be X---.
+
+But wait, the existing H line starts with ----, so changing the first 16th note to X would make it X---|x---| etc. But need to check if that's consistent. The user might want the hihat to open or stay closed. Since the request is just to add it in the beginning, perhaps starting with a closed hit (X) to keep it tight.
+
+So updating T and H lines:
+
+T: O---|----|----|----
+H: X---|x---|----|x---
+
+Wait, but the original H line after the first beat is |x---|----|x---. So modifying the first part to X--- would introduce the hihat hit there. 
+
+Let me check if there are any other instruments conflicting. The kick is all silent, so the tom hit on the first note is okay. The ride starts with x---, so having both T and H on the first note might create a good start. 
+
+I think that's the plan. Add O to T's first note and X to H's first note. Let me write the final version.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: X---|x---|----|x---
+T: O---|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

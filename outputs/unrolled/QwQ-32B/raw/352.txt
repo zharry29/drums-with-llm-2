@@ -1,0 +1,19 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any kick or cymbal parts from the given groove. Let me start by looking at the original groove they provided.
+
+First, I'll go through each line to identify which instruments are being used. The Kick (K) line has some hits like "O---|O---|----|O---", so I need to silence all those. The Snare (S) has "----|----|O---|----", which is okay to keep unless the user also wanted to remove snare, but the request was specifically about kick and cymbals. The Hihat (H) is all dashes, so that's fine. Toms (T) have "O-o-|O-o-|O-o-|O-o-", which should stay since they're not mentioned. The Crash (C) and Ride (R) are already empty, so no changes there.
+
+Wait, the user said "no kick or cymbal". Cymbals include Crash (C) and Ride (R), but in the original, those lines are already empty. So the main change is to clear the Kick line. Let me double-check the Toms line—since Toms are separate and allowed, they can stay. The Snare is allowed as per the request. 
+
+So the edited version should have all K entries replaced with dashes. Let me make sure each part of the K line is converted to "----" across all beats. Also, confirm that S, H, T remain as they are except for any cymbals. Since C and R are already empty, no action needed there. 
+
+Final check: Ensure that after removing kick, the groove still flows. The Snare on the third beat and the Toms' pattern should carry the rhythm. Looks good. Alright, time to put it all together.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

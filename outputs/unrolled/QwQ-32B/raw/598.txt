@@ -1,0 +1,67 @@
+Alright, let's tackle this drum groove edit. The user wants a tom hit and a snare in the very beginning of the groove. The original groove provided is:
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@
+
+First, I need to understand where the "very beginning" is. Since each bar is divided into four beats separated by |, the first beat is "OOO-" for the kick. The user wants a tom hit and a snare hit right at the start, which would be on the first 16th note of the first beat.
+
+Looking at the tom line (T), it's all dashes, so no hits there. To add a tom hit, I need to place an 'O' (hard hit) on the first 16th note of the first beat. The tom uses O for hard and o for soft, so starting with O makes sense for a strong hit.
+
+For the snare (S), the first beat is currently dashes. To add a snare hit on the first 16th note, I'll replace the first '-' with an 'O' (hard hit). However, I need to check if that's allowed. The original snare line starts with "----", so changing the first character of the first beat to 'O' would introduce the snare there.
+
+Wait, but the user specified "very beginning," which is the first 16th note. Let me make sure that adding both tom and snare on the same 16th note is okay. Since they're different instruments, that's possible. So:
+
+For the tom line (T), first beat becomes "O---" instead of "----".
+
+For the snare line (S), first beat becomes "O---" instead of "----".
+
+But let me check the original snare's second beat. The original has "|O---" on the second beat. So modifying the first beat's first character to 'O' would add the snare there. 
+
+Wait, the original S line is "----|O---|----|O---". So changing the first four characters (the first beat) from "----" to "O---".
+
+Similarly, the tom line starts with "----", so changing to "O---".
+
+Now, I need to ensure that the rest of the groove remains as per the original except for these changes. Let me reconstruct each line:
+
+Kick (K) remains the same: "OOO-|--O-|OOO-|-OOO"
+
+Snare (S): First beat is now "O---", then the rest as "|O---|----|O---".
+
+Tom (T): First beat is "O---", then the rest as "----|----|----".
+
+Crash (C) stays the same: "O---|O---|O---|O---"
+
+Ride (R) stays all dashes.
+
+Putting it all together:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: O---|O---|----|O---  
+H: ----|----|----|----  
+T: O---|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+Wait a second, but the user might want the tom and snare specifically at the very first note. Let me confirm the positions. Each beat is four 16th notes. The first beat's first note is the first character. So yes, that's correct.
+
+Is there any conflict? The kick is hitting OOO on the first three 16th notes. Adding a tom and snare on the first note along with the kick's O is okay, as they are different drums. 
+
+Alternatively, maybe the user wants the tom and snare to be the only hits at the beginning, but since the kick is already there, it's a composite hit. The user didn't specify excluding the kick, so it's fine.
+
+Therefore, the edited groove should have the tom and snare added at the start as specified.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: O---|O---|----|O---  
+H: ----|----|----|----  
+T: O---|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

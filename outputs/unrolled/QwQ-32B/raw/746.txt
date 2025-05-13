@@ -1,0 +1,64 @@
+Okay, let me tackle this drum groove edit. The user wants a cymbal hit and snare in the very beginning. Let's look at the original groove first.
+
+The given drum groove is:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+
+The edit request is to add a cymbal hit and a snare at the very start. The "very beginning" would be the first 16th note of the first beat, which is the first character in the first segment before the first |.
+
+Looking at the instruments:
+
+- **C** is the Crash cymbal, which uses O for a hard hit. Since the user mentioned "cymbal hit," and Crash is already present but only starting from the first beat's first 16th note (the first C is O---), maybe they want an additional crash at the very start? Wait, actually, the existing C line already has an O in the first position. Wait, let me check again.
+
+Wait, the original C line is: C: O---|O---|O---|O---. So the first 16th note of the first beat already has an O (crash). But the user is asking for a cymbal hit in the beginning, so maybe they want another cymbal, like the Ride (R) instead? Or perhaps they want the crash to be there but also a snare. Wait the user might want both a snare and a cymbal (either crash or ride) at the very start.
+
+Looking at the S line: S: ----|O---|----|O---. The first beat's snare is silent (----). So adding a snare hit there. The user's request is "cymbal hit and snare in the very beginning," so probably both need to be added at the first 16th note.
+
+The crash (C) already has a hit at the first note. So maybe that's okay. Alternatively, maybe the user wants a ride instead? Let me see the R line: it's all dashes. If the user wants a cymbal hit, maybe the crash is already there, so perhaps it's okay. But the user might want an additional cymbal, but the crash is already present. Alternatively, maybe the user wants the snare and crash at the start.
+
+Wait the original C has a crash at the first note. So that's already there. The user wants a cymbal (maybe crash is fine) and a snare. So the snare's first beat is currently empty. So the edit is to add an O (hard hit) on the snare's first 16th note. So changing the S line's first segment from ---- to O---. 
+
+Wait let me check:
+
+Original S line first segment: S: ----|... So the first four characters are ----. So changing the first character to O would make it O---, adding a snare hit there. That would fulfill the snare part. The crash is already there, so the user's request is met. 
+
+Wait, but the user said "cymbal hit and snare in the very beginning." Since the crash is already there, maybe that's okay. Let me confirm the original C line: yes, first note is O, so crash is present. So the main edit is to add the snare hit at the first 16th note. 
+
+Therefore, the edited S line would be S: O---|O---|----|O--- (changing the first segment from ---- to O---). The rest remains the same. 
+
+Wait, let me check again. The original S line is:
+
+S: ----|O---|----|O---
+
+So changing the first segment to O--- instead of ----. That adds the snare hit at the very beginning. The crash is already there. So that should meet the request. 
+
+So the final groove would have:
+
+K remains the same.
+
+S: O---|O---|----|O---
+
+C remains as is.
+
+Other lines unchanged.
+
+Wait, but maybe the user wanted a different cymbal? Like ride instead of crash? But the user said "cymbal," and crash is a cymbal. Since the crash is already present at the start, maybe that's okay. 
+
+Alternatively, maybe the user wants both crash and ride, but the original only has crash. But the user's request didn't specify which cymbal, so the existing crash is sufficient. 
+
+Therefore, the correct edit is adding the snare hit in the first position of the snare line.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: O---|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

@@ -1,0 +1,49 @@
+Okay, let's tackle this drum groove edit. The user wants a kick hit and a tom in the very beginning. Let me start by looking at the original groove provided.
+
+The original groove has:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So right now, there's no kick or tom in the first beat. The hihat starts on the second 16th note of the second beat with an x, which is a closed hit. The ride has some patterns starting from the first beat.
+
+The user's request is to add a kick hit and a tom hit at the very beginning. The very beginning would be the first 16th note of the first beat. Since the kick is currently all dashes there, I need to place an 'O' (hard hit) or 'o' (soft) there. Similarly, the tom line (T) is all dashes, so I need to add an 'O' or 'o' in the first position as well.
+
+Looking at the instruments' articulations:
+
+- For the kick (K), using 'O' would be a hard hit, which is common for starting a groove. Since the user didn't specify soft, I'll go with O.
+- For the tom (T), similarly, 'O' is a hard hit. The toms are in the third and fourth beats in the original, but adding to the first makes sense here.
+
+Now, check if there are any conflicts. The first beat's first 16th note is empty for all instruments except ride (R) which has an 'x'. The kick and tom can be added without overlapping. 
+
+So, modifying the first character of K and T lines:
+
+Original K: ---- becomes O---
+Original T: ---- becomes O---
+
+Wait, but the user said "kick hit and tom in the very beginning". So both on the first 16th note of the first beat. 
+
+Let me make sure the total characters per line are 16. Each line has four beats separated by |, each beat has four 16th notes. So each line should be 4*4=16 characters. 
+
+After the change:
+
+K: O---|----|----|----
+T: O---|----|----|----
+
+That should work. The rest of the groove remains the same. Let me double-check the other lines to ensure nothing else is needed. The hihat and ride patterns stay, snare is still silent. 
+
+I think that's all. The user didn't mention changing other parts, so just adding those two hits at the start.
+</think>
+
+@@@
+K: O---|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: O---|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

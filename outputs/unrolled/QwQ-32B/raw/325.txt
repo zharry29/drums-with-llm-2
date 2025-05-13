@@ -1,0 +1,38 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any ride or snare elements. First, I'll look at the original groove provided.
+
+Starting with the Kick (K): "O---|---o|O-O-|----". That seems fine, no snare or ride there. 
+
+Snare (S) has "----|O---|----|O---". Since the request is to remove snare, I need to replace all the O's in the S line with '-' to silence them. So S should become all dashes.
+
+Hihat (H) is "--o-|O-o-|O-o-|O-o-". The user didn't mention hihat, so leave that as is unless specified. 
+
+Toms (T) are empty, so no change. 
+
+Crash (C) has "O---|----|----|----". The user didn't mention crashes, but the request is about ride and snare. Since they didn't say to remove crashes, I'll leave C as is. 
+
+Ride (R) is all dashes, so that's already okay. 
+
+Wait, the user said "I don't want any ride or snare." So Snare (S) must be cleared, and Ride (R) is already clear. The Crash is allowed unless specified otherwise. Let me double-check the original. The original C line had a crash on the first beat. Since the user didn't mention crashes, I should keep them unless told to remove. 
+
+So the edited version would have S and R lines all '-', keeping K, H, T, and C as they are except for S. Let me write that out:
+
+K remains: O---|---o|O-O-|----
+S becomes: ----|----|----|----
+H stays: --o-|O-o-|O-o-|O-o-
+T stays empty
+C stays: O---|----|----|----
+R stays empty
+
+Wait, but in the original, the user's given groove for C is "O---|----|----|----", so that's a crash on the first beat. Since the user didn't mention crashes, it's okay to leave it. The main thing is to remove S and ensure R is silent. Let me confirm again: the instruction is to remove ride (R) and snare (S). So yes, set S to all '-', and R is already all '-'. The rest can stay unless there's a mistake. 
+
+Wait, in the original, the user's given groove for R is all dashes, so that's already compliant. So the final edit should have S as all dashes and R remains as dashes. The rest stays the same. Let me put that into the notation.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|----|----|----
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

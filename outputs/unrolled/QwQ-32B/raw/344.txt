@@ -1,0 +1,59 @@
+Okay, let's see. The user provided a drum groove and wants me to edit it so that there are no snare or cymbal parts. Let me start by understanding the original groove first.
+
+Looking at the given drum notation:
+
+**Kick (K):** -O--|OO--|---O|-OO-
+This has some kick hits, like the second 16th note in the first beat, then two hard hits in the second beat, etc.
+
+**Snare (S):** ----|----|S---|----
+Here, there's a snare hit on the third beat (third group), specifically the third 16th note of that beat. Since the user doesn't want any snare, I need to remove that.
+
+**Hihat (H):** x-x-|x-x-|x-x-|x-x-
+The hihat is using 'x' which I think is a closed hit. The user didn't mention hihat, so maybe it's okay to leave unless specified, but the request was about snare and cymbals. Wait, the user said "no snare or cymbal". Hihat isn't a cymbal? Wait, hihat is a closed hi-hat, which is part of the drum set but not a crash or ride cymbal. The cymbals here are Crash (C) and Ride (R). So hihat is allowed unless specified otherwise. The user's request is only about snare and cymbals (crash and ride). So I should keep hihat unless told to remove it.
+
+**Toms (T):** ----|----|---O|----
+There's a tom hit on the fourth beat's third 16th note. Since toms aren't mentioned in the edit request, they stay.
+
+**Crash (C):** O---|O---|O---|O---
+Each beat has a hard crash hit on the first 16th note. These need to be removed because the user doesn't want any cymbals (crash is a cymbal).
+
+**Ride (R):** ----|----|----|----
+No ride hits, so that's fine.
+
+So the steps are:
+
+1. Remove all Snare (S) hits. The S line currently has an 'S' in the third beat. Change that to '-'.
+
+2. Remove all Crash (C) hits. The C line has 'O' in every first 16th note of each beat. Replace all those 'O's with '-'.
+
+3. Check if Ride (R) has any hits. It doesn't, so leave it as is.
+
+4. Ensure other instruments (Kick, Toms, Hihat) remain unchanged unless specified.
+
+Wait, the user's instruction was "I don't want any snare or cymbal." Cymbals include Crash and Ride. Since Ride is already silent, just need to clear Crash. Snare is handled by S line.
+
+So applying these changes:
+
+- S line becomes all '-'.
+- C line becomes all '-'.
+
+The rest stay the same. Let me verify each line:
+
+Original K: -O--|OO--|---O|-OO- → stays
+Original S: ----|----|S---|---- → becomes ----|----|----|----
+Original H: x-x-|x-x-|x-x-|x-x- → stays
+Original T: ----|----|---O|---- → stays
+Original C: O---|O---|O---|O--- → becomes ----|----|----|----
+Original R: ----|----|----|---- → stays
+
+That should do it. Let me double-check for any other snare or cymbal hits. The S line now has no 'S' or other hits. The C line is all dashes. The Ride is already empty. Yep, looks good.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|----|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

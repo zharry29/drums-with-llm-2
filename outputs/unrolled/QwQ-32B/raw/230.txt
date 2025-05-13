@@ -1,0 +1,122 @@
+Okay, let me tackle this drum groove edit. The user wants the groove to have not only kick but also tom. Looking at the original groove:
+
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+
+First, the kick (K) is already active, but toms (T) are only hit once in the fourth beat. The edit request says to include toms more, so I need to add more tom hits. Let's see where to place them without clashing with existing elements.
+
+The snare (S) has an 'S' in the third beat's third position, but according to the notation, S uses O, o, X, x. Maybe that's a typo? Wait, the user's example might have a mistake. But I'll proceed with the given.
+
+Looking at the toms line (T), currently only the fourth beat has a ---O. Let's distribute tom hits across the bar. Maybe mirror the kick's pattern or add complementary hits. The kick has a busy first and second beats. Let's add toms on offbeats.
+
+For example, in the first beat, the kick is -O--, so maybe add a tom on the first 16th note: T: O---|... But need to check the crash (C) is already hitting every beat. Maybe soft hits (o) to not overpower.
+
+Alternatively, in the second beat where kick is OO--, perhaps add a tom on the third 16th note: T: ---o for that beat. The third beat has ---O in T, but maybe adjust to spread out. Let me try:
+
+T: ---o|o--o|---O|o-O- (just brainstorming). Wait, need to ensure it's 4 beats of 4 notes each. Let's structure each beat's 4 notes.
+
+Original T line: T: ----|----|---O|----
+
+So first three beats have no toms except the third has ---O. Let's add toms in first and second beats. Maybe:
+
+First beat: Maybe a soft tom on the third 16th note: --o- ?
+
+Second beat: Since kick is OO--, perhaps a tom on the fourth: ---o ?
+
+Third beat keeps ---O, and fourth could have more.
+
+Alternatively, make the toms play every other 16th note but softly. Let me try:
+
+T: -o--|o---|---O|o-O- ?
+
+Wait, need to ensure it's 4 characters per beat. Let's go step by step:
+
+Beat 1: K is -O-- (positions 2 is O). Maybe tom on 1: O--- or o---?
+
+But maybe start with a soft hit. Let's do o--- for the first tom beat.
+
+Beat 2: K is OO-- (positions 1 and 2 are O). Maybe tom on 3: --O- but soft? --o-.
+
+Beat 3: existing ---O is okay, maybe add another?
+
+Beat 4: current is ----, but user's original had |-OO- in K. Maybe add a tom on the third and fourth: O-O- but with soft?
+
+Wait the user's original T line was T: ----|----|---O|----
+
+So fourth beat's T is ----. Let me try:
+
+T: o---|---o|---O|o--- 
+
+That way, toms are present in each beat. Alternatively, spread them out more. Let me see the final answer from previous similar requests. For instance, in a previous edit where adding tom, they used ---o patterns spread across.
+
+Alternatively, the assistant previously added tom hits like -o--|O---|--o-|--o- in another example. Maybe a similar approach here.
+
+Looking at the given K pattern: -O-- | OO-- | ---O | -OO-
+
+Maybe align toms with the kick's offbeats. For example:
+
+In the first beat (K: -O--), add tom on the first 16th note: O--- but soft? o---
+
+Second beat (K: OO--), tom on third 16th: --o-
+
+Third beat (K: ---O), tom on first? O--- but already has ---O at the end.
+
+Fourth beat (K: -OO-), maybe tom on the third and fourth?
+
+Alternatively, create a tom pattern that's consistent. Let me try:
+
+T: -o-- | o--o | ---O | o-O-
+
+But need to check each beat has four characters.
+
+Breaking it down:
+
+First beat: -O-- (K), so T could be o--- (soft hit on first 16th)
+
+Second beat: OO--, so T: --o- (soft on third)
+
+Third beat: ---O (K), T keeps ---O (hard hit)
+
+Fourth beat: -OO-, so T: o-O- (soft on first, hard on third?)
+
+But need to make sure it's 4 characters each. Let me try:
+
+T: o--- | --o- | ---O | o-O-
+
+Wait, fourth beat's T would be o-O- which is four characters. That might work.
+
+Alternatively, make it more even. Maybe:
+
+T: -o-- | o--o | ---O | o-O-
+
+This way, each beat has some tom activity. Let me check if that fits.
+
+Alternatively, the previous example when adding tom, they used ---o in each beat, like in the user's previous answer where T: ---o|o--o|---o|o---. Maybe a similar pattern here.
+
+Alternatively, in the first beat, since K is -O--, maybe tom on the first 16th note as a soft hit (o), then in the second beat, after the kick hits, maybe a tom on the third 16th.
+
+Alternatively, the assistant's previous edit for similar requests added tom hits in a staggered way. Let me go with:
+
+T: -o-- | O--- | ---O | O-O-
+
+Wait, but need to use O for hard hits. Alternatively, toms can have O and o. Let me see the user's original T line had ---O (hard hit on the fourth 16th of the third beat). Maybe keep that and add others as soft.
+
+Alternatively, toms can have a pattern like:
+
+T: o--- | ---o | ---O | o-O-
+
+This way, each beat has a tom hit, varying between soft and hard. That should fulfill the request of adding tom beyond just kick. The crash is already present, so the main issue was the tom's lack of presence except in one spot. This should work.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: x-x-|x-x-|x-x-|x-x-
+T: o---|---o|---O|o-O-
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

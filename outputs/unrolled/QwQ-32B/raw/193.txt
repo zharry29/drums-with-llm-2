@@ -1,0 +1,135 @@
+Okay, let's tackle this drum groove edit request. The user wants the groove to have not only tom but also snare. Looking at the given groove:
+
+First, I'll check each instrument line:
+
+**Kick (K):** There are hits on the first, second, and fourth beats. So the kick is active.
+
+**Snare (S):** Currently, the snare only plays on the third and fourth beats of the third and fourth measures. Specifically, in the third measure's third beat and the fourth measure's third beat. That's minimal. The user wants more snare, so I need to add more snare hits where appropriate.
+
+**Toms (T):** The toms are already present with a pattern of O-o- repeating every beat. The user mentions "not only tom but also snare," which implies the toms are already there, so the main task is to add snare where it's missing.
+
+**Other instruments (H, C, R):** Hihat is silent, Crash and Ride are also silent. But the focus is on adding snare and keeping toms.
+
+The original S line is:
+S: ----|----|O---|----
+
+So in the first two measures, the snare isn't playing at all. Let's think where to add snare hits. Typically, snare is on the backbeats (beats 2 and 4), but since the kick is on 1, 2, and 4, maybe adding snare on 2 and 4 where the kick isn't too heavy.
+
+Looking at the first measure (K: O---), maybe add a snare on the second beat (since kick is O there). But need to check the existing kick pattern.
+
+Breaking down each measure:
+
+**Measure 1:**
+K: O---
+So kick on first 16th note of the first beat (beat 1), then three rests. The second beat (next four 16ths) has O on the first 16th (beat 2's first 16th). 
+
+Snare could be on the 2nd beat (maybe the second 16th or the main hit). Since S is currently empty here, adding a snare hit on beat 2's main (the first 16th of the second beat) would make sense. Maybe a soft hit (o) or hard (O). Let's pick O for a strong hit.
+
+**Measure 2:**
+K: O---
+Same as measure 1. So adding snare on beat 2 again.
+
+**Measure 3:**
+K: ----
+No kick here, so maybe a snare on beat 3's main (third beat's first 16th). But original has a snare on the third beat here (third measure's third beat). Wait, original S is "O---" in the third measure, so that's on beat 3's first 16th. Maybe add another hit on beat 4 here as well?
+
+**Measure 4:**
+K: O---
+Same as first two, so snare on beat 2 and maybe beat 4. The original has O--- in the fourth measure's third beat, so maybe add a snare on beat 4's first 16th.
+
+So possible additions:
+
+For S line:
+
+Measure 1: Add O on the second beat's first 16th (position 5-8 first character? Wait, need to parse the structure correctly.
+
+Each measure is divided into four beats, each beat has four 16th notes. The format is four characters per beat, separated by |. So for each line, the first four characters are beat 1, next four beat 2, etc.
+
+Original S line:
+S: ----|----|O---|----
+
+So:
+
+Measure 1: ---- (no snare)
+Measure 2: ---- (no snare)
+Measure 3: O--- (snare on first 16th of third beat)
+Measure 4: ---- (no snare except the original's third beat? Wait, the fourth measure's third beat is the third part of the fourth measure? Let me clarify:
+
+Wait the given S line is "----|----|O---|----". That would be:
+
+Measure 1: first four characters (beat 1): ----
+Measure 1: beat 2: ---- (next four)
+Wait, actually, each measure is four beats, each beat four characters. So the entire line is four measures, each with four beats. Wait no, the entire line is one bar (four beats). Wait the user's notation example shows a bar with four beats, each separated by |. So each line's content is one bar, divided into four beats (each beat four 16th notes). So the given S line is for one bar, with four beats:
+
+S: ---- (beat1) | ---- (beat2) | O--- (beat3) | ---- (beat4)
+
+So in the given groove, the snare only plays on the third beat of the bar (beat3's first 16th note). The user wants more snare, so adding hits on beats 2 and 4 would be standard. Let's adjust the S line to have hits on beats 2 and 4.
+
+So modifying S to have O on beat2 and beat4's first 16th notes.
+
+So new S line would be:
+
+S: ----|O---|O---|O---
+
+Wait, but let's check:
+
+Original K line's first beat has a kick on first 16th, so snare on beat2's first 16th (the second beat's first 16th). Let's do that.
+
+Breaking down each beat for S:
+
+Beat1: ---- (no change)
+Beat2: O--- (adding a hard hit on first 16th)
+Beat3: O--- (already there)
+Beat4: O--- (adding a hard hit on first 16th)
+
+Thus, S becomes:
+
+S: ----|O---|O---|O---
+
+Alternatively, maybe use 'o' for softer hits to not clash with kick. But since the kick on beat2 is hard (O), maybe a soft snare (o) there. Let's see:
+
+S: ----|o---|O---|o---
+
+But the user just wants snare added, so maybe just adding O's where possible. Alternatively, the original's third beat's snare is O, so keeping that, and adding on beat2 and 4.
+
+Alternatively, maybe the third measure (the third beat in the bar) is where the snare is already present, so perhaps adding on beat2 and 4.
+
+Wait the original S line is "----|----|O---|----", so in the bar's third beat (third set of four characters) there's an O on the first 16th. The fourth beat (fourth set) has no snare. So to add snare on beats 2 and 4, the S line would be:
+
+Beat1: ----
+Beat2: O---
+Beat3: O---
+Beat4: O---
+
+Thus, S: ----|O---|O---|O---
+
+Alternatively, maybe using softer hits on beats 2 and 4 to complement the kick. But the user just wants snare added, so that's acceptable.
+
+Additionally, check if there are other places to add. The user might want more than just beats 2 and 4. Alternatively, maybe a snare on the & of beats (like the second 16th note in a beat) for a more syncopated feel. But the simplest is to add on beats 2 and 4.
+
+Therefore, modifying the S line accordingly. Also, ensuring that the toms remain as they are, since the user wants "not only tom but also snare" implying toms are already present and snare needs to be added.
+
+So the final S line would be:
+
+S: ----|O---|O---|O---
+
+Putting it all together, the new groove would have:
+
+K: O---|O---|----|O---
+S: ----|O---|O---|O---
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+Wait, but need to confirm the original T line is already present, so that's okay. The user's request is fulfilled by adding snare hits. That should do it.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|O---|O---|O---
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

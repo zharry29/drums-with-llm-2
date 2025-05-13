@@ -1,0 +1,58 @@
+Okay, let me tackle this drum groove edit. The user wants to remove the hihat on beat 4 while keeping everything else the same. 
+
+First, I need to look at the original groove provided. Let me parse each line:
+
+**Kick (K):** O---|----|O---|----
+This means the kick hits on the first 16th note of the first and third beats, then nothing else.
+
+**Snare (S):** ----|O---|----|O---
+Snare hits on the second beat (strong hit O) and the fourth beat (also O).
+
+**Hihat (H):** X---|X---|X---|X---
+Hmm, the hihat here is X on every beat's first 16th note. Since X is a hard closed hit for the hihat. The user wants to remove beat 4's hihat. So the fourth beat's X should become '-'.
+
+**Toms (T), Crash (C), Ride (R):** All are empty except maybe crashes? But in the given, they’re all dashes except maybe the crash in the original example, but in this case, C and R are all dashes except maybe in the first example. Wait, in the given groove here, C and R lines are all dashes. So no changes needed there.
+
+So, the task is to modify the H line. Let's break down each beat of H:
+
+Original H line:
+H: X---|X---|X---|X---
+
+Each beat is separated by |. So beat 1: X---, beat 2: X---, beat 3: X---, beat 4: X---.
+
+The user wants to remove the hihat on beat 4. That means changing the fourth beat's X to '-'.
+
+So the new H line should be:
+H: X---|X---|X---|----
+
+Putting it all together:
+
+K remains the same:
+K: O---|----|O---|----
+
+S remains the same:
+S: ----|O---|----|O---
+
+H becomes:
+H: X---|X---|X---|----
+
+T, C, R stay as they were:
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+I need to double-check that I didn't miss any other hihat hits on beat 4. Since the original H only had the first 16th note of each beat hit, the fourth beat's first note is the only one in that beat. So replacing that X with '-' removes it entirely from beat 4.
+
+Also, ensuring that all other instruments are untouched. The user said everything else is fine, so K, S, T, C, R lines stay as they are except H's fourth beat.
+
+So the final edited groove should look like this with the H line adjusted.
+</think>
+
+@@@
+K: O---|----|O---|----  
+S: ----|O---|----|O---  
+H: X---|X---|X---|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

@@ -1,0 +1,26 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any hihat or tom parts. Let me look at the given groove first.
+
+The original groove has:
+
+- **Kick (K):** O--O|----|--O-|----
+- **Snare (S):** ----|Oo-o|-o--|O--o
+- **Hihat (H):** X-x-|X-x-|X-x-|X-x-
+- **Toms (T):** all dashes
+- **Crash (C):** all dashes
+- **Ride (R):** all dashes
+
+The user's request is to eliminate hihat and tom. Since Toms are already silent, I just need to silence the Hihat line. Also, check if there's any mention of ride or other elements, but the request specifically mentions hihat and toms. So, set H to all dashes and leave the rest as is except ensuring T remains silent. Let me confirm:
+
+Original H line: X-x-|X-x-|X-x-|X-x- → change to ----|----|----|----
+
+Other lines stay the same. The snare is okay since the request is only about hihat and toms. So the edited groove should have H and T lines all dashes. Let me double-check the notation rules to ensure no mistakes. Yep, looks good. So the final version should have H set to all '-' and T remains as it was.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

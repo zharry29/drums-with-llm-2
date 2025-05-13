@@ -1,0 +1,129 @@
+Okay, let me tackle this drum groove edit. The user wants the groove to have not only toms but also kick. Wait, looking at the original groove:
+
+The Kick (K) line has some hits: "O---|---o|O-O-|----". So the kick is already present. The Tom (T) line is all dashes, meaning no tom hits. The user's request says "not only tom but also kick," which might be a bit confusing because the kick is already there. But maybe they meant the other way around? Or perhaps they want more emphasis on both? Let me check again.
+
+Ah, maybe the user made a typo. The original groove has kick but no toms. The request says "not only tom but also kick," which might actually be a mistake, and they meant "not only kick but also tom." That makes more sense because the current groove lacks toms. Let me proceed under that assumption.
+
+So, the task is to add tom hits while keeping the existing kick. Let me look at the structure. The original has:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: (all dashes)
+C: O---|----|----|----
+R: (empty)
+
+The user wants toms added. I need to insert tom hits (using O or o) in the T line without conflicting with existing parts. Let's see where there's space. The kick has hits on certain 16th notes, but toms can play on different positions. Maybe syncopate or complement the kick.
+
+Looking at the first beat: K has O on the first 16th note. Maybe add a tom on the third 16th note (the third character) to create a syncopated feel. So first beat: "O---" for K, so T could be "-O--" to hit on the third. 
+
+Second beat: K has ---o (hit on the fourth 16th). Maybe T hits on the second and third? Like "O-O-" but need to check. Alternatively, maybe mirror the kick but offset. 
+
+Third beat: K has O-O- (hits on first and third). Maybe T could hit on the second and fourth? 
+
+Fourth beat: K has nothing. Maybe add a tom fill here, like "O---o---" but need to fit 4 beats. Wait, each line has 16 characters separated by | into four beats. Each beat has four characters.
+
+Wait, let me structure each part properly. Let me parse each line as four beats:
+
+Original K line:
+Beat1: O---
+Beat2: ---o
+Beat3: O-O-
+Beat4: ----
+
+So for Toms (T line), which is currently all dashes, I need to add O or o in some positions. Let's go beat by beat.
+
+Beat1: K hits first 16th (O). Maybe Tom on the third 16th (third character) to add a backbeat? So T's first beat: --O- ?
+
+Beat2: K hits the fourth 16th (---o). Maybe Tom on the second and third? Like O-O- ?
+
+Beat3: K hits first and third (O-O-). Tom could hit the second and fourth? Like -O-O ?
+
+Beat4: K has nothing. Maybe a tom hit on the first and third? O-O- ?
+
+Alternatively, maybe follow a pattern. Let me see the Snare (S) line: 
+
+S has on beat2 first 16th (O), and beat4 first 16th (O). The Hihat (H) has some open and closed hits.
+
+Perhaps the tom can play on the offbeats. Let's try:
+
+T line:
+Beat1: -O-- (hit on second 16th)
+Beat2: O--- (hit first 16th)
+Beat3: -O-O (hit second and fourth)
+Beat4: O--- (hit first 16th)
+
+But need to ensure it doesn't clash too much. Alternatively, maybe a steady tom on every other 16th note. Let me think of a simple pattern. Alternatively, since the kick is already providing the main beats, toms can add some syncopation.
+
+Alternatively, maybe in the first beat, T: -O--, second beat: --O-, third beat: -O-O, fourth beat: O---. 
+
+Wait, let me write it out:
+
+T: -O--|---O|O-O-|O---
+Wait, but each beat is four characters. Let me make sure each beat has four characters.
+
+Alternatively, to make it consistent, perhaps:
+
+T: -O--|O---|O-O-|O---
+But need to check for each beat:
+
+First beat: -O-- (second 16th hit)
+Second beat: O--- (first 16th)
+Third beat: O-O- (first and third)
+Fourth beat: O--- (first 16th)
+
+Alternatively, maybe mirror the kick's pattern but offset. Let me see.
+
+Alternatively, maybe the user wants toms to be present but not overpowering. Let's pick a simple pattern. Let's try:
+
+T: O---|O---|O---|O---
+That would be a steady tom on every beat's first 16th, but that might clash with kick in some places. For example, in beat1, K has O on first 16th, so T also O there would be a double hit. Maybe better to offset.
+
+Alternatively, in the first beat, T hits the third 16th: --O-, so not clashing with K's first hit.
+
+Second beat: K's hit is on fourth, so T could hit second: -O--
+
+Third beat: K hits first and third, so T could hit second and fourth: -O-O
+
+Fourth beat: no K, so T could hit first: O---
+
+So putting it together:
+
+T: --O-| -O-- | -O-O | O---
+
+Wait, but need to write each beat as four characters. Let me structure each beat properly.
+
+First beat: "--O-" (third 16th)
+Second beat: "-O--" (second 16th)
+Third beat: "-O-O" (second and fourth)
+Fourth beat: "O---" (first 16th)
+
+So the T line would be:
+
+T: --O-|-O--|-O-O|O---
+
+But I need to check each beat's characters. Let me write each beat separated by |:
+
+T: "--O-| -O-- | -O-O | O---"
+
+But the original T line was all dashes, so this adds tom hits without clashing too much with kick. Let me check with the K line:
+
+First beat: K is O--- (hit first), T is --O- (hit third) – okay, no clash.
+
+Second beat: K is ---o (hit fourth), T is -O-- (hit second) – okay.
+
+Third beat: K is O-O- (hits first and third), T is -O-O (hits second and fourth) – that creates a busy but rhythmic pattern.
+
+Fourth beat: K is ----, T is O--- (hit first) – that's fine.
+
+This should add some tom hits without overlapping too much, complementing the kick. The user's edit request was to add toms (since they weren't present) along with kick (which was already there). So this should fulfill the request.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: --O-|-O--|-O-O|O---
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

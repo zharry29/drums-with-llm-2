@@ -1,0 +1,38 @@
+Alright, let's tackle this problem step by step. So, the user has given me a drum groove and an edit request. The groove is currently very minimal, with only the ride cymbal and some hihat and kick drum hits. The edit request is to modify it so that it includes not only the ride cymbal but also the tom-toms.
+
+First, I need to understand the drum notation provided. Each line represents a different drum or cymbal, and each character in the line corresponds to a 16th note. The characters can be 'O', 'o', 'X', 'x', or '-', with '-' meaning the instrument isn't played on that note. The articulations vary by instrument, so I need to pay attention to that.
+
+Looking at the given groove:
+
+- **K:** `----|----|----|----` (No kick drum hits)
+- **S:** `----|----|----|----` (No snare drum hits)
+- **H:** `----|x---|----|x---` (Hihat on the 5th and 13th 16th notes)
+- **T:** `----|----|----|----` (No tom hits)
+- **C:** `----|----|----|----` (No crash cymbal)
+- **R:** `x---|X-x-|x---|X-x-` (Ride cymbal with some closed and open hits)
+
+The edit request is to add tom-toms to this groove. Since the current groove is quite sparse, adding toms will add more texture and rhythm.
+
+I'll start by identifying where to place the tom hits. Toms are often used to add accents and rhythmic interest, especially in transitions between beats or to emphasize certain parts of the rhythm. Given that the hihat is already playing on the 5th and 13th 16th notes, I can add tom hits on other off-beat positions to create a more dynamic rhythm.
+
+I'll consider adding soft tom hits (`o`) on the 3rd and 11th 16th notes to complement the hihat without overpowering it. This will create a subtle interplay between the hihat and toms, adding depth to the groove.
+
+So, the updated tom line will look like:
+
+**T:** `----|---o|----|---o`
+
+This means the toms are played softly on the 3rd and 11th 16th notes of each beat, adding a gentle underlying rhythm.
+
+I'll leave the rest of the groove as is to maintain the simplicity and let the toms and hihat shine together. The kick and snare can remain absent to keep the focus on the rhythm section without adding too much complexity.
+
+Finally, I'll format the new groove with the updated tom line, ensuring it follows the correct notation and structure.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|---o|----|---o
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

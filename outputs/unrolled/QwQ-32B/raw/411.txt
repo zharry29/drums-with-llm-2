@@ -1,0 +1,37 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any hihat or cymbal parts. 
+
+First, I'll look at the original groove provided:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+So the H line (hihat) has X-x- repeating in each beat. Since the request is to remove hihat, I need to replace all those X and x with '-', making the H line all dashes.
+
+Cymbals here are Crash (C) and Ride (R). Looking at C and R lines, they are already all dashes except maybe check if there's any. In this case, both C and R lines are empty. So no changes needed there.
+
+So the edited version should have K and S as they are, H, C, R lines all dashes. Let me confirm:
+
+Original K and S stay. H becomes ----|----|----|----. Toms are already empty. C and R too. 
+
+Wait, the user also mentioned "cymbal", so even if there were crashes or rides, they should be removed. But in this case, they're already clear. So the final should be:
+
+K remains: O--O|----|--O-|----
+S remains: ----|Oo-o|-o--|O--o
+H becomes: ----|----|----|----
+T, C, R stay as they are.
+
+Double-checking that I didn't miss any other cymbals. Yep, looks good. That should fulfill the request.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,70 @@
+Okay, let's tackle this problem step by step. The user provided a drum groove and wants me to edit it by removing any kick (K) and cymbal (C, R) parts. Let me first understand the structure of the given drum notation to make sure I don't miss anything.
+
+First, looking at the original groove:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+The user's request is to remove kick and cymbals. The kick is represented by the line starting with K, so I need to set all its characters to '-' since they don't want any kick. The cymbals here are Crash (C) and Ride (R). Both of their lines need to be cleared as well.
+
+Looking at the Snare (S) and Hihat (H) lines, the user didn't mention removing those, so they should stay as they are unless there's an issue. The Tom (T) line is already all dashes, so no change there.
+
+Let me check each line:
+
+- **K (Kick):** Currently all dashes, but maybe the user wants to ensure no kick, so confirm that K is set to all '-'. Since it already is, that's fine.
+  
+- **S (Snare):** All dashes. The user didn't mention snare, so leave as is.
+  
+- **H (Hihat):** Has some hits on the x's. Since they're not mentioned to be removed, keep them.
+  
+- **T (Toms):** All dashes. No change.
+  
+- **C (Crash):** All dashes. But since the user wants no cymbals, set to all '-' just in case. It's already there, so okay.
+  
+- **R (Ride):** Has some hits. Need to clear this line to all '-'.
+
+Wait, looking at the original R line: "x---|X-x-|x---|X-x-". These are ride hits. So setting that to all '-' is necessary.
+
+Wait, but the user said "I don't want any kick or cymbal". The ride is a cymbal, so yes, R should be cleared. Crash (C) is also a cymbal, which is already clear.
+
+So the final edited groove should have K, C, R all as dashes, and leave S, H, T as they are unless they have cymbal parts, but S is snare, H is hihat, T is toms, so they are okay.
+
+Let me verify each line again:
+
+- K: All '-' ✔️
+- S: All '-' ✔️ (user didn't ask to remove snare, but in the original, it's already empty)
+- H: Has some x's ✔️ (allowed)
+- T: All '-' ✔️
+- C: All '-' ✔️
+- R: Now set to all '-' ✔️
+
+Wait, in the original, the R line had some hits. So changing that to all '-' is correct.
+
+Putting it all together, the edited groove should look like:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+I think that's it. Let me double-check to ensure no kick or cymbal remains. Kick is clear, R and C are clear. The hihat remains as it was, which is allowed. Snare is empty, which was already the case. Tom is also clear. Looks good.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

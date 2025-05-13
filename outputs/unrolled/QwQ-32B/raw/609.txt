@@ -1,0 +1,45 @@
+Okay, let's tackle this drum groove edit. The user wants a tom hit and cymbal in the very beginning. The original groove is:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, I need to add a tom hit and a cymbal at the start. The first beat is "O---" for Kick and "O-o-" for Toms. To add a tom hit in the very beginning (first 16th note), I should check if there's space. The Toms already have an O on the first note of the first beat. Wait, looking at T's first beat: "O-o-", so the first note is O. That's already a tom hit. But maybe the user wants an additional one? Or perhaps they want a crash cymbal there?
+
+The user mentioned "tom hit and cymbal in the very beginning." The existing Toms have a tom hit on the first note. So maybe adding a cymbal (Crash or Ride) on that first note. The Crash (C) is currently all dashes. So I can add an O on the first note of the Crash line. Let me check the original's C line: it's all dashes. So adding C: O---|... would put a crash on the first note.
+
+So the new lines would be:
+
+K remains O---|O---|----|O---
+S stays the same: ----|----|O---|----
+H remains empty
+T stays O-o- etc.
+C now has O---| to add the crash on the first note.
+
+Wait, but the user might prefer a different cymbal, like Ride? But the request says "cymbal" generally. Since Crash is available and the original uses it in other bars, maybe Crash is okay. Alternatively, if the user didn't mention Ride, but the existing Ride (R) is empty, so Crash is better here.
+
+So the final edit would add C: O---| and keep T's existing tom hit. But the user might want both a tom and cymbal added, but T already has the tom. Maybe the user just wants to ensure both are present. Since T has it, adding the crash makes sense.
+
+So the new drum groove would be:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: O---|----|----|----
+R: ----|----|----|----
+
+That should satisfy the request. Let me double-check. The first note has Kick (O), Tom (O), and Crash (O). So three hits on the first note. That's acceptable. The user wanted tom and cymbal added, so that works. The rest remains the same.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

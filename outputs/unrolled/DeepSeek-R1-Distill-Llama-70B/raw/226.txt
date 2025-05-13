@@ -1,0 +1,40 @@
+Alright, let's tackle this problem step by step. The user has provided a drum groove and wants to modify it to include both kick and tom elements. 
+
+First, I need to understand the drum notation. Each line represents a different drum or cymbal, and each character in a line corresponds to a 16th note. The characters can be 'O', 'o', 'X', 'x', or '-', with 'O' and 'o' indicating hits, and 'X' and 'x' being used for specific articulations depending on the instrument.
+
+The original groove provided by the user is:
+
+@@@
+K: OOO-|---O-|OOO-|---- 
+S: ----|O---|----|O--- 
+H: x-x-|x-x-|x-x-|x-x- 
+T: ----|----|----|---- 
+C: O---|----|----|---- 
+R: ----|----|----|---- 
+@@@
+
+The edit request is to ensure the groove has not only kick but also tom. 
+
+So, the kick drum (K) already has a solid pattern, but the tom (T) is currently all '-' indicating it's not being played. My task is to add tom hits to this groove.
+
+I'll start by identifying where the toms can be added without clashing with the existing kick and snare hits. Looking at the kick pattern, it's active on beats 1 and 3, and the snare is on beats 2 and 4. The toms can be added on off-beats or in between to add flavor without overlapping.
+
+In the given groove, the hihat (H) is already playing a steady 16th-note pattern, which is good. The crash cymbal (C) is only on the first beat of the first measure, so adding toms in other measures would complement that.
+
+I'll decide to add soft tom hits (o) on the off-beats of beats 2 and 4 in each measure. This will add movement without overpowering the main rhythm. 
+
+So, in measure 1, I'll add 'o' on the 9th and 13th 16th notes. In measure 2, I'll add 'o' on the 9th and 13th as well. Measures 3 and 4 will follow the same pattern to maintain consistency.
+
+Finally, I'll ensure that the ride cymbal (R) remains unchanged as it's not part of the edit request.
+
+Putting it all together, the updated groove will have the kick, snare, hihat, crash, and now the added toms, creating a balanced and dynamic rhythm.
+</think>
+
+@@@
+K: OOO-|---O-|OOO-|---- 
+S: ----|O---|----|O--- 
+H: x-x-|x-x-|x-x-|x-x- 
+T: ----|----|----|o--- 
+C: O---|----|----|---- 
+R: ----|----|----|---- 
+@@@

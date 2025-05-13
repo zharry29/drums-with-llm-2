@@ -1,0 +1,32 @@
+Alright, I need to help the user edit their drum groove according to their request. They provided a drum notation and an edit request stating they don't want any snare or cymbal. Let's break this down step by step.
+
+First, I'll look at the original drum groove they provided. It includes Kick, Snare, Hihat, Toms, Crash Cymbal, and Ride Cymbal. The user wants to remove both Snare and Cymbal, which includes Crash and Ride.
+
+I'll start by identifying the lines for Snare (S), Crash Cymbal (C), and Ride Cymbal (R). In the given groove, these lines have specific patterns. My task is to set all their characters to "-", effectively silencing them.
+
+Next, I'll ensure that the Kick (K), Hihat (H), and Toms (T) remain unchanged. This means I'll leave their patterns as they are, only modifying the S, C, and R lines.
+
+I'll also double-check to ensure that no other instruments are affected and that the changes only apply to Snare and Cymbals. It's important to maintain the foundational rhythm provided by the Kick and the texture from the Hihat and Toms.
+
+Finally, I'll present the revised groove, making sure it's formatted correctly within the @@@ notation as the user specified. I'll also provide a clear explanation of the changes made to ensure transparency and accuracy.
+</think>
+
+```
+K: o---|--o-|o---|--o-
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+**Step-by-Step Explanation:**
+
+1. **Kick Drum (K):** Maintains its original soft hit pattern to provide a subtle foundation.
+2. **Snare Drum (S):** Removed all hits by setting all characters to "-".
+3. **Hihat (H):** Maintained with soft closed hits ("x") on beats 2 and 4.
+4. **Toms (T):** Kept silent as per the original groove.
+5. **Crash Cymbal (C):** Removed all hits by setting all characters to "-".
+6. **Ride Cymbal (R):** Removed all hits by setting all characters to "-".
+
+This arrangement creates a minimalist rhythm focused on the kick and hihat without any snare or cymbal hits.

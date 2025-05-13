@@ -1,0 +1,24 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the snare and kick parts. Let me start by looking at the original groove provided.
+
+First, I'll check each line of the given drum notation. The Kick (K) line has some hits like O--O and --O-, so I need to replace those with all '-' characters. Similarly, the Snare (S) line has Oo-o, -o--, O--o, which should all be turned into '----'.
+
+Next, I'll make sure the other instruments like Hihat (H), Toms (T), Crash (C), and Ride (R) stay the same unless instructed otherwise. The user only mentioned removing snare and kick, so those lines remain untouched. Let me double-check each line:
+
+- **K (Kick):** Original has O--O|----|--O-|-OO-. Changing all to '----|....' so each segment becomes '----'.
+- **S (Snare):** Original has ----|Oo-o|-o--|O--o. Replacing with '----|----|----|----'.
+- **H (Hihat):** All '----', so no change.
+- **T (Toms):** All '----', so no change.
+- **C (Crash):** All '----', so no change.
+- **R (Ride):** o-O- repeated four times. Since the user didn't mention ride, leave it as is.
+
+Wait, the user's edit request says "I don't want any snare or kick," so only K and S lines should be cleared. The rest stay. Let me confirm each line again to ensure I didn't miss any snare or kick hits. Yep, looks like that's all. The final groove should have K and S lines all dashes, others unchanged.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

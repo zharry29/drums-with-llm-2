@@ -1,0 +1,136 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include not only the crash cymbal (C) but also the toms (T). Looking at the given groove:
+
+First, check which instruments are already present. The Kick (K), Snare (S), Hihat (H), and Crash (C) are active. The Toms (T) and Ride (R) are silent. The edit request specifies adding toms, so I need to add some tom hits where they aren't already present.
+
+The original groove has crashes on the first 16th note of each beat in the first and third positions (C: O---|----|----|----). To add toms, I can place them in a complementary pattern. Maybe syncopate them against the kick and snare. Let's see the structure:
+
+Looking at each beat:
+
+First beat (K: O---): Maybe add a tom hit on the "and" of the first beat. So, T: -O-- ?
+
+Second beat (K: ---o, S: O---): Perhaps a tom on the third 16th note here, like T: --O- ?
+
+Third beat (K: O-O-, S: ----): Maybe a tom on the first and third notes? T: O-O- ?
+
+Fourth beat (K: ----, S: O---): Maybe a tom on the fourth 16th note, T: ---O ?
+
+But need to ensure it fits the rhythm and doesn't clash. Alternatively, a steady pattern like every other 16th note. Let me try a pattern that adds some groove. For example, in each beat, place a tom on the "and" of 2 and 4. Let's see:
+
+Breaking it down beat by beat:
+
+First beat (positions 1-4): K has O on first note. Maybe T: -O-- here.
+
+Second beat (positions 5-8): S has O on first note. Maybe T: --O- (third note).
+
+Third beat (positions 9-12): K has O on first and third. Maybe T: -O-O? Wait, but need to check. Alternatively, O--- ?
+
+Fourth beat (positions 13-16): S has O on first note. Maybe T: ---O.
+
+Alternatively, a steady tom on every fourth note: T: ----|----|----|O--- but that might be too sparse.
+
+Alternatively, a tom hit on the "and" of each beat. Let's try T: -O--|--O-|-O-O|---O ?
+
+Wait, let me map it out:
+
+Beat 1 (positions 1-4): K: O---, S: ----, H: --o-, T: ?
+
+Maybe T: -O-- here to complement the kick.
+
+Beat 2 (positions 5-8): K: ---o, S: O---, H: O-o-, T: ?
+
+Perhaps T: --O- (third 16th note here).
+
+Beat 3 (positions 9-12): K: O-O-, S: ----, H: O-o-, T: ?
+
+Maybe T: O--- to hit with the first kick, then -O-- on the third note? Or O-O- ?
+
+Beat 4 (positions 13-16): K: ----, S: O---, H: O-o-, T: ?
+
+Maybe T: ---O to end the bar.
+
+Putting it all together:
+
+T: -O--|--O-|O-O-|---O ?
+
+Wait, let me check each beat:
+
+First beat T: -O-- (positions 2)
+
+Second beat T: --O- (position 3)
+
+Third beat T: O-O- (positions 1 and 3)
+
+Fourth beat T: ---O (position 4)
+
+But need to ensure it's 4 characters per beat. Let me write each beat as four characters separated by |:
+
+T: -O-- | --O- | O-O- | ---O 
+
+But let's see if that works with the existing parts. Alternatively, maybe a more consistent pattern like every third 16th note? Hmm.
+
+Alternatively, to make it more active, maybe in the third beat where there's a kick on the first and third, add a tom on the second and fourth? Not sure.
+
+Alternatively, maybe a tom on the "and" of each beat, so every even 16th note. That would be T: -O-O repeated? But that might clash with the hihat or snare.
+
+Alternatively, a tom fill on the offbeats. Let me think of a simple pattern that adds some depth without overpowering.
+
+Another approach: in the first beat, since there's a kick on 1, add a tom on 2. Second beat, since the snare is on 1, maybe tom on 3. Third beat, kick on 1 and 3, so tom on 2 and 4? Or just 2. Fourth beat, maybe tom on 4.
+
+So T: -O-- | --O- | -O-O | ---O ?
+
+Breaking down:
+
+Beat 1: -O-- (tom on 2)
+Beat 2: --O- (tom on 3)
+Beat 3: -O-O (tom on 2 and 4)
+Beat 4: ---O (tom on 4)
+
+This spreads the toms across different positions, complementing the kick and snare. Let me check if that works with the existing instruments.
+
+Also, since the crash is only on the first beat of each measure (C: O---|----|----|----), maybe the toms can syncopate around that.
+
+Alternatively, maybe start with T: --O- in the first beat to have the tom on 3, but that might clash with the snare's open hit? Wait, the snare in the first beat is silent except in the second beat.
+
+Alternatively, the third beat has a kick on 1 and 3, so a tom on 2 and 4 could add a nice counterpoint.
+
+I think the pattern I thought of earlier could work. Let me write it as:
+
+T: -O-- | --O- | -O-O | ---O 
+
+But need to ensure each beat is four characters. Let me format that properly with the | separators:
+
+T: -O--|--O-|-O-O|---O 
+
+Wait, let me check each beat's length:
+
+First beat: "-O--" (4 chars)
+Second: "--O-" (4)
+Third: "-O-O" (4)
+Fourth: "---O" (4)
+
+Yes. So the T line would be:
+
+T: -O--|--O-|-O-O|---O 
+
+This adds toms in a way that doesn't clash with the existing parts. Let me confirm with the original:
+
+Original K: O---|---o|O-O-|----
+Original S: ----|O---|----|O---
+Original H: --o-|O-o-|O-o-|O-o-
+Adding T as above.
+
+Does this make sense rhythmically? The toms add some syncopation, especially in the third beat where they play on 2 and 4 while the kick is on 1 and 3. That should create a nice interplay. The fourth beat's tom on 4 leads into the next bar. 
+
+Alternatively, maybe using softer hits (o) for toms to blend better? But the user didn't specify, so using O (hard hits) is okay unless the edit requires subtlety. Since the instruction just says "have not only cymbal but also tom", adding O's should suffice.
+
+Therefore, the edited groove would include the T line with this pattern and keep the C as is. The user might also want to keep the crash in the original places, so no changes there unless needed. The edit request doesn't mention modifying the crash, just adding toms. So the final answer would be adding the T line with the above pattern.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: -O--|--O-|-O-O|---O
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

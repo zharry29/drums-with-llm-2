@@ -1,0 +1,44 @@
+Alright, let's tackle this drum groove edit. The user wants a kick hit and cymbal in the very beginning. The original groove is:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+First, I need to focus on the first beat, which is the part before the first "|". The user mentioned "very beginning", so that's the first 16th note of the first beat. 
+
+Looking at the Kick (K) line, the first beat is "O--O". The first character is "O", which is a hard kick hit. Wait, but the user wants a kick hit there. The existing first note already has an "O", so maybe they want to reinforce it or add something else? Hmm, maybe they just want to ensure there's a hit there, which there is. But perhaps they also want a cymbal hit at the same time.
+
+The cymbals here are Crash (C) and Ride (R). The original has no crash hits (C line is all dashes), but the ride (R) starts with "o-O-", so the first note is an "o" on the bell. So maybe adding a crash on the first note would fulfill the cymbal part. Alternatively, since the ride is already there, maybe the user wants a crash instead or in addition.
+
+The user said "kick hit and cymbal". Since the kick is already present, maybe adding a crash on the first note would be better. Let's check the crash line (C) which is all dashes. So inserting an "O" (hard crash) on the first note of C. Alternatively, since the ride is already playing, maybe the user is okay with the ride's hit. But the request specifies "cymbal", which could be either, but Crash is a different sound.
+
+Alternatively, maybe the user wants both kick and cymbal (either crash or ride) at the start. Since the ride's first note is already a hit, but maybe they want a crash for emphasis. Let me go with adding a crash hit on the first note.
+
+So modifying the Crash line (C) to have "O" on the first 16th note. The original C line is "----|----|----|----", so changing the first character to "O" making it "O---|----|----|----".
+
+Wait, but let me check the Ride line's first note: it's "o" which is a soft open hit on the bell. The user might prefer a crash for a louder start. So adding a crash there would add that. Alternatively, maybe they just want to ensure the ride is there, but since it already is, maybe that's sufficient. The instruction says "a kick hit and cymbal", so maybe either crash or ride is okay, but since ride is already present, maybe the user just wants to confirm that. However, the user might want an explicit cymbal hit (crash) to stand out more.
+
+I think adding a crash on the first note would be the safest bet here. Let's adjust the C line's first character to "O".
+
+So the edited lines would be:
+
+K remains the same since it already has the kick hit. 
+
+C: O---|----|----|----
+
+The Ride line's first note is "o", which is okay. Alternatively, if the user wants a different articulation, but since they just said "cymbal", Crash with "O" is a clear hit.
+
+Final check: The first beat of K has O, and first beat of C has O. That should fulfill the request.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

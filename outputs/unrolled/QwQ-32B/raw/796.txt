@@ -1,0 +1,47 @@
+Okay, let's tackle this drum groove edit. The user wants a tom hit and ride in the very beginning. First, I need to look at the original groove provided.
+
+The original K (kick) line starts with "-O--", so the first 16th note is silent. The S (snare) is all dashes in the first beat. H (hihat) has "x-x-" which are closed hits. T (toms) is empty except for the third beat. C (crash) has hits on every beat. R (ride) is silent everywhere.
+
+The user wants a tom hit and ride in the very beginning. The "very beginning" would be the first 16th note of the bar. Since the kick is already "-O--", the first note is empty, so adding a tom there makes sense. The tom line (T) currently has nothing in the first beat, so I'll put an "O" (hard hit) on the first note. 
+
+For the ride (R), the user mentioned "ride in the very beginning", so the first 16th note should have a ride hit. The R line is all dashes, so I'll add an "O" (hard open hit on the bell) on the first note. 
+
+Wait, but I need to check the notation rules. The ride's O is a hard hit on the bell. That's appropriate for the beginning. 
+
+Let me make sure I'm not conflicting with other hits. The first 16th note of K is "-", so no kick there. The tom's first note is now "O", and ride's first is "O". That should work. 
+
+Also, need to ensure the rest of the measures aren't affected. Only the first beat's first note needs the tom and ride. Let me check each line:
+
+Original T line: "----|----|---O|----". Changing the first four characters (first beat) to "O---" so the tom hits on the first 16th. 
+
+Original R line: all dashes. Change the first character to "O", so "O---|----|----|----".
+
+Wait, but the user might want the ride to continue its pattern? The original R had a pattern of "----|----|----|----", so just adding the initial hit. The edit request specifies "in the very beginning", so just the first note. 
+
+Double-checking the instruments: Tom (T) and Ride (R) are the ones to modify. The rest stay the same. 
+
+So the edited lines would be:
+
+T: O---|----|---O|----
+R: O---|----|----|----
+
+Let me put that into the full notation and verify each line. 
+
+Kick remains: -O--|OO--|---O|-OO-
+Snare same: ----|----|S---|----
+Hihat same: x-x-|x-x-|x-x-|x-x-
+Toms now start with O---
+Crash same: O---|O---|O---|O---
+Ride starts with O---
+
+Yes, that should do it. The first 16th note has a tom hit and ride hit, fulfilling the request without altering the rest of the groove unnecessarily.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: O---|----|---O|----  
+C: O---|O---|O---|O---  
+R: O---|----|----|----  
+@@@

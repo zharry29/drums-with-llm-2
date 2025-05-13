@@ -1,0 +1,44 @@
+Okay, let's tackle this drum groove edit. The user wants snare on every 16th note in the second beat. The original groove is:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+First, I need to understand the structure. Each line has four beats separated by |, and each beat has four 16th notes. The second beat is the part after the first |. 
+
+Looking at the snare (S line), the current second beat is "O---". That means there's only a hit on the first 16th note of the second beat. The user wants every 16th note in that beat to have a snare hit. So, instead of "O---", it should be "OOOO".
+
+But wait, the S line's notation uses O for hard hits and o for soft open hits, and also X/x for sidestick. The original uses O, so maybe keeping it consistent is better. So replacing the second beat's "O---" with "OOOO".
+
+Now check the rest of the groove. The kick (K) has some notes, but the user didn't mention changing them. The hihat (H) has some activity, but again, unless instructed, leave as is. Crash (C) has a hit on the first beat, but the user's request doesn't mention crashes, so leave it.
+
+So modifying the S line's second beat to have all four 16th notes as O. Let's see:
+
+Original S line: ----|O---|----|O---
+After change: ----|OOOO|----|O---
+
+But I need to ensure that this doesn't exceed any other constraints. The user didn't mention note limits, just the snare on every 16th of the second beat. The other instruments can stay as they are. Let me check the hihat in the second beat: it has "O-o-", which might be okay, but the user didn't mention hihat, so leave it.
+
+Putting it all together, the edited groove should have the S line's second beat filled with four Os. Let me write that out:
+
+K: O---|---o|O-O-|----
+S: ----|OOOO|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+Wait, but the original K line's second beat is "---o", which has a soft hit on the fourth 16th. The user didn't mention the kick, so leave that. The snare now has four hits in the second beat. That should satisfy the request. Let me double-check the count in the second beat for snare: yes, four Os. Looks good. I think that's it.
+</think>
+
+@@@
+K: O---|---o|O-O-|----  
+S: ----|OOOO|----|O---  
+H: --o-|O-o-|O-o-|O-o-  
+T: ----|----|----|----  
+C: O---|----|----|----  
+R: ----|----|----|----  
+@@@

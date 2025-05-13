@@ -1,0 +1,56 @@
+Okay, let's tackle this edit request. The user wants a kick hit and cymbal in the very beginning of the drum groove provided. Let me first look at the original groove to see where changes need to be made.
+
+The original groove is:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+So, the first thing I notice is that the Kick (K) and Crash (C)/Ride (R) lines are mostly silent in the first beat. The user wants a kick hit and a cymbal (either crash or ride) at the very start. 
+
+The first beat is represented by the first four characters before the first |. The current K line starts with "----", so I need to add an 'O' (hard hit) or 'o' (soft hit) there. Since the user didn't specify soft or hard, I'll go with a standard hard hit 'O' for a strong start. 
+
+For the cymbal, the user mentioned "cymbal" generally. Looking at the existing cymbals, the Ride (R) is already active in the second half of the first beat (the 'x' in the first part of R's line is on the first 16th note). But the user wants it in the very beginning, so maybe adding a Crash (C) on the first note would be better, as Crash is often used for accents. Alternatively, the Ride could have a hit there too. 
+
+Wait, the Ride's first beat is "x---", so the first note is already a soft closed hit on the bow. If the user wants an additional cymbal, perhaps adding a Crash on the first note would add more impact. Alternatively, maybe making the Ride's first hit harder by using 'X' instead of 'x'. But the user said "cymbal", so maybe adding a Crash. Let me check the Crash line (C) which is all dashes. So putting an 'O' there would make sense for a crash hit on the first note.
+
+So, the plan is:
+
+- On the first 16th note of the first beat (position 1), add a Kick hit 'O' in the K line.
+- Add a Crash hit 'O' on the first note of the C line.
+
+But need to check if that's allowed. The user said "cymbal", which can be either Crash or Ride. Since Ride already has a hit there but it's a soft closed, maybe the Crash is better for a strong start. Alternatively, maybe the user wants the Ride to have a bell hit. Let me see the Ride's notation: R's first character is 'x', which is a soft closed hit. If I change that to 'O', that would be a hard bell hit. That might be more noticeable. Alternatively, adding both a crash and ride? But maybe the user just wants one. Since the original has Ride active, perhaps modifying the Ride's first hit to be harder would suffice.
+
+Alternatively, since the user specified "cymbal", maybe adding a crash is better for a clear beginning. Let me go with Crash for clarity.
+
+So, updating K's first beat to 'O---' and C's first beat to 'O---'.
+
+Wait, but the user's original request is "kick hit and cymbal in the very beginning". The very beginning is the first 16th note. So:
+
+- K: first character becomes 'O'
+- C: first character becomes 'O'
+
+Thus, the new lines would be:
+
+K: O---|----|----|----
+C: O---|----|----|----
+R remains as x--- etc.
+
+Alternatively, if the user prefers the Ride to have the hit, maybe set R's first character to 'O' instead of 'x'. But since Ride is already playing, perhaps adding a Crash would add more texture. 
+
+I think the safest is to add both Kick and Crash on the first note. Let's proceed with that.
+</think>
+
+@@@
+K: O---|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

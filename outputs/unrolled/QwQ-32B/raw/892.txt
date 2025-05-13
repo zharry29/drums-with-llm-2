@@ -1,0 +1,78 @@
+Okay, let's tackle this drum groove edit. The user says the beat feels too empty, so I need to add more elements to fill it out. Let me look at the original groove first.
+
+The Kick (K) is pretty active with O's and --O- patterns. The Snare (S) is on beats 2 and 4, which is standard. But the Hihat (H) and Toms (T) are silent, and the Ride (R) is also quiet except for the Crash (C) hits on every beat. That's probably why it's feeling empty—there's not much happening on the hihats or ride, which usually provide the groove's texture.
+
+First, I'll add some hihat action. Since the original has no hihats, adding closed hihat hits on all 16th notes could help. Using X for hard closed hits might give a punchy feel. Let's try H: X-X-|X-X-|X-X-|X-X- or something like that. But maybe alternating between X and x for variation. Wait, the user might prefer a steady closed hihat. Let me check the notation rules again. H can use X/x for closed hits. So maybe H: X-X- repeated across the bar.
+
+Next, the Ride (R) is empty. The Crash is hitting on every beat, but the ride can add movement. Maybe a steady ride pattern like o-X- or X-o- on each beat. Let's see, using R: o-X-|o-X-|o-X-|o-X- to complement the crashes. That should add some shimmer and keep the rhythm flowing.
+
+Looking at the Toms, they're silent. Maybe adding some tom hits on offbeats to add depth. For example, on the "and" of beats 1 and 3. Let's see, T: --O-|--O-|--O-|--O- but spread out more. Alternatively, T: -O--|----|-O--|---- to hit the second 16th note of beats 1 and 3. That could add some variation without overwhelming the kick.
+
+Also, check if the snare can be enhanced. The original has O on beats 2 and 4. Maybe adding a sidestick or a cross-stick on the offbeats? But the edit request doesn't mention changing the snare, so maybe leave it as is unless necessary.
+
+Putting it all together: Add closed hihats on all 16th notes, a ride pattern, and some tom hits. Let me structure each line:
+
+K remains the same for the kick's energy.
+S stays as is unless needed.
+H: X-X-|X-X-|X-X-|X-X- (but maybe alternate X and x for dynamic variation).
+R: o-X-|o-X-|o-X-|o-X- to add motion.
+T: Maybe -O--|----|-O--|---- or something like that for toms.
+
+Wait, let me make sure the counts add up. Each line should have 16 characters. Let me draft:
+
+H: X-X-|X-X-|X-X-|X-X- (each beat is X-X-, so 4 chars per beat, 16 total)
+R: o-X-|o-X-|o-X-|o-X- (same structure)
+T: -O--|----|-O--|---- (but maybe spread more. Alternatively, T: -O--|O---|-O--|O--- for alternating toms on beats 1 and 3.
+
+Hmm, maybe the toms can have a pattern like -O--|O---|-O--|O--- but need to check if that's too much. Alternatively, T: --O-|--O-|--O-|--O- hits on the third 16th note of each beat.
+
+Alternatively, adding a tom hit on the 4th 16th note of beat 2 and 4? Not sure. Let me think of a simple tom pattern that doesn't clash with kick.
+
+Alternatively, since the kick is already busy, maybe the toms can be sparse. Maybe only on the first beat's third 16th note and similar.
+
+Wait, perhaps the user wants to keep the kick as is but add other elements. Let me proceed with adding hihat and ride first, then see if toms can add a subtle touch.
+
+Finalizing:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: X-X-|X-X-|X-X-|X-X-  
+T: -O--|----|-O--|----  
+C: O---|O---|O---|O---  
+R: o-X-|o-X-|o-X-|o-X-  
+
+Wait, but the Toms in the original were all dashes. Let me check if adding Toms on the offbeats would work. Alternatively, maybe the Toms can have a pattern like -O-- on the first and third beats. That might add some depth without clashing with the kick's O's.
+
+Alternatively, maybe the Toms can have a pattern like -O-- on the first beat's third 16th note, but need to ensure it doesn't interfere. Alternatively, maybe better to leave Toms as empty and focus on H and R.
+
+Wait, let me recalculate. The user's original T line is all dashes. So adding Toms might be optional. Maybe the main fix is H and R. Let me try that first:
+
+H with X-X- throughout, R with o-X-.
+
+So the final would be:
+
+K remains same.
+
+S same.
+
+H: X-X-|X-X-|X-X-|X-X- 
+
+R: o-X-|o-X-|o-X-|o-X- 
+
+C remains same.
+
+That should add more texture. Let me check for any possible mistakes. Each line must have 16 characters. For H, each beat is X-X- (4 chars), so 4 beats = 16. Same for R. Yes.
+
+Alternatively, maybe the hihat could have some variation, like X-x- to mix closed and open, but the user might prefer a steady closed hihat. The edit request is to make it less empty, so steady hihats and ride should help.
+
+So I think that's a solid approach. Let me put it into the @@@ notation.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: X-X-|X-X-|X-X-|X-X-  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: o-X-|o-X-|o-X-|o-X-  
+@@@

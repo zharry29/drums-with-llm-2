@@ -1,0 +1,19 @@
+Alright, let's tackle this drum groove edit. The user wants a kick hit and snare in the very beginning. The original groove starts with a rest on the kick (the first character is "-"), so I need to replace that with a kick hit. Since the user didn't specify soft or hard, I'll go with a standard hard hit "O".
+
+Looking at the snare line (S), the first beat is all dashes. To add a snare hit at the very start, I'll place an "O" there. Again, assuming a hard hit unless told otherwise.
+
+Now, checking the existing pattern: The kick starts with "-O--", so changing the first "-" to "O" makes it "O-O-". The snare line's first beat becomes "O---" to add the hit on the first 16th note.
+
+I should ensure this doesn't clash with other instruments. The crash (C) is already hitting on the first beat, but adding a kick and snare there is common. The hihats and toms don't interfere here. The tom hit on the third beat of the third measure stays, so no conflict.
+
+Final check: The edited lines for K and S should now have the initial hits. The rest of the groove remains unchanged as per the user's request. That should do it.
+</think>
+
+@@@
+K: O-O-|OO--|---O|-OO-  
+S: O---|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: ----|----|---O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

@@ -1,0 +1,33 @@
+Alright, let's tackle this drum groove edit. The user wants a hihat hit and a cymbal (probably crash or ride) in the very beginning. 
+
+Looking at the original groove:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+First, the hihat (H) currently starts with "----" in the first beat. To add a hihat hit at the very beginning, I'll need to place an articulation in the first 16th note of the first beat. Since the user mentioned "hit" but didn't specify open or closed, maybe a closed hit (X or x) would be standard. The existing H line uses "x" in other beats, which is a soft closed hit. Let's keep consistency and use "x" for the first note.
+
+Now for the cymbal. The user didn't specify crash or ride. The existing R (ride) has notes starting from the first beat's third 16th note. Since the request mentions "cymbal," maybe adding a crash (C) at the beginning. The crash line (C) is all dashes. So adding an "O" (hard hit) on the first note makes sense for a strong start.
+
+Alternatively, if they prefer the ride to start earlier, but since the user mentioned "cymbal" generally, crash might be better. Let's go with the crash. 
+
+So updating H's first beat to "x---" and C's first beat to "O---". Let me check:
+
+H: x---|x---|----|x---
+C: O---|----|----|----
+
+That should add the requested elements without conflicting. The ride (R) already has some activity, so no need to adjust that unless necessary, but the user didn't mention ride specifically, just cymbal, so crash fits.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: x---|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

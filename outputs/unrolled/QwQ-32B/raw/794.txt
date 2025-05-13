@@ -1,0 +1,43 @@
+Okay, let me tackle this drum groove edit. The user wants a tom hit and ride in the very beginning. Let me start by understanding the existing groove.
+
+Looking at the given drum groove:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+So, the kick starts with O on the first 16th note, then another O on the second note of the first beat. The snare is on the third beat. Toms have a pattern of O-o- repeating every beat. The ride and crash are silent except for the kick and snare.
+
+The user wants a tom hit and ride in the very beginning. The "very beginning" would be the first 16th note of the bar. Let's check each instrument's first position.
+
+For the tom (T), the first beat is O-o-, so the first hit is an O (hard hit) on the first 16th note. But the user might want an additional tom hit there? Wait, maybe they want a tom hit where there wasn't one before. Wait, the tom line already has O-o- starting at the first beat. The first note is O. So maybe the user wants an even earlier hit? But the first note is already occupied by the kick's O. Hmm, perhaps they want an additional tom hit alongside the kick? Or maybe they meant adding a tom hit in the first position if it wasn't there. Wait, the tom's first beat is O-o-, so the first note is O. So the tom is already hitting on the first 16th note. But the user might want an extra hit or maybe a different articulation? Or maybe the request is to add a ride hit as well?
+
+Wait, the request says "a tom hit and ride in the very beginning." So both a tom and ride should be present at the start. Let me check the existing T and R lines. The tom's first note is O, so that's there. The ride (R) is all dashes, so no hits. Therefore, the user wants the ride to have a hit on the first 16th note as well. 
+
+So to comply with the request, I need to add an O (hard hit on the bell) on the first note of the ride. Since the first 16th note is the start of the bar, that's the first character in the R line. The existing R line is all dashes, so changing the first character to O. 
+
+Wait, but the user might want the ride to start with a hit, so the first note of R should be O. Let me confirm the notation: each line's first character is the first 16th note of the first beat. So R's line should start with O. 
+
+Therefore, the edited R line would be O---| followed by the rest as before. 
+
+Additionally, the tom already has an O there, so no change needed for T unless the user wanted a different articulation, but the request doesn't specify, so probably just adding the ride hit is sufficient. 
+
+So the final changes would be:
+
+- Keep T as is since it already has the tom hit at the beginning.
+- Add O to the first 16th note of R, making R: O---|----|----|----
+
+Let me double-check if there's any other part. The user said "tom hit and ride in the very beginning," so the tom is already there, and the ride needs the hit. That's all.
+</think>
+
+@@@
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: O---|----|----|----
+@@@

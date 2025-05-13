@@ -1,0 +1,23 @@
+Okay, let's tackle this drum groove edit. The user wants a kick hit and a tom in the very beginning. The original groove is given, so first I need to look at the existing patterns and figure out where to add those hits without conflicting.
+
+Starting with the Kick (K line): The first beat is "O--O". The very first 16th note is an 'O', which is a hard hit. But the user wants an additional kick hit at the very beginning. Wait, maybe they want it强化 or maybe there's no kick there yet? Let me check again. The first part is "O--O|...", so the first note is already a kick hit. Hmm, maybe they want a tom added there as well. The tom line (T) is all dashes in the first beat. So the user probably wants a tom hit on the first 16th note along with the existing kick.
+
+So for the Tom (T line), the first beat should have an 'O' (hard hit) on the first note. The rest can stay as they are. Let me make sure that adding the tom doesn't clash. The existing kick is there, but since toms are a different instrument, it should be okay. 
+
+Wait, the user's request is a "kick hit and tom in the very beginning". The kick is already present, so maybe they want an additional kick? Or perhaps they want both a kick and tom on the first note. Since the kick is already there, adding the tom is the main change here. 
+
+So the T line's first character should be 'O', making the first beat of T: "O---|....". Let me check the other lines to ensure there's no conflict. The snare, hihat, and others are okay. 
+
+Double-checking the notation rules: Toms use O for hard hits. So that's correct. The user didn't mention changing the kick, just adding a tom. So the final edit should have the Tom line starting with O in the first 16th note. 
+
+I think that's it. Let me write the modified groove accordingly.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: O---|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

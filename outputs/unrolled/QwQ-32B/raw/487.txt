@@ -1,0 +1,47 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any ride or hihat parts. First, I need to look at the original groove provided.
+
+Looking at the given drum notation:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+The user's request is to eliminate the ride (R) and hihat (H). 
+
+Starting with the Hihat line (H), it's already all dashes, so no changes needed there. But wait, checking again: H is all dashes, so maybe that part is already okay. 
+
+Now, the Ride (R) line has "o-O-" repeated in each beat. To remove the ride, I need to set all those to dashes. 
+
+So, the edited version should have R line as all dashes. Let me double-check each line:
+
+Kick (K) and Snare (S) remain as they are since the request only mentions removing ride and hihat. Toms (T) and Crash (C) are already inactive. 
+
+Wait, the original H line is already empty, so no action needed there. The main change is the R line. 
+
+So the final edited groove should look like this:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+I need to make sure that all characters in the R line are replaced with '-', keeping the structure with the | separators every four characters. Each line has 16 characters, so replacing each 'o-O-' segment with '----' four times. Let me confirm the counts:
+
+Original R line: "o-O-|o-O-|o-O-|o-O-" becomes "----|----|----|----".
+
+Yes, that should do it. No other instruments are affected by the request, so they stay the same.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

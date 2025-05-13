@@ -1,0 +1,47 @@
+Alright, let me tackle this drum groove edit. The user wants a tom hit and hihat in the very beginning. Let's look at the provided groove first.
+
+The original K (Kick) line starts with "-O--", so the first 16th note is silent. The S (Snare) is all dashes except some parts. The H (Hihat) is "x-x-" in each beat, which are closed hits. The Toms (T) are silent except the third and fourth beats. The C (Crash) is hitting every beat with "O---|O---|O---|O---", and Ride (R) is silent.
+
+The request is to add a tom hit and hihat at the very beginning. The first 16th note is the first character in the first beat. Currently, the first character of K is "-", so that's silent. The Hihat starts with "x" which is a closed hit on the first 16th note of the first beat. Wait, actually looking at the H line: "x-x-|x-x-|x-x-|x-x-", so the first character is "x", meaning the first 16th note of the first beat already has a closed hihat hit. Hmm, so maybe the user wants an additional hit or perhaps they meant the very first note? Wait, the user might want to ensure that both the tom and hihat are present at the start. Let me check again.
+
+The user says "in the very beginning", so likely the first 16th note. The Hihat is already playing on the first 16th note (the first 'x'), so maybe they want to reinforce it with a tom hit there. The tom line (T) is currently "----|----|---O|----", so the first beat's tom is silent. To add a tom hit at the first 16th note, I need to change the first character of T's first beat from '-' to 'O' (hard hit) or 'o' (soft). Since it's a tom hit, probably 'O' for a strong start.
+
+Additionally, maybe the user wants a hihat hit there too, but it's already present. Wait, perhaps the user wants the hihat to be an open hit instead? The existing H is using 'x', which is a closed hit. Alternatively, maybe they want an open hit (O or o) instead. Let me check the notation again for Hihat. The Hihat's 'O' is a hard open hit, 'o' soft open, X/x are closed. The current H starts with 'x', which is a closed hit. If the user wants an open hit, we can change that first 'x' to 'O' or 'o'.
+
+Alternatively, maybe they just want to ensure that both tom and hihat are present at the start. Since the hihat is already there, but the tom isn't, so adding the tom hit is the main change here. Let me proceed with that.
+
+So, modifying the Tom line (T) to start with 'O---' instead of '----'. That adds a hard tom hit on the first 16th note. The Hihat remains as is unless the user wants a different articulation. Since the request didn't specify changing the hihat's articulation, just adding the tom. 
+
+Wait, the user said "tom hit and hihat", so maybe they want both instruments to hit together at the start. Since the hihat is already there, but perhaps the user wants to make sure it's emphasized. Alternatively, maybe they want the hihat to start with an open hit. Let me check the original H line again. The H starts with 'x', which is a closed hit. If the user wants an open hit, changing the first 'x' to 'O' would make sense. 
+
+The edit request is a bit ambiguous, but since the user mentioned "tom hit and hihat in the very beginning", I'll assume they want both instruments to hit there. The hihat is already hitting, but maybe they want an open hit. So changing the first 'x' to 'O', and adding the tom hit with 'O' on the first 16th note. That would make the first note have both a tom and an open hihat hit.
+
+Let me adjust accordingly:
+
+Original T line: T: ----|----|---O|----
+Change first beat to O---, so T becomes O---|----|---O|----
+
+Original H line: H: x-x-|x-x-|x-x-|x-x-
+Change first character to 'O' for open hit: H: O-x-|x-x-|x-x-|x-x-
+
+Wait, but the user might prefer to keep the closed hit if they just wanted the presence. Alternatively, maybe they just wanted the tom added. Since the user's previous edits sometimes kept the existing hihat and just added the tom, perhaps I should only add the tom. Let me check past examples. In previous interactions, when the user asked for a tom and kick in the beginning, the assistant added the tom hit without altering the hihat unless specified. So maybe here, since the hihat is already present, just adding the tom is sufficient.
+
+Therefore, changing T's first beat to O---, keeping H as is. That would fulfill the request of adding a tom hit and the existing hihat in the beginning.
+
+So the final adjustments would be:
+
+T line becomes O---|----|---O|----
+
+The rest remains the same except that. Let me confirm:
+
+Original K line starts with "-O--", so the first note is silent kick. The tom now starts with O--- so first note is tom hit. Hihat is still x (closed) on first note. That should be okay. The user might just want the tom added, not necessarily changing the hihat's articulation. So proceeding with that.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: O---|----|---O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

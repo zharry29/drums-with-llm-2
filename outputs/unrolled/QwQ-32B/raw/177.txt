@@ -1,0 +1,92 @@
+Okay, let's see. The user wants me to edit the given drum groove so that it includes not only tom but also cymbal. The original groove has kick, snare, and ride, but no toms or crash. The edit request is to add tom and cymbal parts.
+
+First, looking at the original:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+The Toms (T) line is all dashes, so I need to add some hits there. The cymbals (C and R) already have Ride (R) active, but the request mentions adding cymbal, so maybe adding Crash (C) as well, or enhancing the cymbal presence.
+
+The user might want both toms and another cymbal (like crash) to be present. Let me check previous examples. In similar requests, when "not only X but also Y" was asked, adding Y where it was missing was the solution. Here, since Toms are missing, and Ride is present but Crash isn't, perhaps adding Crash hits in C line.
+
+So, steps:
+
+1. Add tom hits (T line) in some positions. Maybe on beats that complement the kick and snare. For example, on the offbeats or where there's space.
+
+2. Add crash cymbal (C line). Typically, crashes are on strong beats like the first beat of a measure or on downbeats. Let's put a hard hit (O) on the first 16th note of the first beat (position 1) and maybe another in the last beat for emphasis.
+
+Let me sketch:
+
+For Toms (T), maybe place O's where they can add depth without clashing. Let's see the kick and snare:
+
+Kick hits on first and third 16th in first beat, then some in others. Snare has activity in second and fourth beats. Maybe place toms on the second beat's first 16th? Or spread them out.
+
+Alternatively, in the third beat where there's a kick on the third 16th, maybe a tom on the first or second. Let's try:
+
+T: -O--|----|O---|----
+But need to check all four beats. Maybe:
+
+T: -O--|O---|O---|O-o-
+Wait, but need to fit into 4 beats of 4 characters each. Let me think per beat:
+
+First beat (O--O): maybe add a tom on the second 16th? So "-O--" becomes "-O--" but that's already kick. Hmm, maybe on the third? "-O-O"? But that might clash. Alternatively, second beat (----) could have a tom on first: "O---".
+
+Alternatively, let's do T: -O--|O---|O---|O--o to spread them out. But need to ensure it's 16 characters. Let's make sure each | separated group is 4 characters.
+
+Alternatively, perhaps:
+
+T: -O--|O---|O---|O--o
+
+But let me check each beat:
+
+First beat (positions 1-4): -O-- (so tom on second 16th note)
+Second beat: O--- (tom on first)
+Third beat: O--- (tom first)
+Fourth beat: O--o (tom first, soft on last?)
+
+Alternatively, maybe start with T: -O--|O---|O---|O--o
+
+For Crash (C), adding O on the first beat's first 16th, and maybe the fourth beat's first as well. So:
+
+C: O---|----|----|O---
+
+That would put a crash at the start and the end. Alternatively, every other beat.
+
+Putting it all together:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: -O--|O---|O---|O--o
+C: O---|----|----|O---
+R: o-O-|o-O-|o-O-|o-O-
+
+Wait, but need to check if the Toms and Crash fit. The Ride is still active, so adding Crash on the first and last beats would add some variation. The Toms are now present with some hits. This should fulfill the requirement of having both tom and cymbal (since Ride is already there, but Crash adds another cymbal). 
+
+Alternatively, maybe the user just wants to ensure that both Toms and at least one cymbal (other than Ride) are present. Since Ride is already there, but Crash wasn't, adding Crash makes sense. 
+
+I think this should work. Let me make sure the Toms line has 16 characters. Let's count each segment:
+
+First beat: -O-- (4)
+Second: O--- (4)
+Third: O--- (4)
+Fourth: O--o (4)
+Total 4+4+4+4=16. Good.
+
+Crash line: O---|----|----|O--- (each 4, total 16). Yes.
+
+So the final answer would be with Toms added and Crash added.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: -O--|O---|O---|O--o
+C: O---|----|----|O---
+R: o-O-|o-O-|o-O-|o-O-
+@@@

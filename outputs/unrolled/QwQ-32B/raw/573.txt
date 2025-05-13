@@ -1,0 +1,48 @@
+Alright, let's tackle this drum groove edit. The user wants to remove both the kick and snare from the given groove. Let me start by understanding the original groove structure.
+
+Looking at the provided drum notation:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+First, I need to identify which lines correspond to the kick (K) and snare (S). The user's request is to eliminate these entirely. 
+
+Starting with the Kick (K line): The kick has hits on the first and third beats of the bar (the 'O's). To remove the kick, I'll replace all characters in the K line with '-' to indicate no hits.
+
+Next, the Snare (S line): The snare has hits on the second and fourth beats (the 'O's). Similarly, I'll replace all characters in the S line with '-' to remove all snare hits.
+
+The Hihat (H) is already present with 'X---' repeating, which the user hasn't mentioned wanting to remove. The Toms (T), Crash (C), and Ride (R) are all silent except for the Hihat. Since the request is only about kick and snare, those lines stay as they are.
+
+Wait, let me double-check the original input to ensure I'm not missing any other elements. The Toms, Crash, and Ride lines are all empty except for the Hihat's consistent pattern. 
+
+So, after removing K and S lines' hits, the new groove should have:
+
+- K: all '-' 
+- S: all '-'
+- H remains the same
+- T, C, R remain unchanged
+
+Putting it all together:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+I should confirm that there are no kick or snare hits left. The K and S lines are now entirely dashes. The Hihat continues its closed hits (X) on each beat. Since there were no toms, crashes, or ride in the original except the Hihat, the rest stay silent. This should fulfill the user's request accurately.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

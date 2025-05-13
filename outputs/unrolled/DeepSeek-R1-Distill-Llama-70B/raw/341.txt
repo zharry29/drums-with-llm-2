@@ -1,0 +1,35 @@
+Alright, I need to help the user by editing their drum groove according to their request. Let's see what they've provided and what they want.
+
+First, the user provided a drum notation system, explaining each instrument's role and the meaning of each character. They also shared a specific drum groove they want to modify. The edit request is to remove the hihat and tom hits from the groove.
+
+Looking at the original groove, I see that the hihat (H) and tom (T) are both active. My task is to silence these while keeping the other instruments as they are. 
+
+So, I'll go through each line of the groove:
+- **Kick Drum (K):** I'll leave it unchanged since the user didn't mention wanting any changes here.
+- **Snare Drum (S):** Similarly, I'll keep it as is.
+- **Hihat (H):** I'll set all characters to "-" to remove any hits.
+- **Toms (T):** I'll also set all characters to "-" to eliminate any tom hits.
+- **Crash Cymbal (C) and Ride Cymbal (R):** These can remain unchanged.
+
+By making these changes, the groove will no longer have any hihat or tom elements, focusing solely on the kick, snare, crash, and ride cymbals. I'll make sure to present the final revised groove in the correct notation format as requested.
+</think>
+
+```
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+**Step-by-Step Explanation:**
+
+1. **Kick Drum (K):** Maintains its original pattern to provide a solid foundation.
+2. **Snare Drum (S):** Keeps its backbeats on beats 2 and 4 with hard hits ("O").
+3. **Hihat (H):** Removed all hits by setting all characters to "-".
+4. **Toms (T):** Removed all hits by setting all characters to "-".
+5. **Crash Cymbal (C):** Kept silent to avoid adding unnecessary accents.
+6. **Ride Cymbal (R):** Kept silent to avoid adding unnecessary texture.
+
+This arrangement creates a minimalist rhythm focused on the kick and snare drums without any hihat or tom hits.

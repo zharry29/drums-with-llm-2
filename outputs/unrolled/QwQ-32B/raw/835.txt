@@ -1,0 +1,34 @@
+Okay, let's tackle this drum groove edit. The user wants a tom hit and a kick in the very beginning. The original groove starts with a kick on the second 16th note of the first beat. Let me look at the given groove first.
+
+The Kick (K) line is "-O--|OO--|---O|-OO-". The first beat is "-O--", meaning the first hit is on the second 16th note (the "and" of 1). The user wants a kick at the very beginning, which is the first 16th note of the first beat. So I need to change the first character of the first beat from '-' to 'O' for a hard hit. That would make the first beat "O---" instead of "-O--".
+
+Now, the tom (T) line is "----|----|---O|----". The user also wants a tom hit at the beginning. The toms are currently only hit in the third beat. To add a tom hit on the first 16th note of the first beat, I'll set the first character of the first beat in the T line to 'O', making it "O---".
+
+Wait, but the user might want both the kick and tom on the first note. Let me check the original T line again. Currently, the T line starts with "----", so adding an 'O' there would introduce a tom hit on the first note. The kick is also adjusted to hit on the first note now. 
+
+Wait, but the original kick had a hit on the second 16th note. The user wants a kick in the very beginning, so moving that hit to the first 16th note makes sense. So K's first beat becomes "O---". 
+
+Then, the tom needs a hit on the first note as well. So T's first beat would be "O---". 
+
+Let me check if there's any conflict. The crash (C) is hitting every beat's first 16th note with "O---" in each segment. But adding a tom and kick on the first note shouldn't conflict. The hihat is closed hits (x) throughout, so that's fine. 
+
+So the edited lines would be:
+
+K: O---|OO--|---O|-OO-
+T: O---|----|---O|----
+
+Wait, but the original T line had a tom hit in the third beat's third 16th note. Let me confirm the T line structure again. The original T line is "----|----|---O|----", so changing the first beat's first character to 'O' adds a tom there. 
+
+Yes, that should satisfy the request. Let me make sure the rest remains the same. The snare (S) is only on the third beat's third 16th note and the last beat's first. The crashes are still hitting every downbeat. 
+
+I think that's it. The user wanted a kick and tom at the very start, so those changes should do it without affecting the rest of the groove too much.
+</think>
+
+@@@
+K: O---|OO--|---O|-OO-  
+S: ----|----|S---|----  
+H: x-x-|x-x-|x-x-|x-x-  
+T: O---|----|---O|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

@@ -1,0 +1,26 @@
+Okay, so I need to help the user edit their drum groove to remove both the kick drum and cymbals. Let me start by understanding the current setup.
+
+First, looking at the original groove, the kick drum (K) has a pattern with both hard and soft hits. The crash cymbal (C) and ride cymbal (R) are also present, which the user wants to remove. The snare drum (S) and hihat (H) are still desired, so I'll keep those.
+
+I'll start by setting all characters in the K, C, and R lines to "-", effectively silencing them. That way, only the snare and hihat remain. I'll make sure to keep the snare's backbeats and the hihat's dynamic pattern intact.
+
+Finally, I'll ensure the new groove follows the correct notation and only includes the requested instruments.
+</think>
+
+```
+K: ----|----|----|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+This groove now features:
+- **Kick Drum (K):** Removed by setting all characters to "-".
+- **Snare Drum (S):** Maintains its backbeats on beats 2 and 4 with hard hits ("O").
+- **Hihat (H):** Maintained its dynamic pattern with soft and hard hits.
+- **Toms (T):** Kept silent as per the original groove.
+- **Crash Cymbal (C) and Ride Cymbal (R):** Both removed by setting all characters to "-".
+
+This arrangement creates a minimalist rhythm focused on the snare and hihat without any kick or cymbal hits.

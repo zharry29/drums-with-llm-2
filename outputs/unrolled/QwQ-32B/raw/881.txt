@@ -1,0 +1,83 @@
+Okay, let me tackle this drum groove edit. The user wants to avoid having the snare on the downbeats of beats 2 and 4. First, I need to look at the original groove provided.
+
+The given drum groove is:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+So, the snare (S line) is hitting on the downbeats of beats 2 and 4. Specifically, in the second beat (after the first |), it's "O---", which means a hard hit on the first 16th note of beat 2. Similarly, the fourth beat has "O---", hitting the downbeat of beat 4.
+
+The goal is to remove those downbeat hits. Let me think of how to reposition the snare hits without them landing on those downbeats. Maybe shifting them to the "&" (the second 16th note of the beat) or another offbeat position.
+
+Looking at beat 2 first: The original is "O---" which is the first 16th note (the downbeat). To avoid that, perhaps move the hit to the second 16th note. So instead of "O---", it could be "-O--". But the user might want to keep the same number of hits. Alternatively, maybe spread them out within the beat but not on the downbeat.
+
+Wait, the original snare in beat 2 is just one hit on the downbeat. To avoid that, maybe replace it with a hit on the "and" (second 16th note) or the third or fourth. Let's see:
+
+For beat 2 (second segment after the first |), changing "O---" to "-O--" would move the hit to the "&". Alternatively, maybe "-O--" or even "--O-" or "---O".
+
+Similarly, for beat 4 (the fourth segment), changing "O---" to something like "-O--" would avoid the downbeat.
+
+However, the user might want to keep the same rhythm feel but just shift the hits. Let's also check if there are other elements. The crash (C line) is hitting every downbeat, so maybe the snare can complement that without clashing on the same hits.
+
+Let me adjust the S line:
+
+Original S line: ----|O---|----|O---
+
+Modified to avoid downbeats 2 and 4:
+
+First segment: "----" stays the same (no snare here).
+
+Second segment (beat 2): instead of "O---", maybe "-O--" (hit on the second 16th note of beat 2).
+
+Third segment: "----" remains, as it's already empty.
+
+Fourth segment (beat 4): instead of "O---", perhaps "-O--" again, or maybe "--O-" or "---O".
+
+Alternatively, if moving to the "&" (second 16th note) for both, then the new S line would be:
+
+S: ----|-O--|----|-O--
+
+But let me check if that's acceptable. Alternatively, maybe spread the hits differently. Another option is to have the snare hit on the third 16th note, like "--O-".
+
+Alternatively, perhaps the user wants to keep the same number of hits but just shift their positions. Let me confirm the original counts:
+
+Original S has two hits: on beats 2 and 4 downbeats. So moving each of those to the "&" (second 16th) of their respective beats would result in two hits on the "&" of beats 2 and 4.
+
+Alternatively, maybe the user wants to avoid the downbeats entirely, so maybe the snare can hit on the "and" of 3 and somewhere else? Wait, but the original only has two hits. Let me stick to the original number of hits.
+
+So modifying the S line as:
+
+S: ----|-O--|----|-O--
+
+This way, the snare hits on the second 16th note of beats 2 and 4, avoiding the downbeats.
+
+Let me double-check the notation. Each segment is four characters (16th notes). So for beat 2's segment: "-O--" means the second 16th note is hit (O), and the rest are rests. Similarly for beat 4.
+
+Yes, that should work. Let me write that out.
+
+So the edited groove would be:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|-O--|----|-O--  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+Wait, but in the original S line, the fourth segment was "|O---", so changing that to |-O-- would move the hit from the first 16th (downbeat) to the second. That's correct.
+
+Alternatively, maybe the user wants to avoid both the downbeats 2 and 4, so this adjustment should satisfy that. I think that's the right approach.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|-O--|----|-O--  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

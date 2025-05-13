@@ -1,0 +1,66 @@
+Okay, let me tackle this drum groove edit. The user wants to remove any tom and snare parts from the given groove. Let me start by looking at the original drum notation provided.
+
+First, I need to recall which lines correspond to each instrument. The lines are:
+
+- K: Kick drum
+- S: Snare drum
+- H: Hihat
+- T: Toms
+- C: Crash cymbal
+- R: Ride cymbal
+
+The user's request is to eliminate the tom (T) and snare (S) parts. So, I'll need to set all the characters in the S and T lines to '-' since '-' means the instrument isn't played on that note. 
+
+Looking at the given groove:
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
+
+Wait a second, the T line already has all '-' characters. That means there are no tom hits in the original groove, so I don't need to change anything there. But the snare (S) line has some hits. Let me check each part of the S line:
+
+The S line is:
+S: ----|O---|----|O---
+
+Breaking it down into beats separated by |:
+
+1st beat: ---- (no hits)
+2nd beat: O--- (hard hit on the first 16th note)
+3rd beat: ---- (no hits)
+4th beat: O--- (hard hit on the first 16th note)
+
+So, to remove the snare, I need to replace all non-'-' characters in the S line with '-'. That would make the entire S line all '-'.
+
+The T line is already all '-', so no changes there. 
+
+Now, the other lines (K, H, C, R) should remain as they are unless they involve tom or snare, but since the user only wants to remove tom and snare, those lines stay untouched. Let me double-check each line:
+
+- K: Kick has O and o hits. Since kick isn't being removed, leave it.
+- H: Hihat has various o and O hits. Keep those.
+- C: Crash has O on the first beat. Since crash isn't mentioned in the removal, keep it.
+- R: Ride is all '-', so no change.
+
+Putting it all together, the edited groove should have S and T lines as all '-', and others as original. Let me verify again:
+
+Original S line after editing should be:
+S: ----|----|----|----
+
+Original T line remains:
+T: ----|----|----|----
+
+So the final notation should look like this with S and T cleared.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|----|----|----
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

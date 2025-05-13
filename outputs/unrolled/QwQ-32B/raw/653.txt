@@ -1,0 +1,25 @@
+Okay, let's tackle this drum groove edit. The user wants a hihat hit and tom in the very beginning. The original groove has some hihat on the second and fourth beats, but the first beat is empty except for the ride. The tom is currently silent everywhere. 
+
+First, I need to add a hihat hit at the very start. The existing H line starts with "----", so changing the first character to a hit. The user didn't specify open or closed, but since the rest of the hihat uses 'x' (closed hits), maybe keep consistency. So first character becomes 'x'.
+
+Next, the tom. The T line is all dashes. To add a tom hit at the beginning, I'll put an 'O' (hard hit) on the first 16th note. That would be the first character of the T line. 
+
+Check the other instruments: Kick (K) and snare (S) are silent, so no conflict. The crash (C) is also silent. The ride (R) has 'x---' starting, so the first note is a closed hit. Adding the tom and hihat won't clash.
+
+So the new lines would be:
+H: x---|x---|----|x---
+T: O---|----|----|----
+
+Wait, but the original H line was ----|x---|----|x---, so changing the first beat's first note to x. So the H line becomes x---|x---|----|x---. And T starts with O---. Let me confirm the positions again. The first beat is four 16th notes, so the first character is the first 16th. 
+
+Yes, that should do it. Let me put it all together in the correct format.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: x--x|x---|----|x---
+T: O---|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

@@ -1,0 +1,39 @@
+Okay, let's tackle this drum groove edit. The user wants a snare hit and tom in the very beginning. The original groove has kick, snare, crash, and toms. Let me look at the given notation first.
+
+Starting with the Kick (K): "OOO-|--O-|OOO-|-OOO". The first beat is "OOO-", so three hard kicks on the first three 16th notes of the first beat. The user wants a snare and tom at the very beginning, which is the first 16th note. 
+
+Looking at the Snare (S): "----|O---|----|O---". The snare starts on the second beat's first 16th note. To add a snare hit at the very beginning, I need to place an 'O' (hard hit) in the first position of the first beat. So changing the first '----' to 'O---' for the snare.
+
+For the Tom (T): It's currently all dashes except on the third and fourth beats. To add a tom hit at the start, maybe a hard hit 'O' on the first 16th note. So the Tom line would start with 'O---'.
+
+Wait, but the user specified "snare hit and tom in the very beginning". So both instruments should hit the first 16th note. Let me check the original Toms line: "----|----|----|----". So I need to set the first character of the first beat to 'O' for Tom. 
+
+So updating the Snare line's first segment to 'O---' and the Tom's first segment to 'O---'. Let me make sure that doesn't conflict with existing hits. The kick is already hitting the first three 16th notes, so adding snare and tom on the first note is okay, creating a busy start but that's what the user wants.
+
+Crash (C) has 'O---' in the first beat, so the crash is also on the first 16th note. So the first hit will have Kick (O), Snare (O), Tom (O), and Crash (O) all on the first 16th note. That's a lot, but maybe that's the intent. Alternatively, maybe the user wants the snare and tom instead of the crash? Wait, the request was "snare hit and tom in the very beginning", so perhaps they want those in addition to existing elements. The crash is already there, so maybe leave it as is.
+
+Double-checking the notation rules: S's O is hard hit, T's O is hard. So the edits should be straightforward. Let me rewrite the lines accordingly.
+
+Final check for each line:
+
+K remains the same: OOO-|--O-|OOO-|-OOO
+
+S changes first segment from '----' to 'O---'
+
+T changes first segment from '----' to 'O---'
+
+C stays as O---|O---|O---|O---
+
+R remains empty.
+
+Putting it all together, the new groove should have the snare and tom added at the start.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: O---|O---|----|O---  
+H: ----|----|----|----  
+T: O---|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----  
+@@@

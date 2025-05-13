@@ -1,0 +1,67 @@
+Okay, so I need to edit this drum groove based on the user's request. Let me first make sure I understand the task correctly. The user provided a drum notation example and explained each part. The current groove is given, and the edit request is to remove any snare or kick parts. 
+
+First, I'll look at the given drum groove. Let me parse each line:
+
+- **K (Kick drum):** o---|--o-|o---|--o-
+- **S (Snare drum):** ----|X---|--X-|----
+- **H (Hihat):** ----|x---|----|x---
+- **T (Toms):** ----|----|----|----
+- **C (Crash cymbal):** ----|----|----|----
+- **R (Ride cymbal):** x---|X-x-|x---|X-x-
+
+The user wants to eliminate both the kick (K) and snare (S) parts. That means I need to set all their entries to '-' (no hit). Let me go through each line:
+
+1. **Kick (K):** The current line has some o's and -'s. To remove kick, replace all characters in K's line with '-'.
+   Original: o---|--o-|o---|--o-
+   After edit: ----|----|----|----
+
+2. **Snare (S):** Similarly, the S line has X and x. Replace all with '-'.
+   Original: ----|X---|--X-|----
+   After edit: ----|----|----|----
+
+The other instruments (H, T, C, R) should stay as they are unless they are also to be removed, but the user only mentioned snare and kick. Wait, the user said "I don't want any snare or kick," so only those two lines should be cleared.
+
+Looking at Hihat (H): It has x and - characters. Since the user didn't mention hihat, it stays. Similarly, Ride (R) has x and X, which are okay unless specified. 
+
+Wait, but let me check if there's any hidden requirement. The user might want only the specified instruments removed. So proceed as instructed.
+
+Now, let me reconstruct the edited drum groove:
+
+- K: All dashes
+- S: All dashes
+- H remains: ----|x---|----|x---
+- T remains: ----|----|----|----
+- C remains: ----|----|----|----
+- R remains: x---|X-x-|x---|X-x-
+
+Wait, but in the original, the Hihat line is ----|x---|----|x---. So that's okay. The user didn't ask to remove hihat or ride, so those stay. 
+
+Wait, but let me double-check the user's exact request again: "I don't want any snare or kick." So only K and S are to be removed. The rest can stay as they are. 
+
+Therefore, the edited version should have K and S lines set to all '-', and the others unchanged. 
+
+Let me verify each line again:
+
+K: All dashes: Correct.
+
+S: All dashes: Correct.
+
+H: Original pattern remains.
+
+T: Still empty.
+
+C: Still empty.
+
+R: Original ride pattern remains.
+
+Yes, that seems right. I need to present this in the required notation between the @@@ markers.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

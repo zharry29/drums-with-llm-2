@@ -1,0 +1,93 @@
+Alright, let's tackle this drum groove edit. The user wants the groove to include not only the hihat but also the tom. Looking at the given groove:
+
+First, I'll check each instrument line. The K (Kick) has some hits, S (Snare) has some too, H (Hihat) is active with X-x- patterns, but T (Toms) is completely silent. The edit request is to add toms, so I need to figure out where to place them without conflicting with existing parts.
+
+The hihat is already present with closed hits (X and x), so the main task is to add toms. Since the user mentioned "not only hihat but also tom," the focus is on adding tom hits where they'll complement the existing elements.
+
+Looking at the structure:
+
+The bar is divided into four beats separated by |. Each beat has four 16th notes. Let's go through each beat:
+
+First beat: K: O--O, S: ----, H: X-x-
+Second beat: K: ----, S: Oo-o, H: X-x-
+Third beat: K: --O-, S: -o--, H: X-x-
+Fourth beat: K: ----, S: O--o, H: X-x-
+
+I need to place tom hits (O or o) in the T line. Toms can add depth and variation. Since the snare has some soft hits (o), maybe aligning toms with the snare's rhythm could work. Alternatively, placing toms on offbeats for contrast.
+
+Looking at the second beat's snare: Oo-o. The first hit is a hard O, followed by a soft o and another o. Maybe adding a tom on the first hit here for emphasis. Similarly, in the fourth beat's snare: O--o, perhaps a tom on the first hit again.
+
+Alternatively, toms could be placed on the upbeat 16th notes to add complexity. Let's try distributing the toms evenly. Since the hihat is busy, maybe syncopated toms would work. For example, in each beat, placing a tom on the third 16th note. Let's see:
+
+First beat: T: --O- (so third note)
+Second beat: T: --O- 
+Third beat: T: --O-
+Fourth beat: T: --O-
+But that might be too repetitive. Alternatively, vary the positions. Let's look at each beat:
+
+First beat:
+K: O--O
+S: ----
+H: X-x-
+T: Maybe add a tom on the third 16th note: --O- 
+
+Second beat:
+K: ----
+S: Oo-o
+H: X-x-
+T: Maybe on the first hit: O--- or third: --O-
+
+Third beat:
+K: --O-
+S: -o--
+H: X-x-
+T: Maybe on the first or third.
+
+Fourth beat:
+K: ----
+S: O--o
+H: X-x-
+T: Maybe on the first hit.
+
+Alternatively, mirror the snare's pattern. For instance, in the second beat where the snare has Oo-o, maybe T: O--- (matching the first O of the snare). But the snare's O is on the first 16th, so a tom there could reinforce it.
+
+Let me try this:
+
+T line: 
+
+First beat: --O- (third note)
+Second beat: O--- (first note)
+Third beat: -O-- (second note)
+Fourth beat: O--- (first note)
+
+But need to ensure that the toms are spread out and not clashing. Alternatively, maybe a steady tom on every beat's third 16th note. Let's try:
+
+T: --O- | --O- | --O- | --O-
+But that's repetitive but might work. Alternatively, mix it up with some O and o hits for variation. Since the user didn't specify dynamics, using O (hard) for emphasis.
+
+Alternatively, check previous examples the user provided. In earlier edits, they often placed toms on every beat's third 16th note, like ---O or similar. For example, in a previous answer, T: --O-|--O-|--O-|--O- which is every third note of each beat. Maybe that's a safe approach here.
+
+Applying that pattern here:
+
+Each beat's T line would be --O-, so:
+
+T: --O- | --O- | --O- | --O-
+Which translates to each beat having a tom on the third 16th note.
+
+But let me check the existing instruments. The hihat is X-x- on each beat, so the third note is x (soft closed hit). Adding a tom on the third note might work well. That would give a tom hit every third 16th note, adding a steady tom rhythm without conflicting with hihat's X and x.
+
+Alternatively, maybe alternate between O and o for variation. Let's go with O for consistency. So the T line would be:
+
+T: --O-|--O-|--O-|--O-
+
+This should fulfill the request by adding toms in a consistent pattern that complements the existing hihat and snare.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: --O-|--O-|--O-|--O-
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

@@ -1,0 +1,95 @@
+Okay, let me tackle this drum groove edit. The user wants the groove to have not only cymbal but also snare. Looking at the given groove:
+
+First, check the current instruments. The Kick (K) has some hits, the Snare (S) line has some notes like Oo-o and -o-- and O--o, but wait, actually looking at the S line: 
+
+S: ----|Oo-o|-o--|O--o
+
+Hmm, actually, there are snare hits in the second, third, and fourth beats. The first beat is all dashes. So maybe the user thinks there's no snare? Wait, maybe they meant that the snare isn't present enough, or perhaps there's a mistake in the input. Let me double-check.
+
+The user's edit request says "not only cymbal but also snare", which implies that currently, the groove might not have snare. But in the provided groove, the S line does have entries. Wait, maybe I misread. Let me look again:
+
+The given groove's S line is:
+
+S: ----|Oo-o|-o--|O--o
+
+So in the second beat, there's an Oo-o, third beat has -o--, and fourth has O--o. So the first beat has no snare, but the others do. Maybe the user wants more snare presence or to ensure that snare is included where it's missing?
+
+Alternatively, maybe the original groove had no snare, but in this case, the S line does have some. Wait, perhaps the user's previous examples had similar issues where S was missing, so maybe this is a similar case. Let me check the user's previous interactions. 
+
+Looking back at the history, in some previous cases, the user's input had S lines with dashes, and the assistant added snare. For example, in one case, the S line was all dashes except for some positions, and the assistant added more. 
+
+In this current case, the S line does have some snare hits, but maybe the user wants more snare presence across all beats. The first beat of S is all dashes, so maybe the user wants snare in all beats. Alternatively, perhaps the user's instruction is to ensure that snare is present (since the original might have none), but in this case, there is some. 
+
+Alternatively, maybe the user's instruction is to add snare where it's missing, and also ensure cymbal is present. Wait, the current R (ride) has o-O- patterns, which are cymbal hits. The C (crash) line is all dashes. So maybe the user wants both cymbals (either crash or ride) and snare. Since ride is already there, but crash isn't, but the instruction is to have cymbal (so maybe add crash?), but the user's instruction says "not only cymbal but also snare"—so perhaps the original had cymbal but no snare, but here, snare exists. 
+
+Hmm, perhaps I need to re-express the problem. The user's edit request is that the groove should have not only cymbal but also snare. That implies that currently, the groove has cymbal but lacks snare. However, looking at the given groove:
+
+S line has some snare, so maybe the user made a mistake, but the assistant should follow the instruction as given. Alternatively, perhaps in the given groove, the snare is not present in all beats, so the assistant should add snare where missing. 
+
+Alternatively, maybe the user wants to ensure that both snare and cymbal (crash) are present, but in this case, crash is not used. The current R line has ride cymbal. So maybe the user wants crash added as well. But the instruction says "not only cymbal but also snare"—so perhaps the original had only cymbal and no snare, but in this case, there is some snare. 
+
+Alternatively, perhaps the user's instruction is to add snare where it's missing. Let's look at the S line again:
+
+First beat: ---- (no snare)
+Second beat: Oo-o (so hits on the second and fourth 16th notes)
+Third beat: -o-- (only the third 16th note has a soft open hit)
+Fourth beat: O--o (first and fourth 16th notes)
+
+So the first beat has no snare. Maybe the user wants snare in all beats. Therefore, to comply with the request, I should add snare hits in the first beat and possibly enhance others. 
+
+Alternatively, perhaps the user's instruction is that the groove currently has cymbal (ride) but lacks snare entirely. Let me check again:
+
+The S line does have some snare hits, but maybe in the first beat, it's silent, so the user perceives that as lacking. So the assistant should add snare in the first beat. 
+
+Another angle: the instruction says "not only cymbal but also snare"—so maybe the groove had only cymbal before and no snare, but in the given input, there is some snare. So perhaps the user wants to ensure that snare is present where it's missing. 
+
+Given that, I'll proceed to add snare hits in the first beat. Also, since the user's previous examples often added ride or crash where needed, but here the ride is already active. Since the instruction is to include snare, perhaps adding more snare in the first beat. 
+
+Alternatively, maybe the user wants both crash and snare. Since crash (C) is currently all dashes, adding a crash hit in one of the beats (like the first or last) would fulfill "cymbal" (since ride is already there). But the instruction is "not only cymbal but also snare"—so perhaps the user wants to ensure that both are present. Since ride is a cymbal, that's covered, but maybe adding crash as well would be good. 
+
+Wait, the user's instruction is to have "not only cymbal but also snare"—so perhaps the original had cymbal (ride) but no snare, so the assistant needs to add snare. However, in this case, snare is present but maybe not in all beats. 
+
+So to comply, I'll add snare hits in the first beat and possibly enhance the existing ones, and ensure that cymbal (ride) is there. Also, maybe add crash for more cymbal variety, but that's optional. 
+
+So steps:
+
+1. Add snare in the first beat. Maybe a hard hit (O) on the first 16th note of the first beat, so S becomes O---|... 
+
+2. Check other beats to ensure snare is consistent. 
+
+Alternatively, maybe the user just wants to make sure that snare is present (since it's partially there) and the cymbal is already there. So perhaps the main issue is the first beat's snare. 
+
+Let me draft the edited version:
+
+Original S line: 
+S: ----|Oo-o|-o--|O--o
+
+Adding O in the first beat's first 16th note:
+S: O---|Oo-o|-o--|O--o
+
+Also, check if the C line (crash) is all dashes. Since the user mentions "cymbal", maybe add a crash hit. Let's put a crash on the first beat. 
+
+C: O---|----|----|----
+
+So the final edited groove would have the S line with the first beat's snare added, and a crash in the first beat. 
+
+Alternatively, maybe the user wants to ensure that both cymbals (ride and crash) are present. Since ride is already there, adding crash in C would fulfill that. 
+
+Putting it all together, the edited groove would look like this:
+
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: O---|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

@@ -1,0 +1,67 @@
+Okay, so I need to edit this drum groove based on the user's request to remove any hihat or cymbal parts. Let me start by recalling the given drum notation and the instruments involved. 
+
+First, let me look at the original groove provided:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@
+
+The user wants to eliminate the hihat (H) and any cymbals (C and R). 
+
+Looking at each line:
+
+- **Kick (K):** Already has some hits, so we'll leave this as is unless instructed otherwise. The user didn't mention kick, so keep it.
+- **Snare (S):** The snare has some hits, like Oo-o and others. Since the user didn't mention snare, leave these.
+- **Hihat (H):** All entries here are dashes, meaning no hihat is being played. Wait, but maybe the user is just being cautious. Since they asked to remove it, even if it's empty, maybe just set it to all dashes? But in the original, it's already all dashes. Hmm, maybe the user just wants to ensure that any existing hihat parts are removed, but in this case, there are none. Still, setting H to all dashes is safe.
+- **Toms (T):** No activity here, so leave as is.
+- **Crash (C):** Also all dashes. Since the user wants no cymbals, confirm that both C and R are cleared.
+- **Ride (R):** This line has o-O-|o-O-|o-O-|o-O-. The ride is a cymbal, so this needs to be removed. Set all characters in R to '-'.
+
+Wait, let me double-check each line:
+
+Original R line: o-O-|o-O-|o-O-|o-O-. So each beat has some pattern. Since ride is a cymbal, we need to replace all those characters with '-'.
+
+So the edited version should have:
+
+- K remains the same.
+- S remains the same.
+- H set to all '-' (though already was).
+- T remains '-'.
+- C remains '-'.
+- R set to all '-'.
+
+Wait, the user's instruction is "I don't want any hihat or cymbal." So hihat (H) and cymbals (C and R) must be cleared.
+
+Looking again at the original:
+
+H line is already all dashes, so no change needed there. But to be thorough, ensure H is all '-'.
+
+C is already all '-', so no change.
+
+R has the ride cymbal, which needs to be cleared. So R becomes ----|----|----|----
+
+So putting it all together:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+I think that's it. Let me check again. The user didn't mention kick or snare, so those stay. Tom is fine. Hihat and cymbals (R and C) are cleared. Yes, that should do it.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

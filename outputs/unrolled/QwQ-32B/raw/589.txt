@@ -1,0 +1,63 @@
+Okay, let me tackle this drum groove edit. The user wants to remove the snare and ride parts. 
+
+First, I'll look at the original groove provided. Let me parse each line:
+
+Kick (K): O--O|----|--O-|----
+Snare (S): ----|Oo-o|-o--|O--o
+Hihat (H): X-x-|X-x-|X-x-|X-x-
+Toms (T): ----|----|----|----
+Crash (C): ----|----|----|----
+Ride (R): ----|----|----|----
+
+Wait, actually looking again, the given groove's Ride (R) line is all dashes already, so maybe the user just wants to remove the snare. But the request says "snare or ride," so even if ride is already empty, I should ensure both are cleared.
+
+The user's instruction is to remove any snare or ride. So, for the snare line (S), I need to set all characters to '-' to silence it. The ride (R) is already empty, so that's fine. Let me double-check each part:
+
+Original S line: has Oo-o, -o--, O--o. These need to become all '-'.
+
+So the edited version should have S as all dashes. The rest remains as is except for the snare. Let me reconstruct each line:
+
+K remains the same: O--O|----|--O-|----
+S becomes: ----|----|----|----
+H stays: X-x-|X-x-|X-x-|X-x-
+T, C, R are unchanged.
+
+Wait, let me confirm the original input again. The user's given groove might have different lines. Let me check the user's input again precisely.
+
+Wait, the user's input was:
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@
+
+Yes, so S has some hits, Ride is already empty. So the edit is to set S to all '-' and leave R as is (but since user says "ride", even if it's empty, maybe confirm, but probably just need to ensure S is gone.
+
+So the final groove should have:
+
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+I need to make sure that the S line is all dashes. Let me write that out properly, keeping the bar structure with the | separators every four characters. Each line has four beats (16 notes), so each part between | is four characters.
+
+So the S line should be four sets of "----" separated by |, making "----|----|----|----".
+
+Yes, that's correct. So the edited drum groove will have the snare line cleared, and ride remains as it was (already empty). The user's request is satisfied.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|----|----|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

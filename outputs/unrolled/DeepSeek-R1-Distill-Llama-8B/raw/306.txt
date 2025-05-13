@@ -1,0 +1,41 @@
+Alright, so I need to edit this drum groove based on the user's request. The original groove includes Kick, Snare, Hihat, Tom, Crash Cymbal, and Ride Cymbal. The user wants to add cymbal to the groove, specifically mentioning "not only snare but also cymbal." Wait, the original already has both Snare and Cymbal, but maybe the user wants more cymbal parts or perhaps they're referring to the Ride Cymbal as well.
+
+Looking at the original groove, the Snare (S) has some patterns, and the Crash Cymbal (C) is not present. The Ride Cymbal (R) is also not there. So, the user probably wants both Snare and Cymbal (maybe Crash) to be more prominent.
+
+First, I'll check the notation details. Each instrument line has 16 characters, split into 4 beats by |. Each character can be '-', meaning no hit, or a specific note like O, o, X, etc., which represent different hits.
+
+For the Snare (S), the user wants it to be more active. In the original, it's "----|Oo-o|-o--|O--o." Maybe I can add more hits, perhaps using X for sidestick hits. So, I can change some '-' to 'X' or 'x' to add more snare activity.
+
+For the Cymbal, since the original has both Crash (C) and Ride (R) as '----|----|----|----', I can add some patterns to make them more noticeable. Maybe use 'O' for Crash and 'X' for Ride to indicate different hits.
+
+I also need to ensure that the Kick (K) remains consistent, providing a solid beat. The Hihat (H) is already active, so I'll leave that as is unless the user wants changes.
+
+Let me draft the new patterns:
+
+- Kick (K): Keep it consistent, maybe alternate between 'O---' and '--O-,' but in the original, it's "O--O|----|--O-|----" which seems to be a good pattern.
+
+- Snare (S): Add more 'X' or 'x' to make it more prominent. Maybe "X---|X---|---X|---X" to add sidestick hits in each beat.
+
+- Hihat (H): Keep it as "X-x-|X-x-|X-x-|X-x-" since it's already providing a good hihat pattern.
+
+- Tom (T): Keep it as "----|----|----|----" unless the user wants changes, but since they didn't mention Toms, I'll leave it.
+
+- Crash Cymbal (C): Add 'O' and 'x' to indicate open and closed hits. Maybe "O---|x---|---O|---x" to add some variation.
+
+- Ride Cymbal (R): Use 'X' and 'x' for different hits. Maybe "X---|---X|---X|---X" to add ride cymbal activity.
+
+Putting it all together, I'll structure each line with 16 characters, ensuring each section separated by | is 4 characters, making up a beat. I'll double-check each character to ensure it's correct and follows the notation rules.
+
+Wait, in the original response, the user added Snare and Cymbal, but perhaps I should also consider the Ride Cymbal. Maybe in the final edit, I should include both Crash and Ride Cymbals to have a more complete cymbal section.
+
+I think that's a good approach. Now, I'll format everything correctly, making sure each line is 16 characters, split into 4 beats by |, and each character represents the correct note for each instrument.
+</think>
+
+@@@  
+K: O--O|----|--O-|----  
+S: X---|X---|---X|---X  
+H: X-x-|X-x-|X-x-|X-x-  
+T: ----|----|----|----  
+C: O---|x---|---O|---x  
+R: X---|---X|---X|---X  
+@@@

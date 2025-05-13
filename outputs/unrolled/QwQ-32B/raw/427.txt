@@ -1,0 +1,23 @@
+Alright, let's tackle this drum groove edit. The user wants to remove the tom and kick parts from the given groove. First, I need to look at each line of the drum notation provided.
+
+Starting with the Kick (K line): "O---|O---|----|O---". Since they don't want any kick, I'll replace all the 'O's and 'o's with '-' to silence those hits. That line becomes all dashes.
+
+Next, the Snare (S line): "----|----|O---|----". The user didn't mention snare, so I leave the snare hits as they are unless instructed otherwise. The edit request only targets tom and kick, so snare stays.
+
+Hihat (H line) is all dashes, so no changes there.
+
+Now the Toms (T line): "O-o-|O-o-|O-o-|O-o-". The user wants no toms, so replace all 'O' and 'o' with '-'.
+
+Crash (C) and Ride (R) lines are already silent, so they stay as is.
+
+Double-checking the edit request again to ensure I didn't miss anything. Yep, only tom and kick are to be removed. The final result should have K and T lines all dashes, keeping the rest intact.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|O---|----
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

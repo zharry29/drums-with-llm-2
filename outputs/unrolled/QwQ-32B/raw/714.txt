@@ -1,0 +1,48 @@
+Okay, let me tackle this drum groove edit. The user wants a hihat hit and ride in the very beginning. 
+
+First, looking at the original groove:
+
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: ----|----|----|----
+
+The user's request is to add a hihat and ride hit at the start. The very beginning is the first 16th note of the first beat. 
+
+For the hihat (H line), since it's supposed to hit at the beginning, I need to replace the first '-' with either X/x or O/o. Since the user didn't specify closed or open, but the original H line is all dashes, maybe starting with a closed hit (X) would be standard. So change the first character of H's first beat from '-' to 'X'.
+
+Then the ride (R line) needs a hit at the beginning too. The R line uses O for hard bell hits and X/x for closed bow hits. Since the user might want a typical ride pattern, starting with a closed hit (X) on the bow makes sense. So the first character of R's first beat becomes 'X'.
+
+Wait, but looking at the original R line, it's all dashes. So adding an X at the first note. But maybe the user wants a bell hit? The instruction says "ride in the very beginning" which could be either. Since the example notation shows R using O for bell, maybe starting with O. Hmm, need to decide. Since the user didn't specify, perhaps safest to use X for a closed hit, common for ride patterns. Alternatively, check if the existing R has any pattern. The original R is all dashes except maybe other parts. Let's see:
+
+Original R is all dashes except maybe other beats? Wait, in the given groove, R is all dashes. So adding an X or O at first note. Let's go with X for a closed hit, as that's common for a steady ride pattern. 
+
+So modifying H and R lines:
+
+H: X---|----|----|----  
+R: X---|----|----|----
+
+Wait, but the user might want both hihat and ride to start. So first note of H is X, first note of R is X. 
+
+Wait, but in the original, the crash (C) is hitting every beat. Maybe the user wants to keep the crash, so the first note has a crash (C: O---), kick (K: OOO-), hihat (H: X---), and ride (R: X---). 
+
+Wait, but the R's first beat was all dashes. So changing the first character of R's first beat to X. 
+
+So the edited lines would be:
+
+H: X---|----|----|----
+R: X---|----|----|----
+
+Double-checking that no other changes are needed. The rest of the groove remains the same. That should satisfy the request.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO  
+S: ----|O---|----|O---  
+H: X---|----|----|----  
+T: ----|----|----|----  
+C: O---|O---|O---|O---  
+R: X---|----|----|----  
+@@@

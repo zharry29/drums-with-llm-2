@@ -1,0 +1,46 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any ride or cymbal parts. First, I need to look at the given groove and identify which lines correspond to the instruments they mentioned.
+
+Looking at the provided drum notation:
+
+- **K** is Kick drum
+- **S** is Snare drum
+- **H** is Hihat
+- **T** is Toms
+- **C** is Crash cymbal
+- **R** is Ride cymbal
+
+The user's request is to eliminate "ride or cymbal." Since "cymbal" could refer to both Crash (C) and Ride (R), I should check both lines. 
+
+In the given groove:
+- **C (Crash cymbal)** line is all dashes, meaning it's not being used here. So no action needed there.
+- **R (Ride cymbal)** has some hits: "x---|X-x-|x---|X-x-". These need to be removed.
+
+So the plan is to set all characters in the R line to dashes. The rest of the instruments (K, S, H, T) should stay as they are unless they're also part of the cymbal family, but according to the list, T is Toms, which are drums, not cymbals. Hihat (H) is a closed hi-hat, which is part of the hi-hat, not a cymbal in this context. 
+
+Wait, actually, the hi-hat is technically a type of cymbal, but the user specifically mentioned "ride or cymbal." Since they might be referring to crash and ride cymbals, and the hi-hat is often considered a separate category, I'll leave H as is unless instructed otherwise. Since the user didn't mention hihat, it's safer to keep it.
+
+Therefore, the only change needed is to clear the R line. Let me verify each line:
+
+Original R line:  
+R: x---|X-x-|x---|X-x-
+
+After removal:  
+R: ----|----|----|----
+
+So the final edited groove should have the R line all dashes, and everything else remains the same. Let me double-check for any other cymbals (like crash in C line) but in the given, C is all dashes, so nothing else to do. 
+
+Final check to ensure no typos in the notation. Each line should have 16 characters (including the | separators). Let's count for R line after change:
+
+"----|----|----|----" has 16 characters (4 per beat, 4 beats). Correct.
+
+Looks good. That's the edit.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

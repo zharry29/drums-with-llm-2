@@ -1,0 +1,36 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any snare or hihat parts. First, I'll look at the original groove provided.
+
+Starting with the Kick (K): "-O--|OO--|---O|-OO-". That's fine, no snare or hihat involved here. The Snare (S) line has "----|----|S---|----". The 'S' in the third beat needs to be removed. So I'll replace that with all '-'.
+
+Next, the Hihat (H) is "x-x-|x-x-|x-x-|x-x-". Since the user doesn't want hihat, I'll set all those to '-'.
+
+Tom (T) is "----|----|---O|----". The user didn't mention toms, so leave that as is unless instructed otherwise. But the request was only about snare and hihat, so keep Toms.
+
+Crash (C) is "O---|O---|O---|O---". Also allowed since the request excludes cymbals? Wait, the user said "no snare or hihat". Crash is a cymbal, but the instruction didn't mention removing cymbals. Wait, the edit request is only about snare and hihat, so crashes and ride can stay unless specified. Wait the user's exact words were "I don't want any snare or hihat." So only those two instruments are to be removed. So the crash and ride can stay. But in the original, the Ride (R) is all dashes, so nothing there.
+
+So, the edited version should have S and H lines all '-', keep K, T, C, R as they are except where S has the 'S' in third beat. Let me check again:
+
+Original S line: "----|----|S---|----". The third beat has 'S---', so replacing that with "----".
+
+H line becomes all '-', so "----|----|----|----".
+
+So putting it all together:
+
+K remains: -O--|OO--|---O|-OO-
+S becomes: ----|----|----|----
+H becomes: ----|----|----|----
+T remains: ----|----|---O|----
+C remains: O---|O---|O---|O---
+R remains: ----|----|----|----
+
+Wait, but the user's instruction was to remove snare and hihat. So that's exactly what I did. Let me double-check each line. Yes, S and H are cleared. Toms and crashes are still there. The user didn't mention removing toms or crashes, so that's correct. The final output should reflect that.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|----|----
+H: ----|----|----|----
+T: ----|----|---O|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+@@@

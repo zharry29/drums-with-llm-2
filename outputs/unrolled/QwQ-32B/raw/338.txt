@@ -1,0 +1,41 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any hihat or tom parts from the given groove. 
+
+First, I'll look at the original groove provided:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+The edit request is to eliminate the hihat (H) and tom (T) sections. 
+
+Starting with the Hihat line (H), I need to set all its characters to '-' since they don't want any hihat hits. The original H line has some o and O hits, so replacing them with '-' will silence that instrument.
+
+Next, the Toms (T) line is already all '-' except maybe in other contexts, but here it's already empty. So no changes needed there beyond confirming it's all '-'.
+
+The other instruments (Kick, Snare, Crash, Ride) should remain as they are unless they conflict with the request. Since the user only mentioned removing hihat and toms, Kick, Snare, and Crash can stay. 
+
+Wait, the user also mentioned "ride" in previous examples, but in this specific groove, the Ride (R) line is already empty. The Crash (C) has some hits, but since the user didn't mention removing crashes, we leave it.
+
+So the modified groove should have H and T lines all '-', while others stay the same. Let me double-check:
+
+Original K: O---|---o|O-O-|---- remains.
+S: ----|O---|----|O--- stays.
+H: --o-|O-o-|O-o-|O-o- → becomes ----|----|----|----
+T: already all '-' so no change.
+C: O---|----|----|---- stays.
+R: already all '-'.
+
+Yes, that should do it. Just zero out the H line and ensure T is empty. Let me write that out.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

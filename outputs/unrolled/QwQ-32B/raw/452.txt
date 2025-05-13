@@ -1,0 +1,41 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any cymbals and hihats from the provided groove. Let me first parse the given drum notation to understand what needs to be changed.
+
+Looking at the original groove:
+
+**K: -O--|OO--|---O|-OO-**  
+**S: ----|----|S---|----**  
+**H: x-x-|x-x-|x-x-|x-x-**  
+**T: ----|----|---O|----**  
+**C: O---|O---|O---|O---**  
+**R: ----|----|----|----**
+
+The user's request is to eliminate both cymbals (Crash **C** and Ride **R**) and the hihat **H**. 
+
+Starting with the **Hihat (H)** line: it's currently playing a steady pattern of **x-x-** across all four beats. Since we need to remove hihats, I'll replace all characters in the H line with '-' to indicate no hits.
+
+Next, the **Crash cymbal (C)** has a pattern of **O---** repeated in each beat. Removing cymbals means setting all characters in the C line to '-'.
+
+The **Ride cymbal (R)** line is already empty (all '-'), so no changes are needed there. 
+
+Now, checking other lines to ensure they aren't affected. The Kick (K), Snare (S), and Toms (T) lines should remain as they are unless they were part of the cymbal/hihat components. Since the user only mentioned removing cymbals and hihats, those other lines stay intact.
+
+Let me verify each line:
+
+- **K** remains: -O--|OO--|---O|-OO-
+- **S** remains: ----|----|S---|----
+- **H** becomes: ----|----|----|----
+- **T** remains: ----|----|---O|----
+- **C** becomes: ----|----|----|----
+- **R** stays: ----|----|----|----
+
+Double-checking to ensure no other instruments were mistakenly altered. The edits only target H and C lines. The final result should have those lines cleared, maintaining the Kick, Snare, and Toms as originally provided.
+</think>
+
+@@@
+K: -O--|OO--|---O|-OO-
+S: ----|----|S---|----
+H: ----|----|----|----
+T: ----|----|---O|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

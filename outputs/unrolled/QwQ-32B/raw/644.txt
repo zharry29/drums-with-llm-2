@@ -1,0 +1,59 @@
+Okay, let me tackle this drum groove edit. The user wants a ride hit and a tom in the very beginning. Let's look at the original groove first:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Hmm, so the kick is hitting on the first 16th note of the first beat and third beat. The snare is on beats 2 and 4. The hihat is steady closed hits throughout. Toms and ride/crash are silent except the crash has some hits but maybe they can be adjusted.
+
+The edit request is for a ride hit and tom at the very start. The very beginning is the first 16th note of the first beat. 
+
+First, the ride (R) currently has all dashes. To add a hit there, I need to put an 'O' or 'o' on the first character of the first beat. Since the user didn't specify soft or hard, but usually a starting hit might be a hard hit, so 'O' makes sense.
+
+Next, the tom (T) needs a hit on the first 16th note. The tom uses O for hard and o for soft. Again, starting hit might be a hard hit, so 'O' on the first character.
+
+Wait, but the kick already has an 'O' there. Can they both hit at the same time? In drumming, that's totally fine. So the kick and tom can both hit the first 16th note. Let me check the original kick line: first character is O, so adding a O in T's first character is okay.
+
+So modifying the T line to have O---|... and the R line to have O---|...
+
+Let me make sure the rest stays the same. The user only wants the very beginning, so only the first 16th note of the first beat (the first character in each line) should have these new hits. The rest of the measures can stay as they are.
+
+Wait, the crash (C) has O--- in all beats. Maybe the user doesn't want that? The original might have crashes on every beat, but the edit is about ride and tom. Unless the user wants to remove the crash, but the request didn't mention that. So I'll leave the crash as is, unless the ride is replacing it. Hmm, maybe the user wants ride instead of crash? But the edit says "ride hit and tom", so perhaps they want both. But since the original has crashes, maybe just adding the ride and tom without changing the crash.
+
+Alternatively, maybe the crash is part of the original and should stay, so the ride is added alongside. Let me proceed with that.
+
+So the modified lines would be:
+
+K remains: O---|----
+
+S remains: ----|O---
+
+H remains: X---|X---
+
+T changes to: O---|----
+
+R changes to: O---|----
+
+So putting it all together:
+
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: O---|----|----|----
+C: O---|----|----|----
+R: O---|----|----|----
+
+Wait, but the ride's first character is now O, which is a hard hit on the bell. The tom has an O on the first hit. The kick already had an O there, so all three (kick, tom, ride) hit the first note. That's acceptable. The user wanted both a ride and tom in the beginning, so this should work. I think that's the correct edit.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: ----|O---|----|O---
+H: X---|X---|X---|X---
+T: O---|----|----|----
+C: O---|----|----|----
+R: O---|----|----|----
+@@@

@@ -1,0 +1,35 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any tom or ride elements from the given drum pattern. 
+
+First, I'll look at the original groove provided:
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+The user's request is to eliminate tom (T) and ride (R) parts. Let's go through each line:
+
+- **Kick (K):** Looks fine, no changes needed here.
+- **Snare (S):** Has some X and x hits, which are sidestick hits. Since the request doesn't mention snare, leave it as is.
+- **Hihat (H):** Has x and possibly closed hits. The user didn't mention hihat, so keep it.
+- **Toms (T):** Already all dashes, so no action needed here. But maybe check if there were any previous hits I missed. Nope, all clear.
+- **Crash (C):** All dashes, so no crash involved. Good.
+- **Ride (R):** This line has x, X, and - characters. Since ride is to be removed, replace all entries here with dashes.
+
+Wait, let me double-check. The user said "no tom or ride". The T line is already empty. The R line needs to be cleared. Also, ensure that any other lines like Crash (C) are okay. Since C is separate from ride, but the user didn't mention crash, but the original C line is empty. So only R needs to be cleared.
+
+So the edited version should have the R line all dashes. Let me confirm each part again to avoid mistakes. Yep, that's it. The final groove should look like this with R line erased.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

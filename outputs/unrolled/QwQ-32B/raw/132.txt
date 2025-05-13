@@ -1,0 +1,137 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to have not only tom but also ride. Looking at the given groove:
+
+First, check the existing instruments. The Kick (K) has some hits, Snare (S) too, Hihat (H) is active, Crash (C) has a hit on the first 16th note, and Ride (R) is completely silent. Toms (T) are also all dashes, so they're not being used. The edit request is to add tom and ride elements.
+
+So, the current issue is that there's no tom and no ride. The user probably wants both added. Let's start with the ride. The original Ride line is all dashes, so we need to add some pattern there. Since the existing groove has a certain rhythm, maybe follow the hihat or snare's pattern but on the ride. Alternatively, create a steady ride pattern to add some continuity.
+
+Looking at the hihat (H): it has a pattern like "--o-|O-o-|O-o-|O-o-". Maybe mirror that on the ride but using ride's articulations. Alternatively, a common ride pattern is quarter notes or eighth notes. Since each beat is four 16th notes, maybe a steady eighth note pattern on the ride. Since R can use X and x for closed hits on the bow, maybe alternate between X and x for a consistent rhythm. Let's try something like "X---|X---|X---|X---" but spread out more. Wait, maybe every other 16th note? Like "X-x-|X-x-|..." but check the existing parts.
+
+Alternatively, since the user's previous examples often use X-x- patterns on ride, maybe follow that. Let me see the previous answers. In prior edits, when adding ride, they used "X-x-" repeated. Let's do similar here. So for R: "X-x-|X-x-|X-x-|X-x-".
+
+Now for the toms. The T line is all dashes. Need to add some tom hits. The existing kick and snare have a pattern. The kick starts with O---, then ---o, etc. Maybe add toms on offbeats. Let's look at the third beat where kick is O-O-, maybe add a tom on the third 16th note? Or maybe a tom fill. Alternatively, place toms on the "&" of each beat. Let's try a simple pattern. For example, on the second 16th note of each beat: "-O--|O---|..." but need to ensure it's 16 characters. Wait, each beat is four characters. Let's see:
+
+Looking at the existing T line: four beats, each four characters. Let's try adding a tom hit every beat. Maybe "-O--|O---|O---|---O" but need to fit the groove. Alternatively, syncopated hits. Let me think of a basic tom pattern. Maybe on the second and fourth 16th notes of each beat? Like "-O-O|O-O-|..." but need to make sure it's not conflicting. Alternatively, place toms where there's space. Since the crash is only on the first note of the first beat, maybe add a tom on the third beat's first note where the kick has O. Let's try:
+
+For Toms (T): maybe start with "-O--" on the first beat, then "O---" on the second, "O-O-" on the third, and "----" on the fourth? Not sure. Alternatively, use the same rhythm as the crash but spread out. Since the crash is only on the first beat, maybe add a tom on the third beat's first note. Hmm, this is getting a bit vague. Maybe a simple pattern like "-O--|O---|O-O-|O---" but need to check length. Wait, each beat is four characters. Let's try:
+
+First beat (four 16th notes): "-O--" so first tom hit on the second 16th.
+
+Second beat: "O---" so first 16th note.
+
+Third beat: "O-O-" (since the kick has O-O-, maybe sync with that)
+
+Fourth beat: "----" since the fourth beat is empty except for snare on the last note.
+
+So T: "-O--|O---|O-O-|----".
+
+Alternatively, make it more consistent. Maybe every other 16th note starting on beat 2. Hmm. Alternatively, use the same pattern as the crash but on toms. Since Crash is O--- on the first beat, maybe T has O--- on the first beat as well but then add others. Not sure.
+
+Alternatively, just add a tom hit where there's space. Let me think of the existing instruments:
+
+First beat:
+
+K: O--- so kick on first 16th.
+
+S: ---- no snare.
+
+H: --o- so hihat on third 16th.
+
+C: O--- crash on first 16th.
+
+So maybe add a tom on the fourth 16th of the first beat? So T: "----" but first beat could have "-O--" or "-O--" but maybe better to start with a tom hit on the second 16th to add some groove.
+
+Alternatively, make the tom play on the "&" of each beat (second 16th note). So each beat's second 16th has a tom. So T: "-O--|O---|O---|O---" but that would be "-O-- for first beat (beat 1: 1,2,3,4 16ths: -, O, -, -). Wait, the first beat's tom would be "-O--", so the second 16th is O. That might work. Let's try that for the first beat. Then second beat's tom: "O---" so first 16th. Hmm, conflicting with crash maybe? The crash is only on first beat. Alternatively, make it consistent every second 16th note across all beats.
+
+So T: "-O--|O---|O---|O---" but that would be every second 16th. Wait, actually, the second 16th of each beat would be the "&" of the beat. So "-O-- for first beat (beat 1: O on second 16th), then second beat: "O---" would be first 16th, which is the downbeat of beat 2. Hmm, maybe not. Alternatively, "-O-- for each beat's second 16th, making T: "-O--|X---|..." no, perhaps better to have "-O--|O---|O-O-|O---" but not sure. Alternatively, just a simple pattern like "-O-- on first beat, then O--- on second, O-O- on third, and O--- on fourth.
+
+Alternatively, toms could be on the third 16th note of each beat. Let's try:
+
+First beat: "--O- (tom on third 16th)
+
+Second beat: "---O (tom on fourth)
+
+Third beat: O-O- (first and third)
+
+Fourth beat: ----
+
+But this might be too sparse. Maybe a better approach is to add toms where they can complement the existing parts without clashing. Since the crash is only on the first note of the first beat, adding a tom there might be okay. Let's try:
+
+Toms (T): 
+
+First beat: "-O-- (second 16th)
+
+Second beat: "O--- (first 16th)
+
+Third beat: O-O- (first and third)
+
+Fourth beat: "----" since the fourth beat has a snare on the last note.
+
+Alternatively, maybe a repeating pattern every beat. Let's see previous examples. In prior edits, when adding toms, they sometimes used a consistent pattern like "O---|O---|..." or "-O-O|..." 
+
+Wait, looking at the user's previous answers, for example, when they added tom to a groove without tom, they often used a pattern like "-O--|O---|..." or similar. Let me check one of the previous edits. In the user's third example, they added T: "-O--|-O--|..." etc. So maybe a pattern where the tom hits on the second 16th of each beat.
+
+Let me try:
+
+T: "-O--|O---|O-O-|O---"
+
+Wait, each beat is four characters. Let's structure each beat:
+
+Beat 1: "-O-- (so second 16th is O)
+
+Beat 2: "O--- (first 16th)
+
+Beat 3: "O-O- (first and third)
+
+Beat 4: "O--- (first 16th)
+
+But this might be okay. Alternatively, a steady eighth notes on the toms? Like "-O-O repeated? But that would be four 16ths: "-O-O| -O-O| etc. But that might be too busy with the hihats and ride.
+
+Alternatively, a simple pattern on the toms that adds some depth. Let's go with "-O-- on each beat. So for all four beats: "-O--|O---|O---|O---" but that might not be balanced. Alternatively, "-O-- for all beats except where there's a snare. Hmm.
+
+Alternatively, let's make the tom play on the third 16th of each beat. So "--O- for each beat. So T: "--O-|---O|O-O-|---O". Not sure. Maybe better to just pick a simple pattern and ensure it's consistent.
+
+Let's proceed with Toms (T) having a pattern like "-O-- on each beat. So:
+
+T: "-O--|O---|O-O-|O---" 
+
+Wait, but each beat must be four characters. Let's write it properly:
+
+First beat: "-O-- (four characters: -, O, -, -)
+
+Second beat: "O--- (O, -, -, -)
+
+Third beat: "O-O- (O, -, O, -)
+
+Fourth beat: "O--- (O, -, -, -)
+
+But maybe the third beat can be O-O- to have two hits. Alternatively, maybe the third beat's tom can mirror the kick's O-O- pattern. Since the kick on the third beat is O-O-, maybe the toms can have O-O- as well. So third beat: O-O-.
+
+Putting it all together:
+
+T: "-O-- | O--- | O-O- | O--- 
+
+Now check the Ride (R). Since the user wants ride added, and previous edits used X-x- patterns, let's do that. So Ride would have "X-x- repeated for each beat:
+
+R: X-x-|X-x-|X-x-|X-x-
+
+This adds a steady eighth note pattern on the ride, using closed hits (X and x on the bow).
+
+Now check if this doesn't clash with other instruments. The snare is on beats 2 and 4, so on beat 2's third 16th (O---|O---), but the snare is on the second beat's third 16th? Let me check the original S line:
+
+S: ----|O---|----|O--- 
+
+So snare hits on the second beat's first 16th (beat 2 starts with O---, so first 16th of beat 2 is O). And fourth beat's first 16th. The ride's X-x- would hit every other 16th, so on beats 1: X on first 16th, x on third. That might clash with the crash on the first beat's first 16th (C: O---). But since it's a different instrument, that's okay. The crash is a single hit, then the ride continues. 
+
+Toms are on the second 16th of beat 1, first of beat 2, etc. Shouldn't clash much. 
+
+So putting it all together, the edited groove would have Toms and Ride added as above.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: -O--|O---|O-O-|O---
+C: O---|----|----|----
+R: X-x-|X-x-|X-x-|X-x-
+@@@

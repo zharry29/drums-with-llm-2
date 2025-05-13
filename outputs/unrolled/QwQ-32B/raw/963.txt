@@ -1,0 +1,36 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the hihat on beat 4 but keep everything else the same. 
+
+First, I need to look at the given drum groove. Let me parse each line. The H line is for the hihat. The current H line is:
+
+H: X-x-|X-x-|X-x-|X-x-
+
+Each part separated by | is a beat. Since there are four beats in a bar, each | segment represents a beat. Each character in the four-character group corresponds to a 16th note. So, beat 4 is the last segment: |X-x-.
+
+The user wants no hihat on beat 4. That means the fourth beat's characters should all be '-', since '-' means the instrument isn't played. So, I need to replace the last |X-x- with |----.
+
+Let me check the other instruments to make sure they stay the same. The K, S, T, C, and R lines shouldn't change. 
+
+Original lines:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+After editing the H line's last beat to all '-', the new H line becomes:
+
+H: X-x-|X-x-|X-x-|----
+
+Putting it all together, the final groove should have the H line modified only on the fourth beat. Let me double-check that no other parts are altered. Yep, looks good. The rest of the instruments remain as they were. That should fulfill the user's request.
+</think>
+
+@@@
+K: O--O|----|--O-|----  
+S: ----|Oo-o|-o--|O--o  
+H: X-x-|X-x-|X-x-|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

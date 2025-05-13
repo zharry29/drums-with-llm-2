@@ -1,0 +1,29 @@
+Alright, let's tackle this drum groove edit. The user wants a snare hit and cymbal in the very beginning. The original groove has the kick and hihat, but no snare or cymbal at the start.
+
+First, I need to look at the existing instruments. The Kick (K) starts with "O---", so the first 16th note is a hard kick. The Snare (S) line is "----" in the first beat, meaning no snare there. The Cymbals (C and R) are also silent initially. 
+
+The user specified a snare hit and cymbal at the very beginning. Since the first beat's first 16th note is already occupied by the kick, I should place the snare on that same note to create a strong downbeat. For the cymbal, either Crash (C) or Ride (R) could work. The original has no cymbals, so adding a crash on the first note would emphasize it. 
+
+Looking at the notation rules: Snare's hard hit is "O", and Crash's hard hit is "O". So, I'll set S's first character to "O" and C's first to "O" as well. That gives a solid start with kick, snare, and crash all hitting together on the first 16th note.
+
+I need to ensure the rest of the groove stays intact. The other parts of the snare and cymbal lines should remain unchanged unless overlapping. Since the original S has "----" in the first beat, replacing the first "-" with "O" is safe. For the crash, the first beat was "----", so changing the first to "O" adds the crash there.
+
+Let me double-check the notation rules again to confirm. Snare's "O" is a hard hit, which is appropriate for a strong start. Crash's "O" is also a hard hit, which fits the request. The hihat and other parts stay the same. 
+
+So the edited lines should be:
+K: O---|----|O---|----
+S: O---|O---|----|O---
+C: O---|----|----|----
+R remains as all dashes since we're using crash instead of ride here.
+
+Wait, the user didn't specify which cymbal, so maybe using the crash is better for a strong intro. That should work. Let me put it all together.
+</think>
+
+@@@
+K: O---|----|O---|----
+S: O---|O---|----|O---
+H: X---|X---|X---|X---
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

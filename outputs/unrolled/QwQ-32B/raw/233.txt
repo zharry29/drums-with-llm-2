@@ -1,0 +1,63 @@
+Alright, let's tackle this drum groove edit. The user wants the groove to include not only the kick drum but also the tom. Looking at the given groove:
+
+First, let's parse the current setup. The Kick (K) has some hits, but the Toms (T) are all dashes, meaning they're not being used. The edit request is straightforward: add tom hits where they make sense without conflicting with existing parts.
+
+Looking at each part:
+
+**Kick (K):** 
+- Bar 1: O--- (hard hit on the first 16th note)
+- Bar 2: ---o (soft hit on the fourth 16th note)
+- Bar 3: O-O- (hard on first, rest, hard on third)
+- Bar 4: ---- (no hits)
+
+**Snare (S):**
+- Bar 2 and 4 have O---, so likely snare hits on the first 16th of those bars. 
+
+**Hihat (H):** 
+- Some open and closed hits, but not crucial for the edit.
+
+**Crash (C):** 
+- Crash on the first beat of the first bar.
+
+The user wants to add toms. Since the current groove has no toms, I need to decide where to place them. Common places for toms might be off-beats or complementing the kick. Let's look at each bar:
+
+**Bar 1:**
+- K hits on the first 16th. Maybe a tom on the third or fourth 16th to add depth. Let's try a soft tom (o) on the fourth 16th to not clash with the crash.
+
+**Bar 2:**
+- K hits on the fourth 16th. A tom could go on the first or second. Since snare is on the first, maybe a tom on the second 16th (soft o) to avoid clashing.
+
+**Bar 3:**
+- K hits on 1 and 3. Adding a tom on the fourth 16th here could work, maybe a hard O for emphasis.
+
+**Bar 4:**
+- No kick, so perhaps a tom on the first 16th to lead into the next bar, maybe a soft o to keep it subtle.
+
+Now, ensuring that the toms don't clash with other instruments. Let me draft:
+
+T: ---o | -o-- | ---O | o---
+
+Breaking it down:
+- Bar1: ---o (tom on 4th 16th)
+- Bar2: -o-- (tom on 2nd 16th)
+- Bar3: ---O (tom on 4th 16th, hard hit)
+- Bar4: o--- (tom on 1st 16th, soft)
+
+This should add toms in a way that complements the existing kick without overlapping too much. Let me check again:
+
+- Bar1: Kick on 1, tom on 4. The crash is on the first beat, so tom on 4 is okay.
+- Bar2: Snare on 1, kick on 4, tom on 2. That should work.
+- Bar3: Kicks on 1 and 3, tom on 4. Good.
+- Bar4: Tom on 1, since there's no kick here, it sets up the next bar.
+
+This seems balanced. I'll put this into the notation.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ---o|-o--|---O|o---
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

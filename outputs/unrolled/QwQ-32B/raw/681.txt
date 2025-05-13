@@ -1,0 +1,59 @@
+Okay, let's tackle this drum groove edit. The user wants a cymbal hit and a tom in the very beginning. The original groove is:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+First, I need to understand where "the very beginning" is. That's the first 16th note of the first beat, right? So the first character in the K line is 'O', which is the kick. The user wants a cymbal (either crash or ride?) and a tom there. 
+
+Looking at the instruments, the cymbal options are Crash (C) or Ride (R). Since the user specified "cymbal," maybe Crash is intended. The tom is on line T. 
+
+In the original, the first beat's K is O---, so the first note is a kick hit. To add a cymbal and tom at the same time, I need to set the first note of C and T to their respective hits. 
+
+For the cymbal, Crash uses O for a hard hit. So, the first character of C should be O instead of the current O in the first bar. Wait, actually, in the original C line, the first beat is O---, so the crash is already hitting on the first note. Wait, that's conflicting. Wait, looking at the original C line:
+
+C: O---|----|----|----
+
+So the crash is already hitting hard on the first 16th note. But the user wants an additional cymbal hit? Or maybe they want a different cymbal? Wait, maybe they meant Ride instead? Or perhaps they want to add another cymbal in addition? The request is a bit ambiguous. Let me read again: "I'd like a cymbal hit and tom in the very beginning." So maybe they want to add a cymbal (either crash or ride) and a tom on the first note. But in the original, crash is already there. Maybe the user didn't realize and wants to add a ride instead? Or perhaps they want to replace the crash with ride? Hmm, tricky. Alternatively, maybe the user wants both a crash and a tom, but since crash is already there, perhaps they just want the tom added.
+
+Wait, the original's T line is all dashes, so there's no tom. So adding a tom hit (O) on the first note. So T's first character should be O. 
+
+So the steps are:
+
+1. On the first 16th note (first character of each line), add a tom hit (O) on T line.
+
+But the user also mentions a cymbal hit. Since the crash is already there, maybe they want to keep it. Alternatively, maybe they want a ride instead. Let me check the original's R line: it's all dashes, so no ride. Maybe the user wants a ride hit instead of crash? Or in addition? The original has a crash on the first note. If the user wants a cymbal hit (maybe ride) and tom, then perhaps replacing the crash with ride, or adding both.
+
+But the user's request says "a cymbal hit and tom", so maybe just adding the tom and keeping the crash. Since the crash is already there, perhaps that's okay. The user might not have noticed and just wants the tom added. Alternatively, maybe they intended a ride instead of crash. Hmm.
+
+Alternatively, maybe the user wants both a crash and ride? But that's two cymbals. Maybe better to proceed as per the most straightforward interpretation: add a tom on the first note, keeping the crash. 
+
+So, updating T's first character to O. So T becomes O---| etc.
+
+So the edited lines would be:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+
+Wait, but the user might want the cymbal to be a crash. Since it's already there, maybe that's fine. So the tom is added, and the crash remains. That should fulfill the request. Alternatively, if they wanted a different cymbal, like ride, but since they said "cymbal", crash is acceptable. 
+
+Therefore, the final groove should have T's first note as O, and the rest as before. Let me double-check the notation rules for Toms: O is a hard hit, so that's correct. The user didn't specify soft, so hard is okay. 
+
+So the edited version would be as above.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: O---|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@

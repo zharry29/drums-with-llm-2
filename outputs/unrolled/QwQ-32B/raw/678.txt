@@ -1,0 +1,51 @@
+Alright, let me tackle this drum groove edit. The user wants a cymbal hit and a tom in the very beginning. First, I need to recall the drum notation rules to make sure I get the symbols right.
+
+Looking at the given groove:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+The first beat is "O--O" for the kick, and the snare starts in the second beat. The toms and crash cymbal (C) are currently silent. The ride (R) has some hits but no crash.
+
+The user wants a cymbal hit (probably crash) and a tom hit at the very beginning. The "very beginning" would be the first 16th note of the bar, which is the first character in the first beat (before the first |).
+
+For the crash cymbal (line C), the first character should be 'O' for a hard hit. Since it's the first note, I'll set C's first character to 'O' and the rest as '-' unless needed. 
+
+For the tom (line T), the first note should have a hit. The tom uses 'O' for hard, so 'O---' for the first beat. 
+
+I need to check if adding these affects other parts. The original T and C lines are empty, so adding just the first hit should be okay. Let me make sure the rest of the characters remain as per the original except the first note.
+
+So, modifying the C and T lines:
+
+Original C: ----|....
+New C: O---|....
+
+Original T: ----|....
+New T: O---|....
+
+Wait, but the user specified both a cymbal (crash) and tom. So first note of the bar (first 16th note) should have both. Let me confirm:
+
+Yes, the first 16th note (position 1) gets an 'O' on crash (C) and 'O' on tom (T). The rest of the first beat for C and T can stay as '-' unless the user wants more, but the request is only for the very beginning. 
+
+So the edited lines would be:
+
+C: O---|----|----|----
+T: O---|----|----|----
+
+I need to ensure that the other lines remain the same. Let me double-check the kick and snare to not interfere. The kick's first beat is "O--O", which is okay. The snare starts later. 
+
+Final check: The first note now has a crash (C: O) and tom (T: O), meeting the request. That should be it.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: O---|----|----|----
+C: O---|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+@@@

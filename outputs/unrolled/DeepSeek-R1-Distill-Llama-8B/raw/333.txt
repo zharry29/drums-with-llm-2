@@ -1,0 +1,23 @@
+Alright, so I need to edit the drum groove by removing the hihat and tom. Let me look at the current setup.
+
+First, I see that the original groove has four instruments: Kick, Snare, Hihat, Tom, Crash, and Ride. But according to the edit request, I need to remove Hihat and Tom. So, I'll focus on Kick, Snare, Crash, and Ride.
+
+Looking at the Hihat line, it's entirely filled with 'x---' and 'x---', which means the hihat is active on every note. I'll need to set all these to '-' to remove the hihat.
+
+For the Tom line, it's currently set to 'O-o-' and 'O-o-', which means the toms are active on every note except the third one. I'll change all the 'O's and 'o's to '-' to deactivate the toms entirely.
+
+Now, I'll go through each beat and ensure that only Kick, Snare, Crash, and Ride are active. I'll leave the Crash and Ride as they are since they aren't part of the edit request.
+
+Let me reconstruct the drum groove with these changes. The Kick will remain mostly the same, but I might tweak some notes for better rhythm. The Snare will stay active, so I'll ensure it's placed correctly in each beat.
+
+After making these adjustments, I'll double-check each instrument to confirm that Hihat and Tom are completely removed and that the other instruments are correctly placed. This way, the new groove will meet the user's request without any unwanted elements.
+</think>
+
+@@@  
+K: O---|----|O---|---  
+S: ----|----|----|----  
+H: ----|----|----|----  
+T: ----|----|----|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

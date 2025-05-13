@@ -1,0 +1,81 @@
+Okay, let me tackle this drum groove edit. The user wants the groove to have not only tom but also cymbal. Looking at the given groove:
+
+**Original Groove:**
+```
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+```
+
+First, I notice that the Toms (T) line is completely empty. The user wants to add tom hits. Also, the cymbals (C and R) are partially present. The Ride (R) has some activity, but the Crash (C) is empty. Since the request is to include cymbals, maybe adding Crash hits would fulfill that. 
+
+The instruction says "not only tom but also cymbal," so the existing cymbals (like Ride) should stay, but we need to ensure there's at least a Crash added. Also, toms must be added where they're missing.
+
+Let me check the structure. Each line has four beats, each with four 16th notes. The Toms line is all dashes, so I need to place some O or o (hard/soft hits) there. Maybe start with a simple pattern, like adding toms on the off-beats or backbeats.
+
+For example, in the first beat of Toms: maybe a hard hit on the second 16th note: `O---` but need to see where it fits. Alternatively, syncopated hits. Let's see the Kick and Snare patterns to complement.
+
+The Kick is on the first and third 16th notes of the first beat (o---), then on the second and fourth of the second beat (--o-), etc. The Snare has X (sidestick) on the second beat's first 16th, and similar on the fourth beat. 
+
+Maybe add Toms on the third and fourth beats where they can add depth. Alternatively, in the third beat's third 16th note. Let's try:
+
+**Toms (T):** Let's add some O's where they won't clash. Maybe `----|O---|----|O---` but need to check. Alternatively, spread them out. Alternatively, in the third beat's third 16th note, and fourth beat's third. Maybe `----|--O-|----|--O-`? Hmm, but need to see.
+
+Alternatively, to add some variation, maybe:
+
+T: O---|----|O---|----
+
+But need to ensure it complements the existing Kick and Snare. Alternatively, add Toms on the "and" of beats. Let's see:
+
+First beat: K is o on 1 and 3. Adding a tom on 2 or 4?
+
+Alternatively, let's make T: O---|----|O---|----
+
+That would add a hard tom hit on the first 16th of the first and third beats. That might work, adding some punch.
+
+Now for the cymbals. The Crash (C) is all dashes. Let's add some crashes. Typically, crashes are on strong beats, like the first beat. Maybe add a hard crash (O) on the first beat of the bar. So C: O---|----|----|----
+
+Alternatively, maybe on the first and third beats. Or the first and fourth. Let's pick O on first beat and maybe a soft crash on the fourth. So C: O---|----|----|o---
+
+But the user just wants cymbals added, so even a single crash would suffice, but maybe a more interesting pattern. Since the Ride is already active, adding Crash on the downbeats could add contrast.
+
+Putting it all together:
+
+**Edited Groove:**
+```
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: O---|----|O---|----
+C: O---|----|O---|----
+R: x---|X-x-|x---|X-x-
+```
+
+Wait, let me check the Toms. In the first beat, T is O---, so first 16th note. The Kick on first beat is o--- (first 16th is o). That's okay, they can hit together. Third beat's T is O--- again. That might work. Alternatively, maybe spread the Toms more. Alternatively, use soft hits (o) for toms to not clash too much. Maybe T: o---|----|o---|----
+
+Alternatively, add Toms on the off-beats. Let's try T: ----|O---|----|O--- so on the second beat's first 16th, and fourth beat's first. Hmm, but that might clash with Kick's second beat's --o- (third 16th is o). Maybe better to place toms on the third or fourth 16th notes. Let me think again.
+
+Alternatively, T: ---O|----|---O|---- which would place a tom hit on the fourth 16th of first and third beats. That could work as a syncopation. But the user just wants toms added, so any placement is okay as long as it's there.
+
+Alternatively, to make it simple, maybe T: O---|----|----|--O- so first beat starts with a tom, and fourth beat ends with a tom. That's a possible pattern.
+
+Alternatively, let's go with T: O---|----|O---|---- to have toms on first and third beats. That adds some structure.
+
+Crash on first and third beats as well, so C: O---|----|O---|----
+
+This way, the Crash aligns with the Toms, creating a stronger hit on those beats. The existing Ride and Snare patterns remain, but now with Toms and Crash added.
+
+I think this should fulfill the request of adding both Tom and Cymbal (Crash) elements.
+</think>
+
+@@@
+K: o---|--o-|o---|--o-
+S: ----|X---|--X-|----
+H: ----|x---|----|x---
+T: O---|----|O---|----
+C: O---|----|O---|----
+R: x---|X-x-|x---|X-x-
+@@@

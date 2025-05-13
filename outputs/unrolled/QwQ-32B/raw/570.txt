@@ -1,0 +1,50 @@
+Okay, let's tackle this drum groove edit. The user wants to remove any kick or snare from the given groove. Let me start by reviewing the original drum notation provided.
+
+First, I need to recall the structure: each line corresponds to a different drum part. The user mentioned not wanting kick (K) or snare (S), so those lines should be cleared out. Let me check the given groove again:
+
+The original groove is:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+Wait, looking at this, the K and S lines are already all dashes. That means there's no kick or snare in the original groove the user provided. The user's edit request says "I don't want any kick or snare," but since they're already not present, maybe there was a mistake in the input? Or perhaps the user is referring to a different groove?
+
+Wait, no, looking back, the user's given groove here shows K and S as all dashes, so removing them further isn't needed. But maybe the user intended to have some kick or snare that needs to be erased. Let me double-check the exact input they provided to ensure I didn't misread.
+
+The user's input shows:
+
+In the given drum groove section:
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+So indeed, K and S are already inactive. Therefore, the edit request might be redundant here. However, perhaps there was a typo in the problem statement, and the user intended the groove to have some kick or snare that needs removal. But according to the provided data, they are already absent.
+
+In any case, following the instructions strictly, the task is to remove kick (K) and snare (S). Since they are already off, the result should remain the same. But maybe the user expects the same output, just confirming that those lines are cleared. 
+
+Alternatively, perhaps there was an error in the initial setup, and the user wants to ensure that even if there were any hidden hits, they should be removed. However, given the input, the correct response would be to leave the groove as is, with K and S lines all dashes. 
+
+Therefore, the final edited groove should keep all other instruments (Hihat, Toms, Crash, Ride) as they are, while ensuring K and S are empty. Since that's already the case, the output will be identical to the input provided, except perhaps formatting adjustments if needed, but the user's examples show that even if unchanged, they still need to be presented between the @@@.
+
+So the answer should be the same as the input, with K and S lines all dashes, and others as given.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

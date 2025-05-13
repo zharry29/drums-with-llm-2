@@ -1,0 +1,52 @@
+Okay, let's tackle this drum groove edit. The user provided a drum notation example and a specific groove, then asked to remove any kick or snare. 
+
+First, I need to recall the instruments each line corresponds to. The given groove has lines for K (kick), S (snare), H (hihat), T (toms), C (crash), and R (ride). The edit request is to eliminate kick and snare, so I need to set their lines to all '-'.
+
+Looking at the original groove:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+The user wants to remove kick (K) and snare (S). So, for K and S lines, replace all characters except the separators | with '-'. 
+
+For the K line:
+Original: O--O|----|--O-|----
+After removal: ----|----|----|----
+
+Similarly for S line:
+Original: ----|Oo-o|-o--|O--o
+After removal: ----|----|----|----
+
+The other lines (H, T, C, R) stay as they are unless they have their own hits. Checking H has X-x- patterns, which are allowed since the user didn't mention hihat. T, C, R are empty except H. 
+
+Wait, the user's instruction says "I don't want any kick or snare," so only K and S are to be cleared. The rest remain. Let me verify each line:
+
+- K becomes all dashes.
+- S becomes all dashes.
+- H remains X-x- repeating.
+- T, C, R stay as they are (all dashes except H's pattern).
+
+So the final edited groove should have K and S lines empty, others unchanged. Let me write that out:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+Double-checking for any remaining K or S hits. Looks good. The user didn't mention other instruments, so leaving hihat as is is correct. That should be the edited version.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

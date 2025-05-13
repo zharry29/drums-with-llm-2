@@ -1,0 +1,52 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the tom hit on beat 4, but keep everything else the same. 
+
+First, I need to look at the given drum notation. The original groove is:
+
+K: O---|O---|----|O---
+S: ----|----|O---|----
+H: ----|----|----|----
+T: O-o-|O-o-|O-o-|O-o-
+C: ----|----|----|----
+R: ----|----|----|----
+
+The user's request is specifically about the Toms (T line). The Toms line has "O-o-" for each beat. Since each set of four characters represents a beat, the fourth beat here is "O-o-". Wait, actually, each line is divided into four beats by the | symbol. Let me parse this correctly.
+
+Breaking down the Toms line:
+- First beat: O-o-
+- Second beat: O-o-
+- Third beat: O-o-
+- Fourth beat: O-o-
+
+So each beat is four 16th notes. The fourth beat of the Toms is "O-o-", meaning there's a hit on the first 16th note (O) and a softer hit on the third (o). The user wants no tom on beat 4. That means the fourth beat's Toms entry should be changed to all dashes.
+
+So the corrected Toms line should be:
+T: O-o-|O-o-|O-o-|----
+
+But wait, the original T line was "O-o-|O-o-|O-o-|O-o-". Replacing the last segment with "----" would remove all hits on the fourth beat. Let me check again to make sure I'm not miscounting the beats. 
+
+Yes, each segment between | is a beat. The fourth beat is the last segment, so replacing that with "----" would eliminate any tom hits there. The rest of the T line remains the same. 
+
+Now, I need to ensure that all other instruments (K, S, H, C, R) stay exactly as they are. Let me double-check each line:
+
+Kick (K) remains unchanged:
+K: O---|O---|----|O---
+
+Snare (S) stays the same:
+S: ----|----|O---|----
+
+Hihat (H) is still:
+H: ----|----|----|----
+
+Crash (C) and Ride (R) also remain untouched.
+
+So the final edited groove should look like this with the Toms adjusted. I need to present it within the @@@ markers as specified.
+</think>
+
+@@@
+K: O---|O---|----|O---  
+S: ----|----|O---|----  
+H: ----|----|----|----  
+T: O-o-|O-o-|O-o-|----  
+C: ----|----|----|----  
+R: ----|----|----|----  
+@@@

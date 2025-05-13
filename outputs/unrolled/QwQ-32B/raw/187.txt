@@ -1,0 +1,90 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include both ride and tom, but currently, the provided groove only has kick, snare, hihat, and crash. So I need to add in the tom and ride elements without removing the existing parts.
+
+First, I'll look at the existing instruments. The kick has hits on the first and third beats, the snare on the second and fourth. The hihats are doing some open and closed patterns, and there's a crash on the first beat. The toms and ride are currently empty.
+
+The user specified "not only ride but also tom," so I need to make sure both are present. Let me start with the ride. The original ride line is all dashes, so I can add a steady pattern there. Maybe a common ride pattern like playing on every beat or an eighth-note pattern. Since the hihats are already active, maybe the ride can complement them. Let's try a closed hit on the bow (using X or x) on each beat. Maybe alternating between X and x for variation, like X-x- for each beat to create a consistent rhythm.
+
+Now for the toms. The toms are empty, so I need to add some hits. Toms can add depth. Let's see the kick's pattern: O---|---o|O-O-|----. The third beat has two hits (O-O-), so maybe add a tom hit there. Also, maybe on the off-beats. Let's try placing an O (hard hit) on the "&" of some beats. For example, in the first beat, maybe the "&" of the first beat. Let me structure it so that the toms play on the "&" of beats 1 and 3, and maybe a soft hit on the fourth beat. Wait, but need to make sure it's spread out over the bar.
+
+Alternatively, maybe start with a tom hit on the second beat. Let me think step by step.
+
+Looking at each beat:
+
+First beat: K is O---, so hit on the first 16th note. The hihat is --o-, which is open on the third 16th. Maybe add a tom hit on the "&" (second 16th) here. So T: -O-- for the first beat.
+
+Second beat: K has a ---o, so the snare is O--- here. The hihat starts with O-o-. Maybe add a tom on the third 16th note here? So T: --O- for the second beat.
+
+Third beat: K is O-O-, so hits on the first and third 16th. The hihat is O-o-. Maybe a tom on the "&" again, so -O-- again here? Or maybe a different position.
+
+Fourth beat: K is empty, snare is O---, hihat is O-o-. Maybe a soft tom hit on the last 16th note? So o--- for the fourth beat.
+
+Putting this together, maybe:
+
+T: -O--|--O-|-O--|---o
+
+Wait, but need to check if that's consistent. Alternatively, maybe a repeating pattern every beat. Alternatively, let's see:
+
+First beat: -O--
+
+Second beat: --O-
+
+Third beat: -O--
+
+Fourth beat: ---o (soft hit at the end)
+
+That would give some tom hits on the "&" of beats 1 and 3, and a hit on the third 16th of beat 2, and a soft on the last of beat 4. That might work.
+
+For the ride, since the user wants ride added, let's make sure the ride is active. The existing crash is on the first beat. Maybe the ride can play on every beat's first 16th note, but also some closed hits. Let's use X on the downbeats and x on the "&".
+
+So R: X-x-|X-x-|X-x-|X-x- for each beat. That's a standard 16th note pattern with closed hits on the ride.
+
+Wait, but the original crash is on the first beat's first 16th. The crash is in the C line. So maybe the ride can play on the other beats. Alternatively, the crash can stay, and the ride can play on the off-beats. Hmm, but the instruction just says to add ride and tom. So maybe include both crash and ride. Since the crash is only on the first beat, the ride can play throughout.
+
+So putting it all together:
+
+Toms (T line) would have the pattern I thought of, and ride (R line) with X-x- on each beat.
+
+Let me check for conflicts. The kick and snare are on their usual spots, hihats are open/closed. The toms adding some hits in between, and ride providing a steady rhythm.
+
+So the edited groove would look like:
+
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: -O--|--O-|-O--|---o
+C: O---|----|----|----
+R: X-x-|X-x-|X-x-|X-x-
+
+Wait, but in the fourth beat of the ride, the original had R as ----, so the fourth beat would be X-x- as well. That should be okay.
+
+Alternatively, maybe vary the ride pattern. Let me double-check the user's instruction: "The groove should have not only ride but also tom." So both must be present. The original had crash but no ride or tom. So adding both is necessary.
+
+I think this setup should work. Let me make sure all lines are 16 characters with the | separators correctly placed. Each line has four beats (four groups of four characters separated by |), so each line should have 16 characters (including the |? No, wait the example shows K: O---|----|O---|---- which is 16 characters (each beat is four chars, four beats, so 16, plus the |? Wait no, the example shows each line is structured as four beats separated by |, so each beat is four characters. So total characters per line excluding | are 16. The example given:
+
+K: O---|----|O---|----
+That's 4 beats, each 4 chars: total 16 notes. So the T and R lines I added must also have exactly four beats with four characters each, separated by |.
+
+In my proposed T line: -O--|--O-|-O--|---o
+
+Breaking down each beat:
+
+First beat: -O-- (four chars)
+Second: --O- (four)
+Third: -O-- (four)
+Fourth: ---o (four)
+
+Yes, that's correct.
+
+Ride line: X-x-|X-x-|X-x-|X-x- (each beat is four, so 16 total)
+
+That works. So this should fulfill the request.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: -O--|--O-|-O--|---o
+C: O---|----|----|----
+R: X-x-|X-x-|X-x-|X-x-
+@@@

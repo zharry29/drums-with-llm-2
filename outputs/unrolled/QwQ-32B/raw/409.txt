@@ -1,0 +1,53 @@
+Alright, let's tackle this drum groove edit. The user wants to remove any hihat or cymbal parts. First, I need to recall which lines correspond to those instruments. From the notation key:
+
+- **H** is Hihat
+- **C** is Crash cymbal
+- **R** is Ride cymbal
+
+So, I need to set all the characters in the H, C, and R lines to '-' (no hit). Let me check the original groove provided:
+
+Original Groove:
+```
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|O---|O---|O---
+R: ----|----|----|----
+```
+
+Looking at the H line, it's already all '-' except maybe the structure? Wait, no, the H line here is already empty. But the C line has crashes in every beat. The R line is empty. So the main changes needed are to set the C line to all '-' and ensure H is clear. Since H is already clear, the main action is the C line.
+
+So the edited version should have:
+
+- **C:** all '-' 
+- Keep K, S, T as they are unless they have hihat or cymbal, but they don't. 
+
+Let me double-check. The user said "no hihat or cymbal," so:
+
+- H line stays as all '-'
+- C line (crash) becomes all '-'
+- R line (ride) is already all '-', so that's fine.
+
+So the final edited groove should look like:
+
+```
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+```
+
+I think that's it. Just making sure no other lines have cymbals. The S line is snare, which is okay. Toms are allowed. The user didn't mention kick or snare, so those stay. Yep, that should do it.
+</think>
+
+@@@
+K: OOO-|--O-|OOO-|-OOO
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

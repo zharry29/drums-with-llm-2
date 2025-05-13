@@ -1,0 +1,58 @@
+Okay, let's tackle this drum groove edit. The user wants the groove to include not just the kick drum but also the ride cymbal. Let me look at the original groove first.
+
+The given groove has kick (K), snare (S), hihat (H), and crash (C) parts. The ride (R) is completely empty. The task is to add ride patterns without removing the existing kick. 
+
+First, I need to ensure that the ride complements the existing elements. The kick has a mix of hard (O) and soft (o) hits. The snare is on beats 2 and 4, typical for many grooves. The hihat has some open and closed hits, and there's a crash on the first beat.
+
+For the ride, common patterns involve steady eighth notes or variations. Since the hihat is already active, maybe the ride can play on the offbeats or add some syncopation. Let me check the hihat's pattern:
+
+H: --o-|O-o-|O-o-|O-o-
+Looking at the first beat, the hihat has a soft open hit on the third 16th note. The ride could play on the first and third 16th notes of each beat to create a contrast. Alternatively, using closed hits (X or x) on the ride to avoid clashing with the hihat.
+
+The ride's notation allows X and x for closed hits on the bow. Let's try a steady eighth note pattern using X (hard closed) on the first and third 16th notes of each beat. That would give a consistent rhythm. Let's map that out:
+
+Each beat has four 16th notes. For four beats, the ride could be X-X-|X-X-|X-X-|X-X-, but that might be too much. Alternatively, alternating between X and x for variation. Maybe X on the first and third, and x on the others? Wait, need to check the existing parts.
+
+Alternatively, since the hihat is doing some open hits, maybe the ride can play on the "and" of each beat. Let me think of the 16th notes as 1 e & a. The hihat's first beat has a hit on the "&" of 1 (third 16th). So maybe the ride plays on the "a" (fourth 16th) of each beat. But the user wants ride added, so perhaps a simple eighth note pattern.
+
+Wait, the original ride line is all dashes. Let me try a basic eighth note ride pattern. For each beat, play on the first and third 16th notes. So for each beat, it would be X-X-. Repeating that across four beats would be X-X-|X-X-|X-X-|X-X-. But maybe using X for the first and x for the third to vary dynamics. Alternatively, using the bell hits (O or o) but that might clash with the crash.
+
+Alternatively, to avoid clashing with the crash on the first beat, maybe start the ride on the second 16th note. Hmm. Let me try:
+
+R: -X-X|-X-X|-X-X|-X-X
+
+This would place the ride on the "e" and "a" of each beat, complementing the hihat's "&" hits. That could work. Let me check the first beat of K: O---|---o|O-O-|----
+
+The kick is on the first 16th, so the ride on the second and fourth might not interfere. Let me see:
+
+First beat K: O on first, then nothing until third and fourth? Wait, first beat K is O---, so only first 16th. The ride at second and fourth would be okay. 
+
+Alternatively, maybe a more syncopated pattern. Let's try the ride as X-X- on each beat. Let me write that out:
+
+R: X-X-|X-X-|X-X-|X-X-
+
+But let me check if that's too busy with the hihat. The hihat first beat is --o-, so third 16th. The ride's X on first and third would coincide with hihat's third? Yes, on the third 16th note, both ride and hihat have hits. That might be okay, but maybe the user prefers them to not clash. 
+
+Alternatively, offset them. Maybe the ride on the second and fourth 16th notes:
+
+R: -X-X|-X-X|-X-X|-X-X
+
+That way, the ride is on the "e" and "a", while hihat is on the "&" (third). That spreads them out. Let's go with that. 
+
+So, the final ride line would be:
+
+R: -X-X|-X-X|-X-X|-X-X
+
+Let me confirm that each beat has four characters. Yes, each segment is four characters. So the edited groove would include this ride pattern. 
+
+Double-checking the original elements are intact. The kick, snare, hihat, and crash remain the same. The ride is now added with the pattern above. That should satisfy the edit request.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: --o-|O-o-|O-o-|O-o-
+T: ----|----|----|----
+C: O---|----|----|----
+R: -X-X|-X-X|-X-X|-X-X
+@@@

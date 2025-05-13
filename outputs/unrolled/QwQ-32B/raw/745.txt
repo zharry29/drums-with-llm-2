@@ -1,0 +1,55 @@
+Okay, let me tackle this drum groove edit. The user wants a cymbal hit and a snare in the very beginning. Let's start by looking at the original groove provided.
+
+The given groove is:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+First, I need to understand each line. The Kick (K) has no hits, Snare (S) also has none, Hihat (H) has some closed hits starting on the second 16th note of the second and fourth beats. The Crash (C) is silent, and Ride (R) has a pattern with X and x hits.
+
+The request is to add a cymbal hit (probably Crash or Ride) and a snare hit at the very beginning. Since the user mentioned "cymbal," and the Crash (C) is currently inactive, it makes sense to use the Crash here. Alternatively, since Ride (R) already has hits, maybe they want to reinforce it with a Crash. But let's stick to Crash since it's the cymbal mentioned.
+
+The very beginning is the first 16th note of the first beat. So, in the first position of the first bar (the first character of the first segment before the first |), we need to place a snare and a crash.
+
+For the snare (S line), the first character should be an 'O' for a hard hit. For the crash (C line), the first character should be 'O' as well for a hard hit. The hihat (H) currently has an '----' in the first beat, so maybe leave it as '-' unless the user wants a hihat there too, but the request didn't mention that. Just the cymbal and snare.
+
+So modifying the lines:
+
+Original S: ----|----|----|----
+Change to S: O---|----|----|----
+
+Original C: ----|----|----|----
+Change to C: O---|----|----|----
+
+Check if that's all. The user might prefer the crash only on the first hit, so that's correct. The hihat remains as it was unless specified otherwise. The ride (R) already has its pattern, so no changes there.
+
+Wait, the original H line starts with ----, so the first beat's hihat is silent. The user didn't mention adding hihat, so leave it. The main edits are adding O on S and C in the first position.
+
+So the final groove should have:
+
+K remains the same since the user didn't mention kick.
+
+So putting it all together:
+
+K: ----|----|----|----
+S: O---|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+</think>
+
+@@@
+K: ----|----|----|----
+S: O---|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: O---|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

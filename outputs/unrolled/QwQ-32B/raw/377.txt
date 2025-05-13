@@ -1,0 +1,26 @@
+Okay, so I need to edit this drum groove based on the user's request. Let me first understand what they want. The user said, "I don't want any tom or ride." Looking at the given drum groove, I need to remove any hits from the Toms (T line) and the Ride cymbal (R line). 
+
+Let me check the original groove:
+
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: o-O-|o-O-|o-O-|o-O-
+
+Wait, the Toms line (T) is already all dashes, so there's no tom hits to remove. But the Ride line (R) has some hits like o-O- etc. So the main task is to clear out the R line.
+
+The user might not want any ride cymbal, so I need to set all characters in the R line to '-'. Let me confirm the other lines. The Toms (T) are already inactive, so that's good. The other instruments like Kick (K), Snare (S), and Hihat (H) are okay as they are. The Crash (C) line is also empty. 
+
+So the edited version should have the R line changed to all dashes. Let me make sure I don't touch any other lines. Let me reconstruct the final groove accordingly.
+</think>
+
+@@@
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

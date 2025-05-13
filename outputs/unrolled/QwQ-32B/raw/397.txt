@@ -1,0 +1,69 @@
+Okay, let me try to figure out how to edit this drum groove based on the user's request. The user provided a drum notation example and explained each part. The current groove they want edited is:
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@
+
+The edit request is "I don't want any snare or tom." 
+
+First, I need to recall which lines correspond to which instruments. From the given info:
+- K: Kick drum
+- S: Snare drum
+- H: Hihat
+- T: Toms
+- C: Crash cymbal
+- R: Ride cymbal
+
+The user wants to remove snare (S) and tom (T). So I need to set all characters in the S and T lines to '-' (no hits). Let's check the original groove:
+
+Looking at the S line: it's already all dashes except maybe in some beats? Wait, in the given groove, S is all dashes. Hmm, maybe the user just wants to be safe. Let me confirm:
+
+Original S line: "----|----|----|----" so no snare is already there. But the request is to remove snare, so even if it's already empty, we can leave it as is. 
+
+Toms (T) line is also all dashes, so that's already okay. Wait, the user's groove might have some tom hits? Let me check again:
+
+Original T line: "----|----|----|----" so no tom hits. Maybe the user is just being cautious. 
+
+But the user might also want to ensure that other lines (like crash or ride) aren't affected. The Hihat (H) has some hits, but since the user didn't mention removing hihat, it stays. The Ride (R) has some x and X, which are allowed unless specified. The user didn't mention ride, so keep it.
+
+Wait, the user's edit is only about snare and toms, so the only changes needed are to set S and T to all dashes. Since they already are, maybe the user just wants confirmation. But perhaps in the original input, maybe there were some hits in S or T that I missed?
+
+Wait, let me recheck the original input provided by the user:
+
+In the user's given drum groove:
+
+K: all dashes except maybe in some beats? Let's see:
+
+Looking at the lines:
+
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+
+So S and T are already all dashes. So the edited version would just be the same as the original, but maybe the user intended that there were some hits in S or T that need removing. Wait, perhaps there was a mistake in the input? Let me check again.
+
+Wait, maybe I misread. Let me look again at the user's input. The user's given groove has S as all dashes. The edit request is to remove snare and tom, so since they are already removed, the result is the same. But maybe in the original problem, there were some hits in S or T that I overlooked. Let me check again.
+
+Wait, looking at the T line again: T: ----|----|----|---- so no tom hits. The user's request is to remove snare and tom, so the edited version should have S and T lines all dashes, which they already are. Therefore, the final answer should be the same as the original, except perhaps ensuring that S and T are cleared. 
+
+Alternatively, maybe the user wants to remove any possible hits in those lines even if they are already empty. So the correct edited version would leave K, H, C, R as they are, and set S and T to all dashes. Since that's already the case, the output is the same as the input. But maybe the user's input had some hits that weren't visible here? Let me make sure.
+
+Alternatively, perhaps the user's input had a typo, but according to the given data, the answer would be the same. So the final answer is as shown, keeping all other instruments except S and T.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|----|----|----
+H: ----|x---|----|x---
+T: ----|----|----|----
+C: ----|----|----|----
+R: x---|X-x-|x---|X-x-
+@@@

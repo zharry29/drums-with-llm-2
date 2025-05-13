@@ -1,0 +1,48 @@
+Okay, so I need to edit this drum groove based on the user's request. Let me first make sure I understand what they want. The user said, "I don't want any kick or hihat." 
+
+Looking at the provided drum notation, the Kick (K) and Hihat (H) lines need to be cleared out. Let me check the original groove again:
+
+Original Groove:
+K: O--O|----|--O-|----
+S: ----|Oo-o|-o--|O--o
+H: X-x-|X-x-|X-x-|X-x-
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+
+So, the Kick has some hits, and the Hihat has a pattern with X and x characters. My task is to remove all the notes from the K and H lines. That means replacing every non '-' character in those lines with '-'.
+
+Starting with the Kick (K) line:
+Original K: O--O|----|--O-|----
+After removing all hits, it should be all dashes:
+K: ----|----|----|----
+
+Now the Hihat (H) line:
+Original H: X-x-|X-x-|X-x-|X-x-
+Removing all hits here as well:
+H: ----|----|----|----
+
+The other lines (S, T, C, R) should remain unchanged unless there's another instruction, but the user only mentioned Kick and Hihat. Let me double-check the Snare (S), Toms (T), Crash (C), and Ride (R) lines to ensure they stay the same. 
+
+Snare has some Oo-o and -o--|O--o, which are okay. Toms, Crash, and Ride are all empty except maybe the Snare. Wait, the user didn't mention anything about the Snare or other instruments, so those stay. 
+
+Wait, in the original problem statement, the user might have other instruments, but their request was specifically about Kick and Hihat. So, I just need to zero out K and H lines. 
+
+Let me write the final edited groove with those changes. Making sure that each line except K and H remain as they are. 
+
+Final Check:
+- K line all dashes.
+- H line all dashes.
+- Others untouched.
+
+Yes, that should do it.
+</think>
+
+@@@
+K: ----|----|----|----
+S: ----|Oo-o|-o--|O--o
+H: ----|----|----|----
+T: ----|----|----|----
+C: ----|----|----|----
+R: ----|----|----|----
+@@@

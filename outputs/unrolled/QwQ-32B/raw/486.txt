@@ -1,0 +1,32 @@
+Okay, let's tackle this drum groove edit. The user wants to remove the ride and hihat parts. First, I need to look at the original groove they provided. 
+
+Starting with the K (Kick drum line): "O---|---o|O-O-|----". That looks fine, but I need to check if there's any mention of ride or hihat here. No, kick is separate. 
+
+Next, the S (Snare): "----|O---|----|O---". Snare is okay, no ride or hihat involved here.
+
+Now, H (Hihat) is "--o-|O-o-|O-o-|O-o-". Since the user wants no hihat, I need to replace all those characters with '-' to silence them.
+
+Then, T (Toms) is empty, so that's fine. C (Crash) has "O---|----|----|----", which is allowed unless the user also wanted crashes removed, but the request was specifically ride and hihat. So crashes stay.
+
+R (Ride cymbal) is empty in the original, but maybe the user is cautious. Wait, looking again, the original R line is "----|----|----|----", so no ride being played. But maybe there was a mistake? The user might have thought there was ride. Anyway, to comply, ensure R line remains all '-'.
+
+So the main changes are on H line, replacing all hits with '-', and confirm R is clear. Let me reconstruct each line:
+
+K remains: O---|---o|O-O-|----
+S remains: ----|O---|----|O---
+H becomes: ----|----|----|----
+T stays empty
+C stays: O---|----|----|----
+R stays empty
+
+Double-check the user's request: no ride (R) or hihat (H). All set. That should be the edited version.
+</think>
+
+@@@
+K: O---|---o|O-O-|----
+S: ----|O---|----|O---
+H: ----|----|----|----
+T: ----|----|----|----
+C: O---|----|----|----
+R: ----|----|----|----
+@@@
